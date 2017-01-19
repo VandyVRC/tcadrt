@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+#Traditional Chinese Architecture Digital Research Tool 
+>Tracy Miller, History of Art
 
-You can use the [editor on GitHub](https://github.com/VandyVRC/DART/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The majority of extant traditional Chinese architecture was constructed for the purposes of ritual. Palaces to shelter images of spirits, they were designed to project the identity and status of a particular divinity as well as to enhance the efficacy of specific rituals. Donor names and dates of construction and restoration were inscribed on stelae and elements of the building to ensure proper acknowledgement of patrons. Thus, careful study of the style, materials, and construction techniques employed to create these buildings, as well as epigraphic information on site concerning patronage, has the potential to enhance not only our understanding of the aesthetics of traditional Chinese architecture over time and space, but also our understanding of the trade networks, crafts traditions, and spiritual aspirations of people living in pre-modern China.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+When complete, the Traditional Chinese Architecture Digital Research Tool will be a be a public, browser-based architectural history research tool consisting of four parts: 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VandyVRC/DART/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1.	A linked open data (LOD) database of architectural complexes and individual structures searchable both by name of site (ancient and modern) and by technical terminology used to describe individual elements of single timber-frame buildings that are known to vary across regions. Search terms will be in Chinese (traditional and simplified scripts), pinyin Romanization of modern Mandarin, and English translation. 
+2.	A photo archive of images keyed into the search terms of the database. This archive is based on my own photographs of more than one hundred middle-period structures and the building complexes of which they are part. This will be supplemented with architectural drawings to further research and teaching.
+3.	A digital mapping tool that will allow search results to be located on a map of modern China using U.S. Geological Survey public domain base maps. This will be linked to the photo archive to facilitate viewing of search results through the map interface. 
+	* The mapping tool will make use of the Vanderbilt Historical Gazetteer app, an open source application developed locally at Vanderbilt under the direction of Dave Michaelson and Steve Wernke. 
+	* Map output will be available in digital and analog forms for peer-reviewed publication. Although the research tool is designed primarily to allow digital searching and mapping of Chinese architecture, results of that research will ultimately be published in both digital and analog forms. We acknowledge that digital tools are both portable and powerful, however static version of search results, in the form of a single pdf, or as part of an article or book are still critical for archiving. 
+4.	Photographs and transcriptions of epigraphic information found at a given site. Titles of Stele inscriptions and donor names will be searchable using traditional Chinese characters.
