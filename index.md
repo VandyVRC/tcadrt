@@ -1,4 +1,3 @@
-
 #Traditional Chinese Architecture Digital Research Tool 
 
 >Tracy Miller, History of Art
