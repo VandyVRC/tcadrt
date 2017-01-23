@@ -1,6 +1,5 @@
 # Traditional Chinese Architecture Digital Research Tool 
-
-![Lingyansi pagoda](https://flic.kr/p/7v3Gc3)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/30365320@N04/4266844416/in/album-72157622371967729/" title="Lingyansi, Bizhita"><img src="https://c1.staticflickr.com/3/2796/4266844416_87d1a1729c_b.jpg" width="161" height="240" alt="Lingyansi, Bizhita"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 >Tracy Miller, History of Art
 
