@@ -1,5 +1,7 @@
 # Traditional Chinese Architecture Digital Research Tool 
 
+![Lingyansi pagoda](https://flic.kr/p/7v3Gc3)
+
 >Tracy Miller, History of Art
 
 The majority of extant traditional Chinese architecture was constructed for the purposes of ritual. Palaces to shelter images of spirits, they were designed to project the identity and status of a particular divinity as well as to enhance the efficacy of specific rituals. Donor names and dates of construction and restoration were inscribed on stelae and elements of the building to ensure proper acknowledgement of patrons. Thus, careful study of the style, materials, and construction techniques employed to create these buildings, as well as epigraphic information on site concerning patronage, has the potential to enhance not only our understanding of the aesthetics of traditional Chinese architecture over time and space, but also our understanding of the trade networks, crafts traditions, and spiritual aspirations of people living in pre-modern China.
