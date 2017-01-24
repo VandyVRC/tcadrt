@@ -1,7 +1,7 @@
 # Traditional Chinese Architecture Digital Research Tool 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/30365320@N04/4266844416/in/album-72157622371967729/" title="Lingyansi, Bizhita"><img src="https://c1.staticflickr.com/3/2796/4266844416_87d1a1729c_b.jpg" width="161" height="240" alt="Lingyansi, Bizhita"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true"  href="https://www.flickr.com/photos/30365320@N04/3972148633/in/album-72157622371967729/" title="Xilimen Erxiangong Middle Hall 1157_DSC0483"><img src="https://c1.staticflickr.com/3/2475/3972148633_219af6239d_m.jpg" width="240" height="161" alt="Xilimen Erxiangong Middle Hall 1157_DSC0483"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
->Tracy Miller, History of Art
+Tracy Miller, History of Art
 
 The majority of extant traditional Chinese architecture was constructed for the purposes of ritual. Palaces to shelter images of spirits, they were designed to project the identity and status of a particular divinity as well as to enhance the efficacy of specific rituals. Donor names and dates of construction and restoration were inscribed on stelae and elements of the building to ensure proper acknowledgement of patrons. Thus, careful study of the style, materials, and construction techniques employed to create these buildings, as well as epigraphic information on site concerning patronage, has the potential to enhance not only our understanding of the aesthetics of traditional Chinese architecture over time and space, but also our understanding of the trade networks, crafts traditions, and spiritual aspirations of people living in pre-modern China.
 
