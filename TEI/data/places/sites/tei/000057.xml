@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Qinshui Shengtiansi</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno>000057</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-05-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-05-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000057" type="site">
+               <placeName xml:id="name000057-1" type="site-name">Qinshui Shengtiansi</placeName>
+               <placeName xml:id="name000057-2" type="site-name" xml:lang="zh-Hant">沁水聖天寺</placeName>
+               <placeName xml:id="name000057-3" type="site-name" xml:lang="zh-Hans">沁水圣天寺</placeName>
+               <placeName xml:id="name000057-4"
+                          type="alternate"
+                          subtype="iri_local_name"
+                          xml:lang="en">Qinshui_Shengtiansi</placeName>
+               <placeName xml:id="name000057-5" xml:lang="en">Qinshui Shengtian Monastery</placeName>
+               <desc type="site_date_verbatim" xml:lang="zn-Hans">宋</desc>
+               <desc type="site_date_en" xml:lang="en">Song</desc>
+               <idno type="URI">http://tcadrt.org/place/000057</idno>
+               <state type="existence"/>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
