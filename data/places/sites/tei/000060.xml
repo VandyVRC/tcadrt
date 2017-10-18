@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Lingchuan Longyansi</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000060/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000060" type="site">
+               <placeName xml:id="name000060-1" type="site-name" xml:lang="zh-latn-pinyin">Lingchuan Longyansi</placeName>
+               <placeName xml:id="name000060-2" type="site-name" xml:lang="zh-Hant">陵川龍岩寺</placeName>
+               <placeName xml:id="name000060-3" type="site-name" xml:lang="zh-Hans">陵川龙岩寺</placeName>
+               <placeName xml:id="name000060-4"
+                          type="alternate"
+                          subtype="iri_local_name"
+                          xml:lang="en">Longyansi</placeName>
+               <placeName xml:id="name000060-5" xml:lang="en">Lingchuan Longyan Monastery</placeName>
+               <idno type="URI">http://tcadrt.org/place/000060</idno>
+               <note type="existence" subtype="site_date_en">
+                  <label>Site date</label>
+                  <p xml:lang="en">金、明</p>
+               </note>
+               <note type="existence" subtype="site_date_en">
+                  <label>Site date English</label>
+                  <p xml:lang="en">Jin to Ming</p>
+               </note>
+               <state type="existence" subtype="earliest-period">
+                  <label xml:lang="zn-Hans">金</label>
+                  <label xml:lang="en">Jin</label>
+                  <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+               </state>
+               <state type="existence" subtype="latest-period">
+                  <label xml:lang="zn-Hans">明</label>
+                  <label xml:lang="en">Ming</label>
+                  <ref target="http://n2t.net/ark:/99152/p0fp7wv2s8c">http://n2t.net/ark:/99152/p0fp7wv2s8c</ref>
+               </state>
+               <location type="nested">
+                  <placeName>山西省陵川县</placeName>
+                  <country>China</country>
+                  <region type="province-name">
+                     <placeName xml:lang="zn-Hans">山西</placeName>
+                     <placeName xml:lang="zn-Hant">山西</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  </region>
+                  <region type="province">
+                     <placeName xml:lang="zn-Hans">山西省</placeName>
+                     <placeName xml:lang="zn-Hant">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zn-Hans">陵川</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zn-Hans">县</placeName>
+                     <placeName xml:lang="en">County</placeName>
+                  </region>
+               </location>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

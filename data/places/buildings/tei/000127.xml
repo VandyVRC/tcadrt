@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">houdadian</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000127/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000127" type="building">
+               <placeName xml:id="name000127-1"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">houdadian</placeName>
+               <placeName xml:id="name000127-2" type="building-name" xml:lang="zh-Hant">後大殿</placeName>
+               <placeName xml:id="name000127-3" type="building-name" xml:lang="zh-Hans">后大殿</placeName>
+               <placeName xml:id="name000127-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Baitaisi_houdadian</placeName>
+               <placeName xml:id="name000127-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">白臺寺後大殿</placeName>
+               <placeName xml:id="name000127-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">白台寺后大殿</placeName>
+               <placeName xml:id="name000127-7" xml:lang="en">back great hall</placeName>
+               <placeName xml:id="name000127-11" type="alternate">Houdadian</placeName>
+               <desc type="building_data">白台寺 金至清 山西省，运城市， 新绛县
+Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1-3 Hòudàdiàn (后大殿)    Yuan Dynasty
+Built in the eleventh year of Yuan Zhiyuan(1274), stone podium 0.33 meters tall, front façade of 5 bays, depth of  6 rafters, single eave overhanging gable,  carved brick roof ridge. Interior beam composition of 4 rafters that connect to the back with 3 columns, under eave bracket sets have 5 pūzuò （铺作） and a double xia ang, there are no inter columnar bracket sets. Be careful of front eave door, other two bays have lattice windows that later generations have improved，overturned basin style column base. Hall interior has a Buddhist altar, with a statue of Sakyamuni  Buddha sitting in an elevated lotus flower shaped throne, there are Bodhisattva on either side to serve, portraits follow the Tang style. The front of the dàdiàn has a spacious platform, central part of the platform has a Tang dynasty pagoda with statues and streamers. Song dynasty people carved Buddhist inscriptions into each of the four corners pillars. 1 Song dynasty iron cloud stele. Translated by Lydia Ohl; revised by Cole Garrett.</desc>
+               <idno type="URI">http://tcadrt.org/place/000127</idno>
+               <state type="existence"/>
+               <location type="gps">
+                  <geo>35.663933 111.06937</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35° 39.836' (±17ft) 111° 4.162' (±17ft)</note>
+               </location>
+               <note type="notes">Axis: c, roof style: o-g, front façade: 60', side: 25' 9"</note>
+            </place>
+            <listRelation>
+               <relation name="contained"
+                         active="http://tcadrt.org/place/000002"
+                         passive="http://tcadrt.org/place/000127"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

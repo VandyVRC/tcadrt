@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Taian Daimiao</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000090/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000090" type="site">
+               <placeName xml:id="name000090-1" type="site-name" xml:lang="zh-latn-pinyin">Taian Daimiao</placeName>
+               <placeName xml:id="name000090-2" type="site-name" xml:lang="zh-Hant">泰安岱廟</placeName>
+               <placeName xml:id="name000090-3" type="site-name" xml:lang="zh-Hans">泰安岱庙</placeName>
+               <placeName xml:id="name000090-4"
+                          type="alternate"
+                          subtype="iri_local_name"
+                          xml:lang="en">Daimiao</placeName>
+               <placeName xml:id="name000090-5" xml:lang="en">Temple to the Eastern Peak in Tai'an</placeName>
+               <idno type="URI">http://tcadrt.org/place/000090</idno>
+               <note type="existence" subtype="site_date_en">
+                  <label>Site date</label>
+                  <p xml:lang="en">宋至清</p>
+               </note>
+               <note type="existence" subtype="site_date_en">
+                  <label>Site date English</label>
+                  <p xml:lang="en">Song to Qing</p>
+               </note>
+               <state type="existence" subtype="earliest-period">
+                  <label xml:lang="zn-Hans">宋</label>
+                  <label xml:lang="en">Song</label>
+                  <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+               </state>
+               <state type="existence" subtype="latest-period">
+                  <label xml:lang="zn-Hans">清</label>
+                  <label xml:lang="en">Qing</label>
+                  <ref target="http://n2t.net/ark:/99152/p0fp7wvtqp9">http://n2t.net/ark:/99152/p0fp7wvtqp9</ref>
+               </state>
+               <location type="nested">
+                  <placeName>山东省泰安市</placeName>
+                  <country>China</country>
+                  <region type="province-name">
+                     <placeName xml:lang="zn-Hans">山东</placeName>
+                     <placeName xml:lang="zn-Hant">山東</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shandong</placeName>
+                  </region>
+                  <region type="province">
+                     <placeName xml:lang="zn-Hans">山东省</placeName>
+                     <placeName xml:lang="zn-Hant">山東省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zn-Hans">泰安</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zn-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+               </location>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

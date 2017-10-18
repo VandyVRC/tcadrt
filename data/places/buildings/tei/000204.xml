@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Pizhita</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000204/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000204" type="building">
+               <placeName xml:id="name000204-1"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Pizhita</placeName>
+               <placeName xml:id="name000204-2" type="building-name" xml:lang="zh-Hant">辟支塔</placeName>
+               <placeName xml:id="name000204-3" type="building-name" xml:lang="zh-Hans">辟支塔</placeName>
+               <placeName xml:id="name000204-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Lingyansi_Pizhita</placeName>
+               <placeName xml:id="name000204-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">靈巖寺辟支塔</placeName>
+               <placeName xml:id="name000204-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">灵岩寺辟支塔</placeName>
+               <placeName xml:id="name000204-7" xml:lang="en">Pratyeka Pagoda</placeName>
+               <placeName xml:id="name000204-11" type="alternate">Lingyan_Monastery_Pratyeka_Pagoda</placeName>
+               <idno type="URI">http://tcadrt.org/place/000204</idno>
+               <state type="existence"/>
+               <location type="gps">
+                  <geo>36.3632666 116.977683</geo>
+               </location>
+               <note type="field-notes">Song dynasty; corner bracket sets on front facade</note>
+               <note type="notes">for date see: zgmscd 585</note>
+            </place>
+            <listRelation>
+               <relation active="http://tcadrt.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
+               <relation name="contained"
+                         active="http://tcadrt.org/place/000061"
+                         passive="http://tcadrt.org/place/000204"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

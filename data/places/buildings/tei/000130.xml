@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Sanxiandian</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000130/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000130" type="building">
+               <placeName xml:id="name000130-1"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Sanxiandian</placeName>
+               <placeName xml:id="name000130-2" type="building-name" xml:lang="zh-Hant">三仙殿</placeName>
+               <placeName xml:id="name000130-3" type="building-name" xml:lang="zh-Hans">三仙殿</placeName>
+               <placeName xml:id="name000130-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Baiyugong_Sanxiandian</placeName>
+               <placeName xml:id="name000130-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">白玉宫三仙殿</placeName>
+               <placeName xml:id="name000130-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">白玉宫三仙殿</placeName>
+               <placeName xml:id="name000130-7" xml:lang="en">Hall of the Three Transcendents</placeName>
+               <placeName xml:id="name000130-11" type="alternate">Sanxiandian</placeName>
+               <idno type="URI">http://tcadrt.org/place/000130</idno>
+               <note type="notes">Axis: c, roof style: o-g, front façade: 28' 1", side: 25' 11"</note>
+            </place>
+            <listRelation>
+               <relation name="contained"
+                         active="http://tcadrt.org/place/000003"
+                         passive="http://tcadrt.org/place/000130"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

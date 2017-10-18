@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">zhengdian</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000245/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000245" type="building">
+               <placeName xml:id="name000245-1"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000245-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
+               <placeName xml:id="name000245-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
+               <placeName xml:id="name000245-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Tiantaian_zhengdian</placeName>
+               <placeName xml:id="name000245-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">天臺庵正殿</placeName>
+               <placeName xml:id="name000245-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">天台庵正殿</placeName>
+               <placeName xml:id="name000245-7" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000245-11" type="alternate">Zhengdian</placeName>
+               <idno type="URI">http://tcadrt.org/place/000245</idno>
+               <state type="existence"/>
+               <location type="gps">
+                  <geo>36.38344 113.3922133</geo>
+               </location>
+               <location type="verbatim">
+                  <note>36˚ 23' 00.64" N (google earth Cui Jinze) 113˚ 23' 53.28" E</note>
+               </location>
+               <note type="field-notes">probably late Tang based on style</note>
+            </place>
+            <listRelation>
+               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
+               <relation name="contained"
+                         active="http://tcadrt.org/place/000093"
+                         passive="http://tcadrt.org/place/000245"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

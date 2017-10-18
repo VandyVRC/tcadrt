@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Daxiongbaodian</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://tcadrt.org/place/000132/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000132" type="building">
+               <placeName xml:id="name000132-1"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Daxiongbaodian</placeName>
+               <placeName xml:id="name000132-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
+               <placeName xml:id="name000132-3" type="building-name" xml:lang="zh-Hans">大雄宝殿</placeName>
+               <placeName xml:id="name000132-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Baoguosi_Daxiongbaodian</placeName>
+               <placeName xml:id="name000132-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">保國寺大雄寶殿</placeName>
+               <placeName xml:id="name000132-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">保国寺大雄宝殿</placeName>
+               <placeName xml:id="name000132-7" xml:lang="en">Mahāvīra Treasure Hall</placeName>
+               <placeName xml:id="name000132-11" type="alternate">Daxiongbaodian</placeName>
+               <idno type="URI">http://tcadrt.org/place/000132</idno>
+               <state type="existence"/>
+               <location type="gps">
+                  <geo>29.983 121.516833</geo>
+               </location>
+               <location type="verbatim">
+                  <note>29˚ 58.98' N  (Magellan) 121˚ 31.01' E (Magellan) 121˚ 30' 57.99" E (google earth)</note>
+               </location>
+               <note type="field-notes">early 11th cen. Example of style in YZFS; Dated to 1013 in later inscription on stauary platform; Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
+            </place>
+            <listRelation>
+               <relation active="http://tcadrt.org/keyword/ic_match_ct" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
+               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
+               <relation name="contained"
+                         active="http://tcadrt.org/place/000004"
+                         passive="http://tcadrt.org/place/000132"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
