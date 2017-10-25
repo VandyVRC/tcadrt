@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,27 +53,15 @@
                <placeName xml:id="name000116-1" type="site-name" xml:lang="zh-latn-pinyin">Zhangye Dafosi</placeName>
                <placeName xml:id="name000116-2" type="site-name" xml:lang="zh-Hant">張掖大佛寺</placeName>
                <placeName xml:id="name000116-3" type="site-name" xml:lang="zh-Hans">张掖大佛寺</placeName>
-               <placeName xml:id="name000116-4"
-                          type="alternate"
-                          subtype="iri_local_name"
-                          xml:lang="en">Zhangye_Dafosi</placeName>
                <placeName xml:id="name000116-5" xml:lang="en">Dafo Monastery in Zhangye</placeName>
                <idno type="URI">http://tcadrt.org/place/000116</idno>
-               <note type="existence" subtype="site_date_en">
-                  <label>Site date</label>
-                  <p xml:lang="en">西夏、清 ? Foundation Xixia?</p>
-               </note>
-               <note type="existence" subtype="site_date_en">
-                  <label>Site date English</label>
-                  <p xml:lang="en">Xixia to Qing</p>
-               </note>
                <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zn-Hans">西夏</label>
+                  <label xml:lang="zh-Hans">西夏</label>
                   <label xml:lang="en">Xixia</label>
                   <ref target="http://n2t.net/ark:/99152/p0fp7wv699w">http://n2t.net/ark:/99152/p0fp7wv699w</ref>
                </state>
                <state type="existence" subtype="latest-period">
-                  <label xml:lang="zn-Hans">清</label>
+                  <label xml:lang="zh-Hans">清</label>
                   <label xml:lang="en">Qing</label>
                   <ref target="http://n2t.net/ark:/99152/p0fp7wvtqp9">http://n2t.net/ark:/99152/p0fp7wvtqp9</ref>
                </state>
@@ -79,19 +69,19 @@
                   <placeName>甘肃省张掖市</placeName>
                   <country>China</country>
                   <region type="province-name">
-                     <placeName xml:lang="zn-Hans">甘肃</placeName>
-                     <placeName xml:lang="zn-Hant">甘肅</placeName>
+                     <placeName xml:lang="zh-Hans">甘肃</placeName>
+                     <placeName xml:lang="zh-Hant">甘肅</placeName>
                      <placeName xml:lang="zh-latn-pinyin">Gansu</placeName>
                   </region>
                   <region type="province">
-                     <placeName xml:lang="zn-Hans">甘肃省</placeName>
-                     <placeName xml:lang="zn-Hant">甘肅省</placeName>
+                     <placeName xml:lang="zh-Hans">甘肃省</placeName>
+                     <placeName xml:lang="zh-Hant">甘肅省</placeName>
                   </region>
                   <region type="county-city">
-                     <placeName xml:lang="zn-Hans">张掖</placeName>
+                     <placeName xml:lang="zh-Hans">张掖</placeName>
                   </region>
                   <region type="political-subdivision">
-                     <placeName xml:lang="zn-Hans">市</placeName>
+                     <placeName xml:lang="zh-Hans">市</placeName>
                      <placeName xml:lang="en">City</placeName>
                   </region>
                </location>

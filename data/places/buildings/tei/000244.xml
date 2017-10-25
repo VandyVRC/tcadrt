@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,22 +80,341 @@
                <note type="field-notes">Daxiongbaodian from Jin repair, see: 中國 文物 地圖集 山西分冊,下,p.1148</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/ic_match_ct" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/ic_match_ct"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000092"
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000244"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4085/4838659470_7c95cf1895_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4838710064_377db845f6_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi entrance</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4838660042_7d91bee38c_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4105/4838047335_a4924ed695_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4146/4838047781_f6e878c930_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4145/4838661252_6fa0c7332a_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4108/4838661516_6931b780d0_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4838048807_45eb63cda4_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian interior with Ming sculpture and
+        altar</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4838662160_5c1851edb7_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian interior with Ming sculpture and
+        altar</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4112/4838049337_ed45235956_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian interior sign</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4144/4838662716_43af0628f1_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian interior sign</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4110/4838662962_cec1327cec_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4838663264_712e91ff14_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4838050623_bd2348db2a_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4838050923_2eda8a09b7_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4838051223_5d0c4838ce_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4838664430_fbcf25b425_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4129/4838051949_90e8f7a270_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4838052319_dd0dffbc54_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4838665418_35a0250b9f_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4092/4838665662_44c64892ec_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4152/4838665936_005219a023_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4132/4838666214_94c75a41f1_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4838666404_cfe1af792c_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4089/4838053749_86d4ea32a6_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4125/4838667128_2d2802453e_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4111/4838667614_dce07a34cb_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4838054957_43289e21ea_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4145/4838668072_7c821d3cf3_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian roof</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4106/4838055441_97f04bbb41_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4091/4838056033_d9773e8ac9_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4838669260_769b7b9901_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4107/4838669606_bc87bb00aa_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4107/4838056983_91e8c05505_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4103/4838670212_ed45e39dc6_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4125/4838057611_ecc3a375c0_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4127/4838670774_0eb7b3eed4_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4133/4838671152_9908375840_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4838058631_1340819c33_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4152/4838058883_6756a0a3a5_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4838059183_4796c8d006_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4838673032_e64b06c5b8_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4107/4838060475_17209c7fcb_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4113/4838060857_8c07f048e9_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4838674206_4be37bdb00_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4106/4838061763_e7b29366fe_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4838674960_bbe88f656e_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 大雄宝殿 Daxiongbaodian column top</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4085/4838710978_63aac8d770_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4124/4838711352_10cefeb394_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4145/4838099171_f80ed377c2_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4838712252_26beb793ec_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4838712502_27fb6a94a9_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4838099997_d219e2736d_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4113/4838100345_429d9351de_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4085/4838100807_250999942a_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4105/4838713998_727440be47_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4089/4838714430_00a8f9abb3_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4108/4838097991_fe037cf038_"
+                         passive="http://tcadrt.org/place/000244">
+                  <desc>Taiyinsi 过殿 Guodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4838098171_45d892c2bf_"
                          passive="http://tcadrt.org/place/000244"/>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000244"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000092"/>
             </listRelation>
          </listPlace>
       </body>

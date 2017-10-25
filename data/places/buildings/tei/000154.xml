@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,21 +80,43 @@
                <note type="field-notes">main hall jin, pagoda Song, bad photos so data needs confirmation</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/ic_match_ct" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/ic_match_ct"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000016"
-                         passive="http://tcadrt.org/place/000154"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000154"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000154"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000016"/>
             </listRelation>
          </listPlace>
       </body>

@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,23 +80,321 @@
                <note type="field-notes">Main Hall Jin, see 中國 文物 地圖集 山西分冊, 中, 240</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/ic_angled_bracket_arm"
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/ic_angled_bracket_arm"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000023"
-                         passive="http://tcadrt.org/place/000162"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000162"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835037267_117ab1e26c_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4145/4835646480_f2c723ea8f_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4126/4835646864_226bace76a_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835038537_ff83262df9_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4131/4835038835_4a63c34466_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4086/4835039323_4304bba511_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4144/4835039681_019a2f02c6_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4104/4835039997_0d7627f8ca_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4146/4835649572_c8d4bebabb_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall column base</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4835041293_89a82d6462_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall and left/west side
+        hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4129/4835041541_bdc6811064_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4132/4835650644_ee0e6dd098_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835651480_cfe8ecfe54_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4126/4835043303_356dde23bb_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4126/4835652334_e227a0fe41_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall column base</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835044423_a8c985abb0_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835044755_a0f9a44fa5_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4108/4835653622_75ff7ecabd_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4124/4835045493_28f9512b93_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835045903_b7f915a0c3_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4146/4835046283_df2805d0a3_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4146/4835046631_2b80f7ca22_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4127/4835047097_da16d72952_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4112/4835047339_b17a086410_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4130/4835656348_c05494f948_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4835048011_c212bebcc2_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4150/4835048519_c3bf3cb474_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall incense holders</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4133/4835049017_d46e68c131_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4089/4835049399_e35d3cb5af_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4110/4835049799_2e94a056f5_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4131/4835050005_5b0c12eae6_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4104/4835659114_238344d970_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4835659512_ae983e7365_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4111/4835051123_512aa60f64_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4092/4835660502_bf8cfba91e_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4835660820_d1739b507c_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4835052211_69c16b558b_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4152/4835052669_531abbdb9f_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall right/east side
+        hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4126/4835052973_032715199f_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall right/east side hall
+        interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4835053247_77d83d21e4_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall right/east side hall
+        interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4835053595_a746cc406e_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall right/east side
+        hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4835054085_8ea69789ac_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4129/4835644592_44f48b0756_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4108/4835641038_b77e192c04_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4090/4835641448_6f02facf77_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4835033597_cace9e578b_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4835642522_312dca0c1a_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4105/4835034427_b5290327ab_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4152/4835034757_622206e449_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4835035037_0e232ed8b6_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao view through side entrance</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4111/4835035493_28554bec3c_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao side entrance</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4106/4835644210_f9759f1233_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao side entrance</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4835645000_a2c21affa4_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4130/4835036877_44319640dc_"
+                         passive="http://tcadrt.org/place/000162">
+                  <desc>Dongyi Longwangmiao 大殿 Main Hall</desc>
+               </relation>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000162"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000023"/>
             </listRelation>
          </listPlace>
       </body>

@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,21 +80,43 @@
                <note type="field-notes">early 11th cen. Example of style in YZFS; Dated to 1013 in later inscription on stauary platform; Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/ic_match_ct" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/ic_match_ct"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000004"
-                         passive="http://tcadrt.org/place/000132"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000132"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000132"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000004"/>
             </listRelation>
          </listPlace>
       </body>

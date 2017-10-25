@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,23 +79,261 @@
                </location>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/ic_angled_bracket_arm"
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/ic_angled_bracket_arm"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000067"
-                         passive="http://tcadrt.org/place/000215"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000215"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4138/4822110526_44cc7a138f_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4821493543_2e73ce790d_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4821494259_5c3f0097bc_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4093/4822111744_6ae9604a71_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4075/4821494815_50106a9e52_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4080/4821495053_fcaa001bb7_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4079/4821495253_728253c17d_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4080/4821495449_0738eb144f_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4121/4822113020_a447be6d43_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4080/4821495981_e601c0c142_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4137/4822113534_238d175699_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4082/4821496515_e74255c6a8_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4073/4822114104_191fca2ff7_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4098/4822114482_fef337b27c_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4822114892_7521c0f40b_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4134/4822115064_0602e9fca5_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4115/4822115200_f813b2bba8_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4074/4821497899_f7618fc13e_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4120/4821498063_d9621c4400_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4136/4822115674_9092ce5ac2_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4075/4821498521_75b7e482be_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4098/4822116176_3a70b6b5cb_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4093/4822116446_9529c7fc4f_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4095/4821499147_8ff370a5b3_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4123/4822116904_90a53498f5_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4123/4822117034_5a40526fe3_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4079/4822117252_50141f4a3e_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4095/4822117468_49a4766ec8_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4122/4821500239_2efd65d3d7_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4082/4821500409_7deb1c213b_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4082/4821500563_2903213543_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4099/4821500701_c2a983e038_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4074/4821500951_b18fd0f26e_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4093/4821503483_ed6ef62b25_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi view of Front Hall from Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4821508575_6a4f85ace3_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi view of Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4135/4821508937_2f366f5051_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4081/4821509103_0d6eff5a2b_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4101/4821509275_3c6a9a8102_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4122/4821509469_c1d8788528_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4081/4821509609_f10cfa616f_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4073/4822127828_383159816b_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4141/4822128012_f2faba780b_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4143/4822128536_87798da429_"
+                         passive="http://tcadrt.org/place/000215">
+                  <desc>Nan_Jixiangsi Front Hall stele</desc>
+               </relation>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000215"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000067"/>
             </listRelation>
          </listPlace>
       </body>

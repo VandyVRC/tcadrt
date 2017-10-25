@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,9 +73,10 @@
                <note type="field-notes">大殿面宽五间，进深三间，单檐歇山顶。前檐柱头斗栱五铺作，双下昂，昂为劈竹式，蚂蚱形耍头</note>
             </place>
             <listRelation>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000082"
-                         passive="http://tcadrt.org/place/000231"/>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000231"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000082"/>
             </listRelation>
          </listPlace>
       </body>

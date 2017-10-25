@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,17 +80,154 @@
                <note type="field-notes">Jin？</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000007"
-                         passive="http://tcadrt.org/place/000137"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000137"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4089/4832153688_cfe8738d35_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4832154258_5d34dc64fe_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4110/4831544309_0a228f4684_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4832155022_0c68d40773_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4832155426_0a370ba288_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4150/4832155872_da9039e696_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4086/4832156084_09af65a3fd_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4090/4832156604_21a8da35c5_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4133/4831546921_32b23ba908_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4091/4832158282_8d5bec885d_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4089/4832159114_30e49933d2_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4124/4832159614_1c9a03c9e8_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4831549901_97afdb8c2e_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4144/4832160812_118d4de8e1_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4832161144_d2630d35ef_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4113/4832161630_c308a8a780_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4088/4832162330_993126e834_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4127/4832162706_68dbffdc5c_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4103/4831553319_bcc6673c2f_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4831553755_f5ddaffcb6_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4126/4832164436_cd2dcdeb12_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4130/4832164680_05300de8fc_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4831554833_712ce00517_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4091/4831555395_740c8f38ff_"
+                         passive="http://tcadrt.org/place/000137">
+                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+               </relation>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000137"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000007"/>
             </listRelation>
          </listPlace>
       </body>

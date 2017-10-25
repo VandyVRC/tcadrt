@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,21 +90,306 @@ Rebuilt in Jin Mingchang years (1190-1194). Stone podium, according to topograph
                <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
                          ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pupaifang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000002"
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/pupaifang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000125"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4116/4831100445_972b732293_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4122/4831075875_107fbf1b42_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4077/4831688846_fe70cf8617_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian and bridge</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4122/4831076741_f560838f5f_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4113/4831087279_3121fa540d_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4831088301_230fc6835d_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4831701004_2d1ef0f2f0_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4100/4831089433_da0122d4e3_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4092/4831089933_68f1af7e03_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4831090505_b79acf3027_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian name plaque</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4076/4831090955_68d73f0464_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4151/4831091331_108d1a6b9a_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4092/4831091603_cd9e72ded8_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4831704312_3eb668663f_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4139/4831092645_e20b526dd1_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4124/4831705794_69f95da288_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4124/4831093995_9161eaeffe_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4086/4831095091_c85be57ca3_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4117/4831707818_2e8612d499_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4129/4831096175_1a11a607ae_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4110/4831708790_d5bbfa8b57_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4100/4831709140_9340214837_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4831097469_3f86fa4a0a_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4118/4831097791_8c7bb7bd52_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4135/4831098187_69af8d50e3_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4095/4831098445_1c34059fba_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4092/4831710880_c34f07b017_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4132/4831099273_11901a07b4_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4135/4831711760_4cba66bcd1_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4144/4831099985_3910727b18_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4831713042_9e4dfd9bf2_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4127/4831101647_910bb7a662_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4831102077_5a0d430e6e_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4831714494_fac24fd413_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4082/4831102707_0ae8345dc0_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4831103237_4c2772567a_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4104/4831103763_b6445ac547_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4077/4831716498_5b539c432e_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4101/4831105533_fa71889775_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4154/4831106101_d7af85dce8_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4831106715_27beab8b68_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4831719116_03cced4f9f_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4150/4831719450_e263282a7b_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4117/4831719696_470762db47_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4107/4831720036_814f13404e_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4082/4831720512_6a12aa4128_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4831721290_f07539e055_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4145/4831109753_84ffcd251b_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4097/4831721900_a56ced5ca7_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4137/4831110481_d5bbda8be3_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4118/4831110933_6351766913_"
                          passive="http://tcadrt.org/place/000125"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4133/4831700024_20a2624434_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4831722936_544bfe8b10_"
+                         passive="http://tcadrt.org/place/000125">
+                  <desc>Baitaisi 后大殿 Back Hall</desc>
+               </relation>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000125"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000002"/>
             </listRelation>
          </listPlace>
       </body>

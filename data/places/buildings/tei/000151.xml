@@ -2,6 +2,8 @@
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -26,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-17-04:00</date>
+            <date>2017-10-24-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -41,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-17-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,18 +80,92 @@
                <note type="notes">Axis: c, roof style: o-g, front façade: 31' 3", side: 25' 6"</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/keyword/first_step_touxin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/first_step_jixin" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/cejiao" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/pizhu_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/qinmian_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/number_of_xiaang" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/ang-shaped_shuatou" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/beveled_linggong" ref="dc:subject"/>
-               <relation active="http://tcadrt.org/keyword/chamfered_linggong" ref="dc:subject"/>
-               <relation name="contained"
-                         active="http://tcadrt.org/place/000014"
-                         passive="http://tcadrt.org/place/000151"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/first_step_touxin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/first_step_jixin"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/cejiao"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/number_of_xiaang"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/beveled_linggong"
+                         ref="dc:subject"/>
+               <relation active="http://tcadrt.org/place/000151"
+                         passive="http://tcadrt.org/keyword/chamfered_linggong"
+                         ref="dc:subject"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4078/4821732417_6b78db8e1b_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4120/4821732713_805283ef6b_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4821733175_386a23e33a_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4822351106_95f279935e_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4095/4822351336_1c64cee76e_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4115/4822351592_02b792f281_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4098/4821734167_98b835e2b3_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4120/4821734447_84d8e58e9c_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4821734679_af67997063_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4078/4821734883_584f623e6c_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4077/4822355804_fcf69e04b0_"
+                         passive="http://tcadrt.org/place/000151">
+                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+               </relation>
+               <relation type="contained"
+                         active="http://tcadrt.org/place/000151"
+                         ref="dct:isPartOf"
+                         passive="http://tcadrt.org/place/000014"/>
             </listRelation>
          </listPlace>
       </body>
