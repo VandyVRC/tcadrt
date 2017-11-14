@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Sandashidian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Sandashi Hall    
+                             <foreign xml:lang="zh-Hant">三大士殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000151/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000151/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000151" type="building">
-               <placeName xml:id="name000151-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Sandashidian</placeName>
+               <placeName xml:id="name000151-1" xml:lang="en">Sandashi Hall</placeName>
                <placeName xml:id="name000151-2" type="building-name" xml:lang="zh-Hant">三大士殿</placeName>
                <placeName xml:id="name000151-3" type="building-name" xml:lang="zh-Hans">三大士殿</placeName>
                <placeName xml:id="name000151-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Chongqingsi_Sandashidian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Sandashidian</placeName>
                <placeName xml:id="name000151-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">崇慶寺三大士殿</placeName>
+                          xml:lang="en">Chongqingsi Sandashidian</placeName>
                <placeName xml:id="name000151-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">崇慶寺三大士殿</placeName>
+               <placeName xml:id="name000151-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">崇庆寺三大士殿</placeName>
-               <placeName xml:id="name000151-7" xml:lang="en">Sandashi Hall</placeName>
                <placeName xml:id="name000151-11" type="alternate">Sandashidian</placeName>
-               <idno type="URI">http://tcadrt.org/place/000151</idno>
+               <idno type="URI">http://architecturasinica.org/place/000151</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>35.98063333 112.9596333</geo>
@@ -77,95 +80,149 @@
                <location type="verbatim">
                   <note>N 35° 58.838' (±23ft) E 112° 57.578' (±23ft)</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
                <note type="notes">Axis: c, roof style: o-g, front façade: 31' 3", side: 25' 6"</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000151"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc> </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc> </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc> </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000151"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4821732417_6b78db8e1b_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821732713_805283ef6b_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4821733175_386a23e33a_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4822351106_95f279935e_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4822351336_1c64cee76e_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4822351592_02b792f281_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4821734167_98b835e2b3_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821734447_84d8e58e9c_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4821734679_af67997063_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4821734883_584f623e6c_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4822355804_fcf69e04b0_"
-                         passive="http://tcadrt.org/place/000151">
+                         passive="http://architecturasinica.org/place/000151">
                   <desc>Chongqingsi 三大士殿 Sandashidian</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000151"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000014"/>
+                         active="http://architecturasinica.org/place/000151"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000014"/>
             </listRelation>
          </listPlace>
       </body>

@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">cangjingdian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">sutra hall    
+                             <foreign xml:lang="zh-Hant">藏經殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000124/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000124/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,36 +46,36 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000124" type="building">
-               <placeName xml:id="name000124-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">cangjingdian</placeName>
+               <placeName xml:id="name000124-1" xml:lang="en">sutra hall</placeName>
                <placeName xml:id="name000124-2" type="building-name" xml:lang="zh-Hant">藏經殿</placeName>
                <placeName xml:id="name000124-3" type="building-name" xml:lang="zh-Hans">藏经殿</placeName>
                <placeName xml:id="name000124-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Anchansi_cangjingdian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">cangjingdian</placeName>
                <placeName xml:id="name000124-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">安禪寺藏經殿</placeName>
+                          xml:lang="en">Anchansi cangjingdian</placeName>
                <placeName xml:id="name000124-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">安禪寺藏經殿</placeName>
+               <placeName xml:id="name000124-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">安禅寺藏经殿</placeName>
-               <placeName xml:id="name000124-7" xml:lang="en">sutra hall</placeName>
                <placeName xml:id="name000124-11" type="alternate">cangjingdian</placeName>
                <desc type="site-data"> 安禅寺 山西省, 普中市，太谷县
 Ānchánsì  ZGWWDTJ, Shanxi vol. 3 (xia), p. 762    57 – C 1 (On Anchansi street in Taigu County Seat• Song, Ming dynasties •Provincial Cultural Heritage Site) Date of initial founding unknown. According to an inscription, the complex was rebuilt in the Song dynasty, with repairs made in the Yuan and Ming dynasties as well as in the third year of the Qing Guangxu reign period (1877). The complex occupies 200 square meters. Buildings are oriented to the south, the monastic cloister has been destroyed, all that remains are two axial buildings, the Sutra Repository (Cángjīngdiàn (藏经殿)) and the Main Hall (Zhèngdiàn (正殿)). Of the remaining buildings, the Sutra Repository is a artifact of the Song dynasty; the Main Hall is a Ming dynasty building.  The front façade of the Main Hall is 3 bays in width with a depth of 6 rafters, and has a single eaves, overhanging gable roof, 7 purlin-no gallery style design, 3-step, single ang bracket sets (sancai danang 三踩单昂), with one intercolumnar bracket set in each bay. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11; </desc>
-               <desc type="building_data">Ānchánsì  ZGWWDTJ, Shanxi vol. 3 (xia), p. 762    57 – C 1-1 Sutra Repository (cángjīngdiàn/藏经殿 (Song Dynasty)) Brick podium, front façade of 3 bays, depth of 3 bays, single eaves hip/gable roof, yellow and green glazed tiles with a square center, wide central bay and narrow side bays, central bay is only one half the width of the side bay. Under eave bracket sets are 4 pūzuò with a single huágŏng, a locust head shuătóu, 1 intercolumnar bracket set in every bay, and visible column-top entasis.  Original renovation no longer exists. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11</desc>
-               <idno type="URI">http://tcadrt.org/place/000124</idno>
+               <desc type="building-data">Ānchánsì  ZGWWDTJ, Shanxi vol. 3 (xia), p. 762    57 – C 1-1 Sutra Repository (cángjīngdiàn/藏经殿 (Song Dynasty)) Brick podium, front façade of 3 bays, depth of 3 bays, single eaves hip/gable roof, yellow and green glazed tiles with a square center, wide central bay and narrow side bays, central bay is only one half the width of the side bay. Under eave bracket sets are 4 pūzuò with a single huágŏng, a locust head shuătóu, 1 intercolumnar bracket set in every bay, and visible column-top entasis.  Original renovation no longer exists. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11</desc>
+               <idno type="URI">http://architecturasinica.org/place/000124</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>37.42453333 112.5473333</geo>
@@ -80,47 +83,95 @@
                <location type="verbatim">
                   <note>37˚ 25.472 (Garmin) 112˚ 32.840</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
                <note type="field-notes">sutra repository Song, compare to Jidumiao qingong</note>
                <note type="notes">ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000124"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000124"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000001"/>
+                         active="http://architecturasinica.org/place/000124"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000001"/>
             </listRelation>
          </listPlace>
       </body>

@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Fogongsi</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Fogong Monastery    
+                             <foreign xml:lang="zh-Hant">佛宮寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000028/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000028/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000028" type="site">
-               <placeName xml:id="name000028-1" type="site-name" xml:lang="zh-latn-pinyin">Fogongsi</placeName>
-               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
-               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
-               <placeName xml:id="name000028-5" xml:lang="en">Fogong Monastery</placeName>
-               <idno type="URI">http://tcadrt.org/place/000028</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">辽</label>
-                  <label xml:lang="en">Liao</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
+               <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong Monastery</placeName>
+               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fogongsi</placeName>
+               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
+               <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000028</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000028&#xA;        Fogongsi&#xA;        佛宮寺&#xA;        佛宫寺&#xA;        Fogongsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        佛宫寺释迦塔（应县木塔）&#xA;        Fogongsi&#xA;        Fogong Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao&#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao&#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao&#xA;        山西省应县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        应&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        应县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">辽</label>
-                  <label xml:lang="en">Liao</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000028&#xA;        Fogongsi&#xA;        佛宮寺&#xA;        佛宫寺&#xA;        Fogongsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        佛宫寺释迦塔（应县木塔）&#xA;        Fogongsi&#xA;        Fogong Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao&#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao&#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao&#xA;        山西省应县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        应&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        应县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省应县</placeName>
@@ -85,6 +106,12 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="en">monastery</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Quwo Dabeiyuan</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Dabei Cloister in Quwo    
+                             <foreign xml:lang="zh-Hant">曲沃大悲院</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000018/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000018/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000018" type="site">
-               <placeName xml:id="name000018-1" type="site-name" xml:lang="zh-latn-pinyin">Quwo Dabeiyuan</placeName>
-               <placeName xml:id="name000018-2" type="site-name" xml:lang="zh-Hant">曲沃大悲院</placeName>
-               <placeName xml:id="name000018-3" type="site-name" xml:lang="zh-Hans">曲沃大悲院</placeName>
-               <placeName xml:id="name000018-5" xml:lang="en">Dabei Cloister in Quwo</placeName>
-               <idno type="URI">http://tcadrt.org/place/000018</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">金</label>
-                  <label xml:lang="en">Jin</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+               <placeName xml:id="name000018-1" type="site-name" xml:lang="en">Dabei Cloister in Quwo</placeName>
+               <placeName xml:id="name000018-2" type="site-name" xml:lang="zh-latn-pinyin">Quwo Dabeiyuan</placeName>
+               <placeName xml:id="name000018-3" type="site-name" xml:lang="zh-Hant">曲沃大悲院</placeName>
+               <placeName xml:id="name000018-4" type="site-name" xml:lang="zh-Hans">曲沃大悲院</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000018</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000018&#xA;        Quwo Dabeiyuan&#xA;        曲沃大悲院&#xA;        曲沃大悲院&#xA;        Quwo_Dabeiyuan&#xA;        2017-04-03T21:42:00-05:00&#xA;        曲沃大悲院过殿&#xA;        Quwo Dabeiyuan&#xA;        Dabei Cloister in Quwo&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        山西省临汾市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        临汾&#xA;        市&#xA;        Linfen&#xA;        City&#xA;        8622739&#xA;        300387145&#xA;        曲沃&#xA;        县&#xA;        曲村镇曲村中&#xA;        曲村镇曲村中&#xA;        Quwo_Qucunzhen_Qucun_zhong&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">金</label>
-                  <label xml:lang="en">Jin</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000018&#xA;        Quwo Dabeiyuan&#xA;        曲沃大悲院&#xA;        曲沃大悲院&#xA;        Quwo_Dabeiyuan&#xA;        2017-04-03T21:42:00-05:00&#xA;        曲沃大悲院过殿&#xA;        Quwo Dabeiyuan&#xA;        Dabei Cloister in Quwo&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        山西省临汾市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        临汾&#xA;        市&#xA;        Linfen&#xA;        City&#xA;        8622739&#xA;        300387145&#xA;        曲沃&#xA;        县&#xA;        曲村镇曲村中&#xA;        曲村镇曲村中&#xA;        Quwo_Qucunzhen_Qucun_zhong&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省临汾市</placeName>
@@ -96,6 +117,12 @@
                      <placeName xml:lang="en">Quwo_Qucunzhen_Qucun_zhong</placeName>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">yuan</desc>
+                  <desc xml:lang="zh-Hant">院</desc>
+                  <desc xml:lang="en">cloister</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

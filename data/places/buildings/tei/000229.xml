@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">zhengdian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">main hall    
+                             <foreign xml:lang="zh-Hant">正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000229/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000229/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000229" type="building">
-               <placeName xml:id="name000229-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000229-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000229-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000229-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
                <placeName xml:id="name000229-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Qixian_Xingfansi_zhengdian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
                <placeName xml:id="name000229-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">祁縣興梵寺正殿</placeName>
+                          xml:lang="en">Qixian Xingfansi zhengdian</placeName>
                <placeName xml:id="name000229-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">祁縣興梵寺正殿</placeName>
+               <placeName xml:id="name000229-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">祁县兴梵寺正殿</placeName>
-               <placeName xml:id="name000229-7" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000229-11" type="alternate">Xingfansi</placeName>
-               <idno type="URI">http://tcadrt.org/place/000229</idno>
+               <idno type="URI">http://architecturasinica.org/place/000229</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>37.39033333 112.4500667</geo>
@@ -77,283 +80,328 @@
                <location type="verbatim">
                   <note>37˚ 23.420' (Garmin) 112˚ 27.004'</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/ic_match_ct"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000229"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000229"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4836007179_f23914d9b1_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall roof ornament</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4836616358_c7b22cc79a_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4836615442_b8d4058854_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi school entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4836005897_88120da5d6_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi school</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4129/4836616086_c511248c4c_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4836616800_dd614a10d9_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall roof ornament</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4836007387_f0a3fbecb4_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall roof ornament</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4836007623_67aae321bb_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4836007903_5d0be434ba_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall name plaque</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4836008173_6fd0e8d761_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4089/4836618400_726db156cc_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4836618644_ec929c1a07_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4836618878_7d26c99e83_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4836009033_4ce1796364_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4836009277_8015397a1b_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4836619666_652a1c1735_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4836009719_7c120c495c_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836009947_31276b9bfb_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4836620362_6938535b5e_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4836620582_aaf56f02f9_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4836620864_fce57484e3_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4836010861_714c6a5f41_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4836621358_410b93552e_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4836621580_1788f18d48_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4146/4836621846_bec91b0b47_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4836011797_6c5f1a95e5_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4836012049_e5ee04d258_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4836622628_c565060615_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4836012587_4ae632b9d7_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4836012779_d3a13dfccf_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4836013039_f2b1784aed_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4836623470_eaf18b7b4e_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4836623914_f937d4eec6_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4836624132_070e7717cd_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4836624298_94d7939836_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4836014309_02b55f87a9_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4129/4836014597_0427cc69e4_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4836014847_83b74e9b0e_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4836625292_a8f3e59599_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4836015513_7a5415099a_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836015685_752cbcf79e_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4836018145_ccccf3639c_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836018373_3de5eac101_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4836018697_801229df6c_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4836018965_51c8dbdaaf_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836019417_64239f0d9a_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836005329_9331dbd8a7_"
-                         passive="http://tcadrt.org/place/000229">
+                         passive="http://architecturasinica.org/place/000229">
                   <desc>Xingfansi 正殿 Main Hall</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000229"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000079"/>
+                         active="http://architecturasinica.org/place/000229"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000079"/>
             </listRelation>
          </listPlace>
       </body>

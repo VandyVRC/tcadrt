@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Sandifacangge</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Sandifacang Pavilion    
+                             <foreign xml:lang="zh-Hant">三滴法藏閣</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000126/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000126/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,37 +46,37 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000126" type="building">
-               <placeName xml:id="name000126-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Sandifacangge</placeName>
+               <placeName xml:id="name000126-1" xml:lang="en">Sandifacang Pavilion</placeName>
                <placeName xml:id="name000126-2" type="building-name" xml:lang="zh-Hant">三滴法藏閣</placeName>
                <placeName xml:id="name000126-3" type="building-name" xml:lang="zh-Hans">三滴法藏阁</placeName>
                <placeName xml:id="name000126-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Baitaisi_Sandifacangge</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Sandifacangge</placeName>
                <placeName xml:id="name000126-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">白臺寺三滴法藏閣</placeName>
+                          xml:lang="en">Baitaisi Sandifacangge</placeName>
                <placeName xml:id="name000126-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">白臺寺三滴法藏閣</placeName>
+               <placeName xml:id="name000126-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">白台寺三滴法藏阁</placeName>
-               <placeName xml:id="name000126-7" xml:lang="en">Sandifacang Pavilion</placeName>
                <placeName xml:id="name000126-11" type="alternate">Sandi facanghall</placeName>
-               <desc type="building_data">白台寺 金至清 山西省，运城市， 新绛县
+               <desc type="building-data">白台寺 金至清 山西省，运城市， 新绛县
 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1-1 Sāndīfăcánggé (三滴法藏阁)      Yuan Dynasty
 
 Established in the Jin dynasty, restoration done in the Yuan dynasty. Building built by tŭyá (土崖), stone podium, 6.5 meters tall, centre opens into a rectangular passageway. Building has 2 floors, a front façade of 3 bays, depth of 6 rafters, triple eave overhanging gable roof, main ridge has open carved brickwork as a ridge decoration. Beam composition of 4 rafters that connect to the front with 3 columns, first floor has a balcony (píngzuò/平座), upper eave has a ring bracket sets all the way around, 5 pūzuò(铺作) single xia ang, 1 set of inter columnar bracket sets in every bay. Second story balcony has 4 shrines with Yaowang (药王) 、attendants， images in the East erdian of Dizang and Yanjun, both are severely damaged.</desc>
-               <idno type="URI">http://tcadrt.org/place/000126</idno>
+               <idno type="URI">http://architecturasinica.org/place/000126</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>35.66345 111.0694</geo>
@@ -81,248 +84,329 @@ Established in the Jin dynasty, restoration done in the Yuan dynasty. Building b
                <location type="verbatim">
                   <note>35° 39.807' (±17ft) 111° 4.164'</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="en">pavilion (multi-level)</desc>
+               </trait>
                <note type="notes">Axis: c, roof style: o-g, front façade: 36' 5"</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831083567_d6b3700966_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4831743904_39829fdfd9_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi view of approach to complex</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4831068639_b3110fc98a_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi exterior tablet</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4831681814_760f81f614_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi exterior tablet</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4831070283_82e4651e1f_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi exterior view of complex</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4146/4831070511_6a2dc2f596_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4831070737_50f69c43dd_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4831071103_0d71c890d9_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4831683790_0f29cbf6a7_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4831072309_579095b0f6_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4831685370_3602b14fee_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4089/4831073295_bceee3b494_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4831073747_55a72ceeb3_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4831074273_38dfb57989_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4831075079_8f1efeab32_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4831688616_8d1a1b25e6_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4831689558_784fddec4c_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4831077645_bd5903517b_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4831078033_fe08890079_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4831690624_01ae68db42_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4831691096_25a579fa8b_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4831079257_778fa81455_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4831691854_966d40468d_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4831080037_8e29ddcb0d_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4831692948_4bf571b389_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831693204_8d6bd9e8f3_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4831081389_2012fe673c_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831693932_5b7ae4e11e_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4113/4831082299_b68d879fff_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4831694974_cd65aff2d4_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4831696134_32ccc7c599_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4831084553_9a6aedc331_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4831084887_fd4204db28_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4831697590_cb8146914d_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4831698224_440ea1ff83_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4831698850_07fc6e4ce5_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4831699168_16a37166d3_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4831104151_ac16acea66_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 三滴法藏阁 Sandifacangdian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4081/4831717004_f017f9c21d_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4831741024_6a3aa07e90_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4080/4831741386_5549c3fde9_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4136/4831741978_16df8a7d15_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4831130747_a8e4fbb273_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4831131175_abb76c9ebd_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831743200_13405e949e_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4126/4831131911_ca6ba08c3d_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi side view of the front of the complex</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4073/4831069771_14fcd97cc0_"
-                         passive="http://tcadrt.org/place/000126">
+                         passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi exterior view of complex</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000126"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000002"/>
+                         active="http://architecturasinica.org/place/000126"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000002"/>
             </listRelation>
          </listPlace>
       </body>

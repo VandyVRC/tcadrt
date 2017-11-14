@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">zhengdian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">main hall    
+                             <foreign xml:lang="zh-Hant">正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000233/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000233/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000233" type="building">
-               <placeName xml:id="name000233-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000233-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000233-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000233-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
                <placeName xml:id="name000233-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Sanjunmiao_zhengdian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
                <placeName xml:id="name000233-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">三峻廟正殿</placeName>
+                          xml:lang="en">Sanjunmiao zhengdian</placeName>
                <placeName xml:id="name000233-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">三峻廟正殿</placeName>
+               <placeName xml:id="name000233-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">三峻庙正殿</placeName>
-               <placeName xml:id="name000233-7" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000233-11" type="alternate">Sanjunmiao</placeName>
-               <idno type="URI">http://tcadrt.org/place/000233</idno>
+               <idno type="URI">http://architecturasinica.org/place/000233</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>36.03716667 113.6121667</geo>
@@ -77,553 +80,604 @@
                <location type="verbatim">
                   <note>36˚ 2.23'N (Garmin) 113˚ 9.73'E</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
                <note type="field-notes">Main Hall from 1175, see; 中國 文物 地圖集 山西分冊, 中, 336</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000233"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000233"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4822001406_8dd4c961f8_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4821999792_1c68bf3b9f_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4074/4821992538_9bd969b781_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4821993214_46349a6796_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4821376819_94855668a8_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4074/4821377261_a9bbdfbb38_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821994254_8f0e3ef1d4_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4821377855_492b28c338_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4821994646_3893958004_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior roof detail</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4821994906_1d9ab0771c_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior roof detail</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4821995152_ff7ce53807_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4821378993_2182c3e303_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4821995764_abf35747ee_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4821996182_a2d08dcc19_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4821996538_e4bc4b7741_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4821996772_585fba2221_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4821380511_4b2720c994_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4821380729_1f20e65502_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4821997690_a9fe3c4aaa_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4821997860_4868ed1d91_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4821381473_2051530558_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4821998498_9524a54ebe_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4821998802_dcb4777e4c_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao exterior back facade of 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4821382337_61e8371827_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of front courtyard and plaque</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4821999470_ffe20d3aec_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao entrance to second courtyard</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4821383231_9f8d786ece_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of side halls</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4821383723_ae808e67de_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao side halls and 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4822000610_5f4727ef2f_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4822000902_299ac5e438_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4822001062_db5f633d24_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4821384471_9deb164af7_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4821384957_3172b4abaf_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4822002056_571384be45_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4822002206_204f34a17f_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4822002450_877aafcab1_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4822002846_7dd2fdf34b_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4822003008_4218003e9a_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4822003158_7dffe3fe9a_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821386707_f00963fd30_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4821386873_f653c653f5_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall and 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4073/4822003708_c341d0a8cb_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4821387241_f7314495f9_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4821387457_2b9750a739_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4136/4822004336_0da67a9366_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4822004696_3dde8ccaff_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall and 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4138/4821388235_3905f52bdd_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4821388477_571567215a_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4821388759_de5e407b77_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4074/4822005628_0955d8513b_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4821389129_8489d80396_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4822006066_17c93735ed_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4822006230_59ae694717_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4822006410_7008cc7867_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4822006664_bde8550970_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4822006940_d6a01f58f7_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4821390675_88fa381ae0_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4821390905_51412bfa10_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4081/4822007674_f2eac85d91_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall and 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4822007830_fc3b14725e_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall and 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4821391419_55eccb9f13_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4821391681_4b25f776a9_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4822008520_0b08e53bb1_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821392173_51a69ccfac_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4136/4822008916_5427eb114d_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Left/West ear Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4822009152_ee39167cb6_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Left/West ear Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4822009516_0422b8f165_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Right/East ear Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4822009936_d8ea17bf4f_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Right/East ear Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4821393721_296292bdcb_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Right/East ear Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4822010488_8b68676eff_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4821394227_e651fb198b_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4097/4822010910_9e80aba1a6_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall and right/east ear hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4821394681_e389d97395_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821394967_703afd2579_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4822012100_76a3a00b5b_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao Right/East ear hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4822012264_7db11a2328_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4822012712_b7c6cbd8e6_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4821396503_69a9d3abef_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4822013548_472ffc85ef_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4822013808_e6f180ac89_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821397519_872efd3a1c_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4822014420_75a5dfeffa_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4822014704_042b62eee2_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4821398347_7a6ffac663_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4822015632_b719b39ab5_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4822015964_c50ec877cb_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4821399477_9817fbe99a_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4821399799_4f3732c0bd_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4822016784_53b56588f5_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4821400521_70f40aa152_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4822017398_bf63e26e6e_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4821401221_34c486e375_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4821401461_ce77914251_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4822018418_5ac5128153_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4822018648_85665959d7_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4821402151_4f9303e694_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4822019104_34994054ed_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao 献殿 Offering Hall stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4822019362_cd07b4c3d1_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao ear hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821403179_941c3fee8d_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of courtyard form Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821403397_38253d722e_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of courtyard</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4821403781_6a80b4d38b_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of courtyard</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4822020782_9be3abe7a4_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of front courtyard</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4821404511_3cbabc69c8_"
-                         passive="http://tcadrt.org/place/000233">
+                         passive="http://architecturasinica.org/place/000233">
                   <desc>Sanjunmiao view of front courtyard</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000233"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000084"/>
+                         active="http://architecturasinica.org/place/000233"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000084"/>
             </listRelation>
          </listPlace>
       </body>

@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Zhenshengsi</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Zhensheng Monastery    
+                             <foreign xml:lang="zh-Hant">真聖寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000122/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000122/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000122" type="site">
-               <placeName xml:id="name000122-1" type="site-name" xml:lang="zh-latn-pinyin">Zhenshengsi</placeName>
-               <placeName xml:id="name000122-2" type="site-name" xml:lang="zh-Hant">真聖寺</placeName>
-               <placeName xml:id="name000122-3" type="site-name" xml:lang="zh-Hans">真圣寺</placeName>
-               <placeName xml:id="name000122-5" xml:lang="en">Zhensheng Monastery</placeName>
-               <idno type="URI">http://tcadrt.org/place/000122</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">金</label>
-                  <label xml:lang="en">Jin</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+               <placeName xml:id="name000122-1" type="site-name" xml:lang="en">Zhensheng Monastery</placeName>
+               <placeName xml:id="name000122-2" type="site-name" xml:lang="zh-latn-pinyin">Zhenshengsi</placeName>
+               <placeName xml:id="name000122-3" type="site-name" xml:lang="zh-Hant">真聖寺</placeName>
+               <placeName xml:id="name000122-4" type="site-name" xml:lang="zh-Hans">真圣寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000122</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000122&#xA;        Zhenshengsi&#xA;        真聖寺&#xA;        真圣寺&#xA;        Zhenshengsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        真圣寺&#xA;        Zhenshengsi&#xA;        Zhensheng Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        金至清&#xA;        Jin to Qing&#xA;        山西省太谷县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        太谷&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        范村&#xA;        镇&#xA;        太谷县城东40公里的范村镇蚍蜉村&#xA;        太谷县: 太谷县城东40公里的范村镇蚍蜉村&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">清</label>
-                  <label xml:lang="en">Qing</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvtqp9">http://n2t.net/ark:/99152/p0fp7wvtqp9</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000122&#xA;        Zhenshengsi&#xA;        真聖寺&#xA;        真圣寺&#xA;        Zhenshengsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        真圣寺&#xA;        Zhenshengsi&#xA;        Zhensheng Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        金至清&#xA;        Jin to Qing&#xA;        山西省太谷县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        太谷&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        范村&#xA;        镇&#xA;        太谷县城东40公里的范村镇蚍蜉村&#xA;        太谷县: 太谷县城东40公里的范村镇蚍蜉村&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省太谷县</placeName>
@@ -88,6 +109,12 @@
                      <placeName xml:lang="zh-Hans">范村</placeName>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="en">monastery</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

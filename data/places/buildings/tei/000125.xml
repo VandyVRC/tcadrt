@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Shijiadian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Śākyamuni Hall    
+                             <foreign xml:lang="zh-Hant">釋迦殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000125/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000125/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,42 +46,42 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000125" type="building">
-               <placeName xml:id="name000125-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Shijiadian</placeName>
+               <placeName xml:id="name000125-1" xml:lang="en">Śākyamuni Hall</placeName>
                <placeName xml:id="name000125-2" type="building-name" xml:lang="zh-Hant">釋迦殿</placeName>
                <placeName xml:id="name000125-3" type="building-name" xml:lang="zh-Hans">释迦殿</placeName>
                <placeName xml:id="name000125-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Baitaisi_Shijiadian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Shijiadian</placeName>
                <placeName xml:id="name000125-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">白臺寺釋迦殿</placeName>
+                          xml:lang="en">Baitaisi Shijiadian</placeName>
                <placeName xml:id="name000125-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">白臺寺釋迦殿</placeName>
+               <placeName xml:id="name000125-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">白台寺释迦殿</placeName>
-               <placeName xml:id="name000125-7" xml:lang="en">Śākyamuni Hall</placeName>
                <placeName xml:id="name000125-11" type="alternate">Shijiadian</placeName>
                <desc type="site-data">白台寺 金至清 山西省，运城市， 新绛县
 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1, 
 
 (About 200 meters southwest of Gujiao village in Guangma town•Jin and Yuan Dynasties•Provincial Cultural Heritage Site) (untranslated CG)                                                              Also called Pŭhuàsì (普化寺). Called Băitáisì (white seat temple) because legend holds Buddha’s lotus throne to be white. According to stele inscription,had many restorations in the fourtheenth year of Tang Kaiyuan (726)、and between the Jin Dading and Mingchang years, further restored in the first year of Zhizheng  (1355) and the sixth year of Ming Zhengde (1511). Increase in construction in Qing Dynasty. Occupancy area of 4,482 square meters. Facing south, 2 entrance courtyard design, axial buildings include a sāndīfăcánggé (三滴法藏阁)， shìjiādiàn (释迦殿)， and a hòudàdiàn (后大殿)， on either side there is an east shānmén (山门） and a west wing. Within complex interior is preserved a Tang dynasty pagoda, a Song dynasty  jīngchuáng(经幢) stone pillar with Buddhist inscriptions, a Song cloud board from the third year of Xuanhe (1121) , and 18 colored/painted walls. Translated by Lydia Ohl; 
 edited by Cole Garrett</desc>
-               <desc type="building_data">白台寺 金至清 山西省，运城市， 新绛县
+               <desc type="building-data">白台寺 金至清 山西省，运城市， 新绛县
 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1-2 Shìjiādiàn (释迦殿)     Jin Dynasty
 
 Rebuilt in Jin Mingchang years (1190-1194). Stone podium, according to topography and building, front is 0.75 meters tall, back is 0.3 meters tall, front façade of 3 bays, depth of 6 rafters, single eave hip gable roof , main roof ridge、vertical ridge、berm ridge and temple ridge are made of carved brick. Under eave column top bracket set have 4 pūzuò(铺作) and a single xia ang, be careful of inter columnar bracket sets. Internal beam composition of 4 rafters that connect to back with 3 columns, overturned basin shaped column base. Be careful of central bay door, other bays have lattice windows. Hall interior Buddhist altar presents 12 portraits of Buddha, Sakyamuni Buddha in the center, both sides have an Ananda (阿难)、Mahākāśyapa（迦叶）、bodhisattva (菩萨),  under two gables there are 6 arahats, horizontal back wall has a portrait of Weituo (韦陀)，later generations have already changed the shape, their original characteristics have been lost. Translated by Lydia Ohl; revised by Cole Garrett</desc>
-               <idno type="URI">http://tcadrt.org/place/000125</idno>
+               <idno type="URI">http://architecturasinica.org/place/000125</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>35.66366667 111.0694</geo>
@@ -86,310 +89,358 @@ Rebuilt in Jin Mingchang years (1190-1194). Stone podium, according to topograph
                <location type="verbatim">
                   <note>35˚ 39.820' (garmin) 111˚ 4.164'</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
                <note type="field-notes">Shijiadian from Jin Mingchang period (1190-1196) see: 中國 文物 地圖集山西分冊, 下, 1099 </note>
                <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000125"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000125"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4831100445_972b732293_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4831075875_107fbf1b42_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4831688846_fe70cf8617_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian and bridge</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4831076741_f560838f5f_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4113/4831087279_3121fa540d_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4831088301_230fc6835d_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4831701004_2d1ef0f2f0_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4831089433_da0122d4e3_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4831089933_68f1af7e03_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4831090505_b79acf3027_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian name plaque</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4831090955_68d73f0464_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4831091331_108d1a6b9a_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4831091603_cd9e72ded8_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4831704312_3eb668663f_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4831092645_e20b526dd1_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4831705794_69f95da288_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4831093995_9161eaeffe_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4831095091_c85be57ca3_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831707818_2e8612d499_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4129/4831096175_1a11a607ae_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4831708790_d5bbfa8b57_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4831709140_9340214837_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4831097469_3f86fa4a0a_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4831097791_8c7bb7bd52_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4831098187_69af8d50e3_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4831098445_1c34059fba_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4831710880_c34f07b017_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4831099273_11901a07b4_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4831711760_4cba66bcd1_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4144/4831099985_3910727b18_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4831713042_9e4dfd9bf2_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4831101647_910bb7a662_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4831102077_5a0d430e6e_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4831714494_fac24fd413_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4831102707_0ae8345dc0_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4831103237_4c2772567a_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4831103763_b6445ac547_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4831716498_5b539c432e_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi side hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4831105533_fa71889775_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4831106101_d7af85dce8_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4831106715_27beab8b68_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4831719116_03cced4f9f_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4831719450_e263282a7b_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831719696_470762db47_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4831720036_814f13404e_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4831720512_6a12aa4128_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4831721290_f07539e055_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4831109753_84ffcd251b_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4097/4831721900_a56ced5ca7_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4831110481_d5bbda8be3_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4831110933_6351766913_"
-                         passive="http://tcadrt.org/place/000125"/>
+                         passive="http://architecturasinica.org/place/000125"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4831700024_20a2624434_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4831722936_544bfe8b10_"
-                         passive="http://tcadrt.org/place/000125">
+                         passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi 后大殿 Back Hall</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000125"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000002"/>
+                         active="http://architecturasinica.org/place/000125"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000002"/>
             </listRelation>
          </listPlace>
       </body>

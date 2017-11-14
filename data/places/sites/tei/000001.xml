@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Anchansi</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Anchan Monastery    
+                             <foreign xml:lang="zh-Hant">安禪寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000001/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000001/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000001" type="site">
-               <placeName xml:id="name000001-1" type="site-name" xml:lang="zh-latn-pinyin">Anchansi</placeName>
-               <placeName xml:id="name000001-2" type="site-name" xml:lang="zh-Hant">安禪寺</placeName>
-               <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hans">安禅寺</placeName>
-               <placeName xml:id="name000001-5" xml:lang="en">Anchan Monastery</placeName>
-               <idno type="URI">http://tcadrt.org/place/000001</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">宋</label>
-                  <label xml:lang="en">Song</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+               <placeName xml:id="name000001-1" type="site-name" xml:lang="en">Anchan Monastery</placeName>
+               <placeName xml:id="name000001-2" type="site-name" xml:lang="zh-latn-pinyin">Anchansi</placeName>
+               <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hant">安禪寺</placeName>
+               <placeName xml:id="name000001-4" type="site-name" xml:lang="zh-Hans">安禅寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000001</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000001&#xA;        Anchansi&#xA;        安禪寺&#xA;        安禅寺&#xA;        Anchansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        安禅寺&#xA;        Anchansi&#xA;        Anchan Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        明&#xA;        Ming&#xA;        http://n2t.net/ark:/99152/p0fp7wv2s8c&#xA;        宋至明&#xA;        Song to Ming&#xA;        山西省太谷县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        太谷&#xA;        县&#xA;        Taigu&#xA;        County&#xA;        8677393&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        太谷县&#xA;        Taiguxian&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">明</label>
-                  <label xml:lang="en">Ming</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wv2s8c">http://n2t.net/ark:/99152/p0fp7wv2s8c</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000001&#xA;        Anchansi&#xA;        安禪寺&#xA;        安禅寺&#xA;        Anchansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        安禅寺&#xA;        Anchansi&#xA;        Anchan Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        明&#xA;        Ming&#xA;        http://n2t.net/ark:/99152/p0fp7wv2s8c&#xA;        宋至明&#xA;        Song to Ming&#xA;        山西省太谷县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        太谷&#xA;        县&#xA;        Taigu&#xA;        County&#xA;        8677393&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        太谷县&#xA;        Taiguxian&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省太谷县</placeName>
@@ -95,6 +116,12 @@
                      <placeName xml:lang="en">Taiguxian</placeName>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="en">monastery</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

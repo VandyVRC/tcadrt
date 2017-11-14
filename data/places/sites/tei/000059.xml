@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Liang Cheng guli Liang Cheng ci</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Liang Cheng Shrine in Liang Cheng ancient ward    
+                             <foreign xml:lang="zh-Hant">兩程故裡兩程祠</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000059/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000059/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,18 +46,24 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000059" type="site">
-               <placeName xml:id="name000059-1" type="site-name" xml:lang="zh-latn-pinyin">Liang Cheng guli Liang Cheng ci</placeName>
-               <placeName xml:id="name000059-2" type="site-name" xml:lang="zh-Hant">兩程故裡兩程祠</placeName>
-               <placeName xml:id="name000059-3" type="site-name" xml:lang="zh-Hans">两程故里两程祠</placeName>
-               <placeName xml:id="name000059-5" xml:lang="en">Liang Cheng Shrine in Liang Cheng ancient ward</placeName>
-               <idno type="URI">http://tcadrt.org/place/000059</idno>
+               <placeName xml:id="name000059-1" type="site-name" xml:lang="en">Liang Cheng Shrine in Liang Cheng ancient ward</placeName>
+               <placeName xml:id="name000059-2" type="site-name" xml:lang="zh-latn-pinyin">Liang Cheng guli Liang Cheng ci</placeName>
+               <placeName xml:id="name000059-3" type="site-name" xml:lang="zh-Hant">兩程故裡兩程祠</placeName>
+               <placeName xml:id="name000059-4" type="site-name" xml:lang="zh-Hans">两程故里两程祠</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000059</idno>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">ci</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="en">shrine</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

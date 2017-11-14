@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Qinshui Shengtiansi</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Qinshui Shengtian Monastery    
+                             <foreign xml:lang="zh-Hant">沁水聖天寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000057/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000057/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000057" type="site">
-               <placeName xml:id="name000057-1" type="site-name" xml:lang="zh-latn-pinyin">Qinshui Shengtiansi</placeName>
-               <placeName xml:id="name000057-2" type="site-name" xml:lang="zh-Hant">沁水聖天寺</placeName>
-               <placeName xml:id="name000057-3" type="site-name" xml:lang="zh-Hans">沁水圣天寺</placeName>
-               <placeName xml:id="name000057-5" xml:lang="en">Qinshui Shengtian Monastery</placeName>
-               <idno type="URI">http://tcadrt.org/place/000057</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">宋</label>
-                  <label xml:lang="en">Song</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+               <placeName xml:id="name000057-1" type="site-name" xml:lang="en">Qinshui Shengtian Monastery</placeName>
+               <placeName xml:id="name000057-2" type="site-name" xml:lang="zh-latn-pinyin">Qinshui Shengtiansi</placeName>
+               <placeName xml:id="name000057-3" type="site-name" xml:lang="zh-Hant">沁水聖天寺</placeName>
+               <placeName xml:id="name000057-4" type="site-name" xml:lang="zh-Hans">沁水圣天寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000057</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000057&#xA;        Qinshui Shengtiansi&#xA;        沁水聖天寺&#xA;        沁水圣天寺&#xA;        Qinshui_Shengtiansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水圣天寺&#xA;        Qinshui Shengtiansi&#xA;        Qinshui Shengtian Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        宋&#xA;        Song&#xA;        山西省沁水县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        沁水&#xA;        县&#xA;        Qinshui&#xA;        County&#xA;        8627543&#xA;        300387198&#xA;        郑庄&#xA;        镇&#xA;        廊必村&#xA;        庄廊必村&#xA;        Dong_Langbicun_Zhengzhuangzhen_Qinshui&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">宋</label>
-                  <label xml:lang="en">Song</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wv9x7n">http://n2t.net/ark:/99152/p0fp7wv9x7n</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000057&#xA;        Qinshui Shengtiansi&#xA;        沁水聖天寺&#xA;        沁水圣天寺&#xA;        Qinshui_Shengtiansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水圣天寺&#xA;        Qinshui Shengtiansi&#xA;        Qinshui Shengtian Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        宋&#xA;        Song&#xA;        山西省沁水县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        沁水&#xA;        县&#xA;        Qinshui&#xA;        County&#xA;        8627543&#xA;        300387198&#xA;        郑庄&#xA;        镇&#xA;        廊必村&#xA;        庄廊必村&#xA;        Dong_Langbicun_Zhengzhuangzhen_Qinshui&#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省沁水县</placeName>
@@ -96,6 +117,12 @@
                      <placeName xml:lang="en">Dong_Langbicun_Zhengzhuangzhen_Qinshui</placeName>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="en">monastery</desc>
+               </trait>
             </place>
          </listPlace>
       </body>

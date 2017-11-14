@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">houdian </title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">back hall    
+                             <foreign xml:lang="zh-Hant">後殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000247/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000247/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000247" type="building">
-               <placeName xml:id="name000247-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">houdian </placeName>
+               <placeName xml:id="name000247-1" xml:lang="en">back hall</placeName>
                <placeName xml:id="name000247-2" type="building-name" xml:lang="zh-Hant">後殿</placeName>
                <placeName xml:id="name000247-3" type="building-name" xml:lang="zh-Hans">后殿</placeName>
                <placeName xml:id="name000247-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Tianwangsi_houdian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">houdian </placeName>
                <placeName xml:id="name000247-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">天王寺後殿</placeName>
+                          xml:lang="en">Tianwangsi houdian</placeName>
                <placeName xml:id="name000247-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">天王寺後殿</placeName>
+               <placeName xml:id="name000247-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">天王寺後殿</placeName>
-               <placeName xml:id="name000247-7" xml:lang="en">back hall</placeName>
                <placeName xml:id="name000247-11" type="alternate">Houdian</placeName>
-               <idno type="URI">http://tcadrt.org/place/000247</idno>
+               <idno type="URI">http://architecturasinica.org/place/000247</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>36.11753333 112.8747333</geo>
@@ -77,86 +80,161 @@
                <location type="verbatim">
                   <note>36˚ 7.052' (Garmin) 112˚ 52.484'</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+               </trait>
                <note type="field-notes">Middle and Back Halls Jin: 现仅存中殿、后殿，有关专家从梁架结构和斗拱构件认证属金代建筑遗存</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000247"
-                         passive="http://tcadrt.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>http://www.sxcr.gov.cn/wmsx/show.php?itemid=1124</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000247"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4080/4818555053_7eb02a0c74_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4818551971_ae142df510_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4819174850_d1fcb6185a_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4819175212_aa18e063df_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4818552797_9fb39040cd_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4818552973_9975d57f7f_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4136/4819175882_1b9d9cc26d_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4818553389_e6e0118cda_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4818553621_b9f6018165_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4114/4818553877_afc94e6410_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4819176678_bce020d8ba_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4819176962_0dec0ab765_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4819177160_21b357ede2_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4819177416_1fed5abf95_"
-                         passive="http://tcadrt.org/place/000247">
+                         passive="http://architecturasinica.org/place/000247">
                   <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000247"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000094"/>
+                         active="http://architecturasinica.org/place/000247"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000094"/>
             </listRelation>
          </listPlace>
       </body>

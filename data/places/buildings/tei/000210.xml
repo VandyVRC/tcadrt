@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Monidian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Cintāmaṇi Hall    
+                             <foreign xml:lang="zh-Hant">摩尼殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000210/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000210/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000210" type="building">
-               <placeName xml:id="name000210-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Monidian</placeName>
+               <placeName xml:id="name000210-1" xml:lang="en">Cintāmaṇi Hall</placeName>
                <placeName xml:id="name000210-2" type="building-name" xml:lang="zh-Hant">摩尼殿</placeName>
                <placeName xml:id="name000210-3" type="building-name" xml:lang="zh-Hans">摩尼殿</placeName>
                <placeName xml:id="name000210-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Longxingsi_Monidian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Monidian</placeName>
                <placeName xml:id="name000210-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">隆興寺摩尼殿</placeName>
+                          xml:lang="en">Longxingsi Monidian</placeName>
                <placeName xml:id="name000210-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">隆興寺摩尼殿</placeName>
+               <placeName xml:id="name000210-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">隆兴寺摩尼殿</placeName>
-               <placeName xml:id="name000210-7" xml:lang="en">Cintāmaṇi Hall</placeName>
                <placeName xml:id="name000210-11" type="alternate">Monidian</placeName>
-               <idno type="URI">http://tcadrt.org/place/000210</idno>
+               <idno type="URI">http://architecturasinica.org/place/000210</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>38.14256944 114.5762444</geo>
@@ -77,55 +80,94 @@
                <location type="verbatim">
                   <note>38˚ 08' 33.25" N (google earth 9/2009) 114˚ 34' 34.48" E</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
                <note type="field-notes">1052 with angled bracket arms; qinmian ang appears to be recarved</note>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/corner_angled_bracket_arm"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000210"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000210"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000210"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000064"/>
+                         active="http://architecturasinica.org/place/000210"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000064"/>
             </listRelation>
          </listPlace>
       </body>

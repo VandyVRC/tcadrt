@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">zhengdian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">main hall    
+                             <foreign xml:lang="zh-Hant">正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000176/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000176/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,263 +46,314 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000176" type="building">
-               <placeName xml:id="name000176-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000176-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000176-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000176-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
                <placeName xml:id="name000176-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Guanghuasi_zhengdian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
                <placeName xml:id="name000176-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">廣華寺正殿</placeName>
+                          xml:lang="en">Guanghuasi zhengdian</placeName>
                <placeName xml:id="name000176-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">廣華寺正殿</placeName>
+               <placeName xml:id="name000176-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">广华寺正殿</placeName>
-               <placeName xml:id="name000176-7" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000176-11" type="alternate">Guanghuasi</placeName>
-               <idno type="URI">http://tcadrt.org/place/000176</idno>
+               <idno type="URI">http://architecturasinica.org/place/000176</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>37.36166667 112.4942</geo>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/pupaifang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000176"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4835974061_3c427fda67_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4836584112_ca6fbc7eb6_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi side halls</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4835974527_e372eed950_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi name plaque</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4835974763_10cd21a04f_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4836584692_7ac8151ebd_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4836584872_5d0223ba03_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4835975523_23ff488221_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4836585534_f1645f8a75_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4836585728_6b69296d20_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4836586008_bed52eafbc_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4835976363_3b24868008_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4836586386_1af1aa8690_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4836586612_e70c9eda23_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4836586924_84732c77eb_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4835977319_646d7dbe33_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4835977563_8b6c7ef937_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4836587684_e0e64a1d91_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4835978061_16b073c69b_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4835978243_5579212cc2_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4835978573_56b1637c2e_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4836588646_6881092e6b_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4836588874_f79de37a73_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4836589144_f77421299b_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 后殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4835979569_b97a4ec97d_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi side hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4836589696_c6b4e440ce_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4836589952_654053ed4d_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4835980313_137625d155_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4835980625_70c4d300a7_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4835980807_1f08ce940c_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4835981073_1226b1bd66_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4835981287_2cf42622c7_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4836591372_883d84d0be_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4836591618_96d0e3a537_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4836592100_36cc6dc930_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4835975329_5a6ebe6073_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4836583310_b7b5fcbcb4_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4836583462_442fece8ae_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4836583602_a30531de6b_"
-                         passive="http://tcadrt.org/place/000176">
+                         passive="http://architecturasinica.org/place/000176">
                   <desc>Guanghuasi 大雄宝殿 Daxiongbaodian</desc>
                </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000176"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000035"/>
+                         active="http://architecturasinica.org/place/000176"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000035"/>
             </listRelation>
          </listPlace>
       </body>

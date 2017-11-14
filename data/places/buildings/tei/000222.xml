@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">dadian</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">great hall    
+                             <foreign xml:lang="zh-Hant">大殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000222/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000222/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,33 +46,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000222" type="building">
-               <placeName xml:id="name000222-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">dadian</placeName>
+               <placeName xml:id="name000222-1" xml:lang="en">great hall</placeName>
                <placeName xml:id="name000222-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
                <placeName xml:id="name000222-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
                <placeName xml:id="name000222-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Puzhaosi_dadian</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">dadian</placeName>
                <placeName xml:id="name000222-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">普照寺大殿</placeName>
+                          xml:lang="en">Puzhaosi dadian</placeName>
                <placeName xml:id="name000222-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">普照寺大殿</placeName>
+               <placeName xml:id="name000222-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">普照寺大殿</placeName>
-               <placeName xml:id="name000222-7" xml:lang="en">great hall</placeName>
                <placeName xml:id="name000222-11" type="alternate">Dadian</placeName>
-               <idno type="URI">http://tcadrt.org/place/000222</idno>
+               <idno type="URI">http://architecturasinica.org/place/000222</idno>
                <state type="existence"/>
                <location type="gps">
                   <geo>36.7457833 112.653316</geo>
@@ -77,177 +80,225 @@
                <location type="verbatim">
                   <note>36˚ 44.747 N (Garmin)36˚ 44.747 N (Garmin) 112˚ 39.199 E</note>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="en">hall (palatial)</desc>
+               </trait>
             </place>
             <listRelation>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/first_step_touxin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/first_step_jixin"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/cejiao"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/pizhu_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/qinmian_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/number_of_xiaang"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/beveled_linggong"
-                         ref="dc:subject"/>
-               <relation active="http://tcadrt.org/place/000222"
-                         passive="http://tcadrt.org/keyword/chamfered_linggong"
-                         ref="dc:subject"/>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc>0</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000222"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc>1</desc>
+               </relation>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3478/3824125473_5e2888c597_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3555/3824111543_1be9ff04dc_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3571/3824112821_a1927645bc_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2526/3824114351_eb904135fe_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2468/3824115677_72c99fc92a_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2620/3824918944_9946d10e1b_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2540/3824920066_c33b5384bc_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3490/3824921180_403e574481_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3582/3824120583_cdd2f8a0d4_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2546/3824923744_179bbf04bd_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3536/3824122925_5f876d7b7a_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3521/3824124293_d556cfb068_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3197/3824929314_c744bc4b89_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2490/3824127939_99f5f3bb7a_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2540/3824129355_01581af7f6_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2454/3824130911_20b6166f19_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3518/3824132179_2f4ee272a4_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3574/3824133383_45b8afb03c_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3420/3824937312_28cb252a37_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2468/3824938708_e7019aeac4_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2659/3824939904_1a393fb05c_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3539/3824941220_d2a4a4213d_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3530/3824139849_90288d0edf_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2652/3824944246_f3c2ecdd12_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2430/3824945528_61ef7051cd_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3459/3824946634_93d3d3e17b_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3436/3824144581_edf2581203_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2445/3824145837_40640804d8_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3429/3824950486_5c7d05125a_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2457/3824148259_097008673b_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2467/3824149547_4a75dcea71_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2558/3824953834_b71450447d_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2494/3824151849_4e543d5b01_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3583/3824152907_5c14ff5326_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2549/3824154015_521d1531ca_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2443/3824155189_77afe9aa97_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3186/3824959496_8638fb3cf2_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2456/3824157563_ae1ddc8eb9_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3559/3824159099_d3802f2cac_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3547/3824160701_f37a6206c3_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2546/3824965072_ef580826f7_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3118/3824966618_12d45ef138_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2438/3824165117_3abb48ae54_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2666/3824166353_c4670f3e71_"
-                         passive="http://tcadrt.org/place/000222"/>
+                         passive="http://architecturasinica.org/place/000222"/>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000222"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000073"/>
+                         active="http://architecturasinica.org/place/000222"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000073"/>
             </listRelation>
          </listPlace>
       </body>

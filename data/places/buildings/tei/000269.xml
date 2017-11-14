@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Douchuishan zhuanlun jingcang</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Mount Douchui Revolving Sutra Repository    
+                             <foreign xml:lang="zh-Hant">竇圌山轉輪經藏</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000269/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000269/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,40 +46,118 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000269" type="building">
-               <placeName xml:id="name000269-1"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Douchuishan zhuanlun jingcang</placeName>
+               <placeName xml:id="name000269-1" xml:lang="en">Mount Douchui Revolving Sutra Repository</placeName>
                <placeName xml:id="name000269-2" type="building-name" xml:lang="zh-Hant">竇圌山轉輪經藏</placeName>
                <placeName xml:id="name000269-3" type="building-name" xml:lang="zh-Hans">窦圌山转轮经藏</placeName>
                <placeName xml:id="name000269-4"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Yunyansi_Douchuishan_zhuanlun_jingcang</placeName>
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Douchuishan zhuanlun jingcang</placeName>
                <placeName xml:id="name000269-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="zh-Hant">雲岩寺竇圌山轉輪經藏</placeName>
+                          xml:lang="en">Yunyansi Douchuishan zhuanlun jingcang</placeName>
                <placeName xml:id="name000269-6"
                           type="alternate"
                           subtype="building-name-in-site"
+                          xml:lang="zh-Hant">雲岩寺竇圌山轉輪經藏</placeName>
+               <placeName xml:id="name000269-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
                           xml:lang="zh-Hans">云岩寺窦圌山转轮经藏</placeName>
-               <placeName xml:id="name000269-7" xml:lang="en">Mount Douchui Revolving Sutra Repository</placeName>
                <placeName xml:id="name000269-11" type="alternate"> </placeName>
-               <idno type="URI">http://tcadrt.org/place/000269</idno>
+               <idno type="URI">http://architecturasinica.org/place/000269</idno>
+               <trait type="place-type">
+                  <label>Type</label>
+               </trait>
                <note type="field-notes">song revolving sutra repository with angled bracket arms</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/ic_match_ct"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000269"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dc:subject">
+                  <desc/>
+               </relation>
                <relation type="contained"
-                         active="http://tcadrt.org/place/000269"
-                         ref="dct:isPartOf"
-                         passive="http://tcadrt.org/place/000112"/>
+                         active="http://architecturasinica.org/place/000269"
+                         ref="dcterms:isPartOf"
+                         passive="http://architecturasinica.org/place/000112"/>
             </listRelation>
          </listPlace>
       </body>

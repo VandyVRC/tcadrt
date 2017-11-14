@@ -3,13 +3,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">Nanchansi</title>
-            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <title level="a" xml:lang="en">Nanchan Monastery    
+                             <foreign xml:lang="zh-Hant">南禪寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
@@ -22,13 +25,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://tcadrt.org/place/000066/tei</idno>
+            <idno type="URI">http://architecturasinica.org/place/000066/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-10-24-04:00</date>
+            <date>2017-11-14-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,27 +46,45 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-10-24-04:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000066" type="site">
-               <placeName xml:id="name000066-1" type="site-name" xml:lang="zh-latn-pinyin">Nanchansi</placeName>
-               <placeName xml:id="name000066-2" type="site-name" xml:lang="zh-Hant">南禪寺</placeName>
-               <placeName xml:id="name000066-3" type="site-name" xml:lang="zh-Hans">南禅寺</placeName>
-               <placeName xml:id="name000066-5" xml:lang="en">Nanchan Monastery</placeName>
-               <idno type="URI">http://tcadrt.org/place/000066</idno>
-               <state type="existence" subtype="earliest-period">
-                  <label xml:lang="zh-Hans">唐</label>
-                  <label xml:lang="en">Tang</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
+               <placeName xml:id="name000066-1" type="site-name" xml:lang="en">Nanchan Monastery</placeName>
+               <placeName xml:id="name000066-2" type="site-name" xml:lang="zh-latn-pinyin">Nanchansi</placeName>
+               <placeName xml:id="name000066-3" type="site-name" xml:lang="zh-Hant">南禪寺</placeName>
+               <placeName xml:id="name000066-4" type="site-name" xml:lang="zh-Hans">南禅寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000066</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      from="&#xA;        000066&#xA;        Nanchansi&#xA;        南禪寺&#xA;        南禅寺&#xA;        Nanchansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        南禅寺&#xA;        Nanchansi&#xA;        Nanchan Monastery&#xA;        &#xA;        &#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        山西省五台县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        五台&#xA;        县&#xA;        Wutai&#xA;        County&#xA;        8675821&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        五台县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                        <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
+                  </desc>
                </state>
-               <state type="existence" subtype="latest-period">
-                  <label xml:lang="zh-Hans">唐</label>
-                  <label xml:lang="en">Tang</label>
-                  <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="&#xA;        000066&#xA;        Nanchansi&#xA;        南禪寺&#xA;        南禅寺&#xA;        Nanchansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        南禅寺&#xA;        Nanchansi&#xA;        Nanchan Monastery&#xA;        &#xA;        &#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        山西省五台县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        五台&#xA;        县&#xA;        Wutai&#xA;        County&#xA;        8675821&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        五台县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
+                  <desc>
+                     <bibl>
+                        <author>Endymion Wilkinson</author>
+                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                        <publisher>Harvard: Harvard University Asia Center</publisher>
+                        <date>2000</date>. 
+                                                    <citedRange unit="pp">11-12</citedRange>
+                     </bibl>
+                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
+                  </desc>
                </state>
                <location type="nested">
                   <placeName>山西省五台县</placeName>
@@ -92,6 +113,12 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
+               <trait type="place-type">
+                  <label>Type</label>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="en">monastery</desc>
+               </trait>
             </place>
          </listPlace>
       </body>
