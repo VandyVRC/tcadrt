@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Tiantai Hermitage    
-                             <foreign xml:lang="zh-Hant">天台庵</foreign>
+            <title level="a" xml:lang="en">Tiantai Hermitage <foreign xml:lang="zh-Hant">天台庵</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000093</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000093&#xA;        Tiantaian&#xA;        天台庵&#xA;        天台庵&#xA;        Tiantaian&#xA;        2017-04-03T21:42:00-05:00&#xA;        天台庵&#xA;        Tiantaian&#xA;        Tiantai Hermitage&#xA;        &#xA;        &#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        山西省平顺县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        平顺&#xA;        县&#xA;        Pingshun&#xA;        County&#xA;        8618711&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        平顺县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000093&#xA;        Tiantaian&#xA;        天台庵&#xA;        天台庵&#xA;        Tiantaian&#xA;        2017-04-03T21:42:00-05:00&#xA;        天台庵&#xA;        Tiantaian&#xA;        Tiantai Hermitage&#xA;        &#xA;        &#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        唐&#xA;        Tang&#xA;        山西省平顺县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        平顺&#xA;        县&#xA;        Pingshun&#xA;        County&#xA;        8618711&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        平顺县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
-                  </desc>
+                      source="bibl000093-1"
+                      from="0618"
+                      to="0907">
+                  <label xml:lang="en">Tang</label>
+                  <label xml:lang="zh-Hant">唐</label>
+                  <desc>618-907</desc>
                </state>
                <location type="nested">
                   <placeName>山西省平顺县</placeName>
@@ -113,12 +93,22 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>36.38344 113.3922133</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">an</desc>
                   <desc xml:lang="zh-Hant">庵</desc>
                   <desc xml:lang="en">hermitage</desc>
                </trait>
+               <bibl xml:id="bibl000093-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

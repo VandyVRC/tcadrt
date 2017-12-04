@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Qinshui Shundi Temple    
-                             <foreign xml:lang="zh-Hant">沁水舜帝廟</foreign>
+            <title level="a" xml:lang="en">Qinshui Shundi Temple <foreign xml:lang="zh-Hant">沁水舜帝廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,12 +57,22 @@
                <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
                <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000077</idno>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.60493333 111.97245</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000077-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

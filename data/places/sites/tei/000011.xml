@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Chongfu Monastery    
-                             <foreign xml:lang="zh-Hant">崇福寺</foreign>
+            <title level="a" xml:lang="en">Chongfu Monastery <foreign xml:lang="zh-Hant">崇福寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000011</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000011&#xA;        Chongfusi&#xA;        崇福寺&#xA;        崇福寺&#xA;        Chongfusi&#xA;        2017-04-03T21:42:00-05:00&#xA;        崇福寺弥陀殿&#xA;        Chongfusi&#xA;        Chongfu Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        山西省朔县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        朔&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        朔县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000011&#xA;        Chongfusi&#xA;        崇福寺&#xA;        崇福寺&#xA;        Chongfusi&#xA;        2017-04-03T21:42:00-05:00&#xA;        崇福寺弥陀殿&#xA;        Chongfusi&#xA;        Chongfu Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        山西省朔县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        朔&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        朔县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000011-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
                <location type="nested">
                   <placeName>山西省朔县</placeName>
@@ -106,12 +86,25 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>39.31522222 112.432347</geo>
+               </location>
+               <location type="gps">
+                  <geo>39.31522222 112.432347</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000011-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Tianzi Hall    
-                             <foreign xml:lang="zh-Hant">天齊殿</foreign>
+            <title level="a" xml:lang="en">Tianzi Hall <foreign xml:lang="zh-Hant">天齊殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -85,49 +84,26 @@
                <location type="verbatim">
                   <note>35˚ 33.084' (Garmin) 112˚ 32.111'</note>
                </location>
-               <trait type="place-type">
+               <trait type="building-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">dian</desc>
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="en">hall (palatial)</desc>
                </trait>
+               <bibl xml:id="bibl000232-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
                <note type="field-notes">天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
                          passive="http://architecturasinica.org/keyword/pupaifang"
                          ref="dc:subject">
                   <desc>1</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dc:subject">
-                  <desc>0</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000232"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
@@ -138,11 +114,6 @@
                          passive="http://architecturasinica.org/keyword/cejiao"
                          ref="dc:subject">
                   <desc>1</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
-                         ref="dc:subject">
-                  <desc>0</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000232"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
@@ -163,11 +134,6 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dc:subject">
                   <desc>1</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000232"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dc:subject">
-                  <desc>0</desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000232"

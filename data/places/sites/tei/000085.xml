@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Shanhua Monastery    
-                             <foreign xml:lang="zh-Hant">善化寺</foreign>
+            <title level="a" xml:lang="en">Shanhua Monastery <foreign xml:lang="zh-Hant">善化寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000085</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000085&#xA;        Shanhuasi&#xA;        善化寺&#xA;        善化寺&#xA;        Shanhuasi&#xA;        2017-04-03T21:42:00-05:00&#xA;        善化寺&#xA;        Shanhuasi&#xA;        Shanhua Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        辽,金; rebuilt 1128-1143&#xA;        Liao  to Jin&#xA;        山西省大同市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        大同&#xA;        市&#xA;        Datong&#xA;        City&#xA;        8208819&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        大同市&#xA;        &#xA;        2037794&#xA;        8208820&#xA;        rebuilt 1128-1143&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000085&#xA;        Shanhuasi&#xA;        善化寺&#xA;        善化寺&#xA;        Shanhuasi&#xA;        2017-04-03T21:42:00-05:00&#xA;        善化寺&#xA;        Shanhuasi&#xA;        Shanhua Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        辽,金; rebuilt 1128-1143&#xA;        Liao  to Jin&#xA;        山西省大同市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        大同&#xA;        市&#xA;        Datong&#xA;        City&#xA;        8208819&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        大同市&#xA;        &#xA;        2037794&#xA;        8208820&#xA;        rebuilt 1128-1143&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
-                  </desc>
+                      source="bibl000085-1"
+                      from="0916"
+                      to="1125">
+                  <label xml:lang="en">Liao </label>
+                  <label xml:lang="zh-Hant">遼</label>
+                  <desc>916-1125</desc>
                </state>
                <location type="nested">
                   <placeName>山西省大同市</placeName>
@@ -113,12 +93,31 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>40.0854 113.293533</geo>
+               </location>
+               <location type="gps">
+                  <geo>40.0857166 113.29345</geo>
+               </location>
+               <location type="gps">
+                  <geo>40.0859333 113.293333</geo>
+               </location>
+               <location type="gps">
+                  <geo>40.0862833 113.293166</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000085-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

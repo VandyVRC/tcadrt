@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Yuanqi Monastery    
-                             <foreign xml:lang="zh-Hant">原起寺</foreign>
+            <title level="a" xml:lang="en">Yuanqi Monastery <foreign xml:lang="zh-Hant">原起寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,34 +57,6 @@
                <placeName xml:id="name000110-3" type="site-name" xml:lang="zh-Hant">原起寺</placeName>
                <placeName xml:id="name000110-4" type="site-name" xml:lang="zh-Hans">原起寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000110</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      from="&#xA;        000110&#xA;        Yuanqisi&#xA;        原起寺&#xA;        原起寺&#xA;        Yuanqisi&#xA;        2017-04-03T21:42:00-05:00&#xA;        原起寺&#xA;        Yuanqisi&#xA;        Yuanqi Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        宋&#xA;        Song&#xA;        山西省潞城市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        潞城&#xA;        市&#xA;        Lucheng&#xA;        City&#xA;        8620152&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        潞城市&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000110&#xA;        Yuanqisi&#xA;        原起寺&#xA;        原起寺&#xA;        Yuanqisi&#xA;        2017-04-03T21:42:00-05:00&#xA;        原起寺&#xA;        Yuanqisi&#xA;        Yuanqi Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        宋&#xA;        Song&#xA;        山西省潞城市&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        潞城&#xA;        市&#xA;        Lucheng&#xA;        City&#xA;        8620152&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        潞城市&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
                <location type="nested">
                   <placeName>山西省潞城市</placeName>
                   <country>China</country>
@@ -113,12 +84,25 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>36.35326667 113.4258</geo>
+               </location>
+               <location type="gps">
+                  <geo>36.35326667 113.4258</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000110-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

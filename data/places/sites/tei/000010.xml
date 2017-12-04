@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Chengtang Temple    
-                             <foreign xml:lang="zh-Hant">成湯廟</foreign>
+            <title level="a" xml:lang="en">Chengtang Temple <foreign xml:lang="zh-Hant">成湯廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000010</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000010&#xA;        Chengtangmiao&#xA;        成湯廟&#xA;        成汤庙&#xA;        Chengtangmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        成汤庙山门&#xA;        Chengtangmiao&#xA;        Chengtang Temple&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金 1164&#xA;        Jin&#xA;        河北省邯鄲涉县&#xA;        河北&#xA;        河北&#xA;        Hebei&#xA;        河北省&#xA;        河北省&#xA;        邯鄲&#xA;        市&#xA;        &#xA;        City&#xA;        &#xA;        &#xA;        涉&#xA;        县&#xA;        &#xA;        邯鄲涉县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000010&#xA;        Chengtangmiao&#xA;        成湯廟&#xA;        成汤庙&#xA;        Chengtangmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        成汤庙山门&#xA;        Chengtangmiao&#xA;        Chengtang Temple&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金 1164&#xA;        Jin&#xA;        河北省邯鄲涉县&#xA;        河北&#xA;        河北&#xA;        Hebei&#xA;        河北省&#xA;        河北省&#xA;        邯鄲&#xA;        市&#xA;        &#xA;        City&#xA;        &#xA;        &#xA;        涉&#xA;        县&#xA;        &#xA;        邯鄲涉县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000010-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
                <location type="nested">
                   <placeName>河北省邯鄲涉县</placeName>
@@ -109,12 +89,19 @@
                      <placeName xml:lang="zh-Hans">涉</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000010-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

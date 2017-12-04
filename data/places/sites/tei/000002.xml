@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Baitai Monastery    
-                             <foreign xml:lang="zh-Hant">白臺寺</foreign>
+            <title level="a" xml:lang="en">Baitai Monastery <foreign xml:lang="zh-Hant">白臺寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,33 +57,15 @@
                <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
                <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000002</idno>
+               <desc type="site-data">白台寺 金至清 山西省，运城市， 新绛县 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099 126 – C 1, (About 200 meters southwest of Gujiao village in Guangma town•Jin and Yuan Dynasties•Provincial Cultural Heritage Site) (untranslated CG) Also called Pŭhuàsì (普化寺). Called Băitáisì (white seat temple) because legend holds Buddha’s lotus throne to be white. According to stele inscription,had many restorations in the fourtheenth year of Tang Kaiyuan (726)、and between the Jin Dading and Mingchang years, further restored in the first year of Zhizheng (1355) and the sixth year of Ming Zhengde (1511). Increase in construction in Qing Dynasty. Occupancy area of 4,482 square meters. Facing south, 2 entrance courtyard design, axial buildings include a sāndīfăcánggé (三滴法藏阁)， shìjiādiàn (释迦殿)， and a hòudàdiàn (后大殿)， on either side there is an east shānmén (山门） and a west wing. Within complex interior is preserved a Tang dynasty pagoda, a Song dynasty jīngchuáng(经幢) stone pillar with Buddhist inscriptions, a Song cloud board from the third year of Xuanhe (1121) , and 18 colored/painted walls. Translated by Lydia Ohl; edited by Cole Garrett</desc>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000002&#xA;        Baitaisi&#xA;        白臺寺&#xA;        白台寺&#xA;        Baitaisi&#xA;        2017-04-03T21:42:00-05:00&#xA;        白台寺&#xA;        Baitaisi&#xA;        Baitai Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        金至清&#xA;        Jin to Qing&#xA;        山西省新绛县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        新绛&#xA;        县&#xA;        Xinjiang&#xA;        County&#xA;        8675152&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        新绛县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000002&#xA;        Baitaisi&#xA;        白臺寺&#xA;        白台寺&#xA;        Baitaisi&#xA;        2017-04-03T21:42:00-05:00&#xA;        白台寺&#xA;        Baitaisi&#xA;        Baitai Monastery&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        金至清&#xA;        Jin to Qing&#xA;        山西省新绛县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        新绛&#xA;        县&#xA;        Xinjiang&#xA;        County&#xA;        8675152&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        新绛县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000002-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
                <location type="nested">
                   <placeName>山西省新绛县</placeName>
@@ -113,12 +94,28 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.66366667 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.66345 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.663933 111.06937</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000002-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

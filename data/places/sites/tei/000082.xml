@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Ruicheng City God Temple    
-                             <foreign xml:lang="zh-Hant">芮城城隍廟</foreign>
+            <title level="a" xml:lang="en">Ruicheng City God Temple <foreign xml:lang="zh-Hant">芮城城隍廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000082</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000082&#xA;        Ruicheng Chenghuangmiao&#xA;        芮城城隍廟&#xA;        芮城城隍庙&#xA;        Ruicheng_Chenghuangmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        芮城城隍庙&#xA;        Ruicheng Chenghuangmiao&#xA;        Ruicheng City God Temple&#xA;        &#xA;        &#xA;        北宋&#xA;        Northern Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        北宋至清: Main Hall Song--11th cen?&#xA;        Northern Song to Qing&#xA;        山西省芮城县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        芮城&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        芮城县&#xA;        &#xA;        &#xA;        &#xA;        Main Hall Song--11th cen?&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000082&#xA;        Ruicheng Chenghuangmiao&#xA;        芮城城隍廟&#xA;        芮城城隍庙&#xA;        Ruicheng_Chenghuangmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        芮城城隍庙&#xA;        Ruicheng Chenghuangmiao&#xA;        Ruicheng City God Temple&#xA;        &#xA;        &#xA;        北宋&#xA;        Northern Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        北宋至清: Main Hall Song--11th cen?&#xA;        Northern Song to Qing&#xA;        山西省芮城县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        芮城&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        芮城县&#xA;        &#xA;        &#xA;        &#xA;        Main Hall Song--11th cen?&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
+                      source="bibl000082-1"
+                      from="0960"
+                      to="1127">
+                  <label xml:lang="en">Northern Song</label>
+                  <label xml:lang="zh-Hant">北宋</label>
+                  <desc>960-1127</desc>
                </state>
                <location type="nested">
                   <placeName>山西省芮城县</placeName>
@@ -106,12 +86,19 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000082-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

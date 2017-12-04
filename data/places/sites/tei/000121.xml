@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Zhenguo Monastery    
-                             <foreign xml:lang="zh-Hant">鎮國寺</foreign>
+            <title level="a" xml:lang="en">Zhenguo Monastery <foreign xml:lang="zh-Hant">鎮國寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,34 +57,6 @@
                <placeName xml:id="name000121-3" type="site-name" xml:lang="zh-Hant">鎮國寺</placeName>
                <placeName xml:id="name000121-4" type="site-name" xml:lang="zh-Hans">镇国寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000121</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      from="&#xA;        000121&#xA;        Zhenguosi&#xA;        鎮國寺&#xA;        镇国寺&#xA;        Zhenguosi&#xA;        2017-04-03T21:42:00-05:00&#xA;        镇国寺&#xA;        Zhenguosi&#xA;        Zhenguo Monastery&#xA;        &#xA;        &#xA;        五代&#xA;        Five Dynasties&#xA;        http://n2t.net/ark:/99152/p0fp7wv5h26&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        五代至清&#xA;        Five Dynasties to Qing&#xA;        山西省平遥县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        平遥&#xA;        县&#xA;        Pingyao&#xA;        County&#xA;        8619493&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        平遥县&#xA;        &#xA;        1798635&#xA;        8619493&#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wv5h26">http://n2t.net/ark:/99152/p0fp7wv5h26</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000121&#xA;        Zhenguosi&#xA;        鎮國寺&#xA;        镇国寺&#xA;        Zhenguosi&#xA;        2017-04-03T21:42:00-05:00&#xA;        镇国寺&#xA;        Zhenguosi&#xA;        Zhenguo Monastery&#xA;        &#xA;        &#xA;        五代&#xA;        Five Dynasties&#xA;        http://n2t.net/ark:/99152/p0fp7wv5h26&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        五代至清&#xA;        Five Dynasties to Qing&#xA;        山西省平遥县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        平遥&#xA;        县&#xA;        Pingyao&#xA;        County&#xA;        8619493&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        平遥县&#xA;        &#xA;        1798635&#xA;        8619493&#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wv5h26">http://n2t.net/ark:/99152/p0fp7wv5h26</ref>
-                  </desc>
-               </state>
                <location type="nested">
                   <placeName>山西省平遥县</placeName>
                   <country>China</country>
@@ -113,12 +84,22 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>37.25298611 112.248006</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000121-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

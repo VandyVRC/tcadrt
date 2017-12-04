@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Sandifacang Pavilion    
-                             <foreign xml:lang="zh-Hant">三滴法藏閣</foreign>
+            <title level="a" xml:lang="en">Sandifazang Pavilion <foreign xml:lang="zh-Hant">三滴法藏閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,23 +45,23 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000126" type="building">
-               <placeName xml:id="name000126-1" xml:lang="en">Sandifacang Pavilion</placeName>
+               <placeName xml:id="name000126-1" xml:lang="en">Sandifazang Pavilion</placeName>
                <placeName xml:id="name000126-2" type="building-name" xml:lang="zh-Hant">三滴法藏閣</placeName>
                <placeName xml:id="name000126-3" type="building-name" xml:lang="zh-Hans">三滴法藏阁</placeName>
                <placeName xml:id="name000126-4"
                           type="building-name"
-                          xml:lang="zh-latn-pinyin">Sandifacangge</placeName>
+                          xml:lang="zh-latn-pinyin">Sandifazangge</placeName>
                <placeName xml:id="name000126-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="en">Baitaisi Sandifacangge</placeName>
+                          xml:lang="en">Baitaisi Sandifazangge</placeName>
                <placeName xml:id="name000126-6"
                           type="alternate"
                           subtype="building-name-in-site"
@@ -71,7 +70,7 @@
                           type="alternate"
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">白台寺三滴法藏阁</placeName>
-               <placeName xml:id="name000126-11" type="alternate">Sandi facanghall</placeName>
+               <placeName xml:id="name000126-11" type="alternate">Sandi fazanghall</placeName>
                <desc type="building-data">白台寺 金至清 山西省，运城市， 新绛县
 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1-1 Sāndīfăcánggé (三滴法藏阁)      Yuan Dynasty
 
@@ -84,90 +83,22 @@ Established in the Jin dynasty, restoration done in the Yuan dynasty. Building b
                <location type="verbatim">
                   <note>35° 39.807' (±17ft) 111° 4.164'</note>
                </location>
-               <trait type="place-type">
+               <trait type="building-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">ge</desc>
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="en">pavilion (multi-level)</desc>
                </trait>
+               <bibl xml:id="bibl000126-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
                <note type="notes">Axis: c, roof style: o-g, front façade: 36' 5"</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000126"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dc:subject">
-                  <desc/>
-               </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831083567_d6b3700966_"
                          passive="http://architecturasinica.org/place/000126">

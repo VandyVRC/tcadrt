@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery    
-                             <foreign xml:lang="zh-Hant">隆興寺</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery <foreign xml:lang="zh-Hant">隆興寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,34 +57,6 @@
                <placeName xml:id="name000064-3" type="site-name" xml:lang="zh-Hant">隆興寺</placeName>
                <placeName xml:id="name000064-4" type="site-name" xml:lang="zh-Hans">隆兴寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000064</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      from="&#xA;        000064&#xA;        Longxingsi&#xA;        隆興寺&#xA;        隆兴寺&#xA;        Longxingsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        隆兴寺&#xA;        Longxingsi&#xA;        Longxing Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        initially built 586; now 宋 10th-11th century&#xA;        Song&#xA;        河北省正定县&#xA;        河北&#xA;        河北&#xA;        Hebei&#xA;        河北省&#xA;        河北省&#xA;        正定&#xA;        县&#xA;        Zhengding&#xA;        County&#xA;        8683355&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        正定县&#xA;        &#xA;        &#xA;        &#xA;        itially built 586; now 宋 10th-11th century&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000064&#xA;        Longxingsi&#xA;        隆興寺&#xA;        隆兴寺&#xA;        Longxingsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        隆兴寺&#xA;        Longxingsi&#xA;        Longxing Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wv9x7n&#xA;        initially built 586; now 宋 10th-11th century&#xA;        Song&#xA;        河北省正定县&#xA;        河北&#xA;        河北&#xA;        Hebei&#xA;        河北省&#xA;        河北省&#xA;        正定&#xA;        县&#xA;        Zhengding&#xA;        County&#xA;        8683355&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        正定县&#xA;        &#xA;        &#xA;        &#xA;        itially built 586; now 宋 10th-11th century&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
                <location type="nested">
                   <placeName>河北省正定县</placeName>
                   <country>China</country>
@@ -113,12 +84,31 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>38.14109167 114.5763528</geo>
+               </location>
+               <location type="gps">
+                  <geo>38.14256944 114.5762444</geo>
+               </location>
+               <location type="gps">
+                  <geo>38.14345556 114.5761833</geo>
+               </location>
+               <location type="gps">
+                  <geo>38.14363611 114.5765111</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000064-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

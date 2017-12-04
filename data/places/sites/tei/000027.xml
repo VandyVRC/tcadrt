@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Fengguo Monastery    
-                             <foreign xml:lang="zh-Hant">奉國寺</foreign>
+            <title level="a" xml:lang="en">Fengguo Monastery <foreign xml:lang="zh-Hant">奉國寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000027</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000027&#xA;        Fengguosi&#xA;        奉國寺&#xA;        奉国寺&#xA;        Fengguosi&#xA;        2017-04-03T21:42:00-05:00&#xA;        奉国寺&#xA;        Fengguosi&#xA;        Fengguo Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽 1020&#xA;        Liao &#xA;        辽宁省义县&#xA;        辽宁&#xA;        遼寧&#xA;        Liaoning&#xA;        辽宁省&#xA;        遼寧省&#xA;        义&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        义县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000027&#xA;        Fengguosi&#xA;        奉國寺&#xA;        奉国寺&#xA;        Fengguosi&#xA;        2017-04-03T21:42:00-05:00&#xA;        奉国寺&#xA;        Fengguosi&#xA;        Fengguo Monastery&#xA;        &#xA;        &#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽&#xA;        Liao &#xA;        http://n2t.net/ark:/99152/p0fp7wvw8zq&#xA;        辽 1020&#xA;        Liao &#xA;        辽宁省义县&#xA;        辽宁&#xA;        遼寧&#xA;        Liaoning&#xA;        辽宁省&#xA;        遼寧省&#xA;        义&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        义县&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvw8zq">http://n2t.net/ark:/99152/p0fp7wvw8zq</ref>
-                  </desc>
+                      source="bibl000027-1"
+                      from="0916"
+                      to="1125">
+                  <label xml:lang="en">Liao </label>
+                  <label xml:lang="zh-Hant">遼</label>
+                  <desc>916-1125</desc>
                </state>
                <location type="nested">
                   <placeName>辽宁省义县</placeName>
@@ -106,12 +86,22 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>41.5430333 121.2424167</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000027-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

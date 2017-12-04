@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Cuifujun Temple in Qinshui    
-                             <foreign xml:lang="zh-Hant">沁水崔府君廟</foreign>
+            <title level="a" xml:lang="en">Cuifujun Temple in Qinshui <foreign xml:lang="zh-Hant">沁水崔府君廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,31 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000075</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000075&#xA;        Qinshui Cuifujunmiao&#xA;        沁水崔府君廟&#xA;        沁水崔府君庙&#xA;        Qinshui_Cuifujunmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水崔府君庙&#xA;        Qinshui Cuifujunmiao&#xA;        Cuifujun Temple in Qinshui&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        元&#xA;        Yuan&#xA;        http://n2t.net/ark:/99152/p0fp7wvvrz5&#xA;        金元&#xA;        Jin to Yuan&#xA;        山西省沁水县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        沁水&#xA;        县&#xA;        Qinshui&#xA;        County&#xA;        8627543&#xA;        300387198&#xA;        加丰&#xA;        镇&#xA;        郭南村&#xA;        加丰镇郭南村&#xA;        Jiafengzhen_Guonancun&#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000075&#xA;        Qinshui Cuifujunmiao&#xA;        沁水崔府君廟&#xA;        沁水崔府君庙&#xA;        Qinshui_Cuifujunmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水崔府君庙&#xA;        Qinshui Cuifujunmiao&#xA;        Cuifujun Temple in Qinshui&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        元&#xA;        Yuan&#xA;        http://n2t.net/ark:/99152/p0fp7wvvrz5&#xA;        金元&#xA;        Jin to Yuan&#xA;        山西省沁水县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        沁水&#xA;        县&#xA;        Qinshui&#xA;        County&#xA;        8627543&#xA;        300387198&#xA;        加丰&#xA;        镇&#xA;        郭南村&#xA;        加丰镇郭南村&#xA;        Jiafengzhen_Guonancun&#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000075-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
                <location type="nested">
                   <placeName>山西省沁水县</placeName>
@@ -117,12 +97,22 @@
                      <placeName xml:lang="en">Jiafengzhen_Guonancun</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.63165 112.5239667</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000075-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Mahāvīra Treasure Hall    
-                             <foreign xml:lang="zh-Hant">大雄寶殿</foreign>
+            <title level="a" xml:lang="en">Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">大雄寶殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,30 +79,22 @@
                <location type="verbatim">
                   <note>29˚ 58.98' N  (Magellan) 121˚ 31.01' E (Magellan) 121˚ 30' 57.99" E (google earth)</note>
                </location>
-               <trait type="place-type">
+               <trait type="building-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">dian</desc>
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="en">hall (palatial)</desc>
                </trait>
+               <bibl xml:id="bibl000132-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
                <note type="field-notes">early 11th cen. Example of style in YZFS; Dated to 1013 in later inscription on stauary platform; Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
                <relation active="http://architecturasinica.org/place/000132"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
                          ref="dc:subject">
@@ -115,29 +106,14 @@
                   <desc>2</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
                          ref="dc:subject">
                   <desc>1</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
                          passive="http://architecturasinica.org/keyword/cejiao"
                          ref="dc:subject">
                   <desc>1</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
-                         ref="dc:subject">
-                  <desc>0</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000132"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
@@ -148,16 +124,6 @@
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dc:subject">
                   <desc>2</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject">
-                  <desc>0</desc>
-               </relation>
-               <relation active="http://architecturasinica.org/place/000132"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>0</desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000132"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"

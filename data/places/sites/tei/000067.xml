@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">South Jixiang Monastery    
-                             <foreign xml:lang="zh-Hant">南吉祥寺</foreign>
+            <title level="a" xml:lang="en">South Jixiang Monastery <foreign xml:lang="zh-Hant">南吉祥寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,34 +57,6 @@
                <placeName xml:id="name000067-3" type="site-name" xml:lang="zh-Hant">南吉祥寺</placeName>
                <placeName xml:id="name000067-4" type="site-name" xml:lang="zh-Hans">南吉祥寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000067</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      from="&#xA;        000067&#xA;        Nanjixiangsi&#xA;        南吉祥寺&#xA;        南吉祥寺&#xA;        Nanjixiangsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        南吉祥寺&#xA;        Nanjixiangsi&#xA;        South Jixiang Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        宋－清&#xA;        Song to Qing&#xA;        山西省陵川县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        陵川&#xA;        县&#xA;        Lingchuan&#xA;        County&#xA;        8623563&#xA;        300387198&#xA;        平川&#xA;        村&#xA;        &#xA;        陵川县平川&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000067&#xA;        Nanjixiangsi&#xA;        南吉祥寺&#xA;        南吉祥寺&#xA;        Nanjixiangsi&#xA;        2017-04-03T21:42:00-05:00&#xA;        南吉祥寺&#xA;        Nanjixiangsi&#xA;        South Jixiang Monastery&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        宋－清&#xA;        Song to Qing&#xA;        山西省陵川县&#xA;        山西&#xA;        山西&#xA;        Shanxi&#xA;        山西省&#xA;        山西省&#xA;        陵川&#xA;        县&#xA;        Lingchuan&#xA;        County&#xA;        8623563&#xA;        300387198&#xA;        平川&#xA;        村&#xA;        &#xA;        陵川县平川&#xA;        &#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
                <location type="nested">
                   <placeName>山西省陵川县</placeName>
                   <country>China</country>
@@ -116,12 +87,22 @@
                      <placeName xml:lang="zh-Hans">平川</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.77675 113.12075</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000067-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

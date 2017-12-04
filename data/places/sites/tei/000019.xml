@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Great Temple    
-                             <foreign xml:lang="zh-Hant">大廟</foreign>
+            <title level="a" xml:lang="en">Great Temple <foreign xml:lang="zh-Hant">大廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,34 +57,6 @@
                <placeName xml:id="name000019-3" type="site-name" xml:lang="zh-Hant">大廟</placeName>
                <placeName xml:id="name000019-4" type="site-name" xml:lang="zh-Hans">大庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000019</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      from="&#xA;        000019&#xA;        Damiao&#xA;        大廟&#xA;        大庙&#xA;        Damiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        大庙飞来殿&#xA;        Damiao&#xA;        Great Temple&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        元&#xA;        Yuan&#xA;        http://n2t.net/ark:/99152/p0fp7wvvrz5&#xA;        宋至元: 993 or 1327 see: ZGMSCD, p. 922&#xA;        Song to Yuan&#xA;        四川省峨眉县&#xA;        四川&#xA;        四川&#xA;        Sichuan&#xA;        四川省&#xA;        四川省&#xA;        峨眉&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        峨眉县&#xA;        &#xA;        &#xA;        &#xA;        993 or 1327 see: ZGMSCD, p. 922&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000019&#xA;        Damiao&#xA;        大廟&#xA;        大庙&#xA;        Damiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        大庙飞来殿&#xA;        Damiao&#xA;        Great Temple&#xA;        &#xA;        &#xA;        宋&#xA;        Song&#xA;        http://n2t.net/ark:/99152/p0fp7wvjvn8&#xA;        元&#xA;        Yuan&#xA;        http://n2t.net/ark:/99152/p0fp7wvvrz5&#xA;        宋至元: 993 or 1327 see: ZGMSCD, p. 922&#xA;        Song to Yuan&#xA;        四川省峨眉县&#xA;        四川&#xA;        四川&#xA;        Sichuan&#xA;        四川省&#xA;        四川省&#xA;        峨眉&#xA;        县&#xA;        &#xA;        County&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        峨眉县&#xA;        &#xA;        &#xA;        &#xA;        993 or 1327 see: ZGMSCD, p. 922&#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvjvn8">http://n2t.net/ark:/99152/p0fp7wvjvn8</ref>
-                  </desc>
-               </state>
                <location type="nested">
                   <placeName>四川省峨眉县</placeName>
                   <country>China</country>
@@ -106,12 +77,19 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000019-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

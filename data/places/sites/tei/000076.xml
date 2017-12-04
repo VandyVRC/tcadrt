@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longyan Moastery in Qinshui    
-                             <foreign xml:lang="zh-Hant">沁水龍岩寺</foreign>
+            <title level="a" xml:lang="en">Longyan Moastery in Qinshui <foreign xml:lang="zh-Hant">沁水龍岩寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,38 +59,29 @@
                <idno type="URI">http://architecturasinica.org/place/000076</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000076&#xA;        Qinshui Longyansi&#xA;        沁水龍岩寺&#xA;        沁水龙岩寺&#xA;        Qinshui_Longyansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水龙岩寺&#xA;        Qinshui Longyansi&#xA;        Longyan Moastery in Qinshui&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        Qinshuixian_Zhongcunzhen_Shanggecun&#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000076-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000076&#xA;        Qinshui Longyansi&#xA;        沁水龍岩寺&#xA;        沁水龙岩寺&#xA;        Qinshui_Longyansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        沁水龙岩寺&#xA;        Qinshui Longyansi&#xA;        Longyan Moastery in Qinshui&#xA;        &#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        金&#xA;        Jin&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        Qinshuixian_Zhongcunzhen_Shanggecun&#xA;        &#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.60273333 111.97115</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000076-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

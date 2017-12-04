@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Lingyan Monastery    
-                             <foreign xml:lang="zh-Hant">靈岩寺</foreign>
+            <title level="a" xml:lang="en">Lingyan Monastery <foreign xml:lang="zh-Hant">靈岩寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,31 +61,12 @@
                <idno type="site_getty_togn_id">8625249</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000061&#xA;        Lingyansi&#xA;        靈岩寺&#xA;        灵岩寺&#xA;        Lingyansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        灵岩寺 &#xA;        Lingyansi&#xA;        Lingyan Monastery&#xA;        1803429&#xA;        8625249&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        唐至清&#xA;        Tang to Qing&#xA;        山东省长清县&#xA;        山东&#xA;        山東&#xA;        Shandong&#xA;        山东省&#xA;        山東省&#xA;        长清&#xA;        县&#xA;        Changqing Qu&#xA;        County&#xA;        8208980&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        长清县&#xA;        Changqing District&#xA;        1815582&#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000061&#xA;        Lingyansi&#xA;        靈岩寺&#xA;        灵岩寺&#xA;        Lingyansi&#xA;        2017-04-03T21:42:00-05:00&#xA;        灵岩寺 &#xA;        Lingyansi&#xA;        Lingyan Monastery&#xA;        1803429&#xA;        8625249&#xA;        唐&#xA;        Tang&#xA;        http://n2t.net/ark:/99152/p0fp7wvrjpj&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        唐至清&#xA;        Tang to Qing&#xA;        山东省长清县&#xA;        山东&#xA;        山東&#xA;        Shandong&#xA;        山东省&#xA;        山東省&#xA;        长清&#xA;        县&#xA;        Changqing Qu&#xA;        County&#xA;        8208980&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        长清县&#xA;        Changqing District&#xA;        1815582&#xA;        &#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvrjpj">http://n2t.net/ark:/99152/p0fp7wvrjpj</ref>
-                  </desc>
+                      source="bibl000061-1"
+                      from="0618"
+                      to="0907">
+                  <label xml:lang="en">Tang</label>
+                  <label xml:lang="zh-Hant">唐</label>
+                  <desc>618-907</desc>
                </state>
                <location type="nested">
                   <placeName>山东省长清县</placeName>
@@ -118,12 +98,22 @@
                      <placeName xml:lang="en">Changqing District</placeName>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>36.3632666 116.977683</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="en">monastery</desc>
                </trait>
+               <bibl xml:id="bibl000061-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>

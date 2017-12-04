@@ -9,8 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Temple of Confucius in Qufu    
-                             <foreign xml:lang="zh-Hant">曲阜孔廟</foreign>
+            <title level="a" xml:lang="en">Temple of Confucius in Qufu <foreign xml:lang="zh-Hant">曲阜孔廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-14-05:00</date>
+            <date>2017-11-15-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-14-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,31 +60,12 @@
                <idno type="site_geonames_id">9072554</idno>
                <state type="existence"
                       subtype="earliest-period"
-                      from="&#xA;        000081&#xA;        Qufu Kongmiao&#xA;        曲阜孔廟&#xA;        曲阜孔庙&#xA;        Kongmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        曲阜孔庙&#xA;        Kongmiao&#xA;        Temple of Confucius in Qufu&#xA;        9072554&#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        金至清&#xA;        Jin to Qing&#xA;        山东省曲阜县&#xA;        山东&#xA;        山東&#xA;        Shandong&#xA;        山东省&#xA;        山東省&#xA;        曲阜&#xA;        县&#xA;        Qufu&#xA;        County&#xA;        8631848&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        曲阜县&#xA;        &#xA;        &#xA;        8631848&#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                        <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="&#xA;        000081&#xA;        Qufu Kongmiao&#xA;        曲阜孔廟&#xA;        曲阜孔庙&#xA;        Kongmiao&#xA;        2017-04-03T21:42:00-05:00&#xA;        曲阜孔庙&#xA;        Kongmiao&#xA;        Temple of Confucius in Qufu&#xA;        9072554&#xA;        &#xA;        金&#xA;        Jin&#xA;        http://n2t.net/ark:/99152/p0fp7wvmghn&#xA;        清&#xA;        Qing&#xA;        http://n2t.net/ark:/99152/p0fp7wvtqp9&#xA;        金至清&#xA;        Jin to Qing&#xA;        山东省曲阜县&#xA;        山东&#xA;        山東&#xA;        Shandong&#xA;        山东省&#xA;        山東省&#xA;        曲阜&#xA;        县&#xA;        Qufu&#xA;        County&#xA;        8631848&#xA;        300387198&#xA;        &#xA;        &#xA;        &#xA;        曲阜县&#xA;        &#xA;        &#xA;        8631848&#xA;        &#xA;    ">
-                  <desc>
-                     <bibl>
-                        <author>Endymion Wilkinson</author>
-                        <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                        <publisher>Harvard: Harvard University Asia Center</publisher>
-                        <date>2000</date>. 
-                                                    <citedRange unit="pp">11-12</citedRange>
-                     </bibl>
-                     <ref target="http://n2t.net/ark:/99152/p0fp7wvmghn">http://n2t.net/ark:/99152/p0fp7wvmghn</ref>
-                  </desc>
+                      source="bibl000081-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
                </state>
                <location type="nested">
                   <placeName>山东省曲阜县</placeName>
@@ -114,12 +94,22 @@
                           type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
-               <trait type="place-type">
+               <location type="gps">
+                  <geo>35.5955833 116.98405</geo>
+               </location>
+               <trait type="site-type">
                   <label>Type</label>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="en">temple</desc>
                </trait>
+               <bibl xml:id="bibl000081-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
             </place>
          </listPlace>
       </body>
