@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">stone gateway <foreign xml:lang="zh-Hant">石坊</foreign>
+            <title level="a" xml:lang="en">Liang Cheng ancient ward, stone gateway <foreign xml:lang="zh-Hant">兩程故裡石坊</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,13 @@
                <idno type="URI">http://architecturasinica.org/place/000201</idno>
                <state type="existence"/>
                <trait type="building-type">
-                  <label>Type</label>
+                  <label>Building Type</label>
+               </trait>
+               <trait type="site-type" source="#bibl000201-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">ward</desc>
+                  <desc xml:lang="zh-Hant">里</desc>
+                  <desc xml:lang="zh-latn-pinyin">li</desc>
                </trait>
                <bibl xml:id="bibl000201-1">
                   <author>Endymion Wilkinson</author>

@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Mountain Gate <foreign xml:lang="zh-Hant">山門</foreign>
+            <title level="a" xml:lang="en">Chongjiao Monastery, Mountain Gate <foreign xml:lang="zh-Hant">崇教寺山門</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,10 +80,16 @@
                   <note>N 36° 20.574' (±15ft) E 113° 6.792' (±15ft)</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">men</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">gatehouse</desc>
+                  <desc xml:lang="zh-Hant">門</desc>
+                  <desc xml:lang="zh-latn-pinyin">men</desc>
+               </trait>
+               <trait type="site-type" source="#bibl000146-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
                </trait>
                <bibl xml:id="bibl000146-1">
                   <author>Endymion Wilkinson</author>

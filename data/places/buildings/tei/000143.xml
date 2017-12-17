@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">main hall <foreign xml:lang="zh-Hant">正殿</foreign>
+            <title level="a" xml:lang="en">Chongjiao Monastery, main hall <foreign xml:lang="zh-Hant">崇教寺正殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,10 +80,16 @@
                   <note>36˚ 20.590' 113˚ 06.789'</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">hall (palatial)</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+               </trait>
+               <trait type="site-type" source="#bibl000143-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
                </trait>
                <bibl xml:id="bibl000143-1">
                   <author>Endymion Wilkinson</author>

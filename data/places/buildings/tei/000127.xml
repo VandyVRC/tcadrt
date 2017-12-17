@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">back great hall <foreign xml:lang="zh-Hant">後大殿</foreign>
+            <title level="a" xml:lang="en">Baitai Monastery, back great hall <foreign xml:lang="zh-Hant">白臺寺後大殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,11 +83,26 @@ Built in the eleventh year of Yuan Zhiyuan(1274), stone podium 0.33 meters tall,
                   <note>35° 39.836' (±17ft) 111° 4.162' (±17ft)</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">hall (palatial)</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
                </trait>
+               <trait type="site-type" source="#bibl000127-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000127-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <bibl xml:id="bibl000127-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

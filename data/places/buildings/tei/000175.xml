@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Shanji Pagoda <foreign xml:lang="zh-Hant">善濟塔</foreign>
+            <title level="a" xml:lang="en">Guangde Monastery, Shanji Pagoda <foreign xml:lang="zh-Hant">廣德寺善濟塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,10 +73,16 @@
                <placeName xml:id="name000175-11" type="alternate"> </placeName>
                <idno type="URI">http://architecturasinica.org/place/000175</idno>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">ta</desc>
-                  <desc xml:lang="zh-Hant">塔</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+               </trait>
+               <trait type="site-type" source="#bibl000175-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
                </trait>
                <bibl xml:id="bibl000175-1">
                   <author>Endymion Wilkinson</author>

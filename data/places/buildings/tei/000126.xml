@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Sandifazang Pavilion <foreign xml:lang="zh-Hant">三滴法藏閣</foreign>
+            <title level="a" xml:lang="en">Baitai Monastery, Sandifazang Pavilion <foreign xml:lang="zh-Hant">白臺寺三滴法藏閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,11 +84,26 @@ Established in the Jin dynasty, restoration done in the Yuan dynasty. Building b
                   <note>35° 39.807' (±17ft) 111° 4.164'</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">ge</desc>
-                  <desc xml:lang="zh-Hant">閣</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">pavilion (multi-level)</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
                </trait>
+               <trait type="site-type" source="#bibl000126-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000126-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <bibl xml:id="bibl000126-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">main hall <foreign xml:lang="zh-Hant">正殿</foreign>
+            <title level="a" xml:lang="en">Erxian Temple in Nanshentou, main hall <foreign xml:lang="zh-Hant">南神頭二仙廟正殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,11 +80,26 @@
                   <note>35˚ 41.733' 113˚ 21.579'</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">hall (palatial)</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
                </trait>
+               <trait type="site-type" source="#bibl000216-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000216-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <bibl xml:id="bibl000216-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

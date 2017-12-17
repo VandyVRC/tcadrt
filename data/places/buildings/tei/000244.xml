@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">大雄寶殿</foreign>
+            <title level="a" xml:lang="en">Taiyin Monastery, Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">太陰寺大雄寶殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,11 +80,26 @@
                   <note>35˚ 29.606' (Garmin) 111˚ 38.923'</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">hall (palatial)</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
                </trait>
+               <trait type="site-type" source="#bibl000244-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000244-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <bibl xml:id="bibl000244-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

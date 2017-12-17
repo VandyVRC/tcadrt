@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">sutra pavilion <foreign xml:lang="zh-Hant">藏經閣</foreign>
+            <title level="a" xml:lang="en">Qinglian Monastery, sutra pavilion <foreign xml:lang="zh-Hant">青蓮寺藏經閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,11 +80,26 @@
                   <note>35˚ 27' 30.66" N (google earth-satellite) 112˚ 59' 21.42" E </note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">ge</desc>
-                  <desc xml:lang="zh-Hant">閣</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">pavilion (multi-level)</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
                </trait>
+               <trait type="site-type" source="#bibl000224-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000224-1"
+                      from="0618"
+                      to="0907">
+                  <label xml:lang="en">Tang</label>
+                  <label xml:lang="zh-Hant">唐</label>
+                  <desc>618-907</desc>
+               </state>
                <bibl xml:id="bibl000224-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Mountain Gate <foreign xml:lang="zh-Hant">山門</foreign>
+            <title level="a" xml:lang="en">Baiyu Palace, Mountain Gate <foreign xml:lang="zh-Hant">白玉宮山門</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,11 +79,26 @@
                   <note>35° 39.448' (±18ft) 113° 14.479' (±18ft)</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">men</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">gatehouse</desc>
+                  <desc xml:lang="zh-Hant">門</desc>
+                  <desc xml:lang="zh-latn-pinyin">men</desc>
                </trait>
+               <trait type="site-type" source="#bibl000129-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">palace</desc>
+                  <desc xml:lang="zh-Hant">宮</desc>
+                  <desc xml:lang="zh-latn-pinyin">gong</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000129-1"
+                      from="1115"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <bibl xml:id="bibl000129-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Guanyin Pavilion <foreign xml:lang="zh-Hant">觀音閣</foreign>
+            <title level="a" xml:lang="en">Dule Monastery, Guanyin Pavilion <foreign xml:lang="zh-Hant">獨樂寺觀音閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-15-05:00</date>
+            <date>2017-12-16-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-15-05:00">CREATED: place record</change>
+         <change n="1.0" when="2017-12-16-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,11 +80,26 @@
                   <note>40˚ 02.628' N (Garmin) 117˚ 23.801' E</note>
                </location>
                <trait type="building-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">ge</desc>
-                  <desc xml:lang="zh-Hant">閣</desc>
+                  <label>Building Type</label>
                   <desc xml:lang="en">pavilion (multi-level)</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
                </trait>
+               <trait type="site-type" source="#bibl000164-1">
+                  <label>Site Type</label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+               </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000164-1"
+                      from="0916"
+                      to="1125">
+                  <label xml:lang="en">Liao </label>
+                  <label xml:lang="zh-Hant">遼</label>
+                  <desc>916-1125</desc>
+               </state>
                <bibl xml:id="bibl000164-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
