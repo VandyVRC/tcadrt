@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">zhuanjiao puzuo xiegong</title>
+            <title level="a" xml:lang="zh-latn-pinyin">angled bracket arm on corner column; zhuanjiao puzuo xiegong; mojiaogong</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2017-11-08-05:00</date>
+            <date>2018-02-13-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,17 +43,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2017-11-08-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-02-13-05:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="corner_angled_bracket_arm" type="skos:Concept">
-            <term xml:id="term-corner_angled_bracket_arm-1" xml:lang="en">轉角鋪作斜栱</term>
-            <term xml:id="term-corner_angled_bracket_arm-2" xml:lang="en">转角铺作斜栱</term>
-            <term xml:id="term-corner_angled_bracket_arm-3" xml:lang="en">zhuanjiao puzuo xiegong</term>
-            <gloss xml:lang="en">angled bracket arm on corner column; zhuanjiao puzuo xiegong;
-        mojiaogong</gloss>
+            <term xml:id="term-corner_angled_bracket_arm-1" xml:lang="en">angled bracket arm on corner column; zhuanjiao puzuo xiegong; mojiaogong</term>
+            <term xml:id="term-corner_angled_bracket_arm-2" xml:lang="en">轉角鋪作斜栱</term>
+            <term xml:id="term-corner_angled_bracket_arm-3" xml:lang="en">转角铺作斜栱</term>
+            <term xml:id="term-corner_angled_bracket_arm-4" xml:lang="en">zhuanjiao puzuo xiegong</term>
             <idno type="URI">http://architecturasinica.org/keyword/corner_angled_bracket_arm</idno>
          </entryFree>
       </body>
