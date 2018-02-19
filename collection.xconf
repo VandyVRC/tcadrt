@@ -3,7 +3,7 @@
     <index xmlns:tei="http://www.tei-c.org/ns/1.0">
         <fulltext default="none" attributes="no"/>
         <!-- Full text search configuration  -->
-        <lucene diacritics="no">
+        <lucene>
             <!-- Does not currently search tei header info, other then title -->
             <!-- Should maybe not index placeName, location, state or event?-->
             <text qname="tei:body"/>
