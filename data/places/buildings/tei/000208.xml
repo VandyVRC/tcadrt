@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000208" type="building">
+            <place xml:id="place-000208" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000208-1" xml:lang="en">Mahāvīra Treasure Hall</placeName>
                <placeName xml:id="name000208-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
                <placeName xml:id="name000208-3" type="building-name" xml:lang="zh-Hans">大雄宝殿</placeName>
@@ -103,37 +104,49 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000208"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000208"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000063"/>
             </listRelation>
          </listPlace>

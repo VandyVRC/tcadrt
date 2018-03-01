@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000246" type="building">
+            <place xml:id="place-000246" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000246-1" xml:lang="en">middle hall</placeName>
                <placeName xml:id="name000246-2" type="building-name" xml:lang="zh-Hant">中殿</placeName>
                <placeName xml:id="name000246-3" type="building-name" xml:lang="zh-Hans">中殿</placeName>
@@ -112,169 +113,175 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000246"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000246"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000246"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000246"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4818554875_3ab6acb516_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4819167182_65ba50239c_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi entrance</desc>
+                  <desc>Tianwangsi, Zhangzi  entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4818544901_a4c8300cab_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi exterior, discarded bracket
-        parts</desc>
+                  <desc>Tianwangsi, Zhangzi  exterior, discarded bracket parts</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4818545097_d43229c1e9_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4818545379_37488b3923_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4819168518_d9569b669b_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4819168716_af89317698_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4819168952_5780876f22_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4819169260_58db42d28c_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4818546683_a7efe6cb90_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4819169702_43e92f8eb3_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4818547095_31e0010aca_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4101/4818547361_80ced754af_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4818547739_bb884ddeef_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4819170680_527e277394_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4818548241_033274c92c_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4818548609_129526cfb4_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4819171676_c76aaa0cc1_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4819171872_efd9aecb2e_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4134/4818549427_9052e5f94f_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4818549861_92d9a3d898_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior exposed
-        bracketing</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior exposed bracketing</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4818550037_115d778d42_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4081/4818550247_9f67060000_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4819173184_7a58df9aea_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4818550813_b2d5a7fe6e_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4819173722_8f49d0c251_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4818551499_67422d757b_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4818551747_7d66af4c5e_"
                          passive="http://architecturasinica.org/place/000246">
-                  <desc>Tianwangsi, Zhangzi 中殿 Middle Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  中殿 Middle Hall exterior</desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000246"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000094"/>
             </listRelation>
          </listPlace>

@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000196" type="building">
+            <place xml:id="place-000196" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000196-1" xml:lang="en">offering hall</placeName>
                <placeName xml:id="name000196-2" type="building-name" xml:lang="zh-Hant">獻殿</placeName>
                <placeName xml:id="name000196-3" type="building-name" xml:lang="zh-Hans">献殿</placeName>
@@ -112,48 +113,66 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000196"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4821293832_3c56f738c9_"
@@ -163,146 +182,146 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4820667627_d88b78dcb3_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi   献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4080/4821288174_220ff130c9_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi   献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4821290758_d860e627c0_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4821290864_8f7e5c9f19_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4820672225_cea90dbffb_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4821291210_a75f8e1a7d_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4073/4820672547_460a44a834_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4820672723_4af8a4f283_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4820672889_9234ee4cbb_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4820673109_6d6e74ab15_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4821292214_3f6791ac2b_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4820673595_e9ac703573_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4114/4820673815_fb1d0a24a0_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4820674031_5af420a650_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4820674191_665381497b_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4820674363_f12fdc49c5_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4820674551_907eb3e7d3_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4074/4821293630_fe45073f1a_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4820675129_b42a4146f7_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4820675363_80d53a7187_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4821294582_1e4dcc11b6_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4820676229_af5fe4acc1_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4820677049_85998d4e59_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4821296268_e2b69999a2_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4820677741_597940ca84_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4820677993_63563bb757_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4096/4820678647_07ea222d45_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4821297640_a85d66bb6c_"
                          passive="http://architecturasinica.org/place/000196">
-                  <desc>Yangcheng_Kaifusi 献殿 Offering Hall</desc>
+                  <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000196"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000053"/>
             </listRelation>
          </listPlace>

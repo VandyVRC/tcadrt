@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000247" type="building">
+            <place xml:id="place-000247" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000247-1" xml:lang="en">back hall</placeName>
                <placeName xml:id="name000247-2" type="building-name" xml:lang="zh-Hant">後殿</placeName>
                <placeName xml:id="name000247-3" type="building-name" xml:lang="zh-Hans">后殿</placeName>
@@ -109,82 +110,84 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000247"
                          passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>http://www.sxcr.gov.cn/wmsx/show.php?itemid=1124</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>http://www.sxcr.gov.cn/wmsx/show.php?itemid=1124</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4080/4818555053_7eb02a0c74_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4818551971_ae142df510_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4819174850_d1fcb6185a_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall exterior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall exterior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4123/4819175212_aa18e063df_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4122/4818552797_9fb39040cd_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4100/4818552973_9975d57f7f_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4136/4819175882_1b9d9cc26d_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4818553389_e6e0118cda_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4818553621_b9f6018165_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4114/4818553877_afc94e6410_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4135/4819176678_bce020d8ba_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4819176962_0dec0ab765_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4819177160_21b357ede2_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4819177416_1fed5abf95_"
                          passive="http://architecturasinica.org/place/000247">
-                  <desc>Tianwangsi, Zhangzi 后殿 Back Hall interior</desc>
+                  <desc>Tianwangsi, Zhangzi  后殿 Back Hall interior</desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000247"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000094"/>
             </listRelation>
          </listPlace>

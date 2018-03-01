@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000242" type="building">
+            <place xml:id="place-000242" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000242-1" xml:lang="en">Hall for Prayers to Heaven</placeName>
                <placeName xml:id="name000242-2" type="building-name" xml:lang="zh-Hant">天祝殿</placeName>
                <placeName xml:id="name000242-3" type="building-name" xml:lang="zh-Hans">天祝殿</placeName>
@@ -96,7 +97,7 @@
             <listRelation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000242"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000090"/>
             </listRelation>
          </listPlace>

@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000204" type="building">
+            <place xml:id="place-000204" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000204-1" xml:lang="en">Pratyeka Pagoda</placeName>
                <placeName xml:id="name000204-2" type="building-name" xml:lang="zh-Hant">辟支塔</placeName>
                <placeName xml:id="name000204-3" type="building-name" xml:lang="zh-Hans">辟支塔</placeName>
@@ -110,38 +111,52 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dc:subject">
-                  <desc>3</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>3</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2760/4108927344_db809e31d5_"
@@ -171,8 +186,7 @@
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2723/4266097901_b5cdd6299b_"
                          passive="http://architecturasinica.org/place/000204">
-                  <desc>Lingyansi Bizhita, 994-1057, detail of eaves bracketing above the first
-        story</desc>
+                  <desc>Lingyansi Bizhita, 994-1057, detail of eaves bracketing above the first story</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2526/4108934838_1b32610604_"
@@ -188,8 +202,7 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4043/4266098945_c7886ec58c_"
                          passive="http://architecturasinica.org/place/000204">
-                  <desc>Lingyansi Bizhita, 994-1057, detail of tower eaves, central
-        stories</desc>
+                  <desc>Lingyansi Bizhita, 994-1057, detail of tower eaves, central stories</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2524/4108171237_e24e8bcd1a_"
@@ -205,8 +218,7 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4054/4266847278_44f831f14d_"
                          passive="http://architecturasinica.org/place/000204">
-                  <desc>Lingyansi Bizhita, 994-1057, detail of eaves at the
-        corner</desc>
+                  <desc>Lingyansi Bizhita, 994-1057, detail of eaves at the corner</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2657/4108173827_974f71aece_"
@@ -333,7 +345,7 @@
                          passive="http://architecturasinica.org/place/000204"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000204"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000061"/>
             </listRelation>
          </listPlace>

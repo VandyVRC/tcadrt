@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000136" type="building">
+            <place xml:id="place-000136" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000136-1" xml:lang="en">front hall</placeName>
                <placeName xml:id="name000136-2" type="building-name" xml:lang="zh-Hant">前殿</placeName>
                <placeName xml:id="name000136-3" type="building-name" xml:lang="zh-Hans">前殿</placeName>
@@ -103,524 +104,529 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000136"
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000136"
                          passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000136"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4832088512_7dbed0c270_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4831517855_b6d4083b0f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4089/4831474539_d8aafc9636_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao view from entrance</desc>
+                  <desc>Bucun_ Yuhuangmiao   view from entrance</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4831474983_9122f4eefb_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4832085302_37e4ecf06e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4831475789_8bc8ac3285_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4126/4831476155_5eb894561d_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4831476545_bd961c296b_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4831476851_2c8f94c1d5_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4832087092_b3b5ac51cb_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4832087520_bf6f665614_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4832088152_219ed9d659_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4831479447_fc94ae8e84_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4832089728_a1f5ca6376_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4832090322_89175449ee_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4832091490_f1ff431a8e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4832092168_2d2d4e5bcf_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4831482841_5c729003cd_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4831483325_e2d4da9dce_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4832093848_1592645860_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4144/4832094350_1067a19878_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4832094738_76637ff149_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4152/4831485611_47e936ed4f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4832096038_c06edd2ec8_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4831486785_85c5f117cf_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4832097184_c54f1e3948_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4152/4831488943_f6f98d37f0_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4832100026_71b18a8f94_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4832101032_56d7a965c1_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4831491307_f2650d1873_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4832101878_df58916056_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4832102152_c2d1b4c32d_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4106/4831493173_00b72f458f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4831493567_6799995bdd_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4148/4831494229_d6785a7417_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4831494943_3a7f397a8c_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4832105056_4c734d819a_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4832105790_d338ea79a3_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall (left) and Offering Hall
-        (right)</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall (left)  and Offering Hall (right)</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4831496753_05f12c0b7f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Offering Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4831497689_7fdcef7192_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Offering Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4126/4832108428_896977d310_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Offering Hall column base</desc>
+                  <desc>Bucun_ Yuhuangmiao  Offering Hall    column base</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4832109278_b6c7c3330f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4831499929_839c8126cb_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4832110428_8e6ef90f1f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4831501595_0384a251fb_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4832111918_c64f263d0e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4106/4832112606_c3a1e93dd9_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4831503049_0a4572dff7_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4832113610_93ca7228da_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4832114170_a19c6ccfc3_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4084/4832114594_96b6c98377_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4832115262_515c8395fb_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4144/4831505683_8184dcfdbf_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4831506137_35c417e553_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4832116712_714768c71f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4832117170_503f1c65b0_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4832117416_7e3d6f1ed3_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4145/4832118256_4000e9155d_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4831508547_e778048a98_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4126/4831508929_dfa18f0418_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4113/4831509601_231b3fcab5_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4832127512_e0b5e58d3c_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4832127796_7a31fb24e5_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4832128674_7522e2ae68_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4831519131_e528ecf911_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4832129740_4863657752_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4832129992_9ce5e347d1_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4133/4832130346_d155308921_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4832130828_dc84b8f842_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4832131704_b4aa320cc1_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4831522157_69e5b11593_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4832133474_fc2cb257a0_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Offering Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Offering Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4831523833_958607641f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4125/4832135026_6f0e6cc2ee_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4832135748_147a6d762e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4832137268_36355de814_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4832137626_24447bdac1_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4106/4831527869_8067001f9f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4831528639_df81267b3f_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4832139694_543442d0e4_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Back Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831530413_48f75e7110_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front  Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4106/4831531133_1aa6b9be97_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front  Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4832141516_10a774342e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4832146772_aeb4797481_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4832147376_c0109814db_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4091/4831537611_58e9679af8_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front  Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4831542699_699aa30324_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front  Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4832153322_fec56f0c67_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall side</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall   side</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4832165994_f2643eaa18_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall    back facade</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4832166224_d73f483d8d_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall     back facade</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4832166632_0334ab1191_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall    back facade</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4832167240_dc95d40831_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall     back facade</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4831557585_69f736466d_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao view from back hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  view from back hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4832169318_ed79f2a953_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall      stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4831559829_aa5a277134_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall   stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4832170644_6c76348635_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall    stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831560567_5e501764fe_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall   stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4831560943_21de0ebf74_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall   stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4832171948_bfa0eb7a14_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall stele</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall    stele</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4832172406_79b60ba2d4_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4147/4832172974_eb6baa3ed5_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4089/4832180284_8bbe1e33b7_"
@@ -630,29 +636,29 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4831570435_66de616e6e_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4831571049_78f11b34a3_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4831558221_a8ab2f8ed1_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao Front Hall back facade</desc>
+                  <desc>Bucun_ Yuhuangmiao  Front Hall   back facade</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4152/4831472157_99a533d0c3_"
                          passive="http://architecturasinica.org/place/000136">
-                  <desc>Bucun_ Yuhuangmiao side hall</desc>
+                  <desc>Bucun_ Yuhuangmiao   side hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4832083002_0431d3139b_"
                          passive="http://architecturasinica.org/place/000136"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000136"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000007"/>
             </listRelation>
          </listPlace>

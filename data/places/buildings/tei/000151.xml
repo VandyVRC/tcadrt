@@ -5,6 +5,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-02-13-05:00</date>
+            <date>2018-03-01-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,13 +46,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-02-13-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000151" type="building">
+            <place xml:id="place-000151" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000151-1" xml:lang="en">Sandashi Hall</placeName>
                <placeName xml:id="name000151-2" type="building-name" xml:lang="zh-Hant">三大士殿</placeName>
                <placeName xml:id="name000151-3" type="building-name" xml:lang="zh-Hans">三大士殿</placeName>
@@ -103,77 +104,83 @@
             <listRelation>
                <relation active="http://architecturasinica.org/place/000151"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000151"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000151"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dc:subject">
-                  <desc>1</desc>
+                         ref="dcterms:subject">
+                  <desc>
+                     <num>1</num>
+                  </desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4821732417_6b78db8e1b_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821732713_805283ef6b_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4821733175_386a23e33a_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4822351106_95f279935e_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4095/4822351336_1c64cee76e_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4822351592_02b792f281_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4821734167_98b835e2b3_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821734447_84d8e58e9c_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4140/4821734679_af67997063_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4821734883_584f623e6c_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4822355804_fcf69e04b0_"
                          passive="http://architecturasinica.org/place/000151">
-                  <desc>Chongqingsi 三大士殿 Sandashidian</desc>
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
                </relation>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000151"
-                         ref="dcterms:isPartOf"
+                         ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000014"/>
             </listRelation>
          </listPlace>
