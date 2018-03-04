@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-01-05:00</date>
+            <date>2018-03-02-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-01-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-02-05:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,6 +54,12 @@
             <term xml:id="term-chamfered_linggong-2" xml:lang="zh-Hant">令栱有卷殺</term>
             <term xml:id="term-chamfered_linggong-3" xml:lang="zh-Hans">令栱有卷殺</term>
             <idno type="URI">http://architecturasinica.org/keyword/chamfered_linggong</idno>
+            <listRelation>
+               <relation ref="foaf:depicts"
+                         active="https://farm3.staticflickr.com/2648/3824724338_532b9ecd86_z.jpg"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         type="featured"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>

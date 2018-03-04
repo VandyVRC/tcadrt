@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-01-05:00</date>
+            <date>2018-03-02-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-01-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-02-05:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,6 +54,12 @@
             <term xml:id="term-qinmian-pizhu_xiaang-2" xml:lang="zh-Hant">琴面/批竹下昂</term>
             <term xml:id="term-qinmian-pizhu_xiaang-3" xml:lang="zh-Hans">琴面/批竹下昂</term>
             <idno type="URI">http://architecturasinica.org/keyword/qinmian-pizhu_xiaang</idno>
+            <listRelation>
+               <relation ref="foaf:depicts"
+                         active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg"
+                         passive="http://architecturasinica.org/keyword/qinmian-pizhu_xiaang"
+                         type="featured"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>
