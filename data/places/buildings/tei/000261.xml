@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-01-05:00</date>
+            <date>2018-03-04-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,6 +73,7 @@
                           xml:lang="zh-Hans">阳泉关王庙正殿</placeName>
                <placeName xml:id="name000261-11" type="alternate">Guanwangmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000261</idno>
+               <state type="existence"/>
                <location type="gps">
                   <geo>37.92066667 113.6196667</geo>
                </location>
@@ -91,6 +92,15 @@
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="zh-latn-pinyin">miao</desc>
                </trait>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000261-1"
+                      from="0960"
+                      to="1127">
+                  <label xml:lang="en">Northern Song</label>
+                  <label xml:lang="zh-Hant">北宋</label>
+                  <desc>960-1127</desc>
+               </state>
                <bibl xml:id="bibl000261-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

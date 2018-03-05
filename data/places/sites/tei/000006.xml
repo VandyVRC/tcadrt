@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-01-05:00</date>
+            <date>2018-03-04-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-01-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -94,6 +94,12 @@
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
             </place>
+            <listRelation>
+               <relation ref="foaf:depicts"
+                         active="https://farm4.staticflickr.com/3026/3972146865_b5a30fe404_z.jpg"
+                         passive="http://architecturasinica.org/place/000006"
+                         type="featured"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
