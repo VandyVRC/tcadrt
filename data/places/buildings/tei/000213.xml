@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,19 +73,9 @@
                           xml:lang="zh-Hans">梅庵祖师殿</placeName>
                <placeName xml:id="name000213-11" type="alternate">Meian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000213</idno>
-               <state type="existence"/>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000213-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">hermitage</desc>
-                  <desc xml:lang="zh-Hant">庵</desc>
-                  <desc xml:lang="zh-latn-pinyin">an</desc>
-               </trait>
+               <state type="existence" from="0996" to="0996">
+                  <desc>996</desc>
+               </state>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000213-1"
@@ -95,16 +85,13 @@
                   <label xml:lang="zh-Hant">北宋</label>
                   <desc>960-1127</desc>
                </state>
-               <bibl xml:id="bibl000213-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">Zushidian thought to retain Song style (ZGMSCD, 842)</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000213"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000213"
                          ref="schema:containedInPlace"

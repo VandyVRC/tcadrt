@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,15 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000078</idno>
                <location type="nested">
                   <placeName>山西省沁县</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
-                  <region type="province-name">
-                     <placeName xml:lang="zh-Hans">山西</placeName>
-                     <placeName xml:lang="zh-Hant">山西</placeName>
-                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
-                  </region>
                   <region type="province">
-                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                      <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
                   </region>
                   <region type="county-city">
                      <placeName xml:lang="zh-Hans">沁</placeName>
@@ -80,12 +77,6 @@
                <location type="gps">
                   <geo>36.7477 112.5745</geo>
                </location>
-               <trait type="site-type">
-                  <label>Type</label>
-                  <desc xml:lang="en">cloister</desc>
-                  <desc xml:lang="zh-Hant">院</desc>
-                  <desc xml:lang="zh-latn-pinyin">yuan</desc>
-               </trait>
                <bibl xml:id="bibl000078-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
@@ -94,6 +85,12 @@
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
             </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000078"
+                         passive="http://architecturasinica.org/keyword/cloister"
+                         ref="dcterms:subject"
+                         ana="site-type"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

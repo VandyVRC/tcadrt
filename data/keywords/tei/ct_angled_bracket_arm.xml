@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">column top angled bracket arm</title>
+            <title level="a" xml:lang="en">column top angled bracket arm</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,12 +43,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="ct_angled_bracket_arm" type="skos:Concept">
+         <entryFree xml:id="ct_angled_bracket_arm"
+                    type="architectural-feature"
+                    sub-type="Non-numeric">
             <term xml:id="term-ct_angled_bracket_arm-1" xml:lang="en">column top angled bracket arm</term>
             <term xml:id="term-ct_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">zhutou puzuo xiegong</term>
             <term xml:id="term-ct_angled_bracket_arm-2" xml:lang="zh-Hant">柱頭鋪作斜栱 </term>
@@ -58,7 +60,14 @@
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4134/4898409711_b17d006550_z.jpg"
                          passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         type="featured"/>
+                         ana="featured">
+                  <desc>
+                     <ref target="http://architecturasinica.org/keyword/000261">Yangquan Guanwang Temple main hall</ref>
+                  </desc>
+               </relation>
+               <relation ref="skos:broadMatch"
+                         active="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         passive="Bracketing"/>
             </listRelation>
          </entryFree>
       </body>

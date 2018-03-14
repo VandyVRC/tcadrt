@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,74 +73,46 @@
                           xml:lang="zh-Hans">济渎庙寝宫</placeName>
                <placeName xml:id="name000187-11" type="alternate">Qingong</placeName>
                <idno type="URI">http://architecturasinica.org/place/000187</idno>
-               <state type="existence"/>
+               <state type="existence" from="0960" to="1000">
+                  <desc>960-1000</desc>
+               </state>
                <location type="gps">
                   <geo>35.1095333 112.576583</geo>
                </location>
                <location type="verbatim">
                   <note>35˚ 06.572' N (Garmin) 112˚ 34.595' E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-               </trait>
-               <trait type="site-type" source="#bibl000187-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
-               <bibl xml:id="bibl000187-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">qinmian style youang</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000187"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000187"
                          ref="schema:containedInPlace"

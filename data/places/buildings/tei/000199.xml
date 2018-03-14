@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,22 +73,12 @@
                           xml:lang="zh-Hans">开元寺钟楼</placeName>
                <placeName xml:id="name000199-11" type="alternate">Zhonglou</placeName>
                <idno type="URI">http://architecturasinica.org/place/000199</idno>
-               <state type="existence"/>
+               <state type="existence" from="0898" to="0898">
+                  <desc>898</desc>
+               </state>
                <location type="verbatim">
                   <note>38˚ 08.39' N (Magellan) 114˚ 33.94' E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">tower</desc>
-                  <desc xml:lang="zh-Hant">樓</desc>
-                  <desc xml:lang="zh-latn-pinyin">lou</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000199-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000199-1"
@@ -98,17 +88,14 @@
                   <label xml:lang="zh-Hant">唐</label>
                   <desc>618-907</desc>
                </state>
-               <bibl xml:id="bibl000199-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">Tang dynasty first floor (partial)--compare to Zhengding Wenmiao?</note>
                <note type="notes">for date see: zgmscd 104</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000199"
+                         passive="http://architecturasinica.org/keyword/tower"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000199"
                          ref="schema:containedInPlace"

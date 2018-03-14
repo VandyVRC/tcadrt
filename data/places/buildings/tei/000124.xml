@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,75 +72,52 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">安禅寺藏经殿</placeName>
                <placeName xml:id="name000124-11" type="alternate">Zangjingdian</placeName>
-               <desc type="site-data"> 安禅寺 山西省, 普中市，太谷县
-Ānchánsì  ZGWWDTJ, Shanxi vol. 3 (xia), p. 762    57 – C 1 (On Anchansi street in Taigu County Seat• Song, Ming dynasties •Provincial Cultural Heritage Site) Date of initial founding unknown. According to an inscription, the complex was rebuilt in the Song dynasty, with repairs made in the Yuan and Ming dynasties as well as in the third year of the Qing Guangxu reign period (1877). The complex occupies 200 square meters. Buildings are oriented to the south, the monastic cloister has been destroyed, all that remains are two axial buildings, the Sutra Repository (Cángjīngdiàn (藏经殿)) and the Main Hall (Zhèngdiàn (正殿)). Of the remaining buildings, the Sutra Repository is a artifact of the Song dynasty; the Main Hall is a Ming dynasty building.  The front façade of the Main Hall is 3 bays in width with a depth of 6 rafters, and has a single eaves, overhanging gable roof, 7 purlin-no gallery style design, 3-step, single ang bracket sets (sancai danang 三踩单昂), with one intercolumnar bracket set in each bay. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11; </desc>
-               <desc type="building-data">Ānchánsì  ZGWWDTJ, Shanxi vol. 3 (xia), p. 762    57 – C 1-1 Sutra Repository (zángjīngdiàn/藏经殿 (Song Dynasty)) Brick podium, front façade of 3 bays, depth of 3 bays, single eaves hip/gable roof, yellow and green glazed tiles with a square center, wide central bay and narrow side bays, central bay is only one half the width of the side bay. Under eave bracket sets are 4 pūzuò with a single huágŏng, a locust head shuătóu, 1 intercolumnar bracket set in every bay, and visible column-top entasis.  Original renovation no longer exists. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11</desc>
+               <desc type="site-data">Anchan Monastery is located on Anchansi Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the historical and cultural sites protected at the provincial level. 
+The date of origin is unknown. According to textual sources, it was rebuilt during the Song dynasty and renovated in the Yuan and Ming dynasties, as well as the third year of the Qing Guangxu reign period (1877). The site occupies a total area of over 200 m2 and has a north-south orientation, facing south. The monastery is destroyed and the only extant structures are the sutra repository (藏经殿) and the main hall (正殿); both of which are axial buildings. While the former is a Song dynasty remnant, the latter was built in the Ming dynasty. 
+Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11; Modified by Wong Pui See, 2017. 安禪寺Anchansi [ZGWWDTJ, Shanxi vol. 3 (下), p. 762, 57–C1] </desc>
+               <desc type="building-data">The  Zangjingidan (藏经殿) or the sutra depository of Anchansi (Song Dynasty)  is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant. Ānchánsì ZGWWDTJ, Shanxi vol. 3 (xia), p. 762, 57–C1-1 Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; 3/2018; Edited by Cole Garrett 9/9/11, Modified by Wong Pui See, 2017.</desc>
                <idno type="URI">http://architecturasinica.org/place/000124</idno>
-               <state type="existence"/>
+               <state type="existence" from="0960" to="1125">
+                  <desc>960-1125</desc>
+               </state>
                <location type="gps">
                   <geo>37.42453333 112.5473333</geo>
                </location>
                <location type="verbatim">
                   <note>37˚ 25.472 (Garmin) 112˚ 32.840</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000124-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
-               <bibl xml:id="bibl000124-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">sutra repository Song, compare to Jidumiao qingong</note>
                <note type="notes">ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000124"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000124"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000124"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000124"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000124"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000124"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000124"
                          ref="schema:containedInPlace"

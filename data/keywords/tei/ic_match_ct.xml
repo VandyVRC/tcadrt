@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">intercolumnar bracket sets match the column top bracket sets</title>
+            <title level="a" xml:lang="en">intercolumnar bracket sets match the column top bracket sets</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,12 +43,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="ic_match_ct" type="skos:Concept">
+         <entryFree xml:id="ic_match_ct"
+                    type="architectural-feature"
+                    sub-type="Non-numeric">
             <term xml:id="term-ic_match_ct-1" xml:lang="en">intercolumnar bracket sets match the column top bracket sets</term>
             <term xml:id="term-ic_match_ct-4" xml:lang="zh-latn-pinyin">bujian puzuo tong zhutou puzuo</term>
             <term xml:id="term-ic_match_ct-2" xml:lang="zh-Hant">柱頭鋪作同補間鋪作</term>
@@ -58,7 +60,14 @@
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4612/39428627105_9795f73011_z.jpg"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         type="featured"/>
+                         ana="featured">
+                  <desc>
+                     <ref target="http://architecturasinica.org/keyword/000132">Baoguosi Mahāvīra Treasure Hall</ref>
+                  </desc>
+               </relation>
+               <relation ref="skos:broadMatch"
+                         active="http://architecturasinica.org/keyword/ic_match_ct"
+                         passive="Bracketing"/>
             </listRelation>
          </entryFree>
       </body>

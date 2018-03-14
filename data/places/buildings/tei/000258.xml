@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,32 +76,19 @@
 Xingfansi     ZGWWDTJ Shanxi, vol. 3;    p.775    33 – C 1 Date of founding unknown, building area of 287 square meters. Facing south, single courtyard design and the only extant building on the central axis is the main hall (大殿).</desc>
                <desc type="building-data">main hall (大殿). [The main hall] has a brick platform of 1.85 meters high, a front façade of 5 bays, with a depth of 6 rafters, and a single eave hip/gable roof. Internal beam structure is supported by four columns, with a 4-rafter beam connected to both the front and back column grid by a single-rafter beam (搭牵; 劄牵?). 4 puzuo bracket sets with a single huagong (杪), original restoration no longer exists. Translated by Lydia Ohl; revised by T Miller, 02-2017</desc>
                <idno type="URI">http://architecturasinica.org/place/000258</idno>
-               <state type="existence"/>
+               <state type="existence" from="0960" to="1125">
+                  <desc>960-1125</desc>
+               </state>
                <location type="gps">
                   <geo>37.39033333 112.4500667</geo>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000258-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
-               <bibl xml:id="bibl000258-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">Main Hall Song structure; see: 中國文物地圖集山西分冊, 下, 775 </note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000258"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4836625486_fe25f6b97d_"
                          passive="http://architecturasinica.org/place/000258">

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,22 +73,12 @@
                           xml:lang="zh-Hans">曲阜孔庙西碑亭</placeName>
                <placeName xml:id="name000230-11" type="alternate">Qufu_Kongmiao_Xibeiting</placeName>
                <idno type="URI">http://architecturasinica.org/place/000230</idno>
-               <state type="existence"/>
+               <state type="existence" from="1195" to="1195">
+                  <desc>1195</desc>
+               </state>
                <location type="gps">
                   <geo>35.5955833 116.98405</geo>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">pavilion</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-latn-pinyin">ting</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000230-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000230-1"
@@ -98,71 +88,52 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000230-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000230"
+                         passive="http://architecturasinica.org/keyword/pavilion"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000230"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2796/4109009050_941786c56c_"
                          passive="http://architecturasinica.org/place/000230"/>

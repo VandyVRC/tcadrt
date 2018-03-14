@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,41 +73,25 @@
                           xml:lang="zh-Hans">正定文庙大成殿</placeName>
                <placeName xml:id="name000277-11" type="alternate">Wenmiao Dachengdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000277</idno>
-               <state type="existence"/>
+               <state type="existence" from="0907" to="0960">
+                  <desc>907-960</desc>
+               </state>
                <location type="gps">
                   <geo>38.14383333 114.561</geo>
                </location>
                <location type="verbatim">
                   <note>38˚ 08.63' N (Magellan) 114˚ 33.66' E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000277-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
-               <bibl xml:id="bibl000277-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000277"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000277"
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000277"
                          ref="schema:containedInPlace"

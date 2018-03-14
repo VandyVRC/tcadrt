@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,42 +57,28 @@
                <placeName xml:id="name000045-3" type="site-name" xml:lang="zh-Hant">濟瀆廟寢宮</placeName>
                <placeName xml:id="name000045-4" type="site-name" xml:lang="zh-Hans">济渎庙寝宫</placeName>
                <idno type="URI">http://architecturasinica.org/place/000045</idno>
-               <location type="nested">
+               <location type="nested"
+                         source="http://vocab.getty.edu/tgn/8619096 http://vocab.getty.edu/aat/300387145">
                   <placeName>河南省济源市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Henan</placeName>
                   <country>China</country>
-                  <region type="province-name">
-                     <placeName xml:lang="zh-Hans">河南</placeName>
-                     <placeName xml:lang="zh-Hant">河南</placeName>
-                     <placeName xml:lang="zh-latn-pinyin">Henan</placeName>
-                  </region>
                   <region type="province">
-                     <placeName xml:lang="zh-Hans">河南省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Henan</placeName>
                      <placeName xml:lang="zh-Hant">河南省</placeName>
+                     <placeName xml:lang="zh-Hans">河南省</placeName>
                   </region>
                   <region type="county-city">
-                     <placeName xml:lang="zh-Hans">济源</placeName>
                      <placeName xml:lang="zh-latn-pinyin">Jiyuan Shi</placeName>
+                     <placeName xml:lang="zh-Hans">济源</placeName>
                   </region>
                   <region type="political-subdivision">
                      <placeName xml:lang="zh-Hans">市</placeName>
                      <placeName xml:lang="en">City</placeName>
-                     <ref xml:lang="en"
-                          target="http://vocab.getty.edu/tgn/8619096"
-                          type="tgn">Getty Thesaurus of Geographic Names</ref>
-                     <ref xml:lang="en"
-                          target="http://vocab.getty.edu/aat/300387145"
-                          type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
                <location type="gps">
                   <geo>35.1095333 112.576583</geo>
                </location>
-               <trait type="site-type">
-                  <label>Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
                <bibl xml:id="bibl000045-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
@@ -101,6 +87,12 @@
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
             </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000045"
+                         passive="http://architecturasinica.org/keyword/temple"
+                         ref="dcterms:subject"
+                         ana="site-type"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

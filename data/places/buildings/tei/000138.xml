@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,18 +79,6 @@
                <location type="verbatim">
                   <note>38˚ 03' 06.13" N (google earth-satellite confirm) 112˚ 39' 37.05" E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000138-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000138-1"
@@ -100,71 +88,52 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000138-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000138"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000138"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000138"
                          ref="schema:containedInPlace"

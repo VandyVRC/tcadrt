@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,25 +73,15 @@
                           xml:lang="zh-Hans">中坪二仙宫山門</placeName>
                <placeName xml:id="name000280-11" type="alternate">Erxiangong Shanmen</placeName>
                <idno type="URI">http://architecturasinica.org/place/000280</idno>
-               <state type="existence"/>
+               <state type="existence" from="1125" to="1234">
+                  <desc>1125-1234</desc>
+               </state>
                <location type="gps">
                   <geo>35.8059 113.07</geo>
                </location>
                <location type="verbatim">
                   <note>35˚ 48.354 N (Garmin) 113˚ 04.200' E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">gatehouse</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
-                  <desc xml:lang="zh-latn-pinyin">men</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000280-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">palace</desc>
-                  <desc xml:lang="zh-Hant">宮</desc>
-                  <desc xml:lang="zh-latn-pinyin">gong</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000280-1"
@@ -101,58 +91,41 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000280-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">this building looks later--yuan?</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000280"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3471/3972919062_40648b406b_"
                          passive="http://architecturasinica.org/place/000280">

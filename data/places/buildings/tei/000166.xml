@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,19 +73,9 @@
                           xml:lang="zh-Hans">汾城古建筑群洪济桥</placeName>
                <placeName xml:id="name000166-11" type="alternate"> </placeName>
                <idno type="URI">http://architecturasinica.org/place/000166</idno>
-               <state type="existence"/>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">bridge</desc>
-                  <desc xml:lang="zh-Hant">橋</desc>
-                  <desc xml:lang="zh-latn-pinyin">qiao</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000166-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">historic building group</desc>
-                  <desc xml:lang="zh-Hant">古建築群</desc>
-                  <desc xml:lang="zh-latn-pinyin">jianzhuqun</desc>
-               </trait>
+               <state type="existence">
+                  <desc>1183</desc>
+               </state>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000166-1"
@@ -95,13 +85,6 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000166-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">not listed separately in 中國 文物 地圖集, bridge from Jin https://zh.wikipedia.org/wiki/%E6%B1%BE%E5%9F%8E%E5%8F%A4%E5%BB%BA%E7%AD%91%E7%BE%A4</note>
             </place>
             <listRelation>

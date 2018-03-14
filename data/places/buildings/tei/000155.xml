@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -82,25 +82,15 @@
                <placeName xml:id="name000155-10" type="alternate" subtype="site-name">Lingchuan Cuifujunmiao, Xianyingwangmiao</placeName>
                <placeName xml:id="name000155-11" type="alternate">Cuifujunmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000155</idno>
-               <state type="existence"/>
+               <state type="existence" from="1125" to="1234">
+                  <desc>1125-1234</desc>
+               </state>
                <location type="gps">
                   <geo>35.79946667 113.1166</geo>
                </location>
                <location type="verbatim">
                   <note>35˚ 47.968 N 113˚ 06.996 E</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">gatehouse</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
-                  <desc xml:lang="zh-latn-pinyin">men</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000155-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000155-1"
@@ -110,58 +100,37 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000155-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">https://zh.wikipedia.org/wiki/%E5%B4%94%E5%BA%9C%E5%90%9B%E5%BA%99</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000155"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000155"
                          ref="schema:containedInPlace"

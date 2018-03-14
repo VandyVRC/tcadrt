@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,91 +73,58 @@
                           xml:lang="zh-Hans">崇教寺山門</placeName>
                <placeName xml:id="name000146-11" type="alternate">Shanmen</placeName>
                <idno type="URI">http://architecturasinica.org/place/000146</idno>
-               <state type="existence"/>
+               <state type="existence">
+                  <desc> </desc>
+               </state>
                <location type="gps">
                   <geo>36.3429 113.1132</geo>
                </location>
                <location type="verbatim">
                   <note>N 36° 20.574' (±15ft) E 113° 6.792' (±15ft)</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">gatehouse</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
-                  <desc xml:lang="zh-latn-pinyin">men</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000146-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
-               <bibl xml:id="bibl000146-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements)</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000146"
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4809569071_8508cf3743_"
                          passive="http://architecturasinica.org/place/000146">

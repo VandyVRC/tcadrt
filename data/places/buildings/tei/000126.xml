@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,30 +72,17 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">白台寺三滴法藏阁</placeName>
                <placeName xml:id="name000126-11" type="alternate">Sandi fazanghall</placeName>
-               <desc type="building-data">白台寺 金至清 山西省，运城市， 新绛县
-Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099    126 – C 1-1 Sāndīfăcánggé (三滴法藏阁)      Yuan Dynasty
-
-Established in the Jin dynasty, restoration done in the Yuan dynasty. Building built by tŭyá (土崖), stone podium, 6.5 meters tall, centre opens into a rectangular passageway. Building has 2 floors, a front façade of 3 bays, depth of 6 rafters, triple eave overhanging gable roof, main ridge has open carved brickwork as a ridge decoration. Beam composition of 4 rafters that connect to the front with 3 columns, first floor has a balcony (píngzuò/平座), upper eave has a ring bracket sets all the way around, 5 pūzuò(铺作) single xia ang, 1 set of inter columnar bracket sets in every bay. Second story balcony has 4 shrines with Yaowang (药王) 、attendants， images in the East erdian of Dizang and Yanjun, both are severely damaged.</desc>
+               <desc type="building-data">The Sandi facang Pavilion (三滴法藏阁)  was established  in the Jin dynasty, with significant restoration done in the Yuan dynasty. The pavilion was built against an earthen cliff on a 6.5 meter tall brick podium, and the center opens into a rectangular passageway. The body of the building has 2 floors, a 3-bay wide front façade with a depth of 6 rafters, and a triple eaves, overhanging gable roof, with the main ridge decoration composed of carved brickwork. The structural frame uses a four-rafter beam facing a rufu 乳柎tie beam supported by three columns. The first floor has a timber balcony (pingzuo 平座). The upper eaves has a complement of five-layer bracket sets (五鋪作) with a single descending cantilever and single huagong; a single intercolumnar bracket set is in each bay. Within the western niche of the second story balcony images of Bhaiṣajyaraja (Yaowang 药王) and his attendants are venerated. In the East Ear Hall images of Kṣitigarbha (Dizang 地藏) and Yama (Yanjun 閻君) are venerated, both are severely damaged. Translated by Lydia Ohl; edited by Cole Garrett, modified by TM 2018.</desc>
                <idno type="URI">http://architecturasinica.org/place/000126</idno>
-               <state type="existence"/>
+               <state type="existence" from="1279" to="1368">
+                  <desc>1279-1368</desc>
+               </state>
                <location type="gps">
                   <geo>35.66345 111.0694</geo>
                </location>
                <location type="verbatim">
                   <note>35° 39.807' (±17ft) 111° 4.164'</note>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">pavilion (multi-level)</desc>
-                  <desc xml:lang="zh-Hant">閣</desc>
-                  <desc xml:lang="zh-latn-pinyin">ge</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000126-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000126-1"
@@ -105,16 +92,13 @@ Established in the Jin dynasty, restoration done in the Yuan dynasty. Building b
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <bibl xml:id="bibl000126-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="notes">Axis: c, roof style: o-g, front façade: 36' 5"</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000126"
+                         passive="http://architecturasinica.org/keyword/storied-pavilion"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831083567_d6b3700966_"
                          passive="http://architecturasinica.org/place/000126">

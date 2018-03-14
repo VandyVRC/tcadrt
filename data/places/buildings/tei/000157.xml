@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,29 +73,16 @@
                           xml:lang="zh-Hans">大庙飞来殿</placeName>
                <placeName xml:id="name000157-11" type="alternate"> </placeName>
                <idno type="URI">http://architecturasinica.org/place/000157</idno>
-               <state type="existence"/>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">hall (palatial)</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000157-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">temple</desc>
-                  <desc xml:lang="zh-Hant">廟</desc>
-                  <desc xml:lang="zh-latn-pinyin">miao</desc>
-               </trait>
-               <bibl xml:id="bibl000157-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
+               <state type="existence" from="0993" to="1327">
+                  <desc>993-1327</desc>
+               </state>
                <note type="field-notes">animal motifs on bracketing: likely a Yuan structure...</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000157"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000157"
                          ref="schema:containedInPlace"

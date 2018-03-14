@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,12 +57,6 @@
                <placeName xml:id="name000059-3" type="site-name" xml:lang="zh-Hant">兩程故裡兩程祠</placeName>
                <placeName xml:id="name000059-4" type="site-name" xml:lang="zh-Hans">两程故里两程祠</placeName>
                <idno type="URI">http://architecturasinica.org/place/000059</idno>
-               <trait type="site-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">ci</desc>
-                  <desc xml:lang="zh-Hant">祠</desc>
-                  <desc xml:lang="en">shrine</desc>
-               </trait>
                <bibl xml:id="bibl000059-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
@@ -71,6 +65,12 @@
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
             </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000059"
+                         passive="http://architecturasinica.org/keyword/shrine"
+                         ref="dcterms:subject"
+                         ana="site-type"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

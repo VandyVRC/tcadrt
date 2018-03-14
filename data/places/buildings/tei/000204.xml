@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,11 +58,11 @@
                <placeName xml:id="name000204-3" type="building-name" xml:lang="zh-Hans">辟支塔</placeName>
                <placeName xml:id="name000204-4"
                           type="building-name"
-                          xml:lang="zh-latn-pinyin">Pizhita</placeName>
+                          xml:lang="zh-latn-pinyin">Bizhita</placeName>
                <placeName xml:id="name000204-5"
                           type="alternate"
                           subtype="building-name-in-site"
-                          xml:lang="en">Lingyansi Pizhita</placeName>
+                          xml:lang="en">Lingyansi Bizhita</placeName>
                <placeName xml:id="name000204-6"
                           type="alternate"
                           subtype="building-name-in-site"
@@ -73,91 +73,52 @@
                           xml:lang="zh-Hans">灵岩寺辟支塔</placeName>
                <placeName xml:id="name000204-11" type="alternate">Lingyan_Monastery_Pratyeka_Pagoda</placeName>
                <idno type="URI">http://architecturasinica.org/place/000204</idno>
-               <state type="existence"/>
+               <state type="existence" from="1057" to="1064">
+                  <desc>1056</desc>
+               </state>
                <location type="gps">
                   <geo>36.3632666 116.977683</geo>
                </location>
-               <trait type="building-type">
-                  <label>Building Type</label>
-                  <desc xml:lang="en">pagoda</desc>
-                  <desc xml:lang="zh-Hant">塔</desc>
-                  <desc xml:lang="zh-latn-pinyin">ta</desc>
-               </trait>
-               <trait type="site-type" source="#bibl000204-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">monastery</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-               </trait>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000204-1"
-                      from="0618"
-                      to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
-               </state>
-               <bibl xml:id="bibl000204-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
                <note type="field-notes">Song dynasty; corner bracket sets on front facade</note>
-               <note type="notes">for date see: zgmscd 585</note>
+               <note type="notes">ZGMSCD, p. 585, states first built in Tang Tianbao 12 (753); repaired in the Jiayou period (1056-1064); but style of pagoda suggest Song period repair was more of a rebuilding</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000204"
+                         passive="http://architecturasinica.org/keyword/pagoda"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject">
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
                   <desc>
                      <num>3</num>
                   </desc>
                </relation>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation active="http://architecturasinica.org/place/000204"
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2760/4108927344_db809e31d5_"
                          passive="http://architecturasinica.org/place/000204"/>

@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,7 +57,7 @@
                <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
                <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
                <idno type="URI">http://architecturasinica.org/place/000002</idno>
-               <desc type="site-data">白台寺 金至清 山西省，运城市， 新绛县 Băitáisì ZGWWDTJ, vol. 3 (xia), p.1099 126 – C 1, (About 200 meters southwest of Gujiao village in Guangma town•Jin and Yuan Dynasties•Provincial Cultural Heritage Site) (untranslated CG) Also called Pŭhuàsì (普化寺). Called Băitáisì (white seat temple) because legend holds Buddha’s lotus throne to be white. According to stele inscription,had many restorations in the fourtheenth year of Tang Kaiyuan (726)、and between the Jin Dading and Mingchang years, further restored in the first year of Zhizheng (1355) and the sixth year of Ming Zhengde (1511). Increase in construction in Qing Dynasty. Occupancy area of 4,482 square meters. Facing south, 2 entrance courtyard design, axial buildings include a sāndīfăcánggé (三滴法藏阁)， shìjiādiàn (释迦殿)， and a hòudàdiàn (后大殿)， on either side there is an east shānmén (山门） and a west wing. Within complex interior is preserved a Tang dynasty pagoda, a Song dynasty jīngchuáng(经幢) stone pillar with Buddhist inscriptions, a Song cloud board from the third year of Xuanhe (1121) , and 18 colored/painted walls. Translated by Lydia Ohl; edited by Cole Garrett</desc>
+               <desc type="site-data">Baitai Monastery is located at about 200 meters southwest of Guangma Village, Gujiao Town (古交鎮光馬村). Jin and Yuan dynasties. It is one of the historical and cultural sites protected at the provincial level. The name baitai takes after the legendary white lotus throne of the Buddha. The monastery also has an alternate name, Puhua Monastery (普化寺). According to an inscription, it was renovated multiple times; during the 14th year of Tang Kaiyuan reign period (726), in the Jin Dading (1161-1190) and Jin Mingchang (1190-1196) reign periods, the 15th year of Yuan Zhizheng (元至正) reign period (1355), and the 6th year of Ming Zhengde (明正德) reign period (1511). Additions were also made during the Qing dynasty. The site, which has a north-south orientation, occupies a total area of about 4,482 meters2. The monastery has a two courtyard configuration with three axial buildings, Sandi Fazangge (三滴法藏閣), Shijiadian (釋迦殿) and back great hall (後大殿), as well as two extant side buildings, the east Mountain Gate (東山門) and the west side building (西廂房). Other extant structures include a Tang pagoda pillar, 4 Song dhārāṇi pillars, a Song cloud-framed plaque from the third year of Song dynasty Xuanhe reign period (1121), and 18 polychrome clay sculptures. Translated by Lydia Ohl; revised by Cole Garrett; modified by Wong Pui See, 2017. Baitaisi ZGWWDTJ, vol. 3 (下), p.1099 126 – C1 白台寺 金至清 山西省, 運城市, 新絳縣</desc>
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000002-1"
@@ -67,31 +67,23 @@
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
                </state>
-               <location type="nested">
+               <location type="nested"
+                         source="http://vocab.getty.edu/tgn/8675152 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省新绛县</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
-                  <region type="province-name">
-                     <placeName xml:lang="zh-Hans">山西</placeName>
-                     <placeName xml:lang="zh-Hant">山西</placeName>
-                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
-                  </region>
                   <region type="province">
-                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                      <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
                   </region>
                   <region type="county-city">
-                     <placeName xml:lang="zh-Hans">新绛</placeName>
                      <placeName xml:lang="zh-latn-pinyin">Xinjiang</placeName>
+                     <placeName xml:lang="zh-Hans">新绛</placeName>
                   </region>
                   <region type="political-subdivision">
                      <placeName xml:lang="zh-Hans">县</placeName>
                      <placeName xml:lang="en">County</placeName>
-                     <ref xml:lang="en"
-                          target="http://vocab.getty.edu/tgn/8675152"
-                          type="tgn">Getty Thesaurus of Geographic Names</ref>
-                     <ref xml:lang="en"
-                          target="http://vocab.getty.edu/aat/300387198"
-                          type="aat">Getty Art &amp; Architecture Thesaurus</ref>
                   </region>
                </location>
                <location type="gps">
@@ -103,12 +95,6 @@
                <location type="gps">
                   <geo>35.663933 111.06937</geo>
                </location>
-               <trait type="site-type">
-                  <label>Type</label>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="en">monastery</desc>
-               </trait>
                <bibl xml:id="bibl000002-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
@@ -118,10 +104,14 @@
                </bibl>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000002"
+                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+                         ref="dcterms:subject"
+                         ana="site-type"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4073/4831069771_14fcd97cc0_z.jpg"
                          passive="http://architecturasinica.org/place/000002"
-                         type="featured"/>
+                         ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

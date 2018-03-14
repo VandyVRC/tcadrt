@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">angled bracket arm between columns</title>
+            <title level="a" xml:lang="en">angled bracket arm between columns</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,22 +43,31 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="ic_angled_bracket_arm" type="skos:Concept">
+         <entryFree xml:id="ic_angled_bracket_arm"
+                    type="architectural-feature"
+                    sub-type="Non-numeric">
             <term xml:id="term-ic_angled_bracket_arm-1" xml:lang="en">angled bracket arm between columns</term>
-            <term xml:id="term-ic_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">bujian puzuo dougong</term>
-            <term xml:id="term-ic_angled_bracket_arm-2" xml:lang="zh-Hant">補間鋪作斗栱</term>
-            <term xml:id="term-ic_angled_bracket_arm-3" xml:lang="zh-Hans">补间铺作斗栱</term>
+            <term xml:id="term-ic_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">bujian puzuo (dougong)</term>
+            <term xml:id="term-ic_angled_bracket_arm-2" xml:lang="zh-Hant">補間鋪作(斗栱)</term>
+            <term xml:id="term-ic_angled_bracket_arm-3" xml:lang="zh-Hans">补间铺作(斗栱)</term>
             <idno type="URI">http://architecturasinica.org/keyword/ic_angled_bracket_arm</idno>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4129/4835644592_44f48b0756_z.jpg"
                          passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         type="featured"/>
+                         ana="featured">
+                  <desc>
+                     <ref target="http://architecturasinica.org/keyword/000162">Dongyi Longwang Temple great hall</ref>
+                  </desc>
+               </relation>
+               <relation ref="skos:broadMatch"
+                         active="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         passive="Bracketing"/>
             </listRelation>
          </entryFree>
       </body>

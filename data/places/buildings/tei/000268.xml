@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,26 +73,16 @@
                           xml:lang="zh-Hans">袁州谯楼楼台</placeName>
                <placeName xml:id="name000268-11" type="alternate">Qiaolou</placeName>
                <idno type="URI">http://architecturasinica.org/place/000268</idno>
-               <state type="existence"/>
-               <trait type="building-type">
-                  <label>Building Type</label>
-               </trait>
-               <trait type="site-type" source="#bibl000268-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">tower</desc>
-                  <desc xml:lang="zh-Hant">樓</desc>
-                  <desc xml:lang="zh-latn-pinyin">lou</desc>
-               </trait>
-               <bibl xml:id="bibl000268-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
+               <state type="existence" from="0944" to="1219">
+                  <desc>944-1219</desc>
+               </state>
                <note type="field-notes">earliest regional observatory; see: http://big5.china.com.cn/overseas/txt/2004-12/09/content_5724640.htm; uncertain date of extant structures</note>
             </place>
             <listRelation>
+               <relation active="http://architecturasinica.org/place/000268"
+                         passive="http://architecturasinica.org/keyword/tower"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
                <relation type="contained"
                          active="http://architecturasinica.org/place/000268"
                          ref="schema:containedInPlace"

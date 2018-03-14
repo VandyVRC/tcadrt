@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">lute-face descending cantilever</title>
+            <title level="a" xml:lang="en">lute-face descending cantilever</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,12 +43,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="qinmian_xiaang" type="skos:Concept">
+         <entryFree xml:id="qinmian_xiaang"
+                    type="architectural-feature"
+                    sub-type="Non-numeric">
             <term xml:id="term-qinmian_xiaang-1" xml:lang="en">lute-face descending cantilever</term>
             <term xml:id="term-qinmian_xiaang-4" xml:lang="zh-latn-pinyin">qinmian xiaang</term>
             <term xml:id="term-qinmian_xiaang-2" xml:lang="zh-Hant">琴面下昂</term>
@@ -58,7 +60,14 @@
                <relation ref="foaf:depicts"
                          active="https://farm3.staticflickr.com/2567/3837677328_aa36a03552_z.jpg"
                          passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         type="featured"/>
+                         ana="featured">
+                  <desc>
+                     <ref target="http://architecturasinica.org/keyword/000173">Gaoping Erlangmiao Stage</ref>
+                  </desc>
+               </relation>
+               <relation ref="skos:broadMatch"
+                         active="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         passive="Bracketing"/>
             </listRelation>
          </entryFree>
       </body>

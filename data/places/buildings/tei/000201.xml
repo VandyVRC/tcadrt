@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,23 +73,9 @@
                           xml:lang="zh-Hans">两程故里石坊</placeName>
                <placeName xml:id="name000201-11" type="alternate"> </placeName>
                <idno type="URI">http://architecturasinica.org/place/000201</idno>
-               <state type="existence"/>
-               <trait type="building-type">
-                  <label>Building Type</label>
-               </trait>
-               <trait type="site-type" source="#bibl000201-1">
-                  <label>Site Type</label>
-                  <desc xml:lang="en">ward</desc>
-                  <desc xml:lang="zh-Hant">里</desc>
-                  <desc xml:lang="zh-latn-pinyin">li</desc>
-               </trait>
-               <bibl xml:id="bibl000201-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
-               </bibl>
+               <state type="existence">
+                  <desc>1462</desc>
+               </state>
                <note type="field-notes">first built in 1131?; rebuilt in the Yuan; expanded in the Ming</note>
             </place>
             <listRelation>

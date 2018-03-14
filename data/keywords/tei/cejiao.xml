@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">batter or inward incline of eaves columns</title>
+            <title level="a" xml:lang="en">batter or inward incline of eaves columns</title>
             <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -28,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-04-05:00</date>
+            <date>2018-03-14-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -43,12 +43,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-04-05:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-14-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="cejiao" type="skos:Concept">
+         <entryFree xml:id="cejiao" type="architectural-feature" sub-type="Non-numeric">
             <term xml:id="term-cejiao-1" xml:lang="en">batter or inward incline of eaves columns</term>
             <term xml:id="term-cejiao-4" xml:lang="zh-latn-pinyin">cejiao</term>
             <term xml:id="term-cejiao-2" xml:lang="zh-Hant">側腳</term>
@@ -58,7 +58,14 @@
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4104/4841118583_d8c73757cf_z.jpg"
                          passive="http://architecturasinica.org/keyword/cejiao"
-                         type="featured"/>
+                         ana="featured">
+                  <desc>
+                     <ref target="http://architecturasinica.org/keyword/000167">Fengguosi Mahāvīra Hall</ref>
+                  </desc>
+               </relation>
+               <relation ref="skos:broadMatch"
+                         active="http://architecturasinica.org/keyword/cejiao"
+                         passive="Building Frame"/>
             </listRelation>
          </entryFree>
       </body>
