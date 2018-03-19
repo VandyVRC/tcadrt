@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,15 +83,6 @@
                <location type="verbatim">
                   <note>35° 39.807' (±17ft) 111° 4.164'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000126-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="notes">Axis: c, roof style: o-g, front façade: 36' 5"</note>
             </place>
             <listRelation>
@@ -99,6 +90,10 @@
                          passive="http://architecturasinica.org/keyword/storied-pavilion"
                          ref="dcterms:subject"
                          ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000126"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Yuan"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4831083567_d6b3700966_"
                          passive="http://architecturasinica.org/place/000126">
@@ -334,7 +329,7 @@
                          passive="http://architecturasinica.org/place/000126">
                   <desc>Baitaisi exterior view of complex</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000126"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000002"/>

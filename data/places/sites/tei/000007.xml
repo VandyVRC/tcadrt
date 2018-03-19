@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +57,24 @@
                <placeName xml:id="name000007-3" type="site-name" xml:lang="zh-Hant">布村玉皇廟</placeName>
                <placeName xml:id="name000007-4" type="site-name" xml:lang="zh-Hans">布村玉皇庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000007</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000007-1"
+                      from="0907"
+                      to="0960">
+                  <label xml:lang="en">Five Dynasties</label>
+                  <label xml:lang="zh-Hant">五代</label>
+                  <desc>907 CE-960 BCE</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1115"
+                      source="bibl000007-1"
+                      to="1234">
+                  <label xml:lang="en">Jin</label>
+                  <label xml:lang="zh-Hant">金</label>
+                  <desc>1115-1234</desc>
+               </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8206366 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省长治市</placeName>
@@ -98,6 +116,14 @@
                          passive="http://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000007"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Five-Dynasties"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000007"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4103/4831558221_a8ab2f8ed1_z.jpg"
                          passive="http://architecturasinica.org/place/000007"

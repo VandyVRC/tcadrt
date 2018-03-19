@@ -10,7 +10,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Liang Cheng Shrine in Liang Cheng ancient ward, Liang Cheng Shrine Daoxue Hall <foreign xml:lang="zh-Hant">兩程故裡兩程祠兩程祠道學堂</foreign>
+            <title level="a" xml:lang="en">Cheng Brothers Shrine in Liang Cheng ancient ward, Cheng Brothers Shrine, Daoxue Hall <foreign xml:lang="zh-Hant">兩程故裡兩程祠兩程祠道學堂</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,14 +46,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000202" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000202-1" xml:lang="en">Liang Cheng Shrine Daoxue Hall</placeName>
+               <placeName xml:id="name000202-1" xml:lang="en">Cheng Brothers Shrine, Daoxue Hall</placeName>
                <placeName xml:id="name000202-2" type="building-name" xml:lang="zh-Hant">兩程祠道學堂</placeName>
                <placeName xml:id="name000202-3" type="building-name" xml:lang="zh-Hans">两程祠道学堂</placeName>
                <placeName xml:id="name000202-4"
@@ -71,7 +71,7 @@
                           type="alternate"
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">两程故里两程祠道学堂</placeName>
-               <placeName xml:id="name000202-11" type="alternate"> </placeName>
+               <placeName xml:id="name000202-11" type="alternate">Liang Cheng ci Daoxue tang</placeName>
                <idno type="URI">http://architecturasinica.org/place/000202</idno>
                <state type="existence">
                   <desc>1131</desc>
@@ -83,7 +83,11 @@
                          passive="http://architecturasinica.org/keyword/mansion-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000202"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000202"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000059"/>

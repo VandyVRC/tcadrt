@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,10 +73,17 @@
                           xml:lang="zh-Hans">云岩寺窦圌山转轮经藏</placeName>
                <placeName xml:id="name000269-11" type="alternate"> </placeName>
                <idno type="URI">http://architecturasinica.org/place/000269</idno>
+               <state type="existence" from="0960" to="1279">
+                  <desc>960-1279</desc>
+               </state>
                <note type="field-notes">song revolving sutra repository with angled bracket arms</note>
             </place>
             <listRelation>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000269"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000269"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000112"/>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -116,6 +116,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000200"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4821934588_98b085f757_"
                          passive="http://architecturasinica.org/place/000200">
@@ -276,7 +280,7 @@
                          passive="http://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000200"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000057"/>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,21 +73,15 @@
                           xml:lang="zh-Hans">不二寺大殿</placeName>
                <placeName xml:id="name000138-11" type="alternate">Buersi</placeName>
                <idno type="URI">http://architecturasinica.org/place/000138</idno>
+               <state type="existence" from="1125" to="1234">
+                  <desc>1125-1234</desc>
+               </state>
                <location type="gps">
                   <geo>38.0510217 112.6602917</geo>
                </location>
                <location type="verbatim">
                   <note>38˚ 03' 06.13" N (google earth-satellite confirm) 112˚ 39' 37.05" E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000138-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000138"
@@ -134,7 +128,11 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000138"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000138"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000008"/>

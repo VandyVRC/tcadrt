@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,15 +80,6 @@
                <state type="existence">
                   <desc>1098</desc>
                </state>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000273-1"
-                      from="1038"
-                      to="1227">
-                  <label xml:lang="en">Xixia</label>
-                  <label xml:lang="zh-Hant">西夏</label>
-                  <desc>1038-1227</desc>
-               </state>
                <note type="field-notes">Xixia reclining Buddha--is building also Xixia? http://baike.baidu.com/item/%E5%BC%A0%E6%8E%96%E5%A4%A7%E4%BD%9B%E5%AF%BA</note>
             </place>
             <listRelation>
@@ -96,7 +87,11 @@
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000273"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Xixia?"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000273"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000116"/>

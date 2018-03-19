@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,6 +58,24 @@
                <placeName xml:id="name000020-4" type="site-name" xml:lang="zh-Hans">大云院</placeName>
                <idno type="URI">http://architecturasinica.org/place/000020</idno>
                <desc type="site-data">Dayun Cloister (大雲院) is located in Shihui Village of Beidanche Township (北耽車鄉實會村), approximately 500 meters to the northwest of Shuangfeng Shan (雙峰山). There are extant structures from the Five Dynasties and the Qing dynasty. It is one of the major historical and cultural sites protected at the national level (全國重點文物保護單位). According to a stele inscription, it was initially built in the third year of Later Jin Tianfu (後晉天福) reign period (938) under the original name Xianyan Cloister (仙岩院). In the fifth year of the Later Zhou Xiande (後周顯德) reign period (958), the Seven Treasures Pagoda (七寶塔) was built outside of the monastery. The monastery was then decreed by the imperial court to have its name changed to Dayun Chan Monastery (大雲禪寺) in the eighth year of Song Taiping Xingguo (太平興國) reign period (983). In the subsequent Jin and Yuan dynasties, the monastery sustained severe damage; on which multiple attempts of repair and renovation were implemented during the Ming Chenghua (成化) and Wanli (萬曆), as well as the Qing Shunzhi (順治) and Kangxi (康熙), periods. Occupying a total area of approximately 4,003 m2, the site is oriented north-south, facing south and has a two-courtyard configuration. The axial buildings are Tianwang dian (or Guardian King Hall, 天王殿), Dafodian (or Great Buddha Hall, 大佛殿), and Sanfodian (or Three Buddha Hall, 三佛殿); while the two side buildings are east service door and subsidiary hall. The artifacts inside the monastery are two Song steles, a Ming stele, a Qing stele, and 28.83-square meters of Five Dynasties murals. Outside, the extant Seven Treasures Pagoda is from the Five Dynasties and is located about 50 meters southwest of the monastery. Translated WPS, edited TM, 2017-2018 大雲院 山西省， 平順縣，長治市. Dayunyuan [ZGWWDTJ, Shanxi vol. 2 (中), p. 305 34-C5]</desc>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000020-1"
+                      from="0907"
+                      to="0960">
+                  <label xml:lang="en">Five Dynasties</label>
+                  <label xml:lang="zh-Hant">五代</label>
+                  <desc>907 CE-960 BCE</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1644"
+                      source="bibl000020-1"
+                      to="1912">
+                  <label xml:lang="en">Qing</label>
+                  <label xml:lang="zh-Hant">清</label>
+                  <desc>1644-1912</desc>
+               </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省平顺县</placeName>
@@ -93,6 +111,14 @@
                          passive="http://architecturasinica.org/keyword/cloister"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000020"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Five-Dynasties"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000020"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4798/40758358071_bdd1017231_z.jpg"
                          passive="http://architecturasinica.org/place/000020"

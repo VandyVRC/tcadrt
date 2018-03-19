@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -82,7 +82,7 @@
                <location type="verbatim">
                   <note>36˚ 00.468' (Garmin) 112˚ 56.008'</note>
                </location>
-               <note type="field-notes">Five Dynasties?</note>
+               <note type="field-notes"> </note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000136"
@@ -101,6 +101,10 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000136"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Five-Dynasties-(?)"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4832088512_7dbed0c270_"
                          passive="http://architecturasinica.org/place/000136">
@@ -634,7 +638,7 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4149/4832083002_0431d3139b_"
                          passive="http://architecturasinica.org/place/000136"/>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000136"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000007"/>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,6 +73,9 @@
                           xml:lang="zh-Hans">佛头寺正殿</placeName>
                <placeName xml:id="name000171-11" type="alternate">Zhengdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000171</idno>
+               <state type="existence" from="0960" to="1125">
+                  <desc>960-1125</desc>
+               </state>
                <location type="gps">
                   <geo>36.3581667 113.5761333</geo>
                </location>
@@ -130,7 +133,11 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000171"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000171"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000030"/>

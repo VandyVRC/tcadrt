@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,7 @@
                <placeName xml:id="name000174-11" type="alternate">Geyuansi</placeName>
                <idno type="URI">http://architecturasinica.org/place/000174</idno>
                <state type="existence" from="0977" to="0977">
-                  <desc>977</desc>
+                  <desc>0977</desc>
                </state>
                <location type="gps">
                   <geo>39.353 114.681833</geo>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>39˚ 21.18' N (Magellan) 114˚ 40.91' E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000174-1"
-                      from="0916"
-                      to="1125">
-                  <label xml:lang="en">Liao </label>
-                  <label xml:lang="zh-Hant">遼</label>
-                  <desc>916-1125</desc>
-               </state>
                <note type="field-notes">Liao building with mojiaogong but no fan brackets; cloud bracket arms make it jixin</note>
             </place>
             <listRelation>
@@ -118,7 +109,11 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000174"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Liao"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000174"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000033"/>

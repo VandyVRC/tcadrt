@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +65,16 @@
                   <label xml:lang="en">Jin</label>
                   <label xml:lang="zh-Hant">金</label>
                   <desc>1115-1234</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1271"
+                      source="bibl000075-1"
+                      to="1368">
+                  <label xml:lang="en">Yuan</label>
+                  <label xml:lang="zh-Hant">元</label>
+                  <desc>1271-1368</desc>
+                  <desc>Wilkinson has 1279 as the start date for the Yuan, but this does not work for Northern Areas. Yuan officially founded in 1271</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8627543 http://vocab.getty.edu/aat/300387198">
@@ -105,6 +115,14 @@
                          passive="http://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000075"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000075"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Yuan"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4091/4838233004_f2f2234d1b_z.jpg"
                          passive="http://architecturasinica.org/place/000075"

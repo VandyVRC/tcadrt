@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,16 +71,16 @@
                           type="alternate"
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">灵岩寺辟支塔</placeName>
-               <placeName xml:id="name000204-11" type="alternate">Lingyan_Monastery_Pratyeka_Pagoda</placeName>
+               <placeName xml:id="name000204-11" type="alternate">Lingyansi Bizhita</placeName>
                <idno type="URI">http://architecturasinica.org/place/000204</idno>
-               <state type="existence" from="1057" to="1064">
+               <state type="existence" from="1056" to="1064">
                   <desc>1056</desc>
                </state>
                <location type="gps">
                   <geo>36.3632666 116.977683</geo>
                </location>
-               <note type="field-notes">Song dynasty; corner bracket sets on front facade</note>
-               <note type="notes">ZGMSCD, p. 585, states first built in Tang Tianbao 12 (753); repaired in the Jiayou period (1056-1064); but style of pagoda suggest Song period repair was more of a rebuilding</note>
+               <note type="field-notes">Northern Song dynasty; corner bracket sets on front facade</note>
+               <note type="notes">zgmscd, p. 585, states first built in Tang Tianbao 12 (753); repaired in the Jiayou period (1056-1064); but style of pagoda suggest Song period repair was more of a rebuilding</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000204"
@@ -119,6 +119,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000204"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2760/4108927344_db809e31d5_"
                          passive="http://architecturasinica.org/place/000204"/>
@@ -304,7 +308,7 @@
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2700/4108220811_c14e6fda4f_"
                          passive="http://architecturasinica.org/place/000204"/>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000204"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000061"/>

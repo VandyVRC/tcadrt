@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,8 +73,8 @@
                           xml:lang="zh-Hans">天台庵正殿</placeName>
                <placeName xml:id="name000245-11" type="alternate">Zhengdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000245</idno>
-               <state type="existence" from="0618" to="0907">
-                  <desc>618-907</desc>
+               <state type="existence" from="0618" to="0960">
+                  <desc>618-960</desc>
                </state>
                <location type="gps">
                   <geo>36.38344 113.3922133</geo>
@@ -82,16 +82,7 @@
                <location type="verbatim">
                   <note>36˚ 23' 00.64" N (google earth Cui Jinze) 113˚ 23' 53.28" E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000245-1"
-                      from="0618"
-                      to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
-               </state>
-               <note type="field-notes">probably late Tang based on style</note>
+               <note type="field-notes">probably early tenth century, based on style</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000245"
@@ -110,7 +101,15 @@
                          passive="http://architecturasinica.org/keyword/first_step_touxin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000245"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Tang"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000245"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Five-Dynasties"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000245"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000093"/>

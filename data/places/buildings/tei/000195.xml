@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,7 +71,7 @@
                           type="alternate"
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">九天圣母庙圣母殿</placeName>
-               <placeName xml:id="name000195-11" type="alternate"> </placeName>
+               <placeName xml:id="name000195-11" type="alternate">Shengmudian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000195</idno>
                <state type="existence" from="0960" to="1102">
                   <desc>960-1101</desc>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>36 13.514' (Garmin) 113˚ 20.245'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000195-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
                <note type="field-notes">http://baike.baidu.com/subview/139499/10834210.htm</note>
             </place>
             <listRelation>
@@ -138,6 +129,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000195"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4115/4822174262_92965e27d4_"
                          passive="http://architecturasinica.org/place/000195">
@@ -623,7 +618,7 @@
                          passive="http://architecturasinica.org/place/000195">
                   <desc>Jiutian_Shengmumiao   献殿 Offering Hall</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000195"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000052"/>

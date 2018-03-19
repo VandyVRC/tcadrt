@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,19 +76,14 @@
                <state type="existence">
                   <desc>1183</desc>
                </state>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000166-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">not listed separately in 中國 文物 地圖集, bridge from Jin https://zh.wikipedia.org/wiki/%E6%B1%BE%E5%9F%8E%E5%8F%A4%E5%BB%BA%E7%AD%91%E7%BE%A4</note>
             </place>
             <listRelation>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000166"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000166"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000026"/>

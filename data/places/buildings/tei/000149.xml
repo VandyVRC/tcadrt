@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,21 +73,16 @@
                           xml:lang="zh-Hans">崇明寺中殿</placeName>
                <placeName xml:id="name000149-11" type="alternate">Zhongdian </placeName>
                <idno type="URI">http://architecturasinica.org/place/000149</idno>
+               <state type="existence" from="0991" to="0991">
+                  <desc>991</desc>
+               </state>
                <location type="gps">
                   <geo>35.71439722 113.0084611</geo>
                </location>
                <location type="verbatim">
                   <note>35˚ 42' 51.83" N (google earth-satellite confirm) 113' 00' 30.46" E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000149-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
+               <note type="notes">For date see: ZGMSCD, 174</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000149"
@@ -122,7 +117,11 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000149"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000149"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000013"/>

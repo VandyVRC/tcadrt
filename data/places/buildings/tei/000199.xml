@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,15 +79,6 @@
                <location type="verbatim">
                   <note>38˚ 08.39' N (Magellan) 114˚ 33.94' E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000199-1"
-                      from="0618"
-                      to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
-               </state>
                <note type="field-notes">Tang dynasty first floor (partial)--compare to Zhengding Wenmiao?</note>
                <note type="notes">for date see: zgmscd 104</note>
             </place>
@@ -96,7 +87,11 @@
                          passive="http://architecturasinica.org/keyword/tower"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000199"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Tang"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000199"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000056"/>

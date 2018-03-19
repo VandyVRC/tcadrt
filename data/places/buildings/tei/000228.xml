@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,7 @@
                <placeName xml:id="name000228-11" type="alternate">Dayunyuan</placeName>
                <idno type="URI">http://architecturasinica.org/place/000228</idno>
                <state type="existence" from="1115" to="1234">
-                  <desc>1115-1234</desc>
+                  <desc>1125-1234</desc>
                </state>
                <location type="gps">
                   <geo>36.7477 112.5745</geo>
@@ -104,10 +104,14 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000228"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2469/3824031609_ec01d01cfa_"
                          passive="http://architecturasinica.org/place/000228"/>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000228"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000078"/>

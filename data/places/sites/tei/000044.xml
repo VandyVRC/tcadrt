@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +57,24 @@
                <placeName xml:id="name000044-3" type="site-name" xml:lang="zh-Hant">狐突廟</placeName>
                <placeName xml:id="name000044-4" type="site-name" xml:lang="zh-Hans">狐突庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000044</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000044-1"
+                      from="0960"
+                      to="1127">
+                  <label xml:lang="en">Northern Song</label>
+                  <label xml:lang="zh-Hant">北宋</label>
+                  <desc>960-1127</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1644"
+                      source="bibl000044-1"
+                      to="1912">
+                  <label xml:lang="en">Qing</label>
+                  <label xml:lang="zh-Hant">清</label>
+                  <desc>1644-1912</desc>
+               </state>
                <location type="nested">
                   <placeName>山西省清徐县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
@@ -87,6 +105,14 @@
                          passive="http://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000044"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000044"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

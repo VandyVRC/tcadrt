@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -90,6 +90,14 @@
                          passive="http://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000028"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Liao"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000028"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Liao"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

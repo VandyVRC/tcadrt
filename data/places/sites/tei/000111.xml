@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +57,24 @@
                <placeName xml:id="name000111-3" type="site-name" xml:lang="zh-Hant">袁州譙樓</placeName>
                <placeName xml:id="name000111-4" type="site-name" xml:lang="zh-Hans">袁州谯楼</placeName>
                <idno type="URI">http://architecturasinica.org/place/000111</idno>
+               <state type="existence"
+                      subtype="earliest-period"
+                      source="bibl000111-1"
+                      from="1127"
+                      to="1279">
+                  <label xml:lang="en">Southern Song</label>
+                  <label xml:lang="zh-Hant">南宋</label>
+                  <desc>1127-1279</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1644"
+                      source="bibl000111-1"
+                      to="1912">
+                  <label xml:lang="en">Qing</label>
+                  <label xml:lang="zh-Hant">清</label>
+                  <desc>1644-1912</desc>
+               </state>
                <location type="nested">
                   <placeName>江西省宜春市</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Jiangxi</placeName>
@@ -90,6 +108,14 @@
                          passive="http://architecturasinica.org/keyword/tower"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000111"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Southern-Song"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000111"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

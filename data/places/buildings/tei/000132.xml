@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>29˚ 58.98' N  (Magellan) 121˚ 31.01' E (Magellan) 121˚ 30' 57.99" E (google earth)</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000132-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
                <note type="field-notes">early 11th cen. Example of style in YZFS; Dated to 1013 in later inscription on stauary platform; Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
             </place>
             <listRelation>
@@ -134,7 +125,11 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000132"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000132"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000004"/>

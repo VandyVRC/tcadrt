@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,6 +61,15 @@
                       subtype="earliest-period"
                       source="bibl000024-1"
                       from="0916"
+                      to="1125">
+                  <label xml:lang="en">Liao </label>
+                  <label xml:lang="zh-Hant">遼</label>
+                  <desc>916-1125</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="0916"
+                      source="bibl000024-1"
                       to="1125">
                   <label xml:lang="en">Liao </label>
                   <label xml:lang="zh-Hant">遼</label>
@@ -102,6 +111,14 @@
                          passive="http://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000024"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Liao"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000024"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Liao"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

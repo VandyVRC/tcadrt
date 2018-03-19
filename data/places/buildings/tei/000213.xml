@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,15 +76,6 @@
                <state type="existence" from="0996" to="0996">
                   <desc>996</desc>
                </state>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000213-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
                <note type="field-notes">Zushidian thought to retain Song style (ZGMSCD, 842)</note>
             </place>
             <listRelation>
@@ -92,7 +83,11 @@
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000213"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000213"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000065"/>

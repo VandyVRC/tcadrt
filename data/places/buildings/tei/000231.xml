@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,14 +73,8 @@
                           xml:lang="zh-Hans">芮城城隍庙大殿</placeName>
                <placeName xml:id="name000231-11" type="alternate">Chenghuangmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000231</idno>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000231-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
+               <state type="existence" from="0960" to="1125">
+                  <desc>960-1125</desc>
                </state>
                <note type="field-notes">大殿面宽五间，进深三间，单檐歇山顶。前檐柱头斗栱五铺作，双下昂，昂为劈竹式，蚂蚱形耍头</note>
             </place>
@@ -89,7 +83,11 @@
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000231"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000231"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000082"/>

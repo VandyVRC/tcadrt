@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,8 +73,8 @@
                           xml:lang="zh-Hans">崇教寺山門</placeName>
                <placeName xml:id="name000146-11" type="alternate">Shanmen</placeName>
                <idno type="URI">http://architecturasinica.org/place/000146</idno>
-               <state type="existence">
-                  <desc> </desc>
+               <state type="existence" from="1368" to="1911">
+                  <desc>1368-1911</desc>
                </state>
                <location type="gps">
                   <geo>36.3429 113.1132</geo>
@@ -125,6 +125,14 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000146"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Ming"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000146"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing-(?)"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4809569071_8508cf3743_"
                          passive="http://architecturasinica.org/place/000146">
@@ -258,7 +266,7 @@
                          passive="http://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000146"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000012"/>

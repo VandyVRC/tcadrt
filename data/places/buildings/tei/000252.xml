@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,15 +76,6 @@
                <state type="existence" from="1234" to="1368">
                   <desc>1234-1368</desc>
                </state>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000252-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">Bell tower Yuan? See: http://baike.baidu.com/view/2020840.htm</note>
             </place>
             <listRelation>
@@ -92,7 +83,11 @@
                          passive="http://architecturasinica.org/keyword/tower"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000252"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Yuan"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000252"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000098"/>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,15 +79,6 @@
                <location type="gps">
                   <geo>35.5955833 116.98405</geo>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000230-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000230"
@@ -134,6 +125,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000230"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2796/4109009050_941786c56c_"
                          passive="http://architecturasinica.org/place/000230"/>
@@ -538,7 +533,7 @@
                <relation ref="foaf:depicts"
                          active="farm3.staticflickr.com/2760/4108410941_a98126de45_"
                          passive="http://architecturasinica.org/place/000230"/>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000230"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000081"/>

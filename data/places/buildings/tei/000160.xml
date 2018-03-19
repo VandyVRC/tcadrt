@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,8 +71,19 @@
                           type="alternate"
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">周村东岳庙正殿</placeName>
-               <placeName xml:id="name000160-11" type="alternate">Dongyuemiao</placeName>
+               <placeName xml:id="name000160-8"
+                          type="alternate"
+                          subtype="site-name"
+                          xml:lang="zh-Hant">高臺寺</placeName>
+               <placeName xml:id="name000160-9"
+                          type="alternate"
+                          subtype="site-name"
+                          xml:lang="zh-Hans">高台寺</placeName>
+               <placeName xml:id="name000160-10" type="alternate" subtype="site-name">Gaotaisi</placeName>
                <idno type="URI">http://architecturasinica.org/place/000160</idno>
+               <state type="existence" from="0960" to="1125">
+                  <desc>960-1125</desc>
+               </state>
                <location type="gps">
                   <geo>35.47615 112.620216</geo>
                </location>
@@ -109,7 +120,11 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000160"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000160"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000022"/>

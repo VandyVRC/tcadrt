@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -89,12 +89,16 @@ Xingfansi     ZGWWDTJ Shanxi, vol. 3;    p.775    33 – C 1 Date of founding un
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000258"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4836625486_fe25f6b97d_"
                          passive="http://architecturasinica.org/place/000258">
                   <desc>Xingfansi   正殿 Main Hall</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000258"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000103"/>

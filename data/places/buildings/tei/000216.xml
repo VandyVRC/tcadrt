@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,8 +73,8 @@
                           xml:lang="zh-Hans">南神头二仙庙正殿</placeName>
                <placeName xml:id="name000216-11" type="alternate">Erxianmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000216</idno>
-               <state type="existence" from="0960" to="1125">
-                  <desc>960-1125</desc>
+               <state type="existence" from="1125" to="1234">
+                  <desc>1125-1234</desc>
                </state>
                <location type="gps">
                   <geo>35.69555 113.35965</geo>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>35˚ 41.733' 113˚ 21.579'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000216-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">Main Hall from Jin; see: http://www.huaxia.com/zhsx/sxsy/wwzy/12/1256259.html</note>
             </place>
             <listRelation>
@@ -146,7 +137,11 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000216"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000216"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000068"/>

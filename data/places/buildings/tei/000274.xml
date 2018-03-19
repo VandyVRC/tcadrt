@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,8 +73,8 @@
                           xml:lang="zh-Hans">长子县府君庙</placeName>
                <placeName xml:id="name000274-11" type="alternate">Fujunmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000274</idno>
-               <state type="existence" from="0960" to="1546">
-                  <desc>960-1546</desc>
+               <state type="existence" from="1184" to="1184">
+                  <desc>1184</desc>
                </state>
                <location type="gps">
                   <geo>36.11985 112.8771667</geo>
@@ -113,6 +113,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000274"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4819517074_e6234d3ae5_"
                          passive="http://architecturasinica.org/place/000274">
@@ -548,7 +552,7 @@
                          passive="http://architecturasinica.org/place/000274">
                   <desc>Zhangzi_Fujunmiao, 正殿 Main Hall  construction site</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000274"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000117"/>

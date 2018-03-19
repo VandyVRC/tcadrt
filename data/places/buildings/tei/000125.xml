@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,15 +88,6 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                <location type="verbatim">
                   <note>35˚ 39.820' (garmin) 111˚ 4.164'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000125-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">Shijiadian from Jin Mingchang period (1190-1196) see: 中國 文物 地圖集山西分冊, 下, 1099 </note>
                <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note>
             </place>
@@ -141,6 +132,10 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000125"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4831100445_972b732293_"
                          passive="http://architecturasinica.org/place/000125">
@@ -404,7 +399,7 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                          passive="http://architecturasinica.org/place/000125">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000125"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000002"/>

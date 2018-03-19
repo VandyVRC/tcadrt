@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,6 +73,9 @@
                           xml:lang="zh-Hans">小张村碧云寺大殿</placeName>
                <placeName xml:id="name000254-11" type="alternate">Biyunsi</placeName>
                <idno type="URI">http://architecturasinica.org/place/000254</idno>
+               <state type="existence" from="0907" to="0960">
+                  <desc>907-960</desc>
+               </state>
                <location type="gps">
                   <geo>36.17146667 112.8389833</geo>
                </location>
@@ -82,7 +85,11 @@
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000254"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Five-Dynasties"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000254"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000100"/>

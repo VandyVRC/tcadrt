@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>35˚ 29.606' (Garmin) 111˚ 38.923'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000244-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">Daxiongbaodian from Jin repair, see: 中國 文物 地圖集 山西分冊,下,p.1148</note>
             </place>
             <listRelation>
@@ -138,6 +129,10 @@
                          passive="http://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000244"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4838659470_7c95cf1895_"
                          passive="http://architecturasinica.org/place/000244">
@@ -431,7 +426,7 @@
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4838098171_45d892c2bf_"
                          passive="http://architecturasinica.org/place/000244"/>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000244"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000092"/>

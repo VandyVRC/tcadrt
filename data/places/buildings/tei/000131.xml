@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,15 +83,6 @@
                <location type="verbatim">
                   <note>35° 39.500' (±23ft) 113° 14.458' (±23ft)</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000131-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="notes">Axis: c, roof style: o-g, front façade: 30' 7"</note>
             </place>
             <listRelation>
@@ -135,7 +126,15 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000131"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Ming"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000131"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000131"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000003"/>

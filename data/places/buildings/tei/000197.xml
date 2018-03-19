@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,21 +73,16 @@
                           xml:lang="zh-Hans">开化寺大雄宝殿</placeName>
                <placeName xml:id="name000197-11" type="alternate">Daxiongbaodian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000197</idno>
+               <state type="existence" from="1073" to="1096">
+                  <desc>1073-1096</desc>
+               </state>
                <location type="gps">
                   <geo>35.87018611 113.0370944</geo>
                </location>
                <location type="verbatim">
                   <note>35˚ 52' 12.67" N (google earth-satellite confirm) 113˚ 02' 13.54" E</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000197-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
+               <note type="field-notes">ZGMSCD, 172</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000197"
@@ -118,7 +113,11 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000197"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000197"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000054"/>

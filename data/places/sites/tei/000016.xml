@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +65,15 @@
                   <label xml:lang="en">Northern Song</label>
                   <label xml:lang="zh-Hant">北宋</label>
                   <desc>960-1127</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1644"
+                      source="bibl000016-1"
+                      to="1912">
+                  <label xml:lang="en">Qing</label>
+                  <label xml:lang="zh-Hant">清</label>
+                  <desc>1644-1912</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8619493 http://vocab.getty.edu/aat/300387198">
@@ -101,6 +110,14 @@
                          passive="http://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000016"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000016"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

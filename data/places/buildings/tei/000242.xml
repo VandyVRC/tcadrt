@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,14 +73,25 @@
                           xml:lang="zh-Hans">泰安岱庙天祝殿</placeName>
                <placeName xml:id="name000242-11" type="alternate">Taian_Daimiao_Tianzhudian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000242</idno>
-               <note type="field-notes">originally built in 1009, modified numerous times. Wall paintings in Song style=ZGMSCD, 626</note>
+               <state type="existence" from="1009" to="1911">
+                  <desc>1009-1911</desc>
+               </state>
+               <note type="field-notes">originally built in 1009, modified numerous times, see ZGMSCD, 626</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000242"
                          passive="http://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation type="contained"
+               <relation active="http://architecturasinica.org/place/000242"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000242"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000242"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000090"/>

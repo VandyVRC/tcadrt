@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -82,15 +82,6 @@
                <location type="verbatim">
                   <note>35˚ 28.818' (Garmin) 112˚ 25.356'</note>
                </location>
-               <state type="existence"
-                      subtype="earliest-period"
-                      source="bibl000196-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
                <note type="field-notes">Offering Hall is Jin Dading period (1161-1190) see: 中國 文物 地圖集 山西分冊, 中, 500 </note>
             </place>
             <listRelation>
@@ -142,6 +133,10 @@
                          passive="http://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000196"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4821293832_3c56f738c9_"
                          passive="http://architecturasinica.org/place/000196">
@@ -287,7 +282,7 @@
                          passive="http://architecturasinica.org/place/000196">
                   <desc>Yangcheng_Kaifusi  献殿 Offering Hall</desc>
                </relation>
-               <relation type="contained"
+               <relation ana="contained"
                          active="http://architecturasinica.org/place/000196"
                          ref="schema:containedInPlace"
                          passive="http://architecturasinica.org/place/000053"/>

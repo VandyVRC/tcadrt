@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,11 +60,20 @@
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000098-1"
-                      from="1115"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
+                      from="0960"
+                      to="1127">
+                  <label xml:lang="en">Northern Song</label>
+                  <label xml:lang="zh-Hant">北宋</label>
+                  <desc>960-1127</desc>
+               </state>
+               <state type="existence"
+                      subtype="latest-period"
+                      from="1368"
+                      source="bibl000098-1"
+                      to="1644">
+                  <label xml:lang="en">Ming</label>
+                  <label xml:lang="zh-Hant">明</label>
+                  <desc>1368-1644</desc>
                </state>
                <location type="nested">
                   <placeName>山西省乡宁县</placeName>
@@ -96,6 +105,14 @@
                          passive="http://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000098"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000098"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Ming"
+                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-14-04:00</date>
+            <date>2018-03-19-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-14-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,11 +60,11 @@
                <state type="existence"
                       subtype="earliest-period"
                       source="bibl000004-1"
-                      from="0960"
-                      to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
+                      from="0025"
+                      to="0220">
+                  <label xml:lang="en">Eastern Han</label>
+                  <label xml:lang="zh-Hant">東漢</label>
+                  <desc>25-220</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8630826 http://vocab.getty.edu/aat/300387145">
@@ -101,6 +101,14 @@
                          passive="http://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000004"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Eastern-Han"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000004"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Republic-of-China"
+                         ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4608/40280520912_014e34d84c_z.jpg"
                          passive="http://architecturasinica.org/place/000004"
