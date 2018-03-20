@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,7 +78,12 @@
                <placeName xml:id="name000167-11" type="alternate">Daxiongbaodian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000167</idno>
                <state type="existence" from="1020" to="1020">
+                  <label>Date</label>
                   <desc>1020</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Liao  - </desc>
                </state>
                <location type="gps">
                   <geo>41.5430333 121.2424167</geo>
@@ -86,6 +91,13 @@
                <location type="verbatim">
                   <note>41˚ 32.582' N (Garmin) 121˚ 14.545' E</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">Daxiongdian: 開 泰 九 年 正 月 十 四 起 工 (Feb. 10, 1020) </note>
             </place>
             <listRelation>

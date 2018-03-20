@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000123-4" type="site-name" xml:lang="zh-Hans">中坪二仙宫</placeName>
                <idno type="URI">http://architecturasinica.org/place/000123</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000123-1"
                       from="1115"
                       to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="1644"
-                      source="bibl000123-1"
-                      to="1912">
-                  <label xml:lang="en">Qing</label>
-                  <label xml:lang="zh-Hant">清</label>
-                  <desc>1644-1912</desc>
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8206832 http://vocab.getty.edu/aat/300387198">
@@ -100,6 +90,13 @@
                <location type="gps">
                   <geo>35.8061166 113.069833</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palace (Daoist monastery or other)</desc>
+                  <desc xml:lang="zh-latn-pinyin">gong</desc>
+                  <desc xml:lang="zh-Hant">宮</desc>
+                  <desc xml:lang="zh-Hans">宫</desc>
+               </trait>
                <bibl xml:id="bibl000123-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

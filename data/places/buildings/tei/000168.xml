@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,7 +78,12 @@
                <placeName xml:id="name000168-11" type="alternate">Yingxian muta</placeName>
                <idno type="URI">http://architecturasinica.org/place/000168</idno>
                <state type="existence" from="1056" to="1095">
+                  <label>Date</label>
                   <desc>1056-1095</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Liao  - </desc>
                </state>
                <location type="gps">
                   <geo>39.5650166 113.1817</geo>
@@ -86,6 +91,17 @@
                <location type="verbatim">
                   <note>39˚ 33.901' N (Garmin) 113˚ 10.902 E</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
                <note type="field-notes">northern pagodas and development of xiegong;pingzuo bracket sets jixin on first step, eaves touxin </note>
             </place>
             <listRelation>

@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000010-4" type="site-name" xml:lang="zh-Hans">成汤庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000010</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000010-1"
                       from="1115"
                       to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="1115"
-                      source="bibl000010-1"
-                      to="1234">
-                  <label xml:lang="en">Jin</label>
-                  <label xml:lang="zh-Hant">金</label>
-                  <desc>1115-1234</desc>
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="nested">
                   <placeName>河北省邯鄲涉县</placeName>
@@ -95,6 +85,13 @@
                      <placeName xml:lang="zh-Hans">涉</placeName>
                   </region>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-Hans">庙</desc>
+               </trait>
                <bibl xml:id="bibl000010-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

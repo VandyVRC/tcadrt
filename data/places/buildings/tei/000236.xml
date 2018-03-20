@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,12 @@
                <placeName xml:id="name000236-11" type="alternate">Puxiange</placeName>
                <idno type="URI">http://architecturasinica.org/place/000236</idno>
                <state type="existence" from="1154" to="1154">
+                  <label>Date</label>
                   <desc>1154</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="gps">
                   <geo>40.0859333 113.293333</geo>
@@ -82,6 +87,13 @@
                <location type="verbatim">
                   <note>40˚ 05.156' N 113˚ 17.600' E</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">storied pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
+               </trait>
                <note type="field-notes">1154; column-top match ic on lower eaves</note>
             </place>
             <listRelation>

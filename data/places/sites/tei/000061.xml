@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,13 +60,11 @@
                <idno type="URI">http://sws.geonames.org/1803429/</idno>
                <idno type="URI">http://vocab.getty.edu/tgn/8625249/</idno>
                <state type="existence"
-                      subtype="latest-period"
-                      from="1644"
+                      subtype="dynasty"
                       source="bibl000061-1"
-                      to="1912">
-                  <label xml:lang="en">Qing</label>
-                  <label xml:lang="zh-Hant">清</label>
-                  <desc>1644-1912</desc>
+                      from="0000">
+                  <label>Dynasty</label>
+                  <desc>Former Qin  - </desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8208980 http://vocab.getty.edu/aat/300387198">
@@ -93,6 +91,13 @@
                <location type="gps">
                   <geo>36.3632666 116.977683</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
                <bibl xml:id="bibl000061-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

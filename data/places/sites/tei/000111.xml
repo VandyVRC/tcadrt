@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000111-4" type="site-name" xml:lang="zh-Hans">袁州谯楼</placeName>
                <idno type="URI">http://architecturasinica.org/place/000111</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000111-1"
                       from="1127"
                       to="1279">
-                  <label xml:lang="en">Southern Song</label>
-                  <label xml:lang="zh-Hant">南宋</label>
-                  <desc>1127-1279</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="1644"
-                      source="bibl000111-1"
-                      to="1912">
-                  <label xml:lang="en">Qing</label>
-                  <label xml:lang="zh-Hant">清</label>
-                  <desc>1644-1912</desc>
+                  <label>Dynasty</label>
+                  <desc>Southern Song 1127 - 1279</desc>
                </state>
                <location type="nested">
                   <placeName>江西省宜春市</placeName>
@@ -95,6 +85,13 @@
                      <placeName xml:lang="zh-latn-pinyin">袁州譙樓建於南宋嘉定十二年(西元１２１９年)</placeName>
                   </region>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">tower</desc>
+                  <desc xml:lang="zh-latn-pinyin">lou</desc>
+                  <desc xml:lang="zh-Hant">樓</desc>
+                  <desc xml:lang="zh-Hans">楼</desc>
+               </trait>
                <bibl xml:id="bibl000111-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,15 +72,16 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">白玉宫正殿</placeName>
                <placeName xml:id="name000128-11" type="alternate">Zhengdian </placeName>
-               <desc type="site-data">Baiyugong is located in the Jiaodi Village of Lucheng Town, (潞城鎮郊底村) and contains artifacts from the Jin, Ming, and Qing dynasties. It is one of the historical and cultural sites protected at the city level.
- 
-The date of origin is unclear. The inscription states that while the original structure of the temple predates the Jin dynasty, it was renovated during the first year of the Jin Chongqing (崇慶) reign period (1212), the first year of the Ming Yongchang (永昌) reign period (1644), and in 1923. Occupying a total area of 2,750 m2, the site has a north-south orientation, facing south, and a three-courtyard configuration. The extant buildings on the central axis include the Mountain Gate, Hall of the Three Transcendents, main hall, and back hall. On the two sides are the lobe towers, the monks’ towers, galleries, and ear halls. The main structure of the current main hall is an artifact of the Jin dynasty, while the back hall and the Sanxian Hall (三仙殿) were rebuilt during the Ming and Qing dynasties. There are 2 Song steles, 3 steles documenting repairs of the Republican Period, and contains approximately 52 m2 of murals. 
-Baiyugong [ZGWWDTJ, Shanxi vol. 2 (中), p. 513 23-C10] Translated by Wong Pui See, edited by TM, 2018 </desc>
                <desc type="building-data">The main hall (正殿) of Baiyu Palace is built on a 0.8 m high stone podium. The hall has a front façade of 3 bays wide and depth of 4 rafters. It has a single eaves hip-gable roof, with a roof frame composed of a three-rafter beam facing an anterior single-rafter tie beam joined into to the eaves, with three columns in cross-section. The column tops support four-layer bracket sets with a single cantilever, and there are single intercolumnar bracket sets. The original doors and windows are no longer extant. 
 [ZGWWDTJ, Shanxi vol 2 (zhong), p. 513 23-C10-1] Translated by Lydia Ohl; edited by Cole Garrett; Modified by Wong Pui See, edited by TM, 2018</desc>
                <idno type="URI">http://architecturasinica.org/place/000128</idno>
                <state type="existence" from="1212" to="1212">
+                  <label>Date</label>
                   <desc>1212</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="gps">
                   <geo>35.65815 113.2410667</geo>
@@ -88,6 +89,13 @@ Baiyugong [ZGWWDTJ, Shanxi vol. 2 (中), p. 513 23-C10] Translated by Wong Pui S
                <location type="verbatim">
                   <note>35˚ 39.489' 113˚ 14.464'</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">Main Hall from 1212 see: 中國 文物 地圖集, 中, 513 23 - C 10</note>
                <note type="notes">Axis: c, roof style: h/g, front façade: 26' 10", side: 24' 4"</note>
             </place>

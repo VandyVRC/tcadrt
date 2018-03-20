@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,12 @@
                <placeName xml:id="name000179-11" type="alternate">Zhengdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000179</idno>
                <state type="existence" from="1096" to="1125">
+                  <label>Date</label>
                   <desc>1096-1125</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
                </state>
                <location type="gps">
                   <geo>38.62949167 113.0524611</geo>
@@ -82,6 +87,13 @@
                <location type="verbatim">
                   <note>38°37'46.17"(google earth-satellite) 113°03'08.86"</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">stele inscription documenting repair in the Tianhui period (1123-1138) see: 中國 文物 地圖集 山西分冊，中，571</note>
             </place>
             <listRelation>

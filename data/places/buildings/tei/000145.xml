@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,8 +74,48 @@
                <placeName xml:id="name000145-11" type="alternate">Ciediewenjie </placeName>
                <idno type="URI">http://architecturasinica.org/place/000145</idno>
                <state type="existence" from="0984" to="0984">
+                  <label>Date</label>
                   <desc>984</desc>
                </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+                  <desc xml:lang="en">mansion hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">tang</desc>
+                  <desc xml:lang="zh-Hant">堂</desc>
+                  <desc xml:lang="zh-Hans">堂</desc>
+                  <desc xml:lang="en">storied pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
+                  <desc xml:lang="en">tower</desc>
+                  <desc xml:lang="zh-latn-pinyin">lou</desc>
+                  <desc xml:lang="zh-Hant">樓</desc>
+                  <desc xml:lang="zh-Hans">楼</desc>
+                  <desc xml:lang="en">pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ting</desc>
+                  <desc xml:lang="zh-Hant">亭</desc>
+                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">ward</desc>
+                  <desc xml:lang="zh-latn-pinyin">li</desc>
+                  <desc xml:lang="zh-Hant">里</desc>
+                  <desc xml:lang="zh-Hans">里</desc>
+               </trait>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000145"

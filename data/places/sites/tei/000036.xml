@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000036-4" type="site-name" xml:lang="zh-Hans">广仁王庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000036</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000036-1"
                       from="0618"
                       to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="0618"
-                      source="bibl000036-1"
-                      to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8624069 http://vocab.getty.edu/aat/300387198">
@@ -97,6 +87,13 @@
                <location type="gps">
                   <geo>34.73344722 110.677217</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-Hans">庙</desc>
+               </trait>
                <bibl xml:id="bibl000036-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

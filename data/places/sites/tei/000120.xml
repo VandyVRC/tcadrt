@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000120-4" type="site-name" xml:lang="zh-Hans">正定文庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000120</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000120-1"
                       from="0907"
                       to="0960">
-                  <label xml:lang="en">Five Dynasties</label>
-                  <label xml:lang="zh-Hant">五代</label>
-                  <desc>907 CE-960 BCE</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="0907"
-                      source="bibl000120-1"
-                      to="0960">
-                  <label xml:lang="en">Five Dynasties</label>
-                  <label xml:lang="zh-Hant">五代</label>
-                  <desc>907 CE-960 BCE</desc>
+                  <label>Dynasty</label>
+                  <desc>Five Dynasties 907 CE - 960 BCE</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8683355 http://vocab.getty.edu/aat/300387198">
@@ -97,6 +87,13 @@
                <location type="gps">
                   <geo>38.14383333 114.561</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-Hans">庙</desc>
+               </trait>
                <bibl xml:id="bibl000120-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

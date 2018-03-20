@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,15 +72,18 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">白台寺释迦殿</placeName>
                <placeName xml:id="name000125-11" type="alternate">Shijiadian</placeName>
-               <desc type="site-data">Baitai Monastery is located at about 200 meters southwest of Guangma Village, Gujiao Town (古交鎮光馬村). Jin and Yuan dynasties. It is one of the historical and cultural sites protected at the provincial level. The name baitai takes after the legendary white lotus throne of the Buddha. The monastery also has an alternate name, Puhua Monastery (普化寺). According to an inscription, it was renovated multiple times; during the 14th year of Tang Kaiyuan reign period (726), in the Jin Dading (1161-1190) and Jin Mingchang (1190-1196) reign periods, the 15th year of Yuan Zhizheng (元至正) reign period (1355), and the 6th year of Ming Zhengde (明正德) reign period (1511). Additions were also made during the Qing dynasty. The site, which has a north-south orientation, occupies a total area of about 4,482 meters2. The monastery has a two courtyard configuration with three axial buildings, Sandi Fazangge (三滴法藏閣), Shijiadian (釋迦殿) and back great hall (後大殿), as well as two extant side buildings, the east Mountain Gate (東山門) and the west side building (西廂房). Other extant structures include a Tang pagoda pillar, 4 Song dhārāṇi pillars, a Song cloud-framed plaque from the third year of Song dynasty Xuanhe reign period (1121), and 18 polychrome clay sculptures. Translated by Lydia Ohl; revised by Cole Garrett; modified by Wong Pui See, 2017.
-Baitaisi ZGWWDTJ, vol. 3 (下), p.1099 126 – C1 白台寺 金至清 山西省, 運城市, 新絳縣</desc>
                <desc type="building-data">Shijiadian or Śākyamuni Hall (釋迦殿) of Baitai Monastery (Jin dynasty) 
 Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was built according to the terrain, with the front and the back elevation of 0.75 meter and 0.3 meter respectively. Front façade of 3 bays and depth of 6 rafters. Single eaves hip-gable roof. All of the roof ridges, including the main ridge, the pendant ridge, the subsidiary ridge and the roof finial, are carved brick. Under the eaves are columns with four-layer bracket sets and a single cantilever.  The central bay has an intercolumnar bracket set. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the front eaves, there is a bi-valve door hung in the central bay. Lattice windows are in the secondary bays of the building. In the hall, there is a Buddhist altar that holds 12 Buddhist sculptures, which are arranged as follows: Śākyamuni in the middle, flanked by Ānanda, Kāśyapa and bodhisattvas on either side. Under the two gable walls, there are 6 extant arhat sculptures. Behind the interior screen wall, there is a sculpture of Skanda (Weituo韋馱)
  that has been modified by later generations and hence lost its original characteristics. 
 [ZGWWDTJ, vol. 3 (下), p.1099 126–C1-2]; Translated by Lydia Ohl; revised by Cole Garrett, Wong Pui See (2017), and Tracy Miller (2018).</desc>
                <idno type="URI">http://architecturasinica.org/place/000125</idno>
                <state type="existence" from="1190" to="1196">
+                  <label>Date</label>
                   <desc>1190-1196</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="gps">
                   <geo>35.66366667 111.0694</geo>
@@ -88,6 +91,13 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                <location type="verbatim">
                   <note>35˚ 39.820' (garmin) 111˚ 4.164'</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">Shijiadian from Jin Mingchang period (1190-1196) see: 中國 文物 地圖集山西分冊, 下, 1099 </note>
                <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note>
             </place>

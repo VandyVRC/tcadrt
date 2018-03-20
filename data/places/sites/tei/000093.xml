@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,22 +58,12 @@
                <placeName xml:id="name000093-4" type="site-name" xml:lang="zh-Hans">天台庵</placeName>
                <idno type="URI">http://architecturasinica.org/place/000093</idno>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000093-1"
                       from="0618"
                       to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="0618"
-                      source="bibl000093-1"
-                      to="0907">
-                  <label xml:lang="en">Tang</label>
-                  <label xml:lang="zh-Hant">唐</label>
-                  <desc>618-907</desc>
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
@@ -97,6 +87,13 @@
                <location type="gps">
                   <geo>36.38344 113.3922133</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">hermitage</desc>
+                  <desc xml:lang="zh-latn-pinyin">an</desc>
+                  <desc xml:lang="zh-Hant">庵</desc>
+                  <desc xml:lang="zh-Hans">庵</desc>
+               </trait>
                <bibl xml:id="bibl000093-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

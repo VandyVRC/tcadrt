@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,22 +59,12 @@
                <idno type="URI">http://architecturasinica.org/place/000001</idno>
                <desc type="site-data">Anchan Monastery is located on Anchansi Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the historical and cultural sites protected at the provincial level. The date of origin is unknown. According to textual sources, it was rebuilt during the Song dynasty and renovated in the Yuan and Ming dynasties, as well as the third year of the Qing Guangxu reign period (1877). The site occupies a total area of over 200 m2 and has a north-south orientation, facing south. The monastery is destroyed and the only extant structures are the sutra repository (藏经殿) and the main hall (正殿); both of which are axial buildings. While the former is a Song dynasty remnant, the latter was built in the Ming dynasty. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; Edited by Cole Garrett 9/9/11; Modified by Wong Pui See, 2017. 安禪寺Anchansi [ZGWWDTJ, Shanxi vol. 3 (下), p. 762, 57–C1]</desc>
                <state type="existence"
-                      subtype="earliest-period"
+                      subtype="dynasty"
                       source="bibl000001-1"
                       from="0960"
                       to="1127">
-                  <label xml:lang="en">Northern Song</label>
-                  <label xml:lang="zh-Hant">北宋</label>
-                  <desc>960-1127</desc>
-               </state>
-               <state type="existence"
-                      subtype="latest-period"
-                      from="1368"
-                      source="bibl000001-1"
-                      to="1644">
-                  <label xml:lang="en">Ming</label>
-                  <label xml:lang="zh-Hant">明</label>
-                  <desc>1368-1644</desc>
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
                </state>
                <location type="nested"
                          source="http://vocab.getty.edu/tgn/8677393 http://vocab.getty.edu/aat/300387198">
@@ -101,6 +91,13 @@
                <location type="gps">
                   <geo>37.42453333 112.5473333</geo>
                </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
                <bibl xml:id="bibl000001-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>

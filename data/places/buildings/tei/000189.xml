@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -75,7 +75,12 @@
                <placeName xml:id="name000189-11" type="alternate">Houdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000189</idno>
                <state type="existence" from="1076" to="1076">
+                  <label>Date</label>
                   <desc>1076</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
                </state>
                <location type="gps">
                   <geo>35.54693333 112.93665</geo>
@@ -83,6 +88,13 @@
                <location type="verbatim">
                   <note>35˚ 32' 34.51 N (google earth) 112˚ 56' 32.81" E</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">back hall late 11th century, bracketing style similar to SMD</note>
             </place>
             <listRelation>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,12 @@
                <placeName xml:id="name000146-11" type="alternate">Shanmen</placeName>
                <idno type="URI">http://architecturasinica.org/place/000146</idno>
                <state type="existence" from="1368" to="1911">
+                  <label>Date</label>
                   <desc>1368-1911</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368 - 1644</desc>
                </state>
                <location type="gps">
                   <geo>36.3429 113.1132</geo>
@@ -82,7 +87,42 @@
                <location type="verbatim">
                   <note>N 36° 20.574' (±15ft) E 113° 6.792' (±15ft)</note>
                </location>
-               <note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements)</note>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+                  <desc xml:lang="en">mansion hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">tang</desc>
+                  <desc xml:lang="zh-Hant">堂</desc>
+                  <desc xml:lang="zh-Hans">堂</desc>
+                  <desc xml:lang="en">storied pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
+                  <desc xml:lang="en">tower</desc>
+                  <desc xml:lang="zh-latn-pinyin">lou</desc>
+                  <desc xml:lang="zh-Hant">樓</desc>
+                  <desc xml:lang="zh-Hans">楼</desc>
+                  <desc xml:lang="en">pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ting</desc>
+                  <desc xml:lang="zh-Hant">亭</desc>
+                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">ward</desc>
+                  <desc xml:lang="zh-latn-pinyin">li</desc>
+                  <desc xml:lang="zh-Hant">里</desc>
+                  <desc xml:lang="zh-Hans">里</desc>
+               </trait>
+               <note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements); date in question</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000146"
@@ -128,10 +168,6 @@
                <relation active="http://architecturasinica.org/place/000146"
                          ref="dcterms:temporal"
                          passive="http://architecturasinica.org/keyword/Ming"
-                         ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000146"
-                         ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing-(?)"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4093/4809569071_8508cf3743_"

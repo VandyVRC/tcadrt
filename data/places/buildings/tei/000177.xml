@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,7 +77,12 @@
                           xml:lang="zh-Hant">Wulongmiao</placeName>
                <idno type="URI">http://architecturasinica.org/place/000177</idno>
                <state type="existence" from="0831" to="0831">
+                  <label>Date</label>
                   <desc>831</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
                </state>
                <location type="gps">
                   <geo>34.73344722 110.677217</geo>
@@ -85,6 +90,13 @@
                <location type="verbatim">
                   <note>34˚ 44’ 00.41" N (google earth) 110˚ 40' 37.98" E</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">identified with Cui Jinze photo</note>
             </place>
             <listRelation>

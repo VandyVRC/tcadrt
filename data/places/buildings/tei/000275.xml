@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,12 +74,24 @@
                <placeName xml:id="name000275-11" type="alternate">Dadian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000275</idno>
                <state type="existence" from="0618" to="0907">
+                  <label>Date</label>
                   <desc>618-907</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
                </state>
                <location type="verbatim">
                   <note>35˚ 12' 15.89" N  found on google earth, no satellite  107˚ 47' 50.63" E </note>
                </location>
-               <note type="field-notes">date of main hall not listed in ZGMSCD, p. 1026,--Tang?</note>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">Date of main hall not listed in ZGMSCD, p. 1026; Is this really Tang?</note>
             </place>
             <listRelation>
                <relation active="http://architecturasinica.org/place/000275"
@@ -88,7 +100,7 @@
                          ana="building-type"/>
                <relation active="http://architecturasinica.org/place/000275"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang?"
+                         passive="http://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
                <relation ana="contained"
                          active="http://architecturasinica.org/place/000275"

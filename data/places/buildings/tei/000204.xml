@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,11 +74,27 @@
                <placeName xml:id="name000204-11" type="alternate">Lingyansi Bizhita</placeName>
                <idno type="URI">http://architecturasinica.org/place/000204</idno>
                <state type="existence" from="1056" to="1064">
+                  <label>Date</label>
                   <desc>1056</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
                </state>
                <location type="gps">
                   <geo>36.3632666 116.977683</geo>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
                <note type="field-notes">Northern Song dynasty; corner bracket sets on front facade</note>
                <note type="notes">zgmscd, p. 585, states first built in Tang Tianbao 12 (753); repaired in the Jiayou period (1056-1064); but style of pagoda suggest Song period repair was more of a rebuilding</note>
             </place>

@@ -31,7 +31,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-19-04:00</date>
+            <date>2018-03-20-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-19-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +74,12 @@
                <placeName xml:id="name000154-11" type="alternate">Zhengdian</placeName>
                <idno type="URI">http://architecturasinica.org/place/000154</idno>
                <state type="existence" from="1125" to="1234">
+                  <label>Date</label>
                   <desc>1125-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
                </state>
                <location type="gps">
                   <geo>37.23389444 112.2438056</geo>
@@ -82,6 +87,13 @@
                <location type="verbatim">
                   <note>37˚14' 02.02" N (fuzzy satellite following 赝能隙 photo) 112˚ 14' 37.72"</note>
                </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
                <note type="field-notes">main hall jin, pagoda Song, bad photos so data needs confirmation</note>
             </place>
             <listRelation>
