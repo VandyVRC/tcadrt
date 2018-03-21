@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0">
         <fulltext default="none" attributes="no"/>
@@ -24,6 +23,8 @@
         <range>
             <create qname="@syriaca-computed-start" type="xs:date"/>
             <create qname="@syriaca-computed-end" type="xs:date"/>
+            <create qname="@to" type="xs:string"/>
+            <create qname="@from" type="xs:string"/>
             <create qname="@type" type="xs:string"/>
             <create qname="@ana" type="xs:string"/>
             <create qname="@syriaca-tags" type="xs:string"/>
@@ -47,22 +48,8 @@
             <create qname="tei:persName" type="xs:string"/>
             <create qname="tei:placeName" type="xs:string"/>
             <create qname="tei:author" type="xs:string"/>
-            <!--
-            <create qname="tei:TEI">
-                <field name="uri" match="//tei:publicationStmt/tei:idno" type="xs:string">
-                    <field name="uriType" match="@type" type="xs:string"/>
-                </field>
-                <field name="title" match="//tei:titleStmt/tei:title" type="xs:string"/>
-            </create>
-            <create qname="tei:revisionDesc">
-                <field name="status" match="@status" type="xs:string"/>
-            </create>
-            <create qname="tei:div">
-                <field name="divID" match="//tei:idno" type="xs:string">
-                    <field name="divIDType" match="@type" type="xs:string"/>
-                </field>
-            </create>
-            -->
+            <create qname="tei:state" type="xs:string"/>
+            <create qname="tei:trait" type="xs:string"/>
         </range>
     </index>
 </collection>

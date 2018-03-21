@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-20-04:00</date>
+            <date>2018-03-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-20-04:00">CREATED: place record</change>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,14 +57,6 @@
                <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
                <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
                <idno type="URI">http://architecturasinica.org/place/000077</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000077-1"
-                      from="221 202 202 9 25220220265317420479502557386534535550557581618902907 902937907907909917903933924907 951907923936947951960 960112791611151038136816441912"
-                      to="206 220 23 23 220589280316420479502557589581550556577581618907960960 937946978951945971925965963960 9799239369469509601279 1127127911251234122716441912">
-                  <label>Dynasty</label>
-                  <desc>QinHanWestern HanXin Eastern HanWei, Jin, Nan-Bei ChaoThree KingdomsWestern JinEastern JinLiu SongQiLiangChenNorthern WeiEastern WeiWestern WeiNorthern QiNorthern ZhouSuiTangFive Dynasties and Ten KingdomsTen KingdomsWuSouthern TangWu-YueChuMinSouthern HanFormer ShuLater Shu JingnanFive DynastiesNorthern HanLater LiangLater TangLater JinLater HanLater ZhouSongNorthern SongSouthern SongLiao JinXixiaMingQingPost Qing 221 BCE202 BCE202 BCE9 CE25220220265317420479502557386534535550557581618902907 CE902937907907909917903933924907 CE951907923936947951960 CE960112791611151038136816441912 - 206 BCE220 CE23 CE23 CE220589280316420479502557589581550556577581618907960960 CE937946978951945971925965963960 BCE9799239369469509601279 BCE1127127911251234122716441912</desc>
-               </state>
                <location type="gps">
                   <geo>35.60493333 111.97245</geo>
                </location>
@@ -88,14 +80,6 @@
                          passive="http://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000077"
-                         ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/"
-                         ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000077"
-                         ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/"
-                         ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>
