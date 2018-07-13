@@ -60,8 +60,8 @@
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000039-1"
-                      from="1115"
-                      to="1234">
+                      from="1115-01-01"
+                      to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
@@ -88,7 +88,7 @@
                   <geo>36.9830166 112.66555</geo>
                </location>
                <trait type="type" sub-type="site-type">
-                  <label>Type</label>
+                  <label>Type </label>
                   <desc xml:lang="en">cloister</desc>
                   <desc xml:lang="zh-latn-pinyin">yuan</desc>
                   <desc xml:lang="zh-Hant">院</desc>

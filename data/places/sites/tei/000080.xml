@@ -60,8 +60,8 @@
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000080-1"
-                      from="0960"
-                      to="1127">
+                      from="0960-01-01"
+                      to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -83,41 +83,6 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <trait type="type" sub-type="site-type">
-                  <label>Type</label>
-                  <desc xml:lang="en">palatial hall</desc>
-                  <desc xml:lang="zh-latn-pinyin">dian</desc>
-                  <desc xml:lang="zh-Hant">殿</desc>
-                  <desc xml:lang="zh-Hans">殿</desc>
-                  <desc xml:lang="en">mansion hall</desc>
-                  <desc xml:lang="zh-latn-pinyin">tang</desc>
-                  <desc xml:lang="zh-Hant">堂</desc>
-                  <desc xml:lang="zh-Hans">堂</desc>
-                  <desc xml:lang="en">storied pavilion</desc>
-                  <desc xml:lang="zh-latn-pinyin">ge</desc>
-                  <desc xml:lang="zh-Hant">閣</desc>
-                  <desc xml:lang="zh-Hans">阁</desc>
-                  <desc xml:lang="en">tower</desc>
-                  <desc xml:lang="zh-latn-pinyin">lou</desc>
-                  <desc xml:lang="zh-Hant">樓</desc>
-                  <desc xml:lang="zh-Hans">楼</desc>
-                  <desc xml:lang="en">pavilion</desc>
-                  <desc xml:lang="zh-latn-pinyin">ting</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
-                  <desc xml:lang="en">pagoda</desc>
-                  <desc xml:lang="zh-latn-pinyin">ta</desc>
-                  <desc xml:lang="zh-Hant">塔</desc>
-                  <desc xml:lang="zh-Hans">塔</desc>
-                  <desc xml:lang="en">stūpa</desc>
-                  <desc xml:lang="zh-latn-pinyin">ta</desc>
-                  <desc xml:lang="zh-Hant">塔</desc>
-                  <desc xml:lang="zh-Hans">塔</desc>
-                  <desc xml:lang="en">ward</desc>
-                  <desc xml:lang="zh-latn-pinyin">li</desc>
-                  <desc xml:lang="zh-Hant">里</desc>
-                  <desc xml:lang="zh-Hans">里</desc>
-               </trait>
                <bibl xml:id="bibl000080-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
