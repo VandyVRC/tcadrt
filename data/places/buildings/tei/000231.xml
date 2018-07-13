@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Ruicheng City God Temple, main hall <foreign xml:lang="zh-Hant">芮城城隍廟大殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000231/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000231" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000231-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000231-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
+               <placeName xml:id="name000231-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
+               <placeName xml:id="name000231-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">dadian</placeName>
+               <placeName xml:id="name000231-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Ruicheng_Chenghuangmiao_dadian</placeName>
+               <placeName xml:id="name000231-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">芮城城隍廟大殿</placeName>
+               <placeName xml:id="name000231-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">芮城城隍庙大殿</placeName>
+               <placeName xml:id="name000231-11" type="alternate">Chenghuangmiao</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000231</idno>
+               <state type="existence" from="0960-01-01" to="1125-01-01">
+                  <label>Date</label>
+                  <desc>960-1125</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">大殿面宽五间，进深三间，单檐歇山顶。前檐柱头斗栱五铺作，双下昂，昂为劈竹式，蚂蚱形耍头</note>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000231"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000231"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         ana="dynasty"/>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000231"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000082"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

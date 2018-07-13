@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Baitai Monastery <foreign xml:lang="zh-Hant">白臺寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000002/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000002" type="site">
+               <placeName xml:id="name000002-1" type="site-name" xml:lang="en">Baitai Monastery</placeName>
+               <placeName xml:id="name000002-2" type="site-name" xml:lang="zh-latn-pinyin">Baitaisi</placeName>
+               <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
+               <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000002</idno>
+               <desc type="site-data">Baitai Monastery is located at about 200 meters southwest of Guangma Village, Gujiao Town (古交鎮光馬村). Jin and Yuan dynasties. It is one of the historical and cultural sites protected at the provincial level. The name baitai takes after the legendary white lotus throne of the Buddha. The monastery also has an alternate name, Puhua Monastery (普化寺). According to an inscription, it was renovated multiple times; during the 14th year of Tang Kaiyuan reign period (726), in the Jin Dading (1161-1190) and Jin Mingchang (1190-1196) reign periods, the 15th year of Yuan Zhizheng (元至正) reign period (1355), and the 6th year of Ming Zhengde (明正德) reign period (1511). Additions were also made during the Qing dynasty. The site, which has a north-south orientation, occupies a total area of about 4,482 meters2. The monastery has a two courtyard configuration with three axial buildings, Sandi Fazangge (三滴法藏閣), Shijiadian (釋迦殿) and back great hall (後大殿), as well as two extant side buildings, the east Mountain Gate (東山門) and the west side building (西廂房). Other extant structures include a Tang pagoda pillar, 4 Song dhārāṇi pillars, a Song cloud-framed plaque from the third year of Song dynasty Xuanhe reign period (1121), and 18 polychrome clay sculptures. Translated by Lydia Ohl; revised by Cole Garrett; modified by Wong Pui See, 2017. Baitaisi ZGWWDTJ, vol. 3 (下), p.1099 126 – C1 白台寺 金至清 山西省, 運城市, 新絳縣</desc>
+               <state type="existence"
+                      subtype="dynasty"
+                      source="bibl000002-1"
+                      from="1115-01-01"
+                      to="1234-01-01">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="nested"
+                         source="http://vocab.getty.edu/tgn/8675152 http://vocab.getty.edu/aat/300387198">
+                  <placeName>山西省新绛县</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Xinjiang</placeName>
+                     <placeName xml:lang="zh-Hans">新绛</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">县</placeName>
+                     <placeName xml:lang="en">County</placeName>
+                  </region>
+               </location>
+               <location type="gps">
+                  <geo>35.66366667 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.66345 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.663933 111.06937</geo>
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000002-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000002"
+                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+                         ref="dcterms:subject"
+                         ana="site-type"/>
+               <relation active="http://architecturasinica.org/place/000002"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation active="http://architecturasinica.org/place/000002"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Qing"
+                         ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                         active="https://farm5.staticflickr.com/4073/4831069771_14fcd97cc0_z.jpg"
+                         passive="http://architecturasinica.org/place/000002"
+                         ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

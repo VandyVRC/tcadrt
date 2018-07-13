@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Runchengzhen Dongyue Temple, Tianzi Hall <foreign xml:lang="zh-Hant">潤城東岳廟天齊殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000232/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000232" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000232-1" xml:lang="en">Tianzi Hall</placeName>
+               <placeName xml:id="name000232-2" type="building-name" xml:lang="zh-Hant">天齊殿</placeName>
+               <placeName xml:id="name000232-3" type="building-name" xml:lang="zh-Hans">天齐殿</placeName>
+               <placeName xml:id="name000232-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Tianzidian</placeName>
+               <placeName xml:id="name000232-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Runcheng Dongyuemiao Tianzidian</placeName>
+               <placeName xml:id="name000232-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">润城東嶽廟天齊殿</placeName>
+               <placeName xml:id="name000232-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">润城东岳庙天齐殿</placeName>
+               <placeName xml:id="name000232-8"
+                          type="alternate"
+                          subtype="site-name"
+                          xml:lang="zh-Hant">屯城東岳廟</placeName>
+               <placeName xml:id="name000232-10" type="alternate" subtype="site-name">Tuncheng Dongyuemiao</placeName>
+               <placeName xml:id="name000232-11" type="alternate">Dongyuemiao</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000232</idno>
+               <state type="existence" from="1199-01-01" to="1208-01-01">
+                  <label>Date</label>
+                  <desc>1199-1208</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps">
+                  <geo>35.55121667 112.5350833</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 33.084' (Garmin) 112˚ 32.111'</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/</note>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
+                  <desc>
+                     <num>3</num>
+                  </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000232"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000232"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000083"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Xiajiao Tangdi Temple, worship hall <foreign xml:lang="zh-Hant">下交湯帝廟拜殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000250/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000250" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000250-1" xml:lang="en">worship hall</placeName>
+               <placeName xml:id="name000250-2" type="building-name" xml:lang="zh-Hant">拜殿</placeName>
+               <placeName xml:id="name000250-3" type="building-name" xml:lang="zh-Hans">拜殿</placeName>
+               <placeName xml:id="name000250-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">baidian</placeName>
+               <placeName xml:id="name000250-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Xiajiao Tangdimiao baidian</placeName>
+               <placeName xml:id="name000250-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">下交汤帝廟拜殿</placeName>
+               <placeName xml:id="name000250-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">下交汤帝庙拜殿</placeName>
+               <placeName xml:id="name000250-11" type="alternate">Baidian </placeName>
+               <idno type="URI">http://architecturasinica.org/place/000250</idno>
+               <state type="existence" from="1213-01-01" to="1213-01-01">
+                  <label>Date</label>
+                  <desc>1213</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps">
+                  <geo>35.41436667 112.3568333</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 24.862 112˚ 21.410</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">offering hall originally a stage from Jin dynasty; alternative names: 獻殿, 拜殿</note>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000250"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4136/4820807807_6f0ac7f303_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen   bust of    原杰 襄敏公</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4820822423_1febe8072d_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao 戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4100/4820810155_a689bf348d_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao 戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4137/4821426458_4cd87a04a9_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4100/4820806605_50082ab2f5_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4074/4821424176_a5fe51c950_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4140/4820807079_f0b04bdccd_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4101/4821424740_c66410c2c0_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4118/4820807555_7ea1ee8d05_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4096/4820808007_3ce5c9182d_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen  column base</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4115/4821425608_6ac0e36637_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4077/4820808341_3a3a8b5fd3_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4115/4820808521_d315c39201_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4135/4820808687_b14bcef23c_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4100/4820809335_dfce2fa543_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4118/4820809603_666f49d0b2_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao   back of 山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4079/4820821999_9f431faa85_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4093/4820822209_39989b1712_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4094/4820822713_4ae464cc83_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4077/4820823001_97f35a9051_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4123/4820823197_dc804e52a7_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4134/4820823375_eecce6abda_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4079/4821441178_a97419d8bd_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4118/4820823975_9066bd949a_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4138/4821441782_a9bae1834e_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4076/4821441908_e572415da8_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4119/4820824925_1580b40075_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4099/4821442468_2bbffa2178_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        corridor/exit</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4115/4820825555_82443fb5e6_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao        back side of 山门 shanmen</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4102/4821426276_b5836c2ecf_"
+                         passive="http://architecturasinica.org/place/000250">
+                  <desc>Xiajiao_Tangdimiao       山门 shanmen</desc>
+               </relation>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000250"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000097"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Huixian Belvedere, Hall of the Three Pure Ones <foreign xml:lang="zh-Hant">會仙觀三清殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000185/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000185" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000185-1" xml:lang="en">Hall of the Three Pure Ones</placeName>
+               <placeName xml:id="name000185-2" type="building-name" xml:lang="zh-Hant">三清殿</placeName>
+               <placeName xml:id="name000185-3" type="building-name" xml:lang="zh-Hans">三清殿</placeName>
+               <placeName xml:id="name000185-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Sanqingdian</placeName>
+               <placeName xml:id="name000185-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Huixianguan Sanqingdian</placeName>
+               <placeName xml:id="name000185-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">會仙觀三清殿</placeName>
+               <placeName xml:id="name000185-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">会仙观三清殿</placeName>
+               <placeName xml:id="name000185-11" type="alternate">Sanqingdian</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000185</idno>
+               <state type="existence" from="1115-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1115-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps">
+                  <geo>36.7518166 113.038883</geo>
+               </location>
+               <location type="verbatim">
+                  <note>36˚ 45.109' N (Garmin) 113˚ 02.333 E</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">column top xiaang in central bay--seems later than Jin?</note>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/ct_angled_bracket_arm"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000185"
+                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000185"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000185"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000043"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

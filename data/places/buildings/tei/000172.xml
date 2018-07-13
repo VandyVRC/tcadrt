@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Fuxiang Monastery, main hall   <foreign xml:lang="zh-Hant">福祥寺大雄寶殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000172/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000172" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000172-1" xml:lang="en">main hall  </placeName>
+               <placeName xml:id="name000172-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
+               <placeName xml:id="name000172-3" type="building-name" xml:lang="zh-Hans">大雄宝殿</placeName>
+               <placeName xml:id="name000172-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">Daxiongbaodian </placeName>
+               <placeName xml:id="name000172-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Fuxiangsi Daxiongbaodian</placeName>
+               <placeName xml:id="name000172-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">福祥寺大雄寶殿</placeName>
+               <placeName xml:id="name000172-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">福祥寺大雄宝殿</placeName>
+               <placeName xml:id="name000172-11" type="alternate">Fuxiangsi</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000172</idno>
+               <state type="existence" from="1115-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1115-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <note type="field-notes">Daxiongbaodian Jin: see 中國 文物 地圖集 下, 718.</note>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000172"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000172"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000031"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

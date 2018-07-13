@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:schema="http://schema.org/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Guanghua Monastery, main hall <foreign xml:lang="zh-Hant">廣華寺正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/place/000176/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000176" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000176-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000176-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
+               <placeName xml:id="name000176-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
+               <placeName xml:id="name000176-4"
+                          type="building-name"
+                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000176-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Guanghuasi zhengdian</placeName>
+               <placeName xml:id="name000176-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">廣華寺正殿</placeName>
+               <placeName xml:id="name000176-7"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">广华寺正殿</placeName>
+               <placeName xml:id="name000176-11" type="alternate">Guanghuasi</placeName>
+               <idno type="URI">http://architecturasinica.org/place/000176</idno>
+               <state type="existence" from="1125-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1125-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps">
+                  <geo>37.36166667 112.4942</geo>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+            </place>
+            <listRelation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/palatial-hall"
+                         ref="dcterms:subject"
+                         ana="building-type"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/pupaifang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/cejiao"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+                         ref="dcterms:subject"
+                         ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="http://architecturasinica.org/place/000176"
+                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+                         ref="dcterms:subject"
+                         ana="architectural-feature"/>
+               <relation active="http://architecturasinica.org/place/000176"
+                         ref="dcterms:temporal"
+                         passive="http://architecturasinica.org/keyword/Jin"
+                         ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4109/4835974061_3c427fda67_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4836584112_ca6fbc7eb6_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    side halls</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4103/4835974527_e372eed950_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi   name plaque</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4835974763_10cd21a04f_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4103/4836584692_7ac8151ebd_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4836584872_5d0223ba03_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4835975523_23ff488221_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4132/4836585534_f1645f8a75_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4150/4836585728_6b69296d20_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4150/4836586008_bed52eafbc_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4130/4835976363_3b24868008_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4105/4836586386_1af1aa8690_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4088/4836586612_e70c9eda23_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4090/4836586924_84732c77eb_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4835977319_646d7dbe33_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4149/4835977563_8b6c7ef937_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4836587684_e0e64a1d91_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4835978061_16b073c69b_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4835978243_5579212cc2_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4128/4835978573_56b1637c2e_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4132/4836588646_6881092e6b_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4836588874_f79de37a73_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4110/4836589144_f77421299b_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    后殿  Back Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4088/4835979569_b97a4ec97d_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4087/4836589696_c6b4e440ce_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4108/4836589952_654053ed4d_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4086/4835980313_137625d155_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4148/4835980625_70c4d300a7_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4130/4835980807_1f08ce940c_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4090/4835981073_1226b1bd66_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4153/4835981287_2cf42622c7_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4083/4836591372_883d84d0be_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4125/4836591618_96d0e3a537_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4133/4836592100_36cc6dc930_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4091/4835975329_5a6ebe6073_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4127/4836583310_b7b5fcbcb4_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4084/4836583462_442fece8ae_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ref="foaf:depicts"
+                         active="farm5.staticflickr.com/4147/4836583602_a30531de6b_"
+                         passive="http://architecturasinica.org/place/000176">
+                  <desc>Guanghuasi    大雄宝殿   Daxiongbaodian</desc>
+               </relation>
+               <relation ana="contained"
+                         active="http://architecturasinica.org/place/000176"
+                         ref="schema:containedInPlace"
+                         passive="http://architecturasinica.org/place/000035"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
