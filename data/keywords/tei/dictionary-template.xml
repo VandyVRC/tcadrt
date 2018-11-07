@@ -58,15 +58,15 @@
             <idno type="URI">http://architecturasinica.org/keyword/feature_name_here</idno>
             <listRelation>
                <relation ref="foaf:depicts"
-                         active="https://farm3.staticflickr.com/2567/3837677328_aa36a03552_z.jpg"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         active="link to address on flickr here"
+                         passive="http://architecturasinica.org/keyword/feature_name_here"
                          ana="featured">
                   <desc>
                      <ref target="http://architecturasinica.org/keyword/000173">Gaoping Erlangmiao Stage</ref>
                   </desc>
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/qinmian_xiaang"
+                         active="http://architecturasinica.org/keyword/feature_name_here"
                          passive="Bracketing"/>
             </listRelation>
          </entryFree>
