@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,25 +49,22 @@
    <text>
       <body>
          <entryFree xml:id="qinmian_xiaang"
-                    type="architectural-feature"
-                    sub-type="Non-numeric">
+            type="architectural-feature">
             <term xml:id="term-qinmian_xiaang-1" xml:lang="en">lute-face descending cantilever</term>
             <term xml:id="term-qinmian_xiaang-4" xml:lang="zh-latn-pinyin">qinmian xiaang</term>
             <term xml:id="term-qinmian_xiaang-2" xml:lang="zh-Hant">琴面下昂</term>
             <term xml:id="term-qinmian_xiaang-3" xml:lang="zh-Hans">琴面下昂</term>
             <idno type="URI">http://architecturasinica.org/keyword/qinmian_xiaang</idno>
+            <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
-                         active="https://farm3.staticflickr.com/2567/3837677328_aa36a03552_z.jpg"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         ana="featured">
-                  <desc>
-                     <ref target="http://architecturasinica.org/keyword/000173">Gaoping Erlangmiao Stage</ref>
-                  </desc>
+                  active="https://farm3.staticflickr.com/2567/3837677328_aa36a03552_z.jpg"
+                  passive="http://architecturasinica.org/keyword/qinmian_xiaang" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/qinmian_xiaang"
-                         passive="Bracketing"/>
+                  active="http://architecturasinica.org/keyword/qinmian_xiaang"
+                  passive="Bracketing"/>
+               <relation ref="http://architecturasinica.org/keyword/000173" source="Gaoping Erlangmiao Stage"/>
             </listRelation>
          </entryFree>
       </body>
