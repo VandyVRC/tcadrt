@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -49,25 +49,22 @@
    <text>
       <body>
          <entryFree xml:id="beveled_linggong"
-                    type="architectural-feature"
-                    sub-type="Non-numeric">
+                    type="architectural-feature">        
             <term xml:id="term-beveled_linggong-1" xml:lang="en">beveled linggong: linggong beveled outward towards the building plane</term>
             <term xml:id="term-beveled_linggong-4" xml:lang="zh-latn-pinyin">mojiao linggong</term>
             <term xml:id="term-beveled_linggong-2" xml:lang="zh-Hant">抹角令栱</term>
             <term xml:id="term-beveled_linggong-3" xml:lang="zh-Hans">抹角令栱</term>
             <idno type="URI">http://architecturasinica.org/keyword/beveled_linggong</idno>
+            <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4101/4821730545_463255c69d_z.jpg"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
-                         ana="featured">
-                  <desc>
-                     <ref target="http://architecturasinica.org/keyword/000150">Chongqingsi 1000 Buddhas Hall</ref>
-                  </desc>
+                         passive="http://architecturasinica.org/keyword/beveled_linggong" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
                          active="http://architecturasinica.org/keyword/beveled_linggong"
                          passive="Bracketing"/>
+               <relation ref="http://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
             </listRelation>
          </entryFree>
       </body>

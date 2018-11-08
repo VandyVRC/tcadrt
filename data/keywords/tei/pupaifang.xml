@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -49,25 +49,22 @@
    <text>
       <body>
          <entryFree xml:id="pupaifang"
-                    type="architectural-feature"
-                    sub-type="Non-numeric">
+                    type="architectural-feature">         
             <term xml:id="term-pupaifang-1" xml:lang="en">column top tie beam</term>
             <term xml:id="term-pupaifang-4" xml:lang="zh-latn-pinyin">pupaifang</term>
             <term xml:id="term-pupaifang-2" xml:lang="zh-Hant">普拍枋</term>
             <term xml:id="term-pupaifang-3" xml:lang="zh-Hans">普拍枋</term>
             <idno type="URI">http://architecturasinica.org/keyword/pupaifang</idno>
+            <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm3.staticflickr.com/2543/3824680596_8327be70dc_z.jpg"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
-                         ana="featured">
-                  <desc>
-                     <ref target="http://architecturasinica.org/keyword/000198">Kaishansi main hall</ref>
-                  </desc>
+                         passive="http://architecturasinica.org/keyword/pupaifang" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
                          active="http://architecturasinica.org/keyword/pupaifang"
                          passive="Building Frame"/>
+               <relation ref="http://architecturasinica.org/keyword/000198" source="Kaishansi main hall"/>
             </listRelation>
          </entryFree>
       </body>

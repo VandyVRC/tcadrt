@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -49,25 +49,22 @@
    <text>
       <body>
          <entryFree xml:id="ic_match_ct"
-                    type="architectural-feature"
-                    sub-type="Non-numeric">
+                    type="architectural-feature">
             <term xml:id="term-ic_match_ct-1" xml:lang="en">intercolumnar bracket sets match the column top bracket sets</term>
             <term xml:id="term-ic_match_ct-4" xml:lang="zh-latn-pinyin">bujian puzuo tong zhutou puzuo</term>
             <term xml:id="term-ic_match_ct-2" xml:lang="zh-Hant">柱頭鋪作同補間鋪作</term>
             <term xml:id="term-ic_match_ct-3" xml:lang="zh-Hans">补间铺作同柱头铺作</term>
             <idno type="URI">http://architecturasinica.org/keyword/ic_match_ct</idno>
+            <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4612/39428627105_9795f73011_z.jpg"
-                         passive="http://architecturasinica.org/keyword/ic_match_ct"
-                         ana="featured">
-                  <desc>
-                     <ref target="http://architecturasinica.org/keyword/000132">Baoguosi Mahāvīra Treasure Hall</ref>
-                  </desc>
+                         passive="http://architecturasinica.org/keyword/ic_match_ct" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
                          active="http://architecturasinica.org/keyword/ic_match_ct"
                          passive="Bracketing"/>
+               <relation ref="http://architecturasinica.org/keyword/000132" source="Baoguosi Mahāvīra Treasure Hall"/>
             </listRelation>
          </entryFree>
       </body>
