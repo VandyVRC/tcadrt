@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">cao</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">http://architecturasinica.org/keyword/cao/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>date in 2018-12-03-19:23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-12-03-19:23">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="cao"
+                    type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en">trough</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cao</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">槽</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
+            <gloss>
+               Note: 
+               An architectural term seen in the Yingzao fashi and Gongbu gongcheng zuofa, also used in texts that involve architectural descriptions such as Sita ji and Tang huiyao. It is generally agreed that in the Gongbu gongcheng zuofa, the term refers to trough-shaped pits dug for strips of pounded-earth foundation. Interpretations of the term and its relevant plates in Yingzao fashi are under debate. Some suggest it refers to the space enclosed by pillars, lan’e (forehead tie-beams) and puzuo (corbelling) (Cheng Mingda 1981; cf. Liang Sicheng 1944). Some suggest it is the pillar row and puzuo (corbelling) axis (He Jianzhong 2003; cf. Liang Sicheng 1983). Some understand it as an elongated structural unit of puzuo (corbelling) (Zhu Yongchun 2016).
+               Others suggest the term probably refers to footings initially, also used to refer to pillar rows and wall planes in general (Ren Sijie 2016). (ATTCAT Project).
+               
+               Terms:
+               Trough (lit.)
+               Footing
+               cáo
+               cao (preferred)
+               ts’ao
+               槽
+               
+               Additional Notes:
+               Chinese (Traditional)…作爲傳統營造術語，主要見於《營造法式》和《工部工程做法》，也見於其他談及建築的傳統文獻，如《寺塔記》、《唐會要》等。《工部工程做法》的“槽”含義相對明確，指夯築條形基礎的基槽。而《營造法式》所謂“槽”的具體含義存在爭議：一說是由柱、額、鋪作劃分的各種空間（陳明達 1981；參考梁思成 1944）；一說是柱列與其上的鋪作或鋪作之中心線（何建中 2003；參考梁思成 1983）；一説指代鋪作層構成的長條狀圖形（朱永春 2016）；另有觀點認爲其得名與基槽有關，後汎指柱列或墻體及其所在位置（任思捷 2016）。
+               
+               Related Concepts:
+               Di Pan
+               
+               Sources and Contributors:
+               Trough
+               Tracy Miller, The Divine Nature of Power: Chinese Ritual Architecture at the Sacred Site of Jinci (2007) 199.
+               Footing
+               Ren Sijie, Foguangsi on Mount Wutai (2016) 368-375.
+               Cao
+               Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 21.
+               Nancy S. Steinhardt ed., Alexandra Harrer trans., Fu Xinian, Traditional Chinese Architecture: Twelve Essays (2017) 350.
+               槽
+               營造法式, 卷31
+               工程做法注釋
+               寺塔記
+               唐會要
+               梁思成, 記五臺山佛光寺的建築 (1944) 13-44
+               陳明達, 營造法式大木作制度研究 (1981) 115-116
+               梁思成, 《營造法式》註釋·卷上 (1983) 267-268
+               陳明達, 《營造法式》辭解 (2010) 405
+               喬迅翔, 宋代官式建築營造及其技術 (2012)
+               何建中，何謂《營造法式》之“槽” (2003) 41-43
+               朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97
+            </gloss>
+            <idno type="URI">http://architecturasinica.org/keyword/cao</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts"
+                     active="url to flickr here"
+                     passive="http://architecturasinica.org/keyword/cao" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch"
+                     active="http://architecturasinica.org/keyword/cao"
+                     passive="Building Frame"/>
+                  <relation ref="http://architecturasinica.org/keyword/000xxx" source="name_of_numbered_example_here"/>
+                  <!--where there is an xxx put the number of the example-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
