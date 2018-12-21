@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000269/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000269/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">云岩寺窦圌山转轮经藏</placeName>
                <placeName xml:id="name000269-11" type="alternate"> </placeName>
-               <idno type="URI">http://architecturasinica.org/place/000269</idno>
+               <idno type="URI">https://architecturasinica.org/place/000269</idno>
                <state type="existence" from="0960-01-01" to="1279-01-01">
                   <label>Date</label>
                   <desc>960-1279</desc>
@@ -84,14 +84,14 @@
                <note type="field-notes">song revolving sutra repository with angled bracket arms</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000269"
+               <relation active="https://architecturasinica.org/place/000269"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Song"
+                         passive="https://architecturasinica.org/keyword/Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000269"
+                         active="https://architecturasinica.org/place/000269"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000112"/>
+                         passive="https://architecturasinica.org/place/000112"/>
             </listRelation>
          </listPlace>
       </body>

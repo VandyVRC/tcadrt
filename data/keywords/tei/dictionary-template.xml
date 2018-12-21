@@ -26,7 +26,7 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/feature-name-here/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/feature-name-here/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -59,17 +59,17 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">feature name in Traditional Chinese here</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">feature name in Simplified Chinese here</term>
             <gloss>description of feature here</gloss>
-            <idno type="URI">http://architecturasinica.org/keyword/feature_name_here</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/feature_name_here</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts"
                      active="url to flickr here"
-                     passive="http://architecturasinica.org/keyword/feature_name_here" rendition="featured">
+                     passive="https://architecturasinica.org/keyword/feature_name_here" rendition="featured">
                   </relation>
                   <relation ref="skos:broadMatch"
-                     active="http://architecturasinica.org/keyword/qinmian_xiaang"
+                     active="https://architecturasinica.org/keyword/qinmian_xiaang"
                      passive="Bracketing"/>
-                  <relation ref="http://architecturasinica.org/keyword/000xxx" source="Gaoping Erlangmiao Stage"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx" source="Gaoping Erlangmiao Stage"/>
                   <!--where there is an xxx put the number of the feature-->
                </listRelation>
             </listRelation>

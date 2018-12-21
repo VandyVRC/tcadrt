@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/ic_angled_bracket_arm/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ic_angled_bracket_arm/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-ic_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">bujian puzuo xiegong</term>
             <term xml:id="term-ic_angled_bracket_arm-2" xml:lang="zh-Hant">補間鋪作斜栱</term>
             <term xml:id="term-ic_angled_bracket_arm-3" xml:lang="zh-Hans">补间铺作斜栱</term>
-            <idno type="URI">http://architecturasinica.org/keyword/ic_angled_bracket_arm</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ic_angled_bracket_arm</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4129/4835644592_44f48b0756_z.jpg"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+                         active="https://architecturasinica.org/keyword/ic_angled_bracket_arm"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000162" source="Dongyi Longwang Temple great hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000162" source="Dongyi Longwang Temple great hall"/>
             </listRelation>
          </entryFree>
       </body>

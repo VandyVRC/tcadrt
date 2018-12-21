@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000206/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000206/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">龙门寺天王殿</placeName>
                <placeName xml:id="name000206-11" type="alternate">Tianwandian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000206</idno>
+               <idno type="URI">https://architecturasinica.org/place/000206</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -97,58 +97,58 @@
                <note type="field-notes">Jin dynasty with fan brackets</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000206"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+               <relation active="https://architecturasinica.org/place/000206"
+                         passive="https://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000206"
+               <relation active="https://architecturasinica.org/place/000206"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000206"
+                         active="https://architecturasinica.org/place/000206"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000063"/>
+                         passive="https://architecturasinica.org/place/000063"/>
             </listRelation>
          </listPlace>
       </body>

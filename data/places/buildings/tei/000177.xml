@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000177/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000177/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -75,7 +75,7 @@
                           type="alternate"
                           subtype="site-name"
                           xml:lang="zh-Hant">Wulongmiao</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000177</idno>
+               <idno type="URI">https://architecturasinica.org/place/000177</idno>
                <state type="existence" from="0831-01-01" to="0831-01-01">
                   <label>Date</label>
                   <desc>831</desc>
@@ -100,26 +100,26 @@
                <note type="field-notes">identified with Cui Jinze photo</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000177"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000177"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000177"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+               <relation active="https://architecturasinica.org/place/000177"
+                         passive="https://architecturasinica.org/keyword/first_step_touxin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000177"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+               <relation active="https://architecturasinica.org/place/000177"
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000177"
+               <relation active="https://architecturasinica.org/place/000177"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang"
+                         passive="https://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000177"
+                         active="https://architecturasinica.org/place/000177"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000036"/>
+                         passive="https://architecturasinica.org/place/000036"/>
             </listRelation>
          </listPlace>
       </body>

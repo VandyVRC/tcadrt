@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000242/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000242/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">泰安岱庙天祝殿</placeName>
                <placeName xml:id="name000242-11" type="alternate">Taian_Daimiao_Tianzhudian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000242</idno>
+               <idno type="URI">https://architecturasinica.org/place/000242</idno>
                <state type="existence" from="1009-01-01" to="1911-01-01">
                   <label>Date</label>
                   <desc>1009-1911</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">originally built in 1009, modified numerous times, see ZGMSCD, 626</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000242"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000242"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000242"
+               <relation active="https://architecturasinica.org/place/000242"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000242"
+                         active="https://architecturasinica.org/place/000242"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000090"/>
+                         passive="https://architecturasinica.org/place/000090"/>
             </listRelation>
          </listPlace>
       </body>

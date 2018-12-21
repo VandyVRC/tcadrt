@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000088/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000088/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000088-2" type="site-name" xml:lang="zh-latn-pinyin">Sirun Sanjiaotang</placeName>
                <placeName xml:id="name000088-3" type="site-name" xml:lang="zh-Hant">寺潤三教堂</placeName>
                <placeName xml:id="name000088-4" type="site-name" xml:lang="zh-Hans">寺润三教堂</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000088</idno>
+               <idno type="URI">https://architecturasinica.org/place/000088</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000088-1"
@@ -99,13 +99,13 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000088"
+               <relation active="https://architecturasinica.org/place/000088"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000088"
+               <relation active="https://architecturasinica.org/place/000088"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

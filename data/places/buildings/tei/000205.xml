@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000205/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000205/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -81,7 +81,7 @@
                           xml:lang="zh-Hans"> </placeName>
                <placeName xml:id="name000205-10" type="alternate" subtype="site-name">Taiping Longwangmiao</placeName>
                <placeName xml:id="name000205-11" type="alternate">zhengdian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000205</idno>
+               <idno type="URI">https://architecturasinica.org/place/000205</idno>
                <state type="existence" from="1210-01-01" to="1210-01-01">
                   <label>Date</label>
                   <desc>1210</desc>
@@ -103,18 +103,18 @@
                <note type="field-notes">Also called: 太平龍王廟 Main Hall from 1210; see: 中國 文物 地圖集 山西分冊, 中,278</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000205"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000205"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000205"
+               <relation active="https://architecturasinica.org/place/000205"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000205"
+                         active="https://architecturasinica.org/place/000205"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000062"/>
+                         passive="https://architecturasinica.org/place/000062"/>
             </listRelation>
          </listPlace>
       </body>

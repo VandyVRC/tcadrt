@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000077/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000077/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000077-2" type="site-name" xml:lang="zh-latn-pinyin">Qinshui Shundimiao </placeName>
                <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
                <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000077</idno>
+               <idno type="URI">https://architecturasinica.org/place/000077</idno>
                <location type="gps">
                   <geo>35.60493333 111.97245</geo>
                </location>
@@ -76,8 +76,8 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000077"
-                         passive="http://architecturasinica.org/keyword/temple"
+               <relation active="https://architecturasinica.org/place/000077"
+                         passive="https://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
             </listRelation>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000147/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000147/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">崇教寺左耳殿</placeName>
                <placeName xml:id="name000147-11" type="alternate">Zuoerdian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000147</idno>
+               <idno type="URI">https://architecturasinica.org/place/000147</idno>
                <state type="existence" from="1644-01-01" to="1912-01-01">
                   <label>Date</label>
                   <desc> </desc>
@@ -92,18 +92,18 @@
                <note type="notes">front façade: 20' 4"</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000147"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000147"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000147"
+               <relation active="https://architecturasinica.org/place/000147"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000147"
+                         active="https://architecturasinica.org/place/000147"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000012"/>
+                         passive="https://architecturasinica.org/place/000012"/>
             </listRelation>
          </listPlace>
       </body>

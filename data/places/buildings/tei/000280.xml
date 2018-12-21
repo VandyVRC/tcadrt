@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000280/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000280/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">中坪二仙宫山門</placeName>
                <placeName xml:id="name000280-11" type="alternate">Erxiangong Shanmen</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000280</idno>
+               <idno type="URI">https://architecturasinica.org/place/000280</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -90,51 +90,51 @@
                <note type="field-notes">this building looks later--yuan?</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000280"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+               <relation active="https://architecturasinica.org/place/000280"
+                         passive="https://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000280"
+               <relation active="https://architecturasinica.org/place/000280"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm4.staticflickr.com/3471/3972919062_40648b406b_"
-                         passive="http://architecturasinica.org/place/000280">
+                         passive="https://architecturasinica.org/place/000280">
                   <desc>Zhongpingcun Erxiangong Jin dynasty?, With Yuan dynasty repairs</desc>
                </relation>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000280"
+                         active="https://architecturasinica.org/place/000280"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000123"/>
+                         passive="https://architecturasinica.org/place/000123"/>
             </listRelation>
          </listPlace>
       </body>

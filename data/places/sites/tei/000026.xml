@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000026/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000026/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000026-2" type="site-name" xml:lang="zh-latn-pinyin">Fencheng Gujianzhuqun</placeName>
                <placeName xml:id="name000026-3" type="site-name" xml:lang="zh-Hant">汾城古建筑群</placeName>
                <placeName xml:id="name000026-4" type="site-name" xml:lang="zh-Hans">汾城古建筑群</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000026</idno>
+               <idno type="URI">https://architecturasinica.org/place/000026</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000026-1"
@@ -98,17 +98,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000026"
-                         passive="http://architecturasinica.org/keyword/historic-building-group"
+               <relation active="https://architecturasinica.org/place/000026"
+                         passive="https://architecturasinica.org/keyword/historic-building-group"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000026"
+               <relation active="https://architecturasinica.org/place/000026"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000026"
+               <relation active="https://architecturasinica.org/place/000026"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000145/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000145/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">崇教寺赐额牒文碣</placeName>
                <placeName xml:id="name000145-11" type="alternate">Ciediewenjie </placeName>
-               <idno type="URI">http://architecturasinica.org/place/000145</idno>
+               <idno type="URI">https://architecturasinica.org/place/000145</idno>
                <state type="existence" from="0984-01-01" to="0984-01-01">
                   <label>Date</label>
                   <desc>984</desc>
@@ -83,14 +83,14 @@
                </state>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000145"
+               <relation active="https://architecturasinica.org/place/000145"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000145"
+                         active="https://architecturasinica.org/place/000145"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000012"/>
+                         passive="https://architecturasinica.org/place/000012"/>
             </listRelation>
          </listPlace>
       </body>

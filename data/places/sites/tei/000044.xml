@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000044/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000044/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000044-2" type="site-name" xml:lang="zh-latn-pinyin">Hutumiao</placeName>
                <placeName xml:id="name000044-3" type="site-name" xml:lang="zh-Hant">狐突廟</placeName>
                <placeName xml:id="name000044-4" type="site-name" xml:lang="zh-Hans">狐突庙</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000044</idno>
+               <idno type="URI">https://architecturasinica.org/place/000044</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000044-1"
@@ -98,17 +98,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000044"
-                         passive="http://architecturasinica.org/keyword/temple"
+               <relation active="https://architecturasinica.org/place/000044"
+                         passive="https://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000044"
+               <relation active="https://architecturasinica.org/place/000044"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000044"
+               <relation active="https://architecturasinica.org/place/000044"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

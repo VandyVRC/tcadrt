@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/qinmian-pizhu_xiaang/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/qinmian-pizhu_xiaang/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,16 +54,16 @@
             <term xml:id="term-qinmian-pizhu_xiaang-4" xml:lang="zh-latn-pinyin">qinmian-pizhu xiaang</term>
             <term xml:id="term-qinmian-pizhu_xiaang-2" xml:lang="zh-Hant">琴面/批竹下昂</term>
             <term xml:id="term-qinmian-pizhu_xiaang-3" xml:lang="zh-Hans">琴面/批竹下昂</term>
-            <idno type="URI">http://architecturasinica.org/keyword/qinmian-pizhu_xiaang</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/qinmian-pizhu_xiaang</idno>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg"
-                         passive="http://architecturasinica.org/keyword/qinmian-pizhu_xiaang" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/qinmian-pizhu_xiaang" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/qinmian-pizhu_xiaang"
+                         active="https://architecturasinica.org/keyword/qinmian-pizhu_xiaang"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
             </listRelation>
          </entryFree>
       </body>

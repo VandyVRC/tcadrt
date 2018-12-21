@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/qinmian_xiaang/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/qinmian_xiaang/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-qinmian_xiaang-4" xml:lang="zh-latn-pinyin">qinmian xiaang</term>
             <term xml:id="term-qinmian_xiaang-2" xml:lang="zh-Hant">琴面下昂</term>
             <term xml:id="term-qinmian_xiaang-3" xml:lang="zh-Hans">琴面下昂</term>
-            <idno type="URI">http://architecturasinica.org/keyword/qinmian_xiaang</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/qinmian_xiaang</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                   active="https://farm3.staticflickr.com/2567/3837677328_aa36a03552_z.jpg"
-                  passive="http://architecturasinica.org/keyword/qinmian_xiaang" rendition="featured">
+                  passive="https://architecturasinica.org/keyword/qinmian_xiaang" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                  active="http://architecturasinica.org/keyword/qinmian_xiaang"
+                  active="https://architecturasinica.org/keyword/qinmian_xiaang"
                   passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000173" source="Gaoping Erlangmiao Stage"/>
+               <relation ref="https://architecturasinica.org/keyword/000173" source="Gaoping Erlangmiao Stage"/>
             </listRelation>
          </entryFree>
       </body>

@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/ic_match_ct/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ic_match_ct/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-ic_match_ct-4" xml:lang="zh-latn-pinyin">bujian puzuo tong zhutou puzuo</term>
             <term xml:id="term-ic_match_ct-2" xml:lang="zh-Hant">柱頭鋪作同補間鋪作</term>
             <term xml:id="term-ic_match_ct-3" xml:lang="zh-Hans">补间铺作同柱头铺作</term>
-            <idno type="URI">http://architecturasinica.org/keyword/ic_match_ct</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ic_match_ct</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4612/39428627105_9795f73011_z.jpg"
-                         passive="http://architecturasinica.org/keyword/ic_match_ct" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/ic_match_ct" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/ic_match_ct"
+                         active="https://architecturasinica.org/keyword/ic_match_ct"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000132" source="Baoguosi Mahāvīra Treasure Hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000132" source="Baoguosi Mahāvīra Treasure Hall"/>
             </listRelation>
          </entryFree>
       </body>

@@ -26,7 +26,7 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/cao/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/cao/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -91,17 +91,17 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
                (10) 何建中，何謂《營造法式》之“槽” (2003) 41-43
                (11) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 </p>
             </note>
-            <idno type="URI">http://architecturasinica.org/keyword/cao</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts"
                      active="url to flickr here"
-                     passive="http://architecturasinica.org/keyword/cao" rendition="featured">
+                     passive="https://architecturasinica.org/keyword/cao" rendition="featured">
                   </relation>
                   <relation ref="skos:broadMatch"
-                     active="http://architecturasinica.org/keyword/cao"
+                     active="https://architecturasinica.org/keyword/cao"
                      passive="Building Frame"/>
-                  <relation ref="http://architecturasinica.org/keyword/000xxx" source="name_of_numbered_example_here"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>
             </listRelation>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000174/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000174/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">阁院寺文殊殿</placeName>
                <placeName xml:id="name000174-11" type="alternate">Geyuansi</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000174</idno>
+               <idno type="URI">https://architecturasinica.org/place/000174</idno>
                <state type="existence" from="0966-01-01" to="1114-01-01">
                   <label>Date</label>
                   <desc>966-1114</desc>
@@ -97,38 +97,38 @@
                <note type="field-notes">Liao building, dated by remains of a dharani column (966) and bell (1114) and style of building. Guo Daiheng Zhongguo gudai jianzhushi (2009), 429. Eaves bracketing includes mojiaogong but no other xiegong; cloud bracket arms make it jixinzao</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/corner_angled_bracket_arm"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/corner_angled_bracket_arm"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000174"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+               <relation active="https://architecturasinica.org/place/000174"
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000174"
+               <relation active="https://architecturasinica.org/place/000174"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Liao"
+                         passive="https://architecturasinica.org/keyword/Liao"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000174"
+                         active="https://architecturasinica.org/place/000174"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000033"/>
+                         passive="https://architecturasinica.org/place/000033"/>
             </listRelation>
          </listPlace>
       </body>

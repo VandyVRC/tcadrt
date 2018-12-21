@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000127/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000127/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -73,7 +73,7 @@
                           xml:lang="zh-Hans">白台寺后大殿</placeName>
                <placeName xml:id="name000127-11" type="alternate">Houdadian</placeName>
                <desc type="building-data">The back great hall (後大殿) of Baitai Monastery was rebuilt during the 11th year of Yuan dynasty. The brick podium is 0.33 meters high.  The front façade is 5-bays wide with a depth of 6 rafters. The single eaves hip-gable roof has a main ridge made of brick carvings. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the eaves are five-layer bracket sets with double petal bracket arms (huagong). There are no intercolumnar bracket sets. A partition door is hung on the central bay under the front eaves. The square lattice windows in the secondary bays were later additions. In the middle of the Buddhist altar of this hall, there is a seated Śākyamuni on lotus dias, with bodhisattvas and attendants flanked on both sides. These sculptures emulate the Tang style. The hall faces onto a sizable moon-platform the center of which holds a Tang-style pagoda shaped inscribed pillar, four Song-style octagonal dhārāṇi pillar at the four corners, and a Song-style iron cloud frame plaque.  [ZGWWDTJ, vol. 3 (下), p.1099 126–C1-3] Translated by Lydia Ohl; revised by Cole Garrett, Wong Pui See (2017), and Tracy Miller (2018).</desc>
-               <idno type="URI">http://architecturasinica.org/place/000127</idno>
+               <idno type="URI">https://architecturasinica.org/place/000127</idno>
                <state type="existence" from="1279-01-01" to="1368-01-01">
                   <label>Date</label>
                   <desc>1279-1368</desc>
@@ -98,198 +98,198 @@
                <note type="notes">Axis: c, roof style: o-g, front façade: 60', side: 25' 9"</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000127"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000127"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000127"
+               <relation active="https://architecturasinica.org/place/000127"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Yuan"
+                         passive="https://architecturasinica.org/keyword/Yuan"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4831723898_6cfca7aa5e_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4831724390_b8d79c9506_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4831113201_47f4cd2646_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4076/4831113647_9e744152f4_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4114/4831725606_3683c1b2ec_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4831114405_f2c0acf9c5_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4098/4831115315_cca0f8cdb4_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4831115933_65ab659810_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4831727798_6745f9b70a_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4831116621_27622ceb30_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4831117193_b9d7f39b5c_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4831117667_bc3d06000e_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4132/4831729700_0a31c74f4d_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4831730036_829edd2a56_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4116/4831118997_a433b71e66_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4831119253_15a9aee2ca_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4121/4831119853_00e9c89129_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4137/4831731894_5e455b2a7a_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4831732468_0cc1ddacf5_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4142/4831732830_c7964e3e9f_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4077/4831121949_f2e71194fd_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4139/4831733916_a53d063a3b_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4831734664_86cf67f91a_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4831735270_b87581cb72_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4153/4831735648_c46d7b696e_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4831736046_3c9154e143_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4831125397_b2ea2f6186_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4831125669_6423e50bb4_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4119/4831126253_1756420a23_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4079/4831738172_7a0045187d_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4831126957_d11121b8b7_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4090/4831127545_5fc2f881ca_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4831739498_68251a23b0_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4097/4831739828_cbc2c47587_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4088/4831128639_2f71fd7bb6_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4146/4831740564_01265bf52b_"
-                         passive="http://architecturasinica.org/place/000127">
+                         passive="https://architecturasinica.org/place/000127">
                   <desc>Baitaisi   后大殿 Back Hall</desc>
                </relation>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000127"
+                         active="https://architecturasinica.org/place/000127"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000002"/>
+                         passive="https://architecturasinica.org/place/000002"/>
             </listRelation>
          </listPlace>
       </body>

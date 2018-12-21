@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000201/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000201/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">两程故里石坊</placeName>
                <placeName xml:id="name000201-11" type="alternate"> </placeName>
-               <idno type="URI">http://architecturasinica.org/place/000201</idno>
+               <idno type="URI">https://architecturasinica.org/place/000201</idno>
                <state type="existence" from="1462-01-01" to="1462-01-01">
                   <label>Date</label>
                   <desc>1462</desc>
@@ -84,14 +84,14 @@
                <note type="field-notes"> </note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000201"
+               <relation active="https://architecturasinica.org/place/000201"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Ming"
+                         passive="https://architecturasinica.org/keyword/Ming"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000201"
+                         active="https://architecturasinica.org/place/000201"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000058"/>
+                         passive="https://architecturasinica.org/place/000058"/>
             </listRelation>
          </listPlace>
       </body>

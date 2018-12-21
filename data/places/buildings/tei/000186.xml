@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000186/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000186/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">狐突庙正殿</placeName>
                <placeName xml:id="name000186-11" type="alternate">Hutumiao</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000186</idno>
+               <idno type="URI">https://architecturasinica.org/place/000186</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
                   <desc>960-1125</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">really song?</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000186"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000186"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000186"
+               <relation active="https://architecturasinica.org/place/000186"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000186"
+                         active="https://architecturasinica.org/place/000186"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000044"/>
+                         passive="https://architecturasinica.org/place/000044"/>
             </listRelation>
          </listPlace>
       </body>

@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000066/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000066/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000066-2" type="site-name" xml:lang="zh-latn-pinyin">Nanchansi</placeName>
                <placeName xml:id="name000066-3" type="site-name" xml:lang="zh-Hant">南禪寺</placeName>
                <placeName xml:id="name000066-4" type="site-name" xml:lang="zh-Hans">南禅寺</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000066</idno>
+               <idno type="URI">https://architecturasinica.org/place/000066</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000066-1"
@@ -103,17 +103,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000066"
-                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+               <relation active="https://architecturasinica.org/place/000066"
+                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000066"
+               <relation active="https://architecturasinica.org/place/000066"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang"
+                         passive="https://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000066"
+               <relation active="https://architecturasinica.org/place/000066"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang"
+                         passive="https://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

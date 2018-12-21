@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000121/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000121/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000121-2" type="site-name" xml:lang="zh-latn-pinyin">Zhenguosi</placeName>
                <placeName xml:id="name000121-3" type="site-name" xml:lang="zh-Hant">鎮國寺</placeName>
                <placeName xml:id="name000121-4" type="site-name" xml:lang="zh-Hans">镇国寺</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000121</idno>
+               <idno type="URI">https://architecturasinica.org/place/000121</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000121-1"
@@ -103,17 +103,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000121"
-                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+               <relation active="https://architecturasinica.org/place/000121"
+                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000121"
+               <relation active="https://architecturasinica.org/place/000121"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Five-Dynasties"
+                         passive="https://architecturasinica.org/keyword/Five-Dynasties"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000121"
+               <relation active="https://architecturasinica.org/place/000121"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

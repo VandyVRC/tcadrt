@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/first_step_jixin/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/first_step_jixin/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-first_step_jixin-4" xml:lang="zh-latn-pinyin">jixinzao</term>
             <term xml:id="term-first_step_jixin-2" xml:lang="zh-Hant">計心造</term>
             <term xml:id="term-first_step_jixin-3" xml:lang="zh-Hans">计心造</term>
-            <idno type="URI">http://architecturasinica.org/keyword/first_step_jixin</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/first_step_jixin</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4153/4835981287_2cf42622c7_z.jpg"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/first_step_jixin" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/first_step_jixin"
+                         active="https://architecturasinica.org/keyword/first_step_jixin"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000176" source="Guanghua Monastery, main hall (Mahāvīra Treasure Hall)"/>
+               <relation ref="https://architecturasinica.org/keyword/000176" source="Guanghua Monastery, main hall (Mahāvīra Treasure Hall)"/>
             </listRelation>
          </entryFree>
       </body>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000224/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000224/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">青莲寺藏经阁</placeName>
                <placeName xml:id="name000224-11" type="alternate">zangjingge</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000224</idno>
+               <idno type="URI">https://architecturasinica.org/place/000224</idno>
                <state type="existence" from="1089-01-01" to="1911-01-01">
                   <label>Date</label>
                   <desc>1089-1911</desc>
@@ -98,46 +98,46 @@
                <note type="notes">Modified significantly over time; date still in question</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/pavilion"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/pavilion"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/first_step_touxin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000224"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000224"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000224"
+               <relation active="https://architecturasinica.org/place/000224"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000224"
+                         active="https://architecturasinica.org/place/000224"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000074"/>
+                         passive="https://architecturasinica.org/place/000074"/>
             </listRelation>
          </listPlace>
       </body>
