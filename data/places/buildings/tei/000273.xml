@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000273/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000273/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -76,7 +76,7 @@
                           subtype="site-name"
                           xml:lang="zh-Hant">迦叶如来寺</placeName>
                <placeName xml:id="name000273-11" type="alternate">Dafosi</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000273</idno>
+               <idno type="URI">https://architecturasinica.org/place/000273</idno>
                <state type="existence">
                   <label>Date</label>
                   <desc>1098</desc>
@@ -95,18 +95,18 @@
                <note type="field-notes">Building date in question. Xixia reclining Buddha--is building also Xixia? </note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000273"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000273"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000273"
+               <relation active="https://architecturasinica.org/place/000273"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Xixia"
+                         passive="https://architecturasinica.org/keyword/Xixia"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000273"
+                         active="https://architecturasinica.org/place/000273"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000116"/>
+                         passive="https://architecturasinica.org/place/000116"/>
             </listRelation>
          </listPlace>
       </body>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000194/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000194/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">荆庄大云寺大雄宝殿</placeName>
                <placeName xml:id="name000194-11" type="alternate">Dayunsi Daxiongbaodian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000194</idno>
+               <idno type="URI">https://architecturasinica.org/place/000194</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -90,18 +90,18 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000194"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000194"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000194"
+               <relation active="https://architecturasinica.org/place/000194"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000194"
+                         active="https://architecturasinica.org/place/000194"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000051"/>
+                         passive="https://architecturasinica.org/place/000051"/>
             </listRelation>
          </listPlace>
       </body>

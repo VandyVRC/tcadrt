@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000184/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000184/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">回龙寺正殿</placeName>
                <placeName xml:id="name000184-11" type="alternate"> </placeName>
-               <idno type="URI">http://architecturasinica.org/place/000184</idno>
+               <idno type="URI">https://architecturasinica.org/place/000184</idno>
                <state type="existence" from="1115-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1115-1234</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">Main Hall Jin; see: http://www.sxcr.gov.cn/wmsx/show.php?itemid=1100</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000184"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000184"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000184"
+               <relation active="https://architecturasinica.org/place/000184"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000184"
+                         active="https://architecturasinica.org/place/000184"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000042"/>
+                         passive="https://architecturasinica.org/place/000042"/>
             </listRelation>
          </listPlace>
       </body>

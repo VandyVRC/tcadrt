@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000275/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000275/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">昭仁寺大殿</placeName>
                <placeName xml:id="name000275-11" type="alternate">Dadian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000275</idno>
+               <idno type="URI">https://architecturasinica.org/place/000275</idno>
                <state type="existence" from="0618-01-01" to="0907-01-01">
                   <label>Date</label>
                   <desc>618-907</desc>
@@ -94,18 +94,18 @@
                <note type="field-notes">Date of main hall not listed in ZGMSCD, p. 1026; Is this really Tang?</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000275"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000275"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000275"
+               <relation active="https://architecturasinica.org/place/000275"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang"
+                         passive="https://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000275"
+                         active="https://architecturasinica.org/place/000275"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000118"/>
+                         passive="https://architecturasinica.org/place/000118"/>
             </listRelation>
          </listPlace>
       </body>

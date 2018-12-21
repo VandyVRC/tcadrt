@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/ang-shaped_shuatou/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ang-shaped_shuatou/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-ang-shaped_shuatou-4" xml:lang="zh-latn-pinyin">xiaangxing shuatou</term>
             <term xml:id="term-ang-shaped_shuatou-2" xml:lang="zh-Hant">下昂形耍頭</term>
             <term xml:id="term-ang-shaped_shuatou-3" xml:lang="zh-Hans">下昂形耍头</term>
-            <idno type="URI">http://architecturasinica.org/keyword/ang-shaped_shuatou</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/ang-shaped_shuatou</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+                         active="https://architecturasinica.org/keyword/ang-shaped_shuatou"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"></relation>
+               <relation ref="https://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"></relation>
             </listRelation>
          </entryFree>
       </body>

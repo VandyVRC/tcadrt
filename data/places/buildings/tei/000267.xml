@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000267/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000267/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -76,7 +76,7 @@
                           subtype="site-name"
                           xml:lang="zh-Hant">原起寺大聖寶塔</placeName>
                <placeName xml:id="name000267-11" type="alternate">Yuanqisi_Dashengbaota</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000267</idno>
+               <idno type="URI">https://architecturasinica.org/place/000267</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
                   <desc>960-1125</desc>
@@ -104,18 +104,18 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000267"
-                         passive="http://architecturasinica.org/keyword/pagoda"
+               <relation active="https://architecturasinica.org/place/000267"
+                         passive="https://architecturasinica.org/keyword/pagoda"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000267"
+               <relation active="https://architecturasinica.org/place/000267"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000267"
+                         active="https://architecturasinica.org/place/000267"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000110"/>
+                         passive="https://architecturasinica.org/place/000110"/>
             </listRelation>
          </listPlace>
       </body>

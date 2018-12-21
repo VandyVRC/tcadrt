@@ -38,7 +38,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000001/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000001/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                   >Anchansi</placeName>
                <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hant">安禪寺</placeName>
                <placeName xml:id="name000001-4" type="site-name" xml:lang="zh-Hans">安禅寺</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000001</idno>
+               <idno type="URI">https://architecturasinica.org/place/000001</idno>
                <desc type="site-data" source="#bibl000001-1">Anchan Monastery is located on Anchansi
                   Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the
                   historical and cultural sites protected at the provincial level. The date of
@@ -126,16 +126,16 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000001"
-                  passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+               <relation active="https://architecturasinica.org/place/000001"
+                  passive="https://architecturasinica.org/keyword/monastery-Buddhist"
                   ref="dcterms:subject" ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000001" ref="dcterms:temporal"
-                  passive="http://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000001" ref="dcterms:temporal"
-                  passive="http://architecturasinica.org/keyword/Ming" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000001" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000001" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/Ming" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
-                  passive="http://architecturasinica.org/place/000001" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000001" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

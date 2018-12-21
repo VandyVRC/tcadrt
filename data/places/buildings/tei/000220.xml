@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000220/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000220/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">普光寺正殿 </placeName>
                <placeName xml:id="name000220-11" type="alternate">Puguangsi</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000220</idno>
+               <idno type="URI">https://architecturasinica.org/place/000220</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
                   <desc>960-1125</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">main hall from Song, hip-gable converted to gable; https://zh.wikipedia.org/wiki/%E6%99%AE%E5%85%89%E5%AF%BA_(%E5%AF%BF%E9%98%B3)</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000220"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000220"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000220"
+               <relation active="https://architecturasinica.org/place/000220"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000220"
+                         active="https://architecturasinica.org/place/000220"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000071"/>
+                         passive="https://architecturasinica.org/place/000071"/>
             </listRelation>
          </listPlace>
       </body>

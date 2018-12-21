@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000129/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000129/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">白玉宫山門</placeName>
                <placeName xml:id="name000129-11" type="alternate">Shanmen</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000129</idno>
+               <idno type="URI">https://architecturasinica.org/place/000129</idno>
                <state type="existence" from="1368-01-01" to="1911-01-01">
                   <label>Date</label>
                   <desc>1368-1911</desc>
@@ -91,14 +91,14 @@
                <note type="notes">Axis: c, roof style: h/g</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000129"
+               <relation active="https://architecturasinica.org/place/000129"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Ming"
+                         passive="https://architecturasinica.org/keyword/Ming"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000129"
+                         active="https://architecturasinica.org/place/000129"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000003"/>
+                         passive="https://architecturasinica.org/place/000003"/>
             </listRelation>
          </listPlace>
       </body>

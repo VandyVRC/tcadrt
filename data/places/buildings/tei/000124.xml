@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000124/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000124/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -73,7 +73,7 @@
                           xml:lang="zh-Hans">安禅寺藏经殿</placeName>
                <placeName xml:id="name000124-11" type="alternate">Zangjingdian</placeName>
                <desc type="building-data">The  Zangjingidan (藏经殿) or the sutra depository of Anchansi (Song Dynasty)  is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant. Ānchánsì ZGWWDTJ, Shanxi vol. 3 (xia), p. 762, 57–C1-1 Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; 3/2018; Edited by Cole Garrett 9/9/11, Modified by Wong Pui See, 2017.</desc>
-               <idno type="URI">http://architecturasinica.org/place/000124</idno>
+               <idno type="URI">https://architecturasinica.org/place/000124</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
                   <desc>960-1125</desc>
@@ -99,42 +99,42 @@
                <note type="notes">ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000124"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+               <relation active="https://architecturasinica.org/place/000124"
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000124"
+               <relation active="https://architecturasinica.org/place/000124"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000124"
+                         active="https://architecturasinica.org/place/000124"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000001"/>
+                         passive="https://architecturasinica.org/place/000001"/>
             </listRelation>
          </listPlace>
       </body>

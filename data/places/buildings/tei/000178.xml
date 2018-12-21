@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000178/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000178/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">韩城法王庙献殿</placeName>
                <placeName xml:id="name000178-11" type="alternate">Fawangmiao</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000178</idno>
+               <idno type="URI">https://architecturasinica.org/place/000178</idno>
                <state type="existence" from="1234-01-01" to="1368-01-01">
                   <label>Date</label>
                   <desc>1234-1368</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">Complex founded in 1022, Yuan-style back offering hall; see: http://www.hancheng.gov.cn/hcly/view.aspx?id=6302; http://www.baike.com/wiki/%E6%B3%95%E7%8E%8B%E5%BA%99</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000178"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000178"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000178"
+               <relation active="https://architecturasinica.org/place/000178"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Yuan"
+                         passive="https://architecturasinica.org/keyword/Yuan"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000178"
+                         active="https://architecturasinica.org/place/000178"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000037"/>
+                         passive="https://architecturasinica.org/place/000037"/>
             </listRelation>
          </listPlace>
       </body>

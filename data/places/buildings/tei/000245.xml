@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000245/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000245/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">天台庵正殿</placeName>
                <placeName xml:id="name000245-11" type="alternate">Zhengdian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000245</idno>
+               <idno type="URI">https://architecturasinica.org/place/000245</idno>
                <state type="existence" from="0618-01-01" to="0960-01-01">
                   <label>Date</label>
                   <desc>618-960</desc>
@@ -97,30 +97,30 @@
                <note type="field-notes">probably early tenth century, based on style</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000245"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000245"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000245"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000245"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000245"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+               <relation active="https://architecturasinica.org/place/000245"
+                         passive="https://architecturasinica.org/keyword/first_step_touxin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000245"
+               <relation active="https://architecturasinica.org/place/000245"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Tang"
+                         passive="https://architecturasinica.org/keyword/Tang"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000245"
+                         active="https://architecturasinica.org/place/000245"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000093"/>
+                         passive="https://architecturasinica.org/place/000093"/>
             </listRelation>
          </listPlace>
       </body>

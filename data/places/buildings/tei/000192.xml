@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000192/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000192/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">金洞寺转角殿</placeName>
                <placeName xml:id="name000192-11" type="alternate">Jindongsi</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000192</idno>
+               <idno type="URI">https://architecturasinica.org/place/000192</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
                   <desc>960-1125</desc>
@@ -90,46 +90,46 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/first_step_touxin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/pizhu_xiaang"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/pizhu_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000192"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+               <relation active="https://architecturasinica.org/place/000192"
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000192"
+               <relation active="https://architecturasinica.org/place/000192"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000192"
+                         active="https://architecturasinica.org/place/000192"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000049"/>
+                         passive="https://architecturasinica.org/place/000049"/>
             </listRelation>
          </listPlace>
       </body>

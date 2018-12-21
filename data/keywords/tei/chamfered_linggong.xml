@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/chamfered_linggong/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/chamfered_linggong/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-chamfered_linggong-4" xml:lang="zh-latn-pinyin">linggong you juansha</term>
             <term xml:id="term-chamfered_linggong-2" xml:lang="zh-Hant">令栱有卷殺</term>
             <term xml:id="term-chamfered_linggong-3" xml:lang="zh-Hans">令栱有卷殺</term>
-            <idno type="URI">http://architecturasinica.org/keyword/chamfered_linggong</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/chamfered_linggong</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm3.staticflickr.com/2648/3824724338_532b9ecd86_z.jpg"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/chamfered_linggong"
+                         active="https://architecturasinica.org/keyword/chamfered_linggong"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000198" source="Kaishansi main hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000198" source="Kaishansi main hall"/>
             </listRelation>
          </entryFree>
       </body>

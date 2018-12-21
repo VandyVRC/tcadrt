@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/beveled_linggong/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/beveled_linggong/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,18 +54,18 @@
             <term xml:id="term-beveled_linggong-4" xml:lang="zh-latn-pinyin">mojiao linggong</term>
             <term xml:id="term-beveled_linggong-2" xml:lang="zh-Hant">抹角令栱</term>
             <term xml:id="term-beveled_linggong-3" xml:lang="zh-Hans">抹角令栱</term>
-            <idno type="URI">http://architecturasinica.org/keyword/beveled_linggong</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/beveled_linggong</idno>
             <gloss/>
             <gloss>linggong beveled outward towards the building plane</gloss>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4101/4821730545_463255c69d_z.jpg"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/beveled_linggong" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/beveled_linggong"
+                         active="https://architecturasinica.org/keyword/beveled_linggong"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
             </listRelation>
          </entryFree>
       </body>

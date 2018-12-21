@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000213/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000213/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">梅庵祖师殿</placeName>
                <placeName xml:id="name000213-11" type="alternate">Meian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000213</idno>
+               <idno type="URI">https://architecturasinica.org/place/000213</idno>
                <state type="existence" from="0996-01-01" to="0996-01-01">
                   <label>Date</label>
                   <desc>996</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">Zushidian thought to retain Song style (ZGMSCD, 842)</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000213"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000213"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000213"
+               <relation active="https://architecturasinica.org/place/000213"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000213"
+                         active="https://architecturasinica.org/place/000213"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000065"/>
+                         passive="https://architecturasinica.org/place/000065"/>
             </listRelation>
          </listPlace>
       </body>

@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000004/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000004/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin">Baoguosi</placeName>
                <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
                <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000004</idno>
+               <idno type="URI">https://architecturasinica.org/place/000004</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000004-1"
@@ -103,21 +103,21 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000004"
-                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+               <relation active="https://architecturasinica.org/place/000004"
+                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000004"
+               <relation active="https://architecturasinica.org/place/000004"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Eastern-Han"
+                         passive="https://architecturasinica.org/keyword/Eastern-Han"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000004"
+               <relation active="https://architecturasinica.org/place/000004"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Republic-of-China"
+                         passive="https://architecturasinica.org/keyword/Republic-of-China"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm5.staticflickr.com/4608/40280520912_014e34d84c_z.jpg"
-                         passive="http://architecturasinica.org/place/000004"
+                         passive="https://architecturasinica.org/place/000004"
                          ana="featured"/>
             </listRelation>
          </listPlace>

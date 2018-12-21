@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000202/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000202/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">两程故里两程祠道学堂</placeName>
                <placeName xml:id="name000202-11" type="alternate">Liang Cheng ci Daoxue tang</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000202</idno>
+               <idno type="URI">https://architecturasinica.org/place/000202</idno>
                <state type="existence">
                   <label>Date</label>
                   <desc>1131</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">first built in 1131?; rebuilt in the Yuan; expanded in the Ming</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000202"
-                         passive="http://architecturasinica.org/keyword/mansion-hall"
+               <relation active="https://architecturasinica.org/place/000202"
+                         passive="https://architecturasinica.org/keyword/mansion-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000202"
+               <relation active="https://architecturasinica.org/place/000202"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000202"
+                         active="https://architecturasinica.org/place/000202"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000059"/>
+                         passive="https://architecturasinica.org/place/000059"/>
             </listRelation>
          </listPlace>
       </body>

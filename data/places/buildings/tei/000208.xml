@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000208/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000208/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">龙门寺大雄宝殿</placeName>
                <placeName xml:id="name000208-11" type="alternate">Daxiongbaodian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000208</idno>
+               <idno type="URI">https://architecturasinica.org/place/000208</idno>
                <state type="existence" from="1098-01-01" to="1098-01-01">
                   <label>Date</label>
                   <desc>1098</desc>
@@ -97,46 +97,46 @@
                <note type="field-notes">Song dynasty--eleventh century typical of Shangdang</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000208"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+               <relation active="https://architecturasinica.org/place/000208"
+                         passive="https://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000208"
+               <relation active="https://architecturasinica.org/place/000208"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000208"
+                         active="https://architecturasinica.org/place/000208"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000063"/>
+                         passive="https://architecturasinica.org/place/000063"/>
             </listRelation>
          </listPlace>
       </body>

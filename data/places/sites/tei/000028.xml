@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000028/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000028/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fogongsi</placeName>
                <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
                <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000028</idno>
+               <idno type="URI">https://architecturasinica.org/place/000028</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000028-1"
@@ -100,17 +100,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000028"
-                         passive="http://architecturasinica.org/keyword/monastery-Buddhist"
+               <relation active="https://architecturasinica.org/place/000028"
+                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000028"
+               <relation active="https://architecturasinica.org/place/000028"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Liao"
+                         passive="https://architecturasinica.org/keyword/Liao"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000028"
+               <relation active="https://architecturasinica.org/place/000028"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Liao"
+                         passive="https://architecturasinica.org/keyword/Liao"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

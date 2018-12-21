@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000068/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000068/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000068-2" type="site-name" xml:lang="zh-latn-pinyin">Nanshentou Erxianmiao</placeName>
                <placeName xml:id="name000068-3" type="site-name" xml:lang="zh-Hant">南神頭二仙廟</placeName>
                <placeName xml:id="name000068-4" type="site-name" xml:lang="zh-Hans">南神头二仙庙</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000068</idno>
+               <idno type="URI">https://architecturasinica.org/place/000068</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000068-1"
@@ -106,17 +106,17 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000068"
-                         passive="http://architecturasinica.org/keyword/temple"
+               <relation active="https://architecturasinica.org/place/000068"
+                         passive="https://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000068"
+               <relation active="https://architecturasinica.org/place/000068"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000068"
+               <relation active="https://architecturasinica.org/place/000068"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
             </listRelation>
          </listPlace>

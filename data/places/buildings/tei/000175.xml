@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000175/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000175/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">广德寺善济塔</placeName>
                <placeName xml:id="name000175-11" type="alternate"> </placeName>
-               <idno type="URI">http://architecturasinica.org/place/000175</idno>
+               <idno type="URI">https://architecturasinica.org/place/000175</idno>
                <state type="existence" from="0960-01-01" to="1279-01-01">
                   <label>Date</label>
                   <desc>960-1279</desc>
@@ -95,18 +95,18 @@
                <note type="field-notes">no date information in ZGMSCD, 910; Song stele; see: http://baike.baidu.com/view/113543.htm</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000175"
-                         passive="http://architecturasinica.org/keyword/pagoda"
+               <relation active="https://architecturasinica.org/place/000175"
+                         passive="https://architecturasinica.org/keyword/pagoda"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000175"
+               <relation active="https://architecturasinica.org/place/000175"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Song"
+                         passive="https://architecturasinica.org/keyword/Song"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000175"
+                         active="https://architecturasinica.org/place/000175"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000034"/>
+                         passive="https://architecturasinica.org/place/000034"/>
             </listRelation>
          </listPlace>
       </body>

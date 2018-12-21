@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000252/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000252/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">乡宁寿圣寺钟楼</placeName>
                <placeName xml:id="name000252-11" type="alternate">Shoushengsi_bell_tower</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000252</idno>
+               <idno type="URI">https://architecturasinica.org/place/000252</idno>
                <state type="existence" from="1234-01-01" to="1368-01-01">
                   <label>Date</label>
                   <desc>1234-1368</desc>
@@ -91,18 +91,18 @@
                <note type="field-notes">Bell tower Yuan? See: http://baike.baidu.com/view/2020840.htm</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000252"
-                         passive="http://architecturasinica.org/keyword/tower"
+               <relation active="https://architecturasinica.org/place/000252"
+                         passive="https://architecturasinica.org/keyword/tower"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000252"
+               <relation active="https://architecturasinica.org/place/000252"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Yuan"
+                         passive="https://architecturasinica.org/keyword/Yuan"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000252"
+                         active="https://architecturasinica.org/place/000252"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000098"/>
+                         passive="https://architecturasinica.org/place/000098"/>
             </listRelation>
          </listPlace>
       </body>

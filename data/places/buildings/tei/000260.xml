@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000260/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000260/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">阳泉大王庙寝宫</placeName>
                <placeName xml:id="name000260-11" type="alternate">Dawangmiao</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000260</idno>
+               <idno type="URI">https://architecturasinica.org/place/000260</idno>
                <state type="existence" from="1172-01-01" to="1172-01-01">
                   <label>Date</label>
                   <desc>1172</desc>
@@ -84,18 +84,18 @@
                <note type="field-notes">寢宮from Jin--1172? Ic brackets have xiegong</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000260"
-                         passive="http://architecturasinica.org/keyword/ic_angled_bracket_arm"
+               <relation active="https://architecturasinica.org/place/000260"
+                         passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000260"
+               <relation active="https://architecturasinica.org/place/000260"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000260"
+                         active="https://architecturasinica.org/place/000260"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000105"/>
+                         passive="https://architecturasinica.org/place/000105"/>
             </listRelation>
          </listPlace>
       </body>

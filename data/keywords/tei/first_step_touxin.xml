@@ -22,7 +22,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/keyword/first_step_touxin/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/first_step_touxin/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,17 +54,17 @@
             <term xml:id="term-first_step_touxin-4" xml:lang="zh-latn-pinyin">touxinzao</term>
             <term xml:id="term-first_step_touxin-2" xml:lang="zh-Hant">偷心造</term>
             <term xml:id="term-first_step_touxin-3" xml:lang="zh-Hans">偷心造</term>
-            <idno type="URI">http://architecturasinica.org/keyword/first_step_touxin</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/first_step_touxin</idno>
             <gloss/>
             <listRelation>
                <relation ref="foaf:depicts"
                          active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg"
-                         passive="http://architecturasinica.org/keyword/first_step_touxin" rendition="featured">
+                         passive="https://architecturasinica.org/keyword/first_step_touxin" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch"
-                         active="http://architecturasinica.org/keyword/first_step_touxin"
+                         active="https://architecturasinica.org/keyword/first_step_touxin"
                          passive="Bracketing"/>
-               <relation ref="http://architecturasinica.org/keyword/000167" source="Fengguosi Mahāvīra Hall"/>
+               <relation ref="https://architecturasinica.org/keyword/000167" source="Fengguosi Mahāvīra Hall"/>
             </listRelation>
          </entryFree>
       </body>

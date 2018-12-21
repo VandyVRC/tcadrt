@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000225/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000225/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">沁水崔府君庙府君殿</placeName>
                <placeName xml:id="name000225-11" type="alternate">Cuifujunmiao Fujundian</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000225</idno>
+               <idno type="URI">https://architecturasinica.org/place/000225</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -96,204 +96,204 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/number_of_ic_in_central_bay"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/pupaifang"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/pupaifang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
-                         passive="http://architecturasinica.org/keyword/beveled_linggong"
+               <relation active="https://architecturasinica.org/place/000225"
+                         passive="https://architecturasinica.org/keyword/beveled_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000225"
+               <relation active="https://architecturasinica.org/place/000225"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4837625619_3490ff5866_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao    view from behind the  戏台 stage</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4837577921_f2f2eb4d84_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4107/4837625911_5d7e40d7bb_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4130/4838190406_7b9065bbe7_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4110/4837626209_7400774445_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4837578539_76603ed969_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4131/4838238362_d8d7498285_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4838191046_ffb1926f5a_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4837626701_722ab8e9ea_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4150/4838191322_c1a35d86c3_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4092/4838238826_4ec014833d_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian   east side hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4129/4838195538_9acf20b577_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4837627265_9da4fa6225_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian   west side hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4111/4838195794_455b55045f_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4129/4837627649_4ba15f3fd2_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4105/4838195972_5968d00c37_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4124/4838239864_4d5af49638_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4838196206_86aaba3e72_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4083/4838240122_60226b4de3_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4112/4837584429_80f0c67ab9_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4837628735_4dc8f5c25c_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4152/4837584593_cfbb32b4c0_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4085/4838240826_e4711145fa_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4838196914_6aa726766d_"
-                         passive="http://architecturasinica.org/place/000225"/>
+                         passive="https://architecturasinica.org/place/000225"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4127/4838241374_0a8f2eca31_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4154/4837630057_e17327e9d1_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4104/4837630297_24763109f7_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4151/4837630633_8c33060023_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4086/4837632365_43e1f37e4b_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4087/4837632623_6c7724ba01_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   府君殿      Fujundian   and 戏台 stage</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4109/4838247000_dac44f164a_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao   戏台 stage    and  府君殿  Fujundian</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4128/4838247270_975a1fa115_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4103/4837653739_b0421406ba_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4108/4837654023_2835a96b28_"
-                         passive="http://architecturasinica.org/place/000225">
+                         passive="https://architecturasinica.org/place/000225">
                   <desc>Jiafeng_Cuifujunmiao</desc>
                </relation>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000225"
+                         active="https://architecturasinica.org/place/000225"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000075"/>
+                         passive="https://architecturasinica.org/place/000075"/>
             </listRelation>
          </listPlace>
       </body>

@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000248/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000248/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">万荣稷王庙大殿</placeName>
                <placeName xml:id="name000248-11" type="alternate">Jiwangmiao_Main_Hall</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000248</idno>
+               <idno type="URI">https://architecturasinica.org/place/000248</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -90,18 +90,18 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000248"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000248"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000248"
+               <relation active="https://architecturasinica.org/place/000248"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000248"
+                         active="https://architecturasinica.org/place/000248"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000095"/>
+                         passive="https://architecturasinica.org/place/000095"/>
             </listRelation>
          </listPlace>
       </body>

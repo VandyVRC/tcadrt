@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000270/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000270/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,7 +72,7 @@
                           subtype="building-name-in-site"
                           xml:lang="zh-Hans">玉泉东岳庙正殿</placeName>
                <placeName xml:id="name000270-11" type="alternate">Dongyuemiao</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000270</idno>
+               <idno type="URI">https://architecturasinica.org/place/000270</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
@@ -98,141 +98,141 @@
                <note type="notes">complex locked, measured back of hall</note>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/palatial-hall"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/palatial-hall"
                          ref="dcterms:subject"
                          ana="building-type"/>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/first_step_jixin"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/first_step_jixin"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/cejiao"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/cejiao"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/qinmian_xiaang"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/number_of_xiaang"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
                          ref="dcterms:subject"
                          ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/ang-shaped_shuatou"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000270"
-                         passive="http://architecturasinica.org/keyword/chamfered_linggong"
+               <relation active="https://architecturasinica.org/place/000270"
+                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
                          ref="dcterms:subject"
                          ana="architectural-feature"/>
-               <relation active="http://architecturasinica.org/place/000270"
+               <relation active="https://architecturasinica.org/place/000270"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Jin"
+                         passive="https://architecturasinica.org/keyword/Jin"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4820650675_fb0f4bdfa7_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao 正殿 Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4821268216_c800ec9286_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4143/4821268458_f29d6a632f_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4102/4820650023_e3725d477d_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4141/4821268886_0d58bc7f7d_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4082/4820650329_9226f4c12d_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall roof ornament</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4820650469_394a4b4f92_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall roof ornament</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4081/4821269678_a47015d2f0_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4120/4821269960_865c17dca0_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4820651343_cd9d04c39a_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4073/4821270412_146229c4a7_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4075/4820651745_6f67b8aa7a_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4073/4820651923_bc303c2943_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4117/4820652085_bf5436b34e_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4078/4820652273_a5dc72d1ac_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4099/4821271290_34cb512298_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4118/4821271584_fcd936530d_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4080/4821271866_f8e1d5753a_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao    正殿   Main Hall</desc>
                </relation>
                <relation ref="foaf:depicts"
                          active="farm5.staticflickr.com/4094/4821258596_8bc72bc2f6_"
-                         passive="http://architecturasinica.org/place/000270">
+                         passive="https://architecturasinica.org/place/000270">
                   <desc>Yuquan_Dongyuemiao     exterior</desc>
                </relation>
                <relation ana="contained"
-                         active="http://architecturasinica.org/place/000270"
+                         active="https://architecturasinica.org/place/000270"
                          ref="schema:containedInPlace"
-                         passive="http://architecturasinica.org/place/000113"/>
+                         passive="https://architecturasinica.org/place/000113"/>
             </listRelation>
          </listPlace>
       </body>

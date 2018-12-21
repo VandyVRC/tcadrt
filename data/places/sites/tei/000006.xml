@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Traditional Chinese Architecture Digital Research Tool</authority>
-            <idno type="URI">http://architecturasinica.org/place/000006/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000006/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -56,7 +56,7 @@
                <placeName xml:id="name000006-2" type="site-name" xml:lang="zh-latn-pinyin">Beiyicheng Yuhuangmiao</placeName>
                <placeName xml:id="name000006-3" type="site-name" xml:lang="zh-Hant">北義城玉皇廟</placeName>
                <placeName xml:id="name000006-4" type="site-name" xml:lang="zh-Hans">北义城玉皇庙</placeName>
-               <idno type="URI">http://architecturasinica.org/place/000006</idno>
+               <idno type="URI">https://architecturasinica.org/place/000006</idno>
                <state type="existence"
                       subtype="dynasty"
                       source="bibl000006-1"
@@ -101,21 +101,21 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="http://architecturasinica.org/place/000006"
-                         passive="http://architecturasinica.org/keyword/temple"
+               <relation active="https://architecturasinica.org/place/000006"
+                         passive="https://architecturasinica.org/keyword/temple"
                          ref="dcterms:subject"
                          ana="site-type"/>
-               <relation active="http://architecturasinica.org/place/000006"
+               <relation active="https://architecturasinica.org/place/000006"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Northern-Song"
+                         passive="https://architecturasinica.org/keyword/Northern-Song"
                          ana="dynasty"/>
-               <relation active="http://architecturasinica.org/place/000006"
+               <relation active="https://architecturasinica.org/place/000006"
                          ref="dcterms:temporal"
-                         passive="http://architecturasinica.org/keyword/Qing"
+                         passive="https://architecturasinica.org/keyword/Qing"
                          ana="dynasty"/>
                <relation ref="foaf:depicts"
                          active="https://farm4.staticflickr.com/3026/3972146865_b5a30fe404_z.jpg"
-                         passive="http://architecturasinica.org/place/000006"
+                         passive="https://architecturasinica.org/place/000006"
                          ana="featured"/>
             </listRelation>
          </listPlace>
