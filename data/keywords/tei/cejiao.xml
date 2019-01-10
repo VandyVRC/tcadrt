@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,13 +52,9 @@
             <idno type="URI">https://architecturasinica.org/keyword/cejiao</idno>
             <gloss/>
             <listRelation>
-               <relation ref="foaf:depicts"
-                         active="https://farm5.staticflickr.com/4104/4841118583_d8c73757cf_z.jpg"
-                         passive="https://architecturasinica.org/keyword/cejiao" rendition="featured">
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4104/4841118583_d8c73757cf_z.jpg" passive="https://architecturasinica.org/keyword/cejiao" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch"
-                         active="https://architecturasinica.org/keyword/cejiao"
-                         passive="Building Frame"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/cejiao" passive="Building Frame"/>
                <relation ref="https://architecturasinica.org/keyword/000167" source="Fengguosi Mahāvīra Hall"/>
             </listRelation>
          </entryFree>

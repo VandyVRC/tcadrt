@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs" version="3.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="html" html-version="5" indent="yes" omit-xml-declaration="yes"/>
     
     <xsl:template match="/">
@@ -31,10 +29,9 @@
     <xsl:template match="tei:publicationStmt">
         <html:meta>
             <xsl:attribute name="name">description</xsl:attribute>
-            <xsl:attribute name="content">This poem was published by the <xsl:value-of
-                select="tei:publisher"/> in <xsl:value-of select="tei:pubPlace"/> on
-                <xsl:value-of select="format-date(tei:date, '[MNn] [D01], [Y0001]')"
-                /></xsl:attribute>
+            <xsl:attribute name="content">This poem was published by the <xsl:value-of select="tei:publisher"/> in <xsl:value-of select="tei:pubPlace"/> on
+                <xsl:value-of select="format-date(tei:date, '[MNn] [D01], [Y0001]')"/>
+            </xsl:attribute>
         </html:meta>
     </xsl:template>
     

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,19 +46,11 @@
       <body>
          <entryFree xml:id="cloister" type="site-type">
             <term xml:id="term-cloister-1" xml:lang="en" source="biblcloister-1">cloister</term>
-            <term xml:id="term-cloister-4"
-                  xml:lang="zh-latn-pinyin"
-                  source="biblcloister-1">yuan</term>
+            <term xml:id="term-cloister-4" xml:lang="zh-latn-pinyin" source="biblcloister-1">yuan</term>
             <term xml:id="term-cloister-2" xml:lang="zh-Hant" source="biblcloister-1">院</term>
             <term xml:id="term-cloister-3" xml:lang="zh-Hans" source="biblcloister-1">院</term>
             <gloss>typically a quandrangle of buildings, can refer to a single temple complex or an enclosed unit within a larger building complex</gloss>
-            <bibl xml:id="biblcloister-1">
-               <author>Endymion Wilkinson</author>
-               <title>Chinese History: A Manual, Revised and Enlarged.</title>
-               <publisher>Harvard: Harvard University Asia Center</publisher>
-               <date>2000</date>
-               <citedRange unit="pp">11-12</citedRange>
-            </bibl>
+            
          </entryFree>
       </body>
    </text>
