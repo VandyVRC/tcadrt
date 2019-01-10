@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,18 +46,10 @@
       <body>
          <entryFree xml:id="tower" type="building-type">
             <term xml:id="term-tower-1" xml:lang="en" source="bibltower-1">tower</term>
-            <term xml:id="term-tower-4"
-                  xml:lang="zh-latn-pinyin"
-                  source="bibltower-1">lou</term>
+            <term xml:id="term-tower-4" xml:lang="zh-latn-pinyin" source="bibltower-1">lou</term>
             <term xml:id="term-tower-2" xml:lang="zh-Hant" source="bibltower-1">樓</term>
             <term xml:id="term-tower-3" xml:lang="zh-Hans" source="bibltower-1">楼</term>
-            <bibl xml:id="bibltower-1">
-               <author>Endymion Wilkinson</author>
-               <title>Chinese History: A Manual, Revised and Enlarged.</title>
-               <publisher>Harvard: Harvard University Asia Center</publisher>
-               <date>2000</date>
-               <citedRange unit="pp">11-12</citedRange>
-            </bibl>
+            
          </entryFree>
       </body>
    </text>

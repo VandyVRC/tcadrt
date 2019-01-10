@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"
-?>
-<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,8 +46,7 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="feature_name_here"
-                    type="architectural-feature">
+         <entryFree xml:id="feature_name_here" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en">feature name in English here</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">feature name in Pinyin here</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">feature name in Traditional Chinese here</term>
@@ -62,13 +55,9 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
             <idno type="URI">https://architecturasinica.org/keyword/feature_name_here</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts"
-                     active="url to flickr here"
-                     passive="https://architecturasinica.org/keyword/feature_name_here" rendition="featured">
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/feature_name_here" rendition="featured">
                   </relation>
-                  <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/qinmian_xiaang"
-                     passive="Bracketing"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/qinmian_xiaang" passive="Bracketing"/>
                   <relation ref="https://architecturasinica.org/keyword/000xxx" source="Gaoping Erlangmiao Stage"/>
                   <!--where there is an xxx put the number of the feature-->
                </listRelation>

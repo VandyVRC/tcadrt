@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,26 +45,12 @@
    <text>
       <body>
          <entryFree xml:id="monastery-Buddhist" type="site-type">
-            <term xml:id="term-monastery-Buddhist-1"
-                  xml:lang="en"
-                  source="biblmonastery-Buddhist-1">monastery (Buddhist)</term>
-            <term xml:id="term-monastery-Buddhist-4"
-                  xml:lang="zh-latn-pinyin"
-                  source="biblmonastery-Buddhist-1">si</term>
-            <term xml:id="term-monastery-Buddhist-2"
-                  xml:lang="zh-Hant"
-                  source="biblmonastery-Buddhist-1">寺</term>
-            <term xml:id="term-monastery-Buddhist-3"
-                  xml:lang="zh-Hans"
-                  source="biblmonastery-Buddhist-1">寺</term>
+            <term xml:id="term-monastery-Buddhist-1" xml:lang="en" source="biblmonastery-Buddhist-1">monastery (Buddhist)</term>
+            <term xml:id="term-monastery-Buddhist-4" xml:lang="zh-latn-pinyin" source="biblmonastery-Buddhist-1">si</term>
+            <term xml:id="term-monastery-Buddhist-2" xml:lang="zh-Hant" source="biblmonastery-Buddhist-1">寺</term>
+            <term xml:id="term-monastery-Buddhist-3" xml:lang="zh-Hans" source="biblmonastery-Buddhist-1">寺</term>
             <gloss>Buddhist monastery</gloss>
-            <bibl xml:id="biblmonastery-Buddhist-1">
-               <author>Endymion Wilkinson</author>
-               <title>Chinese History: A Manual, Revised and Enlarged.</title>
-               <publisher>Harvard: Harvard University Asia Center</publisher>
-               <date>2000</date>
-               <citedRange unit="pp">11-12</citedRange>
-            </bibl>
+            
          </entryFree>
       </body>
    </text>
