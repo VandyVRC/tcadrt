@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000227-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000227-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
                <placeName xml:id="name000227-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
-               <placeName xml:id="name000227-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">dadian</placeName>
-               <placeName xml:id="name000227-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Qinshui Shundimiao dadian</placeName>
-               <placeName xml:id="name000227-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">沁水舜帝廟大殿</placeName>
-               <placeName xml:id="name000227-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">沁水舜帝庙大殿</placeName>
+               <placeName xml:id="name000227-4" type="building-name" xml:lang="zh-latn-pinyin">dadian</placeName>
+               <placeName xml:id="name000227-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qinshui Shundimiao dadian</placeName>
+               <placeName xml:id="name000227-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">沁水舜帝廟大殿</placeName>
+               <placeName xml:id="name000227-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">沁水舜帝庙大殿</placeName>
                <placeName xml:id="name000227-11" type="alternate">Shundimiao Dadian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000227</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.60493333 111.97245</geo>
                </location>
                <location type="verbatim">
@@ -96,179 +79,99 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000227"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000227"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4112/4836660534_aa4aef1237_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation active="https://architecturasinica.org/place/000227" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000227" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4112/4836660534_aa4aef1237_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4146/4836050075_18d209a76c_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4146/4836050075_18d209a76c_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4113/4836050305_0c615a9c9f_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4113/4836050305_0c615a9c9f_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4154/4836661218_e54db2a5ac_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4154/4836661218_e54db2a5ac_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4144/4836050765_6753a56cbf_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4144/4836050765_6753a56cbf_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4132/4836661714_4e8c2ef61c_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4132/4836661714_4e8c2ef61c_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4110/4836661994_d5467d4c5c_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4110/4836661994_d5467d4c5c_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4150/4836662166_05992248b3_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4150/4836662166_05992248b3_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4149/4836051837_73e5226b9a_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4149/4836051837_73e5226b9a_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4109/4836662688_69e174f641_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4109/4836662688_69e174f641_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4133/4836662928_2480e2f7dc_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4133/4836662928_2480e2f7dc_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4083/4836052487_363011d8c7_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4083/4836052487_363011d8c7_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4150/4836052745_40bfbe8acc_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4150/4836052745_40bfbe8acc_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4129/4836053003_659e1716f7_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4129/4836053003_659e1716f7_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4105/4836663988_c943e0ecf7_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4105/4836663988_c943e0ecf7_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4131/4836053429_cdb2a6be1b_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4131/4836053429_cdb2a6be1b_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4151/4836664388_fbb67c23e9_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4151/4836664388_fbb67c23e9_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4108/4836053897_ef74d2ca43_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4108/4836053897_ef74d2ca43_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao  view from 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4111/4836054183_9c54f942bf_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4111/4836054183_9c54f942bf_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4154/4836054369_ab5e0b9dc3_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4154/4836054369_ab5e0b9dc3_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4090/4836054609_5efac27ced_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4090/4836054609_5efac27ced_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4105/4836665466_f026b8b664_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4105/4836665466_f026b8b664_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4083/4836055003_e494fc3f37_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4083/4836055003_e494fc3f37_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao  view East of 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4092/4836665930_6f34520562_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4092/4836665930_6f34520562_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao view West of 大殿   Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4132/4836049617_c231301cbf_"
-                         passive="https://architecturasinica.org/place/000227">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4132/4836049617_c231301cbf_" passive="https://architecturasinica.org/place/000227">
                   <desc>Shundimiao 大殿   Main Hall</desc>
                </relation>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000227"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000077"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000227" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000077"/>
             </listRelation>
          </listPlace>
       </body>

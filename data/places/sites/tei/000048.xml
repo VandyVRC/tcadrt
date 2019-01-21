@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,16 +52,11 @@
                <placeName xml:id="name000048-3" type="site-name" xml:lang="zh-Hant">晉祠</placeName>
                <placeName xml:id="name000048-4" type="site-name" xml:lang="zh-Hans">晋祠</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000048-1"
-                      from="0960-01-01"
-                      to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000048-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="nested"
-                         source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
                   <placeName>山西省太原市</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
@@ -84,7 +74,7 @@
                      <placeName xml:lang="en">City</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
                </location>
                <location type="gps">
@@ -106,18 +96,9 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048"
-                         passive="https://architecturasinica.org/keyword/shrine"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000048"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000048"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Qing"
-                         ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048" passive="https://architecturasinica.org/keyword/shrine" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Qing" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

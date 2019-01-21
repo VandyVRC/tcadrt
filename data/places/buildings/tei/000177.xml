@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,25 +50,11 @@
                <placeName xml:id="name000177-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000177-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000177-3" type="building-name" xml:lang="zh-Hans">王庙</placeName>
-               <placeName xml:id="name000177-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
-               <placeName xml:id="name000177-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Guangrenwangmiao zhengdian</placeName>
-               <placeName xml:id="name000177-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">廣仁王廟正殿</placeName>
-               <placeName xml:id="name000177-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">广仁王庙正殿</placeName>
-               <placeName xml:id="name000177-8"
-                          type="alternate"
-                          subtype="site-name"
-                          xml:lang="zh-Hant">Wulongmiao</placeName>
+               <placeName xml:id="name000177-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000177-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Guangrenwangmiao zhengdian</placeName>
+               <placeName xml:id="name000177-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">廣仁王廟正殿</placeName>
+               <placeName xml:id="name000177-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">广仁王庙正殿</placeName>
+               <placeName xml:id="name000177-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">Wulongmiao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000177</idno>
                <state type="existence" from="0831-01-01" to="0831-01-01">
                   <label>Date</label>
@@ -84,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>34.73344722 110.677217</geo>
                </location>
                <location type="verbatim">
@@ -100,26 +80,11 @@
                <note type="field-notes">identified with Cui Jinze photo</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000177"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000177"
-                         passive="https://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000177"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000177"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Tang"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000177"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000036"/>
+               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000177" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Tang" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000177" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000036"/>
             </listRelation>
          </listPlace>
       </body>

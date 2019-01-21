@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000130-1" xml:lang="en">Hall of the Three Transcendents</placeName>
                <placeName xml:id="name000130-2" type="building-name" xml:lang="zh-Hant">三仙殿</placeName>
                <placeName xml:id="name000130-3" type="building-name" xml:lang="zh-Hans">三仙殿</placeName>
-               <placeName xml:id="name000130-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Sanxiandian</placeName>
-               <placeName xml:id="name000130-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Baiyugong Sanxiandian</placeName>
-               <placeName xml:id="name000130-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">白玉宫三仙殿</placeName>
-               <placeName xml:id="name000130-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">白玉宫三仙殿</placeName>
+               <placeName xml:id="name000130-4" type="building-name" xml:lang="zh-latn-pinyin">Sanxiandian</placeName>
+               <placeName xml:id="name000130-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Baiyugong Sanxiandian</placeName>
+               <placeName xml:id="name000130-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">白玉宫三仙殿</placeName>
+               <placeName xml:id="name000130-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">白玉宫三仙殿</placeName>
                <placeName xml:id="name000130-11" type="alternate">Sanxiandian</placeName>
                <desc type="building-data">The Hall of the Three Transcendents (三仙殿) in Baiyu Palace is an axial building dating from the Ming-Qing dynasties [ZGWWDTJ, Shanxi vol 2 (zhong), p. 513 23-C10]  It has an overhanging gable roof, its front façade measures 8.56 m (28' 1") and its side facade measures 7.9 m (25' 11"). Entry by TM</desc>
                <idno type="URI">https://architecturasinica.org/place/000130</idno>
@@ -92,18 +75,9 @@
                <note type="notes">Axis: c, roof style: o-g, front façade: 28' 1", side: 25' 11"</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000130"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000130"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Ming"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000130"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000003"/>
+               <relation active="https://architecturasinica.org/place/000130" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000130" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Ming" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000130" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000003"/>
             </listRelation>
          </listPlace>
       </body>
