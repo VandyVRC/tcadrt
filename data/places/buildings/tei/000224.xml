@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000224-1" xml:lang="en">sutra pavilion</placeName>
                <placeName xml:id="name000224-2" type="building-name" xml:lang="zh-Hant">藏經閣</placeName>
                <placeName xml:id="name000224-3" type="building-name" xml:lang="zh-Hans">藏经阁</placeName>
-               <placeName xml:id="name000224-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zangjingge</placeName>
-               <placeName xml:id="name000224-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Qingliansi zangjingge</placeName>
-               <placeName xml:id="name000224-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">青莲寺藏經閣</placeName>
-               <placeName xml:id="name000224-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">青莲寺藏经阁</placeName>
+               <placeName xml:id="name000224-4" type="building-name" xml:lang="zh-latn-pinyin">zangjingge</placeName>
+               <placeName xml:id="name000224-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qingliansi zangjingge</placeName>
+               <placeName xml:id="name000224-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">青莲寺藏經閣</placeName>
+               <placeName xml:id="name000224-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">青莲寺藏经阁</placeName>
                <placeName xml:id="name000224-11" type="alternate">zangjingge</placeName>
                <idno type="URI">https://architecturasinica.org/place/000224</idno>
                <state type="existence" from="1089-01-01" to="1911-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.45511 112.9869033</geo>
                </location>
                <location type="verbatim">
@@ -98,46 +81,22 @@
                <note type="notes">Modified significantly over time; date still in question</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/pavilion"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/pavilion" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000224"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000224" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000224"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000224"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000074"/>
+               <relation active="https://architecturasinica.org/place/000224" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000224" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000074"/>
             </listRelation>
          </listPlace>
       </body>

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000277-1" xml:lang="en">Dacheng Hall</placeName>
                <placeName xml:id="name000277-2" type="building-name" xml:lang="zh-Hant">大成殿</placeName>
                <placeName xml:id="name000277-3" type="building-name" xml:lang="zh-Hans">大成殿</placeName>
-               <placeName xml:id="name000277-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Dachengdian</placeName>
-               <placeName xml:id="name000277-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Zhengding Wenmiao Dachengdian</placeName>
-               <placeName xml:id="name000277-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">正定文廟大成殿</placeName>
-               <placeName xml:id="name000277-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">正定文庙大成殿</placeName>
+               <placeName xml:id="name000277-4" type="building-name" xml:lang="zh-latn-pinyin">Dachengdian</placeName>
+               <placeName xml:id="name000277-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhengding Wenmiao Dachengdian</placeName>
+               <placeName xml:id="name000277-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">正定文廟大成殿</placeName>
+               <placeName xml:id="name000277-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">正定文庙大成殿</placeName>
                <placeName xml:id="name000277-11" type="alternate">Wenmiao Dachengdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000277</idno>
                <state type="existence" from="0907-01-01" to="0960-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Five Dynasties 907 CE - 960 BCE</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>38.14383333 114.561</geo>
                </location>
                <location type="verbatim">
@@ -96,22 +79,10 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000277"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000277"
-                         passive="https://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000277"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Five-Dynasties"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000277"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000120"/>
+               <relation active="https://architecturasinica.org/place/000277" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000277" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000277" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000277" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000120"/>
             </listRelation>
          </listPlace>
       </body>

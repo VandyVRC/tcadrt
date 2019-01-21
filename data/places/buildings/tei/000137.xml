@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000137-1" xml:lang="en">back hall</placeName>
                <placeName xml:id="name000137-2" type="building-name" xml:lang="zh-Hant">後殿</placeName>
                <placeName xml:id="name000137-3" type="building-name" xml:lang="zh-Hans">后殿</placeName>
-               <placeName xml:id="name000137-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">houdian</placeName>
-               <placeName xml:id="name000137-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Bucun Yuhuangmiao houdian</placeName>
-               <placeName xml:id="name000137-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">布村玉皇廟後殿</placeName>
-               <placeName xml:id="name000137-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">布村玉皇庙后殿</placeName>
+               <placeName xml:id="name000137-4" type="building-name" xml:lang="zh-latn-pinyin">houdian</placeName>
+               <placeName xml:id="name000137-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Bucun Yuhuangmiao houdian</placeName>
+               <placeName xml:id="name000137-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">布村玉皇廟後殿</placeName>
+               <placeName xml:id="name000137-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">布村玉皇庙后殿</placeName>
                <placeName xml:id="name000137-11" type="alternate">Houdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000137</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>36.00795 112.9334667</geo>
                </location>
                <location type="verbatim">
@@ -97,162 +80,90 @@
                <note type="field-notes">Jin？</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000137"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000137"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4089/4832153688_cfe8738d35_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/ang-shaped_shuatou" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000137" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4089/4832153688_cfe8738d35_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4151/4832154258_5d34dc64fe_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4151/4832154258_5d34dc64fe_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4110/4831544309_0a228f4684_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4110/4831544309_0a228f4684_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4128/4832155022_0c68d40773_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4128/4832155022_0c68d40773_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4149/4832155426_0a370ba288_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4149/4832155426_0a370ba288_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4150/4832155872_da9039e696_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4150/4832155872_da9039e696_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4086/4832156084_09af65a3fd_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4086/4832156084_09af65a3fd_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4090/4832156604_21a8da35c5_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4090/4832156604_21a8da35c5_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4133/4831546921_32b23ba908_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4133/4831546921_32b23ba908_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4091/4832158282_8d5bec885d_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4091/4832158282_8d5bec885d_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao   side hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4089/4832159114_30e49933d2_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4089/4832159114_30e49933d2_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4124/4832159614_1c9a03c9e8_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4124/4832159614_1c9a03c9e8_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4151/4831549901_97afdb8c2e_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4151/4831549901_97afdb8c2e_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4144/4832160812_118d4de8e1_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4144/4832160812_118d4de8e1_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Front Hall   back facade</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4151/4832161144_d2630d35ef_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4151/4832161144_d2630d35ef_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4113/4832161630_c308a8a780_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4113/4832161630_c308a8a780_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4088/4832162330_993126e834_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4088/4832162330_993126e834_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4127/4832162706_68dbffdc5c_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4127/4832162706_68dbffdc5c_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4103/4831553319_bcc6673c2f_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4103/4831553319_bcc6673c2f_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4147/4831553755_f5ddaffcb6_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4147/4831553755_f5ddaffcb6_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4126/4832164436_cd2dcdeb12_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4126/4832164436_cd2dcdeb12_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao   Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4130/4832164680_05300de8fc_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4130/4832164680_05300de8fc_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao   Back Hall   interior</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4153/4831554833_712ce00517_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4153/4831554833_712ce00517_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4091/4831555395_740c8f38ff_"
-                         passive="https://architecturasinica.org/place/000137">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4091/4831555395_740c8f38ff_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000137"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000007"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000137" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000007"/>
             </listRelation>
          </listPlace>
       </body>

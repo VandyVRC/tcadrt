@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,29 +50,12 @@
                <placeName xml:id="name000160-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000160-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000160-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
-               <placeName xml:id="name000160-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhengdian</placeName>
-               <placeName xml:id="name000160-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Zhoucun Dongyuemiao zhengdian</placeName>
-               <placeName xml:id="name000160-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">周村東嶽廟正殿</placeName>
-               <placeName xml:id="name000160-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">周村东岳庙正殿</placeName>
-               <placeName xml:id="name000160-8"
-                          type="alternate"
-                          subtype="site-name"
-                          xml:lang="zh-Hant">高臺寺</placeName>
-               <placeName xml:id="name000160-9"
-                          type="alternate"
-                          subtype="site-name"
-                          xml:lang="zh-Hans">高台寺</placeName>
+               <placeName xml:id="name000160-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000160-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhoucun Dongyuemiao zhengdian</placeName>
+               <placeName xml:id="name000160-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">周村東嶽廟正殿</placeName>
+               <placeName xml:id="name000160-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">周村东岳庙正殿</placeName>
+               <placeName xml:id="name000160-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">高臺寺</placeName>
+               <placeName xml:id="name000160-9" type="alternate" subtype="site-name" xml:lang="zh-Hans">高台寺</placeName>
                <placeName xml:id="name000160-10" type="alternate" subtype="site-name">Gaotaisi</placeName>
                <idno type="URI">https://architecturasinica.org/place/000160</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
@@ -89,7 +66,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.47615 112.620216</geo>
                </location>
                <location type="verbatim">
@@ -104,42 +81,18 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000160"
-                         passive="https://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000160"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000160"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000022"/>
+               <relation active="https://architecturasinica.org/place/000160" passive="https://architecturasinica.org/keyword/beveled_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000160" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000160" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000022"/>
             </listRelation>
          </listPlace>
       </body>

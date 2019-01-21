@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,16 +52,11 @@
                <placeName xml:id="name000007-3" type="site-name" xml:lang="zh-Hant">布村玉皇廟</placeName>
                <placeName xml:id="name000007-4" type="site-name" xml:lang="zh-Hans">布村玉皇庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000007</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000007-1"
-                      from="0907-01-01"
-                      to="0960-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000007-1" from="0907-01-01" to="0960-01-01">
                   <label>Dynasty</label>
                   <desc>Five Dynasties 907 CE - 960 BCE</desc>
                </state>
-               <location type="nested"
-                         source="http://vocab.getty.edu/tgn/8206366 http://vocab.getty.edu/aat/300387198">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8206366 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省长治市</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
@@ -87,7 +77,7 @@
                      <placeName xml:lang="zh-Hans">长子</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>36.0078 112.9334667</geo>
                </location>
                <location type="gps">
@@ -109,22 +99,10 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000007"
-                         passive="https://architecturasinica.org/keyword/temple"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000007"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Five-Dynasties"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000007"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                         active="https://farm5.staticflickr.com/4103/4831558221_a8ab2f8ed1_z.jpg"
-                         passive="https://architecturasinica.org/place/000007"
-                         ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000007" passive="https://architecturasinica.org/keyword/temple" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000007" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000007" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4103/4831558221_a8ab2f8ed1_z.jpg" passive="https://architecturasinica.org/place/000007" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
