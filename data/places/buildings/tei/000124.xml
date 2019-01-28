@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000124-1" xml:lang="en">sutra hall</placeName>
                <placeName xml:id="name000124-2" type="building-name" xml:lang="zh-Hant">藏經殿</placeName>
                <placeName xml:id="name000124-3" type="building-name" xml:lang="zh-Hans">藏经殿</placeName>
-               <placeName xml:id="name000124-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zangjingdian</placeName>
-               <placeName xml:id="name000124-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Anchansi zangjingdian</placeName>
-               <placeName xml:id="name000124-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">安禪寺藏經殿</placeName>
-               <placeName xml:id="name000124-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">安禅寺藏经殿</placeName>
+               <placeName xml:id="name000124-4" type="building-name" xml:lang="zh-latn-pinyin">zangjingdian</placeName>
+               <placeName xml:id="name000124-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Anchansi zangjingdian</placeName>
+               <placeName xml:id="name000124-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">安禪寺藏經殿</placeName>
+               <placeName xml:id="name000124-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">安禅寺藏经殿</placeName>
                <placeName xml:id="name000124-11" type="alternate">Zangjingdian</placeName>
                <desc type="building-data">The  Zangjingidan (藏经殿) or the sutra depository of Anchansi (Song Dynasty)  is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant. Ānchánsì ZGWWDTJ, Shanxi vol. 3 (xia), p. 762, 57–C1-1 Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; 3/2018; Edited by Cole Garrett 9/9/11, Modified by Wong Pui See, 2017.</desc>
                <idno type="URI">https://architecturasinica.org/place/000124</idno>
@@ -82,7 +65,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>37.42453333 112.5473333</geo>
                </location>
                <location type="verbatim">
@@ -99,42 +82,18 @@
                <note type="notes">ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000124"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000124"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000124"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000001"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000124" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000001"/>
             </listRelation>
          </listPlace>
       </body>

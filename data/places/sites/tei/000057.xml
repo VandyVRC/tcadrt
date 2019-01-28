@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,16 +52,11 @@
                <placeName xml:id="name000057-3" type="site-name" xml:lang="zh-Hant">沁水聖天寺</placeName>
                <placeName xml:id="name000057-4" type="site-name" xml:lang="zh-Hans">沁水圣天寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000057</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000057-1"
-                      from="0960-01-01"
-                      to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000057-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="nested"
-                         source="http://vocab.getty.edu/tgn/8627543 http://vocab.getty.edu/aat/300387198">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8627543 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省沁水县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
@@ -88,7 +78,7 @@
                      <placeName xml:lang="zh-latn-pinyin">Dong_Langbicun_Zhengzhuangzhen_Qinshui</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.76526667 112.3737333</geo>
                </location>
                <trait type="type" sub-type="site-type">
@@ -107,18 +97,9 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000057"
-                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000057"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000057"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000057" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000057" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000057" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

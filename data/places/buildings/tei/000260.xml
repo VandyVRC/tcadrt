@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000260-1" xml:lang="en">vestry/retiring hall</placeName>
                <placeName xml:id="name000260-2" type="building-name" xml:lang="zh-Hant">寢宮</placeName>
                <placeName xml:id="name000260-3" type="building-name" xml:lang="zh-Hans">寝宫</placeName>
-               <placeName xml:id="name000260-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">qingong</placeName>
-               <placeName xml:id="name000260-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Yangquan Dawangmiao qingong</placeName>
-               <placeName xml:id="name000260-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">陽泉大王寢宫</placeName>
-               <placeName xml:id="name000260-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">阳泉大王庙寝宫</placeName>
+               <placeName xml:id="name000260-4" type="building-name" xml:lang="zh-latn-pinyin">qingong</placeName>
+               <placeName xml:id="name000260-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yangquan Dawangmiao qingong</placeName>
+               <placeName xml:id="name000260-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">陽泉大王寢宫</placeName>
+               <placeName xml:id="name000260-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">阳泉大王庙寝宫</placeName>
                <placeName xml:id="name000260-11" type="alternate">Dawangmiao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000260</idno>
                <state type="existence" from="1172-01-01" to="1172-01-01">
@@ -84,18 +67,9 @@
                <note type="field-notes">寢宮from Jin--1172? Ic brackets have xiegong</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000260"
-                         passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000260"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000260"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000105"/>
+               <relation active="https://architecturasinica.org/place/000260" passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000260" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000260" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000105"/>
             </listRelation>
          </listPlace>
       </body>

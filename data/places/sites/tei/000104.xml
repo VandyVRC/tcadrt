@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,16 +52,11 @@
                <placeName xml:id="name000104-3" type="site-name" xml:lang="zh-Hant">西溪二仙廟</placeName>
                <placeName xml:id="name000104-4" type="site-name" xml:lang="zh-Hans">西溪二仙庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000104</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000104-1"
-                      from="1115-01-01"
-                      to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000104-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <location type="nested"
-                         source="http://vocab.getty.edu/tgn/8623563 http://vocab.getty.edu/aat/300387198">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8623563 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省陵川县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
@@ -84,7 +74,7 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.7605 113.2553333</geo>
                </location>
                <trait type="type" sub-type="site-type">
@@ -103,18 +93,9 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000104"
-                         passive="https://architecturasinica.org/keyword/temple"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000104"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000104"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Qing"
-                         ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000104" passive="https://architecturasinica.org/keyword/temple" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000104" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000104" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Qing" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

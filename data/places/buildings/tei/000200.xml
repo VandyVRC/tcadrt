@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000200-1" xml:lang="en">Śākyamuni Hall</placeName>
                <placeName xml:id="name000200-2" type="building-name" xml:lang="zh-Hant">釋迦殿</placeName>
                <placeName xml:id="name000200-3" type="building-name" xml:lang="zh-Hans">释迦殿</placeName>
-               <placeName xml:id="name000200-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Shijiadian</placeName>
-               <placeName xml:id="name000200-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Qinshui Shengtiansi Shijiadian</placeName>
-               <placeName xml:id="name000200-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">沁水聖天寺正殿</placeName>
-               <placeName xml:id="name000200-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">沁水圣天寺正殿</placeName>
+               <placeName xml:id="name000200-4" type="building-name" xml:lang="zh-latn-pinyin">Shijiadian</placeName>
+               <placeName xml:id="name000200-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qinshui Shengtiansi Shijiadian</placeName>
+               <placeName xml:id="name000200-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">沁水聖天寺正殿</placeName>
+               <placeName xml:id="name000200-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">沁水圣天寺正殿</placeName>
                <placeName xml:id="name000200-11" type="alternate">Shengtiansi</placeName>
                <idno type="URI">https://architecturasinica.org/place/000200</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>35.76526667 112.3737333</geo>
                </location>
                <location type="verbatim">
@@ -96,206 +79,115 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/ang-shaped_shuatou"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000200"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4119/4821934588_98b085f757_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/ang-shaped_shuatou" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000200" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000200" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821934588_98b085f757_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4138/4821927498_a116b966b8_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821927498_a116b966b8_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4134/4821310415_333524cea5_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4821310415_333524cea5_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4074/4821310681_e92a68e2ee_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821310681_e92a68e2ee_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4096/4821928080_17d22ab1a6_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821928080_17d22ab1a6_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4101/4821311213_a931a9ec3a_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821311213_a931a9ec3a_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4099/4821928660_0919ffb931_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821928660_0919ffb931_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4096/4821311749_53b659d808_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821311749_53b659d808_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4123/4821929062_c0e1536e7a_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821929062_c0e1536e7a_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4100/4821312081_76ce9501ee_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821312081_76ce9501ee_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4114/4821312375_89ca48beb6_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821312375_89ca48beb6_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4077/4821312517_13375cf9bf_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4077/4821312517_13375cf9bf_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4141/4821312917_106d98d5e3_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821312917_106d98d5e3_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4078/4821313077_108f90ce1b_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821313077_108f90ce1b_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4102/4821930310_1d30337344_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4102/4821930310_1d30337344_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4078/4821313427_72c3c72132_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821313427_72c3c72132_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4093/4821930648_797135ab88_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821930648_797135ab88_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4143/4821930824_b62fd14660_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4821930824_b62fd14660_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4101/4821314091_2fbe9bbcae_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821314091_2fbe9bbcae_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4076/4821314277_271941e2ca_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821314277_271941e2ca_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4075/4821314553_f343fd400d_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821314553_f343fd400d_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4117/4821931752_143ca61a27_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4821931752_143ca61a27_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4123/4821314929_bb06552abb_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821314929_bb06552abb_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4075/4821315161_22591174c9_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821315161_22591174c9_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4073/4821315317_89d65c738d_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821315317_89d65c738d_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4135/4821315455_ceee3c0725_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4821315455_ceee3c0725_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4119/4821315893_bda6b3a889_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821315893_bda6b3a889_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4074/4821933154_1420508ff0_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821933154_1420508ff0_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4140/4821933592_1f94fce572_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4821933592_1f94fce572_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4081/4821933886_be0b3e3c6e_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821933886_be0b3e3c6e_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4100/4821317139_343d657637_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821317139_343d657637_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4094/4821927316_6d9089c661_"
-                         passive="https://architecturasinica.org/place/000200">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4094/4821927316_6d9089c661_" passive="https://architecturasinica.org/place/000200">
                   <desc>Shengtiansi   大殿 Main Hall</desc>
                </relation>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000200"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000057"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000200" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000057"/>
             </listRelation>
          </listPlace>
       </body>

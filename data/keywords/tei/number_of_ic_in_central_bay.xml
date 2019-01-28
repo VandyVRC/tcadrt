@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,18 +44,14 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="number_of_ic_in_central_bay"
-                    type="architectural-feature"
-                    sub-type="numeric">
+         <entryFree xml:id="number_of_ic_in_central_bay" type="architectural-feature" sub-type="numeric">
             <term xml:id="term-number_of_ic_in_central_bay-1" xml:lang="en">number of intercolumnar bracket sets in central bay</term>
             <term xml:id="term-number_of_ic_in_central_bay-4" xml:lang="zh-latn-pinyin">duoshao mingjian puzuo shu</term>
             <term xml:id="term-number_of_ic_in_central_bay-2" xml:lang="zh-Hant">多少明間鋪作</term>
             <term xml:id="term-number_of_ic_in_central_bay-3" xml:lang="zh-Hans">多少明间铺作数</term>
             <idno type="URI">https://architecturasinica.org/keyword/number_of_ic_in_central_bay</idno>
             <listRelation>
-               <relation ref="skos:broadMatch"
-                         active="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         passive="Bracketing"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" passive="Bracketing"/>
             </listRelation>
          </entryFree>
       </body>

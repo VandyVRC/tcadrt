@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,25 +50,11 @@
                <placeName xml:id="name000158-1" xml:lang="en">Amitābha Hall</placeName>
                <placeName xml:id="name000158-2" type="building-name" xml:lang="zh-Hant">大佛殿</placeName>
                <placeName xml:id="name000158-3" type="building-name" xml:lang="zh-Hans">大佛殿</placeName>
-               <placeName xml:id="name000158-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Dafodian</placeName>
-               <placeName xml:id="name000158-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Dayunyuan Dafodian</placeName>
-               <placeName xml:id="name000158-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">大雲院大佛殿</placeName>
-               <placeName xml:id="name000158-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">大云院大佛殿</placeName>
-               <placeName xml:id="name000158-8"
-                          type="alternate"
-                          subtype="site-name"
-                          xml:lang="zh-Hant">仙岩院,大雲禪院</placeName>
+               <placeName xml:id="name000158-4" type="building-name" xml:lang="zh-latn-pinyin">Dafodian</placeName>
+               <placeName xml:id="name000158-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Dayunyuan Dafodian</placeName>
+               <placeName xml:id="name000158-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">大雲院大佛殿</placeName>
+               <placeName xml:id="name000158-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">大云院大佛殿</placeName>
+               <placeName xml:id="name000158-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">仙岩院,大雲禪院</placeName>
                <placeName xml:id="name000158-10" type="alternate" subtype="site-name">Xianyanyuan, Dayunchanyuan</placeName>
                <placeName xml:id="name000158-11" type="alternate">Mituodian</placeName>
                <desc type="building-data">Great Buddha Hall (大佛) of Dayunyuan (Five Dynasties) is also known as Amitābha Hall (彌陀殿), it was built in the fifth year of Later Jin Tianfu (後晉天福) reign period (940). It is built on a 1.3 m high brick podium. The hall has a front façade of 3 bays wide and depth of 6 rafters. Having a single eaves hip-gable roof, the six-rafter-deep hall is supported by four-rafter beam facing an anterior rufu tie-beam with three columns in cross-section. The column-tops hold five-layer bracket sets with double petal bracket-arms and there are single intercolumnar bracket clusters. As it was in the Tang dynasty, the central bay of the back trough inside the hall is supported by two columns (金柱) and lack any column-top tie-beam. The roof frame is composes of an array of styles--up to 8 different styles of camel’s-hump braces of varying sizes. In addition, the interior roof frame still holds the remains of a portion of a Five Dynasties period polychrome painting, which is a rarity among the surviving premodern buildings. There is a bi-valve door on the central bay of both the front and back facades; as well as prism-lattice windows under the two side bays of the front facade. A 28.8-square meter mural, the only mural extant since the Five-Dynasties in all known Chinese temples, is found on the interior east wall, north wall, and screen wall. On the east wall is a transformation tableau of Vimalakīrtinirdeśa (維摩變相), and the back wall features a transformation tableau Western Pure Land (西方淨土變). The figures of the mural are vivid and animate.
@@ -88,7 +68,7 @@
                   <label>Dynasty</label>
                   <desc>Later Jin 936 - 946</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>36.35619167 113.4353267</geo>
                </location>
                <location type="verbatim">
@@ -104,42 +84,18 @@
                <note type="field-notes">10th cen compare to Jidumiao Qingong</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/ic_match_ct" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000158"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000158"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Later-Jin"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000158"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000020"/>
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000158" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Later-Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000158" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000020"/>
             </listRelation>
          </listPlace>
       </body>

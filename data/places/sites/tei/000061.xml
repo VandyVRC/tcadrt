@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -59,15 +54,11 @@
                <idno type="URI">https://architecturasinica.org/place/000061</idno>
                <idno type="URI">http://sws.geonames.org/1803429/</idno>
                <idno type="URI">http://vocab.getty.edu/tgn/8625249/</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000061-1"
-                      from="0001-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000061-1" from="0001-01-01">
                   <label>Dynasty</label>
                   <desc>Former Qin  - </desc>
                </state>
-               <location type="nested"
-                         source="http://vocab.getty.edu/tgn/8208980 http://vocab.getty.edu/aat/300387198">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8208980 http://vocab.getty.edu/aat/300387198">
                   <placeName>山东省长清县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shandong</placeName>
                   <country>China</country>
@@ -88,7 +79,7 @@
                      <placeName xml:lang="zh-latn-pinyin">Changqing District</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>36.3632666 116.977683</geo>
                </location>
                <trait type="type" sub-type="site-type">
@@ -107,18 +98,9 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000061"
-                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000061"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Former-Qin"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000061"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Qing"
-                         ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000061" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000061" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Former-Qin" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000061" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Qing" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

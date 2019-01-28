@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000276-1" xml:lang="en">Zhaozewang Hall</placeName>
                <placeName xml:id="name000276-2" type="building-name" xml:lang="zh-Hant">昭澤王殿</placeName>
                <placeName xml:id="name000276-3" type="building-name" xml:lang="zh-Hans">昭泽王殿</placeName>
-               <placeName xml:id="name000276-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Zhaozewangdian</placeName>
-               <placeName xml:id="name000276-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Zhaozewangmiao Zhaozewangdian</placeName>
-               <placeName xml:id="name000276-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">昭澤王廟昭澤王殿</placeName>
-               <placeName xml:id="name000276-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">昭泽王庙</placeName>
+               <placeName xml:id="name000276-4" type="building-name" xml:lang="zh-latn-pinyin">Zhaozewangdian</placeName>
+               <placeName xml:id="name000276-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhaozewangmiao Zhaozewangdian</placeName>
+               <placeName xml:id="name000276-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">昭澤王廟昭澤王殿</placeName>
+               <placeName xml:id="name000276-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">昭泽王庙</placeName>
                <placeName xml:id="name000276-11" type="alternate">Zhaozewangmiao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000276</idno>
                <state type="existence" from="1187-01-01" to="1187-01-01">
@@ -94,18 +77,9 @@
                <note type="field-notes">Main Hall from 1187; see: http://www.sxcr.gov.cn/wmsx/show.php?itemid=1128</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000276"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000276"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000276"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000119"/>
+               <relation active="https://architecturasinica.org/place/000276" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000276" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000276" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000119"/>
             </listRelation>
          </listPlace>
       </body>

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000278-1" xml:lang="en">10,000 Buddhas Hall</placeName>
                <placeName xml:id="name000278-2" type="building-name" xml:lang="zh-Hant">萬佛殿</placeName>
                <placeName xml:id="name000278-3" type="building-name" xml:lang="zh-Hans">万佛殿</placeName>
-               <placeName xml:id="name000278-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Wanfodian</placeName>
-               <placeName xml:id="name000278-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Zhenguosi Wanfodian</placeName>
-               <placeName xml:id="name000278-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">镇國寺萬佛殿</placeName>
-               <placeName xml:id="name000278-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">镇国寺万佛殿</placeName>
+               <placeName xml:id="name000278-4" type="building-name" xml:lang="zh-latn-pinyin">Wanfodian</placeName>
+               <placeName xml:id="name000278-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenguosi Wanfodian</placeName>
+               <placeName xml:id="name000278-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">镇國寺萬佛殿</placeName>
+               <placeName xml:id="name000278-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">镇国寺万佛殿</placeName>
                <placeName xml:id="name000278-11" type="alternate">Wanfodian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000278</idno>
                <state type="existence" from="0963-01-01" to="0963-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Later Han 947 - 950</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>37.25298611 112.248006</geo>
                </location>
                <location type="verbatim">
@@ -97,50 +80,23 @@
                <note type="field-notes">continuation of style at Foguangsi into 10th cen.</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/first_step_touxin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/pizhu_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/pizhu_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000278"
-                         passive="https://architecturasinica.org/keyword/chamfered_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000278"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Later-Han"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000278"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000121"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Later-Han" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000278" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000121"/>
             </listRelation>
          </listPlace>
       </body>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,8 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="beveled_linggong"
-                    type="architectural-feature">        
+         <entryFree xml:id="beveled_linggong" type="architectural-feature">        
             <term xml:id="term-beveled_linggong-1" xml:lang="en">beveled linggong</term>
             <term xml:id="term-beveled_linggong-4" xml:lang="zh-latn-pinyin">mojiao linggong</term>
             <term xml:id="term-beveled_linggong-2" xml:lang="zh-Hant">抹角令栱</term>
@@ -58,13 +53,9 @@
             <gloss/>
             <gloss>linggong beveled outward towards the building plane</gloss>
             <listRelation>
-               <relation ref="foaf:depicts"
-                         active="https://farm5.staticflickr.com/4101/4821730545_463255c69d_z.jpg"
-                         passive="https://architecturasinica.org/keyword/beveled_linggong" rendition="featured">
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4101/4821730545_463255c69d_z.jpg" passive="https://architecturasinica.org/keyword/beveled_linggong" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch"
-                         active="https://architecturasinica.org/keyword/beveled_linggong"
-                         passive="Bracketing"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/beveled_linggong" passive="Bracketing"/>
                <relation ref="https://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
             </listRelation>
          </entryFree>

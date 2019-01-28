@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,11 +52,7 @@
                <placeName xml:id="name000038-3" type="site-name" xml:lang="zh-Hant">洪福寺</placeName>
                <placeName xml:id="name000038-4" type="site-name" xml:lang="zh-Hans">洪福寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000038</idno>
-               <state type="existence"
-                      subtype="dynasty"
-                      source="bibl000038-1"
-                      from="0960-01-01"
-                      to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000038-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -83,7 +74,7 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>38.62949167 113.0524611</geo>
                </location>
                <trait type="type" sub-type="site-type">
@@ -102,18 +93,9 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000038"
-                         passive="https://architecturasinica.org/keyword/monastery-Buddhist"
-                         ref="dcterms:subject"
-                         ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000038"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Northern-Song"
-                         ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000038"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Post-Qing"
-                         ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000038" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000038" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000038" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Post-Qing" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

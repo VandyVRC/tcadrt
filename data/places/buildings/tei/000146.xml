@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000146-1" xml:lang="en">Mountain Gate</placeName>
                <placeName xml:id="name000146-2" type="building-name" xml:lang="zh-Hant">山門</placeName>
                <placeName xml:id="name000146-3" type="building-name" xml:lang="zh-Hans">山门</placeName>
-               <placeName xml:id="name000146-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Shanmen</placeName>
-               <placeName xml:id="name000146-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Chongjiaosi Shanmen</placeName>
-               <placeName xml:id="name000146-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">崇教寺山門</placeName>
-               <placeName xml:id="name000146-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">崇教寺山門</placeName>
+               <placeName xml:id="name000146-4" type="building-name" xml:lang="zh-latn-pinyin">Shanmen</placeName>
+               <placeName xml:id="name000146-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongjiaosi Shanmen</placeName>
+               <placeName xml:id="name000146-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇教寺山門</placeName>
+               <placeName xml:id="name000146-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇教寺山門</placeName>
                <placeName xml:id="name000146-11" type="alternate">Shanmen</placeName>
                <idno type="URI">https://architecturasinica.org/place/000146</idno>
                <state type="existence" from="1368-01-01" to="1911-01-01">
@@ -81,7 +64,7 @@
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <location type="gps">
+               <location type="gps" subtype="preferred">
                   <geo>36.3429 113.1132</geo>
                </location>
                <location type="verbatim">
@@ -90,187 +73,103 @@
                <note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements); date in question</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/ic_match_ct"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/ic_match_ct" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/pupaifang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/first_step_jixin"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/cejiao"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/qinmian_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/number_of_xiaang"
-                         ref="dcterms:subject"
-                         ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000146"
-                         passive="https://architecturasinica.org/keyword/beveled_linggong"
-                         ref="dcterms:subject"
-                         ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000146"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Ming"
-                         ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4093/4809569071_8508cf3743_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/beveled_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000146" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Ming" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4809569071_8508cf3743_" passive="https://architecturasinica.org/place/000146">
                   <desc>outer wall of Chongjiaosi</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4138/4809531967_3560864b6a_"
-                         passive="https://architecturasinica.org/place/000146"/>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4141/4809570315_3d529907d2_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4809531967_3560864b6a_" passive="https://architecturasinica.org/place/000146"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4809570315_3d529907d2_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4123/4809570643_a748098713_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4809570643_a748098713_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4073/4810195104_fec5dac43e_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4810195104_fec5dac43e_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4077/4809571445_a47768810d_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4077/4809571445_a47768810d_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4076/4809571751_8bf241c0a6_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4809571751_8bf241c0a6_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4117/4809572019_331e9d382e_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4809572019_331e9d382e_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4116/4809572593_33d75b39c9_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4809572593_33d75b39c9_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4141/4809572915_0d85c2a8d9_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4809572915_0d85c2a8d9_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4079/4810197560_87bb51ff09_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4810197560_87bb51ff09_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4117/4809574069_67cd1c9f66_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4809574069_67cd1c9f66_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4142/4810198784_c9183e2d48_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4810198784_c9183e2d48_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4096/4810199202_77c6842f8e_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4810199202_77c6842f8e_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4120/4809575395_4f79b20a92_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4809575395_4f79b20a92_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi， central courtyard facing towards the Main Hall</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4117/4809575745_6e480d7bfa_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4809575745_6e480d7bfa_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4143/4810200486_8d9fa1027f_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4810200486_8d9fa1027f_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4142/4810206434_e66a49835e_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4810206434_e66a49835e_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4134/4809582747_e7963fd2fe_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4809582747_e7963fd2fe_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4122/4809583033_a372ee81a5_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4809583033_a372ee81a5_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4100/4809584011_bf578723ef_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4809584011_bf578723ef_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4101/4809621489_b80a3dccba_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4809621489_b80a3dccba_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4076/4809622207_fb6d2d97b6_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4809622207_fb6d2d97b6_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4115/4809622547_31215d0a90_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4115/4809622547_31215d0a90_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4099/4809623371_88ee7d67ff_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4809623371_88ee7d67ff_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4116/4809623855_8ab26a7d46_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4809623855_8ab26a7d46_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ref="foaf:depicts"
-                         active="farm5.staticflickr.com/4097/4809624309_85c3fb8493_"
-                         passive="https://architecturasinica.org/place/000146">
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4809624309_85c3fb8493_" passive="https://architecturasinica.org/place/000146">
                   <desc>Chongjiaosi，  山门 shanmen</desc>
                </relation>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000146"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000012"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000146" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000012"/>
             </listRelation>
          </listPlace>
       </body>

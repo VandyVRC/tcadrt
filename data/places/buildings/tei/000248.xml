@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000248-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000248-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
                <placeName xml:id="name000248-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
-               <placeName xml:id="name000248-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">dadian</placeName>
-               <placeName xml:id="name000248-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Wanrong Jiwangmiao dadian</placeName>
-               <placeName xml:id="name000248-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">萬榮稷王廟大殿</placeName>
-               <placeName xml:id="name000248-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">万荣稷王庙大殿</placeName>
+               <placeName xml:id="name000248-4" type="building-name" xml:lang="zh-latn-pinyin">dadian</placeName>
+               <placeName xml:id="name000248-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Wanrong Jiwangmiao dadian</placeName>
+               <placeName xml:id="name000248-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">萬榮稷王廟大殿</placeName>
+               <placeName xml:id="name000248-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">万荣稷王庙大殿</placeName>
                <placeName xml:id="name000248-11" type="alternate">Jiwangmiao_Main_Hall</placeName>
                <idno type="URI">https://architecturasinica.org/place/000248</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
@@ -90,18 +73,9 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000248"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000248"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Jin"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000248"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000095"/>
+               <relation active="https://architecturasinica.org/place/000248" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000248" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000248" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000095"/>
             </listRelation>
          </listPlace>
       </body>

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000152-1" xml:lang="en">Ten Kings of Hell Hall</placeName>
                <placeName xml:id="name000152-2" type="building-name" xml:lang="zh-Hant">十帝閻君殿</placeName>
                <placeName xml:id="name000152-3" type="building-name" xml:lang="zh-Hans">十帝阎君殿</placeName>
-               <placeName xml:id="name000152-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">Shidiyanjundian</placeName>
-               <placeName xml:id="name000152-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Chongqingsi Shidiyanjundian</placeName>
-               <placeName xml:id="name000152-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">崇慶寺十帝閻君殿</placeName>
-               <placeName xml:id="name000152-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">崇庆寺十帝阎君殿</placeName>
+               <placeName xml:id="name000152-4" type="building-name" xml:lang="zh-latn-pinyin">Shidiyanjundian</placeName>
+               <placeName xml:id="name000152-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongqingsi Shidiyanjundian</placeName>
+               <placeName xml:id="name000152-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇慶寺十帝閻君殿</placeName>
+               <placeName xml:id="name000152-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇庆寺十帝阎君殿</placeName>
                <placeName xml:id="name000152-11" type="alternate">Shidiyanjundian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000152</idno>
                <trait type="type" sub-type="building-type">
@@ -82,14 +65,8 @@
                </trait>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000152"
-                         passive="https://architecturasinica.org/keyword/palatial-hall"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000152"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000014"/>
+               <relation active="https://architecturasinica.org/place/000152" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000152" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000014"/>
             </listRelation>
          </listPlace>
       </body>

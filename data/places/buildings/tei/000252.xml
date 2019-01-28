@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:schema="http://schema.org/"
-     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,21 +50,10 @@
                <placeName xml:id="name000252-1" xml:lang="en">bell tower</placeName>
                <placeName xml:id="name000252-2" type="building-name" xml:lang="zh-Hant">鐘樓</placeName>
                <placeName xml:id="name000252-3" type="building-name" xml:lang="zh-Hans">钟楼</placeName>
-               <placeName xml:id="name000252-4"
-                          type="building-name"
-                          xml:lang="zh-latn-pinyin">zhonglou</placeName>
-               <placeName xml:id="name000252-5"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="en">Xiangning Shoushengsi zhonglou</placeName>
-               <placeName xml:id="name000252-6"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hant">鄉寧壽聖寺鐘樓</placeName>
-               <placeName xml:id="name000252-7"
-                          type="alternate"
-                          subtype="building-name-in-site"
-                          xml:lang="zh-Hans">乡宁寿圣寺钟楼</placeName>
+               <placeName xml:id="name000252-4" type="building-name" xml:lang="zh-latn-pinyin">zhonglou</placeName>
+               <placeName xml:id="name000252-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Xiangning Shoushengsi zhonglou</placeName>
+               <placeName xml:id="name000252-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">鄉寧壽聖寺鐘樓</placeName>
+               <placeName xml:id="name000252-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">乡宁寿圣寺钟楼</placeName>
                <placeName xml:id="name000252-11" type="alternate">Shoushengsi_bell_tower</placeName>
                <idno type="URI">https://architecturasinica.org/place/000252</idno>
                <state type="existence" from="1234-01-01" to="1368-01-01">
@@ -91,18 +74,9 @@
                <note type="field-notes">Bell tower Yuan? See: http://baike.baidu.com/view/2020840.htm</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000252"
-                         passive="https://architecturasinica.org/keyword/tower"
-                         ref="dcterms:subject"
-                         ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000252"
-                         ref="dcterms:temporal"
-                         passive="https://architecturasinica.org/keyword/Yuan"
-                         ana="dynasty"/>
-               <relation ana="contained"
-                         active="https://architecturasinica.org/place/000252"
-                         ref="schema:containedInPlace"
-                         passive="https://architecturasinica.org/place/000098"/>
+               <relation active="https://architecturasinica.org/place/000252" passive="https://architecturasinica.org/keyword/tower" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000252" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Yuan" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000252" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000098"/>
             </listRelation>
          </listPlace>
       </body>
