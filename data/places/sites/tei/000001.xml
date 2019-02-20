@@ -79,7 +79,7 @@
                   the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
                   both of which are axial buildings. While the former is a Song dynasty remnant, the
                   latter was built in the Ming dynasty.</desc>
-               <state type="existence" subtype="dynasty" source="bibl000001-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000001-2" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -117,6 +117,10 @@
                <bibl xml:id="bibl000001-1">
                   <ptr target="https://architecturasinica.org/bibl/IMF7GRAI"/>
                   <citedRange unit="pp">III:762;57-C1</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000001-2">
+                  <ptr target="https://architecturasinica.org/bibl/8Q93IIA8"/>
+                  <citedRange unit="pp">10-12</citedRange>
                </bibl>
             </place>
             <listRelation>
