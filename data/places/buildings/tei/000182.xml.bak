@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Huayan Lower Monastery, Bhagavat Sutra Hall <foreign xml:lang="zh-Hant">華嚴寺下寺薄伽教藏殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000182/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000182" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000182-1" xml:lang="en">Bhagavat Sutra Hall</placeName>
+               <placeName xml:id="name000182-2" type="building-name" xml:lang="zh-Hant">下寺薄伽教藏殿</placeName>
+               <placeName xml:id="name000182-3" type="building-name" xml:lang="zh-Hans">下寺薄伽教藏殿</placeName>
+               <placeName xml:id="name000182-4" type="building-name" xml:lang="zh-latn-pinyin">Xiasi Boqiejiaozangdian</placeName>
+               <placeName xml:id="name000182-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Huayansi Xiasi Boqiejiaozangdian</placeName>
+               <placeName xml:id="name000182-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">華嚴寺下寺薄伽教藏殿</placeName>
+               <placeName xml:id="name000182-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">华严寺下寺薄伽教藏殿</placeName>
+               <placeName xml:id="name000182-11" type="alternate">Xiasi_Boqiejiaozangdian</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000182</idno>
+               <state type="existence" from="1038-01-01" to="1038-01-01">
+                  <label>Date</label>
+                  <desc>1038</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Liao  - </desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>40.0905166 113.288533</geo>
+               </location>
+               <location type="verbatim">
+                  <note>40˚ 05.431' N (Garmin) 113˚ 17.312' E</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">1038</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/corner_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000182" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Liao" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000182" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000041"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

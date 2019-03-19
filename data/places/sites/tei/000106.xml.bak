@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Guanwang Temple in Yangquan <foreign xml:lang="zh-Hant">陽泉關王廟</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000106/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000106" type="site">
+               <placeName xml:id="name000106-1" type="site-name" xml:lang="en">Guanwang Temple in Yangquan</placeName>
+               <placeName xml:id="name000106-2" type="site-name" xml:lang="zh-latn-pinyin">Yangquan Guanwangmiao</placeName>
+               <placeName xml:id="name000106-3" type="site-name" xml:lang="zh-Hant">陽泉關王廟</placeName>
+               <placeName xml:id="name000106-4" type="site-name" xml:lang="zh-Hans">阳泉关王庙</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000106</idno>
+               <state type="existence" subtype="dynasty" source="bibl000106-1" from="0960-01-01" to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8675178 http://vocab.getty.edu/aat/300387145">
+                  <placeName>山西省阳泉市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Yangquan</placeName>
+                     <placeName xml:lang="zh-Hans">阳泉</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>37.92066667 113.6196667</geo>
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-Hans">庙</desc>
+               </trait>
+               <bibl xml:id="bibl000106-1">
+                  <author>Endymion Wilkinson</author>
+                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
+                  <publisher>Harvard: Harvard University Asia Center</publisher>
+                  <date>2000</date>
+                  <citedRange unit="pp">11-12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000106" passive="https://architecturasinica.org/keyword/temple" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000106" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000106" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Qing" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4139/4899000526_0b3092aae6_z.jpg" passive="https://architecturasinica.org/place/000106" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

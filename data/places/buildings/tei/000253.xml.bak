@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Erxian Temple in Xiaohuiling, main hall <foreign xml:lang="zh-Hant">小會嶺二仙廟正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000253/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000253" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000253-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000253-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
+               <placeName xml:id="name000253-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
+               <placeName xml:id="name000253-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000253-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Xiaohuiling Erxianmiao zhengdian</placeName>
+               <placeName xml:id="name000253-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">小會岭二仙廟正殿</placeName>
+               <placeName xml:id="name000253-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">小会岭二仙庙正殿</placeName>
+               <placeName xml:id="name000253-11" type="alternate">Erxianmiao</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000253</idno>
+               <state type="existence" from="0960-01-01" to="1125-01-01">
+                  <label>Date</label>
+                  <desc>960-1125</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.67861667 113.1687333</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 40.717' N (Garmin) 113˚ 10.124' E</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/ang-shaped_shuatou" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" passive="https://architecturasinica.org/keyword/beveled_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000253" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4821335426_d9482f44d2_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao   献殿 Offering Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821325650_962051098f_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao 正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821325956_71359de6a4_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4820707853_a3640dfe62_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821326642_75fcd46d18_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4820708283_ba99844308_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4821327038_32b7f7c9a5_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4821327340_32c5e988fb_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4821327812_8487c78cb6_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4820709493_027c5fd3dc_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821328138_74859260de_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4821328436_0fb1a5ea72_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4820710275_86b164370f_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4820710477_3451b6d5bc_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821329116_c29ba722c6_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4094/4821329362_22e797952d_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4820711087_4780fc07a2_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821329928_ea1953994f_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4820711745_5c84157d90_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821330424_b6e0d23503_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821330602_1622c56fa9_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4820712399_ca98f72108_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821330974_982cd6b5a5_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall   interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4094/4820712835_1b7d81b76e_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4121/4821331630_2bc9877a9d_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4820713619_4084b871c8_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821332308_b884a9ba0b_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4820714451_2efccf1e2f_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4820714757_398c7176d1_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821333662_80c3830585_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      West/Left Ear Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4820715415_aea1f29072_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4821334178_b5c06986c0_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4821335194_f17e4cf1a7_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao   献殿 Offering Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821335718_5f49093404_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao   献殿 Offering Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4820717525_90a9a411f6_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821336276_c740f1636c_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4820718053_f6a457a5db_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821336930_8e1882b01b_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821337144_66efa4f7d8_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821337312_e57ed49445_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall        interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821337456_04de711fc8_" passive="https://architecturasinica.org/place/000253">
+                  <desc>Xiaohuiling_Erxianmiao      正殿 Main Hall        interior</desc>
+               </relation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000253" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000099"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

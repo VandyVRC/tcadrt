@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Longyan Moastery in Qinshui, Mountain Gate <foreign xml:lang="zh-Hant">沁水龍岩寺沁水龍岩寺山門</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000226/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000226" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000226-1" xml:lang="en">Mountain Gate</placeName>
+               <placeName xml:id="name000226-2" type="building-name" xml:lang="zh-Hant">沁水龍岩寺山門</placeName>
+               <placeName xml:id="name000226-3" type="building-name" xml:lang="zh-Hans">沁水龙岩寺山門</placeName>
+               <placeName xml:id="name000226-4" type="building-name" xml:lang="zh-latn-pinyin">Shanmen</placeName>
+               <placeName xml:id="name000226-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qinshui Longyansi Shanmen</placeName>
+               <placeName xml:id="name000226-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">沁水龍巖寺山門</placeName>
+               <placeName xml:id="name000226-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">沁水龙岩寺山門</placeName>
+               <placeName xml:id="name000226-11" type="alternate">Longyansi Shanmen</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000226</idno>
+               <state type="existence" from="1125-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1125-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.60273333 111.97115</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 36.164' (Garmin) 111˚ 97.115'</note>
+               </location>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000226" passive="https://architecturasinica.org/keyword/chamfered_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000226" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000226" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000076"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

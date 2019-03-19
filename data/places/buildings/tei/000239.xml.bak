@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Yuhuang Temple in Shizhang, main hall <foreign xml:lang="zh-Hant">石掌玉皇廟正殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000239/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000239" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000239-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000239-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
+               <placeName xml:id="name000239-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
+               <placeName xml:id="name000239-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000239-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Shizhang Yuhuangmiao zhengdian</placeName>
+               <placeName xml:id="name000239-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">石掌玉皇廟正殿</placeName>
+               <placeName xml:id="name000239-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">石掌玉皇庙正殿</placeName>
+               <placeName xml:id="name000239-11" type="alternate">Yuhuangmiao</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000239</idno>
+               <state type="existence" from="1125-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1125-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.7257 113.33805</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 43.542' (Garmin) 113˚ 20.288'</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">Main Hall Jin, see 中國 文物 地圖集 山西分冊, 中, 513-514</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/ic_match_ct" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/first_step_jixin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000239" passive="https://architecturasinica.org/keyword/beveled_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000239" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4821262797_9a6433b495_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821880168_f6a9a2aef6_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821880808_2344192951_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  left of 正殿  Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4821263377_b40c6121f4_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821881266_ac02341a9c_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4821263997_1f83f61e94_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821882056_0dfaf5824f_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821264593_1d4aef344b_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821882490_9e05e11e1a_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821882798_0f55001ba4_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821265427_01540a7caa_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4136/4821265581_57b55018bc_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821883474_d4e4e356fe_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821883738_876023d46a_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821266327_eb2944c2c4_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821884262_546112b7e4_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821266757_42037215de_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4139/4821267009_c61a6c1b43_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821884992_7f0ee72de5_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821885290_cdf32ae768_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821267921_db1963201a_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall porch</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821886118_f0be7cd54f_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall exterior tablet</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4821886370_440bd11518_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall porch ceiling</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821269027_a2f84f9053_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall porch ceiling</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821886822_1ecb882008_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall  porch ceiling</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4821269445_34ae38de39_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall  porch ceiling</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4821269707_36775c95e1_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall  porch</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821887540_2575a1c147_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821270167_02d4f4b540_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   Left/West Ear Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4139/4821270331_23fc0e59d3_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   Left/West Ear Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821270585_981e6d8800_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall   West side</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4821888430_7ec0bf4517_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821888680_2235f7fc8b_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4821888942_07fe038b56_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4821889200_a34a86bd05_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821271691_b3f742a1d7_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4821889622_d58e278cf3_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4821272253_b56825ebe9_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4121/4821272479_59f8438e27_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4142/4821272761_02dc2c3ecc_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821890758_6810a2f633_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4821891010_d4201511ee_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall  and Right/East ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821273585_bec1b54941_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4821891616_d7edc69525_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   Right/East ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4121/4821891974_e79858c572_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821274503_7c3ca5804d_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821892680_80c545f27d_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   Right/East ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4821892920_c3d3399486_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   view of courtyard from 正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4821275473_ee726e3b99_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  in front of  正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4821893418_b89611949b_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   view of courtyard from Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821276023_21ca6ee4b8_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   view of courtyard</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821276327_4f0ef0d680_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   view of courtyard</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4821276695_b0242a38b7_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821277073_df52229bd3_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   正殿 Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4121/4821279367_32aa0bece9_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4115/4821897368_2ce9b83b63_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821279991_cab80f6878_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821897884_7a4230e01a_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821898224_478344cd8a_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821898448_af6898803c_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao   戏台 Stage</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821878340_d6bdde0eca_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  正殿  Main Hall interior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821878484_5166cc15f9_" passive="https://architecturasinica.org/place/000239">
+                  <desc>Shizhang_Yuhuangmiao  exterior courtyard</desc>
+               </relation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000239" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000087"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

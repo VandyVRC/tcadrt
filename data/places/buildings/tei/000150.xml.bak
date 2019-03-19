@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Chongqing Monastery, 1000 Buddhas Hall <foreign xml:lang="zh-Hant">崇慶寺千佛殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno type="URI">https://architecturasinica.org/place/000150/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000150" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000150-1" xml:lang="en">1000 Buddhas Hall</placeName>
+               <placeName xml:id="name000150-2" type="building-name" xml:lang="zh-Hant">千佛殿</placeName>
+               <placeName xml:id="name000150-3" type="building-name" xml:lang="zh-Hans">千佛殿</placeName>
+               <placeName xml:id="name000150-4" type="building-name" xml:lang="zh-latn-pinyin">Qianfodian</placeName>
+               <placeName xml:id="name000150-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongqingsi Qianfodian</placeName>
+               <placeName xml:id="name000150-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇慶寺千佛殿</placeName>
+               <placeName xml:id="name000150-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇庆寺千佛殿</placeName>
+               <placeName xml:id="name000150-11" type="alternate">Qianfodian</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000150</idno>
+               <state type="existence" from="1016-01-01" to="1016-01-01">
+                  <label>Date</label>
+                  <desc>1016</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.98058333 112.9598</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚58'.835 N (Garmin) 112˚ 57.588" E </note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="notes">Axis: c, roof style: h/g, front façade: 40' 11", side: 40' 4"</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/first_step_touxin" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/cejiao" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/ang-shaped_shuatou" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000150" passive="https://architecturasinica.org/keyword/beveled_linggong" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000150" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821725977_2deeeebf8f_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi     exterior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4822344184_b82ef344ed_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi     plaque</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4822344478_96a908fea6_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821726785_f7e12730ae_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi     side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821727333_ea2ef432bc_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   east side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4136/4822345428_d06cdaccd9_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    west side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821727917_b8e3763643_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821728241_169f9bbf8e_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4822346214_96c5243896_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4822346474_a67e37ec36_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4822346690_553e270b07_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821729163_333dfc3bb3_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4821729375_91bb80f33f_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4094/4821729609_21b5541966_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821729805_5752e19fff_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4822347712_6fed1d6bd7_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4822347858_16ea78c238_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4822348054_66d8d46357_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821730545_463255c69d_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4822348420_40148c6612_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821730961_2440a0ff8b_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4822348826_6d7266a42a_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4822349036_efd548c875_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4822349222_4b4b990726_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4136/4822349494_24c3ba2c21_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4822349682_d50e00c483_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4822349858_922db64bdd_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4137/4821732961_99e78b151e_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821735295_44f2cdf2e3_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    view of front courtyard</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4822353346_e091160e2d_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4821735805_f2a239c903_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4077/4821736073_1f3dac8c44_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821736273_502a0a5db2_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4139/4822354238_fb37143914_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4822354414_1a8fe3f2e2_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821736825_a05aae0ecd_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4822354966_11d065ac63_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821737375_a54043ac4c_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4822355600_15c3f04228_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    west side hall wall decorations</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4136/4822356082_c7b9a95d8f_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4821738469_a075c7dc3c_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4822356520_d1de840a6a_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4822356706_23a47c1fc8_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821739137_f08f66462f_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821739391_0a96bf01b9_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4822357490_3056bee2d9_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821739753_e013c79cc0_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4822357840_bbf03b1194_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4821740063_e257261c4f_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821740219_8fb6d959e3_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4822358364_d5771e4011_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821740619_39b6f54b98_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4137/4822358714_8db9595ff5_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   stele</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821740939_918abc1f02_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi  East side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821741115_013ed7067c_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi   west side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4822359334_5afe0a7c4e_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821741595_52571c91a1_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821741915_e7fd646a9a_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4821742227_e108b3549a_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4822360276_3132d75f98_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi  roof decoration on  千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4822360470_74d482cab2_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall      roof decoration</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4822360636_215bb1c1d8_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall    roof decoration</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821742985_4b6a8b114c_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall     roof decoration</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4117/4821743601_0070ec62d0_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4821737629_1e7a5a975e_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    三大士殿   Sandashidian</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821743209_a70bbdd8c6_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4073/4822344910_b493bc4bbd_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi    千佛殿  Thousand Buddha Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821725453_b0e71c44d4_" passive="https://architecturasinica.org/place/000150">
+                  <desc>Chongqingsi</desc>
+               </relation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000150" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000014"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
