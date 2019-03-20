@@ -52,9 +52,9 @@
                <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
                <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000004</idno>
-               <state type="existence" subtype="dynasty" source="bibl000004-1" from="0025-01-01" to="0220-01-01">
+               <state type="existence" subtype="dynasty" source="bibl000004-1" from="0025-01-01" to="01912-01-01">
                   <label>Dynasty</label>
-                  <desc>Eastern Han 25 - 220</desc>
+                  <desc>Eastern Han to Qing</desc>
                </state>
                <location type="nested" source="http://vocab.getty.edu/tgn/8630826 http://vocab.getty.edu/aat/300387145">
                   <placeName>浙江省宁波市</placeName>
@@ -84,6 +84,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
+               <note>Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
                <bibl xml:id="bibl000004-1">
                   <author>Endymion Wilkinson</author>
                   <title>Chinese History: A Manual, Revised and Enlarged.</title>
