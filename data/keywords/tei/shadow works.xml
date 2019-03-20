@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">shadow works</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/shadow works/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>date in 2019-03-20-04:00 format here</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">shadow works (preferred)</language>
+            <language ident="zh-latn-pinyin">yingzuo</language>
+            <language ident="zh-Hant">影作</language>
+            <language ident="zh-Hans">影作</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="feature_name_here" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en">shadow works (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">yingzuo</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">影作</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">影作</term>
+            <note>
+               <p>Seen in the Yingzao fashi, an official text issued by the Northern Song court (first printed in Chongning 2, or 1103 CE), specifically in the text and plates concerning the Polychrome Painting Works, referring to images of bracket-blocks (sometimes emerging from painted lotus blossoms) with a “neck” and two “feet” (sometimes decorated with floral motifs), painted on the wall surface above the forehead tie beams (eshangbi 額上壁 or gongyanbi 栱眼壁).</p>
+               <p>見於北宋官書《營造法式》（初次印行于崇寧二年即1103年）彩畫作制度及其圖樣，是在額上壁或栱眼壁上彩畫繪出的形象，包括枓（或可表現為蓮華承托）、項子、兩腳（或可繪出翻卷葉）等部分</p>
+               <p>Sources and Contributors:
+                  <title>營造法式, 卷14, 卷34</title>
+                  <title>梁思成, 梁思成全集·第七卷：《營造法式》註釋 (2001) 270-271</title>
+                  <title>潘谷西, 何建中, 《營造法式》解讀 (2005) 264</title>
+                  <title>陳明達, 《營造法式》辭解 (2010) 402</title>
+                  <title>李路珂, 營造法式彩畫研究 (2011) 270, 284-285</title>
+               </p>
+            </note>
+            <note>"Puzuo Image" 
+               Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 91</note>
+            <idno type="URI">https://architecturasinica.org/keyword/shadow works</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/shadow works" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/qinmian_xiaang" passive="Bracketing"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx" source="Gaoping Erlangmiao Stage"/>
+                  <!--where there is an xxx put the number of the feature-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
