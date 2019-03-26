@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">corbel, corbelling</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/cao/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2019-03-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile"/>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-12-03">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="cao" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en">corbel (preferred)</term>
+            <term xml:id="term-feature_name-6" xml:lang="en">corbelling</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">puzuo</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">p'u-tso</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">鋪作</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">铺作</term>
+            <note>
+               <p> Puzuo is a term mainly used in the "Yingzao Fashi". According to its definition, we can conclude that puzuo is a method in which small components are layered one on top of another extending outward in corbelled steps. The number of puzuo is measured by the number of layers. However, it is also used to describe a structural unit formed by this practice. (ATTCAT Project).</p>
+            
+               <p> Chinese (Traditional) 鋪作一詞，主要出現在1103年出版的《營造法式》中，按其定義“今以鬥栱層數相疊出跳多寡次序謂之鋪作”，可知鋪作是一種將小構件層層相疊，為實現懸挑功能而按次序鋪疊的做法。鋪作可以用疊加的次數來計量。《營造法式》中也將其引申為由這種做法所形成的結構單元。 (ATTCAT Project) </p>
+               <p> Related Concepts:dougong 斗栱</p>
+        
+              <p> Sources and Contributors:</p>
+               <p>corbel, corbelling  ATTCAT</p>
+               <p>鋪作  (宋)李誡著.故宫博物院编.(故宫藏抄本）營造法式.北京：紫禁城出版社，2009. 卷四，第八、九页</p>
+               <p>bracket sets (English)  Fu Xinian. Traditional Chinese Architecture. Princeton University Press, 2017. 頁碼</p>
+               <p>layered bracket set (English) Tracy Miller. The Divine Nature of Power: Chinese ritual architecture at the sacred site of Jinci. Cambridge, MA : Harvard University Asia Center for the Harvard-Yenching Institute : Distributed by Harvard University Press, 2007. 頁碼</p>
+               <p>bracketing unit (English) Fu Xinian. Traditional Chinese Architecture. Princeton University Press, 2017，glossary頁碼</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/puzuo</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/puzuo" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/puzuo" passive="bracketing"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx" source="name_of_numbered_example_here"/>
+                  <!--where there is an xxx put the number of the example-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
