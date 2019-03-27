@@ -50,7 +50,7 @@
          <entryFree xml:id="cao" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" source="#biblcao-1">trough</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblcao-2">footing</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblcao-3">cao (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblcao-3" source="#biblcao-4">cao (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">槽</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
@@ -90,7 +90,11 @@
             </bibl>
 	    <bibl xml:id="biblcao-3">
                   <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
-			  <citedRange unit="pp">21</citedRange>
+	          <citedRange unit="pp">21</citedRange>
+            </bibl>
+	    <bibl xml:id="biblcao-4">
+                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
+	          <citedRange unit="pp">350</citedRange>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
             <listRelation>
