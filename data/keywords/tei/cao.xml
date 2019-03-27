@@ -48,7 +48,7 @@
    <text>
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">trough</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblcao-1">trough</term>
             <term xml:id="term-feature_name-6" xml:lang="en">footing</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cao (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
@@ -84,6 +84,10 @@
                (10) 何建中，何謂《營造法式》之“槽” (2003) 41-43
                (11) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 </p>
             </note>
+	    <bibl xml:id="biblcao-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">199</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
             <listRelation>
                <listRelation>
