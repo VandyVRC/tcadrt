@@ -49,7 +49,7 @@
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" source="#biblcao-1">trough</term>
-            <term xml:id="term-feature_name-6" xml:lang="en">footing</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblcao-2">footing</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cao (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">槽</term>
@@ -64,9 +64,7 @@
                Di Pan 地盤</p>
                
                 <p> Sources and Contributors:</p>
-               <p>Trough:
-                  Tracy Miller, The Divine Nature of Power: Chinese Ritual Architecture at the Sacred Site of Jinci (2007) 199.</p>
-               <p>Footing:
+                <p>Footing:
                Ren Sijie, Foguangsi on Mount Wutai (2016) 368-375.</p>
                <p>Cao: 
                (1) Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 21.
@@ -87,6 +85,10 @@
 	    <bibl xml:id="biblcao-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">199</citedRange>
+            </bibl>
+	    <bibl xml:id="biblcao-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
+                  <citedRange unit="pp">368-375</citedRange>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
             <listRelation>
