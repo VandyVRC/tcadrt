@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">dipan</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Yuh-Fen Benda</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/dipan/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2019-05-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2019-05-08">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="dipan" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en">ground plan (preferred)</term>
+            <term xml:id="term-feature_name-6" xml:lang="en">ground plate (lit.)</term>
+            <term xml:id="term-feature_name-7" xml:lang="en">floor plan</term>
+            <term xml:id="term-feature_name-8" xml:lang="en">foundation</term>
+            <term xml:id="term-feature_name-9" xml:lang="en">site</term>
+            <term xml:id="term-feature_name-10" xml:lang="en">structure layout</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin"
+               source="#biblcao-3 #biblcao-4">cao (preferred)</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">槽</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
+            <note>
+               <p>An architectural term seen in the Yingzao fashi and Gongbu gongcheng zuofa, also
+                  used in texts that involve architectural descriptions such as the Sita ji and Tang
+                  huiyao. It is generally agreed that in the Gongbu gongcheng zuofa, the term refers
+                  to trough-shaped pits dug for strips of pounded-earth foundation. Interpretations
+                  of the term and its relevant plates in Yingzao fashi are under debate. Some
+                  suggest it refers to the space enclosed by pillars, lan’e (forehead rail) and
+                  puzuo (corbelling) (Cheng Mingda 1981; cf. Liang Sicheng 1944). Some suggest it is
+                  the pillar row and puzuo (corbelling) axis (He Jianzhong 2003; cf. Liang Sicheng
+                  1983). Some understand it as an elongated structural unit of puzuo (corbelling)
+                  (Zhu Yongchun 2016). Others suggest the term probably referred to footings
+                  initially, and was also used to refer to pillar rows and wall planes in general
+                  (Ren Sijie 2016). (ATTCAT Project).</p>
+               <p> Chinese (Traditional)
+                  作爲傳統營造術語，主要見於《營造法式》和《工部工程做法》，也見於其他談及建築的傳統文獻，如《寺塔記》、《唐會要》等。《工部工程做法》的“槽”含義相對明確，指夯築條形基礎的基槽。而《營造法式》所謂“槽”的具體含義存在爭議：一說是由柱、額、鋪作劃分的各種空間（陳明達
+                  1981；參考梁思成 1944）；一說是柱列與其上的鋪作或鋪作之中心線（何建中 2003；參考梁思成 1983）；一説指代鋪作層構成的長條狀圖形（朱永春
+                  2016）；另有觀點認爲其得名與基槽有關，後汎指柱列或墻體及其所在位置（任思捷 2016）。 (ATTCAT Project, 2018) </p>
+               <p> Related Concepts: Di Pan 地盤</p>
+               <p> Sources and Contributors:</p>
+               <p>槽: (1) 營造法式, 卷31 (2) 工程做法注釋 (3) 寺塔記 (4) 唐會要 (5) 梁思成, 記五臺山佛光寺的建築 (1944) 13-44 (6)
+                  陳明達, 營造法式大木作制度研究 (1981) 115-116 (7) 梁思成, 《營造法式》註釋·卷上 (1983) 267-268 (8) 陳明達,
+                  《營造法式》辭解 (2010) 405 (9) 喬迅翔, 宋代官式建築營造及其技術 (2012) (10) 何建中，何謂《營造法式》之“槽” (2003)
+                  41-43 (11) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 </p>
+            </note>
+            <bibl xml:id="biblcao-1">
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+               <citedRange unit="pp">199</citedRange>
+            </bibl>
+            <bibl xml:id="biblcao-2">
+               <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
+               <citedRange unit="pp">368-375</citedRange>
+            </bibl>
+            <bibl xml:id="biblcao-3">
+               <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
+               <citedRange unit="pp">21</citedRange>
+            </bibl>
+            <bibl xml:id="biblcao-4">
+               <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
+               <citedRange unit="pp">350</citedRange>
+            </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="url to flickr here"
+                     passive="https://architecturasinica.org/keyword/cao" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/cao" passive="Building Frame"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx"
+                     source="name_of_numbered_example_here"/>
+                  <!--where there is an xxx put the number of the example-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
