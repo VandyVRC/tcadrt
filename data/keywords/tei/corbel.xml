@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">puzuo</title>
+            <title level="a" xml:lang="zh-latn-pinyin">puzuo (corbel; corbelling)</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -36,6 +36,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin1">Pinyin w/o tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -48,14 +49,14 @@
    <text>
       <body>
          <entryFree xml:id="puzuo" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">corbel (preferred)</term>
-            <term xml:id="term-feature_name-6" xml:lang="en">corbelling</term>
             <term xml:id="term-feature_name-11" xml:lang="zh-latn-pinyin">pūzuò</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">puzuo (without tones)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin1">puzuo (without tones)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">p'u-tso</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">鋪作</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">铺作</term>
-            <term xml:id="term-feature_name-7" xml:lang="en">layering work (lit. trans.)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en">corbel (preferred)</term>
+            <term xml:id="term-feature_name-6" xml:lang="en">corbelling</term>
+            <term xml:id="term-feature_name-7" xml:lang="en">layering work (lit.)</term>
             <term xml:id="term-feature_name-8" xml:lang="en">bracket set</term>
             <term xml:id="term-feature_name-9" xml:lang="en">layered bracket set</term>
             <term xml:id="term-feature_name-10" xml:lang="en">bracketing unit</term>
