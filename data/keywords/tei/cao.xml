@@ -55,11 +55,11 @@
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblcao-1 #biblcao-2" type="preferred">cáo</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">槽</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblcao-3">槽</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblcao-3" type="literal_translation">trough</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblcao-4">footing</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblcao-4" type="literal_translation">trough</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblcao-5">footing</term>
 
             <note>
               <p>An architectural term seen in the Yingzao fashi (1103) and Gongbu gongcheng zuofa (1734), also used in texts that involve architectural descriptions such as the Sitaji and Tang huiyao. It is generally agreed that in the Gongbu gongcheng zuofa, the term refers to trough-shaped pits dug for narrow sections or strips of pounded-earth foundation. Interpretations of the term and its relevant plates in Yingzao fashi are under debate. Some suggest it refers to the space enclosed by pillars, lan’e (forehead rail) and puzuo (corbelling) (Cheng Mingda 1981; cf. Liang Sicheng 1944). Some suggest it is the pillar row and puzuo (corbelling) axis (He Jianzhong 2003; cf. Liang Sicheng 1983). Some understand it as an elongated structural unit of puzuo (corbelling) (Zhu Yongchun 2016).
@@ -93,15 +93,56 @@
                   <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
 	          <citedRange unit="pp">350</citedRange>
             </bibl>
-	    <bibl xml:id="biblcao-3">
+	    <listBibl xml:id="biblcao-3">
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/"/>
+	               <citedRange unit="pp"></citedRange>
+                  </bibl>
+            	  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/B3AUWJYV"/>
+                  </bibl>
+	          <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/YYWD6E9J"/>
+                  </bibl>
+	          <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/LG8BW5EY"/>
+                  </bibl>
+	          <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/DVKXJLD4"/>
+                       <citedRange unit="pp">13-44</citedRange>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
+                       <citedRange unit="pp">115-116</citedRange>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/CLI46B7N"/>
+                       <citedRange unit="pp">267-268</citedRange>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/XVDZKH9M"/>
+                       <citedRange unit="pp">405</citedRange>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/JIXE7DCY"/>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/8UHM6VJV"/>
+                       <citedRange unit="pp">41-43</citedRange>
+                  </bibl>
+		  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/2267085"/>
+                       <citedRange unit="pp">82-97</citedRange>
+                  </bibl>
+	    </listBibl>
+	    <bibl xml:id="biblcao-4">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">199</citedRange>
             </bibl>
-	    <bibl xml:id="biblcao-4">
+	    <bibl xml:id="biblcao-5">
                   <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
                   <citedRange unit="pp">368-375</citedRange>
             </bibl>
-
             <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
             <listRelation>
                <listRelation>
