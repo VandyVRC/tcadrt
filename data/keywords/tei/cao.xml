@@ -88,10 +88,11 @@
                      2016）；另有觀點認爲其得名與基槽有關，後汎指柱列或墻體及其所在位置（任思捷 2016）。</p>
                </note>
             </note>
-            <note>
+            <!--<note>
+               this type of data should be in a relation element:
                <p> Related Concepts: <term ref="https://architecturasinica.org/keyword/dipan">dìpán
                      地盤</term></p>
-            </note>
+            </note>-->
             <!--note type="sources">         
                   <p>槽: 
                (1) 營造法式, 卷31
@@ -175,7 +176,8 @@
                <listRelation>
                   <relation ref="foaf:depicts" active="url to flickr here"
                      passive="https://architecturasinica.org/keyword/cao" rendition="featured"> </relation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/cao" passive="Building Frame"/>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/cao" passive="Building Frame"/>
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/cao"
                      passive="https://architecturasinica.org/keyword/dipan"/>
