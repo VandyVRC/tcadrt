@@ -92,7 +92,7 @@
                this type of data should be in a relation element:
                <p> Related Concepts: <term ref="https://architecturasinica.org/keyword/dipan">dìpán
                      地盤</term></p>
-            </note>-->
+                    </note>-->
             <!--note type="sources">         
                   <p>槽: 
                (1) 營造法式, 卷31
@@ -179,8 +179,7 @@
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/cao" passive="Building Frame"/>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/cao"
-                     passive="https://architecturasinica.org/keyword/dipan"/>
+                     active="https://architecturasinica.org/keyword/cao"       passive="https://architecturasinica.org/keyword/dipan"/>
                   <relation ref="https://architecturasinica.org/keyword/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
