@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+         	<title level="a" xml:lang="en"> <foreign xml:lang="zh-hanst">影作木構</foreign> yingzuo mugou</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Yuh-Fen Benda</editor>   
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person">Ren Sijie</name>
+               <name type="person">Yang Wantian</name>
+               <name type= "team">ATTCAT 2018</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/yingzuo_mugou/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2019-05-21</date>
+            </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2019-05-21">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="feature_name_here" type="architectural-feature">
+         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">yǐngzuò mùgòu</term>
+         	<term xml:id="term-feature_name-1" xml:lang="en">Painted representation of timber architecture</term>
+         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">影作木構</term>
+         	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">影作木构</term>
+         	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ying-tso mu-kou</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">Shadow-works timber structure</term>
+
+         	<note>
+         		<p>First coined in the 1980s (Su Bai 1982), yingzuo mugou is a modern term adopted by archaeologists and art historians referring to painted representations of timber architectural components in tombs.  The meaning of yingzuo here as a “painted representation of something” has departed from its original context in the Yingzao fashi. Similar appropriations appeared in 1950s (Su Bai 1957), such as in yingzuo men e (painted representations of door lintels in tombs), and yingzuo puzuo (painted representations of corbeling  in tombs).</p>
+         		<p>現代考古、美術學界用語，最早出現于1980年代（宿白 1981, 142），指墓室之中彩畫繪出的木構建築構件，這裏“影作”的含義與其最初語境（即《營造法式》）有別，相似用法最早見於1950年代，如“影作門額”、“影作鋪作”等（宿白 1957, 90) </p>          
+         		<p>Related Concepts: <term ref="https://architecturasinica.org/keyword/yingzuo"></term>shadow works 影作</p>
+         		<p>Sources and Contributors:</p>
+         		<p>影作: (1) 宿白, 白沙宋墓 (1957)	90 </p>
+         		<p>影作木構: (2) 宿白, 西安地区唐墓壁画的布局和内容 《考古学报》 2 (1982) 137-154.</p>
+         		<p>(REN Sijie 任思捷, YANG Wantian, ATTCAT 2018)</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/yingzuo_mugou</idno>
+            <!--<listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts"
+                  	active="https://live.staticflickr.com/65535/33939906558_08712997f3_z.jpg"
+                  	passive="https://architecturasinica.org/keyword/yingzuo_mugou" rendition="featured">
+                  </relation>
+                  <relation ref="foaf:depicts"
+                  	active="https://live.staticflickr.com/65535/40850661633_e23a448131_z.jpg"
+                  	passive="https://architecturasinica.org/keyword/yingzuo_mugou" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch"
+                  	active="https://architecturasinica.org/keyword/yingzuo_muguo" passive="Bracketing"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx" source="Name of example source"/>
+                  <!-\-where there is an xxx put the number of the feature-\->
+               </listRelation>
+            </listRelation>-->
+         </entryFree>
+      </body>
+   </text>
+</TEI>
