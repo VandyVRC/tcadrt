@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">
+            	<foreign xml:lang="zh-hanst">鴟尾</foreign> chiwei</title>
+            <!-- title has pinyin first, then English -->
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="editor">Tracy Miller</editor>
+            <editor role="creator">Yuh-Fen Benda</editor>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <!--<name type="person">Ren Sijie 任思捷</name>
+               <name type="team">ATTCAT 2018</name>-->
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/chiwei/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2019-05-22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-12-03">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="cao" type="architectural-feature">
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" <!--source="#biblcao-1"-->
+            	type="preferred">chīwěi</term>
+         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" <!--source="#biblcao-2"-->>鴟尾</term>
+         	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">鴟尾</term>
+         	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ch'ih-wei</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" <!--source="#biblcao-3"-->
+            	type="literal_translation">owl tail; hawk tail</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" <!--source="#biblcao-4"-->>sea beast</term>
+            <note type="getty:scopeNote">
+               <note xml:lang="en">
+               	<p>In traditional Chinese architecture, refers to dramatic, curved tiles located at both ends of the roof main ridge. The term appears in official statutory documents regulating the types and grades of buildings that can use chiwei, thus it would have been a marker of high status. There are provisions for the sizes, practices, power limits, and regulations for the Chiwei used on buildings in the Yingzao Fashi (1103, 13.5a-b).</p>
+               </note>
+               <note xml:lang="zh-Hant">
+               	<p>鴟尾指建築正脊兩端的瓦作構件。《陳書》、《宋史》等官修史書中對於可以使用鴟尾的建築類型和等級具有規定，從文獻記載中可推論鴟尾壹般用於高等級建築。1103年出版的《營造法式》中對用於不同規格的建築上的鴟尾的尺寸、做法、功限、料例有所規定。</p>
+               </note>
+            </note>            
+            <note type="sources">         
+            	<p>chiwei: ATTCAT</p>
+            	<p>鴟尾:	(1)（宋）李誡著.故宮博物院編.(故宮藏抄本)營造法式.北京：紫禁城出版社，2009, 13.5a-b (2) 陳明達.《營造法式》辭解. 天津: 天津大學出版社, 2010：427 (3) 潘谷西，何建中著.《營造法式》解讀. 南京：東南大學出版社，2005:163 (4) 王效青主編. 中國古建築術語辭典. 北京: 文物出版社, 2007：329－330 (5) 王其鈞. 中國建築圖解詞典. 北京：機械工業出版社，2007：9 (6) 村田治郎,學凡（译）.中國鴟尾史略(上)[J].古建園林技術,1998(01):57-64+51 (7) 村田治郎,學凡（译）.中國鴟尾史略(下)[J].古建園林技術,1998(02):67-68+17 (8) 黄蘭翔. 中国鴟尾の起源と変遷 《仏教建築》，No.272，2004：68-100</p>
+            	<p>CH’IH-WEI: (9)Liang Sicheng. Chinese Architecture, 42 </p>
+            	<p>chiwei, lit. sea beast: (10) Guo Qinghua. A Visual Dictionary of Chinese Architecture 中國建築英漢雙解辭典. Mulgrave, Vic., Australia: Images Pub., 2002：24</p>
+            	<p>chiwei: (11) Fu Xinian Traditional Chinese Architecture: Twelve Essays, 351</p>
+         	</note>
+         	<note>
+         		<p> Related terms: 鴟吻，龍尾，吻獸、正吻</p>
+         	</note>
+            <<!--listBibl xml:id="biblcao-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
+                  <citedRange unit="pp">21</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
+                  <citedRange unit="pp">350</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblcao-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/RZKZ3RDH"/>
+                  <citedRange unit="pp">卷31</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/B3AUWJYV"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/YYWD6E9J"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LG8BW5EY"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DVKXJLD4"/>
+                  <citedRange unit="pp">13-44</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
+                  <citedRange unit="pp">115-116</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CLI46B7N"/>
+                  <citedRange unit="pp">267-268</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XVDZKH9M"/>
+                  <citedRange unit="pp">405</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/JIXE7DCY"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8UHM6VJV"/>
+                  <citedRange unit="pp">41-43</citedRange>
+               </bibl>
+               <!-\-bibl>
+                  <ptr target="https://architecturasinica.org/bibl/"/>
+                  <citedRange unit="pp">82-97</citedRange>
+               </bibl-\->
+            </listBibl>
+            <bibl xml:id="biblcao-3">
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+               <citedRange unit="pp">199</citedRange>
+            </bibl>
+            <bibl xml:id="biblcao-4">
+               <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
+               <citedRange unit="pp">368-375</citedRange>
+            </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/cao</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="url to flickr here"
+                     passive="https://architecturasinica.org/keyword/cao" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/cao" passive="Building Frame"/>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/cao"
+                     passive="https://architecturasinica.org/keyword/dipan"/>
+                  <relation ref="https://architecturasinica.org/keyword/000xxx"
+                     source="name_of_numbered_example_here"/>-->
+                  <!--where there is an xxx put the number of the example-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
