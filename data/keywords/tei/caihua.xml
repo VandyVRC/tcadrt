@@ -58,11 +58,11 @@
          <entryFree xml:id="caihua" type="architectural-feature">
          	<term xml:id="term-feature_name-7" xml:lang="en" type="preferred">Polychrome Painting</term>
          	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cǎihuà</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">彩畫</term>
+         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblcaihua-1">彩畫</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">彩画</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts’ai hua</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en">Decorative Coating</term>
-         	<term xml:id="term-feature_name-6" xml:lang="en">Decorative Polychrome Painting of Architectural Members</term>
+         	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblcaihua-2">Decorative Coating</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblcaihua-3">Decorative Polychrome Painting of Architectural Members</term>
             <note>
             	<p>Painted decoration on clothing, utensils, boats, chariots, architectural surfaces, et al., created using polychrome colorants. In Chapter 14 of the Yingzao fashi (1103), the craft of applying polychrome painted decoration on architectural surfaces (caihuazuo 彩畫作) is categorized as a specific division of architectural works.</p>            
             	<p>指衣飾、器物、舟車、棺椁或建築等等表面施用的多彩裝飾。《營造法式》(1103年) 卷十四，將在建築表面裝飾彩畫的工藝單獨列為一類營造工種。</p>
@@ -77,67 +77,24 @@
             	<p>古代文献中有一些壁画也称作彩画，例如《汉书》记有“画堂”和“画室”。“画堂” 意为 “宫殿中彩画之堂”，“画室” 意 “雕画之室”，唐颜师古推断这里的“彩画” “雕画” 应该是壁画，又如《法苑珠林》中写有 “如今壁上彩画所作”，《宋朝名画评》有“彩画列壁”的说法。</p>
             	<p>We found a few examples of wall paintings referred to as “caihua” in traditional Chinese texts. For example, "Hanshu (漢書)" has "Hua tang（畫堂）" and "hua shi（畫室）". “hua tang” refers to "the hall of paintings in the palace," and "hua shi" means "the room of carving and painting." Yanshi Gu (顔師古; Tang dynasty) commented that the "paintings" and "carvings" here should be murals. References in other literature include: Fayuan zhulin (法苑珠林): “如今壁上彩画所作” and Songchao minghua ping (宋朝名畫評): “彩画列壁”.</p>              
             </note>
-         	<!--  
-         	    <bibl xml:id="biblcao-1">
-                  <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
-	          <citedRange unit="pp">21</citedRange>
+	   <listBibl xml:id="biblcaihua-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3CP7JGGR"/>
+                  <citedRange unit="pp">卷二</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/VB8YMPSJ"/>
+                  <citedRange unit="pp">76-77</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblcaihua-2">
+               <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
+               <citedRange unit="pp">21</citedRange>
             </bibl>
-	    <bibl xml:id="biblcao-2">
-                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
-	          <citedRange unit="pp">350</citedRange>
+	    <bibl xml:id="biblcaihua-3">
+               <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
+               <citedRange unit="pp">350</citedRange>
             </bibl>
-            -->
-	    <!-- listBibl>
-	
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/"/>
-                       <citedRange unit="pp"></citedRange>
-                  </bibl>
-                       <ptr target="https://architecturasinica.org/bibl/B3AUWJYV"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/YYWD6E9J"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/LG8BW5EY"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/DVKXJLD4"/>
-                       <citedRange unit="pp">13-44</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
-                       <citedRange unit="pp">115-116</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/CLI46B7N"/>
-                       <citedRange unit="pp">267-268</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/XVDZKH9M"/>
-                       <citedRange unit="pp">405</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/JIXE7DCY"/>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/8UHM6VJV"/>
-                       <citedRange unit="pp">41-43</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/2267085"/>
-                       <citedRange unit="pp">82-97</citedRange>
-                  </bibl>
-	    </listBibl-->
-	    <!-- bibl xml:id="biblcao-4">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">199</citedRange>
-            </bibl>
-	    <bibl xml:id="biblcao-5">
-                  <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
-                  <citedRange unit="pp">368-375</citedRange>
-            </bibl>
-            -->
             <idno type="URI">https://architecturasinica.org/keyword/caihua</idno>
             <listRelation>
                <listRelation>
