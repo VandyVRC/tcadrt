@@ -19,7 +19,7 @@
          <!-- Test -->
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/xiaangxing_shuatou/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000001/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -50,12 +50,12 @@
             <term xml:id="xiaangxing_shuatou-4" xml:lang="zh-latn-pinyin">xiaangxing shuatou</term>
             <term xml:id="xiaangxing_shuatou-2" xml:lang="zh-Hant">下昂形耍頭</term>
             <term xml:id="xiaangxing_shuatou-3" xml:lang="zh-Hans">下昂形耍头</term>
-            <idno type="URI">https://architecturasinica.org/keyword/xiaangxing shuatou</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             <gloss/>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/xiaangxing_shuatou" rendition="featured">
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/xiaangxing_shuatou" passive="Bracketing"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000001" passive="Bracketing"/>
                <relation ref="https://architecturasinica.org/keyword/000150" source="Chongqingsi 1000 Buddhas Hall"/>
             </listRelation>
          </entryFree>
