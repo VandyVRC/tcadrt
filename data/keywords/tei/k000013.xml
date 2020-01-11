@@ -20,7 +20,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/puzuo/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000013/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -91,12 +91,12 @@
                   傅熹年.五台山佛光寺建筑.傅熹年建筑史论文集.北京：，1998：234-244.
                </p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/puzuo</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000013</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/puzuo" rendition="featured">
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000013" rendition="featured">
                   </relation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/puzuo" passive="Bracketing"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000013" passive="Bracketing"/>
                   <relation ref="https://architecturasinica.org/keyword/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>
