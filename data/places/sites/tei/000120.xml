@@ -94,8 +94,8 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000120" passive="https://architecturasinica.org/keyword/temple" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000120" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000120" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000120" ref="dcterms:temporal" passive="" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000120" ref="dcterms:temporal" passive="" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

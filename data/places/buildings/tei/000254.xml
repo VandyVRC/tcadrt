@@ -77,7 +77,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000254" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000254" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000254" ref="dcterms:temporal" passive="" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000254" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000100"/>
             </listRelation>
          </listPlace>

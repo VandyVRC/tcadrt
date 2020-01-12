@@ -97,8 +97,8 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000100" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Five-Dynasties" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>
