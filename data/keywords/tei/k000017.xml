@@ -26,7 +26,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/dingfu/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000017/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -132,14 +132,14 @@
                   <citedRange unit="pp">368-375</citedRange>
             </bibl>
             -->
-            <idno type="URI">https://architecturasinica.org/keyword/dingfu</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000017</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="url to flickr here"
-                  	passive="https://architecturasinica.org/keyword/dingfu" rendition="featured">
+                     passive="https://architecturasinica.org/keyword/k000017" rendition="featured">
                   </relation>
                   <relation ref="skos:broadMatch"
-                  	active="https://architecturasinica.org/keyword/dingfu" passive="Building Frame"/>
+                     active="https://architecturasinica.org/keyword/k000017" passive="Building Frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>
