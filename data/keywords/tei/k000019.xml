@@ -20,7 +20,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-         	<idno type="URI">https://architecturasinica.org/keyword/dougong/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000019/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -86,12 +86,12 @@
 	          <citedRange unit="pp">350</citedRange>
             </bibl>
              -->
-      		<idno type="URI">https://architecturasinica.org/keyword/dougong</idno>
+      	   <idno type="URI">https://architecturasinica.org/keyword/k000019</idno>
             <listRelation>
                <listRelation>
-               	<relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/dougong" rendition="featured">
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000019" rendition="featured">
                   </relation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/dougong" passive="Building Frame"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="Building Frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>
