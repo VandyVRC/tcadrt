@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Eastern Wei</title>
+            <title level="a" xml:lang="en">stolen heart (touxin): first step of huagong does not have a crossing bracket arm</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Eastern-Wei/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000024/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,19 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Eastern-Wei" type="time period">
-            <term xml:id="term-Eastern-Wei-1" xml:lang="en">Eastern Wei</term>
-            <term xml:id="term-Eastern-Wei-2" xml:lang="zh-Hant">東魏</term>
-            <state type="existence" from="0534" to="0550">
-               <desc>534 - 550</desc>
-            </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Eastern-Wei</idno>
+         <entryFree xml:id="first_step_touxin" type="architectural-feature">
+            <term xml:id="term-first_step_touxin-1" xml:lang="en">stolen heart (touxin): first step of huagong does not have a crossing bracket arm</term>
+            <term xml:id="term-first_step_touxin-4" xml:lang="zh-latn-pinyin">touxinzao</term>
+            <term xml:id="term-first_step_touxin-2" xml:lang="zh-Hant">偷心造</term>
+            <term xml:id="term-first_step_touxin-3" xml:lang="zh-Hans">偷心造</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000024</idno>
+            <gloss/>
+            <listRelation>
+               <relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/k000024" rendition="featured">
+               </relation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000024" passive="Bracketing"/>
+               <relation ref="https://architecturasinica.org/place/000167" source="Fengguosi Mahāvīra Hall"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>

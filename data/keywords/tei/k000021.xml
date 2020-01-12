@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">stolen heart (touxin): first step of huagong does not have a crossing bracket arm</title>
+            <title level="a" xml:lang="en">Eastern Jin</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/first_step_touxin/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000021/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,19 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="first_step_touxin" type="architectural-feature">
-            <term xml:id="term-first_step_touxin-1" xml:lang="en">stolen heart (touxin): first step of huagong does not have a crossing bracket arm</term>
-            <term xml:id="term-first_step_touxin-4" xml:lang="zh-latn-pinyin">touxinzao</term>
-            <term xml:id="term-first_step_touxin-2" xml:lang="zh-Hant">偷心造</term>
-            <term xml:id="term-first_step_touxin-3" xml:lang="zh-Hans">偷心造</term>
-            <idno type="URI">https://architecturasinica.org/keyword/first_step_touxin</idno>
-            <gloss/>
-            <listRelation>
-               <relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/first_step_touxin" rendition="featured">
-               </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/first_step_touxin" passive="Bracketing"/>
-               <relation ref="https://architecturasinica.org/place/000167" source="Fengguosi Mahāvīra Hall"/>
-            </listRelation>
+         <entryFree xml:id="Eastern-Jin" type="time period">
+            <term xml:id="term-Eastern-Jin-1" xml:lang="en">Eastern Jin</term>
+            <term xml:id="term-Eastern-Jin-2" xml:lang="zh-Hant">東晉</term>
+            <state type="existence" from="0317" to="0420">
+               <desc>317 - 420</desc>
+            </state>
+            <idno type="URI">https://architecturasinica.org/keyword/000021</idno>
          </entryFree>
       </body>
    </text>
