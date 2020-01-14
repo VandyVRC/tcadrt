@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Sirun Sanjiao Hall, main hall <foreign xml:lang="zh-Hant">寺潤三教堂三教堂</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000240/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000240" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000240-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000240-2" type="building-name" xml:lang="zh-Hant">三教堂</placeName>
+               <placeName xml:id="name000240-3" type="building-name" xml:lang="zh-Hans">三教堂</placeName>
+               <placeName xml:id="name000240-4" type="building-name" xml:lang="zh-latn-pinyin">Sanjiaotang</placeName>
+               <placeName xml:id="name000240-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Sirun Sanjiaotang</placeName>
+               <placeName xml:id="name000240-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">寺润三教堂</placeName>
+               <placeName xml:id="name000240-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">寺润三教堂</placeName>
+               <placeName xml:id="name000240-11" type="alternate">Sanjiaotang</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000240</idno>
+               <state type="existence" from="1125-01-01" to="1234-01-01">
+                  <label>Date</label>
+                  <desc>1125-1234</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.83021667 113.18035</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 49.813' 113˚ 10.821</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">mansion hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">tang</desc>
+                  <desc xml:lang="zh-Hant">堂</desc>
+                  <desc xml:lang="zh-Hans">堂</desc>
+               </trait>
+               <note type="field-notes">Main Hall Jin, see: http://www.sxcr.gov.cn/wmsx/show.php?itemid=1007</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/mansion-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/ic_match_ct" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000240" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4821629818_aa865a1efb_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4821636056_7798be1639_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun Sanjiaotang, Jin dynasty, Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821628238_fa999ebbb6_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang Main Hall  front facade</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821627958_a588e16cb2_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang   sign plaque</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4821011595_17b19b9d4d_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821012037_660ac3ee56_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4821628666_6d2ceecd78_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4821012491_c96f904071_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4821629316_6123e072b9_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4821012993_5eb9659127_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4137/4821629636_817286c0a4_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4114/4821013477_a309771d98_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4078/4821013645_21eb6fe269_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821630304_b0dcbee48e_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4094/4821630544_6afbbfdc93_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821630720_3167ace67c_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4115/4821014435_d92259dc01_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821014713_5cb3ea78ed_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4821014869_c604fd2a5e_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821015045_aca91e2bc0_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821631698_58be8ae766_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4100/4821015499_138cb488ea_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4082/4821632454_b2197ab929_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821016171_bb3e4c12b9_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821632872_11d90409e4_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821016531_7fcc7573c0_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821016919_20ee3d3d8d_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4138/4821633576_8323b43f04_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821634066_8f08dd33ea_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4121/4821018049_9934df095a_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821634658_dc0b5094ff_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821018473_f7478b5272_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4075/4821018747_3427695d31_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4119/4821019019_bbb6e4beae_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4821635794_a479a8f01d_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821636318_025103504e_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821020041_6d62cbaaba_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4821020373_c961983d57_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4821637060_52ec94c36c_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821637218_de56d2813f_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4096/4821637430_672efb055b_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4821637706_a0d69e6f9b_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4821637994_2ebc49a071_" passive="https://architecturasinica.org/place/000240">
+                  <desc>Sirun_Sanjiaotang      Main Hall</desc>
+               </relation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000240" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000088"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

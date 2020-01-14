@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Northern Song</title>
+            <title level="a" xml:lang="en">monastery (Buddhist)</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Song/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000052/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Northern-Song" type="time period">
-            <term xml:id="term-Northern-Song-1" xml:lang="en">Northern Song</term>
-            <term xml:id="term-Northern-Song-2" xml:lang="zh-Hant">北宋</term>
-            <state type="existence" from="0960" to="1127">
-               <desc>960 - 1127</desc>
-            </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Song</idno>
+         <entryFree xml:id="monastery-Buddhist" type="site-type">
+            <term xml:id="term-monastery-Buddhist-1" xml:lang="en" source="biblmonastery-Buddhist-1">monastery (Buddhist)</term>
+            <term xml:id="term-monastery-Buddhist-4" xml:lang="zh-latn-pinyin" source="biblmonastery-Buddhist-1">si</term>
+            <term xml:id="term-monastery-Buddhist-2" xml:lang="zh-Hant" source="biblmonastery-Buddhist-1">寺</term>
+            <term xml:id="term-monastery-Buddhist-3" xml:lang="zh-Hans" source="biblmonastery-Buddhist-1">寺</term>
+            <gloss>Buddhist monastery</gloss>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000052</idno>
          </entryFree>
       </body>
    </text>

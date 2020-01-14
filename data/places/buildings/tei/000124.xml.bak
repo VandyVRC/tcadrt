@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Anchan Monastery, sutra hall <foreign xml:lang="zh-Hant">安禪寺藏經殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000124/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000124" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000124-1" xml:lang="en">sutra hall</placeName>
+               <placeName xml:id="name000124-2" type="building-name" xml:lang="zh-Hant">藏經殿</placeName>
+               <placeName xml:id="name000124-3" type="building-name" xml:lang="zh-Hans">藏经殿</placeName>
+               <placeName xml:id="name000124-4" type="building-name" xml:lang="zh-latn-pinyin">zangjingdian</placeName>
+               <placeName xml:id="name000124-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Anchansi zangjingdian</placeName>
+               <placeName xml:id="name000124-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">安禪寺藏經殿</placeName>
+               <placeName xml:id="name000124-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">安禅寺藏经殿</placeName>
+               <placeName xml:id="name000124-11" type="alternate">Zangjingdian</placeName>
+               <desc type="building-data">The  Zangjingidan (藏经殿) or the sutra repository of Anchansi (Song Dynasty)  is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant. Ānchánsì ZGWWDTJ, Shanxi vol. 3 (xia), p. 762, 57–C1-1 Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; 3/2018; Edited by Cole Garrett 9/9/11, Modified by Wong Pui See, 2017.</desc>
+               <idno type="URI">https://architecturasinica.org/place/000124</idno>
+               <state type="existence" from="0960-01-01" to="1125-01-01">
+                  <label>Date</label>
+                  <desc>960-1125</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>37.42453333 112.5473333</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 25.472 (Garmin) 112˚ 32.840</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">sutra repository Song, compare to Jidumiao qingong</note>
+               <note type="notes">ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000124" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000124" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000001"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
