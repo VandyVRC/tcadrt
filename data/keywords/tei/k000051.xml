@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Northern Han</title>
+            <title level="a" xml:lang="en">Ming</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Han/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000051/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Northern-Han" type="time period">
-            <term xml:id="term-Northern-Han-1" xml:lang="en">Northern Han</term>
-            <term xml:id="term-Northern-Han-2" xml:lang="zh-Hant">北漢</term>
-            <state type="existence" from="0951" to="0979">
-               <desc>951 - 979</desc>
+         <entryFree xml:id="Ming" type="time period">
+            <term xml:id="term-Ming-1" xml:lang="en">Ming</term>
+            <term xml:id="term-Ming-2" xml:lang="zh-Hant">明</term>
+            <state type="existence" from="1368" to="1644">
+               <desc>1368 - 1644</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Han</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000051</idno>
          </entryFree>
       </body>
    </text>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Temple to the Eastern Peak in Zezhou, Hall for Veneration of Heaven <foreign xml:lang="zh-Hant">澤州岱廟天齊殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000272/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000272" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000272-1" xml:lang="en">Hall for Veneration of Heaven</placeName>
+               <placeName xml:id="name000272-2" type="building-name" xml:lang="zh-Hant">天齊殿</placeName>
+               <placeName xml:id="name000272-3" type="building-name" xml:lang="zh-Hans">天齐殿</placeName>
+               <placeName xml:id="name000272-4" type="building-name" xml:lang="zh-latn-pinyin">Tianzidian</placeName>
+               <placeName xml:id="name000272-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zezhou Daimiao Tianzidian</placeName>
+               <placeName xml:id="name000272-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">泽州岱庙天齐殿</placeName>
+               <placeName xml:id="name000272-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">泽州岱庙天齐殿</placeName>
+               <placeName xml:id="name000272-11" type="alternate">Daimiao Tianqidian</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000272</idno>
+               <state type="existence" from="1079-01-01" to="1079-01-01">
+                  <label>Date</label>
+                  <desc>1079</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>35.41921667 112.7244167</geo>
+               </location>
+               <location type="verbatim">
+                  <note>35˚ 25.153' (Garmin) 112˚ 43.465'</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="notes">Modified significantly over time; date still in question</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/ic_match_ct" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000272" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000272" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821221922_336b23e306_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   roof ornament</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4820597581_be571508b4_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821219396_4e9e38d38e_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4079/4820597261_101808f982_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4143/4821216172_d465c65771_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   side hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4098/4821216502_31bfb1b82c_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821216684_7cc147051f_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4074/4820598049_3cf4c5bf28_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿 Right/East ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4134/4821217276_4a4a121234_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   Right/East ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4821217444_cd5072a965_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4097/4821217600_1eff6419ec_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4820598923_1a2d878d0e_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4820599063_b1d17eb9b8_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4139/4821218010_8aeee4ecac_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4080/4821218288_0afa6044bd_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4820599613_1c5f87e847_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4820599769_ff573cc59d_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4081/4821218782_10b63a9709_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821218958_6d860134c4_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4095/4820600199_742aed2390_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4820600343_704715f336_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   exterior tablet</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4123/4820600575_96a0bfe3a7_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4120/4820600841_b921d78fe6_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿  Left/West Ear Hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4821220066_25c0f06424_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   Left/West ear hall</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4821220220_46ab7d133f_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿  column base</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4099/4821220460_25c9ac8967_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4102/4820601721_69cca288da_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4118/4820601877_bc8bbda0f0_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4076/4821220966_fc94a4b003_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   complex exterior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4140/4820602265_96c602b114_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   exterior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4093/4821221462_48b1e401a5_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿  exterior</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4821221616_22206ca794_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿  back</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4101/4820602801_2b179c83f7_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   roof ornament</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4141/4821222120_32511736fd_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   roof ornament</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4077/4820603391_091b421dfd_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   roof ornament</desc>
+               </relation>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4135/4820603577_dc8a98689e_" passive="https://architecturasinica.org/place/000272">
+                  <desc>Zezhou_Daimiao   Tianqidian, 天齐殿   exterior</desc>
+               </relation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000272" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000115"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

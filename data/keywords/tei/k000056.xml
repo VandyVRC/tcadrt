@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Northern Qi</title>
+            <title level="a" xml:lang="en">Northern Wei</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Qi/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000056/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Northern-Qi" type="time period">
-            <term xml:id="term-Northern-Qi-1" xml:lang="en">Northern Qi</term>
-            <term xml:id="term-Northern-Qi-2" xml:lang="zh-Hant">北齊</term>
-            <state type="existence" from="0550" to="0577">
-               <desc>550 - 577</desc>
+         <entryFree xml:id="Northern-Wei" type="time period">
+            <term xml:id="term-Northern-Wei-1" xml:lang="en">Northern Wei</term>
+            <term xml:id="term-Northern-Wei-2" xml:lang="zh-Hant">北魏</term>
+            <state type="existence" from="0386" to="0581">
+               <desc>386 - 581</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Northern-Qi</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000056</idno>
          </entryFree>
       </body>
    </text>

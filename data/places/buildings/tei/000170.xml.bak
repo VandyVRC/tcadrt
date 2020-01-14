@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Foguang Monastery, Mañjuśrī Hall <foreign xml:lang="zh-Hant">佛光寺文殊殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000170/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000170" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000170-1" xml:lang="en">Mañjuśrī Hall</placeName>
+               <placeName xml:id="name000170-2" type="building-name" xml:lang="zh-Hant">文殊殿</placeName>
+               <placeName xml:id="name000170-3" type="building-name" xml:lang="zh-Hans">文殊殿</placeName>
+               <placeName xml:id="name000170-4" type="building-name" xml:lang="zh-latn-pinyin">Wenshudian</placeName>
+               <placeName xml:id="name000170-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Foguangsi Wenshudian</placeName>
+               <placeName xml:id="name000170-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">佛光寺文殊殿</placeName>
+               <placeName xml:id="name000170-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">佛光寺文殊殿</placeName>
+               <placeName xml:id="name000170-11" type="alternate">Wenshudian</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000170</idno>
+               <state type="existence" from="1137-01-01" to="1137-01-01">
+                  <label>Date</label>
+                  <desc>1137</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Jin 1115 - 1234</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>38.8695 113.387333</geo>
+               </location>
+               <location type="verbatim">
+                  <note>38˚ 52.14' N (Magellan) 113˚ 23.22 E</note>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <note type="field-notes">1137 early Jin dynasty, use of xiegong in central bay; cloud-shaped arm  instead of guazigong makes ct brackt sets jixin; lingong single timber across façade but made to look beveled</note>
+               <note type="notes">lat/long from Dongdadian</note>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/number_of_ic_in_central_bay" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/number_of_xiaang" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000170" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000029"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
