@@ -28,7 +28,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/jiaozhu/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000035/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,17 +72,16 @@
             	<p>corner column: (3) Guo, Qinghua. A Visual Dictionary of Chinese Architecture 中國建築英漢雙解辭典. Mulgrave, Vic., Australia: Images Pub., 2002：64 </p>
             	<p>Related terms: 生起 shēngqǐ; <term ref="https://architecturasinica.org/keyword/pingzhu">平柱 píngzhù</term>; 檐柱 yánzhù; 台基 táijī</p>
                	  </note>
-            <idno type="URI">https://architecturasinica.org/keyword/jiaozhu</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000035</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000035" passive="Building Frame"/>
                   <!--<relation ref="foaf:depicts"
                      active="https://live.staticflickr.com/65535/47845934322_c447975ae2_z.jpg"
-                     passive="https://architecturasinica.org/keyword/jiaozhu" rendition="featured"> </relation>
+                     passive="https://architecturasinica.org/keyword/k000035" rendition="featured"> </relation>
                   <relation ref="foaf:depicts"
                      active="https://live.staticflickr.com/65535/46981817425_6e666576d5_z.jpg"
-                     passive="https://architecturasinica.org/keyword/jiaozhu" rendition="featured"> </relation>-->
-               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/jiaozhu" passive="Building Frame"/>
-               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/jiaozhu" passive="Foundations"/>
+                     passive="https://architecturasinica.org/keyword/k000035" rendition="featured"> </relation>-->
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
