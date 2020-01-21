@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/pupaifang/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/k000067/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -49,12 +49,12 @@
             <term xml:id="term-pupaifang-4" xml:lang="zh-latn-pinyin">pupaifang</term>
             <term xml:id="term-pupaifang-2" xml:lang="zh-Hant">普拍枋</term>
             <term xml:id="term-pupaifang-3" xml:lang="zh-Hans">普拍枋</term>
-            <idno type="URI">https://architecturasinica.org/keyword/pupaifang</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000067</idno>
             <gloss/>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm3.staticflickr.com/2543/3824680596_8327be70dc_z.jpg" passive="https://architecturasinica.org/keyword/pupaifang" rendition="featured">
+            	<relation ref="foaf:depicts" active="https://farm3.staticflickr.com/2543/3824680596_8327be70dc_z.jpg" passive="https://architecturasinica.org/keyword/k000067" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/pupaifang" passive="Building Frame"/>
+            	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000067" passive="Building Frame"/>
                <relation ref="https://architecturasinica.org/place/000198" source="Kaishansi main hall"/>
             </listRelation>
          </entryFree>
