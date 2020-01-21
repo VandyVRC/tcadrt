@@ -21,7 +21,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/pingzhu/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000064/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -99,11 +99,11 @@
 		 <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
 		 <citedRange unit="pp">63</citedRange>
 	    </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/pingzhu</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000064</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4918/45385071374_4c2477a2bb_z.jpg" passive="https://architecturasinica.org/keyword/pingzhu" rendition="featured"> </relation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/pingzhu" passive="Building Frame"/>
+                  <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4918/45385071374_4c2477a2bb_z.jpg" passive="https://architecturasinica.org/Keyword/k000064" rendition="featured"> </relation>
+               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000064" passive="Building Frame"/>
                   <relation ref="https://architecturasinica.org/place/000174" source="Geyuansi Mañjuśrī Hall"/>
                   <!--where there is an xxx put the number of the feature-->
                </listRelation>
