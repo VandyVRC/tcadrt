@@ -82,7 +82,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/ic_angled_bracket_arm" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/Keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
@@ -98,7 +98,7 @@
                </relation>
                <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000170" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000170" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000170" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000170" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000029"/>
             </listRelation>
          </listPlace>

@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">intercolumnar bracket sets match the column top bracket sets</title>
+            <title level="a" xml:lang="en">angled bracket arm between columns</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/ic_match_ct/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000033/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,18 +44,18 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="ic_match_ct" type="architectural-feature">
-            <term xml:id="term-ic_match_ct-1" xml:lang="en">intercolumnar bracket sets match the column top bracket sets</term>
-            <term xml:id="term-ic_match_ct-4" xml:lang="zh-latn-pinyin">bujian puzuo tong zhutou puzuo</term>
-            <term xml:id="term-ic_match_ct-2" xml:lang="zh-Hant">柱頭鋪作同補間鋪作</term>
-            <term xml:id="term-ic_match_ct-3" xml:lang="zh-Hans">补间铺作同柱头铺作</term>
-            <idno type="URI">https://architecturasinica.org/keyword/ic_match_ct</idno>
+         <entryFree xml:id="ic_angled_bracket_arm" type="architectural-feature">    
+            <term xml:id="term-ic_angled_bracket_arm-1" xml:lang="en">angled bracket arm between columns</term>
+            <term xml:id="term-ic_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">bujian puzuo xiegong</term>
+            <term xml:id="term-ic_angled_bracket_arm-2" xml:lang="zh-Hant">補間鋪作斜栱</term>
+            <term xml:id="term-ic_angled_bracket_arm-3" xml:lang="zh-Hans">补间铺作斜栱</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000033</idno>
             <gloss/>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4612/39428627105_9795f73011_z.jpg" passive="https://architecturasinica.org/keyword/ic_match_ct" rendition="featured">
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4129/4835644592_44f48b0756_z.jpg" passive="https://architecturasinica.org/keyword/k000033" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/ic_match_ct" passive="Bracketing"/>
-               <relation ref="https://architecturasinica.org/place/000132" source="Baoguosi Mahāvīra Treasure Hall"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000033" passive="Bracketing"/>
+               <relation ref="https://architecturasinica.org/place/000162" source="Dongyi Longwang Temple great hall"/>
             </listRelation>
          </entryFree>
       </body>
