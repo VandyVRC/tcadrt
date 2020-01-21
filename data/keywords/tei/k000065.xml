@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/pizhu_xiaang/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000065/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -49,12 +49,12 @@
             <term xml:id="term-pizhu_xiaang-4" xml:lang="zh-latn-pinyin">pizhu xiaang</term>
             <term xml:id="term-pizhu_xiaang-2" xml:lang="zh-Hant">批竹下昂</term>
             <term xml:id="term-pizhu_xiaang-3" xml:lang="zh-Hans">批竹下昂</term>
-            <idno type="URI">https://architecturasinica.org/keyword/pizhu_xiaang</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000065</idno>
             <gloss/>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/pizhu_xiaang" rendition="featured">
+            	<relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/k000065" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/pizhu_xiaang" passive="Bracketing"/>
+            	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000065" passive="Bracketing"/>
                <relation ref="https://architecturasinica.org/place/000167" source="Fengguosi Mahāvīra Hall"/>
             </listRelation>
          </entryFree>
