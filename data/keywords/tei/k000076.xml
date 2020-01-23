@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Southern Tang</title>
+            <title level="a" xml:lang="en">Southern Song</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Southern-Tang/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000076/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Southern-Tang" type="time period">
-            <term xml:id="term-Southern-Tang-1" xml:lang="en">Southern Tang</term>
-            <term xml:id="term-Southern-Tang-2" xml:lang="zh-Hant">南唐</term>
-            <state type="existence" from="0937" to="0946">
-               <desc>937 - 946</desc>
+         <entryFree xml:id="Southern-Song" type="time period">
+            <term xml:id="term-Southern-Song-1" xml:lang="en">Southern Song</term>
+            <term xml:id="term-Southern-Song-2" xml:lang="zh-Hant">南宋</term>
+            <state type="existence" from="1127" to="1279">
+               <desc>1127 - 1279</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Southern-Tang</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000076</idno>
          </entryFree>
       </body>
    </text>
