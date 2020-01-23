@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">stupa</title>
+            <title level="a" xml:lang="en">storied pavilion</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,13 +18,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/stupa/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000078/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2019-12-18-04:00</date>
+            <date>2018-03-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -44,10 +44,12 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="stupa" type="building-type">
-            <term xml:id="term-stupa-1" xml:lang="en" source="biblstupa-1">stupa</term>
-            <term xml:id="term-stupa-2" xml:lang="zh-Hant" source="biblstupa-2">窣堵波</term>
-            <term xml:id="term-stupa-3" xml:lang="zh-latn-pinyin" source="biblstupa-2">sudupo</term>            
+         <entryFree xml:id="storied-pavilion" type="building-type">
+            <term xml:id="term-storied-pavilion-1" xml:lang="en" source="biblstoried-pavilion-1">storied pavilion</term>
+            <term xml:id="term-storied-pavilion-4" xml:lang="zh-latn-pinyin" source="biblstoried-pavilion-1">ge</term>
+            <term xml:id="term-storied-pavilion-2" xml:lang="zh-Hant" source="biblstoried-pavilion-1">閣</term>
+            <term xml:id="term-storied-pavilion-3" xml:lang="zh-Hans" source="biblstoried-pavilion-1">阁</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>
          </entryFree>
       </body>
    </text>
