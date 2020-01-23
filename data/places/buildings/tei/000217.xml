@@ -75,7 +75,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000217" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000217" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000217" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000074" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000217" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000069"/>
             </listRelation>
          </listPlace>
