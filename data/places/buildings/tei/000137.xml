@@ -80,8 +80,8 @@
                <note type="field-notes">Jin？</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
@@ -90,7 +90,7 @@
                </relation>
                <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000137" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000137" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000137" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4089/4832153688_cfe8738d35_" passive="https://architecturasinica.org/place/000137">
                   <desc>Bucun_ Yuhuangmiao  Back Hall</desc>
                </relation>
