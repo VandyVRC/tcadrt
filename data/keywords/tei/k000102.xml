@@ -28,7 +28,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/zhu/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000102/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -74,7 +74,7 @@
             	<p>Annotation</p>
             	<p>柱，廣義指具有豎向形狀的物體，大至地形山體，小至物品上的構件；也可是作為構築物的獨立標誌物。在建築中，為豎向支撐構件，可以落地也可以不落地。漢儒以楹柱為一，並以“柱”注先秦文獻中建築的“楹”，很可能這是“柱”作為建築構件的名稱在書面文字裡開始得到普遍使用的時期。。作為中國傳統木結構建築物主體結構一部分的柱，按照其所在位置有不同的名稱。在北宋《營造法式》（初次刊行于崇寧二年，1103年）中，有平柱、檐柱、角柱，等。在清工部《工程做法》(雍正十二年頒布，1734年）中分為檐柱、金柱、山柱，等。 </p>
                	  </note>
-            <idno type="URI">https://architecturasinica.org/keyword/zhu</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000102</idno>
             <listRelation>
                <listRelation>
                   <!--<relation ref="foaf:depicts"
@@ -83,8 +83,8 @@
                   <relation ref="foaf:depicts"
                      active="https://live.staticflickr.com/65535/46981817425_6e666576d5_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000016" rendition="featured"> </relation>-->
-               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/zhu" passive="Building Frame"/>
-               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/zhu" passive="Foundations"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="Building Frame"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="Foundations"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
