@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">liang (cross beam)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">cross beam 梁</title>
             <!-- title has pinyin first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -26,7 +26,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/liang_cross_beam/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000045/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -133,14 +133,14 @@
                   <citedRange unit="pp">368-375</citedRange>
             </bibl>
             -->
-            <idno type="URI">https://architecturasinica.org/keyword/liang_cross_beam</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000045</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="url to flickr here"
-                  	passive="https://architecturasinica.org/keyword/liang_cross_beam" rendition="featured">
+                     passive="https://architecturasinica.org/keyword/k000045" rendition="featured">
                   </relation>
                   <relation ref="skos:broadMatch"
-                  	active="https://architecturasinica.org/keyword/liang_cross_beam" passive="Building Frame"/>
+                     active="https://architecturasinica.org/keyword/k000045" passive="Building Frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>

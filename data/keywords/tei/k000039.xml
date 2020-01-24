@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Later Liang</title>
+            <title level="a" xml:lang="en">Later Han</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Later-Liang/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000039/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Later-Liang" type="time period">
-            <term xml:id="term-Later-Liang-1" xml:lang="en">Later Liang</term>
-            <term xml:id="term-Later-Liang-2" xml:lang="zh-Hant">後梁</term>
-            <state type="existence" from="0907" to="0923">
-               <desc>907 - 923</desc>
+         <entryFree xml:id="Later-Han" type="time period">
+            <term xml:id="term-Later-Han-1" xml:lang="en">Later Han</term>
+            <term xml:id="term-Later-Han-2" xml:lang="zh-Hant">後漢</term>
+            <state type="existence" from="0947" to="0950">
+               <desc>947 - 950</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Later-Liang</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000039</idno>
          </entryFree>
       </body>
    </text>
