@@ -83,7 +83,7 @@
                <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000207" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Later-Tang" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000207" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000043" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000207" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000063"/>
             </listRelation>
          </listPlace>

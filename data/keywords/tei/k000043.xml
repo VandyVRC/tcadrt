@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Later Zhou</title>
+            <title level="a" xml:lang="en">Later Tang</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Later-Zhou/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000043/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Later-Zhou" type="time period">
-            <term xml:id="term-Later-Zhou-1" xml:lang="en">Later Zhou</term>
-            <term xml:id="term-Later-Zhou-2" xml:lang="zh-Hant">後周</term>
-            <state type="existence" from="0951" to="0960">
-               <desc>951 - 960</desc>
+         <entryFree xml:id="Later-Tang" type="time period">
+            <term xml:id="term-Later-Tang-1" xml:lang="en">Later Tang</term>
+            <term xml:id="term-Later-Tang-2" xml:lang="zh-Hant">後唐</term>
+            <state type="existence" from="0923" to="0936">
+               <desc>923 - 936</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Later-Zhou</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000043</idno>
          </entryFree>
       </body>
    </text>
