@@ -82,11 +82,11 @@
                <note type="field-notes">天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/天齊殿from Jin 1199-1208, see: 中國 文物 地圖集 山西分冊, 中, 500/</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/palatial-hall" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/pupaifang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/qinmian_xiaang" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000071" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>3</num>
@@ -94,7 +94,7 @@
                </relation>
                <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000232" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000232" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Jin" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000232" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000232" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000083"/>
             </listRelation>
          </listPlace>
