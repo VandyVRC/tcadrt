@@ -9,7 +9,9 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
+
                <foreign xml:lang="zh-hanst">椽</foreign> rafter</title>
+
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -23,7 +25,10 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
+
+
             <idno type="URI">https://architecturasinica.org/keyword/k000107/tei</idno>
+
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -58,8 +63,11 @@
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ch'uan</term>
             <term xml:id="term-feature_name-6" xml:lang="en">rafter (lit.)</term>
             <note>
+
+         
                <p>Hanging inclined timber member supporting roof tiles. In Traditional Chinese Architecture rafters extend from purlin to purlin. Can also be used to as a unit of length.</p>
                <p>(Tracy Miller, ATTCAT 2018) </p>
+
             </note>
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
@@ -67,17 +75,19 @@
                <citedRange unit="pp">199</citedRange>
              </bibl>   
             -->
+
             <idno type="URI">https://architecturasinica.org/keyword/k000107</idno>
             <listRelation>
                <listRelation>
                   
                   <!--This is left as a template for images
                      <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k0000107" rendition="featured"> </relation>-->
+                     passive="https://architecturasinica.org/keyword/k000107" rendition="featured"> </relation>-->
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000107" passive="Timber Frame"/>
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000107"
+
                      passive="Foundations"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
