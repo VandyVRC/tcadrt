@@ -78,7 +78,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000275" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000275" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Tang" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000275" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000275" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000118"/>
             </listRelation>
          </listPlace>
