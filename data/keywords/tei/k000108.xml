@@ -58,6 +58,7 @@
             <term xml:id="term-feature_name-1" xml:lang="en">barrel tile end (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">勾頭</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">勾头</term>
+
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">gōutòu</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">kou-t'ou</term>
             <term xml:id="term-feature_name-6" xml:lang="en">hooked head (lit.)</term>
@@ -65,6 +66,7 @@
                <p> See wadang 瓦當</p>
                <p>(Tracy Miller, ATTCAT 2018) </p>
                <p> Related Concepts: 瓦當, 筒瓦</p>
+
                <p> Sources and Contributors:</p>
           </note>
             <!--This is left as a template for bibliographic structure
@@ -73,13 +75,15 @@
                <citedRange unit="pp">199</citedRange>
              </bibl>   
             -->
-            <idno type="URI">https://architecturasinica.org/keyword/k000018</idno>
+
+            <idno type="URI">https://architecturasinica.org/keyword/k000108</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k0000108" rendition="featured"> </relation>
+                     passive="https://architecturasinica.org/keyword/k000108" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k0000108" rendition="featured"> </relation>
+                     passive="https://architecturasinica.org/keyword/k000108" rendition="featured"> </relation>
+
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000108" passive="Tiles"/>
                   <relation ref="skos:broadMatch"
