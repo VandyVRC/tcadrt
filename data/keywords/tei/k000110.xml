@@ -9,17 +9,17 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">勾頭</foreign> barrel tile end</title>
+               <foreign xml:lang="zh-hanst">瓦當</foreign> barrel tile end</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
-               <resp>Editing, proofreading, and revision by</resp>
+               <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
-               <name type="person" xml:id="ZJ">ZHUGE Jing</name>
+               <resp>data entry</resp>
+               <name type="person" xml:id="ML">Melanie LU</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -27,13 +27,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k0000108/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000110/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-01-18</date>
+            <date>2020-01-25</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -49,42 +49,39 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-01-18">CREATED: record</change>
+         <change n="1.0" when="2020-01-25">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="dipan" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">barrel tile end (preferred)</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">勾頭</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">勾头</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">gōtòu</term>
-            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">kou-t'ou</term>
-            <term xml:id="term-feature_name-6" xml:lang="en">hooked head (lit.)</term>
-          <note>
-               <p> See wadang</p>
-               <p>(Tracy Miller, ATTCAT 2018) </p>
-               <p> Related Concepts: 筒瓦</p>
-               <p> Sources and Contributors:</p>
-          </note>
+         <entryFree xml:id="wadang" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">barrel tile end</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">瓦當</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">瓦当</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">Wǎdàng</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">wa-tang</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">tile end</term>
+
+            <note>
+               <p>Type of barrel tile used to cap the end of a line of tiles at the eaves</p>
+               
+            </note>
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
                <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
                <citedRange unit="pp">199</citedRange>
              </bibl>   
             -->
-            <idno type="URI">https://architecturasinica.org/keyword/k000018</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000110</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k0000108" rendition="featured"> </relation>
+                  <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k0000108" rendition="featured"> </relation>
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>-->
+                 
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k0000108" passive="Tiles"/>
-                  <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k0000108"
-                     passive="Foundations"/>
+                     active="https://architecturasinica.org/keyword/k000110" passive="Roofing Tiles"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
