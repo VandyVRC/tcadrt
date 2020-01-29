@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Western Han</title>
+            <title level="a" xml:lang="en">Western Jin</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Western-Han/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000091/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Western-Han" type="time period">
-            <term xml:id="term-Western-Han-1" xml:lang="en">Western Han</term>
-            <term xml:id="term-Western-Han-2" xml:lang="zh-Hant">西漢</term>
-            <state type="existence" from="0202" to="0023">
-               <desc>202 BCE - 23 CE</desc>
+         <entryFree xml:id="Western-Jin" type="time period">
+            <term xml:id="term-Western-Jin-1" xml:lang="en">Western Jin</term>
+            <term xml:id="term-Western-Jin-2" xml:lang="zh-Hant">西晉</term>
+            <state type="existence" from="0265" to="0316">
+               <desc>265 - 316</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Western-Han</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000091</idno>
          </entryFree>
       </body>
    </text>
