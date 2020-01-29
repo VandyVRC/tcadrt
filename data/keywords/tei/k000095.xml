@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Western Wei</title>
+            <title level="a" xml:lang="en">Xin </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Western-Wei/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000095/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Western-Wei" type="time period">
-            <term xml:id="term-Western-Wei-1" xml:lang="en">Western Wei</term>
-            <term xml:id="term-Western-Wei-2" xml:lang="zh-Hant">西魏</term>
-            <state type="existence" from="0535" to="0556">
-               <desc>535 - 556</desc>
+         <entryFree xml:id="Xin" type="time period">
+            <term xml:id="term-Xin-1" xml:lang="en">Xin </term>
+            <term xml:id="term-Xin-2" xml:lang="zh-Hant">新</term>
+            <state type="existence" from="0009" to="0023">
+               <desc>9 CE - 23 CE</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Western-Wei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000095</idno>
          </entryFree>
       </body>
    </text>
