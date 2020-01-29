@@ -29,7 +29,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/yane/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000097/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -147,13 +147,13 @@
                <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
                <citedRange unit="pp">368-375</citedRange>
             </bibl-->
-            <idno type="URI">https://architecturasinica.org/keyword/yane</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000097</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="url to flickr here"
-                  	passive="https://architecturasinica.org/keyword/yane" rendition="featured"> </relation>
+                  	passive="https://architecturasinica.org/keyword/k000097" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/yane" passive="Building Frame"/>
+                     active="https://architecturasinica.org/keyword/k000097" passive="Building Frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
