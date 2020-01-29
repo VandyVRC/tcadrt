@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Wu-Yue</title>
+            <title level="a" xml:lang="en">Wu</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/Wu-Yue/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000094/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -44,13 +44,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Wu-Yue" type="time period">
-            <term xml:id="term-Wu-Yue-1" xml:lang="en">Wu-Yue</term>
-            <term xml:id="term-Wu-Yue-2" xml:lang="zh-Hant">吳越</term>
-            <state type="existence" from="0907" to="0978">
-               <desc>907 - 978</desc>
+         <entryFree xml:id="Wu" type="time period">
+            <term xml:id="term-Wu-1" xml:lang="en">Wu</term>
+            <term xml:id="term-Wu-2" xml:lang="zh-Hant">吳</term>
+            <state type="existence" from="0902" to="0937">
+               <desc>902 - 937</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/Wu-Yue</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000094</idno>
          </entryFree>
       </body>
    </text>
