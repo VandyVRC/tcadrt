@@ -28,7 +28,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/yingzuo_mugou/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000099/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -83,24 +83,24 @@
                <p>影作木構: (2) 宿白, 西安地区唐墓壁画的布局和内容 《考古学报》 2 (1982) 137-154.</p>
                <p>(REN Sijie 任思捷, YANG Wantian, ATTCAT 2018)</p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/yingzuo_mugou</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000099</idno>
             <listRelation>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/33939906558_08712997f3_z.jpg"
-                  passive="https://architecturasinica.org/keyword/yingzuo_mugou"
+                  passive="https://architecturasinica.org/keyword/k000099"
                   rendition="featured"> </relation>
                <!--<listRelation><relation ref="foaf:depicts"
                   	active="https://live.staticflickr.com/65535/40850661633_e23a448131_z.jpg"
-                  	passive="https://architecturasinica.org/keyword/yingzuo_mugou" rendition="featured">
+                  	passive="https://architecturasinica.org/keyword/k000099" rendition="featured">
                   </relation>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="Name of example source"/>
                   <!-\-where there is an xxx put the number of the feature-\->
               </listRelation>-->
                <relation ref="skos:broadMatch"
-                  active="https://architecturasinica.org/keyword/yingzuo_muguo" passive="Bracketing"
+                  active="https://architecturasinica.org/keyword/k000099" passive="Bracketing"
                />
                <relation ref="skos:broadMatch"
-                  active="https://architecturasinica.org/keyword/yingzuo_muguo" passive="Architectural Ornament"
+                  active="https://architecturasinica.org/keyword/k000099" passive="Architectural Ornament"
                />
             </listRelation>
          </entryFree>
