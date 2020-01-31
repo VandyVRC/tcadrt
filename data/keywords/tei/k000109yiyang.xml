@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">板瓦</foreign> plate tile</title>
+               <foreign xml:lang="zh-hanst">筒瓦</foreign> barrel tile</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -27,13 +27,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000104/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000109/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-01-17</date>
+            <date>2020-01-30</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -49,41 +49,41 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-01-17">CREATED: record</change>
+         <change n="1.0" when="2020-01-30">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="bǎnwǎ" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000104-1">plate tile</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">板瓦</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">板瓦</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
-            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">pan-wa</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">plate tile; plank tile</term>
-
+         <entryFree xml:id="tǒngwǎ" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">barrel tile</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">筒瓦</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">筒瓦</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">tǒngwǎ</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ong-wa</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">barrel tile</term>
+ 
             <note>
-               <p>Roof tile of shallow concave shape; can serve as a gutter tile or a covering tile. Eaves tiles of this type have an overhanging lip to allow water to drip away from the bottom edge. These are categorized according to decorative treatment of the lip. The two most common types are the chongchun banwa 重唇板瓦 (lit. multi-lipped plate tile) and huatou banwa 華頭板瓦 (lit. flower/ornamented head plate tile) (ATTCAT 2018)</p>
-              
-            </note>
-            <bibl xml:id="biblk000104-1">
-               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-            </bibl>   
+               <p>Type of covering tile with a semi-circular (or greater) cross section</p>
+               
+          
+              </note>
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
                <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
                <citedRange unit="pp">199</citedRange>
              </bibl>   
             -->
-            <idno type="URI">https://architecturasinica.org/keyword/k000104</idno>
+
+            <idno type="URI">https://architecturasinica.org/keyword/k000109</idno>
             <listRelation>
                <listRelation>
-                 <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000104" rendition="featured"> </relation>
+                  <!--  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000109" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000104" rendition="featured"> </relation>-->
+                     passive="https://architecturasinica.org/keyword/k000109" rendition="featured"> </relation>
+                     -->
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000104" passive="Roofing Tiles"/>
+                     active="https://architecturasinica.org/keyword/k000109" passive="Roofing Tiles"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
