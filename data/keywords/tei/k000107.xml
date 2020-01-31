@@ -56,7 +56,7 @@
    <text>
       <body>
          <entryFree xml:id="chuan" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">rafter (preferred)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000107-1" source="biblk000107-2">rafter </term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">椽</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">椽</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">chuán</term>
@@ -66,9 +66,16 @@
 
          
                <p>Hanging inclined timber member supporting roof tiles. In Traditional Chinese Architecture rafters extend from purlin to purlin. Can also be used to as a unit of length.</p>
-               <p>(Tracy Miller, ATTCAT 2018) </p>
+               <p>(ATTCAT 2018) </p>
 
             </note>
+            <bibl xml:id="biblk000107-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">351</citedRange>
+            </bibl> 
+            <bibl xml:id="biblk000107-2">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>           
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
                <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
