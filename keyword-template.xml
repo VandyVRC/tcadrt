@@ -61,10 +61,12 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
             <note source="biblk000xxx-1">
                <p>description of feature here</p>
             </note>
+            <listbibl>
             <bibl xml:id="biblk000xxx-1">
                <ptr target="https://architecturasinica.org/bibl/code#fromZotero"/>
                <citedRange unit="pp">appropriate pp#</citedRange>
             </bibl>
+            </listbibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000xxx[keyword number from master list]</idno>
             <listRelation>
                <listRelation>
