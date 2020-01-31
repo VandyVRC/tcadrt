@@ -63,20 +63,23 @@
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ong-wa</term>
             <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">barrel tile</term>
             <note>
-               <p>Type of covering tile with a semi-circular (or greater) cross section. (ATTCAT 2018)</p>
+               <p source="biblk000109-2">Type of covering tile with a semi-circular (or greater) cross section. (ATTCAT 2018)</p>
                <p> Related Concepts: 瓦，瓦當</p>
                <p> Sources and Contributors:</p>
             </note> 
             <bibl xml:id="biblk000109-1">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                           </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k0000109</idno>
+            </bibl>
+            <bibl xml:id="biblk000109-2">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000109</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000109" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000109" passive="Tiles"/>
+                     active="https://architecturasinica.org/keyword/k000109" passive="Roofing Tiles"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
