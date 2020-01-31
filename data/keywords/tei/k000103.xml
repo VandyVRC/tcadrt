@@ -55,7 +55,7 @@
    <text>
       <body>
          <entryFree xml:id="ang" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">slanted branket arm</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000103-1">slanted branket arm</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">昂</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">昂</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">áng</term>
@@ -68,11 +68,10 @@
                   Related Terms <term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term>
                </p>
             </note>
-            <!--This is left as a template for bibliographic structure
-            <bibl xml:id="biblcao-1">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
-               <citedRange unit="pp">199</citedRange>
-             </bibl> -->
+            <bibl xml:id="biblk000103-1">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000103</idno>
             <listRelation>
                <listRelation>
