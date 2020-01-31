@@ -55,7 +55,7 @@
    <text>
       <body>
          <entryFree xml:id="wadang" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">barrel tile end</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000110-1">barrel tile end</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">瓦當</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">瓦当</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">wǎdàng</term>
@@ -64,8 +64,11 @@
 
             <note>
                <p>Type of barrel tile used to cap the end of a line of covering tiles at the eaves (Tracy Miller ATTCAT 2018)</p>
-               
             </note>
+            <bibl xml:id="biblk000110-1">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+            
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
                <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
