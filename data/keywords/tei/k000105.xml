@@ -55,13 +55,13 @@
    <text>
       <body>
          <entryFree xml:id="bujianpuzuo" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">inter-columnar corbelling; intercolumnar bracketing</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000105-01">inter-columnar corbelling; intercolumnar bracketing</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">補間鋪作</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">补间铺作</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">Bǔjiān pūzuò</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">pu-chien p'u-tso</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">supplementary bay-corbelling</term>
-
+            <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000105-02">intercolumnar bracket set</term>
             <note>
                <p>Corbelling that appears between the pillars; see puzuo</p>
                <p>
@@ -69,6 +69,12 @@
                   <term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term>
                </p>
             </note>
+            <bibl xml:id="biblk000105-01">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            <bibl xml:id="biblk000105-02">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp"></citedRange>
+               </bibl>   
             <!--This is left as a template for bibliographic structure
             <bibl xml:id="biblcao-1">
                <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
