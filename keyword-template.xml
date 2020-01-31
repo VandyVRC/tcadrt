@@ -58,15 +58,20 @@ href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/d
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">feature name in Pinyin here</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">feature name in Traditional Chinese here</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">feature name in Simplified Chinese here</term>
-            <note source="biblk000xxx-1">
-               <p>description of feature here</p>
+            <note source="biblk000xxx-1" "biblk000xxx-2>
+               <p>description of feature here. source for any part of the descript</p>
             </note>
             <listbibl>
             <bibl xml:id="biblk000xxx-1">
                <ptr target="https://architecturasinica.org/bibl/code#fromZotero"/>
                <citedRange unit="pp">appropriate pp#</citedRange>
             </bibl>
+               <bibl xml:id="biblk000xxx-2">
+                  <ptr target="https://architecturasinica.org/bibl/code#fromZotero"/>
+                  <citedRange unit="pp">appropriate pp#</citedRange>
+               </bibl>
             </listbibl>
+            <!-- list bibl only needed if you are going to have more than one source -->
             <idno type="URI">https://architecturasinica.org/keyword/k000xxx[keyword number from master list]</idno>
             <listRelation>
                <listRelation>
