@@ -55,7 +55,7 @@
    <text>
       <body>
          <entryFree xml:id="chongchunbanwa" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">eaves pillars</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000111-1">eaves pillars</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">檐柱</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">檐柱</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">yánzhù</term>
@@ -68,14 +68,15 @@
                   
                 <!-- The related term should be "pillar", but we don't have the key word yet -->
                   </p>   
+               <p>ATTCAT 2018
+               </p>
                
             </note>
-            <!--This is left as a template for bibliographic structure
-            <bibl xml:id="biblcao-1">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
-               <citedRange unit="pp">199</citedRange>
-             </bibl>   
-            -->
+            <bibl xml:id="biblk000106-1">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+               
+            </bibl>  
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000111</idno>
             <listRelation>
                <listRelation>
