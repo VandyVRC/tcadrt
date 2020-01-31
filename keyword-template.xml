@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">feature name here</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000xxx[keyword number from master list]/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>date in 2018-03-21-04:00 format here</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="feature_name_here"
+                    type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="en">feature name in English here</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">feature name in Pinyin here</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">feature name in Traditional Chinese here</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">feature name in Simplified Chinese here</term>
+            <note source="biblk000xxx-1">
+               <p>description of feature here</p>
+            </note>
+            <bibl xml:id="biblk000xxx-1">
+               <ptr target="https://architecturasinica.org/bibl/code#fromZotero"/>
+               <citedRange unit="pp">appropriate pp#</citedRange>
+            </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000xxx[keyword number from master list]</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts"
+                     active="url to flickr here"
+                     passive="http://architecturasinica.org/keyword/k000xxx[keyword number from master list]" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch"
+                     active="http://architecturasinica.org/keyword/k000xxx[related keyword number from master list]"
+                     passive="appropriate sub-category in upper case, i.e. Architectural Ornament"/>
+                  <relation ref="http://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
+                  <!--where there is an xxx put the number of the feature-->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
