@@ -72,18 +72,12 @@
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">349</citedRange>
             </bibl>
-            <!--This is left as a template for bibliographic structure
-            <bibl xml:id="biblcao-1">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
-               <citedRange unit="pp">199</citedRange>
-             </bibl>   
-            -->
             <idno type="URI">https://architecturasinica.org/keyword/k000110</idno>
             <listRelation>
                <listRelation>
-                  <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/49480387843_25db5fffd9_c.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
+                  <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>-->
                  
                   <relation ref="skos:broadMatch"
