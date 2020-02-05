@@ -51,12 +51,13 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-23">CREATED: record</change>
+         <change when="2020-02-05">Edited: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="jiaozhu" type="architectural-feature">
-         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">jiaozhù</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">jiǎozhù</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">角柱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">角柱</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chiao-chu</term>
@@ -76,10 +77,10 @@
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000035" passive="Building Frame"/>
-                  <!--<relation ref="foaf:depicts"
-                     active="https://live.staticflickr.com/65535/47845934322_c447975ae2_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000035" rendition="featured"> </relation>
                   <relation ref="foaf:depicts"
+                     active="https://live.staticflickr.com/65535/49493824338_7a433fd40f_c.jpg"
+                     passive="https://architecturasinica.org/keyword/k000035" rendition="featured"> </relation>
+                  <!--<relation ref="foaf:depicts"
                      active="https://live.staticflickr.com/65535/46981817425_6e666576d5_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000035" rendition="featured"> </relation>-->
                   <relation ref="https://architecturasinica.org/place/000xxx"
