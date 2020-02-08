@@ -12,6 +12,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -24,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2020-02-07-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -39,7 +43,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.0" when="2020-02-07-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,9 +51,13 @@
          <entryFree xml:id="Tang" type="time period">
             <term xml:id="term-Tang-1" xml:lang="en">Tang</term>
             <term xml:id="term-Tang-2" xml:lang="zh-Hant">唐</term>
-            <state type="existence" from="0618" to="0907">
+            <state type="existence" source="biblk000082-1" from="0618" to="0907">
                <desc>618 - 907</desc>
             </state>
+            <bibl xml:id="biblk00082-1">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">12</citedRange>>
+            </bibl>   
             <idno type="URI">https://architecturasinica.org/keyword/k000082</idno>
          </entryFree>
       </body>
