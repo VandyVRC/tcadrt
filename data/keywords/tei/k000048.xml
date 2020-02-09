@@ -47,11 +47,15 @@
          <entryFree xml:id="Liu-Song" type="time period">
             <term xml:id="term-Liu-Song-1" xml:lang="en">Liu Song</term>
             <term xml:id="term-Liu-Song-2" xml:lang="zh-Hant">劉宋</term>
-            <state type="existence" from="0420" to="0479">
+            <state type="existence" source="#bibl000001-1" from="0420" to="0479">
                <desc>420 - 479</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000048</idno>
          </entryFree>
+         <bibl xml:id="bibl000001-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">11</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

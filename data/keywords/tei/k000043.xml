@@ -47,11 +47,15 @@
          <entryFree xml:id="Later-Tang" type="time period">
             <term xml:id="term-Later-Tang-1" xml:lang="en">Later Tang</term>
             <term xml:id="term-Later-Tang-2" xml:lang="zh-Hant">後唐</term>
-            <state type="existence" from="0923" to="0936">
+            <state type="existence" source="#bibl000001-1" from="0923" to="0936">
                <desc>923 - 936</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000043</idno>
          </entryFree>
+         <bibl xml:id="bibl000001-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

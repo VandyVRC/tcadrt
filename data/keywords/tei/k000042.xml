@@ -47,11 +47,15 @@
          <entryFree xml:id="Later-Shu" type="time period">
             <term xml:id="term-Later-Shu-1" xml:lang="en">Later Shu </term>
             <term xml:id="term-Later-Shu-2" xml:lang="zh-Hant">後蜀</term>
-            <state type="existence" from="0933" to="0965">
+            <state type="existence" source="#bibl000001-1" from="0933" to="0965">
                <desc>933 - 965</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000042</idno>
          </entryFree>
+         <bibl xml:id="bibl000001-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
