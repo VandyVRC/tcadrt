@@ -15,7 +15,7 @@
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -50,12 +50,13 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-01-17">CREATED: record</change>
+         <change n="2.0" when="2020-02-09">REVISED: note</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="ang" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000103-1">slanted branket arm</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000103-1">slanted bracket arm</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">昂</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">昂</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">áng</term>
@@ -63,10 +64,12 @@
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">slanted</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000103-2">(descending or ascending) cantilever</term>
             <note>
-               <p>Used in corbel bracket sets</p>
-               <p>
-                  Related Terms <term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term>
-               </p>
+               <p>Angled timber member used in corbel bracket sets and placed perpendicular to the building plane. Can be descending (xià áng 下昂), where it is found on the outside of the building; or ascending (shàng áng 上昂), where it is found on the inside of the building. Level cantilevers in bracket sets include huá gǒng 華栱 and shuǎ tóu 耍頭.  (ATTCAT 2018; Tracy Miller)</p>
+               <p>Related Terms</p>
+               <p>huá gǒng 華栱</p>
+               <p>shuǎ tóu 耍頭</p>
+               <p><term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term></p>
+               
             </note>
             <bibl xml:id="biblk000103-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
