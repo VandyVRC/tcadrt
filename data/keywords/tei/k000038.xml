@@ -71,8 +71,8 @@
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000038-5">lintel</term>
             <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000038-6">architrave</term>
             <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000038-7">penetrating tie beam</term>
-            <term xml:id="term-feature_name-10" xml:lang="en">connecting-beam</term>
-            <term xml:id="term-feature_name-11" xml:lang="en">column-top-tie</term>
+            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000038-8">connecting-beam</term>
+            <term xml:id="term-feature_name-11" xml:lang="en" source="#biblk000038-9">column-top-tie</term>
             <note type="getty:scopeNote">
                <note xml:lang="en">
                   <p>In traditional Chinese timber-frame architecture, the lan’e refers to
@@ -157,27 +157,34 @@
             <listBibl source="biblk000038-6">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
-                  <citedRange unit="pp">10</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">72, 360</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
-                  <citedRange unit="pp">74</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-               <citedRange unit="pp">201</citedRange>
-               </bibl>
-                </listBibl>
-                <listBibl source="biblk000038-7">
-                   <bibl>
+                     <citedRange unit="pp">10</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                     <citedRange unit="pp">72, 360</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">74</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">201</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl source="biblk000038-7">
                       <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                       <citedRange unit="pp">176</citedRange>
-                   </bibl> 
-                </listBibl>
+              </bibl> 
+              <bibl source="biblk000038-8">
+                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  <citedRange unit="pp">74</citedRange>
+              </bibl> 
+              <bibl source="#biblk000038-9">
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange>52</citedRange>
+              </bibl>
+                
             <!--  <bibl>
                   <ptr target="https://architecturasinica.org/bibl/JIXE7DCY"/>
                </bibl>
