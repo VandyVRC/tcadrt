@@ -88,17 +88,6 @@
          	<note>
          		<p> Related terms: 鴟吻，龍尾，吻獸、正吻</p>
          	</note>
-            <idno type="URI">https://architecturasinica.org/keyword/k000009</idno>
-            <listRelation>
-                  <relation ref="foaf:depicts" active="url to flickr here"
-                     passive="https://architecturasinica.org/keyword/k000009" rendition="featured"> </relation>
-                  <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000009" passive="Roofing Tiles"/>
-                  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/>
-                  <!--where there is an xxx put the number of the example-->
-            </listRelation>
-         </entryFree>
          <listBibl xml:id="biblk000009-01">
             <bibl>
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
@@ -122,6 +111,17 @@
                <citedRange unit="pp">163</citedRange>
             </bibl>
          </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000009</idno>
+            <listRelation>
+               <relation ref="foaf:depicts" active="url to flickr here"
+                  passive="https://architecturasinica.org/keyword/k000009" rendition="featured"> </relation>
+               <relation ref="skos:broadMatch"
+                  active="https://architecturasinica.org/keyword/k000009" passive="Roofing Tiles"/>
+               <relation ref="https://architecturasinica.org/place/000xxx"
+                  source="name_of_numbered_example_here"/>
+               <!--where there is an xxx put the number of the example-->
+            </listRelation>
+         </entryFree>
       </body>
    </text>
 </TEI>
