@@ -60,16 +60,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="cao" type="architectural-feature">
+         <entryFree xml:id="die" type="fortification elements">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dié</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblk000016-1">堞</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">堞</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">tieh</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">battlements</term>
-            <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation"
-               >battlement</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000016-2">battlements</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">battlement</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="biblk000016-3">parapet</term>
-            <term xml:id="term-feature_name-8" xml:lang="en" source="biblk000016-2">merlons</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="biblk000016-4">merlons</term>
             <note>
                <p>In traditional Chinese fortifications, die refers to the battlements built on the
                   top of a city wall constructed to protect defenders from missile fire. This term
@@ -118,17 +117,18 @@
                   <citedRange unit="pp">1-23</citedRange>                 
                </bibl>                                            
             </listBibl>            
+            
             <bibl xml:id="biblk00016-2">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+              <bibl xml:id="biblk00016-3">
+               <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+               <citedRange unit="pp">49</citedRange>>
+              </bibl>
+            <bibl xml:id="biblk00016-4">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">351</citedRange>>
             </bibl>
-            <bibl xml:id="biblk00016-3">
-               <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
-               <citedRange unit="pp">49</citedRange>>
-            </bibl>
-            
-            
-            
             
             
             
