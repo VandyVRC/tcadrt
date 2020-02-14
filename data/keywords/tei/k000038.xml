@@ -20,8 +20,8 @@
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry, proof correction, adding citations</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,18 +53,19 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-22">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="lane" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred">pillar top tie
+            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="biblk000038-1">pillar top tie
                beam</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">闌額</term>
-            <term xml:id="term-feature_name-7" xml:lang="zh-Hans">阑额</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">lán'é</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblk000038-2">闌額</term>
+            <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="biblk000038-3">阑额</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" source="biblk000038-4">lán'é</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">lan-o</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">forehead
+            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation" source="biblk000038-5">forehead
                rail</term>
             <term xml:id="term-feature_name-6" xml:lang="en">lintel</term>
             <term xml:id="term-feature_name-8" xml:lang="en">architrave</term>
@@ -91,7 +92,7 @@
                </note>
             </note>
             <note type="sources">
-               <p>pillar top tie beam: ATTCAT</p>
+               <p>pillar top tie beam: ATTCAT 2018</p>
                <p>闌額: (1)(宋）李誡著.故宫博物院编. 營造法式(故宫藏抄本）.北京：紫禁城出版社，2009，第四冊，卷四：9a; 第五冊，卷五：3b-4a</p>
                <p>阑额: (2) 陈明达. 《营造法式》辞解. 天津: 天津大学出版社, 2010：433 (3) 王效青主编. 中国古建筑术语辞典. 北京: 文物出版社,
                   2007:402</p>
@@ -116,31 +117,32 @@
                <p>column-top-tie: (13) Guo, Qinghua. A Visual Dictionary of Chinese Architecture
                   中國建築英漢雙解辭典. Mulgrave, Vic., Australia: Images Pub., 2002, 52.</p>
             </note>
-            <!--listBibl xml:id="biblcao-1">
+            <listBibl xml:id="biblk000038-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
-                  <citedRange unit="pp">21</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
-                  <citedRange unit="pp">350</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
                </bibl>
             </listBibl>
-            <listBibl xml:id="biblcao-2">
+            <listBibl xml:id="biblk000038-2">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/RZKZ3RDH"/>
-                  <citedRange unit="pp">卷31</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">4.9a; 5.3b-4a</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000038-3">
+              <bibl>
+                 <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                 <citedRange unit="pp">433</citedRange>
                </bibl>
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/B3AUWJYV"/>
+                  <ptr target="https://architecturasinica.org/bibl/IZDDZ7KG"/>
+                  <citedRange unit="pp">402</citedRange>
                </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/YYWD6E9J"/>
-               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000038-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LG8BW5EY"/>
                </bibl>
-               <bibl>
+              <!--  <bibl>
                   <ptr target="https://architecturasinica.org/bibl/DVKXJLD4"/>
                   <citedRange unit="pp">13-44</citedRange>
                </bibl>
