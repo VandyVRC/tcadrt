@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,9 +52,13 @@
          <entryFree xml:id="Ten-Kingdoms" type="time period">
             <term xml:id="term-Ten-Kingdoms-1" xml:lang="en">Ten Kingdoms</term>
             <term xml:id="term-Ten-Kingdoms-2" xml:lang="zh-Hant">十國</term>
-            <state type="existence" from="0907" to="0960">
+            <state type="existence" source="biblk000084-1" from="0907" to="0960">
                <desc>907 CE - 960 CE</desc>
             </state>
+            <bibl xml:id="biblk00084-1">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">11</citedRange>>
+            </bibl>   
             <idno type="URI">https://architecturasinica.org/keyword/k000084</idno>
          </entryFree>
       </body>

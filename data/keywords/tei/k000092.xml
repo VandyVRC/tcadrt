@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,9 +52,13 @@
          <entryFree xml:id="Western-Wei" type="time period">
             <term xml:id="term-Western-Wei-1" xml:lang="en">Western Wei</term>
             <term xml:id="term-Western-Wei-2" xml:lang="zh-Hant">西魏</term>
-            <state type="existence" from="0535" to="0556">
+            <state type="existence" source="biblk000092-1" from="0535" to="0556">
                <desc>535 - 556</desc>
             </state>
+            <bibl xml:id="biblk000092-1">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">12</citedRange>>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000092</idno>
          </entryFree>
       </body>
