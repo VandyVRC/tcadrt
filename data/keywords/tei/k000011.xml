@@ -55,7 +55,7 @@
       	<entryFree xml:id="chuandou" type="architectural-feature">
       		<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">chuāndòu</term>
       		<term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">penetrating and interlocking</term>
-      		<term xml:id="term-feature_name-6" xml:lang="en">column-and-tie-beam framework</term>
+      		<term xml:id="term-feature_name-6" xml:lang="en" source="biblk000011-2">column-and-tie-beam framework</term>
       		<term xml:id="term-feature_name-7" xml:lang="en">post-and-tie construction</term>
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ch'uan-tou</term>
       		<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblk000011-1">穿鬥</term>
@@ -83,6 +83,11 @@
       	         <citedRange unit="pp">4</citedRange> 
       	      </bibl>
       	   </listBibl>
+      	   <bibl xml:id="biblk000011-2">>
+      	         <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+      	         <citedRange unit="pp">351</citedRange> 
+      	      </bibl>
+      	  
       	   <!-- 
 	    <bibl xml:id="biblcao-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
