@@ -51,7 +51,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-17">CREATED: record</change>
          <change n="2.0" when="2020-02-09">REVISED: note</change>
-         <change n="3.0" when="2020-02-13">REVISED: pinyin from LC to CP</change
+         <change n="3.0" when="2020-02-13">REVISED: pinyin from LC to CP</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,7 +62,7 @@
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">昂</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">áng</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ang</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">slanted</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation" source="biblk000103-4">raise up; lift up</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000103-2">(descending or ascending) cantilever</term>
             <note>
                <p>Angled timber member used in corbel bracket sets and placed perpendicular to the building plane. Can be descending (下昂 xiàáng), where the tip extends through the bracket set toward the outside of the building; or ascending (上昂 shàngáng), where it extends from the building plane to support the interior building frame. Level timbers placed perpendicular to the building plane include 華栱 huágǒng and 耍頭 shuǎtóu.</p>
@@ -88,7 +88,11 @@
             <bibl xml:id="biblk000103-3">
                <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
                <citedRange unit="pp">395</citedRange>
-            </bibl>           
+            </bibl> 
+            <bibl xml:id="biblk000103-4">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">4</citedRange>
+            </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000103</idno>
             <listRelation>
                <listRelation>
