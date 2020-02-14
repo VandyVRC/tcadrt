@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+            <resp>adding citations</resp>
+            <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#ML" when="2020-02-13">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,11 +52,15 @@
          <entryFree xml:id="Eastern-Han" type="time period">
             <term xml:id="term-Eastern-Han-1" xml:lang="en">Eastern Han</term>
             <term xml:id="term-Eastern-Han-2" xml:lang="zh-Hant">東漢</term>
-            <state type="existence" from="0025" to="0220">
+            <state type="existence" source="bibl000020-1" from="0025" to="0220">
                <desc>25 - 220</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000020</idno>
          </entryFree>
+         <bibl xml:id="bibl000020-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">11</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

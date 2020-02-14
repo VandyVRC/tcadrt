@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>data entry and proof correction</resp>
                <name type="person">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#ML" when="2020-02-13">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,11 +52,15 @@
          <entryFree xml:id="Five-Dynasties-and-Ten-Kingdoms" type="time period">
             <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-1" xml:lang="en">Five Dynasties and Ten Kingdoms</term>
             <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-2" xml:lang="zh-Hant">五代十國</term>
-            <state type="existence" from="0902" to="0960">
+            <state type="existence" source="bibl000025-1" from="0902" to="0960">
                <desc>902 - 960</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000025</idno>
          </entryFree>
+         <bibl xml:id="bibl000025-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

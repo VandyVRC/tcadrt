@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>data entry and proof correction</resp>
                <name type="person">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+            <resp>adding citations</resp>
+            <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#ML" when="2020-02-13">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,11 +52,15 @@
          <entryFree xml:id="Eastern-Jin" type="time period">
             <term xml:id="term-Eastern-Jin-1" xml:lang="en">Eastern Jin</term>
             <term xml:id="term-Eastern-Jin-2" xml:lang="zh-Hant">東晉</term>
-            <state type="existence" from="0317" to="0420">
+            <state type="existence" source="bibl000021-1" from="0317" to="0420">
                <desc>317 - 420</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/000021</idno>
          </entryFree>
+         <bibl xml:id="bibl000021-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">11</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
