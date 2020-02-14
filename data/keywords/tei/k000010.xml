@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+            <resp>adding citations</resp>
+            <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#ML" when="2020-02-13">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,11 +54,15 @@
             <term xml:id="term-Chu-2" xml:lang="zh-Hant">楚</term>
             <term xml:id="term-Chu-3" xml:lang="en">Southern Chu</term>
             <term xml:id="term-Chu-4" xml:lang="zh-Hant">南楚</term>
-            <state type="existence" from="0907" to="0951">
+            <state type="existence" source="bibl000010-1" from="0907" to="0951">
                <desc>907 - 951</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000010</idno>
          </entryFree>
+         <bibl xml:id="bibl000010-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
