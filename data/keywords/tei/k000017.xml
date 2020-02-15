@@ -17,8 +17,12 @@
                <name type= "team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,7 +52,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2019-05-20">CREATED: record</change>
+         <change n="1.0" when="2019-05-15">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
