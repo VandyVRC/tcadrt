@@ -64,8 +64,7 @@
    <text>
       <body>
          <entryFree xml:id="chiwei" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="zh-latn-pinyin"
-            	source="#biblk000009-1" type="preferred">chīwěi</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-latn-pinyin" source="#biblk000009-1" type="preferred">chīwěi</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000009-2">鴟尾</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">鴟尾</term>
             <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ch'ih-wei</term>
@@ -121,7 +120,6 @@
          </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000009</idno>
             <listRelation>
-               <listRelation>
                <relation ref="foaf:depicts" active="url to flickr here"
                   passive="https://architecturasinica.org/keyword/k000009" rendition="featured"> </relation>
                <relation ref="skos:broadMatch"
@@ -130,8 +128,7 @@
                   source="name_of_numbered_example_here"/>
                <!--where there is an xxx put the number of the example-->
             </listRelation>
-         </listRelation>
-         </entryFree>
+        </entryFree>
       </body>
    </text>
 </TEI>
