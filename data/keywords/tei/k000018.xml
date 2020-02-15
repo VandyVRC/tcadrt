@@ -14,8 +14,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -45,22 +49,23 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2019-05-08">CREATED: record</change>
+         <change n="1.0" when="2019-05-15">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="dipan" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">ground plan</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">地盤</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000018-1">地盤</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">地盘</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dìpán</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ti-p’an</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">ground plate</term>
-            <term xml:id="term-feature_name-7" xml:lang="en">floor plan</term>
-            <term xml:id="term-feature_name-8" xml:lang="en">foundation</term>
-            <term xml:id="term-feature_name-9" xml:lang="en">site</term>
-            <term xml:id="term-feature_name-10" xml:lang="en">structure layout</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000018-2">floor plan</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000018-3">foundation</term>
+            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000018-4">site</term>
+            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000018-5">structure layout</term>
  
             <note>
                <p>An architectural term seen in the Yingzao fashi and Luban yingzao zhengshi, but also used in texts related to building activities such as Zhuzi yulei and Yangzhou huafang lu. Interpretations of the term and its relevant images in the Yingzao fashi are under debate. Some suggest it concerns the plan of puzuo (corbelling) seen at a vertical position above the pillar top (Chen Mingda 2010), either understood as reflected ceiling plan (Chen Mingda 1981), or the view looking downward from above (Zhu Yongchun 2016). Others interpret the term as a ground plan showing pillar positions (the layout of puzuo may also be reflected) (Pan Guxi, He Jianzhong 2005), or possibly relating to foundation as well (Ren Sijie 2016).</p>
@@ -77,12 +82,55 @@
                <term ref="https://architecturasinica.org/keyword/k000005">槽 cáo</term>
             </p>
               </note>
-            <!--This is left as a template for bibliographic structure
-            <bibl xml:id="biblcao-1">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
-               <citedRange unit="pp">199</citedRange>
-             </bibl>   
-            -->
+            
+            <listBibl xml:id="biblk000018-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>                  
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/TEGT7JCK"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/YXBSG3AV"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3G3JQWX4"/>                  
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
+                  <citedRange unit="pp">114</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">159</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/X76NQT7M"/>
+                  <citedRange unit="pp">82-97</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">248</citedRange>                 
+               </bibl>
+            </listBibl>            
+            
+            <bibl xml:id="biblk00018-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">353</citedRange>
+            </bibl>
+            <bibl xml:id="biblk00018-3">
+               <ptr target="https://architecturasinica.org/bibl/2A3XPIY5"/>
+               <citedRange unit="pp">368-375</citedRange>>
+            </bibl>
+            <bibl xml:id="biblk00018-4">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">353</citedRange>>
+            </bibl>
+            <bibl xml:id="biblk00018-5">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">32</citedRange>>
+            </bibl>
+            
 
             <idno type="URI">https://architecturasinica.org/keyword/k000018</idno>
             <listRelation>
