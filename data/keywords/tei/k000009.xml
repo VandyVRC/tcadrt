@@ -64,12 +64,12 @@
    <text>
       <body>
          <entryFree xml:id="chiwei" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="zh-latn-pinyin" source="#biblk000009-1" type="preferred">chīwěi</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-latn-pinyin" type="preferred" source="#biblk000009-1">chīwěi</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000009-2">鴟尾</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">鴟尾</term>
-            <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ch'ih-wei</term>
+            <term xml:id="term-feature_name-4" xml:lang="Wade-Giles" source="#biblk000009-03">ch'ih-wei</term>
             <term xml:id="term-feature_name-5" xml:lang="en" type="literal_translation">owl tail; hawk tail</term>
-            <term xml:id="term-feature_name-6" xml:lang="en">sea beast</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000009-04">sea beast</term>
             <note type="getty:scopeNote">
                <note xml:lang="en">
                	<p>In traditional Chinese architecture, refers to dramatic, curved tiles located at both ends of the roof main ridge. The term appears in official statutory documents regulating the types and grades of buildings that can use chiwei, thus it would have been a marker of high status. There are provisions for the sizes, practices, power limits, and regulations for the Chiwei used on buildings in the Yingzao Fashi (1103, 13.5a-b).</p>
@@ -87,46 +87,84 @@
          	<note>
          		<p> Related terms: 鴟吻，龍尾，吻獸、正吻</p>
          	</note>
-         <listBibl xml:id="biblk000009-1">
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-            </bibl>
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">351</citedRange>
-            </bibl>
-         </listBibl>
-         <listBibl xml:id="biblk000009-2">
-            <bibl>
+            <listBibl xml:id="biblk000009-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>  
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">351</citedRange> 
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000009-2">
+               <bibl>
                <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
                <citedRange unit="pp">13.5a-b</citedRange>
             </bibl>
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">427</citedRange>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">427</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/C6IXNX5C"/>
+                  <citedRange unit="pp">163</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IZDDZ7KG"/>
+                  <citedRange unit="pp">329-330</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/Z2A2RMRZ"/>
+                  <citedRange unit="pp">9</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/N4ZT4PLC"/>
+                  <citedRange unit="pp">57-64+51</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/AL367LLV"/>
+                  <citedRange unit="pp">67-68+17</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/ARCT8QRA"/>
+                  <citedRange unit="pp">68-100</citedRange>
+               </bibl>
+            </listBibl>
+           <bibl xml:id="biblk000009-03">
+              <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+                  <citedRange unit="pp">42</citedRange>
+               </bibl>
+            <bibl xml:id="biblk000009-4">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">24</citedRange> 
             </bibl>
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
-               <citedRange unit="pp">163</citedRange>
+            <!-- 
+	    <bibl xml:id="biblcao-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">199</citedRange>
             </bibl>
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
-               <citedRange unit="pp">329-330</citedRange>
+	    <bibl xml:id="biblcao-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
+                  <citedRange unit="pp">368-375</citedRange>
             </bibl>
-            <bibl>
-               <ptr target="https://architecturasinica.org/bibl/Z2A2RMRZ"/>
-               <citedRange unit="pp">9</citedRange>
+	    <bibl xml:id="biblcao-3">
+                  <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
+	          <citedRange unit="pp">21</citedRange>
             </bibl>
-         </listBibl>
+	    <bibl xml:id="biblcao-4">
+                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
+	          <citedRange unit="pp">350</citedRange>
+            </bibl>
+             -->
             <idno type="URI">https://architecturasinica.org/keyword/k000009</idno>
             <listRelation>
-               <relation ref="foaf:depicts" active="url to flickr here"
-                  passive="https://architecturasinica.org/keyword/k000009" rendition="featured"> </relation>
-               <relation ref="skos:broadMatch"
-                  active="https://architecturasinica.org/keyword/k000009" passive="Roofing Tiles"/>
-               <relation ref="https://architecturasinica.org/place/000xxx"
-                  source="name_of_numbered_example_here"/>
-               <!--where there is an xxx put the number of the example-->
+               <listRelation>
+                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000009" rendition="featured">
+                  </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000009" passive="Roofing Tiles"/>
+                  <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
+                  <!--where there is an xxx put the number of the example-->
+               </listRelation>
             </listRelation>
         </entryFree>
       </body>
