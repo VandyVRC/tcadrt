@@ -15,10 +15,14 @@
                <name type="person">Yang Wantian</name>
                <name type= "team">ATTCAT 2018</name>
             </respStmt>
-            <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
-            </respStmt>
+      	   <respStmt>
+      	      <resp>data entry and proof correction</resp>
+      	      <name type="person" xml:id="TGM">Tracy Miller</name>
+      	   </respStmt>
+      	   <respStmt>
+      	      <resp>adding citations</resp>
+      	      <name type="person" xml:id="SZ">SUN Zheng</name>
+      	   </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -47,17 +51,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2019-05-21">CREATED: record</change>
+         <change n="1.0" when="2019-05-15">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="feature_name_here" type="architectural-feature">
-         	<term xml:id="term-feature_name-4" xml:lang="en" type="preferred">superficial bracket-arm(s)</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">wall supporting bracket-arm</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000029-1">superficial bracket-arm(s)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation" source="#biblk000029-2">wall supporting bracket-arm</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">扶壁栱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">扶壁栱</term>
-         	<term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin">fúbìgǒng</term>
+            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" source="#biblk000029-3">fúbìgǒng</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fu-pi kung</term>
          	<note>
          		<p>Seen in the Yingzao fashi (1103 CE), referring to square beams carved with bracket-arms in low relief, layered within the wall plane above pillar tops. Also called “Shadow Bracket-arm(s)”. Also regarded as referring to the entire composition of square beams and bracket-arms within the wall plane above pillar tops (Cheng Mingda 2010; Xu Yitao 2005).</p>
@@ -70,6 +75,24 @@
          		<p>fubigong: (8) Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 36</p>
          		<p>(REN Sijie 任思捷, YANG Wantian, ATTCAT 2018)</p>
             </note>
+            
+            <bibl xml:id="biblk00029-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">355</citedRange>
+            </bibl>
+            
+            <bibl xml:id="biblk00029-2">
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+            </bibl>
+            
+            <bibl xml:id="biblk00029-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+            
+            
+            
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000029</idno>
             <listRelation>
                <listRelation>
