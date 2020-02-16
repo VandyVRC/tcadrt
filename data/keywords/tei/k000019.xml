@@ -53,13 +53,13 @@
    <text>
       <body>
       	<entryFree xml:id="dougong" type="architectural-feature">
-      		<term xml:id="term-feature_name-7" xml:lang="en" type="preferred" source="biblk000019-1">bracket; bracketing</term>
+      		<term xml:id="term-feature_name-7" xml:lang="en" type="preferred" source="#biblk000019-1">bracket; bracketing</term>
       		<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dǒugǒng</term>
       		<term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">blocks(s) and bracket arm(s)</term>
       		<term xml:id="term-feature_name-6" xml:lang="en">bracket set</term>
-      		<term xml:id="term-feature_name-8" xml:lang="en">bracket-block cluster</term>
+      		<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000019-04">bracket-block cluster</term>
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">tou-kung</term>
-      		<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblk000019-2">枓栱</term>
+      		<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000019-2">枓栱</term>
       		<term xml:id="term-feature_name-3" xml:lang="zh-Hans">斗栱</term>
             <note>
             	<p>In traditional Chinese timber-frame architecture, the dougong is the most conspicuous component. In general, it means a unit consisting of a number of mortised blocks (dou), arms (gong), tie-beams (fang) and inclined beams (ang). They are often usedunder the eaves, on beams, or on the tops of the pillar.</p>
@@ -74,12 +74,30 @@
             	<p>bracket set（s）(3) Fu Xinian. Traditional Chinese Architecture: Twelve Essays. Princeton University Press, 2017: 353； (4) Qinghua Guo, The Structure of Chinese Timber Architecture, Minerva Press, 1999: </p>
             	<p>bracket-block cluster (5) Fu Xinian. Traditional Chinese Architecture. Princeton University Press, 2017: 353 </p>
             </note>
-      	   <bibl xml:id="biblk000019-1">
-      	      <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>   
-      	   </bibl>
+      	   <listBibl xml:id="biblk000019-1">
+      	      <bibl>
+      	       <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/> 
+      	      </bibl>
+      	        <bibl>
+      	           <ptr target="https://architecturasinica.org/bibl/HGPMU84R"/>
+      	        </bibl>
+      	   </listBibl>
       	   <bibl xml:id="biblk000019-2">
       	      <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
       	   <citedRange unit="pp">4.11</citedRange>
+      	   </bibl>
+      	   <listBibl xml:id="biblk000019-03">
+      	   <bibl>
+      	      <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+      	      <citedRange unit="pp">353</citedRange>
+      	   </bibl>
+      	      <bibl>
+      	         <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
+      	      </bibl>
+      	   </listBibl>
+      	   <bibl xml:id="biblk000019-04">
+      	      <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+      	      <citedRange unit="pp">353</citedRange>
       	   </bibl>
       		<!-- 
 	    <bibl xml:id="biblcao-1">
