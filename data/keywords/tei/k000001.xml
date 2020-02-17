@@ -10,7 +10,7 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,15 +41,16 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" when="2020-02-17-04:00">edit name</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="xiaangxing_shuatou" type="architectural-feature">
-            <term xml:id="xiaangxing_shuatou-1" xml:lang="en">descending cantilever-shaped shuatou</term>
-            <term xml:id="xiaangxing_shuatou-4" xml:lang="zh-latn-pinyin">xiaangxing shuatou</term>
-            <term xml:id="xiaangxing_shuatou-2" xml:lang="zh-Hant">下昂形耍頭</term>
-            <term xml:id="xiaangxing_shuatou-3" xml:lang="zh-Hans">下昂形耍头</term>
+            <term xml:id="xiaangxing_shuatou-1" xml:lang="en">slanted bracket arm-shaped shuatou</term>
+            <term xml:id="xiaangxing_shuatou-4" xml:lang="zh-latn-pinyin">angxing shuatou</term>
+            <term xml:id="xiaangxing_shuatou-2" xml:lang="zh-Hant">昂形耍頭</term>
+            <term xml:id="xiaangxing_shuatou-3" xml:lang="zh-Hans">昂形耍头</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             <gloss/>
             <listRelation>
