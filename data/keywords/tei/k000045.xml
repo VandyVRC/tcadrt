@@ -6,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">cross beam 梁</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">梁</foreign>
+               cross beams
+            </title>
             <!-- title has pinyin first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -18,7 +21,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id=TGM>Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-20">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-02-16">update title</change>
       </revisionDesc>
    </teiHeader>
    <text>
