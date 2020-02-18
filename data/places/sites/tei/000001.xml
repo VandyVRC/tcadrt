@@ -123,9 +123,6 @@
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
-            <p>External Link</p>
-            <p><ref target="https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E7%A6%85%E5%AF%BA&oldid=30772744}-">Wikipedia</ref></p>
-            <p><ref target="https://baike.baidu.com/item/%E5%AE%89%E7%A6%85%E5%AF%BA">Baidu</ref></p>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000001" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000001" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
@@ -133,6 +130,9 @@
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg" passive="https://architecturasinica.org/place/000001" ana="featured"/>
             </listRelation>
          </listPlace>
+         <p>External Link</p>
+         <p><ref target="https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E7%A6%85%E5%AF%BA&oldid=30772744}-">Wikipedia</ref></p>
+         <p><ref target="https://baike.baidu.com/item/%E5%AE%89%E7%A6%85%E5%AF%BA">Baidu</ref></p>
       </body>
    </text>
 </TEI>
