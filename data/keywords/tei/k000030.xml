@@ -52,12 +52,12 @@
          <entryFree xml:id="Han" type="time period">
             <term xml:id="term-Han-1" xml:lang="en">Han</term>
             <term xml:id="term-Han-2" xml:lang="zh-Hant">漢</term>
-            <state type="existence" source="bibl000030-1" from="0202" to="0220">
+            <state type="existence" source="#biblk000030-1" from="0202" to="0220">
                <desc>202 BCE - 220 CE</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000030</idno>
          </entryFree>
-         <bibl xml:id="bibl000030-1">
+         <bibl xml:id="biblk000030-1">
             <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
             <citedRange unit="pp">11</citedRange>
          </bibl>
