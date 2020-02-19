@@ -6,21 +6,20 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">caihua</title>
-            <!-- title has pinyin first, then English -->
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">彩畫</foreign> caihua</title>
+            <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
-         	<!--
             <respStmt>
                <resp>Initial Research</resp>
                <name type="person">Ren Sijie 任思捷</name>
                <name type= "team">ATTCAT 2018</name>
             </respStmt>
-         	-->
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -51,20 +50,21 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-12-03">CREATED: record</change>
+         <change n="2.0" when="2020-02-20">Editing body text</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="caihua" type="architectural-feature">
-         	<term xml:id="term-feature_name-7" xml:lang="en" type="preferred">Polychrome Painting</term>
+         	<term xml:id="term-feature_name-7" xml:lang="en" type="preferred">Polychrome painting</term>
          	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cǎihuà</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblcaihua-1">彩畫</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">彩画</term>
-         	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts’ai hua</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblcaihua-2">Decorative Coating</term>
-         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblcaihua-3">Decorative Polychrome Painting of Architectural Members</term>
+         	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts’ai-hua</term>
+         	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblcaihua-2">Decorative coating</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblcaihua-3">Decorative polychrome painting of Architectural Members</term>
             <note>
-            	<p>Painted decoration on clothing, utensils, boats, chariots, architectural surfaces, et al., created using polychrome colorants. In Chapter 14 of the Yingzao fashi (1103), the craft of applying polychrome painted decoration on architectural surfaces (caihuazuo 彩畫作) is categorized as a specific division of architectural works.</p>            
+               <p>Painted decoration on clothing, utensils, boats, chariots, architectural surfaces, et al., created using polychrome colorants. In Chapter 14 of the Yingzao fashi (1103), the craft of applying polychrome painted decoration on architectural surfaces (caihuazuo 彩畫作) is categorized as a specific division of architectural works (REN Sijie 任思捷, ATTCAT 2018)</p>            
             	<p>指衣飾、器物、舟車、棺椁或建築等等表面施用的多彩裝飾。《營造法式》(1103年) 卷十四，將在建築表面裝飾彩畫的工藝單獨列為一類營造工種。</p>
                	<p>Related Concepts: Polychrome Painting Works</p>
                 <p>Sources and Contributors:</p>
