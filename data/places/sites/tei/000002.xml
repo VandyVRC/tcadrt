@@ -13,8 +13,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -44,6 +48,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#YFB" when="2020-02-20">adding external links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,7 +84,7 @@
                    <label>Dynasty</label>
                    <desc>Jin 1115 - 1234</desc>
                   </state>
-               <note>
+               <note type="External Links">
                   <p><ref target="https://tinyurl.com/rhgeomm">Wikipedia (in Chinese)</ref></p>
                   <p><ref target="https://tinyurl.com/sfff28r">百度百科</ref></p>
                </note>
