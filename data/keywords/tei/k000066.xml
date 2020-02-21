@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="YC">Yiyang Chen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,11 +51,15 @@
          <entryFree xml:id="Post-Qing" type="time period">
             <term xml:id="term-Post-Qing-1" xml:lang="en">Post Qing</term>
             <term xml:id="term-Post-Qing-2" xml:lang="zh-Hant">清以後</term>
-            <state type="existence" from="1912" to="0000">
+            <state type="existence" source="bibilk000066-1" from="1912" to="0000">
                <desc>1912 - </desc>
             </state>
          	<idno type="URI">https://architecturasinica.org/k000066</idno>
          </entryFree>
+         <bibl xml:id="biblk000066-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
