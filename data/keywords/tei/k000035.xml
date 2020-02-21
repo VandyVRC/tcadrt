@@ -15,12 +15,12 @@
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
-            	<name type="person">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -52,6 +52,7 @@
       <revisionDesc>
          <change n="1.0" when="2019-05-23">CREATED: record</change>
          <change when="2020-02-05">Edited: record</change>
+         <change when="2020-02-21" who="#TGM">Edited: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
