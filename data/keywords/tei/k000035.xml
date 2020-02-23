@@ -22,6 +22,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -51,25 +55,24 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-23">CREATED: record</change>
-         <change when="2020-02-05">Edited: record</change>
-         <change when="2020-02-21" who="#TGM">Edited: record</change>
+         <change n="2.0" who="#ML" when="2020-02-20">adding citation(s)</change>
+         <change n="3.0" who="#TGM" when="2020-02-21">edited record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="jiaozhu" type="architectural-feature">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">jiǎozhù</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">角柱</term>
+         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000035-2">角柱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">角柱</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chiao-chu</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred">corner pillars</term>            
-         	<term xml:id="term-feature_name-6" xml:lang="en">corner columns</term>
+         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000035-1">corner pillars</term>          	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000035-3">corner columns</term>
             <note>
             	<p>Jiaozhu is a broad term referring to any pillar placed at the corner of a building. Usually, “corner pillars” refer to eaves pillars located at the corners of a timber frame structure.  In Chapter 5 of the Yingzao Fashi (1103), corner pillars are discussed in conjunction with leveling (central bay) pillars in the calculations of the changes in height necessary to achieve the appropriate upward curvature of the eaves toward the corners. In the Song dynasty Yingzao Fashi as well as the Qing dynasty Digong zuofa and Gongcheng zuofa, the term can also refer to short pillars located at the corners of a foundation (taiji), which were usually made of stone.</p>
             	<p>角柱，即位於角部的柱的泛稱。通常指建築物外檐角部的柱。  在宋《營造法式》卷五，大木作部分的角柱與平柱一起，用於通过生起确定屋檐的曲线。 在宋《營造法式》和清《地宮作法》， 《工程做法》 角柱也指台基角部的短石柱。</p>
             	<p>(ZHUGE Jing 諸葛净, ATTCAT 2018)</p>       
                <p> Sources and Contributors:</p>
-            	<p>corner pillars: ATTCAT</p>
+            	<p>corner pillars: ATTCAT 2018</p>
             	<p>角柱: (1) (宋）李誡著.故宫博物院编.(故宫藏抄本）營造法式.北京：紫禁城出版社，2009, 5.4b-5a (2) 陈明达. 《营造法式》辞解. 天津: 天津大学出版社, 2010：111 (3) 王效青主编. 中国古建筑术语辞典. 北京: 文物出版社, 2007: 203</p>
             	<p>corner column: (3) Guo, Qinghua. A Visual Dictionary of Chinese Architecture 中國建築英漢雙解辭典. Mulgrave, Vic., Australia: Images Pub., 2002：64 </p>
             	<p>Related terms:</p>
@@ -79,6 +82,26 @@
                <p>檐柱 yánzhù</p>
                <p>台基 táijī</p>
                	  </note>
+            <bibl xml:id="biblk000035-1">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+            <listBibl xml:id="biblk000035-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">111</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IZDDZ7KG"/>
+                  <citedRange unit="pp">203</citedRange>
+               </bibl>
+               </listBibl>
+            <bibl xml:id="biblk000035-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">64</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000035</idno>
             <listRelation>
                <listRelation>
