@@ -15,7 +15,7 @@
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person" >ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
@@ -88,6 +88,7 @@
             <listBibl xml:id="biblk000035-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">5.4b-5a</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
