@@ -11,7 +11,7 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +41,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="1.0" when="2020-02-17-04:00" who="#TGM">edit keyword identification</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,9 +81,9 @@
                <note type="field-notes">offering hall originally a stage from Jin dynasty; alternative names: 獻殿, 拜殿</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/Keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
@@ -96,7 +97,7 @@
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/xiaangxing_shuatou" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000250" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4136/4820807807_6f0ac7f303_" passive="https://architecturasinica.org/place/000250">

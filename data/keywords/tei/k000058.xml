@@ -18,7 +18,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-         	<idno type="URI">https://architecturasinica.org/keyword/k000058/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000058/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -40,15 +40,16 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.0" when="2020-02-23-04:00">Update: Chinese name</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="number_of_ic_in_central_bay" type="architectural-feature" sub-type="numeric">
             <term xml:id="term-number_of_ic_in_central_bay-1" xml:lang="en">number of intercolumnar bracket sets in central bay</term>
-            <term xml:id="term-number_of_ic_in_central_bay-4" xml:lang="zh-latn-pinyin">duoshao mingjian puzuo</term>
-            <term xml:id="term-number_of_ic_in_central_bay-2" xml:lang="zh-Hant">多少明間鋪作</term>
-            <term xml:id="term-number_of_ic_in_central_bay-3" xml:lang="zh-Hans">多少明间铺作</term>
+            <term xml:id="term-number_of_ic_in_central_bay-4" xml:lang="zh-latn-pinyin">mingjian puzuo shu</term>
+            <term xml:id="term-number_of_ic_in_central_bay-2" xml:lang="zh-Hant">明間鋪作數</term>
+            <term xml:id="term-number_of_ic_in_central_bay-3" xml:lang="zh-Hans">明间铺作数</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000058</idno>
             <listRelation>
             	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000058" passive="Bracketing"/>

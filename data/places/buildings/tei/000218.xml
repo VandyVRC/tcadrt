@@ -74,8 +74,8 @@
                <note type="field-notes">Song-Yuan style; see: ZGMSCD 320</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000218" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000218" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000218" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000218" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000218" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000069"/>
             </listRelation>
          </listPlace>

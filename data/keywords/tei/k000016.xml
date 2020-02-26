@@ -9,7 +9,7 @@
          <titleStmt>
             <title level="a" xml:lang="en">
             	<foreign xml:lang="zh-hanst">堞</foreign> battlements</title>
-            	            <!-- title has pinyin first, then English -->
+            	            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -19,8 +19,12 @@
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -51,20 +55,20 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-15">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="cao" type="architectural-feature">
+         <entryFree xml:id="die" type="fortification elements">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dié</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">堞</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000016-1">堞</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">堞</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">tieh</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">battlements</term>
-            <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation"
-               >battlement</term>
-            <term xml:id="term-feature_name-6" xml:lang="en">parapet</term>
-         	<term xml:id="term-feature_name-8" xml:lang="en">merlons</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000016-2">battlements</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">battlement</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000016-3">parapet</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000016-4">merlons</term>
             <note>
                <p>In traditional Chinese fortifications, die refers to the battlements built on the
                   top of a city wall constructed to protect defenders from missile fire. This term
@@ -77,7 +81,7 @@
                 <p>(JIA Tingli 賈亭立 2018, ATTCAT)</p>       
                <p> Sources and Contributors:</p>
             	<p>battlement: ATTCAT</p>
-            	<p>堞: (1) （戰國）墨翟撰.墨子 (2) （宋）曾公亮，丁度撰.武經總要.清文淵閣四庫全書本 (3)（南宋）陳規等.守城錄.清道光瓶花書屋校刊本.卷二 陳規守城機要：3b-4a (4) 李國豪等主編. 中國土木建築百科辭典：建築. 北京：建築工業出版社，2006：428 (5) 李劍平編著. 中國古建築名詞圖解辭典.太原：山西科學技術出版社，2011：258 (6) 黃寬重. 宋代城郭的防禦設施及材料_黃重寬.(臺北)大六雑誌,1990,81(2):1-23 </p>
+               <p>堞: (1) （戰國）墨翟撰.墨子 (2) （宋）曾公亮，丁度撰.武經總要.清文淵閣四庫全書本 (3)（南宋）陳規等.守城錄.清道光瓶花書屋校刊本.卷二 陳規守城機要：3b-4a (4) 李國豪等主編. 中國土木建築百科辭典：建築. 北京：建築工業出版社，2006：428 (5) 李劍平編著. 中國古建築名詞圖解辭典.太原：山西科學技術出版社，2011：258 (6) 黃寬重. 宋代城郭的防禦設施及材料_黃寬重.(臺北)大陸雑誌,1990,81(2):1-23 </p>
             	<p>merlons: (7) Fu Xinian. Traditional Chinese Architecture: Twelve Essays：351</p>
             	<p>parapet; battlement: (8) HUANG Kuan-chung, “Defensive Structures and Construction Materials in Song City Walls,” trans. by Wen-yi CHEN, Peter Lorge, and Tracy G. Miller. Journal of Song-Yuan Studies 31 (2001), 49.</p>
             	<p>Related terms: zhidie 雉堞 ; nǚtóuqiáng 女頭墻 ; Duǒkǒuqiáng 垛口墻</p>
@@ -89,6 +93,47 @@
             	<p>堞在先秦文獻中就有出現，如《墨子》1。指修築於城墻頂面外邊緣的齒形矮墻。起遮護守城士兵的作用，是城墻頂面的主要防禦設施之壹。又稱雉堞、女頭墻、垛口墙等。</p>
             	<p>從古代圖像資料看，宋及宋以前，堞多為“山”字形。南宋陳規《守城機要》中記載：“女頭墻，舊制與城外邊約地六尺壹個，高者不過五尺，作山字樣，兩女頭間留女口壹個”。（陳規等，清道光瓶花書屋校刊本，卷二：3b-4a）如敦煌石窟257窟西壁中層北魏時期的壁畫（圖1）、唐懿德太子墓墓室壁畫（圖2）城墻頂部都有“山”字形堞墻。宋之後，大部分城墻上垛口墻變為連續的矩形垛墻形式（圖3），但“山”字形堞墻在皇家建築上仍有使用，如明南京宮城（圖4），明孝陵寶城寶頂圍墻部分。城墻上堞墻形制的變化總體上呈現出，垛墻面積變大，垛口變窄，即保護遮蔽面積變大的趨勢。(賈亭立 等，2010:440） </p>
                	  </note>
+            <listBibl xml:id="biblk000016-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GZW8LD88"/>                  
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WKCL2CN5"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XLKV2ZQW"/>
+                  <citedRange unit="pp">2.3b-4a</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/ITQV48ML"/>
+                  <citedRange unit="pp">428</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/9ZMAER8F"/>
+                  <citedRange unit="pp">258</citedRange>                 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G67D9WCH"/>
+                  <citedRange unit="pp">1-23</citedRange>                 
+               </bibl>                                            
+            </listBibl>            
+            
+            <bibl xml:id="biblk000016-2">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>
+              <bibl xml:id="biblk000016-3">
+               <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+               <citedRange unit="pp">49</citedRange>>
+              </bibl>
+            <bibl xml:id="biblk000016-4">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">351</citedRange>>
+            </bibl>
+            
+            
+            
+            
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000016</idno>
             <listRelation>
                <listRelation>

@@ -82,7 +82,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000164" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000164" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000164" passive="https://architecturasinica.org/Keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000164" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
@@ -96,7 +96,7 @@
                   </desc>
                </relation>
                <relation active="https://architecturasinica.org/place/000164" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000164" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Liao" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000164" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000164">
                   <desc>Guanyinge, Front view from Shanmen</desc>
                </relation>

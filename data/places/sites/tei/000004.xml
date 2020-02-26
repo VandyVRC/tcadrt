@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Baoguo Monastery <foreign xml:lang="zh-Hant">保國寺</foreign>
+            <title level="a" xml:lang="en">Baoguo Monastery <foreign xml:lang="zh-Hant"
+                  >保國寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -47,16 +50,28 @@
       <body>
          <listPlace>
             <place xml:id="place-000004" type="site">
-               <placeName xml:id="name000004-1" type="site-name" xml:lang="en">Baoguo Monastery</placeName>
-               <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin">Baoguosi</placeName>
+               <placeName xml:id="name000004-1" type="site-name" xml:lang="en">Baoguo
+                  Monastery</placeName>
+               <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Baoguosi</placeName>
                <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
                <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000004</idno>
-               <state type="existence" subtype="dynasty" source="bibl000004-1" from="0025-01-01" to="01912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000004-1" from="0025-01-01"
+                  to="01912-01-01">
                   <label>Dynasty</label>
-                  <desc>Eastern Han to Qing</desc>
+                  <desc>Eastern Han to Qing 25-1912</desc>
                </state>
-               <location type="nested" source="http://vocab.getty.edu/tgn/8630826 http://vocab.getty.edu/aat/300387145">
+               <note>
+                  <p>
+                     <ref target="https://tinyurl.com/yxxur8ok">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/v8t93wu">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8630826 http://vocab.getty.edu/aat/300387145">
                   <placeName>浙江省宁波市</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
                   <country>China</country>
@@ -84,20 +99,28 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <note>Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880 and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961 under protection. Some difference between Magellan and google earth Lat/Lon readings: 29˚ 58.98' N  (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚ 31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite photo</note>
+               <note>Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880
+                  and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961
+                  under protection. Some difference between Magellan and google earth Lat/Lon
+                  readings: 29˚ 58.98' N (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚
+                  31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite
+                  photo</note>
                <bibl xml:id="bibl000004-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000004" passive="https://architecturasinica.org/keyword/monastery-Buddhist" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000020" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Republic-of-China" ana="dynasty"/>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4608/40280520912_014e34d84c_z.jpg" passive="https://architecturasinica.org/place/000004" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000004"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000020" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/Republic-of-China" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://farm5.staticflickr.com/4608/40280520912_014e34d84c_z.jpg"
+                  passive="https://architecturasinica.org/place/000004" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

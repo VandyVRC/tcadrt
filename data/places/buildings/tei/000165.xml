@@ -80,7 +80,7 @@
                <note type="field-notes">song elements rebuilt--exclude?</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/Keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
@@ -89,7 +89,7 @@
                   </desc>
                </relation>
                <relation active="https://architecturasinica.org/place/000165" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000165" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Northern-Song" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000165" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000165" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000025"/>
             </listRelation>
          </listPlace>

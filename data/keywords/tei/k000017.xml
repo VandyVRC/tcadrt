@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">dingfu (T-beam)</title>
-            <!-- title has pinyin first, then English -->
+            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -17,8 +17,12 @@
                <name type= "team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,15 +52,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2019-05-20">CREATED: record</change>
+         <change n="1.0" when="2019-05-15">CREATED: record</change>
+         <change n="2.0" who="#SZ" when="2020-02-14">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="dingfu" type="architectural-feature">
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred">T-beam</term>
-         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dīngfú</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">丁栿</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000017-1">T-beam</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000017-2">dīngfú</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000017-3">丁栿</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">丁栿</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ting-fu</term>
             <note>
@@ -71,67 +76,38 @@
             	<p xml:lang="zh-Hant">丁栿指四阿（即廡殿）或廈兩頭（即歇山）房屋山面的梁，與進深方向的梁在平面上成“丁”字形。丁栿僅見於宋《營造法式》（初刊於崇寧二年，1103年）。現代學者將之用於對唐至明初建築物的描述。 梁思成在《營造法式註釋》中認為“丁栿梁首由外檐鋪作承托，梁尾搭在檐栿上，與檐栿（在平面上）構成“丁”字形。”（梁思成，1983:152）陳明達的定義與之相似：“四阿或廈兩頭房屋，承山面屋蓋所用大梁，與橫向屋架上的大梁成丁字相疊壘，故名‘丁栿’”。但陳明達的解釋未強調梁首由外檐鋪作承托（陳明達，2010:13）。同樣有學者認為“丁栿應不僅限於山面檐步，凡用於山面的與正身梁栿丁字相交的縱向梁栿都可謂之丁栿。”（賈洪波，2010:93）江南地區宋元時期井字形構架的建築，山面梁栿和順身梁栿一樣尾部插入中心柱中，在這方面有重要研究的一些學者仍以乳栿稱之。（圖）（張十慶，2015）但也有發明“丁乳栿”一詞稱呼該類構件的個例。（張亞宣，2017)</p>
             	<p>(ZHUGE Jing 諸葛净 and CHEN Luxi 陳麓西, ATTCAT 2018)</p>
             </note>
-         	<!--  
-         	    <bibl xml:id="biblcao-1">
-                  <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
-	          <citedRange unit="pp">21</citedRange>
-            </bibl>
-	    <bibl xml:id="biblcao-2">
-                  <ptr target="https://architecturasinica.org/bibl/S4CCWQQU"/>
-	          <citedRange unit="pp">350</citedRange>
-            </bibl>
-            -->
-	    <!-- listBibl>
-	
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/"/>
-                       <citedRange unit="pp"></citedRange>
-                  </bibl>
-                       <ptr target="https://architecturasinica.org/bibl/B3AUWJYV"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/YYWD6E9J"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/LG8BW5EY"/>
-                  </bibl>
-	          <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/DVKXJLD4"/>
-                       <citedRange unit="pp">13-44</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
-                       <citedRange unit="pp">115-116</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/CLI46B7N"/>
-                       <citedRange unit="pp">267-268</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/XVDZKH9M"/>
-                       <citedRange unit="pp">405</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/JIXE7DCY"/>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/8UHM6VJV"/>
-                       <citedRange unit="pp">41-43</citedRange>
-                  </bibl>
-		  <bibl>
-                       <ptr target="https://architecturasinica.org/bibl/2267085"/>
-                       <citedRange unit="pp">82-97</citedRange>
-                  </bibl>
-	    </listBibl-->
-	    <!-- bibl xml:id="biblcao-4">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">199</citedRange>
-            </bibl>
-	    <bibl xml:id="biblcao-5">
-                  <ptr target="https://architecturasinica.org/bibl/ZD82P772"/>
-                  <citedRange unit="pp">368-375</citedRange>
-            </bibl>
-            -->
+            
+            
+            <bibl xml:id="biblk000017-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">32</citedRange>
+            </bibl>          
+            
+            <listBibl xml:id="biblk000017-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               </bibl>               
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/VWGY726P"/>
+                  <citedRange unit="pp">152</citedRange>                   
+               </bibl>               
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">13</citedRange>
+               </bibl> 
+            </listBibl>   
+            
+                <listBibl xml:id="biblk000017-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">353</citedRange>
+               </bibl>                              
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">32</citedRange>
+               </bibl> 
+            </listBibl>    
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000017</idno>
             <listRelation>
                <listRelation>

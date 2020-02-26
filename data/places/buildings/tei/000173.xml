@@ -73,7 +73,7 @@
                <note type="field-notes">earliest stage</note>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000173" passive="https://architecturasinica.org/Keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000173" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
@@ -86,7 +86,7 @@
                   </desc>
                </relation>
                <relation active="https://architecturasinica.org/place/000173" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000173" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Liao" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000173" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000173" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000032"/>
             </listRelation>
          </listPlace>

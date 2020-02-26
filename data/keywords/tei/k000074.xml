@@ -9,8 +9,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="YC">Yiyang Chen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -40,6 +44,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#YC" when="2020-02-21">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,11 +52,15 @@
          <entryFree xml:id="Song" type="time period">
             <term xml:id="term-Song-1" xml:lang="en">Song</term>
             <term xml:id="term-Song-2" xml:lang="zh-Hant">宋</term>
-            <state type="existence" from="0960" to="1279">
-               <desc>960 CE - 1279 BCE</desc>
+            <state type="existence" source="#biblk000074-1" from="0960" to="1279">
+               <desc>960 - 1279</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000074</idno>
          </entryFree>
+         <bibl xml:id="biblk000074-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
