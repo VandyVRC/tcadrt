@@ -47,11 +47,15 @@
          <entryFree xml:id="Later-Liang" type="time period">
             <term xml:id="term-Later-Liang-1" xml:lang="en">Later Liang</term>
             <term xml:id="term-Later-Liang-2" xml:lang="zh-Hant">後梁</term>
-            <state type="existence" from="0907" to="0923">
+            <state type="existence" source="#biblk000041-1" from="0907" to="0923">
                <desc>907 - 923</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000041</idno>
          </entryFree>
+         <bibl xml:id="biblk000041-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

@@ -47,11 +47,15 @@
          <entryFree xml:id="Min" type="time period">
             <term xml:id="term-Min-1" xml:lang="en">Min</term>
             <term xml:id="term-Min-2" xml:lang="zh-Hant">閩</term>
-            <state type="existence" from="0909" to="0945">
+            <state type="existence" source="#biblk000050-1" from="0909" to="0945">
                <desc>909 - 945</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000050</idno>
          </entryFree>
+         <bibl xml:id="biblk000050-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

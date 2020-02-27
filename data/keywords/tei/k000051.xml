@@ -47,11 +47,15 @@
          <entryFree xml:id="Ming" type="time period">
             <term xml:id="term-Ming-1" xml:lang="en">Ming</term>
             <term xml:id="term-Ming-2" xml:lang="zh-Hant">明</term>
-            <state type="existence" from="1368" to="1644">
+            <state type="existence" source="#biblk000051-1" from="1368" to="1644">
                <desc>1368 - 1644</desc>
             </state>
          	<idno type="URI">https://architecturasinica.org/keyword/k000051</idno>
          </entryFree>
+         <bibl xml:id="biblk000051-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>

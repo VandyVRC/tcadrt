@@ -47,11 +47,15 @@
          <entryFree xml:id="Later-Zhou" type="time period">
             <term xml:id="term-Later-Zhou-1" xml:lang="en">Later Zhou</term>
             <term xml:id="term-Later-Zhou-2" xml:lang="zh-Hant">後周</term>
-            <state type="existence" from="0951" to="0960">
+            <state type="existence" source="#biblk000044-1" from="0951" to="0960">
                <desc>951 - 960</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000044</idno>
          </entryFree>
+         <bibl xml:id="biblk000044-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
