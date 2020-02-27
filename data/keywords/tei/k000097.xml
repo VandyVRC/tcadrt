@@ -12,16 +12,20 @@
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="editor">Tracy Miller</editor>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <editor role="editor" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
-            	<name type="person">Zhuge Jing 諸葛净</name>
+            	<name type="person" xml:id="ZJ">Zhuge Jing 諸葛净</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,20 +57,21 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-22">CREATED: record</change>
+         <change n="2.0" who="#SQ" when="2020-02-27">adding citations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred">eaves tie beam</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">檐額</term>
-         	<term xml:id="term-feature_name-7" xml:lang="zh-Hans">檐额</term> 	
+            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000097-1">eaves tie beam</term>
+         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000097-2">檐額</term>
+         	<term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
          	<term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">yan’e</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yen-o</term>
             <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">eaves forehead</term>
-         	<term xml:id="term-feature_name-6" xml:lang="en">eaves architrave</term>
-         	<term xml:id="term-feature_name-8" xml:lang="en">end-to-end architrave</term>
-         	<term xml:id="term-feature_name-9" xml:lang="en">eaves-column-top-tie</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000097-6">eaves architrave</term>
+         	<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000097-4">end-to-end architrave</term>
+         	<term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000097-5">eaves-column-top-tie</term>
             <note type="getty:scopeNote">
                <note xml:lang="en">
                	<p>Most architectural scholars agree that in traditional Chinese timber-frame buildings, eaves tie beams refer to a structural elements positioned on top of eaves pillars, run parallel to the roof ridge, and span at least three bays. The use of this element indicates a structural system where the roof is supported by the timber frame parallel to the roof ridge. This stands in contradistinction to the more commonly-seen system where the timber-framing elements perpendicular to the roof ridge support the roof. But there are different opinions among scholars about whether the element referred to as the “eaves tie beam” must project from pillars at the corners of the building. As far as we know, the term is primarily used in the Yingzao Fashi (1103) . However, the precise definition of the yan’e as used in the Yingzao fashi, as well as its relationship to the Scholars who believe that eaves tie beams which project from pillars ends follow the description in the Yingzao Fashi (5.4a) strictly use the Linshui ting 臨水亭 of the Jidumiao 濟瀆廟 in Jiyuan xian, Henan 濟源縣, the main hall of the Guanwangmiao 關王廟大殿 in Dingxiangxian 定襄縣, Shanxi, and the Guanyinge 觀音閣 of Kaihuasi 開化寺, in Gaoping, Shanxi 山西高平 as examples. Scholars who emphasize the comment in the Yingzao fashi stating the dimensions of this element regularly exceed that of other timbers in this location argue that these long horizontal elements on top of eaves pillars in buildings dating to Yuan Dynasty in Shanxi and Shaanxi province are eaves tie beams. </p>
@@ -77,7 +82,7 @@
                </note>
             </note>            
             <note type="sources">         
-            	<p>pillar top tie beam: ATTCAT</p>
+               <p>eaves tie beam: ATTCAT</p>
             	<p>檐額: (1)(宋）李誡著.故宫博物院编. 營造法式(故宫藏抄本）.北京：紫禁城出版社，2009，卷五，卷七，卷十四，卷二十六</p>
             	<p>檐额: (2) 陈明达. 《营造法式》辞解. 天津: 天津大学出版社, 2010：437</p>
             	<p>end-to-end architrave: (3) Fu, Xinian, Alexandra Harrer, and Nancy Shatzman Steinhardt. Traditional Chinese Architecture : Twelve Essays. The Princeton-China Series. Princeton: Princeton University Press, 2017. 70, Figure 2.22.</p>
@@ -86,7 +91,29 @@
             	<p>Related terms:</p>
             	<p>阑额; 楣； 橫楣</p>
             </note>
-         	
+            <bibl xml:id="biblk000097-1">
+               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+            </bibl>   
+            <bibl xml:id="biblk000097-2">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               <citedRange unit="pp">5, 7, 14, 26</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000097-3">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">437</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000097-4">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">70, Figure 2.22</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000097-5">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">87</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000097-6">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">370</citedRange>
+            </bibl>
          	<!--listBibl xml:id="biblcao-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/2ZJTIV9J"/>
