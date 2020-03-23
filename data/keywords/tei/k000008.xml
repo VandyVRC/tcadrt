@@ -10,9 +10,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
-         </titleStmt>
+               <resp>adding citation</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
@@ -40,6 +42,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#YFB" when="2020-02-07">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,12 +52,12 @@
             <term xml:id="term-Chen-2" xml:lang="en">Chen Dynasty</term>
             <term xml:id="term-Chen-3" xml:lang="zh-Hant">陳</term>
             <term xml:id="term-Chen-4" xml:lang="zh-Hant">陳朝</term>
-            <state type="existence" source="#bibl000001-1" from="0557" to="0589">
-               <desc>557 - 589 CE</desc>
+            <state type="existence" source="#biblk000008-1" from="0557" to="0589">
+            <desc>557 - 589 CE</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000008</idno>
          </entryFree>
-         <bibl xml:id="bibl000001-1">
+         <bibl xml:id="biblk000008-1">
             <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
             <citedRange unit="pp">11</citedRange>
          </bibl>
