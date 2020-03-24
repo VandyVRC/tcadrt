@@ -57,11 +57,11 @@
                <placeName xml:id="name000043-3" type="site-name" xml:lang="zh-Hant">會仙觀</placeName>
                <placeName xml:id="name000043-4" type="site-name" xml:lang="zh-Hans">会仙观</placeName>
                <idno type="URI">https://architecturasinica.org/place/000043</idno>
-               <state type="existence" subtype="dynasty" source="bibl000043-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000043-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <note type="External Links">
+                  <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/w3t6sue">Wikipedia (in Chinese)</ref>
                   </p>
@@ -97,7 +97,7 @@
                   <desc xml:lang="zh-Hant">觀</desc>
                   <desc xml:lang="zh-Hans">观</desc>
                </trait>
-               <bibl xml:id="bibl000043-1">
+                  <bibl xml:id="bibl000043-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
