@@ -84,24 +84,18 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000124-1">
+                <bibl xml:id="bibl000124-1">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">III (xia):762;57-C1-1</citedRange>
+                  <citedRange unit="pp">III (xia): 762; 57-C1-1</citedRange>
                </bibl>
                <bibl xml:id="bibl000124-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <note type="field-notes">sutra repository Song, compare to Jidumiao qingong</note>
-               <note type="notes" source="#bibl000124-1">-other parts of the monastary have been destroyed</note>
-               </place>
+            </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
-                  <desc>
-                     <num>1</num>
-                  </desc>
-               </relation>
+               <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
