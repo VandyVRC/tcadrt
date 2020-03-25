@@ -57,9 +57,9 @@
                <placeName xml:id="name000041-3" type="site-name" xml:lang="zh-Hant">華嚴寺</placeName>
                <placeName xml:id="name000041-4" type="site-name" xml:lang="zh-Hans">华严寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000041</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000041-1" from="0001-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000041-1" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
-                  <desc>Liao  - </desc>
+                  <desc>Liao 916 - 1125</desc>
                </state>
                <note type="External Links">                  
                   <p>
@@ -105,7 +105,7 @@
                </trait>
                <bibl xml:id="bibl000041-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11-12</citedRange>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>

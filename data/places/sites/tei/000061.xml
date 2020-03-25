@@ -59,9 +59,9 @@
                <idno type="URI">https://architecturasinica.org/place/000061</idno>
                <idno type="URI">http://sws.geonames.org/1803429/</idno>
                <idno type="URI">http://vocab.getty.edu/tgn/8625249/</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000061-1" from="0001-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000061-1" from="0351-01-01" to="0394-01-01">
                   <label>Dynasty</label>
-                  <desc>Former Qin  - </desc>
+                  <desc>Former Qin 351 - 394</desc>
                </state>
                <note type="External Links">
                   <p>
@@ -104,7 +104,7 @@
                </trait>
                <bibl xml:id="bibl000061-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11-12</citedRange>
+                  <citedRange unit="pp">11</citedRange>
                </bibl>
             </place>
             <listRelation>
