@@ -57,11 +57,14 @@
                <placeName xml:id="name000072-3" type="site-name" xml:lang="zh-Hant">莆田元妙觀</placeName>
                <placeName xml:id="name000072-4" type="site-name" xml:lang="zh-Hans">莆田元妙观</placeName>
                <idno type="URI">https://architecturasinica.org/place/000072</idno>
-               <state type="existence" subtype="dynasty" source="bibl000072-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000072-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <note type="External Links">
+               <note type="External Links"> 
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Yuanmiao_Temple_(Putian)">Wikipedia (in English)</ref>
+                  </p>
                <p>
                   <ref target="https://tinyurl.com/werqy3n">Wikipedia (in Chinese)</ref>
                </p>
