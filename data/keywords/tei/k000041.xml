@@ -10,7 +10,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -39,7 +43,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-21">CREATED: record</change>
+         <change n="2.0" who="#SQ" when="2020-02-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,11 +52,14 @@
          <entryFree xml:id="Later-Liang" type="time period">
             <term xml:id="term-Later-Liang-1" xml:lang="en">Later Liang</term>
             <term xml:id="term-Later-Liang-2" xml:lang="zh-Hant">後梁</term>
-            <state type="existence" from="0907" to="0923">
+            <state type="existence" source="#biblk000041-1" from="0907" to="0923">
                <desc>907 - 923</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000041</idno>
          </entryFree>
+         <bibl xml:id="biblk000041-1">
+            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+            <citedRange unit="pp">12</citedRange></bibl>
       </body>
    </text>
 </TEI>
