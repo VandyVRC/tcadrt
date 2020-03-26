@@ -14,7 +14,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -44,6 +48,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -112,7 +117,7 @@
                   photo</note>
                <bibl xml:id="bibl000004-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11-12</citedRange>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>

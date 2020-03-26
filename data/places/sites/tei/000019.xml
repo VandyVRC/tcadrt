@@ -8,10 +8,14 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,6 +61,14 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <note type= "External links">
+                  <p>
+                     <ref target="https://tinyurl.com/">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/">百度百科</ref>
+                  </p>
+               </note>
                <location type="nested">
                   <placeName>四川省峨眉县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Sichuan</placeName>
@@ -81,11 +94,8 @@
                   <desc xml:lang="zh-Hans">庙</desc>
                </trait>
                <bibl xml:id="bibl000019-1">
-                  <author>Endymion Wilkinson</author>
-                  <title>Chinese History: A Manual, Revised and Enlarged.</title>
-                  <publisher>Harvard: Harvard University Asia Center</publisher>
-                  <date>2000</date>
-                  <citedRange unit="pp">11-12</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
