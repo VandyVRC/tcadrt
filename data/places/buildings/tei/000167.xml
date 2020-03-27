@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,9 +66,9 @@
                   <label>Date</label>
                   <desc>1020</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000167-1" from="1020-01-01" to="1020-01-01">
                   <label>Dynasty</label>
-                  <desc>Liao  - </desc>
+                  <desc>Liao 916 - 1125</desc>
                </state>
                <location type="gps" subtype="preferred">
                   <geo>41.5430333 121.2424167</geo>
@@ -78,7 +83,11 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <note type="field-notes">Daxiongdian: 開 泰 九 年 正 月 十 四 起 工 (Feb. 10, 1020) </note>
+               <bibl xml:id="bibl000167-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="field-notes">Daxiongdian: 開 泰 九 年 正 月 十 四 起 工 (Feb. 10, 1020) </note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000167" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
