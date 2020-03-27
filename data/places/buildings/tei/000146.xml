@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +65,7 @@
                   <label>Date</label>
                   <desc>1368-1911</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000146-1" from="1368-01-01" to="1911-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
@@ -70,7 +75,11 @@
                <location type="verbatim">
                   <note>N 36° 20.574' (±15ft) E 113° 6.792' (±15ft)</note>
                </location>
-               <note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements); date in question</note>
+               <bibl xml:id="bibl000146-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="notes">Axis: c, front façade: 32' 3", side: 16' (rough measurements); date in question</note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000146" passive="https://architecturasinica.org/keyword/k000034" ref="dcterms:subject" ana="architectural-feature"/>
