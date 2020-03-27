@@ -10,8 +10,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id=" SZ"> SUN Zheng </name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +65,7 @@
                   <label>Date</label>
                   <desc>1125-1234</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000280" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
@@ -70,6 +75,10 @@
                <location type="verbatim">
                   <note>35˚ 48.354 N (Garmin) 113˚ 04.200' E</note>
                </location>
+               <bibl xml:id="bibl000280-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                <note type="field-notes">this building looks later--yuan?</note>
             </place>
             <listRelation>
