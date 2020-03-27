@@ -10,8 +10,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id=" SZ"> SUN Zheng </name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -42,6 +46,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="1.0" when="2020-02-17-04:00" who="#TGM">edit keyword identification</change>
+         <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +66,7 @@
                   <label>Date</label>
                   <desc>1213</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000250-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
@@ -78,7 +83,11 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
+               <bibl xml:id="bibl000250-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                <note type="field-notes">offering hall originally a stage from Jin dynasty; alternative names: 獻殿, 拜殿</note>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000250" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
