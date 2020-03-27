@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Sirun Sanjiao Hall, main hall <foreign xml:lang="zh-Hant">寺潤三教堂三教堂</foreign>
+            <title level="a" xml:lang="en">Sirun Sanjiao Hall, main hall <foreign xml:lang="zh-Hant">寺潤三教堂三教堂大殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -52,20 +52,22 @@
       <body>
          <listPlace>
             <place xml:id="place-000240" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000240-1" xml:lang="en">main hall</placeName>
-               <placeName xml:id="name000240-2" type="building-name" xml:lang="zh-Hant">三教堂</placeName>
-               <placeName xml:id="name000240-3" type="building-name" xml:lang="zh-Hans">三教堂</placeName>
-               <placeName xml:id="name000240-4" type="building-name" xml:lang="zh-latn-pinyin">Sanjiaotang</placeName>
-               <placeName xml:id="name000240-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Sirun Sanjiaotang</placeName>
-               <placeName xml:id="name000240-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">寺润三教堂</placeName>
-               <placeName xml:id="name000240-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">寺润三教堂</placeName>
+               <placeName xml:id="name000240-1" xml:lang="en">Sanjiaotang main hall</placeName>
+               <placeName xml:id="name000240-2" type="building-name" xml:lang="zh-Hant">三教堂大殿</placeName>
+               <placeName xml:id="name000240-3" type="building-name" xml:lang="zh-Hans">三教堂大殿</placeName>
+               <placeName xml:id="name000240-4" type="building-name" xml:lang="zh-latn-pinyin">Sanjiaotang dadian</placeName>
+               <placeName xml:id="name000240-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Sirun Sanjiaotang main hall</placeName>
+               <placeName xml:id="name000240-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">寺润三教堂大殿</placeName>
+               <placeName xml:id="name000240-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">寺润三教堂大殿</placeName>
                <placeName xml:id="name000240-11" type="alternate">Sanjiaotang</placeName>
                <idno type="URI">https://architecturasinica.org/place/000240</idno>
+               <desc type="building-data" source="#bibl000240-1">
+                  The main hall, which may also be the Sanjiaotang itself, sits on a 1.4 meter-high stone platform. It is a three-by-three bay hall, with a square plan and a double-eaves hip-gable roof. The structural framework consists of a four-rafter beam that extends from front to back eaves, and is surrounded on four sides by a gallery. </desc>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000240-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000240-2" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
@@ -82,11 +84,15 @@
                   <desc xml:lang="zh-Hant">堂</desc>
                   <desc xml:lang="zh-Hans">堂</desc>
                </trait>
-               <bibl xml:id="bibl000240-1">
+                  <bibl xml:id="bibl000240-1">
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II (zhong): 513; 21-C8</citedRange>
+                  </bibl>
+                  
+                  <bibl xml:id="bibl000240-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>>
                </bibl>
-               <note type="field-notes">Main Hall Jin, see: http://www.sxcr.gov.cn/wmsx/show.php?itemid=1007</note>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000240" passive="https://architecturasinica.org/keyword/k000049" ref="dcterms:subject" ana="building-type"/>
