@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,7 +69,7 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                   <label>Date</label>
                   <desc>1190-1196</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000125-1" from="1190-01-01" to="1196-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
@@ -81,8 +86,12 @@ Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was 
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <note type="field-notes">Shijiadian from Jin Mingchang period (1190-1196) see: 中國 文物 地圖集山西分冊, 下, 1099 </note>
-               <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note>
+               <bibl xml:id="bibl000125-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="field-notes">Shijiadian from Jin Mingchang period (1190-1196) see: 中國 文物 地圖集山西分冊, 下, 1099 </note>
+               <note type="notes">Axis: c, roof style: h/g, front façade: 31' 3",3 bays, side: 31' 4" 3 bays</note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000125" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
