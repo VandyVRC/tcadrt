@@ -57,11 +57,15 @@
                <placeName xml:id="name000080-3" type="site-name" xml:lang="zh-Hant">曲阜孔府</placeName>
                <placeName xml:id="name000080-4" type="site-name" xml:lang="zh-Hans">曲阜孔府</placeName>
                <idno type="URI">https://architecturasinica.org/place/000080</idno>
-               <state type="existence" subtype="dynasty" source="bibl000080-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000080-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
                <note type="External Links">
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Kong_Family_Mansion">Wikipedia (in English)</ref>
+                  </p>
+                 
                   <p>
                      <ref target="https://tinyurl.com/yxyx8zx2">Wikipedia (in Chinese)</ref>
                   </p>
