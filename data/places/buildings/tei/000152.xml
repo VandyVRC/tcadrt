@@ -42,6 +42,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-28-04:00" xml:id="TGM">ADDED: building discription</change>
+         <change n="3.0" when="2020-03-29" xml:id="ML">added citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +62,7 @@
                   <label>Date</label>
                   <desc>1548</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="i#bl000152-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming (1368-1644)</desc>
                </state>
@@ -76,6 +77,10 @@
                <bibl xml:id="bibl000152-1">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">II (中): 360; 96-C3-4</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000152-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
