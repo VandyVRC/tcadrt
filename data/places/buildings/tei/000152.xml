@@ -11,7 +11,7 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +41,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" when="2020-03-28-04:00" xml:id="TGM">ADDED: building discription</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,6 +57,14 @@
                <placeName xml:id="name000152-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇庆寺十帝阎君殿</placeName>
                <placeName xml:id="name000152-11" type="alternate">Shidiyanjundian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000152</idno>
+               <state type="existence" from="1548-01-01" to="1549-01-01">
+                  <label>Date</label>
+                  <desc>1548</desc>
+               </state>
+               <state type="existence" subtype="dynasty">
+                  <label>Dynasty</label>
+                  <desc>Ming (1368-1644)</desc>
+               </state>
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
                   <desc xml:lang="en">palatial hall</desc>
@@ -63,6 +72,11 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
+               <desc type="building-data" source="#bibl000152-1">The Ten Kings of Hell Hall is also called the Ten Kings Hall (Shiwangdian), and Dizang Hall (Dizangdian). Based on the extant ridge plaque inscription, it should date to 大明嘉靖二十七年 or 1548. The body of the building is three bays wide, four rafters deep, and it has a single-eaves overhanging-gable roof, with glazed tiles on the roof ridge. The roof frame consists of a four-rafter beam stretching from front to back eaves, above which is placed a pingliang tie beam. The column-top bracket sets extend three steps (outward) and have a single slanted bracket arm (昂) (Summary: Miller).</desc>
+               <bibl xml:id="bibl000152-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II (中): 360; 96-C3-4</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000152" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
