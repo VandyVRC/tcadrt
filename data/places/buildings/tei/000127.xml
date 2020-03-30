@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +66,7 @@
                   <label>Date</label>
                   <desc>1279-1368</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000127-1" from="1271-01-01" to="1368-01-01">
                   <label>Dynasty</label>
                   <desc>Yuan 1271 - 1368</desc>
                </state>
@@ -78,6 +83,10 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
+               <bibl xml:id="bibl000127-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                <!-- personal notes commented out
                   <note type="notes">Axis: c, roof style: o-g, front façade: 60', side: 25' 9"</note>
                -->

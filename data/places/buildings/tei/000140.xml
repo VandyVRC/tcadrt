@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations and external links</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation and external links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,12 +65,24 @@
                   <label>Date</label>
                   <desc>1164</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000140-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <note type="field-notes">https://baike.baidu.com/item/成汤庙山门</note>
-               <note type="notes">repaired in the Ming dynasty, 1555; Mountain Gate is the only remaining historic building from the temple complex</note>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/t3s5sv2">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/w4qhdao">百度百科</ref>
+                  </p>
+               </note>
+               <bibl xml:id="bibl000140-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="field-notes">https://baike.baidu.com/item/成汤庙山门</note>
+               <note type="notes">repaired in the Ming dynasty, 1555; Mountain Gate is the only remaining historic building from the temple complex</note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000140" passive="https://architecturasinica.org/keyword/k000034" ref="dcterms:subject" ana="architectural-feature"/>

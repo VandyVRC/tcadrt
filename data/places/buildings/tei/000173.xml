@@ -11,7 +11,11 @@
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,9 +65,9 @@
                   <label>Date</label>
                   <desc>1125-1234</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000173-1" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
-                  <desc>Liao  - </desc>
+                  <desc>Liao 916 - 1125</desc>
                </state>
                <location type="gps" subtype="preferred">
                   <geo>35.86535 112.8704</geo>
@@ -70,7 +75,11 @@
                <location type="verbatim">
                   <note>35˚ 51.921 N (Garmin) 112˚ l51.224 E</note>
                </location>
-               <note type="field-notes">earliest stage</note>
+               <bibl xml:id="bibl000173-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="field-notes">earliest stage</note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000173" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
