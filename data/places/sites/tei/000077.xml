@@ -14,8 +14,16 @@
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
+               <resp>Initial translation 2010 by</resp>
+               <name>Lydia Ohl</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id="SZ"> SUN Zheng </name>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,6 +54,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
+         <change n="2.0" who="#TGM" when="2020-03-30">adding building information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +66,14 @@
                <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
                <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000077</idno>
+               <desc type="site-data" source="#bibl000077-1">
+                  Date founded unknown. According to a stele fragment inside the temple, repairs were made in the Qing dynasty (宣统二年 (1910)). The temple site encompasses 684 square meters. The complex faces south with a single courtyard, axial buildings include a Mountain Gate, main hall and east and west side halls of 6 bays each. Within the compound, other than the Jin dynasty main hall, the rest of the buildings are Qing dynasty. (Translation Lydia Ohl, ed. T. MIller)
+               </desc>
+               <note>Site geolocated in this entry was lacking a Mountain Gate, and the main hall departs from the description given in the Zhongguo wenwu dituji cited above. Location needs verification.</note>
+               <state type="existence" subtype="dynasty" source="#bibl000077-2" from="1115" to="1912">
+                  <label>Dynasty</label>
+                  <desc>Jin - Qing</desc>
+               </state>
                <location type="gps" subtype="preferred">
                   <geo>35.60493333 111.97245</geo>
                </location>
@@ -67,7 +84,11 @@
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="zh-Hans">庙</desc>
                </trait>
-               <bibl xml:id="bibl000077-1">
+               <bibl xml:id="bibl000001-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II:484-485;57-C1</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000077-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
