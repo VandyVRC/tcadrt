@@ -58,11 +58,15 @@
                <placeName xml:id="name000081-4" type="site-name" xml:lang="zh-Hans">曲阜孔庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000081</idno>
                <idno type="URI">http://sws.geonames.org/9072554/</idno>
-               <state type="existence" subtype="dynasty" source="bibl000081-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000081-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
                <note type="External Links">
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Temple_of_Confucius,_Qufu">Wikipedia (in English)</ref>
+                  </p>
+                  
                   <p>
                      <ref target="https://tinyurl.com/uklzf5h">Wikipedia (in Chinese)</ref>
                   </p>
