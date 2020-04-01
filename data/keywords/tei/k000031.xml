@@ -45,10 +45,10 @@
    <text>
       <body>
          <entryFree xml:id="hermitage" type="site-type">
-            <term xml:id="term-hermitage-1" xml:lang="en" source="biblhermitage-1">hermitage</term>
-            <term xml:id="term-hermitage-4" xml:lang="zh-latn-pinyin" source="biblhermitage-1">an</term>
-            <term xml:id="term-hermitage-2" xml:lang="zh-Hant" source="biblhermitage-1">庵</term>
-            <term xml:id="term-hermitage-3" xml:lang="zh-Hans" source="biblhermitage-1">庵</term>
+            <term xml:id="term-hermitage-1" xml:lang="en" <!-- source="biblhermitage-1" -->>hermitage</term>
+            <term xml:id="term-hermitage-4" xml:lang="zh-latn-pinyin" <!-- source="biblhermitage-1" -->>an</term>
+            <term xml:id="term-hermitage-2" xml:lang="zh-Hant" <!-- source="biblhermitage-1" -->>庵</term>
+            <term xml:id="term-hermitage-3" xml:lang="zh-Hans" <!-- source="biblhermitage-1" -->>庵</term>
             <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000031</idno>
          </entryFree>
