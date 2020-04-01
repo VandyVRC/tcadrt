@@ -10,8 +10,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +65,7 @@
                   <label>Date</label>
                   <desc>1050-1100</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000211-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -77,8 +82,12 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <note type="field-notes">upper eaves bracket sets;</note>
-               <note type="notes">2nd half of 11th century; see Qi Yingtao</note>
+               <bibl xml:id="bibl000211-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!-- <note type="field-notes">upper eaves bracket sets;</note>
+               <note type="notes">2nd half of 11th century; see Qi Yingtao</note> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000211" passive="https://architecturasinica.org/Keyword/k000063" ref="dcterms:subject" ana="building-type"/>
