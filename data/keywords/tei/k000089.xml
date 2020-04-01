@@ -19,8 +19,12 @@
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -51,29 +55,67 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2019-05-23">CREATED: record</change>
+         <change n="1.0" when="2020-04-01" who="#SQ">adding citations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
       	<entryFree xml:id="wengcheng" type="architectural-feature">
          	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">wèngchéng</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">甕城</term>
+      	   <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000089-1">甕城</term>
       		<term xml:id="term-feature_name-3" xml:lang="zh-Hans">瓮城</term>
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">weng-ch’eng</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred">enceinte</term>            
-      		<term xml:id="term-feature_name-6" xml:lang="en">barbican</term>
+      	   <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000089-2">enceinte</term>            
+      	   <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000089-3">barbican</term>
       		<term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">jar-shaped defensive wall</term>
+      	   <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000089-4">jar city</term>
             <note>
             	<p>In traditional Chinese fortifications, refers to the enceinte built outside the city gate. The shape can be square or round. The walls of the wengcheng are at the same height as, or slightly lower than, the main city walls. The battlements on wengcheng are connected to those on the main walls. There is often one gate, which is not facing the gate of the main city wall, on the wall of wengcheng. It plays a role in defending the city gates and resisting the enemy’s attack on wengcheng gate from both directions in the main city wall (dacheng 大城) and wengcheng. This term is explained in the Northern Song Dynasty (960-1127) text, the Wujing zongyao, chapter (juan) 12, City Wall Defenses (Shoucheng 守城). </p>
             	<p>甕城爲中國古代城牆防禦設施。宋《武經總要》中對其有明確定義，指圍築於城門外側的小城圈，形狀多為方形或圓形，甕城墻多與主城墻同高或稍低，墻頂外側砌垛口與主城墻垛口相連。甕城牆上一般偏開壹門，不正對主城門，較為正式的城門，如都城的正南門，往往甕城在正向和偏向分別設門。甕城起到對城門的保衛作用，並可在大城、甕城上從兩個方向抵禦攻打甕城門之敵。</p>
-            	<p>(JIA Tingli 賈亭立, ATTCAT 2018)</p>       
-               	<p> Sources and Contributors:</p>
+            	<p>(JIA Tingli 賈亭立, ATTCAT 2018)</p>
+               <p>Related terms: 城墻，城門，月城</p>
+               <!--	<p> Sources and Contributors:</p>
             	<p>enceinte: ATTCAT</p>
             	<p>甕城: (1)（宋）曾公亮，丁度撰. 武經總要.清文淵閣四庫全書本.前集卷十二：3a (2) 李國豪等主編.中國土木建築百科辭典：建築. 北京：建築工業出版社， 2006:358 (3) 鄭文翰主編.軍事大辭典. 上海：上海辭書出版社，1992：623 (4) 黃寬重. 宋代城郭的防禦設施及材料.(臺北)大陸雑 誌,1990, 81(2):1-23 </p>
             	<p>jar city: (5) Guo, Qinghua. A Visual Dictionary of Chinese Architecture 中國建築英漢雙解辭典.  Mulgrave, Vic., Australia: Images Pub., 2002：63</p>
             	<p>barbican; enceinte: (6) Huang Kuan-chong, et al. “Defensive structures and Construction Materials in Song City Walls,” 51</p>
-            	<p>Related terms: 城墻，城門，月城</p>
-               	  </note>
+            	 -->
+            </note>
+      	   <listBibl xml:id="biblk00089-1">
+      	      <bibl>
+      	         <ptr target="https://architecturasinica.org/bibl/WKCL2CN5"/>
+　　　　　          <!-- On Zotero library, the citation record already include the specific volume and "3a" in the text. So I left this second line for page number out because it might be redundant. -->
+      	      </bibl>
+      	      <bibl>
+      	         <ptr target="https://architecturasinica.org/bibl/ITQV48ML"/>
+      	         <citedRange unit="pp">358</citedRange>
+      	      </bibl>
+      	      <bibl>
+      	         <ptr target="https://architecturasinica.org/bibl/BZJTRBCN"/>
+      	         <citedRange unit="pp">623</citedRange>
+      	      </bibl>
+      	      <bibl>
+      	         <ptr target="https://architecturasinica.org/bibl/G67D9WCH"/>
+      	         <citedRange unit="pp">1-23</citedRange>
+      	      </bibl>
+      	   </listBibl>
+      	   <listBibl xml:id="biblk00089-2">
+      	   <bibl>
+      	      <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+      	   </bibl>
+      	   <bibl>
+      	      <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+      	      <citedRange unit="pp">51</citedRange>
+      	   </bibl>
+      	   </listBibl>  
+      	   <bibl xml:id="biblk000089-3">
+      	      <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+      	      <citedRange unit="pp">51</citedRange>
+      	   </bibl>
+      	   <bibl xml:id="biblk000089-4">
+      	      <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+      	      <citedRange unit="pp">63</citedRange>
+      	   </bibl>
       		<idno type="URI">https://architecturasinica.org/keyword/k000089</idno>
             <listRelation>
                <listRelation>

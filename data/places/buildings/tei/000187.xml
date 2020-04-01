@@ -10,8 +10,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +65,7 @@
                   <label>Date</label>
                   <desc>960-1000</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000187-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -70,7 +75,11 @@
                <location type="verbatim">
                   <note>35˚ 06.572' N (Garmin) 112˚ 34.595' E</note>
                </location>
-               <note type="field-notes">qinmian style youang</note>
+               <bibl xml:id="bibl000187-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!-- <note type="field-notes">qinmian style youang</note> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000187" passive="https://architecturasinica.org/keyword/k000034" ref="dcterms:subject" ana="architectural-feature"/>
