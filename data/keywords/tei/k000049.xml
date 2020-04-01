@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">mansion hall</title>
+            <title level="a" xml:lang="en">hall</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -45,14 +45,20 @@
    <text>
       <body>
          <entryFree xml:id="mansion-hall" type="building-type">
-            <term xml:id="term-mansion-hall-1" xml:lang="en">mansion hall</term>
-            <term xml:id="term-mansion-hall-4" xml:lang="zh-latn-pinyin" >tīngtáng</term>
-            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ing-t'ang</term>
-            <term xml:id="term-mansion-hall-2" xml:lang="zh-Hant">廳堂</term>
-            <term xml:id="term-mansion-hall-3" xml:lang="zh-Hans">厅堂</term>
+            <term xml:id="term-mansion-hall-1" xml:lang="en">hall</term>
+            <term xml:id="term-mansion-hall-4" xml:lang="zh-latn-pinyin" source="#biblk000049-1">táng</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ang</term>
+            <term xml:id="term-mansion-hall-2" xml:lang="zh-Hant">堂</term>
+            <term xml:id="term-mansion-hall-3" xml:lang="zh-Hans">堂</term>
+            <gloss>
+             A primary ritual hall, main/central room, or pavilion. Often used in compounds such as tingtang 廳堂 "mansion hall," diantang 殿堂 "palatial hall," or fotang 佛堂 "Buddha hall," etc. (T. Miller, 2020) 
+            </gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
-            
          </entryFree>
+            <bibl xml:id="biblk000049-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">444</citedRange>
+            </bibl>
       </body>
    </text>
 </TEI>
