@@ -10,8 +10,12 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -41,6 +45,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +65,7 @@
                   <label>Date</label>
                   <desc>898</desc>
                </state>
-               <state type="existence" subtype="dynasty">
+               <state type="existence" subtype="dynasty" source="#bibl000199-1" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
@@ -74,8 +79,12 @@
                   <desc xml:lang="zh-Hant">樓</desc>
                   <desc xml:lang="zh-Hans">楼</desc>
                </trait>
-               <note type="field-notes">Tang dynasty first floor (partial)--compare to Zhengding Wenmiao?</note>
-               <note type="notes">for date see: zgmscd 104</note>
+               <bibl xml:id="bibl000199-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!-- <note type="field-notes">Tang dynasty first floor (partial) - compare to Zhengding Wenmiao?</note>
+               <note type="notes">for date see: zgmscd 104</note> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000199" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="building-type"/>
