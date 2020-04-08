@@ -85,14 +85,10 @@
                      <placeName xml:lang="en">City</placeName>
                   </region>
                </location>
-               <!--replace with accurate gis data when found>
                <location type="gps" subtype="preferred">
-                  <geo>35.8059 113.07</geo>
+                  <geo>35.6938 112.785</geo>
                </location>
-               <location type="gps">
-                  <geo>35.8061166 113.069833</geo>
-               </location>
-               </-->
+               <!-- gis information from GoogleEarth Imagery Date: 3/31/2018 -->
                <trait type="type" sub-type="site-type">
                   <label>Type </label>
                   <desc xml:lang="en">monastery</desc>
