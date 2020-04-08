@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Zisheng Monastery <foreign xml:lang="zh-Hant">資聖寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000282/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2020-04-07-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000123" type="site">
+               <placeName xml:id="name000123-1" type="site-name" xml:lang="en">Zisheng Monastery</placeName>
+               <placeName xml:id="name000123-2" type="site-name" xml:lang="zh-latn-pinyin">Zishengsi</placeName>
+               <placeName xml:id="name000123-3" type="site-name" xml:lang="zh-Hant">資聖寺</placeName>
+               <placeName xml:id="name000123-4" type="site-name" xml:lang="zh-Hans">资圣寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000282</idno>
+               <desc type="site-data" source="#bibl000282-1">
+                  Zishengsi  is located 20 kilometers southwest of Gaoping county seat in Dazhouzuan Village 大周纂村 (locally referred to as Dazhou).  It is unknown when it was first built but it was in existence by the Northern Song and it was repaired in the first year of the Ming zhengde reign period (1506).  Within the monastery the ancient simplicity is luxuriant, the buildings are lofty and majestic, [it is] full of the spirit of ancient Buddhist temples. Presently there are five main buildings: the shanmen, South Hall, Main Hall and east and west side halls. The Main Hall is largest and underwent reconstruction in the Yuan.  The east and west side halls are relatively delicate; these are both Ming construction. (T. Miller translation)
+               </desc>
+               <state type="existence" subtype="dynasty" source="#bibl000282-2" from="960-01-01" to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Song - Ming (960-1644)</desc>
+               </state>
+               <note type="External Links">                  
+                  <p>
+                     <ref target="https://tinyurl.com/ucygjd3">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/sgc3eab">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8206832 http://vocab.getty.edu/aat/300387198">
+                  <placeName>山西省高平市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Gaoping</placeName>
+                     <placeName xml:lang="zh-Hans">高平</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+               </location>
+               <!--replace with accurate gis data when found>
+               <location type="gps" subtype="preferred">
+                  <geo>35.8059 113.07</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.8061166 113.069833</geo>
+               </location>
+               </-->
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000282-1">
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">173-174</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000282-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000282" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000282" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000074" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000282" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
