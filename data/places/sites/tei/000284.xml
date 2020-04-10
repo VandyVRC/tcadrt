@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Liuhe Pagoda <foreign xml:lang="zh-Hant"
+               >六和塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator" xml:id="SZ">SUN Zheng</editor>
+            <respStmt>
+               <resp>Initial research 2020 by</resp>
+               <name type="person">SUN Zheng</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+               
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000284/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SZ" when="2020-04-10-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000001" type="site">
+               <placeName xml:id="name000284-1" type="site-name" xml:lang="en">Liuhe
+                  Pagoda</placeName>
+               <placeName xml:id="name000284-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Liuheta</placeName>
+               <placeName xml:id="name000284-3" type="site-name" xml:lang="zh-Hant">六和塔</placeName>
+               <placeName xml:id="name000284-4" type="site-name" xml:lang="zh-Hans">六和塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000284</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000284-1" from="0971-01-01"
+                  to="1900-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song - Qing 960 - 1911</desc>
+               </state>
+               <desc type="site-data" source="#bibl000001-2">Anchan Monastery is located on Anchansi
+                  Street, Taigu County (縣城內安禪寺街). It is one of the
+                  historical and cultural sites protected at the provincial level. The date of
+                  origin is unknown. According to textual sources, it was rebuilt during the Song
+                  dynasty, renovated in the Yuan and Ming dynasties, and renovated again in the third year of
+                  the Qing Guangxu reign period (1877). The site occupies a total area of over 200
+                  square meters and has a north-south orientation, facing south. The subsidiary monastery buildings were destroyed, and
+                  currently the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
+                  both of which are axial buildings. While the former appears to be a Song dynasty structure, the
+                  latter was built in the Ming dynasty.</desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Liuhe_Pagoda">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/v4ed22s">Wikipedia (in Chinese)</ref>
+                  </p>                  
+                  <p>
+                     <ref target="https://tinyurl.com/wc5xv59">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8677393 http://vocab.getty.edu/aat/300387198">
+                  <placeName>浙江省杭州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                     <placeName xml:lang="zh-Hant">浙江省</placeName>
+                     <placeName xml:lang="zh-Hans">浙江省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Hangzhou</placeName>
+                     <placeName xml:lang="zh-Hans">杭州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Hangzhoushi</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>30.19805556 120.12638889 </geo>
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000001-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000001-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">III:762;57-C1</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000284"
+                  passive="https://architecturasinica.org/keyword/k000052"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000284" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000076" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000284" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
+                  passive="https://architecturasinica.org/place/000001" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
