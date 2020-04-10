@@ -78,21 +78,21 @@
                <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hant">安禪寺</placeName>
                <placeName xml:id="name000001-4" type="site-name" xml:lang="zh-Hans">安禅寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000001</idno>
-               <desc type="site-data" source="#bibl000001-1">Anchan Monastery is located on Anchansi
-                  Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the
+               <state type="existence" subtype="dynasty" source="#bibl000001-1" from="0960-01-01"
+                  to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song - Ming 960 - 1644</desc>
+               </state>
+               <desc type="site-data" source="#bibl000001-2">Anchan Monastery is located on Anchansi
+                  Street, Taigu County (縣城內安禪寺街). Buildings are extant from the Song and Ming dynasties. It is one of the
                   historical and cultural sites protected at the provincial level. The date of
                   origin is unknown. According to textual sources, it was rebuilt during the Song
                   dynasty and renovated in the Yuan and Ming dynasties, as well as the third year of
                   the Qing Guangxu reign period (1877). The site occupies a total area of over 200
-                  m2 and has a north-south orientation, facing south. The monastery is destroyed and
+                  square meters and has a north-south orientation, facing south. The monastery is destroyed and
                   the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
                   both of which are axial buildings. While the former is a Song dynasty remnant, the
                   latter was built in the Ming dynasty.</desc>
-               <state type="existence" subtype="dynasty" source="#bibl000001-2" from="0960-01-01"
-                  to="1127-01-01">
-                  <label>Dynasty</label>
-                  <desc>Northern Song 960 - 1127</desc>
-               </state>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/txqqda6">Wikipedia (in Chinese)</ref>
@@ -134,12 +134,12 @@
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
                <bibl xml:id="bibl000001-1">
-                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">III:762;57-C1</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000001-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000001-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">III:762;57-C1</citedRange>
                </bibl>
             </place>
             <listRelation>
