@@ -15,7 +15,7 @@
             <editor role="creator" xml:id="SQ">Song Qisen</editor>
             <respStmt>
                <resp>Initial research 2020 by</resp>
-               <name type="person" who="SQ">Song Qisen</name>
+               <name type="person">Song Qisen</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -62,7 +62,7 @@
                <placeName xml:id="name000001-5" type="alternate" xml:lang="zh-latn-pinyin">Yunlinsi</placeName>
                <placeName xml:id="name000001-6" type="alternate" xml:lang="zh-Hant">雲林寺</placeName>
                <placeName xml:id="name000001-7" type="alternate" xml:lang="zh-Hans">云林寺</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000285/tei</idno>
+               <idno type="URI">https://architecturasinica.org/place/000285</idno>
                <state type="existence" subtype="dynasty" source="#bibl000285-1">
                   <label>Dynasty</label>
                   <desc>Founded in Eastern Jin</desc>
@@ -131,6 +131,8 @@ The destiny of Lingyin temple is closely associated with the shift of attitudes 
                   ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000285" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000021" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000285" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
                <!-- <relation ref="foaf:depicts"
                   active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
                   passive="https://architecturasinica.org/place/000001" ana="featured"/> -->
