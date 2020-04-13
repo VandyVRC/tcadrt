@@ -68,19 +68,19 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000001" type="site">
-               <placeName xml:id="name000001-1" type="site-name" xml:lang="en">Luohan Cloister</placeName>
-               <placeName xml:id="name000001-2" type="site-name" xml:lang="zh-latn-pinyin"
+            <place xml:id="place-000286" type="site">
+               <placeName xml:id="name000286-1" type="site-name" xml:lang="en">Luohan Cloister</placeName>
+               <placeName xml:id="name000286-2" type="site-name" xml:lang="zh-latn-pinyin"
                   >Louhanyuan</placeName>
-               <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hant">羅漢院</placeName>
-               <placeName xml:id="name000001-4" type="site-name" xml:lang="zh-Hans">罗汉院</placeName>
+               <placeName xml:id="name000286-3" type="site-name" xml:lang="zh-Hant">羅漢院</placeName>
+               <placeName xml:id="name000286-4" type="site-name" xml:lang="zh-Hans">罗汉院</placeName>
                <idno type="URI">https://architecturasinica.org/place/000286</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000001-1" from="0960-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000286-1" from="0960-01-01"
                   to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <!--<desc type="site-data" source="#bibl000001-1">Anchan Monastery is located on Anchansi
+               <!--<desc type="site-data" source="#bibl000286-1">Anchan Monastery is located on Anchansi
                   Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the
                   historical and cultural sites protected at the provincial level. The date of
                   origin is unknown. According to textual sources, it was rebuilt during the Song
@@ -122,20 +122,20 @@
                   <desc xml:lang="zh-Hant">院</desc>
                   <desc xml:lang="zh-Hans">院</desc>
                </trait>
-               <bibl xml:id="bibl000001-1">
+               <bibl xml:id="bibl000286-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000286"
+                 <relation active="https://architecturasinica.org/place/000286"
                   passive="https://architecturasinica.org/keyword/k000012"
                   ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000286" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <!--<relation ref="foaf:depicts"
                   active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
-                  passive="https://architecturasinica.org/place/000001" ana="featured"/>-->
+                  passive="https://architecturasinica.org/place/000286" ana="featured"/>-->
             </listRelation>
          </listPlace>
       </body>
