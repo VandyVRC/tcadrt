@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Luohanyuan, Double Pagoda <foreign xml:lang="zh-Hant">羅漢院雙塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>data entry, adding external links</resp>
+               <name type="person" xml:id="YFB" when="2020-04-13">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000286a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-04-13</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2020-04-13">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000286a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000286a-1" xml:lang="en">Double Pagoda</placeName>
+               <placeName xml:id="name000286a-2" type="building-name" xml:lang="zh-Hant">雙塔</placeName>
+               <placeName xml:id="name000286a-3" type="building-name" xml:lang="zh-Hans">双塔</placeName>
+               <placeName xml:id="name000286a-4" type="building-name" xml:lang="zh-latn-pinyin">Shuangta</placeName>
+               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Luohanyan_shuangta</placeName>
+               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Luohan Cloister, Double Pagoda</placeName>
+               <placeName xml:id="name000286a-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">羅漢院雙塔</placeName>
+               <placeName xml:id="name000286a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">罗汉院双塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000286a</idno>
+               <state type="existence" from="0982-01-01">
+                  <label>Date</label>
+                  <desc>982</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000286a-1" from="960-01-01" to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/s95thgm">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/wamnwgn">百度百科</ref>
+                  </p>
+               </note>
+               <!--<location type="gps" subtype="preferred">
+                  <geo>36.35326667 113.4258</geo>
+               </location>
+               <location type="verbatim">
+                  <note>36˚ 21.196' (Garmin) 113˚ 25.548'</note>
+               </location>-->
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000286a-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000286a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000286a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000286a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000110"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49766145696_1963d7b011_k.jpg" passive="https://architecturasinica.org/place/000286" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
