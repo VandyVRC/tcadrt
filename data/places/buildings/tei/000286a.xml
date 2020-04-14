@@ -102,7 +102,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000286a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000286a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000286a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000110"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000286a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000286"/>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49766145696_1963d7b011_k.jpg" passive="https://architecturasinica.org/place/000286" ana="featured"/>
             </listRelation>
          </listPlace>
