@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Lingyin Monastery <foreign xml:lang="zh-Hant"
-                  >靈隱寺</foreign>
+            <title level="a" xml:lang="en">Lingyin Monastery <foreign xml:lang="zh-Hant">靈隱寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -133,9 +132,9 @@ The destiny of Lingyin temple is closely associated with the shift of attitudes 
                   passive="https://architecturasinica.org/keyword/k000021" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000285" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <!-- <relation ref="foaf:depicts"
-                  active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
-                  passive="https://architecturasinica.org/place/000001" ana="featured"/> -->
+               <relation ref="foaf:depicts"
+                  active="https://farm5.staticflickr.com/65535/49728732721_9355ea4963_c.jpg"
+                  passive="https://architecturasinica.org/place/000285" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
