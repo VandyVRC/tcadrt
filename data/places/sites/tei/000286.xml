@@ -64,16 +64,12 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <!--<desc type="site-data" source="#bibl000286-1">Anchan Monastery is located on Anchansi
-                  Street, Taigu County (縣城內安禪寺街). Song and Ming dynasties. It is one of the
-                  historical and cultural sites protected at the provincial level. The date of
-                  origin is unknown. According to textual sources, it was rebuilt during the Song
-                  dynasty and renovated in the Yuan and Ming dynasties, as well as the third year of
-                  the Qing Guangxu reign period (1877). The site occupies a total area of over 200
-                  m2 and has a north-south orientation, facing south. The monastery is destroyed and
-                  the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
-                  both of which are axial buildings. While the former is a Song dynasty remnant, the
-                  latter was built in the Ming dynasty.</desc> -->
+               <desc type="site-data">
+                  <p>The Suzhou Luohan Cloister are located in Dinghuisi alley, Suzhou, Jiangsu province and the basic form should date to the tenth century.</p>
+                  <p>Guo Daiheng states the Luohan Cloister was founded in the seventh year of the Taiping xingguo reign period (982).</p>
+                  <p source="#bibl000286-2">The Zhongguo mingshen cidian refers to to the Qing Tongzhi period “Suzhou fuzhi”, which states that during the Song Yongxi reign period (984-988), Wang Wenhan 王文罕constructed two pagodas facing each other. They were commonly called the “twin pagodas,” which is the source of the name. They were built for the sake of the two brothers of Wang Wenhan. One name is “reliquary pagoda” (shelita 舍利塔), another is “beneficial virtue (merit) reliquary pagoda,” (gongde shelita 功德舍利塔). In addition to the pagodas, the foundations and columns of a main hall and the foundations of side halls are visible within the complex.
+                 </p>
+               </desc>
                <location type="nested" source="http://vocab.getty.edu/tgn/8570104">
                   <placeName>江蘇省蘇州市</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
@@ -109,6 +105,10 @@
                <bibl xml:id="bibl000286-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000286-2">
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">335</citedRange>
                </bibl>
             </place>
             <listRelation>
