@@ -55,7 +55,7 @@
          <listPlace>
             <place xml:id="place-000286" type="site">
                <placeName xml:id="name000286-1" type="site-name" xml:lang="en">Luohan Cloister</placeName>
-               <placeName xml:id="name000286-2" type="site-name" xml:lang="zh-latn-pinyin">Louhanyuan</placeName>
+               <placeName xml:id="name000286-2" type="site-name" xml:lang="zh-latn-pinyin">Luohanyuan</placeName>
                <placeName xml:id="name000286-3" type="site-name" xml:lang="zh-Hant">羅漢院</placeName>
                <placeName xml:id="name000286-4" type="site-name" xml:lang="zh-Hans">罗汉院</placeName>
                <idno type="URI">https://architecturasinica.org/place/000286</idno>
@@ -113,6 +113,10 @@
                   <citedRange unit="pp">12</citedRange>
                </bibl>
                <listBibl xml:id="bibl000286-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/K3HM3FEE"/>
+                  <citedRange unit="pp">81</citedRange>
+               </bibl>  
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
                   <citedRange unit="pp">335</citedRange>
