@@ -69,16 +69,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song - Qing 960 - 1911</desc>
                </state>
-               <!--  <desc type="site-data" source="#bibl000001-2">Anchan Monastery is located on Anchansi
-                  Street, Taigu County (縣城內安禪寺街). It is one of the
-                  historical and cultural sites protected at the provincial level. The date of
-                  origin is unknown. According to textual sources, it was rebuilt during the Song
-                  dynasty, renovated in the Yuan and Ming dynasties, and renovated again in the third year of
-                  the Qing Guangxu reign period (1877). The site occupies a total area of over 200
-                  square meters and has a north-south orientation, facing south. The subsidiary monastery buildings were destroyed, and
-                  currently the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
-                  both of which are axial buildings. While the former appears to be a Song dynasty structure, the
-                  latter was built in the Ming dynasty.</desc>-->
+               <!--  <desc type="site-data" source="#bibl000001-2">Liuheta</desc>-->
                <note type="External Links">
                   <p>
                      <ref target="https://en.wikipedia.org/wiki/Liuhe_Pagoda">Wikipedia (in English)</ref>
@@ -139,9 +130,9 @@
                   passive="https://architecturasinica.org/keyword/k000076" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000284" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <!--  <relation ref="foaf:depicts"
-                  active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
-                  passive="https://architecturasinica.org/place/000001" ana="featured"/>-->
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49769217278_47dc75607a.jpg"
+                  passive="https://architecturasinica.org/place/000284" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

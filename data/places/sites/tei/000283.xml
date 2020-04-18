@@ -6,28 +6,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Anchan Monastery <foreign xml:lang="zh-Hant"
-                  >安禪寺</foreign>
+            <title level="a" xml:lang="en">Kaibao Monastery <foreign xml:lang="zh-Hant"
+               >開寶寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general">Tracy Miller</editor>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ML">Melanie Lu</editor>
             <respStmt>
-               <resp>Initial translation 2010 by</resp>
-               <name type="person" xml:id="LO">Lydia Ohl</name>
-            </respStmt>
-            <respStmt>
-               <resp>Translation 2011 by</resp>
-               <name type="person" xml:id="CG">Cole Garrett</name>
-            </respStmt>
-            <respStmt>
-               <resp>Translation 2017 by</resp>
-               <name type="person" xml:id="WPS">WONG Pui See</name>
-            </respStmt>
-            <respStmt>
-               <resp>External links added by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>Initial research 2020 by</resp>
+               <name type="person">Melanie Lu</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -39,13 +27,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000001/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000283/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2020-04-10</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -60,27 +48,25 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#YFB" when="2020-02-20">adding external links</change>
+         <change n="1.0" when="2020-04-10">CREATED: place record</change> 
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000001" type="site">
-               <placeName xml:id="name000001-1" type="site-name" xml:lang="en">Anchan
-                  Monastery</placeName>
-               <placeName xml:id="name000001-2" type="site-name" xml:lang="zh-latn-pinyin"
-                  >Anchansi</placeName>
-               <placeName xml:id="name000001-3" type="site-name" xml:lang="zh-Hant">安禪寺</placeName>
-               <placeName xml:id="name000001-4" type="site-name" xml:lang="zh-Hans">安禅寺</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000001</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000001-1" from="0960-01-01"
-                  to="1644-01-01">
+            <place xml:id="place-000283" type="site">
+               <placeName xml:id="name000283-1" type="site-name" xml:lang="en">Kaibao Monastery</placeName>
+               <placeName xml:id="name000283-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Kaibaosi</placeName>
+               <placeName xml:id="name000283-3" type="site-name" xml:lang="zh-Hant">開寶寺</placeName>
+               <placeName xml:id="name000283-4" type="site-name" xml:lang="zh-Hans">开宝寺</placeName>
+               <placeName xml:id="name000283-5" type="alternate" xml:lang="zh-Hans">佑国寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000283</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000283-1" from="559-01-01" to="1986-01-01">
                   <label>Dynasty</label>
-                  <desc>Northern Song - Ming 960 - 1644</desc>
+                  <desc>Northern Qi 550 - 577</desc>
                </state>
-               <desc type="site-data" source="#bibl000001-2">Anchan Monastery is located on Anchansi
+               <!--<desc type="site-data" source="#bibl000283-2">Anchan Monastery is located on Anchansi
                   Street, Taigu County (縣城內安禪寺街). It is one of the
                   historical and cultural sites protected at the provincial level. The date of
                   origin is unknown. According to textual sources, it was rebuilt during the Song
@@ -89,16 +75,16 @@
                   square meters and has a north-south orientation, facing south. The subsidiary monastery buildings were destroyed, and
                   currently the only extant structures are the sutra repository (藏经殿) and the main hall (正殿);
                   both of which are axial buildings. While the former appears to be a Song dynasty structure, the
-                  latter was built in the Ming dynasty.</desc>
+                  latter was built in the Ming dynasty.</desc>-->
                <note type="External Links">
                   <p>
-                     <ref target="https://tinyurl.com/txqqda6">Wikipedia (in Chinese)</ref>
+                     <ref target="https://tinyurl.com/r8dl3g6">Wikipedia (in Chinese)</ref>
                   </p>
                   <p>
-                     <ref target="https://tinyurl.com/w44cwxq">百度百科</ref>
+                     <ref target="https://tinyurl.com/sxaykob">百度百科</ref>
                   </p>
                </note>
-               <location type="nested"
+              <!-- <location type="nested"
                   source="http://vocab.getty.edu/tgn/8677393 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省太谷县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
@@ -119,9 +105,9 @@
                   <region type="locality">
                      <placeName xml:lang="zh-latn-pinyin">Taiguxian</placeName>
                   </region>
-               </location>
+               </location>-->
                <location type="gps" subtype="preferred">
-                  <geo>37.42453333 112.5473333</geo>
+                  <geo>34.81638889 114.35805556</geo>
                </location>
                <trait type="type" sub-type="site-type">
                   <label>Type </label>
@@ -134,22 +120,22 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <bibl xml:id="bibl000001-2">
+               <!--<bibl xml:id="bibl000001-2">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">III:762;57-C1</citedRange>
-               </bibl>
+               </bibl>-->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000001"
+               <relation active="https://architecturasinica.org/place/000283"
                   passive="https://architecturasinica.org/keyword/k000052"
                   ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000001" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000001" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000283" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000054" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000283" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
                <relation ref="foaf:depicts"
-                  active="https://farm5.staticflickr.com/4114/4818773384_95d97c1a77_z.jpg"
-                  passive="https://architecturasinica.org/place/000001" ana="featured"/>
+                  active="https://farm5.staticflickr.com/65535/49769812161_e95f5e60d3_c.jpg"
+                  passive="https://architecturasinica.org/place/000283" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

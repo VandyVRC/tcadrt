@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Yuanqi Monastery, Green Dragon Treasure Pagoda <foreign xml:lang="zh-Hant">原起寺青龍寶塔</foreign>
+            <title level="a" xml:lang="en">Luohan Cloister, Twin Pagodas <foreign xml:lang="zh-Hant">羅漢院雙塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -12,11 +12,11 @@
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>data entry, adding external links</resp>
+               <name type="person" xml:id="YFB" when="2020-04-13">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,13 +24,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000267/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000286a/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2020-04-13</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,43 +45,44 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change n="1.0" when="2020-04-13">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000267" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000267-1" xml:lang="en">Green Dragon Treasure Pagoda</placeName>
-               <placeName xml:id="name000267-2" type="building-name" xml:lang="zh-Hant">青龍寶塔</placeName>
-               <placeName xml:id="name000267-3" type="building-name" xml:lang="zh-Hans">青龙宝塔</placeName>
-               <placeName xml:id="name000267-4" type="building-name" xml:lang="zh-latn-pinyin">Qinglongbaota</placeName>
-               <placeName xml:id="name000267-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuanqisi Qinglongbaota</placeName>
-               <placeName xml:id="name000267-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">原起寺青龍寶塔</placeName>
-               <placeName xml:id="name000267-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">原起寺青龙宝塔</placeName>
-               <placeName xml:id="name000267-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">原起寺大聖寶塔</placeName>
-               <placeName xml:id="name000267-11" type="alternate">Yuanqisi_Dashengbaota</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000267</idno>
-               <state type="existence" from="0960-01-01" to="1125-01-01">
+            <place xml:id="place-000286a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000286a-1" xml:lang="en">Twin Pagodas</placeName>
+               <placeName xml:id="name000286a-2" type="building-name" xml:lang="zh-Hant">雙塔</placeName>
+               <placeName xml:id="name000286a-3" type="building-name" xml:lang="zh-Hans">双塔</placeName>
+               <placeName xml:id="name000286a-4" type="building-name" xml:lang="zh-latn-pinyin">Shuangta</placeName>
+               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Luohanyuan_shuangta</placeName>
+               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Luohan Cloister, Twin Pagodas</placeName>
+               <placeName xml:id="name000286a-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">羅漢院雙塔</placeName>
+               <placeName xml:id="name000286a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">罗汉院双塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000286a</idno>
+               <state type="existence" from="0982-01-01" to="0988-01-01">
                   <label>Date</label>
-                  <desc>960-1125</desc>
+                  <desc>982-988</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000267-1" from="960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000286a-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
                <note type="External Links">
                   <p>
-                     <ref target="https://tinyurl.com/yx3uygbx">百度百科</ref>
+                     <ref target="https://tinyurl.com/s95thgm">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/wamnwgn">百度百科</ref>
                   </p>
                </note>
-               <location type="gps" subtype="preferred">
+               <!--<location type="gps" subtype="preferred">
                   <geo>36.35326667 113.4258</geo>
                </location>
                <location type="verbatim">
                   <note>36˚ 21.196' (Garmin) 113˚ 25.548'</note>
-               </location>
+               </location>-->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
                   <desc xml:lang="en">pagoda</desc>
@@ -93,16 +94,16 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000267-1">
+               <bibl xml:id="bibl000286a-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000267" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000267" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000267" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000110"/>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4092/4834445917_439fc9a19f_z.jpg" passive="https://architecturasinica.org/place/000110" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000286a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000286a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000286a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000286"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49766145696_1963d7b011_k.jpg" passive="https://architecturasinica.org/place/000286" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

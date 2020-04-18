@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Luohan Cloister <foreign xml:lang="zh-Hant">羅漢院</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+               <respStmt>
+                  <resp>data entry and revision by</resp>
+                  <name type="person" xml:id="YFB" when="2020-04-10">Yuh-Fen Benda</name>
+               </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000286/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-04-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#YFB" when="2020-04-10">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000286" type="site">
+               <placeName xml:id="name000286-1" type="site-name" xml:lang="en">Luohan Cloister</placeName>
+               <placeName xml:id="name000286-2" type="site-name" xml:lang="zh-latn-pinyin">Luohanyuan</placeName>
+               <placeName xml:id="name000286-3" type="site-name" xml:lang="zh-Hant">羅漢院</placeName>
+               <placeName xml:id="name000286-4" type="site-name" xml:lang="zh-Hans">罗汉院</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000286</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000286-1" from="0960-01-01"
+                  to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <desc type="site-data" source="#bibl000286-2">
+                  Located on Dinghuisi alley, Suzhou. The Luohan (Arhat) Cloister is said to date to the end of the Tang dynasty, when it was called the Prajna Cloister (bore 般若 or wisdom). During the Wuyue Kingdom, the name was changed to Luohan Cloister (Zhang and Luo, 81). Citing the Qing Tongzhi period “Suzhou fuzhi,” the Zhongguo mingsheng cidian (Yang, 335) states that during the Song Yongxi reign period (984-988), Wang Wenhan 王文罕 constructed two pagodas facing each other for the sake of Wang Wenhan and his brother. They were commonly called the “twin pagodas,” which is the source of today's name for the site. One called the “reliquary pagoda” (shelita 舍利塔), and the other “beneficial virtue (merit) reliquary pagoda,” (gongde shelita 功德舍利塔). In addition to the pagodas, the foundations and columns of an earlier main hall and the foundations of side halls are visible within the complex. According to Guo Daiheng (Guo, 480) the pagodas were initiated in the seventh year of the Taiping xingguo reign period (982), thus they may have been completed before the end of the Taiping xingguo period in 988.
+              </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/s95thgm">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/v5p9xwo">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8570104">
+                  <placeName>江蘇省蘇州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Jiangsu, Suzhou</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
+                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
+                     <placeName xml:lang="zh-Hans">江苏省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou</placeName>
+                     <placeName xml:lang="zh-Hant">蘇州</placeName>
+                     <placeName xml:lang="zh-Hans">苏州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou shi</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>31.3062 120.63386111111112</geo>
+                  <p>Google Earth</p> 
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">cloister</desc>
+                  <desc xml:lang="zh-latn-pinyin">yuan</desc>
+                  <desc xml:lang="zh-Hant">院</desc>
+                  <desc xml:lang="zh-Hans">院</desc>
+               </trait>
+               <bibl xml:id="bibl000286-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000286-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/K3HM3FEE"/>
+                  <citedRange unit="pp">81</citedRange>
+               </bibl>  
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">335</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
+                  <citedRange unit="pp">480</citedRange>
+               </bibl>
+               </listBibl>
+            </place>
+            <listRelation>
+                 <relation active="https://architecturasinica.org/place/000286"
+                  passive="https://architecturasinica.org/keyword/k000012"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000286" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49766149371_72a7fbbde0.jpg"
+                  passive="https://architecturasinica.org/place/000286" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
