@@ -8,16 +8,29 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Data entry, editing and proof correction in 2010, 2011 and 2018 by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
-         </titleStmt>
+          <respStmt>
+            <resp>Initial translation 2010 by</resp>
+            <name type="person" xml:id="LO">Lydia Ohl</name>
+         </respStmt>
+         <respStmt>
+            <resp>Edited 2011 by</resp>
+            <name type="person" xml:id="CG">Cole Garrett</name>
+         </respStmt>
+         <respStmt>
+            <resp>Modified 2017 by</resp>
+            <name type="person" xml:id="WPS">WONG Pui See</name>
+         </respStmt>
+               </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
@@ -70,7 +83,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc type="building-data" source="#bibl000124-1">The  Zangjingidan (藏经殿) or the sutra repository of Anchansi (Song Dynasty) is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant. Translated by Lydia Ohl; modified TM 7/28/10; 9/19/11; 3/2018; Edited by Cole Garrett 9/9/11, Modified by Wong Pui See, 2017.</desc>
+               <desc type="building-data" source="#bibl000124-1">The  Zangjingidan (藏经殿) or the sutra repository of Anchansi (Song Dynasty) is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis (chamfering) of the column is prominent. The original system of woodwork/latticework is no longer extant.</desc>
                <location type="gps" subtype="preferred">
                   <geo>37.42453333 112.5473333</geo>
                </location>
