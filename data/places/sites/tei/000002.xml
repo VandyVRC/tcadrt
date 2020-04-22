@@ -11,15 +11,27 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+           <resp>Initial translation 2010 by</resp>
+               <name type="person" xml:id="LO">Lydia Ohl</name>
             </respStmt>
+            <respStmt>
+               <resp>Revised initial translation by</resp>
+               <name type="person" xml:id="CG">Cole Garrett</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modified translation 2017 by</resp>
+               <name type="person" xml:id="WPS">WONG Pui See</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding external links, citations 2020 by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt> 
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -62,6 +74,10 @@
                <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
                <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000002</idno>
+                   <state type="existence" subtype="dynasty" source="#bibl000002-2" from="1115-01-01" to="1234-01-01">
+                   <label>Dynasty</label>
+                   <desc>Jin 1115 - 1234</desc>
+                  </state>
                <desc type="site-data" source="#bibl000002-1">Baitai Monastery is located at about
                   200 meters southwest of Guangma Village, Gujiao Town (古交鎮光馬村). Jin and Yuan
                   dynasties. It is one of the historical and cultural sites protected at the
@@ -78,12 +94,7 @@
                   extant side buildings, the east Mountain Gate (東山門) and the west side building
                   (西廂房). Other extant structures include a Tang pagoda pillar, 4 Song dhārāṇi
                   pillars, a Song cloud-framed plaque from the third year of Song dynasty Xuanhe
-                  reign period (1121), and 18 polychrome clay sculptures. Translated by Lydia Ohl;
-                  revised by Cole Garrett; modified by Wong Pui See, 2017. </desc>
-                  <state type="existence" subtype="dynasty" source="#bibl000002-2" from="1115-01-01" to="1234-01-01">
-                   <label>Dynasty</label>
-                   <desc>Jin 1115 - 1234</desc>
-                  </state>
+                  reign period (1121), and 18 polychrome clay sculptures.</desc>
                <note type="External Links">
                   <p><ref target="https://tinyurl.com/rhgeomm">Wikipedia (in Chinese)</ref></p>
                   <p><ref target="https://tinyurl.com/sfff28r">百度百科</ref></p>
