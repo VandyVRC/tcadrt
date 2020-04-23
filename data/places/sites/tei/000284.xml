@@ -17,12 +17,14 @@
                <resp>Initial research 2020 by</resp>
                <name type="person">SUN Zheng</name>
             </respStmt>
-            
             <respStmt>
                <resp>Editing and proof correction by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
-               
+            <respStmt>
+               <resp>Editing by</resp>
+               <name type="person" when="2020-04-23" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -126,19 +128,21 @@
                </bibl>
                <listBibl xml:id="bibl000284-2">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/IRBVTJ77"/>
-                     <citedRange unit="pp">87-89</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/CEQXI8U4"/>
+                     <citedRange unit="pp">369</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/FYDU9WIA"/>
+                     <ptr target="https://architecturasinica.org/bibl/GGMDVKRA"/>
                   </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000284-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZIPDD3MI"/>
+                     <citedRange unit="pp">87-89</citedRange>
+                  </bibl>      
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/A9NXDEAQ"/>
                      <citedRange unit="pp">76</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                     <citedRange unit="pp">369</citedRange>
                   </bibl>
                </listBibl>
             </place>
