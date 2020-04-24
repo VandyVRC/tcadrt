@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Fujun Temple in Zhangzi, Mountain Gate <foreign xml:lang="zh-Hant">長子府君廟山門</foreign>
+            <title level="a" xml:lang="en">Fujun Temple in Zhangzi, main hall <foreign xml:lang="zh-Hant">長子府君廟正殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -12,6 +12,10 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial translation 2010 by</resp>
+               <name type="person" xml:id="LO">Lydia Ohl</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -46,28 +50,24 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change n="3.0" who="#TGM" when="2020-04-24-04:00">adding translation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000274" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000274-1" xml:lang="en">Mountain Gate</placeName>
-               <placeName xml:id="name000274-2" type="building-name" xml:lang="zh-Hant">山門</placeName>
-               <placeName xml:id="name000274-3" type="building-name" xml:lang="zh-Hans">山门</placeName>
-               <placeName xml:id="name000274-4" type="building-name" xml:lang="zh-latn-pinyin">Shanmen</placeName>
-               <placeName xml:id="name000274-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhangzi Fujunmiao Shanmen</placeName>
-               <placeName xml:id="name000274-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">长子县府君庙</placeName>
-               <placeName xml:id="name000274-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">长子县府君庙</placeName>
-               <placeName xml:id="name000274-11" type="alternate">Fujunmiao</placeName>
+               <placeName xml:id="name000274-1" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000274-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
+               <placeName xml:id="name000274-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
+               <placeName xml:id="name000274-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
+               <placeName xml:id="name000274-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhangzi Fujun Temple main hall</placeName>
+               <placeName xml:id="name000274-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">长子县府君廟正殿</placeName>
+               <placeName xml:id="name000274-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">长子县府君庙正殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000274</idno>
-               <state type="existence" from="1184-01-01" to="1184-01-01">
-                  <label>Date</label>
-                  <desc>1184</desc>
-               </state>
-               <state type="existence" subtype="dynasty" source="#bibl000274-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000274-2" from="0960" to="1644">
                   <label>Dynasty</label>
-                  <desc>Jin 1115 - 1234</desc>
+                  <desc>Song-Ming 960 - 1644</desc>
                </state>
                <location type="gps" subtype="preferred">
                   <geo>36.11985 112.8771667</geo>
@@ -75,11 +75,15 @@
                <location type="verbatim">
                   <note>36˚ 07. 191' 112˚ 52.630'</note>
                </location>
-               <bibl xml:id="bibl000274-1">
+               <desc type= "Building description" source= "#bibl000274-1">The main hall (正殿) of the Fujun Temple faces south on stone podium. It is 5 bays wide across the front and 6 rafters deep with a single eaves, hip gable roof. The column top and intercolumnar bracket sets are 5 steps, with double slanting arms. Restoration makes the original appearance difficult to ascertain.</desc>
+               <bibl xml:id="bibl000124-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II (中): 362; 111-C18</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000274-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <note type="field-notes">shanmen Jin--1184</note>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000274" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>

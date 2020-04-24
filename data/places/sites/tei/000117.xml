@@ -14,6 +14,10 @@
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
+               <resp>Initial translation 2010 by</resp>
+               <name type="person" xml:id="LO">Lydia Ohl</name>
+            </respStmt>
+            <respStmt>
                <resp>adding external links</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
@@ -57,9 +61,9 @@
                <placeName xml:id="name000117-3" type="site-name" xml:lang="zh-Hant">長子府君廟</placeName>
                <placeName xml:id="name000117-4" type="site-name" xml:lang="zh-Hans">长子府君庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000117</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000117-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000117-2" from="0960-01-01" to="1644-01-01">
                   <label>Dynasty</label>
-                  <desc>Northern Song 960 - 1127</desc>
+                  <desc>Song - Ming 960 - 1644</desc>
                </state>
                <!--
                <note type="External Links">                  
@@ -99,7 +103,12 @@
                   <desc xml:lang="zh-Hant">廟</desc>
                   <desc xml:lang="zh-Hans">庙</desc>
                </trait>
+               <desc type="Site description" source="#bibl000117-1">According to stele inscription at the site, the complex was repared in the 25th year of the Ming Jiajing reign period (1546). The single courtyard encompasses 1,400 square meters. It presently contains a main hall (正殿), a pair of stone lions, and a stele documenting its restoration. The main hall underwent a full restoration again in 2010.</desc>
                <bibl xml:id="bibl000117-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II (中): 362; 111-C18</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000117-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
