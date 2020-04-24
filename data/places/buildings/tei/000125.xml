@@ -4,17 +4,29 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Baitai Monastery, Śākyamuni Hall <foreign xml:lang="zh-Hant">白臺寺釋迦殿</foreign>
-            </title>
+            <title level="a" xml:lang="en">Baitai Monastery, Śākyamuni Hall <foreign xml:lang="zh-Hant">白臺寺釋迦殿</foreign></title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Initial translation 2010 by</resp>
+               <name type="person" xml:id="LO">Lydia Ohl</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revised 2011 by</resp>
+               <name type="person" xml:id="CG">Cole Garrett</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modified 2017 by</resp>
+               <name type="person" xml:id="WPS">WONG Pui See</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, proof correction 2018 by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>adding citation</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
@@ -65,14 +77,12 @@
                   <label>Date</label>
                   <desc>1190-1196</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000125-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000125-2" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <desc type="building-data">Shijiadian or Śākyamuni Hall (釋迦殿) of Baitai Monastery (Jin dynasty) 
-                  Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was built according to the terrain, with the front and the back elevation of 0.75 meter and 0.3 meter respectively. Front façade of 3 bays and depth of 6 rafters. Single eaves hip-gable roof. All of the roof ridges, including the main ridge, the pendant ridge, the subsidiary ridge and the roof finial, are carved brick. Under the eaves are columns with four-layer bracket sets and a single cantilever.  The central bay has an intercolumnar bracket set. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the front eaves, there is a bi-valve door hung in the central bay. Lattice windows are in the secondary bays of the building. In the hall, there is a Buddhist altar that holds 12 Buddhist sculptures, which are arranged as follows: Śākyamuni in the middle, flanked by Ānanda, Kāśyapa and bodhisattvas on either side. Under the two gable walls, there are 6 extant arhat sculptures. Behind the interior screen wall, there is a sculpture of Skanda (Weituo韋馱)
-                  that has been modified by later generations and hence lost its original characteristics. 
-                  [ZGWWDTJ, vol. 3 (下), p.1099 126–C1-2]; Translated by Lydia Ohl; revised by Cole Garrett, Wong Pui See (2017), and Tracy Miller (2018).</desc>
+               <desc type="building-data" source="#bibl000125-1">Shijiadian or Śākyamuni Hall (釋迦殿) of Baitai Monastery (Jin dynasty) 
+                  Rebuilt during the Jin Mingchang reign period (1190-1194). The brick podium was built according to the terrain, with the front and the back elevation of 0.75 meter and 0.3 meter respectively. Front façade of 3 bays and depth of 6 rafters. Single eaves hip-gable roof. All of the roof ridges, including the main ridge, the pendant ridge, the subsidiary ridge and the roof finial, are carved brick. Under the eaves are columns with four-layer bracket sets and a single cantilever.  The central bay has an intercolumnar bracket set. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the front eaves, there is a bi-valve door hung in the central bay. Lattice windows are in the secondary bays of the building. In the hall, there is a Buddhist altar that holds 12 Buddhist sculptures, which are arranged as follows: Śākyamuni in the middle, flanked by Ānanda, Kāśyapa and bodhisattvas on either side. Under the two gable walls, there are 6 extant arhat sculptures. Behind the interior screen wall, there is a sculpture of Skanda (Weituo韋馱)that has been modified by later generations and hence lost its original characteristics.</desc>
                <location type="gps" subtype="preferred">
                   <geo>35.66366667 111.0694</geo>
                </location>
@@ -87,6 +97,10 @@
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <bibl xml:id="bibl000125-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">III (xia): 1099; 126-C1-2</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000125-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -112,7 +126,7 @@
                <relation active="https://architecturasinica.org/place/000125" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000125" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4116/4831100445_972b732293_" passive="https://architecturasinica.org/place/000125">
-                  <desc>Baitaisi   释迦殿  Shijiadian</desc>
+                  <desc>Baitaisi 释迦殿 Shijiadian</desc>
                </relation>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4122/4831075875_107fbf1b42_" passive="https://architecturasinica.org/place/000125">
                   <desc>Baitaisi   释迦殿  Shijiadian</desc>
