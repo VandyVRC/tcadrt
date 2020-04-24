@@ -83,11 +83,11 @@
                   <label>Date</label>
                   <desc>1279-1368</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000127-1" from="1271-01-01" to="1368-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000127-2" from="1271-01-01" to="1368-01-01">
                   <label>Dynasty</label>
                   <desc>Yuan 1271 - 1368</desc>
                </state>
-               <desc type="building-data" source="#bibl000127-2">The back great hall (後大殿) of Baitai Monastery was rebuilt during the 11th year of Yuan dynasty. The brick podium is 0.33 meters high.  The front façade is 5-bays wide with a depth of 6 rafters. The single eaves hip-gable roof has a main ridge made of brick carvings. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the eaves are five-layer bracket sets with double petal bracket arms (huagong). There are no intercolumnar bracket sets. A partition door is hung on the central bay under the front eaves. The square lattice windows in the secondary bays were later additions. In the middle of the Buddhist altar of this hall, there is a seated Śākyamuni on lotus dias, with bodhisattvas and attendants flanked on both sides. These sculptures emulate the Tang style. The hall faces onto a sizable moon-platform the center of which holds a Tang-style pagoda shaped inscribed pillar, four Song-style octagonal dhārāṇi pillar at the four corners, and a Song-style iron cloud frame plaque.</desc>
+               <desc type="building-data" source="#bibl000127-1">The back great hall (後大殿) of Baitai Monastery was rebuilt during the 11th year of Yuan dynasty. The brick podium is 0.33 meters high.  The front façade is 5-bays wide with a depth of 6 rafters. The single eaves hip-gable roof has a main ridge made of brick carvings. The roof frame is formed by a four-rafter beam facing a posterior rufu tie-beam with three columns in cross-section and an upturned basin column base. Under the eaves are five-layer bracket sets with double petal bracket arms (huagong). There are no intercolumnar bracket sets. A partition door is hung on the central bay under the front eaves. The square lattice windows in the secondary bays were later additions. In the middle of the Buddhist altar of this hall, there is a seated Śākyamuni on lotus dias, with bodhisattvas and attendants flanked on both sides. These sculptures emulate the Tang style. The hall faces onto a sizable moon-platform the center of which holds a Tang-style pagoda shaped inscribed pillar, four Song-style octagonal dhārāṇi pillar at the four corners, and a Song-style iron cloud frame plaque.</desc>
                <location type="gps" subtype="preferred">
                   <geo>35.663933 111.06937</geo>
                </location>
@@ -102,16 +102,15 @@
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <bibl xml:id="bibl000127-1">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000127-2">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">III (xia): 1099; 126-C1-3</citedRange>
                </bibl>
+               <bibl xml:id="bibl000127-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                <!-- personal notes commented out
-                  <note type="notes">Axis: c, roof style: o-g, front façade: 60', side: 25' 9"</note>
-               -->
+                  <note type="notes">Axis: c, roof style: o-g, front façade: 60', side: 25' 9"</note>-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000127" ref="dcterms:subject" passive="https://architecturasinica.org/keyword/k000062" ana="building-type"/>
