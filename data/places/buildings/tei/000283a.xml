@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Iron Pagoda<foreign xml:lang="zh-Hant">铁塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="ML">Melanie Lu</editor>
+            <respStmt>
+               <resp>Initial research 2020 by</resp>
+               <name type="person">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+               <respStmt>
+                  <resp>data entry and revision by</resp>
+                  <name type="person" xml:id="YFB" when="2020-04-10">Yuh-Fen Benda</name>
+               </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000283a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-04-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#ML" when="2020-04-28">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000283a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000283a-1" type="building-name" xml:lang="en">Iron Pagoda</placeName>
+               <placeName xml:id="name000283a-2" type="building-name" xml:lang="zh-latn-pinyin">Tieta</placeName>
+               <placeName xml:id="name000283a-3" type="building-name" xml:lang="zh-Hant">鐵塔</placeName>
+               <placeName xml:id="name000283a-4" type="building-name" xml:lang="zh-Hans">铁塔</placeName>
+               <placeName xml:id="name000283a-5" type="alternate" xml:lang="en">Youguo Monastery Pagoda</placeName>
+               <placeName xml:id="name000283a-6" type="alternate" xml:lang="zh-latn-pinyin">Youguosita</placeName>
+               <placeName xml:id="name000283a-7" type="alternate" xml:lang="zh-Hant">佑國寺塔</placeName>
+               <placeName xml:id="name000283a-8" type="alternate" xml:lang="zh-Hans">佑国寺塔</placeName>
+               <placeName xml:id="name000283a-9" type="alternate" xml:lang="en">Kaibao Monastery Pagoda</placeName>
+               <placeName xml:id="name000283a-10" type="alternate" xml:lang="zh-latn-pinyin">Kaibaosita</placeName>
+               <placeName xml:id="name000283a-11" type="alternate" xml:lang="zh-Hant">開寶寺塔</placeName>
+               <placeName xml:id="name000283a-12" type="alternate" xml:lang="zh-Hans">开宝寺塔</placeName>
+               <placeName xml:id="name000283a-13" type="alternate" xml:lang="en">Kaifeng Iron Pagoda</placeName>
+               <placeName xml:id="name000283a-14" type="alternate" xml:lang="zh-latn-pinyin">Kaifengtieta</placeName>
+               <placeName xml:id="name000283a-15" type="alternate" xml:lang="zh-Hant">開封鐵塔</placeName>
+               <placeName xml:id="name000283a-16" type="alternate" xml:lang="zh-Hans">开封铁塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000283a</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000283a-1" from="0960-01-01"
+                  to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1127</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p>
+                 The Iron Pagoda, also known as the Youguo or Kaibao Monastery Pagoda, is a 13-story octagonal structure located in Kaibao Monastery. Erected in 1049 during the northern Song dynasty, it was conceived as a replacement to an earlier timber pagoda that was struck down by lightning in 1044 (Zhang 93). Construction is believed to have taken approximately thirty years, and there were numerous subsequent renovations after the Song dynasty (Zhang 93). The original structure, also called Linggan Wood Pagoda or Fusheng Pagoda, was built to house a relic of the Buddha and was designed by the renowned architect Yu Hao under imperial commission (Cheng 226). After its destruction, Song Renzong (r. 1022-1063) ordered the Iron Pagoda to be built in its place with a similar design but using brick as a more durable material instead of timber (Zhang 93). The location was also shifted to higher ground from Fusheng cloister to Shangfang cloister within the same complex (Cheng 226). The exterior is glazed with a brown and green color so as to produce an iron-like shine, thus earning the pagoda its nickname. More than fifty different types of decorative motifs, such as Buddhist figures, auspicious creatures, and floral patterns, are found throughout the exterior of the structure, including the glazed walls, roofs, and supportive columns (Cheng 227). Overall, the Iron Pagoda demonstrates a masterful use of material that gives rise to both aesthetic appeal and durability, allowing it to withstand numerous earthquakes, floods, and storms over its almost thousand-year old history. It is now considered the oldest and tallest extant glazed brick building in ancient Chinese architecture (Zhang 92). </p>
+               </desc>
+                  <desc type="site-data" xml:lang="zh-Hans">
+                     <p source="#bibl000283a-2">
+                  铁塔，又称佑国寺塔或开宝寺塔，是一座开宝寺院内的十三层八角建筑物。北宋1049年始建，用来替补早前于1044年遭雷击焚毁的木塔 (张93) 。大约耗时三十年竣工，宋朝后也屡有修葺 (张93)。作为前身的灵感木塔也称福胜塔，为供奉佛舍利由皇家任命的著名建筑师喻浩设计监工而成 (程 226)。遭雷火之灾后，宋仁宗（1022-1063年在位）命人按原样式重建佛塔，这次以更坚固抗燃的砖为建造材料 (张93)。同时，塔的位置也从开宝寺的福胜院移至更高处的上方院内 (程 226)。塔壁由绿褐色琉璃砖砌成，观之酷似铁铸，铁塔之称也由此而来。整体装饰精美华丽，砖上模制多达五十种丰富图案，如佛教人物像、花卉、祥纹动物等，遍布壁身、屋檐、塔柱等各处 (程 227)。对材料大胆严谨的选用和优秀的建造工艺使得铁塔将华美和牢固集于一身，近千年来于多次地震洪灾中幸存。如今，它已是中国古建筑中最老、最高的琉璃砖构件建筑，具有极高的文物价值 (张92)。</p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/y7fkcdj7">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/yach3cpe">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/yatml9v3">百度百科</ref>
+                  </p>
+               </note>
+               <!--<location type="nested" source="http://vocab.getty.edu/tgn/8570104">
+                  <placeName>江蘇省蘇州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Jiangsu, Suzhou</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
+                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
+                     <placeName xml:lang="zh-Hans">江苏省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou</placeName>
+                     <placeName xml:lang="zh-Hant">蘇州</placeName>
+                     <placeName xml:lang="zh-Hans">苏州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou shi</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>31.3062 120.63386111111112</geo>
+                  <p>Google Earth</p> 
+               </location>-->
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000283a-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000283a-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/RRRIE45K"/>
+                  <citedRange unit="pp">93</citedRange>
+               </bibl>  
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/V9A4IF78"/>
+                  <citedRange unit="pp">226</citedRange>
+               </bibl>
+               </listBibl>
+            </place>
+            <listRelation>
+                 <relation active="https://architecturasinica.org/place/000283a"
+                  passive="https://architecturasinica.org/keyword/k000060"
+                  ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000283a" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000283a" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000283a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000283"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
