@@ -161,6 +161,9 @@
                <relation active="https://architecturasinica.org/place/000283a" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000283a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000283"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49770136567_2f0c212208.jpg"
+                  passive="https://architecturasinica.org/place/000283a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
