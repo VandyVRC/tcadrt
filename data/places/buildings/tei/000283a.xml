@@ -10,21 +10,16 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="ML">Melanie Lu</editor>
             <respStmt>
-               <resp>Initial research 2020 by</resp>
-               <name type="person">Melanie Lu</name>
+               <resp>Initial research and data entry 2020 by</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
-               <respStmt>
-                  <resp>data entry and revision by</resp>
-                  <name type="person" xml:id="YFB" when="2020-04-10">Yuh-Fen Benda</name>
-               </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
