@@ -69,10 +69,13 @@
                   <label>Dynasty</label>
                   <desc>Post Qing 1912 -</desc>
                </state>
-               <location type="gps" subtype="preferred" source="#bibl000283b-2">
-                  <geo>34.816896 114.363035</geo>
+               <location type="gps" subtype="preferred">
+                  <geo> 34.816896 114.363035 </geo>
                </location>
                <!--<location type="verbatim">
+               <p>
+               <ref target="https://tinyurl.com/yacel322">Google Earth</ref>
+               </p>
                   <note>36˚ 21.196' (Garmin) 113˚ 25.548'</note>
                </location>-->
                <trait type="type" sub-type="building-type">
@@ -85,9 +88,6 @@
                <bibl xml:id="bibl000283b-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000283b-2">
-                  <ref target="https://tinyurl.com/yacel322">Google Earth</ref>
                </bibl>
             </place>
             <listRelation>
