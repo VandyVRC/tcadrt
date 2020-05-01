@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Lingyin Monastery West Stone Pagodas <foreign xml:lang="zh-Hant">靈隱寺西石塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SQ">Song Qisen</editor>
+            <respStmt>
+               <resp>Initial research 2020 by</resp>
+               <name type="person" ref="#SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000285b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-04-30</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SQ" when="2020-04-30">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000285b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000285b-1" type="building-name" xml:lang="en">Stone Pagodas</placeName>
+               <placeName xml:id="name000285b-2" type="building-name" xml:lang="zh-latn-pinyin">Shita</placeName>
+               <placeName xml:id="name000285b-3" type="building-name" xml:lang="zh-Hant">石塔</placeName>
+               <placeName xml:id="name000285b-4" type="building-name" xml:lang="zh-Hans">石塔</placeName>
+               <placeName xml:id="name000285b-5" type="alternate" xml:lang="en">Lingyin Monastery Twin Pagodas</placeName>
+               <placeName xml:id="name000285b-6" type="alternate" xml:lang="zh-latn-pinyin">lingyinsi liangshita</placeName>
+               <placeName xml:id="name000285b-7" type="alternate" xml:lang="zh-Hant">靈隱寺兩石塔</placeName>
+               <placeName xml:id="name000285b-8" type="alternate" xml:lang="zh-Hans">灵隐寺两石塔</placeName>
+               <placeName xml:id="name000285b-9" type="alternate" xml:lang="en">Twin Pagodas</placeName>
+               <placeName xml:id="name000285b-10" type="alternate" xml:lang="zh-latn-pinyin">Shuangshita</placeName>
+               <placeName xml:id="name000285b-11" type="alternate" xml:lang="zh-Hant">雙石塔</placeName>
+               <placeName xml:id="name000285b-12" type="alternate" xml:lang="zh-Hans">双石塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000285b</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000285b-2" from="0902-01-01"
+                  to="0979-01-01">
+                  <label>Dynasty</label>
+                  <desc>The Five Dynasties and Ten Kingdoms 902 - 979</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p>The Twin Stone Pagodas in Lingyin Monastery are positioned individually on the East and West side of the terrace in front of the Daxiongbao Hall, 42 meters apart. During the early restoration of the monastery under the reign of Qian Hongchu (錢弘俶), King of Wuyue Kingdom (吳越國), a set of four stone pagodas were established in 960, but only two survive until the present day, and they are lacking their original finials.</p>   
+                  <p source="#bibl000285b-1">The twin pagodas are almost identical in structure, size, and style (Xia and Tang, 2016, 88-92). At the height of 11 meters and with a total of nine layers, these pagodas were both constructed meticulously following the architectural style of octagonal wooden pagodas. The pagoda sits on a Mount Sumeru platform or dais (xumizuo须弥座) , and the platform is inscribed with the Uṣṇīṣa Vijaya Dhāraṇī Sūtra (Dafoding tuoluonijing大佛頂陀羅尼經) in legible regular script of calligraphy for visitors to read. The large stone pedestal (panshi磐石) under the Mount Sumeru platform is carved in the “Nine Seas and Eight Mountains” (jiushan bahai九山八海) pattern. This prevailing visual motif in Buddhist art refers to the cosmological belief that the world is formed with nine sacred mountain ranges with Mount Sumeru at the celestial center and eight oceans separating them (Zhao and Mao, 2017, 92-98). Each layer of the pagoda consists of a balcony substructure (pingzuo平坐), main structure (zhengshen正身), and waist eaves (yaoyan腰檐). The balcony substructure and the main structure are both supported with single huagong bracket arm (miao杪) and single descending cantilever (xia’ang下昂) following the stolen-heart technique (<term ref="https://architecturasinica.org/keyword/k000024">touxinzao偷心造</term>). The main structure of each story is embellished with the a cusped gable doorway (kunmen壼门) on all four sides (Zhongguo wenwuju, 2010, 26).</p>
+               </desc>
+               <desc xml:lang="zh-Hant">
+<p>靈隱寺兩石塔置於大雄寶殿前平臺上，東西相望，相距42米。960年，吳越國君錢弘俶重修寺院，共立壹組四尊石塔，至今僅兩尊尚存，塔剎皆毀。</p>
+<p>兩尊石塔形制、尺寸、風格幾乎壹致，高11米，均為八面九層，細仿木質構造式佛塔。石塔立於須彌座之上，座上滿刻楷體《大佛頂陀羅尼經》供香客參拜。須彌座之下另有磐石狀塔基，雕飾有九山八海紋。九山八海紋常見於佛教藝術建築中，意指九座神山以須彌山為中心、以八海相隔而構建的空間世界觀。石塔每層都以平坐、正身、腰檐構成。平坐與正身俱以壹跳花拱單杪單下昂偷心造的鋪作承托。每層正身四向亦都裝辟有壹壸門。</p>
+                  <p>Related Site: <term ref="https://architecturasinica.org/place/000285a">Lingyin Monastery East Stone Pagoda 靈隱寺東石塔</term></p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/udfzfdm">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/sb27jha">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/resfcl9">百度百科</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/ug83pjp">Official website</ref>
+                  </p>
+               </note>
+               <!--<location type="nested" source="http://vocab.getty.edu/tgn/8570104">
+                  <placeName>江蘇省蘇州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Jiangsu, Suzhou</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
+                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
+                     <placeName xml:lang="zh-Hans">江苏省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou</placeName>
+                     <placeName xml:lang="zh-Hant">蘇州</placeName>
+                     <placeName xml:lang="zh-Hans">苏州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Suzhou shi</placeName>
+                  </region>
+               </location>-->
+               <location type="gps" subtype="preferred">
+                  <geo>30.242777 120.096461</geo>
+               </location>
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000285b-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000285b-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7NTDRQ3W"/>
+                  <citedRange unit="pp">87-92</citedRange>
+               </bibl>  
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/R9EC7VXG"/>
+                  <citedRange unit="pp">92-98</citedRange>
+               </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
+                     <citedRange unit="pp">26</citedRange>
+                  </bibl>
+               </listBibl>
+            </place>
+            <listRelation>
+                 <relation active="https://architecturasinica.org/place/000285b"
+                  passive="https://architecturasinica.org/keyword/k000060"
+                  ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000285b" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000285b" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000285b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000285"/>
+               <!-- <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49770136567_2f0c212208.jpg"
+                  passive="https://architecturasinica.org/place/000285b" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49769277198_3056098ec3.jpg"
+                  passive="https://architecturasinica.org/place/000285b" ana="featured"/> -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
