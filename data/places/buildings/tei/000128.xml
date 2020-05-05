@@ -4,17 +4,30 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Baiyu Palace, main hall   <foreign xml:lang="zh-Hant">白玉宮正殿</foreign>
+            <title level="a" xml:lang="en">Baiyu Palace, main hall <foreign xml:lang="zh-Hant">白玉宮正殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Initial translation 2010 by</resp>
+               <name type="person" xml:id="LO">Lydia Ohl</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Translation 2011 by</resp>
+               <name type="person" xml:id="CG">Cole Garrett</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation modified 2017 by</resp>
+               <name type="person" xml:id="WPS">WONG Pui See</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
@@ -45,14 +58,14 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change n="2.0" who="ML" when="2020-03-27">Adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000128" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000128-1" xml:lang="en">main hall  </placeName>
+               <placeName xml:id="name000128-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000128-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000128-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
                <placeName xml:id="name000128-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
@@ -69,8 +82,7 @@
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
-               <desc type="building-data">The main hall (正殿) of Baiyu Palace is built on a 0.8 m high stone podium. The hall has a front façade of 3 bays wide and depth of 4 rafters. It has a single eaves hip-gable roof, with a roof frame composed of a three-rafter beam facing an anterior single-rafter tie beam joined into to the eaves, with three columns in cross-section. The column tops support four-layer bracket sets with a single cantilever, and there are single intercolumnar bracket sets. The original doors and windows are no longer extant. 
-                  [ZGWWDTJ, Shanxi vol 2 (zhong), p. 513 23-C10-1] Translated by Lydia Ohl; edited by Cole Garrett; Modified by Wong Pui See, edited by TM, 2018</desc>
+               <desc type="building-data" source="#bibl000128-2">The main hall (正殿) of Baiyu Palace is built on a 0.8 m high stone podium. The hall has a front façade of 3 bays wide and depth of 4 rafters. It has a single eaves hip-gable roof, with a roof frame composed of a three-rafter beam facing an anterior single-rafter tie beam joined into to the eaves, with three columns in cross-section. The column tops support four-layer bracket sets with a single cantilever, and there are single intercolumnar bracket sets. The original doors and windows are no longer extant.</desc>
                <location type="gps" subtype="preferred">
                   <geo>35.65815 113.2410667</geo>
                </location>
@@ -87,6 +99,10 @@
                <bibl xml:id="bibl000128-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000128-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II:513; 23-C10</citedRange>
                </bibl>
                <!--note type="field-notes">Main Hall from 1212 see: 中國 文物 地圖集, 中, 513 23 - C 10</note>
                <note type="notes">Axis: c, roof style: h/g, front façade: 26' 10", side: 24' 4"</note-->
@@ -112,6 +128,7 @@
                <relation active="https://architecturasinica.org/place/000128" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000128" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000128" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000003"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49859652986_7614e2c913_c.jpg" passive="https://architecturasinica.org/place/000128" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
