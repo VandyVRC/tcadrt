@@ -7,14 +7,15 @@
             <title level="a" xml:lang="en">Baiyu Palace, Mountain Gate <foreign xml:lang="zh-Hant">白玉宮山門</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
@@ -85,6 +86,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000129" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000129" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000003"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49859799757_3686da64f0_c.jpg" passive="https://architecturasinica.org/place/000129" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
