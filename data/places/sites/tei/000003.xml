@@ -115,12 +115,13 @@
                </bibl>
                <bibl xml:id="bibl000003-2">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">II:513;23-C10</citedRange>
+                  <citedRange unit="pp">II:513; 23-C10</citedRange>
                </bibl>
             </place> 
             <listRelation>
                <relation active="https://architecturasinica.org/place/000003" passive="https://architecturasinica.org/keyword/k000061" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000003" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49859652986_7614e2c913_c.jpg" passive="https://architecturasinica.org/place/000003" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
