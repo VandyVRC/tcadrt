@@ -7,14 +7,15 @@
             <title level="a" xml:lang="en">Baiyu Palace, Hall of the Three Transcendents <foreign xml:lang="zh-Hant">白玉宮三仙殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
@@ -69,7 +70,7 @@
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc type="building-data">The Hall of the Three Transcendents (三仙殿) in Baiyu Palace is located on the central axis of the complex and dates to the Ming-Qing dynasties. It has an overhanging gable roof, its front façade measures 8.56 m (28' 1") and its side facade measures 7.9 m (25' 11"). Entry by TM</desc>
+               <desc type="building-data">The Hall of the Three Transcendents (三仙殿) in Baiyu Palace is located on the central axis of the complex and dates to the Ming-Qing dynasties. It has an overhanging gable roof, its front façade measures 8.56 m (28' 1") and its side facade measures 7.9 m (25' 11").</desc>
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
                   <desc xml:lang="en">palatial hall</desc>
@@ -87,6 +88,7 @@
                <relation active="https://architecturasinica.org/place/000130" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000130" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000130" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000003"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49859491381_9f76b7ffb8_c.jpg" passive="https://architecturasinica.org/place/000130" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
