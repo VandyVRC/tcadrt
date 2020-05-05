@@ -61,8 +61,6 @@
                <placeName xml:id="name000131-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">白玉宫後殿</placeName>
                <placeName xml:id="name000131-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">白玉宫后殿</placeName>
                <placeName xml:id="name000131-11" type="alternate">Houdian</placeName>
-               <desc type="building-data" source="#bibl000131-2">The back hall of Baiyu Palace is on the central axis and dates to the Ming-Qing dynasties. It has an overhanging gable roof, its front façade measures 9.32 m (30' 7").</desc>
-               <idno type="URI">https://architecturasinica.org/place/000131</idno>
                <state type="existence" from="1368-01-01" to="1911-01-01">
                   <label>Date</label>
                   <desc>1368-1911</desc>
@@ -71,6 +69,8 @@
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
+               <desc type="building-data" source="#bibl000131-2">The back hall of Baiyu Palace is on the central axis and dates to the Ming-Qing dynasties. It has an overhanging gable roof, its front façade measures 9.32 m (30' 7").</desc>
+               <idno type="URI">https://architecturasinica.org/place/000131</idno>
                <location type="gps" subtype="preferred">
                   <geo>35.65833 113.240967</geo>
                </location>
