@@ -8,16 +8,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-
-               <foreign xml:lang="zh-hanst">椽</foreign> rafter</title>
+            <title level="a" xml:lang="en"><foreign xml:lang="zh-hanst">椽</foreign> rafter</title>
 
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Editing and data entry 2019 by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -74,31 +77,17 @@
             <bibl xml:id="biblk000107-3">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl> 
-            <!--This is left as a template for bibliographic structure
-            <bibl xml:id="biblcao-1">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD"/>
-               <citedRange unit="pp">199</citedRange>
-             </bibl>   
-            -->
-
             <idno type="URI">https://architecturasinica.org/keyword/k000107</idno>
-            <listRelation>
+            <!--<listRelation>
                <listRelation>
-                  
-                  <!--This is left as a template for images
-                     <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000107" rendition="featured"> </relation>-->
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000107" passive="Building Frame"/>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000107"
-
-                     passive="Foundations"/>
+                     active="https://architecturasinica.org/keyword/k000107" passive="Foundations"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/>
-                  <!--where there is an xxx put the number of the example-->
-               </listRelation>
-            </listRelation>
+                     source="name_of_numbered_example_here"/> 
+                     </listRelation>
+                     </listRelation>  -->
          </entryFree>
       </body>
    </text>
