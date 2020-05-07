@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">額</foreign> forehead tie beam</title>
+               <foreign xml:lang="zh-hanst">額枋</foreign> forehead tie beam</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000114/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000115/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -53,11 +53,11 @@
       <body>
          <entryFree xml:id="caihuazuo" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">forehead tie beam</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">額</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">额</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">é</term>
-            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">o</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">forehead</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">額枋</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">额枋</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">éfāng</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">o-fang</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">forehead tie beam</term>
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
@@ -65,10 +65,10 @@
             <bibl xml:id="biblk000113-3">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>-->
-            <idno type="URI">https://architecturasinica.org/keyword/k000114</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000115</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000114" passive="Building Frame"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000115" passive="Building Frame"/>
                   </listRelation>
             </listRelation>
          </entryFree>
