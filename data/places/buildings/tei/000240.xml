@@ -7,12 +7,12 @@
             <title level="a" xml:lang="en">Sirun Sanjiaotang, main hall <foreign xml:lang="zh-Hant">寺潤三教堂大殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -46,7 +46,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" when="2020-03-26-04:00">adding citation</change>
+         <change n="2.0" when="2020-03-26-04:00">Adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,18 +61,14 @@
                <placeName xml:id="name000240-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">寺润三教堂大殿</placeName>
                <placeName xml:id="name000240-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">寺润三教堂大殿</placeName>
                <placeName xml:id="name000240-11" type="alternate">Sanjiaotang</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000240</idno>
-               
-               <state type="existence" from="1125-01-01" to="1234-01-01">
-                  <label>Date</label>
-                  <desc>1125-1234</desc>
-               </state>
-               <desc type="building-data" source="#bibl000240-1">
-                  The main hall, which may also be the Sanjiaotang itself, sits on a 1.4 meter-high stone platform. It is a three-by-three bay hall, with a square plan and a double-eaves hip-gable roof. The structural framework consists of a four-rafter beam that extends from front to back eaves, and is surrounded on four sides by a gallery. </desc>
+               <idno type="URI">https://architecturasinica.org/place/000240</idno>               
                <state type="existence" subtype="dynasty" source="#bibl000240-2" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
+               <desc type="building-data" source="#bibl000240-1">
+                  The main hall, which may also be the Sanjiaotang itself, sits on a 1.4 meter-high stone platform. It is a three-by-three bay hall, with a square plan and a double-eaves hip-gable roof. The structural framework consists of a four-rafter beam that extends from front to back eaves, and is surrounded on four sides by a gallery. </desc>
+               
                <location type="gps" subtype="preferred">
                   <geo>35.83021667 113.18035</geo>
                </location>

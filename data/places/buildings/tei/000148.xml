@@ -7,11 +7,12 @@
             <title level="a" xml:lang="en">Chongjiao Monastery, right ear hall <foreign xml:lang="zh-Hant">崇教寺右耳殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -61,10 +62,6 @@
                <placeName xml:id="name000148-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇教寺右耳殿</placeName>
                <placeName xml:id="name000148-11" type="alternate">Youerdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000148</idno>
-               <state type="existence" from="1644-01-01" to="1912-01-01">
-                  <label>Date</label>
-                  <desc> </desc>
-               </state>
                <state type="existence" subtype="dynasty" source="#bibl000148-1" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
