@@ -9,13 +9,13 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">馬面</foreign>mamian</title>
+               <foreign xml:lang="zh-hanst">馬面</foreign> mamian</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Data, Citations entry by</resp>
+               <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
             </respStmt>
          </titleStmt>
@@ -51,7 +51,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="caihuazuo" type="architectural-feature">
+         <entryFree xml:id="mamian" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000121-1">projecting bastion</term>
             <term xml:id="term-feature_name-2" xml:lang="en" type="preferred" source="#biblk000121-2">bastion</term>
             <term xml:id="term-feature_name-3" xml:lang="en" type="preferred" source="#biblk000121-3">salient</term>
@@ -61,13 +61,9 @@
             <term xml:id="term-feature_name-7" xml:lang="zh-latn-pinyin" type="preferred">mǎmiàn</term>
             <term xml:id="term-feature_name-8" xml:lang="Wade-Giles">ma-mien</term>
             <term xml:id="term-feature_name-9" xml:lang="en" type="literal_translation" source="#biblk000121-5">horse face</term>
-            
-            
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
-            
-            
             <bibl xml:id="biblk000121-1">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">50</citedRange>
@@ -100,9 +96,6 @@
                   <citedRange unit="pp">57</citedRange>
                </bibl>   
             </listBibl>
-            
-            
-            
             <idno type="URI">https://architecturasinica.org/keyword/k000121</idno>
             <listRelation>
                <listRelation>
