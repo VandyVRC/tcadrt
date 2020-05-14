@@ -10,8 +10,8 @@
                <foreign xml:lang="zh-hanst">彩畫</foreign> caihua</title>
             <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="#TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -57,8 +57,8 @@
    <text>
       <body>
          <entryFree xml:id="caihua" type="architectural-feature">
-         	<term xml:id="term-feature_name-7" xml:lang="en" type="preferred">Polychrome painting</term>
-         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cǎihuà</term>
+         	<term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">Polychrome painting (lit.)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">cǎihuà (preferred)</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="biblcaihua-1">彩畫</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">彩画</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts’ai-hua</term>
@@ -72,7 +72,7 @@
             	<p>彩畫: (1) 營造法式, 卷二 (2) 李路珂, 營造法式彩畫研究 (2011) 76-77</p>
             	<p>Decorative Coating: (3) Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 21</p>
             	<p>Decorative Polychrome Painting of Architectural Members: (4) Nancy S. Steinhardt ed., Alexandra Harrer trans., Fu Xinian, Traditional Chinese Architecture: Twelve Essays (2017) 350</p>
-            	<p>Longer Annotation</p>
+            	<p>Annotation</p>
             	<p>彩畫在古代文獻中又通 “采畫”，既可以指衣飾、器物、舟車、棺椁的彩畫裝飾，也指施于建築構件表面的裝飾方式。例如《隋書》:“帝曰：形制依此。今天下初定，務從節儉。應用繡、織成者，並可彩畫，金色宜塗，珠玉之飾，任用蚌也”。《唐六典》：“其棺椁禁雕镂、彩畫、施戶牖欄檻者，棺內禁金寶珠玉而斂者。”《宋史》：“……橫貫大木以為軸，夾以兩輪，輪皆彩畫。”</p>
             	<p>In traditional Chinese literature, caihua can be used to refer to the decoration of clothing, utensils, boats, and enamel. It also refers to the method of decoration applied to the surface of building components. An example from the Suishu (隋書 11.218) reads, “The emperor said, “The system of forms (xingzhi) is based on this. From today it is first established and must be followed for frugality. The people who use embroidery and weaving may apply polychrome paint and gold pigment. Those ornamented with pearl and jade [should] make use of mother-of-pearl." In the Tang Liudian（唐六典）we find:“其棺椁禁雕镂、彩畫、施戶牖欄檻者，棺內禁金寶珠玉而斂者。 In the Songshi 宋史 we see: "......橫貫大木以為軸，夾以兩輪，輪皆彩畫" </p>
             	<p>古代文献中有一些壁画也称作彩画，例如《汉书》记有“画堂”和“画室”。“画堂” 意为 “宫殿中彩画之堂”，“画室” 意 “雕画之室”，唐颜师古推断这里的“彩画” “雕画” 应该是壁画，又如《法苑珠林》中写有 “如今壁上彩画所作”，《宋朝名画评》有“彩画列壁”的说法。</p>
