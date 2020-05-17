@@ -11,8 +11,8 @@
             	<foreign xml:lang="zh-hanst">鴟尾</foreign> chiwei</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="editor">Tracy Miller</editor>
+            <principal xml:id="#TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
