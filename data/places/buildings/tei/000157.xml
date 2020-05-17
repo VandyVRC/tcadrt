@@ -7,14 +7,15 @@
             <title level="a" xml:lang="en">Great Temple, Feilai Hall <foreign xml:lang="zh-Hant">大廟飛來殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations and external links</resp>
+               <resp>Adding citations and external links</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
          </titleStmt>
