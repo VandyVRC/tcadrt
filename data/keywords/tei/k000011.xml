@@ -6,10 +6,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-         	<title level="a" xml:lang="zh-latn-pinyin">chuandou (column-and-tie-beam framework)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">穿鬥</foreign> chuāndòu</title>
+            <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
+               <respStmt>
+                  <resp>Initial Research</resp>
+                  <name type="person">BAI Ying 白穎</name>
+                  <name type= "team">ATTCAT 2018</name>
+               </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -60,19 +67,21 @@
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ch'uan-tou</term>
       		<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000011-1">穿鬥</term>
       		<term xml:id="term-feature_name-3" xml:lang="zh-Hans">穿斗</term>
-            <note>
-            	<p>Chuandou 穿鬥 is one of the two main types of Chinese timber-frame structure, the other being tailiang. The term was created by architectural historians in the 1940s following the terms used by the craftsman of southwest China, including chuandou 穿逗, litie 立貼, and chuandou 串斗. The term, and the structural process it describes, is associated with the the timber-frame structures of Southern China.</p>
-            	<p>In the chuandou structural system, pillars support the purlins directly, and several layers of tie-beams penetrate the pillars to join them together. Literally, chuandou has a verbal connotation, referring to a particular procedure of construction. First pillars of the same bay (the truss-like frame perpendicular to the roof ridge) are connected by the work of "chuan," and then multiple frames of different bays are interlocked (parallel to the roof ridge) by the work of "dou" to form the whole timber-frame structure.</p>
-            	<p>穿鬥是中國傳統建築最主要的構架類型術語之一（與之相對應的術語是抬梁）。這一命名最早在1940年代由建築史學者根據中國西南地區的工匠術語總結而來，後被用來描述南方民間建築的木構架形式。</p>
-            	<p>穿鬥式木構架，又稱穿逗式、立貼式、串斗式等，是指檁下立柱，柱由多層穿枋串起來的構架形式。從字面意思來解釋，這一術語包含了這一構架特定的施工過程的意思，即先通過“穿”將各榀屋架組合起來，再通過“鬥”用檁條等構件將各榀屋架連接為整體。</p>
+            <note type="Scope Note (brief)">
+               <p xml:lang="en">Chuandou 穿鬥 is one of the two main types of Chinese timber-frame structure, the other being tailiang 擡梁. The term was created by architectural historians in the 1940s following the terms used by the craftsman of southwest China, including chuandou 穿逗, litie 立貼, and chuandou 串斗. The term, and the structural process it describes, is associated with the the timber-frame structures of Southern China. In the chuandou structural system, pillars support the purlins directly, and several layers of tie-beams penetrate the pillars to join them together. Literally, chuandou has a verbal connotation, referring to a particular procedure of construction. First pillars of the same bay (the truss-like frame perpendicular to the roof ridge) are connected by the work of "chuan," and then multiple frames of different bays are interlocked (parallel to the roof ridge) by the work of "dou" to form the whole timber-frame structure.</p>
+            	<p xml:lang="zh-Hant">穿鬥是中國傳統建築最主要的構架類型術語之一（與之相對應的術語是抬梁）。這一命名最早在1940年代由建築史學者根據中國西南地區的工匠術語總結而來，後被用來描述南方民間建築的木構架形式。 穿鬥式木構架，又稱穿逗式、立貼式、串斗式等，是指檁下立柱，柱由多層穿枋串起來的構架形式。從字面意思來解釋，這一術語包含了這一構架特定的施工過程的意思，即先通過“穿”將各榀屋架組合起來，再通過“鬥”用檁條等構件將各榀屋架連接為整體。</p>
             	<p>(BAI Ying 白穎, ATTCAT 2018)</p>
-            	 
+               <p>Related Concepts: 
+                  <term ref="/keyword/k000081">擡梁 táiliáng</term>
+               </p>
+            	<!--  
                <p>Sources</p>
             	<p>penetrating and interlocking ATTCAT 2018</p>
             	<p>穿鬥: (1) 刘致平. 中国建筑类型及结构. 北京: 中国建筑工业出版社, 2000：56 (2) 刘敦桢 主编. 中国古代建筑史. 北京: 中国建筑工业出版社, 1980：4 </p>
             	<p>column-and-tie-beam framework: (3) Fu Xinian. Traditional Chinese Architecture. Princeton University Press, 2017: 351 </p>
             	<p>post-and-tie construction: (4) Guo, Qinghua. A Visual Dictionary of Chinese Architecture 中國建築英漢雙解辭典. Mulgrave, Vic., Australia: Images Pub., 2002, 25. </p>
             	<p> Related terms: <term ref="https://architecturasinica.org/keyword/k000081">檯梁 táiliáng</term> ; 井干 jǐnggàn ; 穿逗 chuāndòu ; 串斗 chuàndòu ; 立貼 lìtiē</p>
+               --> 
             </note>
       	   <listBibl xml:id="biblk000011-1">
       	      <bibl>
