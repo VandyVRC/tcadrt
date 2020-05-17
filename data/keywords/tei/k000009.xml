@@ -11,7 +11,7 @@
             	<foreign xml:lang="zh-hanst">鴟尾</foreign> chiwei</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="#TGM">Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator">Yuh-Fen Benda</editor>
             <respStmt>
@@ -21,7 +21,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
