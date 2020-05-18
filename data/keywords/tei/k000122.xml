@@ -9,11 +9,16 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">羊馬城</foreign> yangma cheng</title>
+               <foreign xml:lang="zh-hanst">羊馬城</foreign> yángmǎ chéng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+              <resp>Initial Research</resp>
+              <!--name type="person">BAI Ying 白穎</name-->
+              <name type="team">ATTCAT 2019</name>
+            </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -52,23 +57,23 @@
    <text>
       <body>
          <entryFree xml:id="yangma cheng" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000122-1">rampart</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" type="preferred" source="#biblk000122-2">parapet</term>
-            <term xml:id="term-feature_name-3" xml:lang="en" type="preferred" source="#biblk000122-3">Yang ma cheng</term>
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000122-4">Fausse-braye</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000122-1">rampart</term>
+            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000122-1">parapet</term>
+            <term xml:id="term-feature_name-3" xml:lang="en" source="#biblk000122-1">Yang ma cheng</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000122-1">Fausse-braye</term>
             <term xml:id="term-feature_name-5" xml:lang="zh-Hant">羊馬城</term>
             <term xml:id="term-feature_name-6" xml:lang="zh-Hans">羊马城</term>
-            <term xml:id="term-feature_name-7" xml:lang="zh-latn-pinyin" type="preferred">yángmǎ chéng</term>
+            <term xml:id="term-feature_name-7" xml:lang="zh-latn-pinyin" type="preferred">yángmǎ chéng (preferred)</term>
             <term xml:id="term-feature_name-8" xml:lang="Wade-Giles">yang-ma-ch'eng</term>
             
             <note>
-               <p> Related terms: 羊馬城，羊馬垣，牛馬墻，養馬墻</p>
+               <p>Related terms: 羊馬垣，牛馬墻，養馬墻</p>
             </note>
             <bibl xml:id="biblk000122-1">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">51</citedRange>
             </bibl>
-            <bibl xml:id="biblk000122-2">
+            <!--bibl xml:id="biblk000122-2">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">51</citedRange>
             </bibl>
@@ -79,7 +84,7 @@
             <bibl xml:id="biblk000122-4">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">51</citedRange>
-            </bibl>
+            </bibl-->
 
          
             <idno type="URI">https://architecturasinica.org/keyword/k000122</idno>
