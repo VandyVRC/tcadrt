@@ -11,19 +11,19 @@
             <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general" ref="TGM">Tracy Miller</editor>
-            <editor role="creator" ref="TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person">BAI Ying 白穎</name>
+               <name type="person" xml:id="BY">BAI Ying 白穎</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" ref="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
