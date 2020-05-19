@@ -9,10 +9,16 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">檐柱</foreign> eaves pillars</title>
+               <foreign xml:lang="zh-hanst">檐柱</foreign> yánzhù</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="">Yuh-Fen Benda</editor>
+	    <respStmt>
+	      <resp>Initial Research</resp>
+	      <!--name type="person">BAI Ying 白穎</name-->
+	      <name type="team">ATTCAT 2018</name>
+	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
@@ -55,19 +61,19 @@
    <text>
       <body>
          <entryFree xml:id="chongchunbanwa" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000111-1">eaves pillars</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000111-1">eaves pillars</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">檐柱</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">檐柱</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000111-2">yánzhù</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred" source="#biblk000111-2">yánzhù (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yan-chu</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">eaves pillars</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">eaves pillars (lit.)</term>
             
             <note>
                   
                
                 <p>
                Related Terms:
-               <term ref="https://architecturasinica.org/keyword/k000102">柱 zhù</term>
+               <term ref="/keyword/k000102">zhù 柱</term>
             </p>
                <p>ATTCAT 2018
                </p>
