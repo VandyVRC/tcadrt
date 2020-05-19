@@ -9,11 +9,15 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">營造法式 </foreign> yingzao fashi</title>
+               <foreign xml:lang="zh-hanst">殿堂</foreign> diantang</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -24,13 +28,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000127/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000130/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-05-17</date>
+            <date>2020-05-19</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,38 +50,50 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-16">CREATED: record</change>
+         <change n="1.0" when="2020-05-19">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="yingzao fashi" type="architectural-feature">
+         <entryFree xml:id="zhuchu" type="architectural-feature">
             
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000127-1">Yingzao Fashi</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000127-2">Ying-tsao fashih</term>
-            <term xml:id="term-feature_name-3" xml:lang="en">building standard</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-Hant">營造法式</term>
-            <term xml:id="term-feature_name-5" xml:lang="zh-Hans">营造法式</term>
-            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" type="preferred">yíngzào fàshì</term>
-            <term xml:id="term-feature_name-7" xml:lang="Wade-Giles">ying-tsao fa-shih</term>
-            <note>
-              <!--  <p> Related terms: 四阿，五脊殿，吴殿</p>-->
-            </note> 
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000130-1">diantang</term>
+            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000130-2">place type</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000130-3">hall</term>
+            <term xml:id="term-feature_name-9" xml:lang="zh-Hant" source="#biblk000130-3">殿堂</term>
+            <term xml:id="term-feature_name-10" xml:lang="zh-Hans">殿堂</term>
+            <term xml:id="term-feature_name-11" xml:lang="zh-latn-pinyin" type="preferred">diàntáng</term>
+            <term xml:id="term-feature_name-12" xml:lang="Wade-Giles">tien-t'ang</term>
+            <!--  <note>
+              <p> Related terms: 四阿，五脊殿，吴殿</p>
+            </note> -->
             
-            <bibl xml:id="biblk000127-1">
-               <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
-            </bibl>
+            <bibl xml:id="biblk000130-1">
+               <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
+            </bibl>      
+            <bibl xml:id="biblk000130-2">
+               <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
+            </bibl>        
             
-            <bibl xml:id="biblk000127-2">
-               <ptr target="https://architecturasinica.org/bibl/GZT26BNM"/>
-            </bibl>
-           
+            <listBibl xml:id="biblk000130-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
+               </bibl>  
+           </listBibl>
+
+            <bibl xml:id="biblk000130-4">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+             </bibl> 
+
             
-            <idno type="URI">https://architecturasinica.org/keyword/k000127</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000130</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> -->
-                  <!-- I don't know what should the category be -->
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000130" passive="building-type"/>
+             
             </listRelation>
             </listRelation>
          </entryFree>
