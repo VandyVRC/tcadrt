@@ -9,11 +9,16 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">月城</foreign>crescent moon defensive wall</title>
+               <foreign xml:lang="zh-hanst">月城</foreign> yuèchéng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+              <resp>Initial Research</resp>
+              <!--name type="person">BAI Ying 白穎</name-->
+              <name type="team">ATTCAT 2018</name>
+            </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -52,12 +57,12 @@
    <text>
       <body>
          <entryFree xml:id="yuèchéng" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">crescent moon defensive wall</term>
+            <term xml:id="term-feature_name-1" xml:lang="en">crescent moon defensive walls</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">月城</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">月城</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">yuèchéng</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">yuèchéng (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yüeh-ch'eng</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">crescent moon defensive wall</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">crescent moon defensive wall (lit.)</term>
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
