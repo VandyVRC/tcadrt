@@ -8,12 +8,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">彩畫作</foreign> polychrome painting works</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">彩畫作</foreign> cǎihuàzuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+              <resp>Initial Research</resp>
+              <!--name type="person">BAI Ying 白穎</name-->
+              <name type="team">ATTCAT 2018</name>
+            </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -52,12 +57,12 @@
    <text>
       <body>
          <entryFree xml:id="cǎihuàzuò" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">polychrome painting works</term>
+            <term xml:id="term-feature_name-1" xml:lang="en">polychrome painting works</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">彩畫作</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">彩画作</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">cǎihuàzuò</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">cǎihuàzuò (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts’ai-hua-tso</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">polychrome painting works</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">polychrome painting works (lit.)</term>
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->

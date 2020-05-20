@@ -8,11 +8,17 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">板瓦</foreign> plate tile</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">板瓦</foreign> bǎnwǎ</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
+	    <respStmt>
+	      <resp>Initial Research</resp>
+	      <!--name type="person">BAI Ying 白穎</name-->
+	      <name type="team">ATTCAT 2018</name>
+	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
@@ -55,13 +61,13 @@
    <text>
       <body>
          <entryFree xml:id="bǎnwǎ" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000104-1">plate tile</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="biblk000104-1">plate tiles</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">板瓦</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">板瓦</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">bǎnwǎ (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">pan-wa</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">plate tile; plank tile</term>
-            <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000104-2">flat tile</term>     
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">plate tile; plank tile (lit.)</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000104-2">flat tiles</term>     
 
             <note>
                <p>Roof tile of shallow concave shape; can serve as a gutter tile or a covering tile. Eaves tiles of this type have an overhanging lip to allow water to drip away from the bottom edge. These are categorized according to decorative treatment of the lip. The two most common types are the chongchun banwa 重唇板瓦 (lit. multi-lipped plate tile) and huatou banwa 華頭板瓦 (lit. flower/ornamented head plate tile) (ATTCAT 2018)</p>

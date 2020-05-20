@@ -8,8 +8,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">廳堂</foreign> tingtang</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">廳堂</foreign> tīngtáng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -68,28 +68,23 @@
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
-            
-            <bibl xml:id="biblk000129-1">
-               <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
+                        <bibl xml:id="biblk000129-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>      
             <bibl xml:id="biblk000129-2">
-               <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>        
             <bibl xml:id="biblk000129-3">
                   <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
             </bibl>
-
             <bibl xml:id="biblk000129-4">
-               <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
              </bibl> 
-
-            
             <idno type="URI">https://architecturasinica.org/keyword/k000129</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000129" passive="building-type"/>
-             
-            </listRelation>
+                         </listRelation>
             </listRelation>
          </entryFree>
       </body>

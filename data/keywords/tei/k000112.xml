@@ -4,11 +4,16 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:lang="en">tower-style pagoda</title>
+                <title level="a" xml:lang="zh-latn-pinyin"><foreign xml:lang="zh-hanst">樓閣式塔</foreign> lóugé shì tǎ</title>
                 <title level="m">Architectura Sinica</title>
-                <principal>Tracy Miller</principal>
-                <editor role="general">Tracy Miller</editor>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
                 <editor role="creator" xml:id="SZ">SUN Zheng</editor>
+                <respStmt>
+                  <resp>Initial Research</resp>
+                  <!--name type="person">BAI Ying 白穎</name-->
+                  <name type="team">ATTCAT 2018</name>
+                </respStmt>
                 <respStmt>
                     <resp>Editing by</resp>
                     <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -46,8 +51,8 @@
     <text>
         <body>
             <entryFree xml:id="pagoda" type="building-type">
-                <term xml:id="term-pagoda-1" xml:lang="en">tower-style pagoda</term>
-                <term xml:id="term-pagoda-4" xml:lang="zh-latn-pinyin">louge shi ta</term>
+                <term xml:id="term-pagoda-1" xml:lang="en">tower-style pagodas</term>
+                <term xml:id="term-pagoda-4" xml:lang="zh-latn-pinyin" type="preferred">lóugé shì tǎ (preferred)</term>
                 <term xml:id="term-pagoda-2" xml:lang="zh-Hant">樓閣式塔</term>
                 <term xml:id="term-pagoda-3" xml:lang="zh-Hans">楼阁式塔</term>
                 <idno type="URI">https://architecturasinica.org/keyword/k000112</idno>  
