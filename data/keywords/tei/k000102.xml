@@ -11,8 +11,9 @@
             	<foreign xml:lang="zh-hanst">柱</foreign> pillars</title>
             	            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
             	<name type="person">ZHUGE Jing 諸葛净</name>
@@ -20,7 +21,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -60,7 +61,7 @@
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">柱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">柱</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chu</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred">pillars</term>            
+         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred">pillars (preferred)</term>            
          	<term xml:id="term-feature_name-6" xml:lang="en">columns</term>
             <note>
             	<p>Broadly speaking, a pillar is any vertical architectural element. As a part of traditional Chinese timber frame architecture, pillars may stand directly on the ground or be supported by other structural members within the roof frame. Pillars are named after their positions within the building. In the Song dynasty Yingzao Fashi (1103), pillar types that extend to the ground include leveling pillars (pingzhu), eaves pillars (yanzhu), and corner pillars (jiaozhu). In the Qing dynasty Gongbu Gongcheng Zuofa (1734), major pillar types include eaves pillars (yanzhu), interior pillars (neizhu), and gable pillars (shanzhu). </p>
