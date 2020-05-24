@@ -16,7 +16,9 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="team">ATTCAT 2019</name>
+               <name type="person" xml:id="BY">BAI Ying 白穎</name>
+               <name type="person" xml:id="WLJ">WANG Lijia 王麗佳</name>
+               <name type="team">ATTCAT 2019</name>    
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
@@ -55,18 +57,19 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="zhuchu" type="architectural-feature">
+         <entryFree xml:id="jinggan" type="architectural-feature">
             
             <term xml:id="term-feature_name-1" xml:lang="zh-Hant" source="#biblk000131-1">井幹</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hans" source="#biblk000131-2">井干</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">jǐnggàn (preferred)</term>
-            <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ching-kan</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans" source="#biblk000131-3">井干构架/构造</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">jǐnggàn (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="en" source="#biblk000131-3">jinggangoujia/gouzao</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000131-4">log-cabin construction</term>
-            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000131-5">jinggan</term>
-            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000131-6">log construction</term>
-            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000131-7">log cabin</term>
-            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000131-8">interlocking timber</term>
+            <term xml:id="term-feature_name-6" xml:lang="Wade-Giles">ching-kan</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000131-4">log-cabin construction</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000131-5">jinggan</term>
+            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000131-6">log construction</term>
+            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000131-7">log cabin</term>
+            <term xml:id="term-feature_name-11" xml:lang="en" source="#biblk000131-8">interlocking timber</term>
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
