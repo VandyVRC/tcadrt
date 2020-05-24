@@ -14,11 +14,12 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-	    <respStmt>
-              <resp>Initial Research</resp>
-              <!--name type="person">BAI Ying 白穎</name-->
-              <name type="team">ATTCAT 2019</name>
-            </respStmt>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person" xml:id="JTL">JIA Tingli 賈亭立</name>
+               <name type="person" xml:id="XF">Xie Fei 谢菲</name>
+               <name type="team">ATTCAT 2019</name>    
+            </respStmt> 
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -57,41 +58,20 @@
    <text>
       <body>
          <entryFree xml:id="mamian" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000121-1">projecting bastions</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000121-2">bastions</term>
-            <term xml:id="term-feature_name-3" xml:lang="en" source="#biblk000121-3">salients</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000121-4">yangma</term>
-            <term xml:id="term-feature_name-5" xml:lang="zh-Hant">馬面</term>
-            <term xml:id="term-feature_name-6" xml:lang="zh-Hans">马面</term>
-            <term xml:id="term-feature_name-7" xml:lang="zh-latn-pinyin" type="preferred">mǎmiàn (preferred)</term>
-            <term xml:id="term-feature_name-8" xml:lang="Wade-Giles">ma-mien</term>
-            <term xml:id="term-feature_name-9" xml:lang="en" type="literal_translation" source="#biblk000121-5">horse face (lit.)</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant">馬面</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans">马面</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">mǎmiàn (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ma-mien</term>
+            <term xml:id="term-feature_name-5" xml:lang="en" type="literal_translation" source="#biblk000121-1">horse face (lit.)</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000121-2">projecting bastions</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000121-3">bastions</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000121-4">salients</term>
+            <term xml:id="term-feature_name-9" xml:lang="zh-latn-pinyin" source="#biblk000121-5">yangma</term>
+            
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
-            <bibl xml:id="biblk000121-1">
-               <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
-               <citedRange unit="pp">50</citedRange>
-            </bibl>
-            <listBibl xml:id="biblk000121-2">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">57</citedRange>
-               </bibl> 
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
-                  <citedRange unit="pp">50</citedRange>
-               </bibl>
-            </listBibl>
-            <bibl xml:id="biblk000121-3">
-               <ptr target="https://architecturasinica.org/bibl/JEVZYB9P"/>
-               <citedRange unit="pp">226</citedRange>
-            </bibl>
-            <bibl xml:id="biblk000121-4">
-               <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
-               <citedRange unit="pp">7-8</citedRange>
-            </bibl>
-            <listBibl xml:id="biblk000121-5">
+            <listBibl xml:id="biblk000121-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
                   <citedRange unit="pp">7-8</citedRange>
@@ -101,6 +81,29 @@
                   <citedRange unit="pp">57</citedRange>
                </bibl>   
             </listBibl>
+            <bibl xml:id="biblk000121-2">
+               <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+               <citedRange unit="pp">50</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000121-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">57</citedRange>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+                  <citedRange unit="pp">50</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000121-4">
+               <ptr target="https://architecturasinica.org/bibl/JEVZYB9P"/>
+               <citedRange unit="pp">226</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000121-5">
+               <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
+               <citedRange unit="pp">7-8</citedRange>
+            </bibl>
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000121</idno>
             <listRelation>
                <listRelation>
