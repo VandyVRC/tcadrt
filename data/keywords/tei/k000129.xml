@@ -16,7 +16,10 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="team">ATTCAT 2019</name>
+               <name type="person" xml:id="XJB">XUE Jingbo 薛景勃</name>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
+               <name type="person" xml:id="YAN">YAN Anni 嚴安妮</name>
+               <name type="team">ATTCAT 2019</name>    
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
@@ -55,20 +58,21 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="zhuchu" type="architectural-feature">
-            
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000129-1">tingtang</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000129-2">tingtang construction</term>
-            <term xml:id="term-feature_name-3" xml:lang="en" source="#biblk000129-3">mansion type</term>
-            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000129-4">hall</term>
-            <term xml:id="term-feature_name-9" xml:lang="zh-Hant">廳堂</term>
-            <term xml:id="term-feature_name-10" xml:lang="zh-Hans">厅堂</term>
-            <term xml:id="term-feature_name-11" xml:lang="zh-latn-pinyin" type="preferred">tīngtáng (preferred)</term>
-            <term xml:id="term-feature_name-12" xml:lang="Wade-Giles">t'ing-t'ang</term>
+         <entryFree xml:id="tingtang" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant">廳堂</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans">厅堂</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">tīngtáng (preferred)</term>           
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000129-1">tingtang</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ing-t'ang</term>  
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000129-2">tingtang construction</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000129-3">mansion type</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000129-4">hall</term>
+
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
-                        <bibl xml:id="biblk000129-1">
+            
+            <bibl xml:id="biblk000129-1">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>      
             <bibl xml:id="biblk000129-2">
