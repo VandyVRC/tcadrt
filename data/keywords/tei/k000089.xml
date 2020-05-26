@@ -8,11 +8,11 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-            	<foreign xml:lang="zh-hanst">甕城</foreign> wencheng</title>
-            	            <!-- title has traditional Chinese first, then English -->
+            	<foreign xml:lang="zh-hanst">甕城</foreign> wèngchéng</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
             	<name type="person">JIA Tingli 賈亭立</name>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -61,19 +61,18 @@
    <text>
       <body>
       	<entryFree xml:id="wengcheng" type="architectural-feature">
-      	   <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">wèngchéng (preferred)</term>
+      	   <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">wèngchéng</term>
       	   <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000089-1">甕城</term>
       		<term xml:id="term-feature_name-3" xml:lang="zh-Hans">瓮城</term>
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">weng-ch’eng</term>
-      	   <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000089-2">enceinte</term>            
-      	   <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000089-3">barbican</term>
-      		<term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">jar-shaped defensive wall</term>
-      	   <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000089-4">jar city</term>
+      	   <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000089-2">enceinte (preferred)</term>            
+      	   <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000089-3">barbicans</term>
+      		<term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">jar-shaped defensive wall (lit.)</term>
+      	   <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000089-4">jar cities</term>
             <note>
             	<p>In traditional Chinese fortifications, refers to the enceinte built outside the city gate. The shape can be square or round. The walls of the wengcheng are at the same height as, or slightly lower than, the main city walls. The battlements on wengcheng are connected to those on the main walls. There is often one gate, which is not facing the gate of the main city wall, on the wall of wengcheng. It plays a role in defending the city gates and resisting the enemy’s attack on wengcheng gate from both directions in the main city wall (dacheng 大城) and wengcheng. This term is explained in the Northern Song Dynasty (960-1127) text, the Wujing zongyao, chapter (juan) 12, City Wall Defenses (Shoucheng 守城). </p>
             	<p>甕城爲中國古代城牆防禦設施。宋《武經總要》中對其有明確定義，指圍築於城門外側的小城圈，形狀多為方形或圓形，甕城墻多與主城墻同高或稍低，墻頂外側砌垛口與主城墻垛口相連。甕城牆上一般偏開壹門，不正對主城門，較為正式的城門，如都城的正南門，往往甕城在正向和偏向分別設門。甕城起到對城門的保衛作用，並可在大城、甕城上從兩個方向抵禦攻打甕城門之敵。</p>
-            	<p>(JIA Tingli 賈亭立, ATTCAT 2018)</p>
-               <p>Related terms: 城墻，城門，月城</p>
+               <p>Related concepts: 城墻，城門，<term ref="/keyword/k000119">月城 yuèchéng</term></p>
                <!--	<p> Sources and Contributors:</p>
             	<p>enceinte: ATTCAT</p>
             	<p>甕城: (1)（宋）曾公亮，丁度撰. 武經總要.清文淵閣四庫全書本.前集卷十二：3a (2) 李國豪等主編.中國土木建築百科辭典：建築. 北京：建築工業出版社， 2006:358 (3) 鄭文翰主編.軍事大辭典. 上海：上海辭書出版社，1992：623 (4) 黃寬重. 宋代城郭的防禦設施及材料.(臺北)大陸雑 誌,1990, 81(2):1-23 </p>
