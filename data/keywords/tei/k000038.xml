@@ -7,8 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">闌額</foreign> pillar top tie beam</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">闌額</foreign> lane</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -59,11 +59,11 @@
    <text>
       <body>
          <entryFree xml:id="lane" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000038-1">pillar top tie beam</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000038-1">pillar top tie beam</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000038-2">闌額</term>
             <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000038-3">阑额</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">lán'é</term>
-            <term xml:id="term-feature_name-12" xml:lang="zh-latn-pinyin-nt" source="#biblk000038-4">lan'e</term>
+            <term xml:id="term-feature_name-12" xml:lang="zh-latn-pinyin-nt" source="#biblk000038-4" type="preferred">lāné (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">lan-o</term>
             <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">forehead
                rail</term>
