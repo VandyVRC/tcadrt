@@ -8,11 +8,10 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-            	<foreign xml:lang="zh-hanst">檐額 </foreign> yane</title>
-            <!-- title has traditional Chinese first, then English -->
+            	<foreign xml:lang="zh-hanst">檐額 </foreign> yán’é</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="editor" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
@@ -63,22 +62,21 @@
    <text>
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000097-1">eaves tie beam</term>
+            <term xml:id="term-feature_name-4" xml:lang="en"  type="preferred" source="#biblk000097-1">eaves tie beams (preferred)</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000097-2">檐額</term>
             <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
-            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">yán’é (preferred)</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">yán’é</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yen-o</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">eaves forehead</term>
-         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000097-6">eaves architrave</term>
-         	<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000097-4">end-to-end architrave</term>
-         	<term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000097-5">eaves-column-top-tie</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">eaves forehead (lit.)</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000097-6">eaves architraves</term>
+         	<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000097-4">end-to-end architraves</term>
+         	<term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000097-5">eaves-column-top-ties</term>
             <note type="getty:scopeNote">
                <note xml:lang="en">
                	<p>Most architectural scholars agree that in traditional Chinese timber-frame buildings, eaves tie beams refer to a structural elements positioned on top of eaves pillars, run parallel to the roof ridge, and span at least three bays. The use of this element indicates a structural system where the roof is supported by the timber frame parallel to the roof ridge. This stands in contradistinction to the more commonly-seen system where the timber-framing elements perpendicular to the roof ridge support the roof. But there are different opinions among scholars about whether the element referred to as the “eaves tie beam” must project from pillars at the corners of the building. As far as we know, the term is primarily used in the Yingzao Fashi (1103) . However, the precise definition of the yan’e as used in the Yingzao fashi, as well as its relationship to the Scholars who believe that eaves tie beams which project from pillars ends follow the description in the Yingzao Fashi (5.4a) strictly use the Linshui ting 臨水亭 of the Jidumiao 濟瀆廟 in Jiyuan xian, Henan 濟源縣, the main hall of the Guanwangmiao 關王廟大殿 in Dingxiangxian 定襄縣, Shanxi, and the Guanyinge 觀音閣 of Kaihuasi 開化寺, in Gaoping, Shanxi 山西高平 as examples. Scholars who emphasize the comment in the Yingzao fashi stating the dimensions of this element regularly exceed that of other timbers in this location argue that these long horizontal elements on top of eaves pillars in buildings dating to Yuan Dynasty in Shanxi and Shaanxi province are eaves tie beams. </p>
                </note>
                <note xml:lang="zh-Hant">
                	<p>大部分建筑史研究者都同意，作为中国传统建筑构件的“檐額”，應是與縱架承重體系有關係的沿面阔方向構件的一種，至少應橫跨三開間及以上。就目前所見，“檐額”為主要見於《營造法式》的建築術語，在其它語境中較少出現。但《營造法式》“檐額”的確切定義，檐額與早期建築中的楣的關係，檐額與闌額的關係，檐額與元代山西、陝西等地多見的“大額式”間的關係等問題，學者間並沒能達成完全一致，目前大致存在两类看法：（1）著重於《營造法式》對於檐額形制的描述，並以此為標準辨認實例，如河南省濟源縣濟瀆廟臨水亭、山西定襄縣關王廟大殿、山西高平開化寺觀音閣；（2）從受力分析出發，著眼於《營造法式》對於檐额出乎寻常之大尺寸的描述，判斷其必然為一承重構件，並進而認為陝西、山西現存元代建築實例中柱頂以上沿面闊方向通长的被学者命名为大额的构件，即《營造法式》所說的檐額，如陝西省韓城市的禹王殿、山西省洪洞縣廣勝下寺大殿。</p>
-               	<p>(Zhuge Jing 諸葛净, ATTCAT 2018)</p>
                </note>
             </note>            
             <!-- note type="sources"> 
@@ -90,7 +88,7 @@
             	<p>eaves architrave: (6) Fu, Xinian, Alexandra Harrer, and Nancy Shatzman Steinhardt. Traditional Chinese Architecture : Twelve Essays. The Princeton-China Series. Princeton: Princeton University Press, 2017. 370.</p> 
             </note -->
             <note type="related terms">
-            	<p>阑额; 楣； 橫楣</p>
+            	<p>阑额; 楣；橫楣</p>
             </note>   
             <bibl xml:id="biblk000097-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
