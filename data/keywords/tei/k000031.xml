@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">hermitage</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">庵</foreign> an</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="hermitage" type="site-type">
             <term xml:id="term-hermitage-1" xml:lang="en">hermitage</term>
-            <term xml:id="term-hermitage-4" xml:lang="zh-latn-pinyin">an</term>
+            <term xml:id="term-hermitage-4" type="preferred" xml:lang="zh-latn-pinyin">ān (preferred)</term>
             <term xml:id="term-hermitage-2" xml:lang="zh-Hant">庵</term>
             <term xml:id="term-hermitage-3" xml:lang="zh-Hans">庵</term>
             <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>
