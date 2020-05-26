@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">historic building group</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">古建築群</foreign> gujianzhuqun</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="historic-building-group" type="site-type">
             <term xml:id="term-historic-building-group-1" xml:lang="en" source="biblhistoric-building-group-1">historic building group</term>
-            <term xml:id="term-historic-building-group-4" xml:lang="zh-latn-pinyin" source="biblhistoric-building-group-1">gujianzhuqun</term>
+            <term xml:id="term-historic-building-group-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblhistoric-building-group-1">gǔjiànzhúqún (preferred)</term>
             <term xml:id="term-historic-building-group-2" xml:lang="zh-Hant" source="biblhistoric-building-group-1">古建築群</term>
             <term xml:id="term-historic-building-group-3" xml:lang="zh-Hans" source="biblhistoric-building-group-1">古建筑群</term>
             <gloss>modern designation for cluster of registered historic structures </gloss>
