@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">pagoda</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">塔</foreign> ta</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="pagoda" type="building-type">
             <term xml:id="term-pagoda-1" xml:lang="en" source="biblpagoda-1">pagoda</term>
-            <term xml:id="term-pagoda-4" xml:lang="zh-latn-pinyin" source="biblpagoda-1">ta</term>
+            <term xml:id="term-pagoda-4" xml:lang="zh-latn-pinyin" source="biblpagoda-1" type="preferred">tǎ (preferred)</term>
             <term xml:id="term-pagoda-2" xml:lang="zh-Hant" source="biblpagoda-1">塔</term>
             <term xml:id="term-pagoda-3" xml:lang="zh-Hans" source="biblpagoda-1">塔</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000060</idno>  
