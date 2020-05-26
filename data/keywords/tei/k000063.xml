@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">pavilion</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">亭</foreign> ting</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="pavilion" type="building-type">
             <term xml:id="term-pavilion-1" xml:lang="en" source="biblpavilion-1">pavilion</term>
-            <term xml:id="term-pavilion-4" xml:lang="zh-latn-pinyin" source="biblpavilion-1">ting</term>
+            <term xml:id="term-pavilion-4" xml:lang="zh-latn-pinyin" source="biblpavilion-1" type="preferred">tíng (preferred)</term>
             <term xml:id="term-pavilion-2" xml:lang="zh-Hant" source="biblpavilion-1">亭</term>
             <term xml:id="term-pavilion-3" xml:lang="zh-Hans" source="biblpavilion-1">亭</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000063</idno>
