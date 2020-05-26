@@ -8,12 +8,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
+            <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">四阿頂</foreign> sieding</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
-            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>            
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person" xml:id="JTL">JIA Tingli 賈亭立</name>
+               <name type="person" xml:id="MJQ">MA Jiaqi 馬嘉琪</name>
+               <name type="team">ATTCAT 2019</name>    
+            </respStmt> 
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -54,41 +60,31 @@
          <entryFree xml:id="sieding" type="architectural-feature">
             
             
-            <term xml:id="term-feature_name-1" xml:lang="zh-Hant">四阿頂</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant" source="#biblk000126-1">四阿頂</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hans">四阿顶</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">sìēdǐng (preferred)</term>
             <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">szu-o-ting</term>
             <note>
               <p> Related terms: 五脊殿，吴殿，庑殿，庑殿顶，四坡顶</p>
             </note> 
-            <!--  
-            <bibl xml:id="biblk000125-1">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-            </bibl>
+
                        
-            <listBibl xml:id="biblk000125-2">
+            <listBibl xml:id="biblk000126-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               </bibl> 
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">74，142</citedRange>
                </bibl> 
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
-               </bibl> 
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">366，369</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GZT26BNM"/>
+               </bibl>
             </listBibl>
 
-            <listBibl xml:id="biblk000125-3">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/IRRH8K8Q"/>
-               </bibl> 
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/DHH93NT6"/>
-               </bibl> 
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl//G3VB5QMD"/>
-                  <citedRange unit="pp">366,369</citedRange>
-               </bibl> 
-            </listBibl>
-            -->
             <idno type="URI">https://architecturasinica.org/keyword/k000126</idno>
             <listRelation>
                <listRelation>

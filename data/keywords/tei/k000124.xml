@@ -8,12 +8,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
+            <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">崖墓</foreign> yamu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person" xml:id="YAN">YAN Anni 嚴安妮</name>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
+               <name type="person" xml:id="RSJ">REN Sijie 任思捷</name>
+               <name type="team">ATTCAT 2019</name>    
+            </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -52,30 +59,18 @@
    <text>
       <body>
          <entryFree xml:id="yamu" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant" source="#biblk000124-1">崖墓</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans">崖墓</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">yámù (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">yamu</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ya-mu</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="preferred" source="#biblk000124-2">cliff tomb</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000124-3">rock-cut tomb</term>
             
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000124-1">cliff tomb</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000124-2">rock-cut tomb</term>
-            <term xml:id="term-feature_name-3" xml:lang="en">yamu</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-Hant" source="#biblk000124-3">崖墓</term>
-            <term xml:id="term-feature_name-5" xml:lang="zh-Hans">崖墓</term>
-            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" type="preferred">yámù (preferred)</term>
-            <term xml:id="term-feature_name-7" xml:lang="Wade-Giles">ya-mu</term>
             <!-- <note>
               <p> Related terms: 露台</p>
             </note> -->
             <listBibl xml:id="biblk000124-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/WE46QVN3"/>
-               </bibl> 
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/EKN592SS"/>
-                  <citedRange unit="pp">401-469</citedRange>
-               </bibl> 
-            </listBibl>
-            <bibl xml:id="biblk000124-2">
-               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
-            </bibl>
-            <listBibl xml:id="biblk000124-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/48I5DSAE"/>
                </bibl> 
@@ -84,6 +79,19 @@
                   <citedRange unit="pp">1-18</citedRange>
                </bibl> 
             </listBibl>
+            <listBibl xml:id="biblk000124-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WE46QVN3"/>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/EKN592SS"/>
+                  <citedRange unit="pp">401-469</citedRange>
+               </bibl> 
+            </listBibl>
+            <bibl xml:id="biblk000124-3">
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+            </bibl>
+
             
             
            

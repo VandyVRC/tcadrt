@@ -7,8 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-            	<foreign xml:lang="zh-hanst">甕城</foreign> enceinte</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+            	<foreign xml:lang="zh-hanst">甕城</foreign> wencheng</title>
             	            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -61,11 +61,11 @@
    <text>
       <body>
       	<entryFree xml:id="wengcheng" type="architectural-feature">
-         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">wèngchéng</term>
+      	   <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">wèngchéng (preferred)</term>
       	   <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000089-1">甕城</term>
       		<term xml:id="term-feature_name-3" xml:lang="zh-Hans">瓮城</term>
       		<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">weng-ch’eng</term>
-      	   <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000089-2">enceinte</term>            
+      	   <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000089-2">enceinte</term>            
       	   <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000089-3">barbican</term>
       		<term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">jar-shaped defensive wall</term>
       	   <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000089-4">jar city</term>

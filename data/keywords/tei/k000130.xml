@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
+            <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">殿堂</foreign> diantang</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -16,7 +16,9 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="team">ATTCAT 2019</name>
+               <name type="person" xml:id="YAN">YAN Anni 嚴安妮</name>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
+               <name type="team">ATTCAT 2019</name>    
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
@@ -55,27 +57,30 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="zhuchu" type="architectural-feature">
-            
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000130-1">diantang</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000130-2">place type</term>
-            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000130-3">hall</term>
-            <term xml:id="term-feature_name-9" xml:lang="zh-Hant" source="#biblk000130-4">殿堂</term>
-            <term xml:id="term-feature_name-10" xml:lang="zh-Hans">殿堂</term>
-            <term xml:id="term-feature_name-11" xml:lang="zh-latn-pinyin" type="preferred">diàntáng (preferred)</term>
-            <term xml:id="term-feature_name-12" xml:lang="Wade-Giles">tien-t'ang</term>
+         <entryFree xml:id="diantang" type="architectural-feature">
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant" source="#biblk000130-1">殿堂</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans">殿堂</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">diàntáng (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000130-2">diantang</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">tien-t'ang</term>            
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000130-3">place type</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000130-4">hall</term>
+
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
             
             <bibl xml:id="biblk000130-1">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+            </bibl>            
+            <bibl xml:id="biblk000130-2">
                <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
             </bibl>      
-            <bibl xml:id="biblk000130-2">
+            <bibl xml:id="biblk000130-3">
                <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
             </bibl>        
             
-            <listBibl xml:id="biblk000130-3">
+            <listBibl xml:id="biblk000130-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                </bibl>
@@ -83,12 +88,7 @@
                   <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
                </bibl>  
            </listBibl>
-
-            <bibl xml:id="biblk000130-4">
-               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
-             </bibl> 
-
-            
+           
             <idno type="URI">https://architecturasinica.org/keyword/k000130</idno>
             <listRelation>
                <listRelation>

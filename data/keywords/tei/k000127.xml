@@ -8,12 +8,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
+            <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">營造法式 </foreign> yingzao fashi</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person" xml:id="SXQ">SUN Xiaoqian 孫曉倩</name>
+               <name type="person" xml:id="LWH">LIN Wenhan 林文涵</name>
+               <name type="team">ATTCAT 2019</name>    
+            </respStmt> 
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -52,14 +58,14 @@
    <text>
       <body>
          <entryFree xml:id="yingzao fashi" type="architectural-feature">
-            
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000127-1">Yingzao Fashi</term>
-            <term xml:id="term-feature_name-2" xml:lang="en" source="#biblk000127-2">Ying-tsao fashih</term>
-            <term xml:id="term-feature_name-3" xml:lang="en">building standard</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-Hant">營造法式</term>
-            <term xml:id="term-feature_name-5" xml:lang="zh-Hans">营造法式</term>
-            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" type="preferred">yíngzào fàshì (preferred)</term>
-            <term xml:id="term-feature_name-7" xml:lang="Wade-Giles">ying-tsao fa-shih</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant">營造法式</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans">营造法式</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">yíngzào fàshì (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ying-tsao fa-shih</term>           
+            <term xml:id="term-feature_name-5" xml:lang="en" source="#biblk000127-1">Yingzao Fashi</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000127-2">Ying-tsao fashih</term>
+            <term xml:id="term-feature_name-7" xml:lang="en">building standard</term>
+
             <note>
               <!--  <p> Related terms: 四阿，五脊殿，吴殿</p>-->
             </note> 

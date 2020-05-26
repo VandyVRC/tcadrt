@@ -7,8 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-            	<foreign xml:lang="zh-hanst">角柱</foreign> corner pillars</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+            	<foreign xml:lang="zh-hanst">角柱</foreign> jiaozhu</title>
             	            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -70,11 +70,11 @@
    <text>
       <body>
          <entryFree xml:id="jiaozhu" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">jiǎozhù</term>
+            <term xml:id="term-feature_name-4" type="preferred" xml:lang="zh-latn-pinyin">jiǎozhù (preferred)</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000035-2">角柱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">角柱</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chiao-chu</term>
-         	<term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000035-1">corner pillars</term>          	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000035-3">corner columns</term>
+         	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000035-1">corner pillars</term>          	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000035-3">corner columns</term>
             <note>
             	<p>Jiaozhu is a broad term referring to any pillar placed at the corner of a building. Usually, “corner pillars” refer to eaves pillars located at the corners of a timber frame structure.  In Chapter 5 of the Yingzao Fashi (1103), corner pillars are discussed in conjunction with leveling (central bay) pillars in the calculations of the changes in height necessary to achieve the appropriate upward curvature of the eaves toward the corners. In the Song dynasty Yingzao Fashi as well as the Qing dynasty Digong zuofa and Gongcheng zuofa, the term can also refer to short pillars located at the corners of a foundation (taiji), which were usually made of stone.</p>
             	<p>角柱，即位於角部的柱的泛稱。通常指建築物外檐角部的柱。  在宋《營造法式》卷五，大木作部分的角柱與平柱一起，用於通过生起确定屋檐的曲线。 在宋《營造法式》和清《地宮作法》， 《工程做法》 角柱也指台基角部的短石柱。</p>

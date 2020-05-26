@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">stupa</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">窣堵波</foreign> sudupo</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -47,7 +48,7 @@
          <entryFree xml:id="stupa" type="building-type">
             <term xml:id="term-stupa-1" xml:lang="en" source="biblstupa-1">stupa</term>
             <term xml:id="term-stupa-2" xml:lang="zh-Hant" source="biblstupa-2">窣堵波</term>
-            <term xml:id="term-stupa-3" xml:lang="zh-latn-pinyin" source="biblstupa-2">sudupo</term>     
+            <term xml:id="term-stupa-3" xml:lang="zh-latn-pinyin" type="preferred" source="biblstupa-2">sūdǔbō (preferred)</term>     
             <idno type="URI">https://architecturasinica.org/keyword/k000079</idno>
          </entryFree>
       </body>

@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">tower</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">樓 </foreign> lou</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="tower" type="building-type">
             <term xml:id="term-tower-1" xml:lang="en" source="bibltower-1">tower</term>
-            <term xml:id="term-tower-4" xml:lang="zh-latn-pinyin" source="bibltower-1">lou</term>
+            <term xml:id="term-tower-4" xml:lang="zh-latn-pinyin" type="preferred" source="bibltower-1">lóu (preferred)</term>
             <term xml:id="term-tower-2" xml:lang="zh-Hant" source="bibltower-1">樓</term>
             <term xml:id="term-tower-3" xml:lang="zh-Hans" source="bibltower-1">楼</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>

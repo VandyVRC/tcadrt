@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
+            <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">截間版帳</foreign> jiejianbanzhang</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -16,7 +16,9 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="team">ATTCAT 2019</name>
+               <name type="person" xml:id="BY">BAI Ying 白穎</name>
+               <name type="person" xml:id="WLJ">WANG Lijia 王麗佳</name>
+               <name type="team">ATTCAT 2019</name>    
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
@@ -55,26 +57,23 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="zhuchu" type="architectural-feature">
+         <entryFree xml:id="jiejianbanzhang" type="architectural-feature">
             
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000132-1">jiejian banzhang</term>
-            <term xml:id="term-feature_name-9" xml:lang="zh-Hant" source="#biblk000132-2">截間版帳</term>
-            <term xml:id="term-feature_name-10" xml:lang="zh-Hans" source="#biblk000132-3">截间版帐</term>
-            <term xml:id="term-feature_name-11" xml:lang="zh-latn-pinyin" type="preferred">jiéjiānbǎnzhàng (preferred)</term>
-            <term xml:id="term-feature_name-12" xml:lang="Wade-Giles">chieh-chien-pan-chang</term>
+            <term xml:id="term-feature_name-1" xml:lang="zh-Hant" source="#biblk000132-1">截間版帳</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hans" source="#biblk000132-2">截间版帐</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">jiéjiānbǎnzhàng (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000132-3">jiejian banzhang</term>
+            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chieh-chien-pan-chang</term>
 
             <note>
                <p> Related terms: 截間屏風骨，殿內截間格子，佛道帳，九脊小帳，牙腳帳，壁帳</p>
             </note> 
             
+      
             <bibl xml:id="biblk000132-1">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-               <citedRange unit="pp">48</citedRange>
-            </bibl>      
-            <bibl xml:id="biblk000132-2">
                <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
             </bibl>        
-            <listBibl xml:id="biblk000132-3">
+            <listBibl xml:id="biblk000132-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
                   <citedRange unit="pp">680</citedRange>
@@ -84,6 +83,10 @@
                   <citedRange unit="pp">120</citedRange>
                </bibl>  
             </listBibl>
+            <bibl xml:id="biblk000132-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">48</citedRange>
+            </bibl>
             
             <idno type="URI">https://architecturasinica.org/keyword/k000132</idno>
             <listRelation>

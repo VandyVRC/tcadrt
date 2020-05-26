@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">monastery (Buddhist)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">寺</foreign> si</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="monastery-Buddhist" type="site-type">
             <term xml:id="term-monastery-Buddhist-1" xml:lang="en" source="biblmonastery-Buddhist-1">monastery (Buddhist)</term>
-            <term xml:id="term-monastery-Buddhist-4" xml:lang="zh-latn-pinyin" source="biblmonastery-Buddhist-1">si</term>
+            <term xml:id="term-monastery-Buddhist-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblmonastery-Buddhist-1">sì (preferred)</term>
             <term xml:id="term-monastery-Buddhist-2" xml:lang="zh-Hant" source="biblmonastery-Buddhist-1">寺</term>
             <term xml:id="term-monastery-Buddhist-3" xml:lang="zh-Hans" source="biblmonastery-Buddhist-1">寺</term>
             <gloss>Buddhist monastery</gloss>
