@@ -7,8 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-            	<foreign xml:lang="zh-hanst">檐額 </foreign> eaves tie beam</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+            	<foreign xml:lang="zh-hanst">檐額 </foreign> yane</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -63,10 +63,10 @@
    <text>
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000097-1">eaves tie beam</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000097-1">eaves tie beam</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000097-2">檐額</term>
-         	<term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
-         	<term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">yán’é</term>
+            <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
+            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" type="preferred">yán’é (preferred)</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yen-o</term>
             <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">eaves forehead</term>
          	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000097-6">eaves architrave</term>
