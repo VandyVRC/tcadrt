@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-         	<title level="a" xml:lang="en">
-         		<foreign xml:lang="zh-hanst">平柱</foreign> leveling pillars</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+         	   <foreign xml:lang="zh-hanst">平柱</foreign> píngzhù</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -49,10 +49,10 @@
    <text>
       <body>
          <entryFree xml:id="feature_name_here" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000064-1" type="preferred">leveling pillars (preferred)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000064-1">leveling pillars</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000064-2">平柱</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">平柱</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">píngzhù</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">píngzhù (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">p'ing-chu</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000064-3">central bay column</term>
 
