@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">temple</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">廟 </foreign> miao</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="temple" type="site-type">
             <term xml:id="term-temple-1" xml:lang="en" source="bibltemple-1">temple</term>
-            <term xml:id="term-temple-4" xml:lang="zh-latn-pinyin" source="bibltemple-1">miao</term>
+            <term xml:id="term-temple-4" xml:lang="zh-latn-pinyin" type="preferred" source="bibltemple-1">miào (preferred)</term>
             <term xml:id="term-temple-2" xml:lang="zh-Hant" source="bibltemple-1">廟</term>
             <term xml:id="term-temple-3" xml:lang="zh-Hans" source="bibltemple-1">庙</term>
             <gloss>building or complex dedicated to local or ancestral deities</gloss>
