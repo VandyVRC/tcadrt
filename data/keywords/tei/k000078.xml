@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">storied pavilion</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">閣</foreign> ge</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="storied-pavilion" type="building-type">
             <term xml:id="term-storied-pavilion-1" xml:lang="en" source="biblstoried-pavilion-1">storied pavilion</term>
-            <term xml:id="term-storied-pavilion-4" xml:lang="zh-latn-pinyin" source="biblstoried-pavilion-1">ge</term>
+            <term xml:id="term-storied-pavilion-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblstoried-pavilion-1">gé (preferred)</term>
             <term xml:id="term-storied-pavilion-2" xml:lang="zh-Hant" source="biblstoried-pavilion-1">閣</term>
             <term xml:id="term-storied-pavilion-3" xml:lang="zh-Hans" source="biblstoried-pavilion-1">阁</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>
