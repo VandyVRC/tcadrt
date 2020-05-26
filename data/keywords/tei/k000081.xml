@@ -8,7 +8,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title level="a" xml:lang="zh-latn-pinyin">tailiang</title>
+				<title level="a" xml:lang="zh-latn-pinyin">
+					<foreign xml:lang="zh-hanst">擡梁</foreign> tailiang</title>
 				<title level="m">Architectura Sinica</title>
 				<principal>Tracy Miller</principal>
 				<editor role="creator">Yuh-Fen Benda</editor>
@@ -57,8 +58,7 @@
 		<body>
 			<entryFree xml:id="taiping" type="architectural-feature">
 				
-				<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred"
-					>táiliáng</term>
+				<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">táiliáng (preferred)</term>
 				<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000081-1">擡梁</term>
 				<term xml:id="term-feature_name-8" xml:lang="zh-Hant" type="variant" source="#biblk000081-2">擡樑(式)</term>
 				<term xml:id="term-feature_name-3" xml:lang="zh-Hans">抬梁</term>
