@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">ward</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">里 </foreign> li</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -46,7 +47,7 @@
       <body>
          <entryFree xml:id="ward" type="site-type">
             <term xml:id="term-ward-1" xml:lang="en" source="biblward-1">ward</term>
-            <term xml:id="term-ward-4" xml:lang="zh-latn-pinyin" source="biblward-1">li</term>
+            <term xml:id="term-ward-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblward-1">lǐ (preferred)</term>
             <term xml:id="term-ward-2" xml:lang="zh-Hant" source="biblward-1">里</term>
             <term xml:id="term-ward-3" xml:lang="zh-Hans" source="biblward-1">里</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000087</idno>
