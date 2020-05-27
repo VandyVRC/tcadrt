@@ -4,13 +4,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Chen</title>
+            <title level="a" xml:lang="zh-hanst">陳</title>
+            <title level="a" xml:lang="zh-latn-pinyin"> Chén</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
                <resp>adding citation</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -51,7 +53,8 @@
             <term xml:id="term-Chen-1" xml:lang="en">Chen</term>
             <term xml:id="term-Chen-2" xml:lang="en">Chen Dynasty</term>
             <term xml:id="term-Chen-3" xml:lang="zh-Hant">陳</term>
-            <term xml:id="term-Chen-4" xml:lang="zh-Hant">陳朝</term>
+            <term xml:id="term-Chen-4" xml:lang="zh-latn-pinyin">Chén</term>
+            <term xml:id="term-Chen-5" xml:lang="Wade-Giles">ch’en</term>
             <state type="existence" source="#biblk000008-1" from="0557" to="0589">
             <desc>557 - 589 CE</desc>
             </state>
