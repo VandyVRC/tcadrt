@@ -4,19 +4,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-Hant">陳
-               <title level="a" xml:lang="zh-latn-pinyin"> Chén</title></title>            
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">陳</foreign> Chén</title>                 
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>Adding citation</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             </titleStmt>
          <editionStmt>
@@ -46,18 +50,20 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" who="#YFB" when="2020-02-07">adding citation(s)</change>
+         <change n="2.0" who="#YFB" when="2020-02-07">Adding citation(s)</change>
+         <change n="3.0" who="#YFB" when="2020-06-01">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Chen" type="time period">
             <term xml:id="term-Chen-1" xml:lang="en">Chen</term>
-            <term xml:id="term-Chen-2" xml:lang="en">Chen Dynasty</term>
-            <term xml:id="term-Chen-3" xml:lang="zh-Hant">陳</term>
-            <term xml:id="term-Cheb-6" xml:lang="zh-Hans">陈</term>
+            <term xml:id="term-Chen-2" xml:lang="zh-Hant">陳</term>
+            <term xml:id="term-Cheb-3 xml:lang="zh-Hans">陈</term>
             <term xml:id="term-Chen-4" xml:lang="zh-latn-pinyin">Chén</term>
-            <term xml:id="term-Chen-5" xml:lang="Wade-Giles">ch’en</term>
+            <term xml:id="term-Chen-5" xml:lang="Wade-Giles">Ch’en</term>
+            <term xml:id="term-Chen-6" xml:lang="en">Chen Dynasty</term>
+            <term xml:id="term-Chen-7" xml:lang="en">陳朝</term>
             <state type="existence" source="#biblk000008-1" from="0557" to="0589">
             <desc>557 - 589 CE</desc>
             </state>
