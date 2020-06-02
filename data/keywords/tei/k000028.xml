@@ -6,10 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">栿</foreign>
-               cross beams
-            </title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">栿</foreign> fú</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -63,9 +61,9 @@
    <text>
       <body>
          <entryFree xml:id="caihua" type="architectural-feature">
-         	<term xml:id="term-feature_name-6" xml:lang="en" type="preferred" source="#biblk000028-1">cross beams</term>
-         	<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">fú</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000028-2">栿</term>
+         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000028-1">cross beams</term>
+            <term xml:id="term-feature_name-4" type="preferred" xml:lang="zh-latn-pinyin">fú (preferred)</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000028-2">栿</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">栿</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fu</term>
          	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000028-3">beams</term>
