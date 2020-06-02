@@ -7,11 +7,12 @@
             <title level="a" xml:lang="en">
                <foreign xml:lang="zh-hanst">西夏 </foreign> Xīxià</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -19,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Adding various languages and revising title statement</resp>
-               <name type="person" xml:id="SZ">SUN Zheng</name>
+               <name type="person" ref="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -61,7 +62,6 @@
             <term xml:id="term-Xixia-3" xml:lang="zh-Hans">西夏</term>
             <term xml:id="term-Xixia-4" xml:lang="zh-latn-pinyin">Xīxià</term>
             <term xml:id="term-Xixia-5" xml:lang="Wade-Giles">hsi-hsia</term>
-
             <state type="existence" source="#biblk000096-1" from="1038" to="1227">
                <desc>1038 - 1227</desc>
             </state>
