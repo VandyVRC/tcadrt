@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
       	<titleStmt>
-         	<title level="a" xml:lang="en"> <foreign xml:lang="zh-hanst">扶壁栱</foreign> superficial bracket arms</title>
+      	   <title level="a" xml:lang="zh-latn-pinyin">
+      	      <foreign xml:lang="zh-hanst">扶壁栱</foreign> fúbìgǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>   
@@ -58,11 +59,11 @@
    <text>
       <body>
          <entryFree xml:id="feature_name_here" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000029-1">superficial bracket-arm(s)</term>
+            <term xml:id="term-feature_name-4" xml:lang="en" source="#biblk000029-1">superficial bracket-arm(s)</term>
             <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation" source="#biblk000029-2">wall supporting bracket-arm</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant">扶壁栱</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">扶壁栱</term>
-            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" source="#biblk000029-3">fúbìgǒng</term>
+            <term xml:id="term-feature_name-6" xml:lang="zh-latn-pinyin" type="preferred" source="#biblk000029-3">fúbìgǒng (preferred)</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fu-pi kung</term>
          	<note>
          		<p>Seen in the Yingzao fashi (1103 CE), referring to square beams carved with bracket-arms in low relief, layered within the wall plane above pillar tops. Also called “Shadow Bracket-arm(s)”. Also regarded as referring to the entire composition of square beams and bracket-arms within the wall plane above pillar tops (Cheng Mingda 2010; Xu Yitao 2005).</p>

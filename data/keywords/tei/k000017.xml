@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="zh-latn-pinyin">dingfu (T-beam)</title>
-            <!-- title has traditional Chinese first, then English -->
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">丁栿</foreign> dīngfú</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -59,8 +59,8 @@
    <text>
       <body>
          <entryFree xml:id="dingfu" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="#biblk000017-1">T-beam</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000017-2">dīngfú</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000017-1">T-beam</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred" source="#biblk000017-2"> dīngfú (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000017-3">丁栿</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">丁栿</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ting-fu</term>

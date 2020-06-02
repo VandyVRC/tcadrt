@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-hanst">元</foreign> yuán</title>
+               <foreign xml:lang="zh-hanst">元</foreign> Yuán</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -16,6 +16,10 @@
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding various languages and revising title statement</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
@@ -48,6 +52,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
+         <change n="3.0" who="#SZ" when="2020-06-01">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
