@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-         	<title level="a" xml:lang="zh-latn-pinyin">dougong (bracket; bracketing)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">枓栱</foreign> dǒugǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -53,8 +54,8 @@
    <text>
       <body>
       	<entryFree xml:id="dougong" type="architectural-feature">
-      		<term xml:id="term-feature_name-7" xml:lang="en" type="preferred" source="#biblk000019-1">bracket; bracketing</term>
-      		<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dǒugǒng</term>
+      		<term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000019-1">bracket; bracketing</term>
+      	   <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">dǒugǒng (preferred)</term>
       		<term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">blocks(s) and bracket arm(s)</term>
       		<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000019-3">bracket set</term>
       		<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000019-4">bracket-block cluster</term>
