@@ -7,9 +7,9 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">地盤</foreign> ground plan</title>
+         <titleStmt>   
+               <title level="a" xml:lang="zh-latn-pinyin">
+                  <foreign xml:lang="zh-hanst">地盤</foreign> dìpán</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Yuh-Fen Benda</editor>
@@ -56,10 +56,10 @@
    <text>
       <body>
          <entryFree xml:id="dipan" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">ground plan</term>
+            <term xml:id="term-feature_name-1" xml:lang="en">ground plan</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000018-1">地盤</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">地盘</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dìpán</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">dìpán (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ti-p’an</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">ground plate</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000018-2">floor plan</term>
