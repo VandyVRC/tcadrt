@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-hanst">西夏 </foreign> xixia</title>
+               <foreign xml:lang="zh-hanst">西夏 </foreign> Xīxià</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -15,6 +15,10 @@
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding various languages and revising title statement</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
@@ -46,6 +50,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
+         <change n="3.0" who="#SZ" when="2020-06-01">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,6 +58,10 @@
          <entryFree xml:id="Xixia" type="time period">
             <term xml:id="term-Xixia-1" xml:lang="en">Xixia</term>
             <term xml:id="term-Xixia-2" xml:lang="zh-Hant">西夏</term>
+            <term xml:id="term-Xixia-3" xml:lang="zh-Hans">西夏</term>
+            <term xml:id="term-Xixia-4" xml:lang="zh-latn-pinyin">Xīxià</term>
+            <term xml:id="term-Xixia-5" xml:lang="Wade-Giles">hsi-hsia</term>
+
             <state type="existence" source="#biblk000096-1" from="1038" to="1227">
                <desc>1038 - 1227</desc>
             </state>
