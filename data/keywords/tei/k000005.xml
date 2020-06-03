@@ -11,17 +11,26 @@
             	<foreign xml:lang="zh-hanst">槽</foreign> cáo</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="#TGM">Tracy Miller</principal>
+            
+            <principal xml:id="TGM">Tracy Miller</principal>>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator">REN Sijie 任思捷</editor>
+            <editor role="creator" xml:id="RS">REN Sijie 任思捷</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person">Ren Sijie 任思捷</name>
+               <name type="person" ref="RS">Ren Sijie 任思捷</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,7 +68,7 @@
       <body>
          <entryFree xml:id="cao" type="architectural-feature">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" source="#biblk000005-1"
-               type="preferred">cáo</term>
+               type="preferred">cáo (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000005-2">槽</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
