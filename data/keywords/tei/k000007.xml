@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">chamfered linggong: linggong curved along the elbow with straight cuts instead of an arc</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">令栱有卷殺</foreign> lìnggǒng yǒujuànshā </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       <body>
          <entryFree xml:id="chamfered_linggong" type="architectural-feature">  
             <term xml:id="term-chamfered_linggong-1" xml:lang="en">chamfered linggong: linggong curved along the elbow with straight cuts instead of an arc</term>
-            <term xml:id="term-chamfered_linggong-4" xml:lang="zh-latn-pinyin">linggong you juansha</term>
+            <term xml:id="term-chamfered_linggong-4" type="preferred" xml:lang="zh-latn-pinyin">lìnggǒng yǒujuànshā (preferred)</term>
             <term xml:id="term-chamfered_linggong-2" xml:lang="zh-Hant">令栱有卷殺</term>
             <term xml:id="term-chamfered_linggong-3" xml:lang="zh-Hans">令栱有卷殺</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000007</idno>
