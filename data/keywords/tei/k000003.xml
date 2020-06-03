@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">mojiao linggong (beveled linggong)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">抹角令栱</foreign> mòjiǎo lìnggǒng </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       <body>
          <entryFree xml:id="beveled_linggong" type="architectural-feature">        
             <term xml:id="term-beveled_linggong-1" xml:lang="en">beveled linggong</term>
-            <term xml:id="term-beveled_linggong-4" xml:lang="zh-latn-pinyin">mojiao linggong</term>
+            <term xml:id="term-beveled_linggong-4" type="preferred" xml:lang="zh-latn-pinyin">mòjiǎo lìnggǒng (preferred)</term>
             <term xml:id="term-beveled_linggong-2" xml:lang="zh-Hant">抹角令栱</term>
             <term xml:id="term-beveled_linggong-3" xml:lang="zh-Hans">抹角令栱</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000003</idno>
