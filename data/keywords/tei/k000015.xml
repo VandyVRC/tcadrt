@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">column top angled bracket arm</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">柱頭鋪作斜栱</foreign> zhùtóu pùzuò xiégǒng</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       <body>
          <entryFree xml:id="ct_angled_bracket_arm" type="architectural-feature">      
             <term xml:id="term-ct_angled_bracket_arm-1" xml:lang="en">column top angled bracket arm</term>
-            <term xml:id="term-ct_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">zhutou puzuo xiegong</term>
+            <term xml:id="term-ct_angled_bracket_arm-4" type="preferred" xml:lang="zh-latn-pinyin">zhùtóu pùzuò xiégǒng (preferred)</term>
             <term xml:id="term-ct_angled_bracket_arm-2" xml:lang="zh-Hant">柱頭鋪作斜栱 </term>
             <term xml:id="term-ct_angled_bracket_arm-3" xml:lang="zh-Hans">柱头铺作斜栱</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000015</idno>

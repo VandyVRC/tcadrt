@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Eastern Han</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">東漢 </foreign> Dōnghàn </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
             <resp>adding citations</resp>
@@ -45,13 +51,20 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#ML" when="2020-02-13">adding citation(s)</change>
+         <change n="3.0" who="#SZ" when="2020-06-03">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Eastern-Han" type="time period">
-            <term xml:id="term-Eastern-Han-1" xml:lang="en">Eastern Han</term>
+            <term xml:id="term-Eastern-Han-1" xml:lang="en">Donghan</term>
             <term xml:id="term-Eastern-Han-2" xml:lang="zh-Hant">東漢</term>
+            <term xml:id="term-Eastern-Han-3" xml:lang="zh-Hans">东汉</term>
+            <term xml:id="term-Eastern-Han-4" xml:lang="zh-latn-pinyin">Dōnghàn</term>
+            <term xml:id="term-Eastern-Han-5" xml:lang="Wade-Giles">Tung-han</term>
+            <term xml:id="term-Eastern-Han-6" xml:lang="en">Eastern Han</term>
+            <term xml:id="term-Eastern-Han-7" xml:lang="zh-Hant">後漢</term>
+            <term xml:id="term-Eastern-Han-8" xml:lang="en">Later Han</term>
             <state type="existence" source="#biblk000020-1" from="0025" to="0220">
                <desc>25 - 220</desc>
             </state>

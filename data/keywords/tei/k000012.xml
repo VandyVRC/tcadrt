@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">cloister</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">院</foreign> yuàn</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       <body>
          <entryFree xml:id="cloister" type="site-type">
             <term xml:id="term-cloister-1" xml:lang="en" source="biblcloister-1">cloister</term>
-            <term xml:id="term-cloister-4" xml:lang="zh-latn-pinyin" source="biblcloister-1">yuan</term>
+            <term xml:id="term-cloister-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblcloister-1">yuàn (preferred)</term>
             <term xml:id="term-cloister-2" xml:lang="zh-Hant" source="biblcloister-1">院</term>
             <term xml:id="term-cloister-3" xml:lang="zh-Hans" source="biblcloister-1">院</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>

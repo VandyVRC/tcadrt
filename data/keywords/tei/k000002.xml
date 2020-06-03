@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">guan (belvedere; Daoist monastery)</title>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-hanst">觀</foreign> guān </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       <body>
          <entryFree xml:id="belvedere-Daoist-monastery" type="site-type">
             <term xml:id="term-belvedere-Daoist-monastery-1" xml:lang="en" source="biblbelvedere-Daoist-monastery-1">belvedere (Daoist monastery)</term>
-            <term xml:id="term-belvedere-Daoist-monastery-4" xml:lang="zh-latn-pinyin" source="biblbelvedere-Daoist-monastery-1">guan</term>
+            <term xml:id="term-belvedere-Daoist-monastery-4" xml:lang="zh-latn-pinyin" type="preferred" source="biblbelvedere-Daoist-monastery-1">guān (preferred)</term>
             <term xml:id="term-belvedere-Daoist-monastery-2" xml:lang="zh-Hant" source="biblbelvedere-Daoist-monastery-1">觀</term>
             <term xml:id="term-belvedere-Daoist-monastery-3" xml:lang="zh-Hans" source="biblbelvedere-Daoist-monastery-1">观</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000002</idno>
