@@ -7,7 +7,7 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">昂形耍頭</foreign> ángxíng shuǎtóu</title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
@@ -22,7 +22,6 @@
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
-         <!-- Test -->
          <publicationStmt>
             <authority>Architectura Sinica</authority>
             <idno type="URI">https://architecturasinica.org/keyword/k000001/tei</idno>
@@ -47,16 +46,16 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" when="2020-02-17-04:00" who="#TGM">edit name</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="angxing_shuatou" type="architectural-feature">
             <term xml:id="angxing_shuatou-1" xml:lang="en">slanted bracket arm-shaped shuatou</term>
-            <term xml:id="angxing_shuatou-4" type="preferred" xml:lang="zh-latn-pinyin">ángxíng shuǎtóu (preferred)</term>
             <term xml:id="angxing_shuatou-2" xml:lang="zh-Hant">昂形耍頭</term>
             <term xml:id="angxing_shuatou-3" xml:lang="zh-Hans">昂形耍头</term>
+            <term xml:id="angxing_shuatou-4" xml:lang="zh-latn-pinyin">ángxíng shuǎtóu</term>
+            <term xml:id="angxing_shuatou-5" xml:lang="Wade-Giles">ang-hsing-shua-t`ou</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             <gloss/>
             <listRelation>
