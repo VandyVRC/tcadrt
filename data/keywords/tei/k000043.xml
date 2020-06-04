@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Later Tang</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">後唐 </foreign> Hòutáng </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -45,13 +51,18 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SQ" when="2020-04-01-04:00">adding citations</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Later-Tang" type="time period">
-            <term xml:id="term-Later-Tang-1" xml:lang="en">Later Tang</term>
+            <term xml:id="term-Later-Tang-1" xml:lang="en">Houtang</term>
             <term xml:id="term-Later-Tang-2" xml:lang="zh-Hant">後唐</term>
+            <term xml:id="term-Later-Tang-3" xml:lang="zh-Hans">后唐</term>
+            <term xml:id="term-Later-Tang-4" xml:lang="zh-latn-pinyin">Hòutáng</term>
+            <term xml:id="term-Later-Tang-5" xml:lang="Wade-Giles">Hou-t'ang</term>
+            <term xml:id="term-Later-Tang-6" xml:lang="en">Later Tang</term>
             <state type="existence" source="#biblk000043-1" from="0923" to="0936">
                <desc>923 - 936</desc>
             </state>
