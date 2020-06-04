@@ -4,16 +4,22 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Later Shu</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">後蜀 </foreign> Hòushǔ </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>data entry and proof correction</resp>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
@@ -45,13 +51,18 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21">CREATED: record</change>
          <change n="2.0" who="#SQ" when="2020-02-27">adding citation</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Later-Shu" type="time period">
-            <term xml:id="term-Later-Shu-1" xml:lang="en">Later Shu </term>
-            <term xml:id="term-Later-Shu-2" xml:lang="zh-Hant">後蜀</term>
+            <term xml:id="term-Later-Liang-1" xml:lang="en">Houshu</term>
+            <term xml:id="term-Later-Liang-2" xml:lang="zh-Hant">後蜀</term>
+            <term xml:id="term-Later-Liang-3" xml:lang="zh-Hans">后蜀</term>
+            <term xml:id="term-Later-Liang-4" xml:lang="zh-latn-pinyin">Hòushǔ</term>
+            <term xml:id="term-Later-Liang-5" xml:lang="Wade-Giles">Hou-shu</term>
+            <term xml:id="term-Later-Liang-6" xml:lang="en">Later Shu</term>
             <state type="existence" source="#biblk000042-1" from="0933" to="0965">
                <desc>933 - 965</desc>
             </state>

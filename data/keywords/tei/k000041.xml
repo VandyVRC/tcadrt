@@ -3,20 +3,26 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title level="a" xml:lang="en">Later Liang</title>
-            <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
-            </respStmt>
-         </titleStmt>
+          <titleStmt>
+               <title level="a" xml:lang="en">
+                  <foreign xml:lang="zh-hanst">後梁 </foreign> Hòuliáng </title>
+               <title level="m">Architectura Sinica</title>
+               <principal xml:id="TGM">Tracy Miller</principal>
+               <editor role="creator" ref="#TGM">Tracy Miller</editor>
+               <editor role="general" ref="#TGM">Tracy Miller</editor>
+               <respStmt>
+                  <resp>data entry and proof correction</resp>
+                  <name type="person" ref="TGM">Tracy Miller</name>
+               </respStmt>
+               <respStmt>
+                  <resp>adding revising title statement 2020 by</resp>
+                  <name type="person" xml:id="SZ">SUN Zheng</name>
+               </respStmt>
+               <respStmt>
+                  <resp>adding citations</resp>
+                  <name type="person" xml:id="SQ">Song Qisen</name>
+               </respStmt>
+            </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
@@ -45,13 +51,18 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21">CREATED: record</change>
          <change n="2.0" who="#SQ" when="2020-02-27">adding citation</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Later-Liang" type="time period">
-            <term xml:id="term-Later-Liang-1" xml:lang="en">Later Liang</term>
+            <term xml:id="term-Later-Liang-1" xml:lang="en">Houliang</term>
             <term xml:id="term-Later-Liang-2" xml:lang="zh-Hant">後梁</term>
+            <term xml:id="term-Later-Liang-3" xml:lang="zh-Hans">后梁</term>
+            <term xml:id="term-Later-Liang-4" xml:lang="zh-latn-pinyin">Hòuliáng</term>
+            <term xml:id="term-Later-Liang-5" xml:lang="Wade-Giles">Hou-liang</term>
+            <term xml:id="term-Later-Liang-6" xml:lang="en">Later Liang</term>
             <state type="existence" source="#biblk000041-1" from="0907" to="0923">
                <desc>907 - 923</desc>
             </state>
