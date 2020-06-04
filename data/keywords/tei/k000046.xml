@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Liang</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">梁 </foreign> Liáng </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -45,6 +51,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SQ" when="2020-04-01-04:00">adding citations</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,6 +59,9 @@
          <entryFree xml:id="Liang" type="time period">
             <term xml:id="term-Liang-1" xml:lang="en">Liang</term>
             <term xml:id="term-Liang-2" xml:lang="zh-Hant">梁</term>
+            <term xml:id="term-Liang-3" xml:lang="zh-Hans">梁</term>
+            <term xml:id="term-Liang-4" xml:lang="zh-latn-pinyin">Liáng</term>
+            <term xml:id="term-Liang-5" xml:lang="Wade-Giles">Liang</term>
             <state type="existence" source="#biblk000046-1" from="0502" to="0557">
                <desc>502 - 557</desc>
             </state>
