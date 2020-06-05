@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Northern Han</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">北漢 </foreign>Běihàn </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -45,13 +51,18 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SQ" when="2020-04-01-04:00">adding citations</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Northern-Han" type="time period">
-            <term xml:id="term-Northern-Han-1" xml:lang="en">Northern Han</term>
-            <term xml:id="term-Northern-Han-2" xml:lang="zh-Hant">北漢</term>
+            <term xml:id="term-Northern-Later-Han-1" xml:lang="en">Beihan</term>
+            <term xml:id="term-Northern-Later-Han-2" xml:lang="zh-Hant">北漢</term>
+            <term xml:id="term-Northern-Later-Han-3" xml:lang="zh-Hans">北汉</term>
+            <term xml:id="term-Northern-Later-Han-4" xml:lang="zh-latn-pinyin">Běihàn</term>
+            <term xml:id="term-Northern-Later-Han-5" xml:lang="Wade-Giles">Pei-han</term>
+            <term xml:id="term-Northern-Later-Han-6" xml:lang="en">Northern Han</term>
             <state type="existence" source="#biblk000053-1" from="0951" to="0979">
                <desc>951 - 979</desc>
             </state>
