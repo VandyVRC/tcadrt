@@ -4,16 +4,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Wu-Yue</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">吳越 </foreign>Wúyuè</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>adding citations and revising title statement 2020 by</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
@@ -45,6 +47,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
+         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,6 +55,9 @@
          <entryFree xml:id="Wu-Yue" type="time period">
             <term xml:id="term-Wu-Yue-1" xml:lang="en">Wu-Yue</term>
             <term xml:id="term-Wu-Yue-2" xml:lang="zh-Hant">吳越</term>
+            <term xml:id="term-Wu-Yue-3" xml:lang="zh-Hans">吴越</term>
+            <term xml:id="term-Wu-Yue-4" xml:lang="zh-latn-pinyin">Wúyuè</term>
+            <term xml:id="term-Wu-Yue-5" xml:lang="Wade-Giles">Wu-yüeh</term>
             <state type="existence" source="#biblk000093-1" from="0907" to="0978">
                <desc>907 - 978</desc>
             </state>
