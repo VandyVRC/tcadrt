@@ -4,21 +4,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Wei, Jin, Nan-Bei Chao</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">魏晉南北朝 </foreign>Wèijìnnánběicháo</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>adding citations and revising title statement 2020 by</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
-            <respStmt>
-               <resp>adding citations</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+             <respStmt>
+                  <resp>adding citations</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -50,6 +52,7 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
          <change n="3.0" who="#YFB" when="2020-02-14">corrections</change>
+         <change n="4.0" who="#SZ" when="2020-06-04">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +60,9 @@
          <entryFree xml:id="Wei--Jin--Nan-Bei-Chao" type="time period">
             <term xml:id="term-Wei--Jin--Nan-Bei-Chao-1" xml:lang="en">Wei, Jin, Nan-Bei Chao</term>
             <term xml:id="term-Wei--Jin--Nan-Bei-Chao-2" xml:lang="zh-Hant">魏晉南北朝</term>
+            <term xml:id="term-Wei--Jin--Nan-Bei-Chao-3" xml:lang="zh-Hans">魏晋南北朝</term>
+            <term xml:id="term-Wei--Jin--Nan-Bei-Chao-4" xml:lang="zh-latn-pinyin">Wèijìnnánběicháo</term>
+            <term xml:id="term-Wei--Jin--Nan-Bei-Chao-5" xml:lang="Wade-Giles">Wei-chin-nan-pei-ch'ao</term>
             <state type="existence" source="#biblk000088-1" from="0220" to="0589">
                <desc>220 - 589</desc>
             </state>
