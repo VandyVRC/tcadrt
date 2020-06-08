@@ -52,18 +52,19 @@
    <text>
       <body>
          <entryFree xml:id="cloister" type="site-type">
-            <term xml:id="term-cloister-1" xml:lang="en" source="#biblk000012-1">cloister</term>
+            <term xml:id="term-cloister-1" xml:lang="en">cloister</term>
             <term xml:id="term-cloister-4" xml:lang="zh-latn-pinyin" type="preferred">yuàn (preferred)</term>
             <term xml:id="term-cloister-2" xml:lang="zh-Hant">院</term>
             <term xml:id="term-cloister-3" xml:lang="zh-Hans">院</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>
-            <note type="Scope Note (brief)" xml:lang="en">An enclosed quandrangle of buildings or the enclosing wall. Can refer to a single temple complex or an enclosed unit within a larger building complex, such as a palace.<s source="#biblk000012-2">Often translated as "cloister," particularly in the Buddhist context.</s> (T. Miller)</note>
+            <note type="Scope Note (brief)" xml:lang="en">An enclosed quandrangle of buildings or the enclosing wall. Can refer to a single temple complex or an enclosed unit within a larger building complex, such as a palace.<s source="#biblk000012-2">Often translated as "cloister," particularly in the Buddhist context.</s> (T. Miller)
+            </note>
+            <listBibl xml:id="biblk000012-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">577</citedRange>   
+               </bibl>
          </entryFree>
       </body>
-      <listBibl xml:id="biblk000012-2">
-         <bibl>
-            <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-            <citedRange unit="pp">577</citedRange>   
-         </bibl>
    </text>
 </TEI>
