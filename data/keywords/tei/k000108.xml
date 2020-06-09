@@ -21,7 +21,7 @@
 	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -61,14 +61,14 @@
    <text>
       <body>
          <entryFree xml:id="goutou" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">barrel tile ends</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">barrel tile ends (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">勾頭</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">勾头</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">gōutóu (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">gōutóu</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">kou-t'ou</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">hooked head (lit.)</term>
-          <note>
-             <p> Related concepts: <term ref="/keyword/k000110">瓦當 wadang</term>;
+          <note type="related concepts">
+             <p><term ref="/keyword/k000110">瓦當 wadang</term>;
                 <term ref="/keyword/k000109">筒瓦 tongwa</term> 
                </p>
           </note>
