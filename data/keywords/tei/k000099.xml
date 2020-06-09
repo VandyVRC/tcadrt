@@ -15,8 +15,8 @@
             <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person" xml:id="RS">Ren Sijie 任思捷</name>
-               <name type="person" xml:id="YW">Yang Wantian 楊莞闐</name>
+               <name type="person" xml:id="RS">REN Sijie 任思捷</name>
+               <name type="person" xml:id="YW">YANG Wantian 楊莞闐</name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
@@ -64,28 +64,31 @@
          <entryFree xml:id="feature_name_here" type="architectural-feature">
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">yǐngzuò
                mùgòu (preferred)</term>
-            <term xml:id="term-feature_name-1" xml:lang="en">Painted representations of timber
-               architecture</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">影作木構</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans" source="#biblk000099-1">影作木构</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ying-tso mu-kou</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">"Shadow-works
                timber structure" (lit.)</term>
-            <note>
-               <p source="#biblk000099-2">First coined in the 1980s (Su Bai 1982, 141-142), yingzuo mugou is a modern term adopted by
+            <term xml:id="term-feature_name-1" xml:lang="en">Painted representations of timber
+               architecture</term>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000099-2">First coined in the 1980s (Su Bai 1982, 141-142), yingzuo mugou is a modern term adopted by
                   archaeologists and art historians referring to painted representations of timber
                   architectural components in underground architecture (e.g. tombs, reliquary chambers). The meaning of yingzuo here as a “painted representation of something” has departed from its original context in the Yingzao
                   fashi. Similar appropriations appeared in 1950s (Su Bai 1957), such as in yingzuo
                   men e (painted representations of door lintels), and yingzuo puzuo
                   (painted representations of corbeling (bracket sets)).</p>
-               <p source="#biblk000099-2">現代考古、美術學界用語，最早出現于1980年代（宿白 1982, 141-142），指地下室 (如墓室、地宮等) 之中彩畫繪出的木構建築構件，這裏“影作”的含義與其最初語境（即《營造法式》）有別，相似用法最早見於1950年代，如“影作門額”、“影作鋪作”等。</p>
-               <p>Related Concepts: 
-                  <term ref="/keyword/k000100">影作 shadow works</term></p>
+               <p xml:lang="zh-Hant">source="#biblk000099-2">現代考古、美術學界用語，最早出現于1980年代（宿白 1982, 141-142），指地下室 (如墓室、地宮等) 之中彩畫繪出的木構建築構件，這裏“影作”的含義與其最初語境（即《營造法式》）有別，相似用法最早見於1950年代，如“影作門額”、“影作鋪作”等。</p>
             </note>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000100">影作 shadow works</term></p>
+            </note>
+            
                <!-- p>Sources and Contributors:</p>
                <p>影作: 宿白, 白沙宋墓 (1957) 90 </p>
                <p>影作木構: (1) 宿白, 西安地区唐墓壁画的布局和内容 《考古学报》 2 (1982) 137-154.</p>
                 -->
+            
             <bibl xml:id="biblk000099-1">
                <ptr target="https://architecturasinica.org/bibl/P4P382EV"/>
                <citedRange unit="pp">137-154</citedRange>
