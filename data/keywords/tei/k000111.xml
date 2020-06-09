@@ -21,7 +21,7 @@
 	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -68,28 +68,18 @@
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yan-chu</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">eaves pillars (lit.)</term>
             
-            <note>
-                  
-               
-                <p>
-               Related concepts:
-               <term ref="/keyword/k000102">柱 zhù</term>
-            </p>
-               <p>ATTCAT 2018
-               </p>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000102">柱 zhù</term></p>
+               <p>ATTCAT 2018</p>
             </note>
-            
-         
             
             <bibl xml:id="biblk000106-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-               
             </bibl>  
             
             <bibl xml:id="biblk000106-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">437</citedRange>
-               
             </bibl>  
             
             <idno type="URI">https://architecturasinica.org/keyword/k000111</idno>
