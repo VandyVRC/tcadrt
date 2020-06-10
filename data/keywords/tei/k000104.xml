@@ -12,14 +12,15 @@
                <foreign xml:lang="zh-hanst">板瓦</foreign> bǎnwǎ</title>
             <title level="m">Architectura Sinica</title>
             <editor role="general" ref="TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="creator" xml:id="ATTCAT">ATTCAT 2018</editor>
 	    <respStmt>
 	      <resp>Initial Research</resp>
 	      <!--name type="person">BAI Ying 白穎</name-->
-	      <name type="team">ATTCAT 2018</name>
+	      <name type="team" ref="#ATTCAT">ATTCAT 2018</name>
 	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
+               <name role="principal" xml:id="YFB">Yuh-Fen Benda</name>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
