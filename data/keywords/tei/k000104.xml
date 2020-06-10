@@ -11,7 +11,10 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">板瓦</foreign> bǎnwǎ</title>
             <title level="m">Architectura Sinica</title>
-            <editor role="creator" xml:id="ATTCAT">ATTCAT 2018</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <general ref="#TGM">Tracy Miller</general>
+            <editor role="content-author" xml:id="ATTCAT">ATTCAT 2018</editor>
+            <editor role="code-author" xml:id="YFB">Yuh-Fen Benda</editor>
 	    <respStmt>
 	      <resp>Initial Research</resp>
 	      <!--name type="person">BAI Ying 白穎</name-->
@@ -19,7 +22,7 @@
 	    </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda,</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda,</name>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
