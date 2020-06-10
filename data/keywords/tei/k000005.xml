@@ -9,20 +9,19 @@
          <titleStmt>
             <title level="a" xml:lang="en">
             	<foreign xml:lang="zh-hanst">槽</foreign> cáo</title>
-            <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
             
             <principal xml:id="TGM">Tracy Miller</principal>>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="RS">REN Sijie 任思捷</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
+               <resp>Initial Research</resp>
+               <name type="person" ref="RS">REN Sijie 任思捷</name>
+               <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" ref="RS">Ren Sijie 任思捷</name>
-               <name type="team">ATTCAT 2018</name>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding various languages and revising title statement 2020 by</resp>
@@ -69,9 +68,10 @@
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">槽</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ts'ao</term>
             <term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000005-3"
-               type="literal_translation">trough</term>
+               type="literal_translation">trough (lit.)</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000005-4">footing</term>
-            <note type="Scope Note (brief)">
+            
+            <note type="Note (brief)">
                   <p xml:lang="en">An architectural term seen in the Yingzao fashi (1103) and Gongbu gongcheng
                      zuofa (1734), also used in texts that involve architectural descriptions such
                      as the Sitaji and Tang huiyao. It is generally agreed that in the Gongbu
@@ -89,11 +89,12 @@
                      1981；參考梁思成 1944）；一說是柱列與其上的鋪作或鋪作之中心線（何建中 2003；參考梁思成 1983）；一説指代鋪作層構成的長條狀圖形（朱永春
                      2016）；另有觀點認爲其得名與基槽有關，後汎指柱列或墻體及其所在位置（任思捷 2016）。</p>  
             </note>
-            <!--<note>
+            
+            <!--note>
                this type of data should be in a relation element:
                <p> Related Concepts: <term ref="https://architecturasinica.org/keyword/k000018">dìpán
                      地盤</term></p>
-                    </note>-->
+                    </note-->
             <!--note type="sources">         
                   <p>槽: 
                (1) 營造法式, 卷31
@@ -108,6 +109,7 @@
                (10) 何建中，何謂《營造法式》之“槽” (2003) 41-43
                (11) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 </p>
          	</note-->
+            
             <listBibl xml:id="biblk000005-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
