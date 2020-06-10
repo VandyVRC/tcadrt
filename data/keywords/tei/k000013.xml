@@ -8,7 +8,6 @@
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">鋪作</foreign> pūzuò</title>
-            <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -62,39 +61,41 @@
    <text>
       <body>
          <entryFree xml:id="puzuo" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">corbels</term>
-            <!-- English terms should be in plural form-->
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">pūzuò (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000013-1">鋪作</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">铺作</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">pūzuò (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">p'u-tso</term>
             <term xml:id="term-feature_name-7" xml:lang="en" type="literal_translation">layering work (lit.)</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000013-3">bracket sets</term>
+            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000013-5">bracketing units</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000013-2">corbelling</term>
-            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000013-3">bracket set</term>
-            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000013-4">layered bracket set</term>
-            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000013-5">bracketing unit</term>
-            <note type="Scope Note (brief)">
-               <p xml:lang="en"> Puzuo is a term primarily used in the Yingzao fashi (1103). Based on its use in this text, we can conclude that puzuo is a method whereby small components are layered one on top of another extending outward in corbelled steps, usually to support the weight of a roof or balcony. The number of puzuo is measured by the number of layers. However, it is also used to describe a structural unit formed by this practice. </p>
+            <term xml:id="term-feature_name-1" xml:lang="en">corbels</term>
+            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000013-4">layered bracket sets</term>
+            
+	    <!--note type="Note (brief)">
+               <p xml:lang="en"> Puzuo is a term primarily used in the Yingzao fashi (1103). Based on its use in this text, we can conclude that puzuo is a method whereby small components are layered one on top of another extending outward in corbelled steps, usually to support the weight of a roof or balcony. The number of puzuo is measured by the number of layers. However, it is also used to describe a structural unit formed by this practice.</p>
                <p xml:lang="zh-Hant">鋪作一詞，主要出現在1103年出版的《營造法式》中，按其定義“今以鬥栱層數相疊出跳多寡次序謂之鋪作”，可知鋪作是一種將小構件層層相疊，為實現懸挑功能而按次序鋪疊的做法。鋪作可以用疊加的次數來計量。《營造法式》中也將其引申為由這種做法所形成的結構單元。</p>
-               <p>Related Concepts: 
-                  <term ref="/keyword/k000019">dougong 斗栱;</term>
-                  <term ref="/keyword/k000103"> ang 昂</term>
-               </p>
-              <!--  <p> Sources and Contributors:</p>
+	    </note-->
+		 
+	    <note type="related concepts">
+		  <p><term ref="/keyword/k000019">斗栱 dougong</term>; <term ref="/keyword/k000103">昂 ang</term></p>
+	    </note>
+		    
+              <!--p> Sources and Contributors:</p>
                <p>puzuo 鋪作: Li Jie 李誡著(宋). Yingzao fashi 營造法式.故宫博物院编 (故宫藏抄本）Palace Museum edition. Beijing 北京：Zijincheng press 紫禁城出版社, 2009, 4.8-9.</p>
                <p>corbel, corbelling:  ATTCAT</p>
                <p>bracket set: (1) Fu Xinian. Traditional Chinese Architecture: Twelve Essays. Princeton University Press, 2017 (under: intercolumnar bracket set), 349. (2) Tracy Miller. The Divine Nature of Power: Chinese Ritual Architecture at the Sacred Site of Jinci. Cambridge, MA: Harvard University Asia Center for the Harvard-Yenching Institute: Distributed by Harvard University Press, 2007, 202.</p>
                <p>layered bracket set:  Tracy Miller. The Divine Nature of Power: Chinese ritual architecture at the sacred site of Jinci. Cambridge, MA: Harvard University Asia Center for the Harvard-Yenching Institute : Distributed by Harvard University Press, 2007, 202.</p>
-               <p>bracketing unit: (1) Guo Qinghua. Visual Dictionary of Chinese Architecture. Mulgrave: Images Publishing, 2002, 64. (2) Fu Xinian. Traditional Chinese Architecture:Twelve Essays. Princeton University Press, 2017, 363.</p>
-            -->
-           </note>
-           <note type="Scope Note (full)">
+               <p>bracketing unit: (1) Guo Qinghua. Visual Dictionary of Chinese Architecture. Mulgrave: Images Publishing, 2002, 64. (2) Fu Xinian. Traditional Chinese Architecture:Twelve Essays. Princeton University Press, 2017, 363.</p-->
+		    
+           <note type="Note (full)">
                <p xml:lang="zh-Hant">鋪作一詞，主要出現在1103年出版的《營造法式》中，按其定義 “今以枓栱層數相疊出跳多寡次序謂之鋪作”（李誡，2009：9），可知鋪作是一種將小構件層層相疊，為實現懸挑功能而按次序鋪疊的做法。鋪作可以用疊加的次數來計量。《營造法式》中也將其引申為由這種做法所形成的結構單元。（圖1）
                   學者對鋪作的研究中，對於什麼是鋪作，以及鋪作與鬥栱的關係的認識並不完全一致。梁思成試圖解釋法式中“出一跳謂之四鋪作”的問題，提出了鋪作中的三個常量：作為第一鋪作的栌鬥與最末兩鋪作的耍頭與襯方頭。（梁思成，1983：121）（圖2）陳明達將鋪作定義為由鬥、栱、昂等構件組合成的結構單元；認為鬥栱即鋪作，但鬥栱是明清時使用的稱謂。（陳明達，1990：40）王效青和潘谷西認為鋪作除了枓栱的意思（如，補間鋪作、柱頭鋪作、轉角鋪作、外檐鋪作、身槽內鋪作），還指每朵枓栱本身相疊層數、出跳多少的次序（如四鋪作、五鋪作、六鋪作、七鋪作、八鋪作）。（王效青，1996：398，潘谷西，2005：260）鍾曉青則強調鋪作的基本特點是層疊與出跳（鍾曉青，2010：113-119）。
                   而徐伯安認為枓栱和鋪作並不相同。鋪作一詞甚少在《營造法式》以外的文獻中出現，他認為很可能是當時工匠的一種口頭俗稱，意為枓栱的做法和大小次序；而枓栱一詞則廣泛地出現于文獻之中，指代枓和栱組成的構件。李明仲在《營造法式》中模糊了鋪作和枓栱的概念差別，以鋪作一詞代替枓栱。（徐伯安，1985：1）儘管徐伯安的觀點頗具說服力，但以鬥栱為鋪作之明清稱謂這一看法至今仍被許多人採用。
                   還有一些學者對鋪作的演變進行了思考。陳明達認為外表看來成朵的鋪作，不過是縱架和橫架的結合點。亦即將縱架和橫架的結合部分割裂出來稱為鋪作。（陳明達，1981：106）張十慶認為“鋪作”一詞即透露有井幹結構的重疊而施的構成精神，指出其起源與井幹結構有關。（張十慶，1991：50）
                   結合對鋪作的研究與理解，有些學者進一步發展出“鋪作層”的概念。這一概念的使用可追溯至陳明達，他將法式殿堂架構分解為屋架層、鋪作分槽層和柱網層三個水平結構層。（陳明達，1981: 132）傅熹年在《五台山佛光寺建築》中，也將唐宋殿堂構架分解為柱網、鋪作層和屋頂草架三個水平構架層。（傅熹年，1998：236-237）（圖3）鋪作層這一概念逐漸為研究者接受和使用，潘谷西並對此進行了定義，認為鋪作層是一個由大量枋子、月梁等構件縱橫相交組成的龐大木構架，再輔以衆多的栱昂和替木等構件。鋪作層既是柱框層的強有力的穩定機制，又是屋蓋層的可靠托座。（潘谷西，2005：27-28）鍾曉青在討論鋪作起源時提出認為宋人所謂的“鋪作”，最初只是鋪作層位于柱頭之上的節點，後來逐漸添置于相鄰柱頭之間的枋額之上，其形式演變依附並受制于整個鋪作層的形成與發展。從這一意義上來說，鋪作層的出現標志中國古代木構建築發展成熟。（鍾曉青，2010：113，115）</p>
            </note>
+		    
             <!--  <p>Bibliography</p>
                <p>（宋）李誡著.故宫博物院编.(故宫藏抄本）營造法式.北京：紫禁城出版社，2009.
                   （宋）李诫编修; 梁思成注释. 《营造法式》注释(上). 北京 : 中国建筑工业出版社, 1983.
