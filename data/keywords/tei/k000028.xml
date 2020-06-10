@@ -10,16 +10,18 @@
                <foreign xml:lang="zh-hanst">栿</foreign> fú</title>
             <!-- title has traditional Chinese first, then English -->
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+	    <principal xml:id="TGM">Tracy Miller</principal>
+	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+	    <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Initial Research</resp>
-            	<name type="person">ZHUGE Jing 諸葛净 and CHEN Luxi 陳麓西</name>
+	       <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+	       <name type="person" xml:id="CL">CHEN Luxi 陳麓西</name>
                <name type= "team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
