@@ -11,11 +11,17 @@
                <title level="a" xml:lang="zh-latn-pinyin">
                   <foreign xml:lang="zh-hanst">地盤</foreign> dìpán</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+	    <principal xml:id="TGM">Tracy Miller</principal>
+	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+	    <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
+	    <respStmt>
+		<resp>Initial Research</resp>
+		<name type="person" xml:id="RS">REN Sijie 任思捷</name>
+		<name type="team">ATTCAT 2018</name>
+	    </respStmt>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
