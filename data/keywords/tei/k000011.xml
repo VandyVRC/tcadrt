@@ -8,18 +8,18 @@
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">穿鬥</foreign> chuāndòu</title>
-            <!-- title has traditional Chinese first, then English or preferred romanization-->
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Yuh-Fen Benda</editor>
+	    <principal xml:id="TGM">Tracy Miller</principal>
+	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+	    <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
                <respStmt>
                   <resp>Initial Research</resp>
-                  <name type="person">BAI Ying 白穎</name>
+                  <name type="person" xml:id="BY">BAI Ying 白穎</name>
                   <name type= "team">ATTCAT 2018</name>
                </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
