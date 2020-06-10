@@ -62,36 +62,37 @@
    <text>
       <body>
          <entryFree xml:id="dipan" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en">ground plan</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">ground plans (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000018-1">地盤</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">地盘</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">dìpán (preferred)</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">dìpán</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ti-p’an</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">ground plate</term>
-            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000018-2">floor plan</term>
-            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000018-3">foundation</term>
-            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000018-4">site</term>
-            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000018-5">structure layout</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">ground plate (lit.)</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000018-2">floor plans</term>
+            <term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000018-3">foundations</term>
+            <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000018-4">sites</term>
+            <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000018-5">structure layouts</term>
  
-            <note>
-               <p>An architectural term seen in the Yingzao fashi and Luban yingzao zhengshi, but also used in texts related to building activities such as Zhuzi yulei and Yangzhou huafang lu. Interpretations of the term and its relevant images in the Yingzao fashi are under debate. Some suggest it concerns the plan of puzuo (corbelling) seen at a vertical position above the pillar top (Chen Mingda 2010), either understood as reflected ceiling plan (Chen Mingda 1981), or the view looking downward from above (Zhu Yongchun 2016). Others interpret the term as a ground plan showing pillar positions (the layout of puzuo may also be reflected) (Pan Guxi, He Jianzhong 2005), or possibly relating to foundation as well (Ren Sijie 2016).</p>
-               <p>作爲傳統營造術語，主要見于《營造法式》和《魯般營造正式》，也見於其他談及營造的傳統文獻，如《朱子語類》、《揚州畫舫錄》等。對《營造法式》所謂“地盤”的具體含義存在爭議：一説是柱頭鋪作的平面佈置（陳明達 2010），有的觀點認為是柱頭仰視平面（陳明達 1981），也有認爲是柱頭俯視平面（朱永春 2016）；一説是表示柱子分佈（或兼反映鋪作）的平面（潘谷西, 何建中 2005），有的觀點認爲或亦與基礎做法有關（任思捷 2016）。</p>
-               <p>(任思捷 Ren Sijie, ATTCAT 2018) </p>
-               <p> Sources and Contributors:</p>
+            <note type="Note (brief)">
+               <p xml:lang="en">An architectural term seen in the Yingzao fashi and Luban yingzao zhengshi, but also used in texts related to building activities such as Zhuzi yulei and Yangzhou huafang lu. Interpretations of the term and its relevant images in the Yingzao fashi are under debate. Some suggest it concerns the plan of puzuo (corbelling) seen at a vertical position above the pillar top (Chen Mingda 2010), either understood as reflected ceiling plan (Chen Mingda 1981), or the view looking downward from above (Zhu Yongchun 2016). Others interpret the term as a ground plan showing pillar positions (the layout of puzuo may also be reflected) (Pan Guxi, He Jianzhong 2005), or possibly relating to foundation as well (Ren Sijie 2016).</p>
+               <p xml:lang="zh-Hant">作爲傳統營造術語，主要見于《營造法式》和《魯般營造正式》，也見於其他談及營造的傳統文獻，如《朱子語類》、《揚州畫舫錄》等。對《營造法式》所謂“地盤”的具體含義存在爭議：一説是柱頭鋪作的平面佈置（陳明達 2010），有的觀點認為是柱頭仰視平面（陳明達 1981），也有認爲是柱頭俯視平面（朱永春 2016）；一説是表示柱子分佈（或兼反映鋪作）的平面（潘谷西, 何建中 2005），有的觀點認爲或亦與基礎做法有關（任思捷 2016）。</p>
+	    </note>
+		    
+               <!--p> Sources and Contributors:</p>
                <p>Foundation: Ren Sijie, Foguangsi on Mount Wutai (2016) 368-375</p>
                <p>Structure Layout: Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 32</p> 
                <p>Site: Fu Xinian, Traditional Chinese Architecture: Twelve Essays (2017) 353</p>
                <p>Floor Plan: Fu Xinian, Traditional Chinese Architecture: Twelve Essays (2017) 353</p> 
-               <p>地盤 : (1) 營造法式, 卷31 (2) 魯班營造正式 (3) 朱子語類 (4) 揚州畫舫錄 (5) 陳明達, 營造法式大木作制度研究 (1981) 114 (6) 陳明達, 《營造法式》辭解 (2010) 159 (7) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 (8) 潘谷西, 何建中, 《營造法式》解讀 (2005) 46, 248.</p>
+               <p>地盤 : (1) 營造法式, 卷31 (2) 魯班營造正式 (3) 朱子語類 (4) 揚州畫舫錄 (5) 陳明達, 營造法式大木作制度研究 (1981) 114 (6) 陳明達, 《營造法式》辭解 (2010) 159 (7) 朱永春, 《營造法式》中殿閣地盤分槽圖的探索與引論 (2016) 82-97 (8) 潘谷西, 何建中, 《營造法式》解讀 (2005) 46, 248.</p-->
           
-            <p>Related Terms: 
-               <term ref="https://architecturasinica.org/keyword/k000005">槽 cáo</term>
-            </p>
-              </note>
+	    <note type="related concepts">
+            <p><term ref="/keyword/k000005">槽 cáo</term></p>
+            </note>
             
             <listBibl xml:id="biblk000018-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>                  
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">卷31</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/TEGT7JCK"/>
@@ -136,6 +137,7 @@
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">32</citedRange>>
             </bibl>
+		 
             <idno type="URI">https://architecturasinica.org/keyword/k000018</idno>
             <listRelation>
                <listRelation>
