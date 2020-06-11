@@ -15,16 +15,16 @@
             <editor role="code-author" ref="#TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="RS">REN Sijie 任思捷</editor>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" ref="#RS">REN Sijie 任思捷</name>
+               <resp>Initial research by</resp>
+               <name type="person" ref="#RS">REN Sijie 任思捷, </name>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Proofreading, data entry, and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding various languages and revising title statement 2020 by</resp>
+               <resp>Adding various languages and revising title statement 2020 by</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
@@ -57,6 +57,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-12-03">CREATED: record</change>
+         <change n="2.0" when="2020-06-11">Modified: editorial roles</change>
       </revisionDesc>
    </teiHeader>
    <text>
