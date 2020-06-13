@@ -11,11 +11,20 @@
 				<title level="a" xml:lang="zh-latn-pinyin">
 					<foreign xml:lang="zh-hanst">擡梁</foreign> táiliáng</title>
 				<title level="m">Architectura Sinica</title>
-				<principal>Tracy Miller</principal>
-				<editor role="creator">Yuh-Fen Benda</editor>
+				<principal xml:id="TGM">Tracy Miller</principal>
+				<editor role="general" ref="#TGM">Tracy Miller</editor>
+				<editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+				<editor role="content-author" xml:id="SYZ">SUN Yingzhe 孫迎喆</editor>
+				<editor role="code-author" ref="#TGM">Tracy Miller</editor>
 				<respStmt>
-					<resp>data entry and proof correction</resp>
-					<name type="person" xml:id="TGM">Tracy Miller</name>
+					<resp>Initial research and review by </resp>
+					<name type="person" ref="#BY">BAI Ying 白穎, </name>
+					<name type="person" ref="#SYZ">SUN Yingzhe 孫迎喆, </name>
+					<name type="team">ATTCAT 2018</name>
+				</respStmt>
+				<respStmt>
+					<resp>Data entry and proof correction</resp>
+					<name type="person" ref="#TGM">Tracy Miller</name>
 				</respStmt>
 				<respStmt>
 					<resp>adding citations</resp>
@@ -52,6 +61,7 @@
 		<revisionDesc>
 			<change n="1.0" when="2019-05-13">CREATED: record</change>
 			<change n="2.0" who="#SZ" when="2020-03-23">adding citation(s)</change>
+			<change n="2.0" who="#TGM" when="2020-06-11">adding code and content authors</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -95,9 +105,6 @@
 					<p>擡梁式構架被認為是代表了中國木結構最高成就的官式建築所廣泛使用的構架類型，因此對其起源的研究引起了學者的關注。如，徐伯安認為，擡梁式構架是在三角形屋架的基礎上發展而來（徐伯安 2002, 8-36）。張十慶則從建構思維的角度，提出我國傳統建築的兩大建構思維傾向：層疊和連架。層疊即橫向的分層疊加式建構，連架即豎向的分架連接式建構。而擡梁做法既有源於層疊結構的擡梁做法，又有源於連架結構的擡梁做法，可分別稱之為層疊式擡梁與連架式擡梁。（張十慶 2007, 76-79）</p>
 					<p>(BAI Ying 白穎, 2018， ATTCAT Project)</p>
 				</note>
-				
-				
-				
 				<listBibl xml:id="biblk000081-1">
 					<bibl>
 						<ptr target="https://architecturasinica.org/bibl/GBAS7WRT"/>
