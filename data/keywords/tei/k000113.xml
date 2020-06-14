@@ -12,11 +12,14 @@
                <foreign xml:lang="zh-hanst">彩畫作</foreign> cǎihuàzuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="RSJ">REN Sijie 任思捷</editor>
+            <editor role="content-author" xml:id="YWT">YANG Wantian 陽菀闐</editor>
+            <editor role="code-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
               <resp>Initial Research</resp>
-              <!--name type="person">BAI Ying 白穎</name-->
+              <name type="person" ref="#RSJ">REN Sijie 任思捷, </name>
+              <name type="person" ref="#YWT">YANG Wantian 陽菀闐</name>
               <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
@@ -52,6 +55,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
+         <change n="2.0" when="2020-06-14">Adding content</change>
       </revisionDesc>
    </teiHeader>
    <text>
