@@ -56,6 +56,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-01-25">CREATED: record</change>
+         <change n="1.1" when="2020-06-13">Added related concepts</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,7 +70,16 @@
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">tile end (lit.)</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000110-2">eave-tile ends</term>
             <note type="Note (brief)">
-               <p xml:lang="en">Type of barrel tile used to cap the end of a line of covering tiles at the eaves.</p>
+               <p xml:lang="en">Type of barrel tile (筒瓦 tongwa) used to cap the end of a line of covering tiles at the eaves.</p>
+            </note>
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000108">勾頭 goutou</term>
+                  ;
+                  <term ref="/keyword/k000109">筒瓦 tongwa</term>
+                  ;
+                  <term>antefixes</term>
+               </p>
             </note>
             <bibl xml:id="biblk000110-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
