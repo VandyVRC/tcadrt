@@ -12,9 +12,9 @@
                <foreign xml:lang="zh-hanst">筒瓦</foreign> tòngwǎ</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-	    <editor role="general" ref="#TGM">Tracy Miller</editor>
+	         <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" xml:id="ZJ">ZHUGE Jing 諸葛净, </editor>
             <editor role="associate-editor" xml:id="YFB">Yuh-Fen Benda</editor>
-            <editor role="associate-editor" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author">ATTCAT 2018</editor>
 	    <respStmt>
 	      <resp>Initial Research</resp>
@@ -26,7 +26,7 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
+               <resp>Data entry by</resp>
                <name type="person" ref="ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
          </titleStmt>
