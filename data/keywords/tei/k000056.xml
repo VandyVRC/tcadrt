@@ -3,19 +3,25 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title level="a" xml:lang="en">Northern Wei</title>
-            <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <respStmt>
-               <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>adding citations</resp>
-               <name type="person" xml:id="YC">Yiyang Chen</name>
-            </respStmt>
+        <titleStmt>
+         <title level="a" xml:lang="en">
+            <foreign xml:lang="zh-hanst">北魏 </foreign>Běiwèi  </title>
+         <title level="m">Architectura Sinica</title>
+         <principal xml:id="TGM">Tracy Miller</principal>
+         <editor role="creator" ref="#TGM">Tracy Miller</editor>
+         <editor role="general" ref="#TGM">Tracy Miller</editor>
+         <respStmt>
+            <resp>data entry and proof correction</resp>
+            <name type="person" ref="TGM">Tracy Miller</name>
+         </respStmt>
+         <respStmt>
+            <resp>adding revising title statement 2020 by</resp>
+            <name type="person" xml:id="SZ">SUN Zheng</name>
+         </respStmt>
+         <respStmt>
+            <resp>adding citations</resp>
+            <name type="person" xml:id="YC">Yiyang Chen</name>
+         </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -45,18 +51,24 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#YC" when="2020-02-21">adding citation(s)</change>
+         <change n="3.0" who="#SZ" when="2020-06-19">Revised title statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="Northern-Wei" type="time period">
-            <term xml:id="term-Northern-Wei-1" xml:lang="en">Northern Wei</term>
-            <term xml:id="term-Northern-Wei-2" xml:lang="zh-Hant">北魏</term>
+            <term xml:id="term-North-Wei-1" xml:lang="en">North Wei</term>
+            <term xml:id="term-North-Wei-2" xml:lang="zh-Hant">北魏</term>
+            <term xml:id="term-North-Wei-3" xml:lang="zh-Hans">北魏</term>
+            <term xml:id="term-North-Wei-4" xml:lang="zh-latn-pinyin">Běiwèi</term>
+            <term xml:id="term-North-Wei-5" xml:lang="Wade-Giles">Pei-wei</term>
+            <term xml:id="term-North-Wei-6" xml:lang="zh-Hant">北魏朝</term>
+            <term xml:id="term-North-Wei-7" xml:lang="en">North Wei Dynasty</term>
             <state type="existence" source="#bibilk000056-1" from="0386" to="0581">
                <desc>386 - 581</desc>
             </state>
             <bibl xml:id="biblk000056-1">
-               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                <citedRange unit="pp">12</citedRange>
             </bibl>
          	<idno type="URI">https://architecturasinica.org/keyword/k000056</idno>
