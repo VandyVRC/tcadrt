@@ -4,13 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Post Qing</title>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-hanst">清以後 </foreign>Qīng Yǐ Hòu  </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -52,6 +58,9 @@
          <entryFree xml:id="Post-Qing" type="time period">
             <term xml:id="term-Post-Qing-1" xml:lang="en">Post Qing</term>
             <term xml:id="term-Post-Qing-2" xml:lang="zh-Hant">清以後</term>
+            <term xml:id="term-Post-Qing-3" xml:lang="zh-Hans">清以后</term>
+            <term xml:id="term-Post-Qing-4" xml:lang="zh-latn-pinyin">Qīng Yǐ Hòu</term>
+            <term xml:id="term-Post-Qing-5" xml:lang="Wade-Giles">ch'ing-i-hou</term>
             <state type="existence" source="bibilk000066-1" from="1912" to="0000">
                <desc>1912 - </desc>
             </state>
