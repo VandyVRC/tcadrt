@@ -12,19 +12,31 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
             <respStmt>
-               <resp>Initial Research</resp>
-            	<name type="person" xml:id="JT">JIA Tingli 賈亭立</name>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#JT">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Editing and proofreading by</resp>
+               <name type="person" xml:id="TGM">Tracy Miller </name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
