@@ -11,8 +11,8 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎, </editor>
             <editor role="content-author" xml:id="CXT">CHEN Xintao 陳欣濤</editor>
             <respStmt>
                <resp>Initial research and revision by</resp>
@@ -25,15 +25,15 @@
             </respStmt>
             <respStmt>
                <resp>Editing and proofreading by</resp>
-               <name type="person" ref="#TGM">Tracy Miller </name>
-            </respStmt>
-            <respStmt>
-               <resp>Data entry and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller </name>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations and revising title statement 2020 by</resp>
+               <resp>Data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller, </name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citations and revising title statement by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
