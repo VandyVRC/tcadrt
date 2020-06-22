@@ -11,27 +11,30 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" ref="#TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
             <editor role="content-author" xml:id="CXT">CHEN Xintao 陳欣濤</editor>
-            <editor role="code-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Initial research and review by </resp>
+               <resp>Initial research and revision by</resp>
                <name type="person" ref="#BY">BAI Ying 白穎, </name>
-               <name type="person" ref="#CXT">CHEN Xintao 陳欣濤, </name>
+               <name type="person" ref="#CXT">CHEN Xintao 陳欣濤</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing by </resp>
-               <name type="person" ref="#TGM">Tracy Miller, </name>
+               <resp>Editing and proofreading by</resp>
+               <name type="person" ref="#TGM">Tracy Miller </name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller </name>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and proof correction by </resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adding citations by </resp>
-               <name type="person" xml:id="SZ">SUN Zheng</name>
+               <resp>Adding citations and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
