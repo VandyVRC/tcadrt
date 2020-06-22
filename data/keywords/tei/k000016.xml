@@ -10,22 +10,33 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-hanst">堞</foreign> dié</title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>>
+            
+            
+            
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" ref="#YFB">Yuh-Fen Benda</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" xml:id="JT">JIA Tingli 賈亭立</name>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#JT">JIA Tingli 賈亭立 </name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>data entry and proof correction</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
+               <resp>Editing and proofreading by</resp>
+               <name type="person" ref="#TGM">Tracy Miller </name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
-               <name type="person" xml:id="SZ">SUN Zheng</name>
+               <resp>Data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller </name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citations and revising title statement 2020 by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
+            </respStmt> 
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
