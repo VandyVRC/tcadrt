@@ -8,22 +8,28 @@
       	   <title level="a" xml:lang="zh-latn-pinyin">
       	      <foreign xml:lang="zh-hanst">扶壁栱</foreign> fúbìgǒng</title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>   
-            <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" xml:id="RS">REN Sijie 任思捷</name>
-               <name type="person" xml:id="YW">YANG Wantian</name>
-               <name type= "team">ATTCAT 2018</name>
-            </respStmt>
+      	   <principal xml:id="TGM">Tracy Miller</principal>
+      	   <editor role="general" ref="#TGM">Tracy Miller</editor>
+      	   <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+      	   <editor role="content-author" xml:id="RS">REN Sijie 任思捷</editor>
+      	   <editor role="content-author" xml:id="YW">YANG Wantian </editor>
       	   <respStmt>
-      	      <resp>data entry and proof correction</resp>
-      	      <name type="person" ref="#TGM">Tracy Miller</name>
+      	      <resp>Initial research and revision by</resp>
+      	      <name type="person" ref="#RS">REN Sijie 任思捷</name>
+      	      <name type="person" ref="#YW">YANG Wantian</name>
       	   </respStmt>
       	   <respStmt>
-      	      <resp>adding citations</resp>
-      	      <name type="person" xml:id="SZ">SUN Zheng</name>
+      	      <resp>Peer review by</resp>
+      	      <name type="team">ATTCAT 2018</name>
+      	   </respStmt>
+      	   <respStmt>
+      	      <resp>Editing， proofreading， data entry, and revisioncby</resp>
+      	      <name type="person" ref="#TGM">Tracy Miller</name>
+      	   </respStmt>
+      	   
+      	   <respStmt>
+      	      <resp>Adding citations and revising title statement by</resp>
+      	      <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
       	   </respStmt>
          </titleStmt>
          <editionStmt>
