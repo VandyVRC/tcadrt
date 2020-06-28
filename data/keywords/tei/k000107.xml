@@ -12,19 +12,22 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
-              <resp>Initial Research</resp>
-              <!--name type="person">BAI Ying 白穎</name-->
-              <name type="team">ATTCAT 2018</name>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing and data entry 2019 by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>Data entry and editing by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revising title statement by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
