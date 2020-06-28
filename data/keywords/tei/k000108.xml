@@ -12,21 +12,23 @@
                <foreign xml:lang="zh-hanst">勾頭</foreign> gōutóu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-	         <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="code-author" xml:id="ZJ">ZHUGE Jing</editor>
-            <editor role="content-author">ATTCAT 2018</editor>
-	    <respStmt>
-	      <resp>Initial Research</resp>
-	       <name type="team">ATTCAT 2018</name>
-	      <!--name type="person">BAI Ying 白穎</name-->
-	    </respStmt>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
-               <resp>Editing, proofreading, and revision by</resp>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2018</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and editing by</resp>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry by </resp>
-               <name type="person" ref="#ZJ">ZHUGE Jing</name>
+               <resp>Revising title statement by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
