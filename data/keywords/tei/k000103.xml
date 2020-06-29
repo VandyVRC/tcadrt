@@ -13,21 +13,28 @@
                áng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-	    <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="YFB">Yuh-Fen Benda</editor>
-	    <respStmt>
-	      <resp>Initial Research</resp>
-	      <name type="person" ref="#TGM">Tracy Miller</name>
-	      <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
-	      <name type="team">ATTCAT 2018</name>
-	    </respStmt>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2018</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
-               <name type="person" xml:id="SQ">SONG Qisen</name>
+               <resp>Adding citations</resp>
+               <name type="person" xml:id="SQ">Song Qisen 松奇森</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revising title statement by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>

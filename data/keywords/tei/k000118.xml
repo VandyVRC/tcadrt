@@ -12,16 +12,19 @@
                <foreign xml:lang="zh-hanst">影栱</foreign> yǐnggǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
-              <resp>Initial Research</resp>
-              <!--name type="person">BAI Ying 白穎</name-->
-              <name type="team">ATTCAT 2018</name>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry by</resp>
-               <name type="person" xml:id="ZS">SUN Zheng</name>
+               <resp>Editing, proofreading and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations, and revising statements by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
