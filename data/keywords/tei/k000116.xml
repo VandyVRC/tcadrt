@@ -14,6 +14,13 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="CLX">CHEN Luxi 陳麓西</editor>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="CLX">CHEN Luxi 陳麓西</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
@@ -60,19 +67,41 @@
    <text>
       <body>
          <entryFree xml:id="fāng" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">squared beams (preferred)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred"source="biblk000116-1">squared beams (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">方</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">方</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">fāng</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fang</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">squared beam; joist (lit.)</term>
-            <!--<note>
-              <p source="biblk000113-3">(ATTCAT 2018)</p>
-            </note>-->
-            <!-- 
-            <bibl xml:id="biblk000113-3">
-               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-            </bibl>-->
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">square; square-shaped (beam)</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000116-2">lintel</term>
+            <term xml:id="term-feature_name-7" xml:lang="en" source="biblk000116-3">rafter plate; a horizontal structural member under and parallel to the purlins</term>
+            <note type="Note (brief)">
+               <p xml:lang="en">As an architectural member in the Yingzao fashi, the fang 方 refers to a timber whose cross-section measurement utilizes the dancai for the building as a standard. Its use is relatively flexible, and the term is often modified by the names of the different location where it is used within the building. <s source="biblk000116-4">In the Qing dynasty fang 枋 is used rather than 方</s></p>
+               <p xml:lang="zh-Hant">宋營造法式中， 方則指 斷面尺寸一單材為基準的小斷面構建，使用較靈活， 一所處位置有不同的名稱。</p>  
+            </note>
+            <note type="related concept">e 額</note>
+               <bibl xml:id="biblk000116-1">
+                  <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+               </bibl>         
+               <bibl xml:id="biblk000116-2">
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">35</citedRange>
+               </bibl>           
+            <listBibl xml:id="biblk000116-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">108</citedRange>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">35</citedRange>
+               </bibl>
+            </listBibl>  
+            <bibl xml:id="biblk000116-4">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">35</citedRange>
+            </bibl>
+
             <idno type="URI">https://architecturasinica.org/keyword/k000116</idno>
             <listRelation>
                <listRelation>
