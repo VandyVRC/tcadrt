@@ -60,7 +60,7 @@
    <text>
       <body>
          <entryFree xml:id="fāng" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">tie beams (preferred)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000117-1">tie beams (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">枋</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">枋</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">fāng</term>
@@ -69,10 +69,13 @@
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
-            <!-- 
-            <bibl xml:id="biblk000113-3">
+            <note type="Note (brief)">
+               <p>See <term ref="https://architecturasinica.org/keyword/k000116">fang 方</term></p>
+            </note>
+            <bibl xml:id="biblk000117-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-            </bibl>-->
+            </bibl>
+            
             <idno type="URI">https://architecturasinica.org/keyword/k000117</idno>
             <listRelation>
                <listRelation>
