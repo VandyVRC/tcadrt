@@ -26,9 +26,13 @@
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, proofreading and revision by</resp>
+               <resp>Data entry by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Proofreading and revision by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>          
             <respStmt>
                <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
@@ -76,7 +80,7 @@
          	<term xml:id="term-feature_name-6" xml:lang="en" type="preferred" source="#biblk000045-1">cross beams (preferred)</term>
          	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000045-2">梁</term>
          	<term xml:id="term-feature_name-3" xml:lang="zh-Hans">梁</term>
-		<term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">liáng</term>
+		      <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">liáng</term>
          	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">liang</term>
          	<term xml:id="term-feature_name-1" xml:lang="en" source="#biblk000045-3">beams</term>
 		 
