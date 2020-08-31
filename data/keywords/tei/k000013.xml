@@ -7,13 +7,17 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-hanst">鋪作</foreign> pūzuò</title>
+               <foreign xml:lang="zh-Hant">鋪作</foreign> pūzuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
             <editor role="content-author" xml:id="BY">BAI Ying 白穎, </editor>
             <editor role="content-author" xml:id="CXT">CHEN Xintao 陳欣濤</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#BY">BAI Ying 白穎, </name>
@@ -24,8 +28,12 @@
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing and proofreading by</resp>
+               <resp>English editing and proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese editing and proofreading by</resp>
+               <name type="person" ref="#ZJ">Zhuge Jing 諸葛凈</name>
             </respStmt>
             <respStmt>
                <resp>Data entry and revision by</resp>
@@ -68,6 +76,7 @@
          <change n="1.0" when="2018-12-03">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-19">adding citation(s)</change>
          <change n="2.0" who="#TGM" when="2020-06-11">adding code and content authors, adding links</change>
+         <change n="2.1" who="#TGM" when="2020-08-31">adding edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -86,7 +95,7 @@
             
 	    <note type="Note (brief)">
 	       <p xml:lang="en">Puzuo is a term primarily found in the Yingzao fashi (1103). Based on its use in this text, we can conclude that puzuo is a method whereby small components are layered one on top of another extending outward in corbelled steps, usually to support the weight of a roof or balcony. The number of puzuo is measured by the number of layers. In the Yingzao fashi the term puzuo also used to describe a structural unit formed by this practice, and in this situation it is similar to <term ref="https://architecturasinica.org/keyword/k000019">dougong 斗拱</term>.</p>
-               <p xml:lang="zh-Hant">鋪作一詞，主要出現在1103年出版的《營造法式》中，按其定義“今以鬥栱層數相疊出跳多寡次序謂之鋪作”，可知鋪作是一種將小構件層層相疊，為實現懸挑功能而按次序鋪疊的做法。鋪作可以用疊加的次數來計量。《營造法式》中也將其引申為由這種做法所形成的結構單元。</p>
+	       <p xml:lang="zh-Hant">鋪作一詞，主要出現在《營造法式》（1103）中，按其定義“今以鬥栱層數相疊出跳多寡次序謂之鋪作”，可知鋪作是一種將小構件層層相疊，為實現懸挑功能而按次序鋪疊的做法。鋪作可以用疊加的次數來計量。《營造法式》中也將其引申為由這種做法所形成的結構單元，在此情況下鋪作的涵義、用法與<term ref="https://architecturasinica.org/keyword/k000019">斗拱</term>類似。</p>
 	    </note>
 		 
 	    <note type="related concepts">
