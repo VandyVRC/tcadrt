@@ -13,13 +13,20 @@
 				<title level="m">Architectura Sinica</title>
 				<principal xml:id="TGM">Tracy Miller</principal>
 				<editor role="general" ref="#TGM">Tracy Miller</editor>
+				<editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
 				<editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
 				<editor role="content-author" xml:id="SYZ">SUN Yingzhe 孫迎喆</editor>
-				<editor role="code-author" ref="#TGM">Tracy Miller</editor>
+				<respStmt>
+					<resp>Website coordination by</resp>
+					<name type="person" xml:id="YF">Yuh-Fen Benda</name>
+				</respStmt>
 				<respStmt>
 					<resp>Initial research and review by </resp>
 					<name type="person" ref="#BY">BAI Ying 白穎, </name>
 					<name type="person" ref="#SYZ">SUN Yingzhe 孫迎喆, </name>
+				</respStmt>
+				<respStmt>
+					<resp>Peer review by</resp>
 					<name type="team">ATTCAT 2018</name>
 				</respStmt>
 				<respStmt>
@@ -27,8 +34,12 @@
 					<name type="person" ref="#TGM">Tracy Miller</name>
 				</respStmt>
 				<respStmt>
-					<resp>Proofreading and revision by</resp>
+					<resp>English proofreading by</resp>
 					<name type="person" xml:id="AC">Aurelia Campbell</name>
+				</respStmt>
+				<respStmt>
+					<resp>Chinese proofreading by</resp>
+					<name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
 				</respStmt>
 				<respStmt>
 					<resp>Adding citations by</resp>
@@ -65,7 +76,8 @@
 		<revisionDesc>
 			<change n="1.0" when="2019-05-13">CREATED: record</change>
 			<change n="2.0" who="#SZ" when="2020-03-23">adding citation(s)</change>
-			<change n="2.0" who="#TGM" when="2020-06-11">adding code and content authors</change>
+			<change n="2.0" who="#TGM" when="2020-06-11">adding content authors</change>
+			<change n="2.0" who="#TGM" when="2020-09-05">Adding AC and ZJ edits</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -101,7 +113,7 @@
 						2017: 367 這本書的注釋寫法.</p>-->
 				</note>
 				<note type="Note (full)">
-					<p>Tailiang 擡梁, also known as column-beam-and-strut, column-and-beam frame, column beam and strut system, is one of the most important architectural types. They are mainly used in official buildings, and examples in Yingzao fashi 营造法式 (1103) and Gongcheng zuofa zeli 工程做法则例 (1734) and the existing ancient official buildings are usually tailiang. In spite of this, the word “Tailiang” was coined by scholars. The earliest description was in Zhongguo jianzhushi (History of Chinese Architecture, 中国建筑史) edited by Liang Sicheng, 1954 edition. In this book, Liang Sicheng did not describe many details, but one of the most important he discussed was that “the beams can overlap multiple times.” Liu Zhiping introduced this formally as a type of timber frame structure in the 1957 edition of Zhongguo jianzhu leixing ji jiegou (The Type and Structure of Chinese Architecture 中国建筑类型及结构). In the above two studies, however, the term “tailiang” was not used. According to the author`s research, the first time this term was used should be in Liu Dunyu`s Ping luban yingzao zhengshi (Comment on Luban yingzao zhengshi 評《鲁班营造正式》) in February 1964. In this article, he wrote “... to change the chuandou structure into the tailiang structure, the pillars support the beams on which the melon-shaped columns (guazhu 瓜柱) stand, and then there is another beam supported by melon-shaped columns.” Although only a short sentence, the characteristics of tailiang were clearly summarized here. Subsequently, in Zhongguo gudai jianzhushi (The History of Ancient Chinese Architecture 中国古代建筑史) edited by Liu Dunzhen (1964), three types of structures -- jinggan 井干, tailiang, and ganlan干阑 -- were mentioned. </p>
+					<p>Tailiang 擡梁, also known as column-beam-and-strut, column-and-beam frame, column beam and strut system, is one of the most important architectural types. They are mainly used in official buildings, and examples in Yingzao fashi 营造法式 (1103) and Gongcheng zuofa 工程做法 (1734) and the existing ancient official buildings are usually tailiang. In spite of this, the word “Tailiang” was coined by scholars. The earliest description was in Zhongguo jianzhushi (History of Chinese Architecture, 中国建筑史) edited by Liang Sicheng, 1954 edition. In this book, Liang Sicheng did not describe many details, but one of the most important he discussed was that “the beams can overlap multiple times.” Liu Zhiping introduced this formally as a type of timber frame structure in the 1957 edition of Zhongguo jianzhu leixing ji jiegou (The Type and Structure of Chinese Architecture 中国建筑类型及结构). In the above two studies, however, the term “tailiang” was not used. According to the author`s research, the first time this term was used should be in Liu Dunyu`s Ping luban yingzao zhengshi (Comment on Luban yingzao zhengshi 評《鲁班营造正式》) in February 1964. In this article, he wrote “... to change the chuandou structure into the tailiang structure, the pillars support the beams on which the melon-shaped columns (guazhu 瓜柱) stand, and then there is another beam supported by melon-shaped columns.” Although only a short sentence, the characteristics of tailiang were clearly summarized here. Subsequently, in Zhongguo gudai jianzhushi (The History of Ancient Chinese Architecture 中国古代建筑史) edited by Liu Dunzhen (1964), three types of structures -- jinggan 井干, tailiang, and ganlan干阑 -- were mentioned. </p>
 					<p>The use of tailiang in the 1980 edition of Zhongguo gudai jianzhushi (The History of Ancient Chinese Architecture 中国古代建筑史) edited by Liu Dunzhen was very influential in the academic study of Chinese architecture. This book provided specific information on the definition, characteristics, geographical location, historical development, and structural function, and the attached drawings became the chief source for the introduction of tailiang in other books. Meanwhile, Pan Guxi adopted this definition in the textbook Zhongguo Jianzhushi (History of Chinese Architecture 中国建筑史), and it became general knowledge in the architectural profession. In this type of academic study, the interpretation of the definition of tailiang mostly focuses on two aspects: the emphasis on the relationship among the components and the emphasis on distribution of force. The characteristics of these two definitions are now described as follows:</p>
 					<p>Firstly, the relationship between columns and beams is very important. The pillars bear the weight of the beams, and the melon-shaped columns (guazhu 瓜柱) stand on the beams. Some definitions also mention the purlins, which are placed (perpendicular to the beams) across the melon-shaped columns</p>
 					<p>Secondly, with respect to the distribution of force, the beam, as a bending member, must transmit the roof load to the pillars. Here, in contrast to the triangular truss commonly seen in Western architecture, the beams are mainly load-bearing, and their function of tying the pillars is not the most important.</p>
@@ -136,10 +148,6 @@
 					<ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
 					<citedRange unit="pp">291</citedRange>
 				</bibl>
-				
-				
-				
-				
 				<!-- 
 	    <bibl xml:id="biblcao-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
