@@ -13,9 +13,13 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
-            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="CL">CHEN Luxi 陳麓西</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净, </name>
@@ -30,8 +34,12 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
-               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            <resp>English proofreading by</resp>
+            <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Revising title statement by</resp>
@@ -68,7 +76,8 @@
       <revisionDesc>
          <change n="1.0" when="2019-05-22">CREATED: record</change>
          <change n="2.0" who="#TGM" when="2020-02-14">adding citation(s)</change>
-         <change n="2.1" who="#TGM" when="2020-06-11">adding code and content authors; adding links</change>
+         <change n="2.0" who="#TGM" when="2020-06-11">adding code and content authors; adding links</change>
+         <change who="#TGM" when="2020-09-05">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,7 +86,6 @@
             <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000038-1">pillar top tie beams (preferred)</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000038-2">闌額</term>
             <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000038-3">阑额</term>
-            <term xml:id="term-feature_name-12" xml:lang="zh-latn-pinyin-nt">lāné</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin" source="#biblk000038-4">lán'é</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">lan-o</term>
             <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">forehead
@@ -87,10 +95,9 @@
             <term xml:id="term-feature_name-10" xml:lang="en" source="#biblk000038-8">connecting-beams</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000038-5">lintels</term>
             <term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000038-7">penetrating tie beams</term>
-
             <note type="Note (brief)">
-               <p xml:lang="en">In traditional Chinese timber-frame architecture, the lan’e refers to horizontal elements positioned between and on top of pillars with both ends inserted into the pillars. Its upper surface is level with the top of the pillar.  In premodern sources, the term appears to only be used in the Yingzao fashi (1103), Chapters 4 and 5. Modern architectural historians use this term to describe architectural elements that accord with the Yingzao fashi description in buildings dating from the Tang (618-907) to early Ming (1368-1644) dynasties. This term is also used by some modern architectural historians to describe long horizontal elements, sometimes supported by <term ref="https://architecturasinica.org/keyword/k000019">dougong 斗拱</term>, located above or between eaves pillars, as can be seen in representations of buildings in stone cave temples, wall paintings, and sarcophagi dating before the Tang dynasty.</p>
-                  <p xml:lang="zh-Hant">指位於相鄰兩柱間柱頭的水平構件，兩端插入柱中，上皮與柱頂平，通常位於檐部。有些學者認為位於室內，且上有補間鋪作者也叫闌額。闌額僅見於北宋《營造法式》卷四、卷五（初次刊行北宋崇寧二年，1103年）。現代建築史學者通常將之用於描述唐至明初建築物中符合上述描述的構件。有些學者也用此術語描述出現於唐以前石窟、壁畫中，或石槨等建築物形象的，檐柱之上或之間的長構件。</p>
+               <p xml:lang="en">In traditional Chinese timber-frame architecture, the lan’e refers to horizontal elements positioned between and on top of pillars with both ends inserted into the pillars. Its upper surface is level with the top of the pillar.  In premodern sources, the term appears to only be used in the <title>Yingzao fashi</title> (1103), Chapters 4 and 5. Modern architectural historians use this term to describe architectural elements that accord with the <title>Yingzao fashi</title> description in buildings dating from the Tang (618-907) to early Ming (1368-1644) dynasties. This term is also used by some modern architectural historians to describe long horizontal elements, sometimes supported by <term ref="https://architecturasinica.org/keyword/k000019">dougong 斗拱</term>, located above or between eaves pillars, as can be seen in representations of buildings in stone cave temples, wall paintings, and sarcophagi dating before the Tang dynasty.</p>
+               <p xml:lang="zh-Hant">指位於相鄰兩柱間柱頭的水平構件，兩端插入柱中，上皮與柱頂平，通常位於檐部。有些學者認為位於室內，且上有補間鋪作者也叫闌額。闌額僅見於《<title>營造法式</title>》（1103）卷四、卷五。現代建築史學者通常將之用於描述唐至明初建築物中符合上述描述的構件。有些學者也用此術語描述出現於唐以前石窟、壁畫，或石槨等圖像中之建築物形象的，檐柱之上或之間的長構件。</p>
             </note>
             
             <!--note type="sources">
