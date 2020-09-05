@@ -12,8 +12,12 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
-            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="associate-editor" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
@@ -27,8 +31,12 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
+               <resp>English proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Adding citations</resp>
@@ -68,9 +76,10 @@
       <revisionDesc>
          <change n="1.0" when="2019-05-23">CREATED: record</change>
          <change n="2.0" when="2020-02-05">Edited: record</change>
-         <change n="3.0" who="#ML" when="2020-02-20">adding citation(s)</change>
+         <change who="#ML" when="2020-02-20">adding citation(s)</change>
          <change when="2020-02-05">Edited: record</change>
-         <change when="2020-02-21" who="#TGM">Edited: record</change>
+         <change who="#TGM" when="2020-02-21">Edited: record</change>
+         <change n="2.1" who="#TGM" when="2020-09-05">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,8 +93,8 @@
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000035-3">corner columns</term>
             
             <note type="Note (brief)">
-               <p xml:lang="en">Jiaozhu is a broad term referring to any pillar placed at the corner of a building. Usually, corner pillars refer to eaves pillars located at the corners of a timber frame structure. In Chapter 5 of the Yingzao fashi (1103), corner pillars are discussed in conjunction with <term ref="https://architecturasinica.org/keyword/k000064"> pingzhu 平柱</term> (leveling pillars) in calculations of the changes in height necessary to achieve the appropriate upward curvature of the eaves toward the corners. In the Song dynasty Yingzao fashi as well as the Qing dynasty Digong zuofa and Gongcheng zuofa (1734), the term can also refer to short pillars located at the corners of a foundation (taiji 台基), which were usually made of stone.</p>
-            	<p xml:lang="zh-Hant">角柱，即位於角部的柱的泛稱。通常指建築物外檐角部的柱。  在宋《營造法式》卷五，大木作部分的角柱與平柱一起，用於通过生起确定屋檐的曲线。 在宋《營造法式》和清《地宮作法》， 《工程做法》 角柱也指台基角部的短石柱。</p>
+               <p xml:lang="en">Jiaozhu is a broad term referring to any pillar placed at the corner of a building. Usually, corner pillars refer to eaves pillars located at the corners of a timber frame structure. In Chapter 5 of the <title>Yingzao fashi</title> (1103), corner pillars are discussed in conjunction with <term ref="https://architecturasinica.org/keyword/k000064"> pingzhu 平柱</term> (leveling pillars) in calculations of the changes in height necessary to achieve the appropriate upward curvature of the eaves toward the corners. In the Song dynasty Yingzao fashi as well as the Qing dynasty <title>Digong zuofa</title> and <title>Gongcheng zuofa</title> (1734), the term can also refer to short pillars located at the corners of a foundation (taiji 台基), which were usually made of stone.</p>
+               <p xml:lang="zh-Hant">角柱，即位於角部的柱的泛稱。通常指建築物外檐角部的柱。 在《<title>營造法式</title>》（1103）卷五，大木作部分的角柱與平柱一起，用於通过生起确定屋檐的曲线。 在宋《營造法式》和清《<title>地宮作法</title>》， 《<title>工程做法</title>》 中，角柱也指台基角部的短石柱。</p>
             </note>   
             
                <!--p> Sources and Contributors:</p>
