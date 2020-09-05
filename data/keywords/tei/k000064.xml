@@ -11,8 +11,12 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
-            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research, data entry and revision by</resp>
                <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
@@ -24,6 +28,14 @@
             <respStmt>
                <resp>Proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Revising title statement by</resp>
@@ -58,6 +70,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-09-05">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,10 +82,9 @@
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">píngzhù</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">p'ing-chu</term>
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000064-3">central bay columns</term>
-
             <note type="Note (brief)">
-               <p xml:lang="en">In traditional Chinese timber-frame architecture, leveling pillars are the two eaves pillars framing the central bay on the sides of the building parallel to the roof ridge. Leveling pillars are used as a standard height for calculating the height of other pillars across the façade, as they increase in height from the center towards the corners of the building, allowing for an upward curvature of the eaves (生起 shengqi). The term appears in the Yingzao fashi (1103) and in documents written by officials during the Song Dynasty (960-1279) to describe the architecture of mausolea. Modern architectural historians use this term to describe central-bay pillars on all sides of a building dating from the Tang (618-907) to early Ming (1368-1644) dynasties. </p> 
-               <p xml:lang="zh-Hant">平柱見於宋《營造法式》，指建築下檐正面當中一間兩側的兩棵柱，也屬於檐柱，是用於計算生起，以確定角柱，及角柱與平柱間其它各柱高度的基準柱。平柱也見於《思陵錄》、《宋會要輯稿》等宋代官員對於宋代皇陵建築的記錄。當代建築史學者用此術語描述唐至明初的建築物，並泛指建築外檐四面或殿堂式构架内部中心開間兩側的柱。
+               <p xml:lang="en">In traditional Chinese timber-frame architecture, leveling pillars are the two eaves pillars framing the central bay on the sides of the building parallel to the roof ridge. Leveling pillars are used as a standard height for calculating the height of other pillars across the façade, as they increase in height from the center towards the corners of the building, allowing for an upward curvature of the eaves (生起 shengqi). The term appears in the <title>Yingzao fashi</title> (1103) and in other official documents written by officials during the Song Dynasty (960-1279) to describe the architecture of mausolea. Modern architectural historians use this term to describe central-bay pillars on all sides of a building dating from the Tang (618-907) to early Ming (1368-1644) dynasties. </p> 
+               <p xml:lang="zh-Hant">平柱見於《<title>營造法式</title>》（1103），指建築正面當中一間兩側的兩棵柱，也屬於檐柱，是用於計算生起，以確定角柱，及角柱與平柱間其它各柱高度的基準柱。平柱也見於《<title>思陵錄</title>》、《<title>宋會要輯稿</title>》等宋代官員對於宋代皇陵建築的記錄。當代建築史學者用此術語描述唐（618-907）至明（1368-1644）初的建築物，並泛指建築外檐四面或殿堂内部中心開間兩側的柱。
 	       </p>
 	   </note>
 	      
