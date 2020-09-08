@@ -41,7 +41,6 @@
                </licence>
             </availability>
             <date>2018-03-21-04:00</date>
-            <date>2018-03-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -53,11 +52,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#YFB" when="2020-02-20">adding external links</change>
+         <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,9 +69,10 @@
                <placeName xml:id="name000002-1" type="site-name" xml:lang="en">Baitai
                   Monastery</placeName>
                <placeName xml:id="name000002-2" type="site-name" xml:lang="zh-latn-pinyin"
-                  >Baitaisi</placeName>
-               <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
-               <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
+                  >Báitáisì</placeName>
+               <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-latn-wadegile">Pai-t`ai-ssu</placeName>
+               <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
+               <placeName xml:id="name000002-5" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000002</idno>
                    <state type="existence" subtype="dynasty" source="#bibl000002-2" from="1115-01-01" to="1234-01-01">
                    <label>Dynasty</label>
