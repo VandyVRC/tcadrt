@@ -44,11 +44,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
+         <change when="2020-09-10">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,9 +61,10 @@
                <placeName xml:id="name000004-1" type="site-name" xml:lang="en">Baoguo
                   Monastery</placeName>
                <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin"
-                  >Baoguosi</placeName>
-               <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
-               <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
+                  >Bǎoguósì</placeName>
+               <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-latn-wadegile">Pao-kuo-ssu</placeName>
+               <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
+               <placeName xml:id="name000004-5" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000004</idno>
                <state type="existence" subtype="dynasty" source="#bibl000004-1" from="0025-01-01"
                   to="01912-01-01">
