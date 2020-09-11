@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-20">adding external links</change>
+         <change when="2020-09-11">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000095" type="site">
                <placeName xml:id="name000095-1" type="site-name" xml:lang="en">Jiwang Temple in Wanrong</placeName>
-               <placeName xml:id="name000095-2" type="site-name" xml:lang="zh-latn-pinyin">Wanrong Jiwangmiao</placeName>
-               <placeName xml:id="name000095-3" type="site-name" xml:lang="zh-Hant">萬榮稷王廟</placeName>
-               <placeName xml:id="name000095-4" type="site-name" xml:lang="zh-Hans">万荣稷王庙</placeName>
+               <placeName xml:id="name000095-2" type="site-name" xml:lang="zh-latn-pinyin">Wànróng Jìwángmiào</placeName>
+               <placeName xml:id="name000095-3" type="site-name" xml:lang="zh-latn-wadegile">Wan-jung Chi-wang-miao</placeName>
+               <placeName xml:id="name000095-4" type="site-name" xml:lang="zh-Hant">萬榮稷王廟</placeName>
+               <placeName xml:id="name000095-5" type="site-name" xml:lang="zh-Hans">万荣稷王庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000095</idno>
                <state type="existence" subtype="dynasty" source="#bibl000095-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
