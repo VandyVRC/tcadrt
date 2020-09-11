@@ -49,12 +49,15 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
          <change n="2.0" who="#TGM" when="2020-03-30">adding building information</change>
+         <change when="2020-09-11">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,9 +65,10 @@
          <listPlace>
             <place xml:id="place-000077" type="site">
                <placeName xml:id="name000077-1" type="site-name" xml:lang="en">Qinshui Shundi Temple</placeName>
-               <placeName xml:id="name000077-2" type="site-name" xml:lang="zh-latn-pinyin">Qinshui Shundimiao </placeName>
-               <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
-               <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
+               <placeName xml:id="name000077-2" type="site-name" xml:lang="zh-latn-pinyin">Qìnshuǐ Shùndìmiào </placeName>
+               <placeName xml:id="name000077-3" type="site-name" xml:lang="zh-latn-wadegile">Ch'in-shui Shun-ti-miao</placeName>
+               <placeName xml:id="name000077-4" type="site-name" xml:lang="zh-Hant">沁水舜帝廟</placeName>
+               <placeName xml:id="name000077-5" type="site-name" xml:lang="zh-Hans">沁水舜帝庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000077</idno>
                <desc type="site-data" source="#bibl000077-1">
                   Date founded unknown. According to a stele fragment inside the temple, repairs were made in the Qing dynasty (宣统二年 (1910)). The temple site encompasses 684 square meters. The complex faces south with a single courtyard, axial buildings include a Mountain Gate and main hall; on the east and west are side halls of 6 bays each. Within the compound, other than the Jin dynasty main hall, the rest of the buildings are Qing dynasty. (Translation Lydia Ohl, ed. T. Miller)
