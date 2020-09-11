@@ -47,7 +47,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-04">Adding diacritical marks to Pinyin, adding Wade-Giles by
+         <change when="2020-09-11">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
@@ -57,9 +57,9 @@
             <place xml:id="place-000007" type="site">
                <placeName xml:id="name000007-1" type="site-name" xml:lang="en">Yuhuang Temple in Bucun</placeName>
                <placeName xml:id="name000007-2" type="site-name" xml:lang="zh-latn-pinyin">Bùcūn Yùhuángmiào</placeName>
-               <placeName xml:id="name000003-3" type="site-name" xml:lang="zh-latn-wadegile">Pu-ts`un Yü-huang-miao</placeName>
-               <placeName xml:id="name000007-3" type="site-name" xml:lang="zh-Hant">布村玉皇廟</placeName>
-               <placeName xml:id="name000007-4" type="site-name" xml:lang="zh-Hans">布村玉皇庙</placeName>
+               <placeName xml:id="name000007-3" type="site-name" xml:lang="zh-latn-wadegile">Pu-ts`un Yü-huang-miao</placeName>
+               <placeName xml:id="name000007-4" type="site-name" xml:lang="zh-Hant">布村玉皇廟</placeName>
+               <placeName xml:id="name000007-5" type="site-name" xml:lang="zh-Hans">布村玉皇庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000007</idno>
                <state type="existence" subtype="dynasty" source="#bibl000007-1" from="0907-01-01" to="0960-01-01">
                   <label>Dynasty</label>
