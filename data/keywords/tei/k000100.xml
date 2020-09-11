@@ -31,8 +31,12 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
+               <resp>English proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Adding citations</resp>
@@ -72,6 +76,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21">CREATED: record</change>
       	<change when="2019-05-21" who="Yuh-Fen Benda">adding contents</change>
+         <change who="#TGM" when="2020-09-11">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -85,10 +90,12 @@
          	<term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">image works (lit.)</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000100-2">puzuo images</term>
             <note type="Note (brief)">
-               <p xml:lang="en">Seen in the Yingzao fashi (1103 CE), specifically in the text and plates concerning the polychrome painting works (<term ref="https://architecturasinica.org/keyword/k000113">caihuazuo 彩畫作</term>), referring to images of bracket-blocks (sometimes emerging from painted lotus blossoms) with a “neck” and two “feet” (sometimes decorated with floral motifs), painted on the wall surface above the forehead tie beams (eshangbi 額上壁 or gongyanbi 栱眼壁).</p>
-               <p xml:lang="zh-Hant">見於北宋官書《營造法式》（1103年）<term ref="https://architecturasinica.org/keyword/k000113"> 彩畫作</term>制度及其圖樣，是在額上壁或栱眼壁上彩畫繪出的形象，包括枓（或可表現為蓮華承托）、項子、兩腳（或可繪出翻卷葉）等部分。</p>          
+               <p xml:lang="en">Seen in the Yingzao fashi (1103 CE), specifically in the text (Chapter 14) and plates (Chapter 34) concerning the polychrome painting works (<term ref="https://architecturasinica.org/keyword/k000113">caihuazuo 彩畫作</term>), yingzuo refers to images of bracket-blocks (sometimes emerging from painted lotus blossoms) with a “neck” and two “feet” (sometimes decorated with floral motifs), painted on the wall surface above the forehead tie beams (eshangbi 額上壁 or gongyanbi 栱眼壁). </p>
+               <p xml:lang="en">In current art historical and archaeological scholarship, the term has a broader meaning that described in the Yingzao fashi, and is often used to describe painted representations of timber-framed architecture, such as that found in tombs, cave temples, and reliquary chambers.</p>
+               <p xml:lang="zh-Hant">主要見於《營造法式》（1103年）卷十四“彩畫作制度”及卷三十四“彩畫作制度圖樣”中，指在額上壁或栱眼壁內所繪的一類具有特定形式的彩畫：從上至下包括枓、項子、兩腳（可繪成翻卷華葉的樣式）等部分，項子之上或可繪出“蓮花”承枓。</p>
+               <p xml:lang="zh-Hant">現代學術寫作中，“影作”也常脫離其在《營造法式》中的含義，用來泛指摹繪木構結構的繪畫形式，並與“木構”、“仿木”等詞連用，成為墓葬考古、墓葬美術論著中的習慣用語。</p>          
             </note>
-            <note type="related concepts"><p><term ref="/keyword/k000118">影栱 yǐnggǒng</term>; <term ref="/keyword/k000029">扶壁栱 fúbìgǒng</term></p></note>
+            <note type="related concepts"><p><term ref="/keyword/k000118">影栱 yǐnggǒng</term>; <term ref="/keyword/k000029">扶壁栱 fúbìgǒng</term>; <term ref="/keyword/k000099">影作木構 yǐngzuò mùgòu</term></p></note>
             
                <!-- p>影作: (1) 營造法式, 卷14, 卷34 (2) 梁思成, 梁思成全集·第七卷：《營造法式》註釋 (2001) 270-271 (3)潘谷西, 何建中, 《營造法式》解讀 (2005) 264 (4) 陳明達, 《營造法式》辭解 (2010) 402 (5) 李路珂, 營造法式彩畫研究 (2011) 270, 284-285 </p -->
          		k000029

@@ -12,9 +12,13 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="RS">REN Sijie 任思捷</editor>
             <editor role="content-author" xml:id="YW">YANG Wantian 楊莞闐</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#RS">REN Sijie 任思捷</name>
@@ -29,8 +33,12 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
+               <resp>English proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Adding citations</resp>
@@ -70,6 +78,7 @@
       <revisionDesc>
          <change n="1.0" when="2019-05-21">CREATED: record</change>
          <change n="1.0" who="#SQ" when="2020-02-27">adding citations</change>
+         <change who="#TGM" when="2020-09-11">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -85,8 +94,8 @@
             <term xml:id="term-feature_name-1" xml:lang="en">Painted representations of timber
                architecture</term>
             <note type="Note (brief)">
-               <p xml:lang="en" source="#biblk000099-2">First coined in the 1980s (Su Bai 1982, 141-142), yingzuo mugou is a modern term adopted by archaeologists and art historians referring to painted representations of timber architectural components in underground architecture (e.g. tombs and reliquary chambers beneath pagodas). The meaning of yingzuo here as a “painted representation of something” has departed from its original context in the Yingzao fashi. Similar appropriations appeared in 1950s (Su Bai 1957), such as in painted representations of door lintels (yingzuo men’e 影作門額), and painted representations of bracket-sets (yingzuo puzuo 影作鋪作)</p>
-               <p xml:lang="zh-Hant" source="#biblk000099-2">現代考古、美術學界用語，最早出現于1980年代（宿白 1982, 141-142), 指地下室 (如墓室、地宮等) 之中彩畫繪出的木構建築構件，這裏“影作”的含義與其最初語境（即《營造法式》）有別，相似用法最早見於1950年代，如“影作門額”、“影作鋪作”等。</p>
+               <p xml:lang="en" source="#biblk000099-2">First coined in the 1980s (Su Bai 1982, 141-142), yingzuo mugou is a modern term adopted by archaeologists and art historians referring to painted representations of timber architectural components in underground architecture (e.g. tombs and reliquary chambers beneath pagodas). The meaning of yingzuo here as a “painted representation of something” has departed from its original context in the Yingzao fashi. Similar appropriations appeared in 1950s (Su Bai 1957), such as in painted representations of door lintels (yingzuo men’e 影作門額), and painted representations of bracket-sets (yingzuo puzuo 影作鋪作).</p>
+               <p xml:lang="zh-Hant" source="#biblk000099-2">現代墓葬考古、墓葬美術學界用語，最早出現于1980年代（宿白 1982, 141-142), 指地下室 (如墓室、地宮等) 之中彩畫繪出的木構建築構件，這裏“影作”的含義與其最初語境（即《營造法式》）有別，相似用法最早見於1950年代，如“影作門額”、“影作鋪作”等。</p>
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000100">影作 shadow works</term></p>

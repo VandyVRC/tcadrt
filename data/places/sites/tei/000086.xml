@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Shaolin Monastery <foreign xml:lang="zh-Hant">少林寺初祖庵</foreign>
+            <title level="a" xml:lang="en">Shaolin Monastery, Chuzu Hermitage <foreign xml:lang="zh-Hant">少林寺初祖庵</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -55,11 +55,11 @@
       <body>
          <listPlace>
             <place xml:id="place-000086" type="site">
-               <placeName xml:id="name000086-1" type="site-name" xml:lang="en">Shaolin Monastery</placeName>
+               <placeName xml:id="name000086-1" type="site-name" xml:lang="en">Shaolin Monastery Chuzu Hermitage</placeName>
                <placeName xml:id="name000086-2" type="site-name" xml:lang="zh-latn-pinyin">Shàolínsì Chūzǔān</placeName>
-               <placeName xml:id="name000086-3" type="site-name" xml:lang="zh-latn-wadegile">Shao-lin-ssu Ch'u-tsu-an</placeName>
-               <placeName xml:id="name000086-4" type="site-name" xml:lang="zh-Hant">少林寺初祖庵</placeName>
-               <placeName xml:id="name000086-5" type="site-name" xml:lang="zh-Hans">少林寺初祖庵</placeName>
+               <placeName xml:id="name000086-3" type="site-name" xml:lang="zh-Hant">少林寺初祖庵</placeName>
+               <placeName xml:id="name000086-4" type="site-name" xml:lang="zh-Hans">少林寺初祖庵</placeName>
+               <placeName xml:id="name000086-5" type="alternate" subtype="site-name" xml:lang="en">Hermitage of the First Patriarch</placeName>
                <idno type="URI">https://architecturasinica.org/place/000086</idno>
                <state type="existence" subtype="dynasty" source="#bibl000086-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
@@ -96,10 +96,10 @@
                </location>
                <trait type="type" sub-type="site-type">
                   <label>Type </label>
-                  <desc xml:lang="en">monastery (Buddhist)</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-Hans">寺</desc>
+                  <desc xml:lang="en">hermitage</desc>
+                  <desc xml:lang="zh-latn-pinyin">an</desc>
+                  <desc xml:lang="zh-Hant">庵</desc>
+                  <desc xml:lang="zh-Hans">庵</desc>
                </trait>
                <bibl xml:id="bibl000086-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
