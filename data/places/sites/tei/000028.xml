@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000028" type="site">
                <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong Monastery</placeName>
-               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fogongsi</placeName>
-               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
-               <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
+               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fógōngsì</placeName>
+               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-latn-wadegile">Fo-kung-ssu</placeName>
+               <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
+               <placeName xml:id="name000028-5" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000028</idno>
                <state type="existence" subtype="dynasty" source="#bibl000028-1" from="0001-01-01">
                   <label>Dynasty</label>
