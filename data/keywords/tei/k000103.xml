@@ -9,13 +9,16 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">昂</foreign>
-               áng</title>
+               <foreign xml:lang="zh-Hant">昂</foreign> áng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
-            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
@@ -29,12 +32,16 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
+               <resp>English proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
             </respStmt>
             <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
                <resp>Adding citations</resp>
-               <name type="person" xml:id="SQ">Song Qisen 松奇森</name>
+               <name type="person" xml:id="SQ">SONG Qisen 松奇森</name>
             </respStmt>
             <respStmt>
                <resp>Revising title statement by</resp>
@@ -70,7 +77,8 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-17">CREATED: record</change>
          <change n="2.0" who="#TGM" when="2020-02-09">REVISED: adding citation</change>
-         <change n="3.0" who="#TGM" when="2020-02-17">REVISED: pinyin from LC to CP; modifying definition</change>
+         <change n="2.0" who="#TGM" when="2020-02-17">REVISED: pinyin from LC to CP; modifying definition</change>
+         <change who="#TGM" when="2020-09-11">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,8 +92,8 @@
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation" source="#biblk000103-4">raise up; lift up (lit.)</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000103-2">(descending or ascending) cantilevers</term>
             <note type="Note (brief)">
-               <p xml:lang="en">Angled timber member used in corbel bracket sets and placed perpendicular to the building plane. Can be descending (下昂 xia'ang), where the tip extends downward through the bracket set to the exterior of the building; or ascending (上昂 shang'ang), where it extends from the building plane upward, usually to support the interior building frame. Level timbers placed perpendicular to the building plane include 華栱 huagong and 耍頭 shuatou.</p>
-               <p xml:lang="en">From the Song and Jin dynasties (10th-13th centuries), we see buildings where 華栱 huagong were made to look like 下昂 xiaang and 耍頭 shuatou. These are sometimes called pretend ang (假昂 jia'ang), and slanted bracket arm-shaped shuatou (昂形耍頭 angxing shuatou).</p>
+               <p xml:lang="en">Angled timber member used in corbel bracket sets and placed perpendicular to the building plane. Can be descending (下昂 xia'ang), where the tip extends downward through the bracket set to the exterior of the building; or ascending (上昂 shang'ang), where it extends from the building plane upward, usually to support the interior building frame. Level timbers placed perpendicular to the building plane include huagong 華栱 and shuatou 耍頭. </p>
+               <p xml:lang="en">From the Song and Jin dynasties (10th-13th centuries), we see buildings where 華栱 huagong were made to look like xiaang 下昂 and shuatou 耍頭. These are sometimes called pretend ang (假昂 jia'ang), and slanted bracket arm-shaped shuatou (angxing shuatou 昂形耍頭).</p>
                <p xml:lang="zh-Hant">铺作中垂直于屋身方向的斜向构件。可以是下昂，用于外跳，昂身穿过铺作向外伸出，昂嘴向下倾斜；或上昂，常用于里跳，向上支撑内部结构。铺作中垂直于屋身方向的水平出跳构件有华栱和耍头。宋金以后，有时华栱或耍头会在外跳做成昂的形状，称为假昂，及昂形耍头.</p>
 	    </note>
             <note type="related concepts">

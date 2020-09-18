@@ -45,11 +45,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-03-20-04:00">adding external links</change>
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,9 +60,10 @@
          <listPlace>
             <place xml:id="place-000117" type="site">
                <placeName xml:id="name000117-1" type="site-name" xml:lang="en">Fujun Temple in Zhangzi</placeName>
-               <placeName xml:id="name000117-2" type="site-name" xml:lang="zh-latn-pinyin">Zhangzi Fujunmiao</placeName>
-               <placeName xml:id="name000117-3" type="site-name" xml:lang="zh-Hant">長子府君廟</placeName>
-               <placeName xml:id="name000117-4" type="site-name" xml:lang="zh-Hans">长子府君庙</placeName>
+               <placeName xml:id="name000117-2" type="site-name" xml:lang="zh-latn-pinyin">Zhǎngzǐ Fǔjūnmiào</placeName>
+               <placeName xml:id="name000117-3" type="site-name" xml:lang="zh-latn-wadegile">Chang-tzu Fu-chün-miao</placeName>
+               <placeName xml:id="name000117-4" type="site-name" xml:lang="zh-Hant">長子府君廟</placeName>
+               <placeName xml:id="name000117-5" type="site-name" xml:lang="zh-Hans">长子府君庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000117</idno>
                <state type="existence" subtype="dynasty" source="#bibl000117-2" from="0960-01-01" to="1644-01-01">
                   <label>Dynasty</label>
