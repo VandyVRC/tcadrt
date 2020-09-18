@@ -13,7 +13,18 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
+            <editor role="content-author" xml:id="BL">BAO Lu 寶璐</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#JT">JIA Tingli 賈亭立, </name>
+               <name type="person" ref="#BL">BAO Lu 寶璐</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
@@ -21,6 +32,14 @@
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations, and revising statements by</resp>
@@ -55,24 +74,24 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-01-17">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-09-06">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="chongchunbanwa" type="architectural-feature">
             <term xml:id="term-feature_name-1" xml:lang="en" type="preferred" source="biblk000106-1">multi-lipped plate tiles (preferred)</term>
-            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">重唇板瓦</term>
-            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">重唇板瓦</term>
+            <term xml:id="term-feature_name-2" xml:lang="zh-Hant">重唇瓪瓦</term>
+            <term xml:id="term-feature_name-3" xml:lang="zh-Hans">重唇瓪瓦</term>
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">chóngchún bǎnwǎ</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">ch'ung-ch'un pan-wa</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">multi-lipped plate tile (lit.)</term>
             <note type="Note (brief)">
-               <p xml:lang="en"> A type of plate tile, one variety of roofing tile. See <term ref="/keyword/k000104">板瓦 bǎnwǎ</term>.</p>
+               <p xml:lang="en"> A type of concave or plate tile, one variety of roofing tile. See <term ref="/keyword/k000104">瓪瓦 bǎnwǎ</term>.</p>
             </note> 
             <note type="related concepts">
-               <p><term ref="/keyword/k000104">板瓦 bǎnwǎ</term></p>
+               <p><term ref="/keyword/k000104">瓪瓦 bǎnwǎ</term></p>
             </note>
-            
             <bibl xml:id="biblk000106-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>   
