@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000020" type="site">
                <placeName xml:id="name000020-1" type="site-name" xml:lang="en">Dayun Cloister</placeName>
-               <placeName xml:id="name000020-2" type="site-name" xml:lang="zh-latn-pinyin">Dayunyuan</placeName>
-               <placeName xml:id="name000020-3" type="site-name" xml:lang="zh-Hant">大雲院</placeName>
-               <placeName xml:id="name000020-4" type="site-name" xml:lang="zh-Hans">大云院</placeName>
+               <placeName xml:id="name000020-2" type="site-name" xml:lang="zh-latn-pinyin">Dàyúnyuàn</placeName>
+               <placeName xml:id="name000020-3" type="site-name" xml:lang="zh-latn-wadegile">Ta-yün-yüan</placeName>
+               <placeName xml:id="name000020-4" type="site-name" xml:lang="zh-Hant">大雲院</placeName>
+               <placeName xml:id="name000020-5" type="site-name" xml:lang="zh-Hans">大云院</placeName>
                <idno type="URI">https://architecturasinica.org/place/000020</idno>
                <desc type="site-data">Dayun Cloister (大雲院) is located in Shihui Village of Beidanche Township (北耽車鄉實會村), approximately 500 meters to the northwest of Shuangfeng Shan (雙峰山). There are extant structures from the Five Dynasties and the Qing dynasty. It is one of the major historical and cultural sites protected at the national level (全國重點文物保護單位). According to a stele inscription, it was initially built in the third year of Later Jin Tianfu (後晉天福) reign period (938) under the original name Xianyan Cloister (仙岩院). In the fifth year of the Later Zhou Xiande (後周顯德) reign period (958), the Seven Treasures Pagoda (七寶塔) was built outside of the monastery. The monastery was then decreed by the imperial court to have its name changed to Dayun Chan Monastery (大雲禪寺) in the eighth year of Song Taiping Xingguo (太平興國) reign period (983). In the subsequent Jin and Yuan dynasties, the monastery sustained severe damage; on which multiple attempts of repair and renovation were implemented during the Ming Chenghua (成化) and Wanli (萬曆), as well as the Qing Shunzhi (順治) and Kangxi (康熙), periods. Occupying a total area of approximately 4,003 m2, the site is oriented north-south, facing south and has a two-courtyard configuration. The axial buildings are Tianwang dian (or Guardian King Hall, 天王殿), Dafodian (or Great Buddha Hall, 大佛殿), and Sanfodian (or Three Buddha Hall, 三佛殿); while the two side buildings are east service door and subsidiary hall. The artifacts inside the monastery are two Song steles, a Ming stele, a Qing stele, and 28.83-square meters of Five Dynasties murals. Outside, the extant Seven Treasures Pagoda is from the Five Dynasties and is located about 50 meters southwest of the monastery. Translated WPS, edited TM, 2017-2018 大雲院 山西省， 平順縣，長治市. Dayunyuan [ZGWWDTJ, Shanxi vol. 2 (中), p. 305 34-C5]</desc>
                <state type="existence" subtype="dynasty" source="#bibl000020-1" from="0907-01-01" to="0960-01-01">
