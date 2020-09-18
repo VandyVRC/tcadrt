@@ -47,7 +47,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-11">Adding diacritical marks to Pinyin, adding Wade-Giles by
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
@@ -57,9 +57,9 @@
             <place xml:id="place-000009" type="site">
                <placeName xml:id="name000009-1" type="site-name" xml:lang="en">Zhengjue Monastery in Changzhi </placeName>
                <placeName xml:id="name000009-2" type="site-name" xml:lang="zh-latn-pinyin">Chángzhì Zhèngjuésì</placeName>
-               <placeName xml:id="name000003-3" type="site-name" xml:lang="zh-latn-wadegile">Ch`ang-chih Cheng-chüeh-ssu</placeName>
-               <placeName xml:id="name000009-3" type="site-name" xml:lang="zh-Hant">長治正覺寺</placeName>
-               <placeName xml:id="name000009-4" type="site-name" xml:lang="zh-Hans">长治正觉寺</placeName>
+               <placeName xml:id="name000009-3" type="site-name" xml:lang="zh-latn-wadegile">Ch`ang-chih Cheng-chüeh-ssu</placeName>
+               <placeName xml:id="name000009-4" type="site-name" xml:lang="zh-Hant">長治正覺寺</placeName>
+               <placeName xml:id="name000009-5" type="site-name" xml:lang="zh-Hans">长治正觉寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000009</idno>
                <state type="existence" subtype="dynasty" source="#bibl000009-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
