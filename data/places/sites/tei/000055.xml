@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
+         <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000055" type="site">
                <placeName xml:id="name000055-1" type="site-name" xml:lang="en">Kaishan Monastery</placeName>
-               <placeName xml:id="name000055-2" type="site-name" xml:lang="zh-latn-pinyin">Kaishansi</placeName>
-               <placeName xml:id="name000055-3" type="site-name" xml:lang="zh-Hant">開善寺</placeName>
-               <placeName xml:id="name000055-4" type="site-name" xml:lang="zh-Hans">开善寺</placeName>
+               <placeName xml:id="name000055-2" type="site-name" xml:lang="zh-latn-pinyin">Kāishànsì</placeName>
+               <placeName xml:id="name000055-3" type="site-name" xml:lang="zh-latn-wadegile">K`ai-shan-ssu</placeName>
+               <placeName xml:id="name000055-4" type="site-name" xml:lang="zh-Hant">開善寺</placeName>
+               <placeName xml:id="name000055-5" type="site-name" xml:lang="zh-Hans">开善寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000055</idno>
                <state type="existence" subtype="dynasty" source="#bibl000055-1" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
