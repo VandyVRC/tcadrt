@@ -27,7 +27,7 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations, and revising statements by</resp>
+               <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
                </titleStmt>
@@ -59,6 +59,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
+         <change who="#YFB" when="2020-09-21">Title statement change, adding ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,14 +74,12 @@
             <note type="Note (brief)">
                <p>See <term ref="https://architecturasinica.org/keyword/k000116">fang 方</term></p>
             </note>
-                        <bibl ref="biblk000117-1">
+            <bibl ref="biblk000117-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
-            
-            <idno type="URI">https://architecturasinica.org/keyword/k000117</idno>
+                        <idno type="URI">https://architecturasinica.org/keyword/k000117</idno>
 
-            
-            <listRelation>
+                        <listRelation>
                <listRelation>
                  <relation ref="skos:broadMatch"
                     active="https://architecturasinica.org/keyword/k000117" passive="Building Frame"/>
