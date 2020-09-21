@@ -13,7 +13,11 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" ref="#YF">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
@@ -23,8 +27,12 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading and revision by</resp>
+               <resp>English Proofreading and revision by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Adding citations</resp>
@@ -64,6 +72,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-25">CREATED: record</change>
          <change n="1.1" when="2020-06-13">Added related concepts</change>
+         <change who="#YFS" when="2020-09-21">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,8 +85,9 @@
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">wa-tang</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">tile end (lit.)</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000110-2">eave-tile ends</term>
-            <note type="Note (brief)">
+            <note type="Note (brief)"> 
                <p xml:lang="en">Type of <term ref="/keyword/k000109">barrel tile (筒瓦 tongwa)</term> used to cap the end of a line of covering tiles at the eaves.</p>
+               <p xml:lang="zh-Hant">瓦當的本意是瓦頭.現指 <term ref="/keyword/k000109">筒瓦</term> 的一種，剖面如 "┍—",作為蓋瓦用於檐頭以遮擋檐部.如明清的 <term ref="/keyword/k000108">"勾頭"</term>.在清代文獻中，"瓦當"似通常專指秦漢等較早時期的瓦當.</p>
             </note>
             <note type="related concepts">
                <p>
