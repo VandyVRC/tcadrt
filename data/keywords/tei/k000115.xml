@@ -13,17 +13,21 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations, and revising statements by</resp>
+               <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
@@ -66,14 +70,7 @@
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">éfāng</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">o-fang</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">forehead tie beam (lit.)</term>
-            <!--<note>
-              <p source="biblk000113-3">(ATTCAT 2018)</p>
-            </note>-->
-            <!-- 
-            <bibl xml:id="biblk000113-3">
-               <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
-            </bibl>-->
-            <idno type="URI">https://architecturasinica.org/keyword/k000115</idno>
+                       <idno type="URI">https://architecturasinica.org/keyword/k000115</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000115" passive="Building Frame"/>
