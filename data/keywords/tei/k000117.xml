@@ -13,12 +13,16 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
+               <respStmt>
+                  <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               </respStmt>
                <resp>Editing, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
@@ -66,12 +70,10 @@
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">fāng</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fang</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">tie beam (lit.)</term>
-
             <note type="Note (brief)">
                <p>See <term ref="https://architecturasinica.org/keyword/k000116">fang 方</term></p>
             </note>
-            
-            <bibl ref="biblk000117-1">
+                        <bibl ref="biblk000117-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
             
