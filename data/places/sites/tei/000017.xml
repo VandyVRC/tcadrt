@@ -11,7 +11,7 @@
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -60,6 +60,10 @@
                <placeName xml:id="name000017-3" type="site-name" xml:lang="zh-latn-wadegile">Ts`ui-fu-chün-miao</placeName>
                <placeName xml:id="name000017-4" type="site-name" xml:lang="zh-Hant">崔府君廟</placeName>
                <placeName xml:id="name000017-5" type="site-name" xml:lang="zh-Hans">崔府君庙</placeName>
+               <placeName xml:id="name000017-6" type="site-name" subtype="alternate" xml:lang="zh-Hant">顯應王廟</placeName>
+               <placeName xml:id="name000017-7" type="site-name" subtype="alternate" xml:lang="zh-Hans">显应王庙</placeName>
+               <placeName xml:id="name000017-8" type="site-name" subtype="alternate" xml:lang="zh-latn-pinyin">Xiǎnyīngwángmiào</placeName>
+               <placeName xml:id="name000017-9" type="site-name" subtype="alternate" xml:lang="zh-latn-wadegile">Hsien-ying-wang-miao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000017</idno>
                <state type="existence" subtype="dynasty" source="#bibl000017-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
