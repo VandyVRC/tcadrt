@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-25">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000149-1" xml:lang="en">middle hall</placeName>
                <placeName xml:id="name000149-2" type="building-name" xml:lang="zh-Hant">中殿</placeName>
                <placeName xml:id="name000149-3" type="building-name" xml:lang="zh-Hans">中殿</placeName>
-               <placeName xml:id="name000149-4" type="building-name" xml:lang="zh-latn-pinyin">zhongdian</placeName>
-               <placeName xml:id="name000149-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongmingsi zhongdian</placeName>
-               <placeName xml:id="name000149-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇明寺中殿</placeName>
-               <placeName xml:id="name000149-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇明寺中殿</placeName>
+               <placeName xml:id="name000149-4" type="building-name" xml:lang="zh-latn-pinyin">zhōngdiàn</placeName>
+               <placeName xml:id="name000149-5" type="building-name" xml:lang="zh-latn-wadegile">Chung-tien</placeName>
+               <placeName xml:id="name000149-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongmingsi zhongdian</placeName>
+               <placeName xml:id="name000149-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇明寺中殿</placeName>
+               <placeName xml:id="name000149-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇明寺中殿</placeName>
                <placeName xml:id="name000149-11" type="alternate">Zhongdian </placeName>
                <idno type="URI">https://architecturasinica.org/place/000149</idno>
                <state type="existence" from="0991-01-01" to="0991-01-01">
