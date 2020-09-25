@@ -58,11 +58,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-25">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,10 +75,11 @@
                <placeName xml:id="name000127-1" xml:lang="en">back great hall</placeName>
                <placeName xml:id="name000127-2" type="building-name" xml:lang="zh-Hant">後大殿</placeName>
                <placeName xml:id="name000127-3" type="building-name" xml:lang="zh-Hans">后大殿</placeName>
-               <placeName xml:id="name000127-4" type="building-name" xml:lang="zh-latn-pinyin">houdadian</placeName>
-               <placeName xml:id="name000127-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Baitaisi houdadian</placeName>
-               <placeName xml:id="name000127-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">白臺寺後大殿</placeName>
-               <placeName xml:id="name000127-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">白台寺后大殿</placeName>
+               <placeName xml:id="name000127-4" type="building-name" xml:lang="zh-latn-pinyin">hòudàdiàn</placeName>
+               <placeName xml:id="name000127-5" type="building-name" xml:lang="zh-latn-wadegile">Hou-ta-tien</placeName>
+               <placeName xml:id="name000127-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Baitaisi houdadian</placeName>
+               <placeName xml:id="name000127-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">白臺寺後大殿</placeName>
+               <placeName xml:id="name000127-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">白台寺后大殿</placeName>
                <placeName xml:id="name000127-11" type="alternate">Houdadian</placeName>
               
                <idno type="URI">https://architecturasinica.org/place/000127</idno>
