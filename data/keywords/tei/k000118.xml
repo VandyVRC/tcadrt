@@ -13,8 +13,12 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
+                   <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+               <respStmt> 
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
@@ -23,7 +27,15 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations, and revising statements by</resp>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
          </titleStmt>
@@ -55,6 +67,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
+         <change who="#YFB" when="2020-09-21">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -70,11 +83,9 @@
                <p xml:lang="zh-Hant">見於《營造法式》（1103 CE），指柱頭一綫之上所用之方刻出栱的形象。又名<term ref="https://architecturasinica.org/keyword/k000029">扶壁栱.</term></p>
                <p>See <term ref="https://architecturasinica.org/keyword/k000100">yǐngzuò 影作</term></p>
             </note>
- 
-            <bibl xml:id="biblk000118-1">
+             <bibl xml:id="biblk000118-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
-
             <idno type="URI">https://architecturasinica.org/keyword/k000118</idno>
             <listRelation>
                <listRelation>

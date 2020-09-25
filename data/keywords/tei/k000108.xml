@@ -13,22 +13,30 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>Data entry and editing by</resp>
-               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Proofreading by</resp>
+               <resp>English proofreading by</resp>
                <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Revising title statement by</resp>
@@ -63,6 +71,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-01-18">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-09-18">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>

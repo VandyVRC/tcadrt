@@ -13,20 +13,24 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
+            </respStmt>
+            <respStmt>
+                  <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations, and revising statements by</resp>
+               <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
-         </titleStmt>
+               </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
@@ -55,6 +59,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
+         <change who="#YFB" when="2020-09-21">Title statement change, adding ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,19 +71,15 @@
             <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">fāng</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">fang</term>
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">tie beam (lit.)</term>
-
             <note type="Note (brief)">
-               <p>See <term ref="https://architecturasinica.org/keyword/k000116">fang 方</term></p>
+               <p>See <term ref="/keyword/k000116">fang 方</term></p>
             </note>
-            
-            <bibl ref="biblk000117-1">
+            <bibl xml:id="biblk000117-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
-            
-            <idno type="URI">https://architecturasinica.org/keyword/k000117</idno>
+                        <idno type="URI">https://architecturasinica.org/keyword/k000117</idno>
 
-            
-            <listRelation>
+                        <listRelation>
                <listRelation>
                  <relation ref="skos:broadMatch"
                     active="https://architecturasinica.org/keyword/k000117" passive="Building Frame"/>

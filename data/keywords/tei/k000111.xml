@@ -13,10 +13,14 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
-               <name type="team">ATTCAT 2018</name>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
@@ -55,6 +59,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-01-24">CREATED: record</change>
+         <change n="1.0" who="#TGM" when="2020-09-20">Adding ZJ and YB credit lines; adding rough English and citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +73,8 @@
             <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">eaves pillars (lit.)</term>
             
             <note type="Note (brief)">
-               <p>See <term ref="/keyword/k000102">柱 zhù</term></p>
+               <p xml:lang="en" source="#biblk000111-3">Pillars used to support the eaves, pillars in the outer perimeter of a structure.</p>
+               <p xml:lang="en">See <term ref="/keyword/k000102">柱 zhù</term></p>
             </note>
         
             <note type="related concepts">
@@ -78,13 +84,18 @@
                </p>
             </note>
             
-            <bibl xml:id="biblk000106-1">
+            <bibl xml:id="biblk000111-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>  
             
-            <bibl xml:id="biblk000106-2">
+            <bibl xml:id="biblk000111-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">437</citedRange>
+            </bibl>  
+            
+            <bibl xml:id="biblk000111-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">88</citedRange>
             </bibl>  
             
             <idno type="URI">https://architecturasinica.org/keyword/k000111</idno>
