@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-03-20-04:00">adding external links</change>
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000049" type="site">
                <placeName xml:id="name000049-1" type="site-name" xml:lang="en">Jindong Monastery</placeName>
-               <placeName xml:id="name000049-2" type="site-name" xml:lang="zh-latn-pinyin">Jindongsi</placeName>
-               <placeName xml:id="name000049-3" type="site-name" xml:lang="zh-Hant">金洞寺</placeName>
-               <placeName xml:id="name000049-4" type="site-name" xml:lang="zh-Hans">金洞寺</placeName>
+               <placeName xml:id="name000049-2" type="site-name" xml:lang="zh-latn-pinyin">Jīndòngsì</placeName>
+               <placeName xml:id="name000049-3" type="site-name" xml:lang="zh-latn-wadegile">Chin-tung-ssu</placeName>
+               <placeName xml:id="name000049-4" type="site-name" xml:lang="zh-Hant">金洞寺</placeName>
+               <placeName xml:id="name000049-5" type="site-name" xml:lang="zh-Hans">金洞寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000049</idno>
                <state type="existence" subtype="dynasty" source="#bibl000049-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>

@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
+         <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +56,10 @@
          <listPlace>
             <place xml:id="place-000056" type="site">
                <placeName xml:id="name000056-1" type="site-name" xml:lang="en">Zhengding Kaiyuan Monastery</placeName>
-               <placeName xml:id="name000056-2" type="site-name" xml:lang="zh-latn-pinyin">Zhengding Kaiyuansi</placeName>
-               <placeName xml:id="name000056-3" type="site-name" xml:lang="zh-Hant">正定開元寺</placeName>
-               <placeName xml:id="name000056-4" type="site-name" xml:lang="zh-Hans">正定开元寺</placeName>
+               <placeName xml:id="name000056-2" type="site-name" xml:lang="zh-latn-pinyin">Zhèngdìng Kāiyuánsì</placeName>
+               <placeName xml:id="name000056-3" type="site-name" xml:lang="zh-latn-wadegile">Cheng-ting K`ai-yüan-ssu</placeName>
+               <placeName xml:id="name000056-4" type="site-name" xml:lang="zh-Hant">正定開元寺</placeName>
+               <placeName xml:id="name000056-5" type="site-name" xml:lang="zh-Hans">正定开元寺</placeName>
                <!-- need to add alternative site names with dates, e.g. <placeName xml:id="name000056-5" type="site-name" xml:lang="zh-Hans">淨觀寺</placeName>-->
                <idno type="URI">https://architecturasinica.org/place/000056</idno>
                <state type="existence" subtype="dynasty" source="#bibl000056-1" from="0540-01-01" to="0960-01-01">
