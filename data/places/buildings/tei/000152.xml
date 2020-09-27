@@ -37,12 +37,15 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-28-04:00" xml:id="TGM">ADDED: building discription</change>
          <change n="3.0" when="2020-03-29" xml:id="ML">added citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,7 +55,8 @@
                <placeName xml:id="name000152-1" xml:lang="en">Ten Kings of Hell Hall</placeName>
                <placeName xml:id="name000152-2" type="building-name" xml:lang="zh-Hant">十帝閻君殿</placeName>
                <placeName xml:id="name000152-3" type="building-name" xml:lang="zh-Hans">十帝阎君殿</placeName>
-               <placeName xml:id="name000152-4" type="building-name" xml:lang="zh-latn-pinyin">Shidiyanjundian</placeName>
+               <placeName xml:id="name000152-4" type="building-name" xml:lang="zh-latn-pinyin">Shídìyánjūndiàn</placeName>
+               <placeName xml:id="name000151-5" type="building-name" xml:lang="zh-latn-wadegile">Shih-ti-yen-chün-tien</placeName>
                <placeName xml:id="name000152-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Chongqingsi Shidiyanjundian</placeName>
                <placeName xml:id="name000152-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崇慶寺十帝閻君殿</placeName>
                <placeName xml:id="name000152-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崇庆寺十帝阎君殿</placeName>
