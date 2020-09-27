@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,7 +58,8 @@
                <placeName xml:id="name000156-1" xml:lang="en">passage hall</placeName>
                <placeName xml:id="name000156-2" type="building-name" xml:lang="zh-Hant">過殿</placeName>
                <placeName xml:id="name000156-3" type="building-name" xml:lang="zh-Hans">过殿</placeName>
-               <placeName xml:id="name000156-4" type="building-name" xml:lang="zh-latn-pinyin">guodian</placeName>
+               <placeName xml:id="name000156-4" type="building-name" xml:lang="zh-latn-pinyin">guòdiàn</placeName>
+               <placeName xml:id="name000153-5" type="building-name" xml:lang="zh-latn-wadegile">Kuo-tien</placeName>
                <placeName xml:id="name000156-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Quwo Dabeiyuan Guodian</placeName>
                <placeName xml:id="name000156-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">曲沃大悲院過殿</placeName>
                <placeName xml:id="name000156-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">曲沃大悲院过殿</placeName>
