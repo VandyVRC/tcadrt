@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000170-1" xml:lang="en">Mañjuśrī Hall</placeName>
                <placeName xml:id="name000170-2" type="building-name" xml:lang="zh-Hant">文殊殿</placeName>
                <placeName xml:id="name000170-3" type="building-name" xml:lang="zh-Hans">文殊殿</placeName>
-               <placeName xml:id="name000170-4" type="building-name" xml:lang="zh-latn-pinyin">Wenshudian</placeName>
-               <placeName xml:id="name000170-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Foguangsi Wenshudian</placeName>
-               <placeName xml:id="name000170-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">佛光寺文殊殿</placeName>
-               <placeName xml:id="name000170-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">佛光寺文殊殿</placeName>
+               <placeName xml:id="name000170-4" type="building-name" xml:lang="zh-latn-pinyin">Wénshūdiàn</placeName>
+               <placeName xml:id="name000170-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-shu-tien</placeName>
+               <placeName xml:id="name000170-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Foguangsi Wenshudian</placeName>
+               <placeName xml:id="name000170-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">佛光寺文殊殿</placeName>
+               <placeName xml:id="name000170-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">佛光寺文殊殿</placeName>
                <placeName xml:id="name000170-11" type="alternate">Wenshudian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000170</idno>
                <state type="existence" from="1137-01-01" to="1137-01-01">
