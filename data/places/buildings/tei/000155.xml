@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,7 +58,8 @@
                <placeName xml:id="name000155-1" xml:lang="en">Mountain Gate</placeName>
                <placeName xml:id="name000155-2" type="building-name" xml:lang="zh-Hant">山門</placeName>
                <placeName xml:id="name000155-3" type="building-name" xml:lang="zh-Hans">山门</placeName>
-               <placeName xml:id="name000155-4" type="building-name" xml:lang="zh-latn-pinyin">Shanmen</placeName>
+               <placeName xml:id="name000155-4" type="building-name" xml:lang="zh-latn-pinyin">Shānmén</placeName>
+               <placeName xml:id="name000153-5" type="building-name" xml:lang="zh-latn-wadegile">Shan-menn</placeName>
                <placeName xml:id="name000155-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Cuifujunmiao Shanmen</placeName>
                <placeName xml:id="name000155-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">崔府君廟山門</placeName>
                <placeName xml:id="name000155-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">崔府君庙山门</placeName>
