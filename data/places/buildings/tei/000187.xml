@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000187-1" xml:lang="en">vestry/retiring hall</placeName>
                <placeName xml:id="name000187-2" type="building-name" xml:lang="zh-Hant">寢宮</placeName>
                <placeName xml:id="name000187-3" type="building-name" xml:lang="zh-Hans">寝宫</placeName>
-               <placeName xml:id="name000187-4" type="building-name" xml:lang="zh-latn-pinyin">qingong</placeName>
-               <placeName xml:id="name000187-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Jidumiao qingong</placeName>
-               <placeName xml:id="name000187-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">濟渎廟寝宫</placeName>
-               <placeName xml:id="name000187-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">济渎庙寝宫</placeName>
+               <placeName xml:id="name000187-4" type="building-name" xml:lang="zh-latn-pinyin">Qǐngōng</placeName>
+               <placeName xml:id="name000187-5" type="building-name" xml:lang="zh-latn-wadegile">Ch'in-kung</placeName>
+               <placeName xml:id="name000187-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jidumiao qingong</placeName>
+               <placeName xml:id="name000187-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">濟渎廟寝宫</placeName>
+               <placeName xml:id="name000187-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">济渎庙寝宫</placeName>
                <placeName xml:id="name000187-11" type="alternate">Qingong</placeName>
                <idno type="URI">https://architecturasinica.org/place/000187</idno>
                <state type="existence" from="0960-01-01" to="1000-01-01">
