@@ -37,11 +37,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,10 +54,11 @@
                <placeName xml:id="name000198-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000198-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000198-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
-               <placeName xml:id="name000198-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
-               <placeName xml:id="name000198-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Kaishansi zhengdian</placeName>
-               <placeName xml:id="name000198-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">開善寺正殿</placeName>
-               <placeName xml:id="name000198-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">开善寺正殿</placeName>
+               <placeName xml:id="name000198-4" type="building-name" xml:lang="zh-latn-pinyin">zhèngdiàn</placeName>
+               <placeName xml:id="name000198-5" type="building-name" xml:lang="zh-latn-wadegile">Cheng-tien</placeName>
+               <placeName xml:id="name000198-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Kaishansi zhengdian</placeName>
+               <placeName xml:id="name000198-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">開善寺正殿</placeName>
+               <placeName xml:id="name000198-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">开善寺正殿</placeName>
                <placeName xml:id="name000198-11" type="alternate">Zhengdian </placeName>
                <idno type="URI">https://architecturasinica.org/place/000198</idno>
                <state type="existence" from="0907-01-01" to="1125-01-01">
