@@ -40,12 +40,17 @@
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
-            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</<language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>language><language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,11 +60,11 @@
                <placeName xml:id="name000185-1" xml:lang="en">Hall of the Three Pure Ones</placeName>
                <placeName xml:id="name000185-2" type="building-name" xml:lang="zh-Hant">三清殿</placeName>
                <placeName xml:id="name000185-3" type="building-name" xml:lang="zh-Hans">三清殿</placeName>
-               <placeName xml:id="name000185-4" type="building-name" xml:lang="zh-latn-pinyin">Sanqingdian</placeName>
-               <placeName xml:id="name000185-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Huixianguan Sanqingdian</placeName>
-               <placeName xml:id="name000185-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">會仙觀三清殿</placeName>
-               <placeName xml:id="name000185-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">会仙观三清殿</placeName>
-               <placeName xml:id="name000185-11" type="alternate">Sanqingdian</placeName>
+               <placeName xml:id="name000185-4" type="building-name" xml:lang="zh-latn-pinyin">Sānqīngdiàn</placeName>
+               <placeName xml:id="name000185-5" type="building-name" xml:lang="zh-latn-wadegile">San-ch'ing-tien</placeName>
+               <placeName xml:id="name000185-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Huixianguan Sanqingdian</placeName>
+               <placeName xml:id="name000185-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">會仙觀三清殿</placeName>
+               <placeName xml:id="name000185-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">会仙观三清殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000185</idno>
                <state type="existence" from="1115-01-01" to="1234-01-01">
                   <label>Date</label>

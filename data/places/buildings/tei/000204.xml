@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,11 +58,11 @@
                <placeName xml:id="name000204-1" xml:lang="en">Pratyeka Pagoda</placeName>
                <placeName xml:id="name000204-2" type="building-name" xml:lang="zh-Hant">辟支塔</placeName>
                <placeName xml:id="name000204-3" type="building-name" xml:lang="zh-Hans">辟支塔</placeName>
-               <placeName xml:id="name000204-4" type="building-name" xml:lang="zh-latn-pinyin">Bizhita</placeName>
-               <placeName xml:id="name000204-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Lingyansi Bizhita</placeName>
-               <placeName xml:id="name000204-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">靈巖寺辟支塔</placeName>
-               <placeName xml:id="name000204-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">灵岩寺辟支塔</placeName>
-               <placeName xml:id="name000204-11" type="alternate">Lingyansi Bizhita</placeName>
+               <placeName xml:id="name000204-4" type="building-name" xml:lang="zh-latn-pinyin">Pìzhītǎ</placeName>
+               <placeName xml:id="name000204-5" type="building-name" xml:lang="zh-latn-wadegile">P'i-chih-t'a</placeName>
+               <placeName xml:id="name000204-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Lingyansi Bizhita</placeName>
+               <placeName xml:id="name000204-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">靈巖寺辟支塔</placeName>
+               <placeName xml:id="name000204-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">灵岩寺辟支塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000204</idno>
                <state type="existence" from="1056-01-01" to="1064-01-01">
                   <label>Date</label>
