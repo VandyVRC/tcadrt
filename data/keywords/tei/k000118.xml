@@ -14,9 +14,16 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="RS">REN Sijie 任思捷</editor>
+            <editor role="content-author" xml:id="YW">YANG Wantian 楊莞闐</editor>
             <respStmt>
                    <resp>Website coordination by</resp>
                   <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#RS">REN Sijie 任思捷</name>
+               <name type="person" ref="#YW">YANG Wantian 楊莞闐</name>
             </respStmt>
                <respStmt> 
                <resp>Peer review by</resp>
@@ -77,7 +84,7 @@
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">影栱</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">影栱</term>
             <term xml:id="term-feature_name-4" xml:lang="Wade-Giles">ying-kung</term>
-            <term xml:id="term-feature_name-5" xml:lang="en" type="literal_translation" source= "biblk000118-1">shadow bracket arm (lit.)</term>
+            <term xml:id="term-feature_name-5" xml:lang="en" type="literal_translation" source= "biblk000118-1">shadow bracket arms (lit.)</term>
             <note type="Note (brief)">
                <p xml:lang="en">Seen in the Yingzao fashi (1103 CE), referring to squared beams (<term ref="/keyword/k000116">fang 方</term>) carved with bracket-arms in low relief, layered within the wall plane above pillar tops. Also called “superficial bracket arms” (<term ref="https://architecturasinica.org/keyword/k000029">fubigong</term>).</p>
                <p xml:lang="zh-Hant">見於《營造法式》（1103 CE)，指柱頭一綫之上所用之方刻出栱的形象。又名<term ref="/keyword/k000029">扶壁栱.</term></p>
