@@ -13,7 +13,18 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎, </editor>
+            <editor role="content-author" xml:id="CXT">CHEN Xintao 陳欣濤</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#BY">BAI Ying 白穎, </name>
+               <name type="person" ref="#CXT">CHEN Xintao 陳欣濤</name>
+            </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
@@ -55,17 +66,26 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
+         <change n="2.0" who="#TGM" when="2020-10-01">adding code and content authors, adding links</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="zhùtóu pùzuò" type="architectural-feature">
-            <term xml:id="term-feature_name-1" xml:lang="en" type="preferred">pillar-top corbelling (preferred)</term>
+            <term xml:id="term-feature_name-1" xml:lang="en">pillar-top corbelling</term>
             <term xml:id="term-feature_name-2" xml:lang="zh-Hant">柱頭鋪作</term>
             <term xml:id="term-feature_name-3" xml:lang="zh-Hans">柱头铺作</term>
-            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin">zhùtóu pùzuò</term>
+            <term xml:id="term-feature_name-4" xml:lang="zh-latn-pinyin" type="preferred">zhùtóu pùzuò (preferred)</term>
             <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">chu-t'ou p'u-tso</term>
-            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">pillar-top corbelling (lit.)</term>
+            <term xml:id="term-feature_name-6" xml:lang="en" type="literal_translation">pillar-top layering work (lit.)</term>
+            <note type= "Note (brief)">
+               <term ref="https://architecturasinica.org/keyword/k000013">Puzuo 鋪作</term> that are joined directly into the top of a pillar or column, as opposed to a location on beams between columns.
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000013-1" xml:lang="zh-Hant" ref="/keyword/k000013">鋪作 pùzuò </p>
+               <p xml:id="related-concept-k000013-1" xml:lang="zh-Hant" ref="/keyword/k000019">斗栱 dòugǒng</p>
+               <p xml:id="related-concept-k000013-2" xml:lang="zh-Hant" ref="/keyword/k000103">昂 áng</p>
+            </note>
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
