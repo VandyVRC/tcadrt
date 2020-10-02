@@ -11,20 +11,29 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="RS">REN Sijie 任思捷</editor>
+            <editor role="content-author" xml:id="YW">YANG Wantian 楊莞闐</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#RS">REN Sijie 任思捷</name>
+               <name type="person" ref="#YW">YANG Wantian 楊莞闐</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
-               <resp>Editing and proofreading by</resp>
-               <name type="person" xml:id="AC">Aurelia Campbell, </name>
-               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Data entry and revision by</resp>
@@ -66,6 +75,7 @@
          <change n="1.0" when="2018-12-03">CREATED: record</change>
          <change n="2.0" when="2020-02-20">Editing body text</change>
          <change n="2.0" when="2020-06-14">Editing body text adding links</change>
+         <change who="#TGM" when="2020-10-01">Adding AC and ZJ credit</change>
       </revisionDesc>
    </teiHeader>
    <text>

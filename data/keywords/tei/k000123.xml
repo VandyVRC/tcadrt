@@ -13,9 +13,13 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="YFB">Yuh-Fen Benda</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩 </editor>
             <editor role="content-author" xml:id="HR">HUANG Ruijing 黄睿菁 </editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#SX">SUN Xiaoqian 孫曉倩</name>
@@ -23,7 +27,7 @@
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
-               <name type="team">ATTCAT 2018</name>
+               <name type="team">ATTCAT 2019</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, proofreading and revision by</resp>
@@ -74,9 +78,6 @@
             <term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000123-2">front platforms</term>
             <term xml:id="term-feature_name-7" xml:lang="en" source="#biblk000123-3">terraces</term>
             <term xml:id="term-feature_name-5" xml:lang="zh-latn-pinyin" source="#biblk000123-1">yuetai</term>
-            <note type="related concepts">
-              <p>露台</p>
-            </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000123-1" xml:lang="zh-Hant">露台 lùtái</p>
             </note>
