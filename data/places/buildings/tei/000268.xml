@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000268-1" xml:lang="en">tower platform</placeName>
                <placeName xml:id="name000268-2" type="building-name" xml:lang="zh-Hant">樓臺</placeName>
                <placeName xml:id="name000268-3" type="building-name" xml:lang="zh-Hans">楼台</placeName>
-               <placeName xml:id="name000268-4" type="building-name" xml:lang="zh-latn-pinyin">loutai</placeName>
-               <placeName xml:id="name000268-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuanzhou Qiaolou loutai</placeName>
-               <placeName xml:id="name000268-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">袁州譙樓樓臺</placeName>
-               <placeName xml:id="name000268-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">袁州谯楼楼台</placeName>
+               <placeName xml:id="name000268-4" type="building-name" xml:lang="zh-latn-pinyin">lóutái</placeName>
+               <placeName xml:id="name000268-5" type="site-name" xml:lang="zh-latn-wadegile">lou-t`ai</placeName>
+               <placeName xml:id="name000268-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuanzhou Qiaolou loutai</placeName>
+               <placeName xml:id="name000268-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">袁州譙樓樓臺</placeName>
+               <placeName xml:id="name000268-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">袁州谯楼楼台</placeName>
                <placeName xml:id="name000268-11" type="alternate">Qiaolou</placeName>
                <idno type="URI">https://architecturasinica.org/place/000268</idno>
                <state type="existence" from="0944-01-01" to="1219-01-01">
