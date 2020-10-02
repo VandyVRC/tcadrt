@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000269-1" xml:lang="en">Mount Douchui Revolving Sutra Repository</placeName>
                <placeName xml:id="name000269-2" type="building-name" xml:lang="zh-Hant">竇圌山轉輪經藏</placeName>
                <placeName xml:id="name000269-3" type="building-name" xml:lang="zh-Hans">窦圌山转轮经藏</placeName>
-               <placeName xml:id="name000269-4" type="building-name" xml:lang="zh-latn-pinyin">Douchuishan zhuanlun jingzang</placeName>
-               <placeName xml:id="name000269-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yunyansi Douchuishan zhuanlun jingzang</placeName>
-               <placeName xml:id="name000269-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">雲岩寺竇圌山轉輪經藏</placeName>
-               <placeName xml:id="name000269-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">云岩寺窦圌山转轮经藏</placeName>
+               <placeName xml:id="name000269-4" type="building-name" xml:lang="zh-latn-pinyin">Dòuchuánshān Zhuǎnlúnjīngzàng</placeName>
+               <placeName xml:id="name000269-5" type="site-name" xml:lang="zh-latn-wadegile">Tou-ch`uan-shan Chuan-lun-ching-ts`ang</placeName>
+               <placeName xml:id="name000269-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Yunyansi Douchuishan zhuanlun jingzang</placeName>
+               <placeName xml:id="name000269-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">雲岩寺竇圌山轉輪經藏</placeName>
+               <placeName xml:id="name000269-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">云岩寺窦圌山转轮经藏</placeName>
                <placeName xml:id="name000269-11" type="alternate"> </placeName>
                <idno type="URI">https://architecturasinica.org/place/000269</idno>
                <state type="existence" from="0960-01-01" to="1279-01-01">
