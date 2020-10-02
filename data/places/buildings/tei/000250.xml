@@ -41,12 +41,15 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="1.0" when="2020-02-17-04:00" who="#TGM">edit keyword identification</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,9 +60,10 @@
                <placeName xml:id="name000250-2" type="building-name" xml:lang="zh-Hant">拜殿</placeName>
                <placeName xml:id="name000250-3" type="building-name" xml:lang="zh-Hans">拜殿</placeName>
                <placeName xml:id="name000250-4" type="building-name" xml:lang="zh-latn-pinyin">baidian</placeName>
-               <placeName xml:id="name000250-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Xiajiao Tangdimiao baidian</placeName>
-               <placeName xml:id="name000250-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">下交汤帝廟拜殿</placeName>
-               <placeName xml:id="name000250-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">下交汤帝庙拜殿</placeName>
+               <placeName xml:id="name000250-5" type="site-name" xml:lang="zh-latn-wadegile">Ling-tse-wang-tien</placeName>
+               <placeName xml:id="name000250-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Xiajiao Tangdimiao baidian</placeName>
+               <placeName xml:id="name000250-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">下交汤帝廟拜殿</placeName>
+               <placeName xml:id="name000250-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">下交汤帝庙拜殿</placeName>
                <placeName xml:id="name000250-11" type="alternate">Baidian </placeName>
                <idno type="URI">https://architecturasinica.org/place/000250</idno>
                <state type="existence" from="1213-01-01" to="1213-01-01">
