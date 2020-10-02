@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000270-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000270-2" type="building-name" xml:lang="zh-Hant">正殿</placeName>
                <placeName xml:id="name000270-3" type="building-name" xml:lang="zh-Hans">正殿</placeName>
-               <placeName xml:id="name000270-4" type="building-name" xml:lang="zh-latn-pinyin">zhengdian</placeName>
-               <placeName xml:id="name000270-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuquan Dongyuemiao zhengdian</placeName>
-               <placeName xml:id="name000270-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">玉泉東嶽廟正殿 </placeName>
-               <placeName xml:id="name000270-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">玉泉东岳庙正殿</placeName>
+               <placeName xml:id="name000270-4" type="building-name" xml:lang="zh-latn-pinyin">zhèngdiàn</placeName>
+               <placeName xml:id="name000270-5" type="site-name" xml:lang="zh-latn-wadegile">cheng-tien</placeName>
+               <placeName xml:id="name000270-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuquan Dongyuemiao zhengdian</placeName>
+               <placeName xml:id="name000270-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">玉泉東嶽廟正殿 </placeName>
+               <placeName xml:id="name000270-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">玉泉东岳庙正殿</placeName>
                <placeName xml:id="name000270-11" type="alternate">Dongyuemiao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000270</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
