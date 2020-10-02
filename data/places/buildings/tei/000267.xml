@@ -42,11 +42,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,11 +59,12 @@
                <placeName xml:id="name000267-1" xml:lang="en">Green Dragon Treasure Pagoda</placeName>
                <placeName xml:id="name000267-2" type="building-name" xml:lang="zh-Hant">青龍寶塔</placeName>
                <placeName xml:id="name000267-3" type="building-name" xml:lang="zh-Hans">青龙宝塔</placeName>
-               <placeName xml:id="name000267-4" type="building-name" xml:lang="zh-latn-pinyin">Qinglongbaota</placeName>
-               <placeName xml:id="name000267-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuanqisi Qinglongbaota</placeName>
-               <placeName xml:id="name000267-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">原起寺青龍寶塔</placeName>
-               <placeName xml:id="name000267-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">原起寺青龙宝塔</placeName>
-               <placeName xml:id="name000267-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">原起寺大聖寶塔</placeName>
+               <placeName xml:id="name000267-4" type="building-name" xml:lang="zh-latn-pinyin">Qīnglóngbǎotǎ</placeName>
+               <placeName xml:id="name000267-5" type="site-name" xml:lang="zh-latn-wadegile">Ch`ing-lung-pao-t`a</placeName>
+               <placeName xml:id="name000267-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Yuanqisi Qinglongbaota</placeName>
+               <placeName xml:id="name000267-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">原起寺青龍寶塔</placeName>
+               <placeName xml:id="name000267-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">原起寺青龙宝塔</placeName>
+               <placeName xml:id="name000267-9" type="alternate" subtype="site-name" xml:lang="zh-Hant">原起寺大聖寶塔</placeName>
                <placeName xml:id="name000267-11" type="alternate">Yuanqisi_Dashengbaota</placeName>
                <idno type="URI">https://architecturasinica.org/place/000267</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
