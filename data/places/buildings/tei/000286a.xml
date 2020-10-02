@@ -42,10 +42,13 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-04-13">CREATED: place record</change>
+         <change when="2020-10-02">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,11 +58,12 @@
                <placeName xml:id="name000286a-1" xml:lang="en">Twin Pagodas</placeName>
                <placeName xml:id="name000286a-2" type="building-name" xml:lang="zh-Hant">雙塔</placeName>
                <placeName xml:id="name000286a-3" type="building-name" xml:lang="zh-Hans">双塔</placeName>
-               <placeName xml:id="name000286a-4" type="building-name" xml:lang="zh-latn-pinyin">Shuangta</placeName>
-               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Luohanyuan_shuangta</placeName>
-               <placeName xml:id="name000286a-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Luohan Cloister, Twin Pagodas</placeName>
-               <placeName xml:id="name000286a-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">羅漢院雙塔</placeName>
-               <placeName xml:id="name000286a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">罗汉院双塔</placeName>
+               <placeName xml:id="name000286a-4" type="building-name" xml:lang="zh-latn-pinyin">Shuāngtǎ</placeName>
+               <placeName xml:id="name000286a-5" type="site-name" xml:lang="zh-latn-wadegile">Shuang-t`a</placeName>
+               <placeName xml:id="name000286a-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Luohanyuan_shuangta</placeName>
+               <placeName xml:id="name000286a-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Luohan Cloister, Twin Pagodas</placeName>
+               <placeName xml:id="name000286a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">羅漢院雙塔</placeName>
+               <placeName xml:id="name000286a-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">罗汉院双塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000286a</idno>
                <state type="existence" from="0982-01-01" to="0988-01-01">
                   <label>Date</label>

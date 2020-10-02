@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000227-1" xml:lang="en">main hall</placeName>
                <placeName xml:id="name000227-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
                <placeName xml:id="name000227-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
-               <placeName xml:id="name000227-4" type="building-name" xml:lang="zh-latn-pinyin">dadian</placeName>
-               <placeName xml:id="name000227-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qinshui Shundimiao dadian</placeName>
-               <placeName xml:id="name000227-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">沁水舜帝廟大殿</placeName>
-               <placeName xml:id="name000227-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">沁水舜帝庙大殿</placeName>
+               <placeName xml:id="name000227-4" type="building-name" xml:lang="zh-latn-pinyin">dàdiàn</placeName>
+               <placeName xml:id="name000227-5" type="site-name" xml:lang="zh-latn-wadegile">ta-tien</placeName>
+               <placeName xml:id="name000227-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qinshui Shundimiao dadian</placeName>
+               <placeName xml:id="name000227-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">沁水舜帝廟大殿</placeName>
+               <placeName xml:id="name000227-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">沁水舜帝庙大殿</placeName>
                <placeName xml:id="name000227-11" type="alternate">Shundimiao Dadian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000227</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">

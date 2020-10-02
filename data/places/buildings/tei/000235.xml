@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000235-1" xml:lang="en">Hall of the Three Sages</placeName>
                <placeName xml:id="name000235-2" type="building-name" xml:lang="zh-Hant">三聖殿</placeName>
                <placeName xml:id="name000235-3" type="building-name" xml:lang="zh-Hans">三圣殿</placeName>
-               <placeName xml:id="name000235-4" type="building-name" xml:lang="zh-latn-pinyin">Sanshengdian</placeName>
-               <placeName xml:id="name000235-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Shanhuasi Sanshengdian</placeName>
-               <placeName xml:id="name000235-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">善化寺三聖殿</placeName>
-               <placeName xml:id="name000235-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">善化寺三圣殿</placeName>
+               <placeName xml:id="name000235-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngdiàn</placeName>
+               <placeName xml:id="name000235-5" type="site-name" xml:lang="zh-latn-wadegile">San-sheng-tien</placeName>
+               <placeName xml:id="name000235-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Shanhuasi Sanshengdian</placeName>
+               <placeName xml:id="name000235-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">善化寺三聖殿</placeName>
+               <placeName xml:id="name000235-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">善化寺三圣殿</placeName>
                <placeName xml:id="name000235-11" type="alternate">Sanshengdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000235</idno>
                <state type="existence" from="1128-01-01" to="1143-01-01">

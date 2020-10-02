@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,10 +58,11 @@
                <placeName xml:id="name000224-1" xml:lang="en">sutra pavilion</placeName>
                <placeName xml:id="name000224-2" type="building-name" xml:lang="zh-Hant">藏經閣</placeName>
                <placeName xml:id="name000224-3" type="building-name" xml:lang="zh-Hans">藏经阁</placeName>
-               <placeName xml:id="name000224-4" type="building-name" xml:lang="zh-latn-pinyin">zangjingge</placeName>
-               <placeName xml:id="name000224-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Qingliansi zangjingge</placeName>
-               <placeName xml:id="name000224-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">青莲寺藏經閣</placeName>
-               <placeName xml:id="name000224-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">青莲寺藏经阁</placeName>
+               <placeName xml:id="name000224-4" type="building-name" xml:lang="zh-latn-pinyin">cángjīnggé</placeName>
+               <placeName xml:id="name000224-5" type="site-name" xml:lang="zh-latn-wadegile">ts'ang-ching-ko</placeName>
+               <placeName xml:id="name000224-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qingliansi zangjingge</placeName>
+               <placeName xml:id="name000224-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">青莲寺藏經閣</placeName>
+               <placeName xml:id="name000224-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">青莲寺藏经阁</placeName>
                <placeName xml:id="name000224-11" type="alternate">zangjingge</placeName>
                <idno type="URI">https://architecturasinica.org/place/000224</idno>
                <state type="existence" from="1089-01-01" to="1911-01-01">

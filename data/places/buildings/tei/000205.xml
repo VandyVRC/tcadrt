@@ -41,11 +41,14 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,14 +58,15 @@
                <placeName xml:id="name000205-1" xml:lang="en">Lingzewang Hall</placeName>
                <placeName xml:id="name000205-2" type="building-name" xml:lang="zh-Hant">靈澤王殿 </placeName>
                <placeName xml:id="name000205-3" type="building-name" xml:lang="zh-Hans">灵泽王殿</placeName>
-               <placeName xml:id="name000205-4" type="building-name" xml:lang="zh-latn-pinyin">Lingzewangdian</placeName>
-               <placeName xml:id="name000205-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Lingzewangmiao Lingzewangdian</placeName>
-               <placeName xml:id="name000205-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">靈澤王廟靈澤王殿</placeName>
-               <placeName xml:id="name000205-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">灵泽王庙灵泽王殿</placeName>
-               <placeName xml:id="name000205-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">太平龍王廟</placeName>
-               <placeName xml:id="name000205-9" type="alternate" subtype="site-name" xml:lang="zh-Hans"> </placeName>
-               <placeName xml:id="name000205-10" type="alternate" subtype="site-name">Taiping Longwangmiao</placeName>
-               <placeName xml:id="name000205-11" type="alternate">zhengdian</placeName>
+               <placeName xml:id="name000205-4" type="building-name" xml:lang="zh-latn-pinyin">Língzéwángdiàn</placeName>
+               <placeName xml:id="name000205-5" type="site-name" xml:lang="zh-latn-wadegile">Ling-tse-wang-tien</placeName>
+               <placeName xml:id="name000205-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Lingzewangmiao Lingzewangdian</placeName>
+               <placeName xml:id="name000205-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">靈澤王廟靈澤王殿</placeName>
+               <placeName xml:id="name000205-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">灵泽王庙灵泽王殿</placeName>
+               <placeName xml:id="name000205-9" type="alternate" subtype="site-name" xml:lang="zh-Hant">太平龍王廟</placeName>
+               <placeName xml:id="name000205-10" type="alternate" subtype="site-name" xml:lang="zh-Hans"> </placeName>
+               <placeName xml:id="name000205-11" type="alternate" subtype="site-name">Taiping Longwangmiao</placeName>
+               <placeName xml:id="name000205-12" type="alternate">zhengdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000205</idno>
                <state type="existence" from="1210-01-01" to="1210-01-01">
                   <label>Date</label>
