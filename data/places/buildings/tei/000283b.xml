@@ -42,10 +42,13 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-04-15">CREATED: place record</change>
+         <change when="2020-10-02">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,11 +58,12 @@
                <placeName xml:id="name000283b-1" xml:lang="en">Jieyin Hall</placeName>
                <placeName xml:id="name000283b-2" type="building-name" xml:lang="zh-Hant">接引殿</placeName>
                <placeName xml:id="name000283b-3" type="building-name" xml:lang="zh-Hans">接引殿</placeName>
-               <placeName xml:id="name000283b-4" type="building-name" xml:lang="zh-latn-pinyin">Jieyindian</placeName>
-               <placeName xml:id="name000283b-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Kaibaosi_jieyindian</placeName>
-               <placeName xml:id="name000283b-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Kaibao Monastery, Jieyin Hall</placeName>
-               <placeName xml:id="name000283b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">開寶寺接引殿</placeName>
-               <placeName xml:id="name000283b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">开宝寺接引殿</placeName>
+               <placeName xml:id="name000283b-4" type="building-name" xml:lang="zh-latn-pinyin">Jiēyǐndiàn</placeName>
+               <placeName xml:id="name000283b-5" type="site-name" xml:lang="zh-latn-wadegile">Chieh-yin-tien</placeName>
+               <placeName xml:id="name000283b-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Kaibaosi_jieyindian</placeName>
+               <placeName xml:id="name000283b-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Kaibao Monastery, Jieyin Hall</placeName>
+               <placeName xml:id="name000283b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">開寶寺接引殿</placeName>
+               <placeName xml:id="name000283b-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">开宝寺接引殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000283b</idno>
                <state type="existence" from="1986-01-01" to="1986-01-01">
                   <label>Date</label>
