@@ -44,10 +44,13 @@
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#SQ" when="2020-04-30">CREATED: place record</change>
+         <change when="2020-10-02">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,17 +58,18 @@
          <listPlace>
             <place xml:id="place-000285a" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000285a-1" type="building-name" xml:lang="en">East Stone Pagoda</placeName>
-               <placeName xml:id="name000285a-2" type="building-name" xml:lang="zh-latn-pinyin">Dong shita</placeName>
-               <placeName xml:id="name000285a-3" type="building-name" xml:lang="zh-Hant">東石塔</placeName>
-               <placeName xml:id="name000285a-4" type="building-name" xml:lang="zh-Hans">东石塔</placeName>
-               <placeName xml:id="name000285a-5" type="alternate" xml:lang="en">Lingyin Monastery Twin Pagodas</placeName>
-               <placeName xml:id="name000285a-6" type="alternate" xml:lang="zh-latn-pinyin">lingyinsi liangshita</placeName>
-               <placeName xml:id="name000285a-7" type="alternate" xml:lang="zh-Hant">靈隱寺兩石塔</placeName>
-               <placeName xml:id="name000285a-8" type="alternate" xml:lang="zh-Hans">灵隐寺两石塔</placeName>
-               <placeName xml:id="name000285a-9" type="alternate" xml:lang="en">Twin Pagodas</placeName>
-               <placeName xml:id="name000285a-10" type="alternate" xml:lang="zh-latn-pinyin">Shuangshita</placeName>
-               <placeName xml:id="name000285a-11" type="alternate" xml:lang="zh-Hant">雙石塔</placeName>
-               <placeName xml:id="name000285a-12" type="alternate" xml:lang="zh-Hans">双石塔</placeName>
+               <placeName xml:id="name000285a-2" type="building-name" xml:lang="zh-latn-pinyin">Dōng Shítǎ</placeName>
+               <placeName xml:id="name000285a-3" type="site-name" xml:lang="zh-latn-wadegile">Tung shih-t`a</placeName>
+               <placeName xml:id="name000285a-4" type="building-name" xml:lang="zh-Hant">東石塔</placeName>
+               <placeName xml:id="name000285a-5" type="building-name" xml:lang="zh-Hans">东石塔</placeName>
+               <placeName xml:id="name000285a-6" type="alternate" xml:lang="en">Lingyin Monastery Twin Pagodas</placeName>
+               <placeName xml:id="name000285a-7" type="alternate" xml:lang="zh-latn-pinyin">lingyinsi liangshita</placeName>
+               <placeName xml:id="name000285a-8" type="alternate" xml:lang="zh-Hant">靈隱寺兩石塔</placeName>
+               <placeName xml:id="name000285a-9" type="alternate" xml:lang="zh-Hans">灵隐寺两石塔</placeName>
+               <placeName xml:id="name000285a-10" type="alternate" xml:lang="en">Twin Pagodas</placeName>
+               <placeName xml:id="name000285a-11" type="alternate" xml:lang="zh-latn-pinyin">Shuangshita</placeName>
+               <placeName xml:id="name000285a-12" type="alternate" xml:lang="zh-Hant">雙石塔</placeName>
+               <placeName xml:id="name000285a-13" type="alternate" xml:lang="zh-Hans">双石塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000285a</idno>
                <state type="existence" subtype="dynasty" source="#bibl000285a-2" from="0902-01-01"
                   to="0979-01-01">
