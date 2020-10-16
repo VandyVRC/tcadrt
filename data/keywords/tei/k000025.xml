@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">五代十國 </foreign> Wǔdàishíguó</title>
+               <foreign xml:lang="zh-Hant">五代十國 </foreign> Wǔdài Shíguó</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -56,15 +56,14 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Five-Dynasties-and-Ten-Kingdoms" type="time period">
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-1" xml:lang="en">Wudaishiguo</term>
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-2" xml:lang="zh-Hant">五代十國</term>
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-3" xml:lang="zh-Hans">五代十国</term>
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-4" xml:lang="zh-latn-pinyin">Wǔdàishíguó</term>
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-5" xml:lang="Wade-Giles">Wu-tai-shih-kuo</term>
-            <term xml:id="term-Five-Dynasties-and-Ten-Kingdoms-6" xml:lang="en">Five Dynasties and Ten Kingdoms</term>
-            <state type="existence" source="#biblk000025-1" from="0902" to="0960">
-               <desc>902 - 960</desc>
+         <entryFree xml:id="k000025" type="time period">
+            <term xml:id="term-k000025-1" xml:lang="en">Five Dynasties and Ten Kingdoms</term>
+            <term xml:id="term-k000025-2" xml:lang="zh-Hant">五代十國</term>
+            <term xml:id="term-k000025-3" xml:lang="zh-Hans">五代十国</term>
+            <term xml:id="term-k000025-4" xml:lang="zh-latn-pinyin">Wǔdài Shíguó</term>
+            <term xml:id="term-k000025-5" xml:lang="Wade-Giles">Wu-tai Shih-kuo</term>
+            <state type="existence" source="#biblk000025-1" from="0902" to="0979">
+               <desc>902 - 979</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000025</idno>
          </entryFree>

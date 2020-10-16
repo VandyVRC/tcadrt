@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">東魏 </foreign> Dōngwèi </title>
+               <foreign xml:lang="zh-Hant">東魏 </foreign> Dōng Wèi </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -56,15 +56,14 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Eastern-Wei" type="time period">
-            <term xml:id="term-Eastern-Wei-1" xml:lang="en">Dongwei</term>
-            <term xml:id="term-Eastern-Wei-2" xml:lang="zh-Hant">東魏</term>
-            <term xml:id="term-Eastern-Wei-3" xml:lang="zh-Hans">东魏</term>
-            <term xml:id="term-Eastern-Wei-4" xml:lang="zh-latn-pinyin">Dōngwèi</term>
-            <term xml:id="term-Eastern-Wei-5" xml:lang="Wade-Giles">Tung-wei</term>
-            <term xml:id="term-Eastern-Wei-6" xml:lang="en">Eastern Wei</term>
-            <term xml:id="term-Eastern-Wei-7" xml:lang="zh-Hant">東魏國</term>
-            <term xml:id="term-Eastern-Wei-8" xml:lang="en">Eastern Wei Kingdom</term>
+         <entryFree xml:id="k000022" type="time period">
+            <term xml:id="term-k000022-1" xml:lang="en">Eastern Wei</term>
+            <term xml:id="term-k000022-2" xml:lang="zh-Hant">東魏</term>
+            <term xml:id="term-k000022-3" xml:lang="zh-Hans">东魏</term>
+            <term xml:id="term-k000022-4" xml:lang="zh-latn-pinyin">Dōng Wèi</term>
+            <term xml:id="term-k000022-5" xml:lang="Wade-Giles">Tung Wei</term>
+            <term xml:id="term-k000022-7" xml:lang="zh-Hant">東魏國</term>
+            <term xml:id="term-k000022-8" xml:lang="en">Eastern Wei Kingdom</term>
             <state type="existence" source="#biblk000022-1" from="0534" to="0550">
                <desc>534 - 550</desc>
             </state>
