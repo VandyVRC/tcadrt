@@ -8,10 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -59,8 +59,8 @@
                <placeName xml:id="name000048c-5" type="building-name" xml:lang="zh-latn-wadegile">Shan-li-ch`üan-t'ing</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048c</idno>
                <state type="existence" from="1522-01-28" to="1567-02-08">
-                  <desc>1563</desc>
                   <label>Date</label>
+                  <desc>1522-1567</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048c-1" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
@@ -88,8 +88,8 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
