@@ -7,11 +7,11 @@
             <title level="a" xml:lang="en">Jin Shrines, Dressing Tower <foreign xml:lang="zh-Hant">晉祠梳妝樓</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -90,7 +90,7 @@
                   <desc xml:lang="zh-Hant">樓</desc>
                   <desc xml:lang="zh-Hans">楼</desc>
                </trait>
-               <bibl xml:id="bibl0000048a-1">
+               <bibl xml:id="bibl0000048b-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
