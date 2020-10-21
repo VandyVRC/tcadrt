@@ -15,7 +15,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#WO">Waka Ogihara</name>
+               <name type="person" xml:id="WO">Waka Ogihara</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#TGM" when="2020-10-20-04:00">CREATED: place record</change>
+         <change n="1.0" who="#WO" when="2020-10-20-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,12 +57,12 @@
                <placeName xml:id="name000048c-3" type="building-name" xml:lang="zh-Hans">善利泉亭</placeName>
                <placeName xml:id="name000048c-4" type="building-name" xml:lang="zh-latn-pinyin">Shànlìquántíng</placeName>
                <placeName xml:id="name000048c-5" type="building-name" xml:lang="zh-latn-wadegile">Shan-li-ch`üan-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048b</idno>
+               <idno type="URI">https://architecturasinica.org/place/000048c</idno>
                <state type="existence" from="1522-01-28" to="1567-02-08">
-                  <label>Date</label>
                   <desc>1563</desc>
+                  <label>Date</label>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048a-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048a-1" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
