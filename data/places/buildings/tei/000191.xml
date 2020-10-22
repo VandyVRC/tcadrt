@@ -4,14 +4,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, offering hall <foreign xml:lang="zh-Hant">晉祠獻殿</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Offering hall <foreign xml:lang="zh-Hant">晉祠獻殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
@@ -55,10 +55,10 @@
       <body>
          <listPlace>
             <place xml:id="place-000191" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000191-1" xml:lang="en">offering hall</placeName>
+               <placeName xml:id="name000191-1" xml:lang="en">Ofering hall</placeName>
                <placeName xml:id="name000191-2" type="building-name" xml:lang="zh-Hant">獻殿</placeName>
                <placeName xml:id="name000191-3" type="building-name" xml:lang="zh-Hans">献殿</placeName>
-               <placeName xml:id="name000191-4" type="building-name" xml:lang="zh-latn-pinyin">xiàndiàn</placeName>
+               <placeName xml:id="name000191-4" type="building-name" xml:lang="zh-latn-pinyin">Xiàndiàn</placeName>
                <placeName xml:id="name000191-5" type="building-name" xml:lang="zh-latn-wadegile">Hsien-tien</placeName>
                <placeName xml:id="name000191-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Xiandian</placeName>
                <placeName xml:id="name000191-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠獻殿</placeName>
