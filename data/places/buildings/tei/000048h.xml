@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Shrine to Divinities of the Vast Heaven <foreign xml:lang="zh-Hant">昊天神祠</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="WO">Waka Ogihara</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048h/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-10-22-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048h" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048h-1" xml:lang="en">Shrine to Divinities of the Vast Heaven</placeName>
+               <placeName xml:id="name000048h-2" type="building-name" xml:lang="zh-Hant">昊天神祠</placeName>
+               <placeName xml:id="name000048h-3" type="building-name" xml:lang="zh-Hans">昊天神祠</placeName>
+               <placeName xml:id="name000048h-4" type="building-name" xml:lang="zh-latn-pinyin">Hàotiānshéncí</placeName>
+               <placeName xml:id="name000048h-5" type="building-name" xml:lang="zh-latn-wadegile">Hao-t'ien-shen-tz'u</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048h</idno>
+               <state type="existence" from="1795-01-01" to="1795-01-01">
+                  <label>Date</label>
+                  <desc>1795</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048h-1" from="1644-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qing 1644 - 1912</desc>
+               </state>
+               <desc></desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
+               </trait>
+               <bibl xml:id="bibl000048h-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048h" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048h" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
