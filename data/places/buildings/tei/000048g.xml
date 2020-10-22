@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048f/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048g/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,18 +51,18 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048f" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048f-1" xml:lang="en">Earl of Zhi Canal</placeName>
-               <placeName xml:id="name000048f-2" type="building-name" xml:lang="zh-Hant">知伯渠</placeName>
-               <placeName xml:id="name000048f-3" type="building-name" xml:lang="zh-Hans">知伯渠</placeName>
-               <placeName xml:id="name000048f-4" type="building-name" xml:lang="zh-latn-pinyin">Zhībóqú</placeName>
-               <placeName xml:id="name000048f-5" type="building-name" xml:lang="zh-latn-wadegile">Chih-po-ch`ü</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048f</idno>
+            <place xml:id="place-000048g" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048g-1" xml:lang="en">Earl of Zhi Canal</placeName>
+               <placeName xml:id="name000048g-2" type="building-name" xml:lang="zh-Hant">知伯渠</placeName>
+               <placeName xml:id="name000048g-3" type="building-name" xml:lang="zh-Hans">知伯渠</placeName>
+               <placeName xml:id="name000048g-4" type="building-name" xml:lang="zh-latn-pinyin">Zhībóqú</placeName>
+               <placeName xml:id="name000048g-5" type="building-name" xml:lang="zh-latn-wadegile">Chih-po-ch`ü</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048g</idno>
                <state type="existence" from="116-01-01" to="116-01-01">
                   <label>Date</label>
                   <desc>116</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048f-1" from="202BCE-01-01" to="220CE-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048g-1" from="202BCE-01-01" to="220CE-01-01">
                   <label>Dynasty</label>
                   <desc>Han 202 BCE - 220 CE</desc>
                </state>
@@ -82,14 +82,14 @@
                   <desc xml:lang="zh-Hant">渠</desc>
                   <desc xml:lang="zh-Hans">渠</desc>
                </trait>
-               <bibl xml:id="bibl000048f-1">
+               <bibl xml:id="bibl000048g-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048f" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000030" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048f" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048g" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000030" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048g" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
