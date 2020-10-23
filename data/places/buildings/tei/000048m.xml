@@ -15,7 +15,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="LS">Liyan Shen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -23,13 +23,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048b/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048m/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-10-16-04:00</date>
+            <date>2020-10-23-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,32 +45,24 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#TGM" when="2020-10-16-04:00">CREATED: place record</change>
+         <change n="1.0" who="#LS" when="2020-10-23-10:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048b" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048b-1" xml:lang="en">Dressing Tower</placeName>
-               <placeName xml:id="name000048b-2" type="building-name" xml:lang="zh-Hant">梳妝樓</placeName>
-               <placeName xml:id="name000048b-3" type="building-name" xml:lang="zh-Hans">梳妆楼</placeName>
-               <placeName xml:id="name000048b-4" type="building-name" xml:lang="zh-latn-pinyin">Shūzhuānglóu</placeName>
-               <placeName xml:id="name000048b-5" type="building-name" xml:lang="zh-latn-wadegile">Shu-chuang-lou</placeName>
-               <placeName xml:id="name000048b-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">梳洗樓</placeName>
-               <placeName xml:id="name000048b-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">梳洗楼</placeName>
-               <placeName xml:id="name000048b-8" type="alternate" subtype="building-name" xml:lang="en">Water Mother Tower</placeName>
-               <placeName xml:id="name000048b-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">水母樓</placeName>
-               <placeName xml:id="name000048b-10" type="alternate" subtype="building-name" xml:lang="zh-Hans">水母楼</placeName>
-               <placeName xml:id="name000048b-11" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Dressing Tower</placeName>
-               <placeName xml:id="name000048b-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠梳妝樓</placeName>
-               <placeName xml:id="name000048b-13" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠梳妆楼</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048b</idno>
+            <place xml:id="place-000048m" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048m-1" xml:lang="en">Water Mirror Terrace</placeName>
+               <placeName xml:id="name000048m-2" type="building-name" xml:lang="zh-Hant">水鏡臺</placeName>
+               <placeName xml:id="name000048m-3" type="building-name" xml:lang="zh-Hans">水镜台</placeName>
+               <placeName xml:id="name000048m-4" type="building-name" xml:lang="zh-latn-pinyin">Shuǐjìngtái</placeName>
+               <placeName xml:id="name000048m-5" type="building-name" xml:lang="zh-latn-wadegile">Shui-ching-t`ai</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048m</idno>
                <state type="existence" from="1563-01-01" to="1563-01-01">
                   <label>Date</label>
-                  <desc>1563</desc>
+                  <desc>1500-1600</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048b-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048m-1" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
@@ -85,19 +77,19 @@
                -->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">tower</desc>
-                  <desc xml:lang="zh-latn-pinyin">lou</desc>
-                  <desc xml:lang="zh-Hant">樓</desc>
-                  <desc xml:lang="zh-Hans">楼</desc>
+                  <desc xml:lang="en">terrace</desc>
+                  <desc xml:lang="zh-latn-pinyin">Tái</desc>
+                  <desc xml:lang="zh-Hant">臺</desc>
+                  <desc xml:lang="zh-Hans">台</desc>
                </trait>
-               <bibl xml:id="bibl000048b-1">
+               <bibl xml:id="bibl000048m-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048m" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048m" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
