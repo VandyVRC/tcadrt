@@ -4,18 +4,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Eternal Youth Spring Gazebo <foreign xml:lang="zh-Hant">難老泉亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Flying Bridge <foreign xml:lang="zh-Hant">飛梁</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="WO">Waka Ogihara</name>
+               <name type="person" ref="WO">Waka Ogihara</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048d/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048e/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,20 +51,23 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048d-1" xml:lang="en">Eternal Youth Spring Gazebo</placeName>
-               <placeName xml:id="name000048d-2" type="building-name" xml:lang="zh-Hant">難老泉亭</placeName>
-               <placeName xml:id="name000048d-3" type="building-name" xml:lang="zh-Hans">難老泉亭</placeName>
-               <placeName xml:id="name000048d-4" type="building-name" xml:lang="zh-latn-pinyin">Nánlǎoquántíng</placeName>
-               <placeName xml:id="name000048d-5" type="building-name" xml:lang="zh-latn-wadegile">Nan-lao-ch`üan-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048d</idno>
-               <state type="existence" from="1522-01-28" to="1567-02-08">
+            <place xml:id="place-000048e" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048e-1" xml:lang="en">Flying Bridge</placeName>
+               <placeName xml:id="name000048e-2" type="building-name" xml:lang="zh-Hant">飛梁</placeName>
+               <placeName xml:id="name000048e-3" type="building-name" xml:lang="zh-Hans">飞梁</placeName>
+               <placeName xml:id="name000048e-4" type="building-name" xml:lang="zh-latn-pinyin">Fēiliáng</placeName>
+               <placeName xml:id="name000048e-5" type="building-name" xml:lang="zh-latn-wadegile">Fei-liang</placeName>
+               <placeName xml:id="name000048e-6" type="alternate" subtype="building-name" xml:lang="en">Spirit Bridge</placeName>
+               <placeName xml:id="name000048e-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">神橋</placeName>
+               <placeName xml:id="name000048e-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">神桥</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048e</idno>
+               <state type="existence" from="1000-01-01" to="1000-12-31">
                   <label>Date</label>
-                  <desc>1522-1567</desc>
+                  <desc>1000</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048d-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048e-1" from="960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
+                  <desc>Northern Song 960 - 1127</desc>
                </state>
                <desc></desc>
                <!-- 
@@ -77,19 +80,19 @@
                -->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">gazebo</desc>
-                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">liáng</desc>
+                  <desc xml:lang="zh-Hant">梁</desc>
+                  <desc xml:lang="zh-Hans">梁</desc>
                </trait>
-               <bibl xml:id="bibl000048d-1">
+               <bibl xml:id="bibl000048e-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>

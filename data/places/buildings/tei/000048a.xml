@@ -8,10 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -52,7 +52,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000048a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048a-1" xml:lang="en">Jin Shrines, Shu Yu of Tang Shrine Complex</placeName>
+               <placeName xml:id="name000048a-1" xml:lang="en">Shu Yu of Tang Shrine Complex</placeName>
                <placeName xml:id="name000048a-2" type="building-name" xml:lang="zh-Hant">唐叔虞祠</placeName>
                <placeName xml:id="name000048a-3" type="building-name" xml:lang="zh-Hans">唐叔虞祠</placeName>
                <placeName xml:id="name000048a-4" type="building-name" xml:lang="zh-latn-pinyin">Tángshūyúcí</placeName>
@@ -82,7 +82,7 @@
                   <desc xml:lang="zh-Hant">祠</desc>
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl0000048a-1">
+               <bibl xml:id="bibl000048a-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>

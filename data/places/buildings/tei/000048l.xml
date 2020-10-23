@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Eternal Youth Spring Gazebo <foreign xml:lang="zh-Hant">難老泉亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Three Sages Shrine Complex <foreign xml:lang="zh-Hant">三聖祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048d/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048l/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,21 +51,21 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048d-1" xml:lang="en">Eternal Youth Spring Gazebo</placeName>
-               <placeName xml:id="name000048d-2" type="building-name" xml:lang="zh-Hant">難老泉亭</placeName>
-               <placeName xml:id="name000048d-3" type="building-name" xml:lang="zh-Hans">難老泉亭</placeName>
-               <placeName xml:id="name000048d-4" type="building-name" xml:lang="zh-latn-pinyin">Nánlǎoquántíng</placeName>
-               <placeName xml:id="name000048d-5" type="building-name" xml:lang="zh-latn-wadegile">Nan-lao-ch`üan-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048d</idno>
-               <state type="existence" from="1522-01-28" to="1567-02-08">
+            <place xml:id="place-000048l" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048l-1" xml:lang="en">Three Sages Shrine Complex</placeName>
+               <placeName xml:id="name000048l-2" type="building-name" xml:lang="zh-Hant">三聖祠</placeName>
+               <placeName xml:id="name000048l-3" type="building-name" xml:lang="zh-Hans">三圣祠</placeName>
+               <placeName xml:id="name000048l-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí</placeName>
+               <placeName xml:id="name000048l-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048l</idno>
+               <state type="existence" from="1737-01-01" to="1737-01-01">
                   <label>Date</label>
-                  <desc>1522-1567</desc>
+                  <desc>1737</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048d-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048l-1" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
-               </state>
+                  <desc>Qing 1644 - 1912</desc>
+               </state>ter the
                <desc></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -77,19 +77,19 @@
                -->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">gazebo</desc>
-                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl000048d-1">
+               <bibl xml:id="bibl000048l-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048l" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>

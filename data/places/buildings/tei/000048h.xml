@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Eternal Youth Spring Gazebo <foreign xml:lang="zh-Hant">難老泉亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Shrine to Divinities of the Vast Heaven <foreign xml:lang="zh-Hant">昊天神祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048d/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048h/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,22 +51,22 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048d-1" xml:lang="en">Eternal Youth Spring Gazebo</placeName>
-               <placeName xml:id="name000048d-2" type="building-name" xml:lang="zh-Hant">難老泉亭</placeName>
-               <placeName xml:id="name000048d-3" type="building-name" xml:lang="zh-Hans">難老泉亭</placeName>
-               <placeName xml:id="name000048d-4" type="building-name" xml:lang="zh-latn-pinyin">Nánlǎoquántíng</placeName>
-               <placeName xml:id="name000048d-5" type="building-name" xml:lang="zh-latn-wadegile">Nan-lao-ch`üan-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048d</idno>
-               <state type="existence" from="1522-01-28" to="1567-02-08">
+            <place xml:id="place-000048h" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048h-1" xml:lang="en">Shrine to Divinities of the Vast Heaven</placeName>
+               <placeName xml:id="name000048h-2" type="building-name" xml:lang="zh-Hant">昊天神祠</placeName>
+               <placeName xml:id="name000048h-3" type="building-name" xml:lang="zh-Hans">昊天神祠</placeName>
+               <placeName xml:id="name000048h-4" type="building-name" xml:lang="zh-latn-pinyin">Hàotiānshéncí</placeName>
+               <placeName xml:id="name000048h-5" type="building-name" xml:lang="zh-latn-wadegile">Hao-t'ien-shen-tz'u</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048h</idno>
+               <state type="existence" from="1795-01-01" to="1795-01-01">
                   <label>Date</label>
-                  <desc>1522-1567</desc>
+                  <desc>1795</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048d-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048h-1" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
+                  <desc>Qing 1644 - 1912</desc>
                </state>
-               <desc></desc>
+               <desc>This temple-complex is dedicated to the Jade Emperor (玉皇), the Three Pure Ones or Clarities (三清), and Guandi (關帝). The whole is called the Haotianshen Shrine, after the title given to the Jade Emperor during the Northern Song dynasty.[1]. This combined shrine was constructed after the 1770–1771 rebuilding of the Shu Yu of Tang Shrine. According to the stele inscription documenting the construction of the combined complex by Hu Qijing 胡其敬 of 1801, originally individual temple buildings dedicated to the Jade Emperor, Three Pure Ones were on the right (west side) of the shrine to Shu Yu, and a temple to Guandi was located to the left (east) of the Shu Yu Shrine. These buildings appear on the 1551 map of Jinci in Gao Ruxing’s Taiyuan xianzhi. [Footnote 1] In the JCZ the date given for the investiture is January 31, 1017. I have not been able to find this in either the Songshi or the XCB entries for that date. The Songshi does have a record of Haotian being added to the title of the Jade Emperor by Huizong in 1116, see Songshi 21/396 and 104/2543. See also Pregadio, ed. 2008, 63.</desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -77,19 +77,19 @@
                -->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">gazebo</desc>
-                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl000048d-1">
+               <bibl xml:id="bibl000048h-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048h" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048h" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
