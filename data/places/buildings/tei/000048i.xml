@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Eternal Youth Spring Gazebo <foreign xml:lang="zh-Hant">難老泉亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Shrine to the Eastern Peak <foreign xml:lang="zh-Hant">東嶽祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048d/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048i/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,20 +51,23 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048d-1" xml:lang="en">Eternal Youth Spring Gazebo</placeName>
-               <placeName xml:id="name000048d-2" type="building-name" xml:lang="zh-Hant">難老泉亭</placeName>
-               <placeName xml:id="name000048d-3" type="building-name" xml:lang="zh-Hans">難老泉亭</placeName>
-               <placeName xml:id="name000048d-4" type="building-name" xml:lang="zh-latn-pinyin">Nánlǎoquántíng</placeName>
-               <placeName xml:id="name000048d-5" type="building-name" xml:lang="zh-latn-wadegile">Nan-lao-ch`üan-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048d</idno>
-               <state type="existence" from="1522-01-28" to="1567-02-08">
+            <place xml:id="place-000048i" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048i-1" xml:lang="en">Shrine to Divinities of the Vast Heaven</placeName>
+               <placeName xml:id="name000048i-2" type="building-name" xml:lang="zh-Hant">東嶽祠</placeName>
+               <placeName xml:id="name000048i-3" type="building-name" xml:lang="zh-Hans">东岳祠</placeName>
+               <placeName xml:id="name000048i-4" type="building-name" xml:lang="zh-latn-pinyin">Dōngyuècí</placeName>
+               <placeName xml:id="name000048i-5" type="building-name" xml:lang="zh-latn-wadegile">Tung-yüeh-tz'u</placeName>
+               <placeName xml:id="name000048i-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">東嶽廟</placeName>
+               <placeName xml:id="name000048i-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">东岳庙</placeName>
+               <placeName xml:id="name000048i-8" type="alternate" subtype="building-name" xml:lang="en"> Temple to the Eastern Peak</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048i</idno>
+               <state type="existence" from="1500-01-01" to="1800-01-01">
                   <label>Date</label>
-                  <desc>1522-1567</desc>
+                  <desc>1500-1800</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048d-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048i-1" from="1368-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
+                  <desc>Ming 1368 - 1644, Qing 1644 - 1912</desc>
                </state>
                <desc></desc>
                <!-- 
@@ -77,19 +80,19 @@
                -->
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">gazebo</desc>
-                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl000048d-1">
+               <bibl xml:id="bibl000048i-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048i" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048i" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
