@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Descendants’ Hall <foreign xml:lang="zh-Hant">晉祠苗裔堂</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="LS">Liyan Shen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048w/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-10-23-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048w" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048w-1" xml:lang="en">Descendants’ Hall</placeName>
+               <placeName xml:id="name000048w-2" type="building-name" xml:lang="zh-Hant">苗裔堂</placeName>
+               <placeName xml:id="name000048w-3" type="building-name" xml:lang="zh-Hans">苗裔堂</placeName>
+               <placeName xml:id="name000048w-4" type="building-name" xml:lang="zh-latn-pinyin">Miáoyìtáng</placeName>
+               <placeName xml:id="name000048w-5" type="building-name" xml:lang="zh-latn-wadegile">Miao-i-t`ang</placeName>
+               <placeName xml:id="name000048w-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">苗裔廟</placeName>
+               <placeName xml:id="name000048w-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">苗裔庙</placeName>
+               <placeName xml:id="name000048w-8" type="alternate" subtype="building-name" xml:lang="en">Descendants’ Temple</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048w</idno>
+               <state type="existence" from="1511-01-01" to="1511-01-01">
+                  <label>Date</label>
+                  <desc>1511</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048d-1" from="1368-01-01" to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368 - 1644</desc>
+               </state>
+               <desc></desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">táng</desc>
+                  <desc xml:lang="zh-Hant">堂</desc>
+                  <desc xml:lang="zh-Hans">堂</desc>
+               </trait>
+               <bibl xml:id="bibl0000048w-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048w" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048w" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
