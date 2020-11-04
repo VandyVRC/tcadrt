@@ -70,11 +70,13 @@
                   <label>Date</label>
                   <desc>1563</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048b-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048b-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc>The Jinci Dressing Tower was added to the site in 1563.</desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048b-1">The Jinci Dressing Tower was added to the site in 1563.</p>
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -91,6 +93,9 @@
                   <desc xml:lang="zh-Hans">楼</desc>
                </trait>
                <bibl xml:id="bibl000048b-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">187-188</citedRange>
+               <bibl xml:id="bibl000048b-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
