@@ -62,7 +62,7 @@
                   <label>Date</label>
                   <desc>1770-1771</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048a-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048a-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
@@ -85,7 +85,11 @@
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
                <bibl xml:id="bibl000048a-1">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                  <citedRange unit="pp">16, 319</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
