@@ -65,11 +65,13 @@
                   <label>Date</label>
                   <desc>1000</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048e-1" from="960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048e-2" from="960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc></desc>
+               <desc>
+                  <p source="#bibl000048e-1">Unknown when name first attributed to this bridge, name comes from the Shuijingzhu description of the site. According to Lin Huiyin and Liang Sicheng, the present structure is consistent with the construction techniques of the Song dynasty, and should date to the same period as the Sage Mother Hall and Offering Hall.  Liu Yongde states that restoration of the bridge and pool underneath it in 1953 revealed the cavity for the spring directly underneath the Sage Mother Hall. The structure was such to suggest that they were built at the same time. (Liu Yongde, Jinci fengguang, 34.) More details on this bridge and "flying bridges" more generally can be found in Miller, 2007, 143-144.</p>    
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -86,6 +88,10 @@
                   <desc xml:lang="zh-Hans">梁</desc>
                </trait>
                <bibl xml:id="bibl000048e-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">143-144</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048e-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
