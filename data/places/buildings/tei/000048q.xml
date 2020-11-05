@@ -62,11 +62,22 @@
                   <label>Date</label>
                   <desc>1576-1606</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048q-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048q-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc></desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048q-1">"A memorial gateway was added in front of the Offering Hall and on axis with the Sage Mother Hall in 1576. The inscription on the gateway, sponsored by local officials and Confucian schoolmasters, was duiyue 對越, a phrase from the ode to the ancestral temple in the Sacrificial Odes of Zhou section of the Book of Odes (Shijing 詩經). ""Ah! Solemn is the ancestral temple in its pure stillness, Reverent and harmonious were the distinguished assistants; 
+                     Great was the number of the officers:
+                     [All] assiduous followers of the virtue of [king] Wen. 
+                     In response (duiyue) to him in heaven,
+                     Grandly they hurried about in the temple.
+                     Distinguished is he and honored,
+                     And will never be wearied among men.""
+                     於穆清廟。蕭雝顯相。濟濟多士。秉文之德。
+                     對越在天。駿奔走在廟。不顯不承。無射於人斯. (Miller 2007, 161-162)According Liu Dapeng, this structure was built in 1606, but this may have been a rebuilding because in the case of the Bell and Drum Towers also built in that year (the 34th year of the Wanli reign period) he uses “initially built.” At the time of his writing, the central space on the east side (facing toward the pathway of approach) was inscribed with ""Wangu liu fang"" 萬古流芳 (may your fragrance/influence flow through the ages) and the Duiyue plaque, which is dated 1576, was on the west side between the gateway and the Offering Hall. Peng Hai follows Liu Dapeng that this structure was built at the same time as the Bell and Drum Towers. Liu Yongde disagrees and places initial construction of the gateway in 1576 with the Duiyue plaque. 
+                     The Duiyue plaque was on the east side, visible to a devotee approaching the Sage Mother Hall, from at least the 18th century as it appears in this position on the Qianlong period painting of the site. An inscribed map of the site dated 1877 shows Wangu liu fang 萬古流芳 on the east façade of the gateway.
+                     Liu Yongde states that in 1956 four images were added to replace the Western-style buildings painted on the interior of the gateway in the early Minguo period. The additions were: east façade/left side: Yi Jiang gives Shu Yu his assigned name; east façade/right side: Shu Yu enfeoffed by his older brother King Cheng; west façade/left side: Earl Yao of Zhi floods Jinyang;  West façade/right side: Yu Rang 豫讓 attempts to stab Zhao Xiangzi 趙襄子 on the stone bridge."</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +94,10 @@
                   <desc xml:lang="zh-Hans">坊</desc>
                </trait>
                <bibl xml:id="bibl000048q-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">192-193</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048m-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
