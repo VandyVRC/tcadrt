@@ -62,13 +62,13 @@
                   <label>Date</label>
                   <desc>1522-1567</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048c-2" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048c-3" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p>The gazebos over both Perfect Benefit and Eternal Youth Springs were first built with imperial funds donated by the Northern Qi emperor Gao Yang during the Tianbao reign period when he visited the site (550-560 C.E.) The Perfect Benefit Spring gazebo was destroyed at the beginning of the Ming Zhengde period (1506-1522) and rebuilt in the Jiajing period (1522-1567) (Jincizhi, 66)</p>
-                  <p source="#bibl000048c-1">The name Shanli comes from the Daodejing, chapter 8, “The highest good (shangshan 上善) is like water; Water is good at benefiting (shanli 善利) the ten thousand things and yet it does not compete with them.  When this name was first used to describe the spring is uncertain, but it does appear in a stele inscription written by Yi Gou in 1267 CE.</p>    
+                  <p source="#bibl000048c-1">The gazebos over both Perfect Benefit and Eternal Youth Springs were first built with imperial funds donated by the Northern Qi emperor Gao Yang during the Tianbao reign period when he visited the site (550-560 C.E.) The Perfect Benefit Spring gazebo was destroyed at the beginning of the Ming Zhengde period (1506-1522) and rebuilt in the Jiajing period (1522-1567) (Jincizhi, 66)</p>
+                  <p source="#bibl000048c-2">The name Shanli comes from the Daodejing, chapter 8, “The highest good (shangshan 上善) is like water; Water is good at benefiting (shanli 善利) the ten thousand things and yet it does not compete with them.  When this name was first used to describe the spring is uncertain, but it does appear in a stele inscription written by Yi Gou in 1267 CE.</p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -85,16 +85,14 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <listBibl xml:id="biblk000048a-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">66</citedRange>
-                  </bibl>
+               <bibl xml:id="biblk000048a-1">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                  <citedRange unit="pp">66</citedRange>
+               </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                      <citedRange unit="pp">188</citedRange>
                   </bibl>
-               </listBibl> 
                <bibl xml:id="bibl000048c-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
