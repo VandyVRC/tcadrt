@@ -65,11 +65,13 @@
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048j-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048j-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
-               <desc></desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048j-1">The present structure was built in the 38th year of Qianlong period (1773). According to the stele inscription by Yang Eryou 楊二酉 documenting that construction, the shrine was originally a one-bay wide building on the south bank of the Earl of Zhi canal. During the Yongzheng period (1723-1736) it was moved to a location on the north side of the canal. In 1763, with the completion of the pagoda in Fengshengyuan 奉聖院, a new site was divined and the building was built on previous endowed temple lands (香火地) located north of the canal (JCZ 41-43).  Originally Jin River Worthies Shrine dedicated to 5 worthies and was located in the Jinxi Academy. In the 38 year of the Qianlong reign, when the Wenchang Temple-Palace was built, the shrine was moved to the central cavern below the Wenchang  ge-pavilion and was changed to include seven worthies, they are: from the Zhou dynasty: Yu Rang 豫讓 (mid-5th century BCE); from the Tang dynasty: Li Bai 李白 (701-762) and Bai Juyi 白居易 (772-846); from the Song dynasty: Fan Zhongyan 范仲淹 (989-1052) and Ouyang Xiu 歐陽修 (1007-1072); from the Ming dynasty: Yu Qian 于謙 (1398-1457) and Wang Qiong 王瓊 (1459-1532) (JCZ 43).</p>    
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -85,7 +87,17 @@
                   <desc xml:lang="zh-Hant">宮</desc>
                   <desc xml:lang="zh-Hans">宮</desc>
                </trait>
-               <bibl xml:id="bibl000048j-1">
+               <listBibl xml:id="biblk000048j-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">41-43</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">190-191</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000048j-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
