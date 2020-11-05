@@ -62,11 +62,12 @@
                   <label>Date</label>
                   <desc>1600-1900</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048n-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048n-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc></desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048n-1">The name likens Jinci to the famous Isle of Transcendents, Yingzhou 瀛洲. First construction unknown, located between the Jinqingmen and the Eternal Youth Spring. Thought to be built at the beginning of the Qing.  Liu Yongde states that the style of the building is consistent with late Ming or early Qing structures, and that it was likely named in response to the poem by Yu Qian which relates that because of Jinci’s beauty, local people say that it is a little Yingzhou.  The Qianlong period painting of the site shows this building, but does not appear in Gao Ruxing’s Taiyuan xianzhi.</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +84,10 @@
                   <desc xml:lang="zh-Hans">樓</desc>
                </trait>
                <bibl xml:id="bibl000048n-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">192</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048n-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
