@@ -67,7 +67,8 @@
                   <desc>Ming 1368 - 1644</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000048s-1">" Located on the left (north) side of the offering Hall. First built in 1606, repaired in 1844 (JCZ, 73)"</p></desc>
+                  <p source="#bibl000048s-1">Located on the left (north) side of the offering Hall. First built in 1606, repaired in 1844.</p>
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,10 +84,16 @@
                   <desc xml:lang="zh-Hant">樓</desc>
                   <desc xml:lang="zh-Hans">楼</desc>
                </trait>
-               <bibl xml:id="bibl000048s-1">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">193</citedRange>
-               </bibl>
+               <listBibl xml:id="bibl000048r-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">74</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">193</citedRange>
+                  </bibl>
+               </listBibl>
                <bibl xml:id="bibl000048s-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
