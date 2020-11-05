@@ -62,11 +62,13 @@
                   <label>Date</label>
                   <desc>Pre 1551</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048f-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048f-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc></desc>
+               <desc>
+                  <p source="#bibl000048f-1">This pool has three names: Octagonal Pool, Pool for Liberating Captive Animals 放生池, and Lotus Pool 蓮花池. Located in front of the Shu Yu shrine, it is filled by water from the Perfect Benefit Spring and the water from the pool in front of the Sage Mother Hall (Yu zhao shui 魚沼水).  No date of earliest construction given. The Octagonal Pool is not mentioned in Yi Gou’s description of the site from 1267, nor in the description found in Wang Sicheng's the record of the 1342 repair. It does appear on the 1551 Jinci zhitu published in Gao Ruxing's  Taiyuan xianzhi.</p>    
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +85,10 @@
                   <desc xml:lang="zh-Hans">池</desc>
                </trait>
                <bibl xml:id="bibl000048f-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">189</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048f-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
