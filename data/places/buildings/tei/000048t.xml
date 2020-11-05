@@ -62,11 +62,14 @@
                   <label>Date</label>
                   <desc>1770</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048t-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048t-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
-               <desc></desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048t-1">"Located on the southeast corner of the TSY Shrine. According to Liu Dapeng, this pavilion was originally only one bay facing west, first built in the 21st year of the Tang Zhenguan reign period (647), and repaired over the dynasties. Liu Dapeng and Liu Yongde both state that in the 35th year of the Qianlong reign (1770) it was expanded to three bays and the foundation was moved to be reoriented southward.  Gao Ruxing’s 1551 Jinci zhitu shows a small stele gazebo to the east of the TSY Shrine clearly oriented southward.
+                     There is some reason to doubt that the original pavilion at Jinci was built during the seventh century. The Yuanhe junxian tuzhi of 813 documents that the stele was located on Qianyangmen jie 乾陽門街 in Taiyuan prefecture.  A pavilion for the stele is not discussed in either of the two Yuan dynasty records describing the site. 
+                     The two stelea within the pavilion are the Taizong original and a recarving of the Taizong stele completed in the 37th year of the Qianlong period (1772) following the original."</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +86,10 @@
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
                <bibl xml:id="bibl000048t-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">193-194</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048t-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
