@@ -62,11 +62,13 @@
                   <label>Date</label>
                   <desc>1737</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048l-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048l-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>ter the
-               <desc></desc>
+               <desc>
+                  <p source="#bibl000048l-1">Originally two temples dedicated to the Medicine King (Yaowang 藥王) and the True Lord  (Zhenjun 真君). In the second year of the Qianlong period (1737) they were combined into one temple and, with the addition of the Dragon King (Longwang 龍王) it was called the Shrine of the Three Kings 三王祠 which was later changed to the Shrine of the Three Sages. The Medicine King is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Black Dragon King at right. A short wall surrounds the building, and there is an entrance is through a fang 坊 gateway which serves as the front gate to the complex (JCZ 32-33).</p>
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +85,10 @@
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
                <bibl xml:id="bibl000048l-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">191</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048l-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
