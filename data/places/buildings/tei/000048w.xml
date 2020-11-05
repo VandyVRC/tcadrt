@@ -65,11 +65,12 @@
                   <label>Date</label>
                   <desc>1511</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048w-1" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048w-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368 - 1644</desc>
                </state>
-               <desc></desc>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000048w-1">Date of first construction unknown; Liu Dapeng states that Descendants’ Hall was rebuilt in 1st year of the Song Zhenghe reign period (1111) and repaired in the 6th year of the Ming Zhengde reign period (1511).49 Liu Yongde maintains that the hall was rebuilt in the 1st year of the Yuan Zhihe reign period (1328) and repaired in 1511. It contains images of female deities, which are thought to be Ming-dynasty works.</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -86,6 +87,10 @@
                   <desc xml:lang="zh-Hans">堂</desc>
                </trait>
                <bibl xml:id="bibl000048w-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">195</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048w-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
