@@ -62,11 +62,25 @@
                   <label>Date</label>
                   <desc>116</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048g-1" from="202BCE-01-01" to="220CE-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048g-2" from="202BCE-01-01" to="220CE-01-01">
                   <label>Dynasty</label>
                   <desc>Han 202 BCE - 220 CE</desc>
                </state>
-               <desc></desc>
+               <desc>
+                  <p source="#bibl000048g-1">Also called Haiqing beihe 海清北河, the Earl of Zhi Canal winds from the
+                     Eternal Youth Spring eastward, then turns northward to flow underneath
+                     the Meeting Transcendents Bridge, turning eastward again where it would
+                     have originally been further filled with the water from both the spring underneath
+                     the Sage Mother Hall and Perfect Benefit Spring, to then travel
+                     underneath the bridges leading to the Mt. Tai and Wenchang ritual complexes.
+                     Finally, after passing the Wenchang Temple Palace, it turns southward
+                     and again eastward flowing out of the complex and into the irrigation
+                     canals in the northern portion of the community around Jinci Town. Portions
+                     of this canal may date to the Han dynasty expansion of the irrigation
+                     network stemming from the Jin Springs in 116 ce, which may, ultimately,
+                     have its origin in the canals used by the Earl of Zhi to flood Jinyang in the
+                     mid-5th century bce.</p>    
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -83,6 +97,10 @@
                   <desc xml:lang="zh-Hans">渠</desc>
                </trait>
                <bibl xml:id="bibl000048g-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">189</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048g-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
