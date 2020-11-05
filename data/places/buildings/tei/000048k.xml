@@ -62,11 +62,13 @@
                   <label>Date</label>
                   <desc>1795</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048k-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048k-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>ter the
-               <desc></desc>
+               <desc>  
+                  <p source="#bibl000048k-1">Built during the Qianlong period, this stage faces the Haotianshen Shrine (JCZ 76-77).  Liu Yongde states that it was constructed at the same time as the shrine expansion (Liu Yongde, Jinci fengguang, 71).  Juntian is the central of the nine heavens and the palace of Shangdi 上帝. The music produced in Juntian is called Juntian guangyue 鈞天廣樂.  Song Naizhong suggests that the name is thus another way of describing the music of transcendent beings (xianyue zhi daicheng 仙樂之代稱) Song Naizhong, Jinci lüyou, 12).  Additionally, Juntianyue is the name of a chuanqi 傳奇 drama written by You Tong 尤侗 (1618–1704).  Given that the structure was built in the late 18th century, it is possible that the name may also allude to this work.</p>
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -82,7 +84,17 @@
                   <desc xml:lang="zh-Hant">臺</desc>
                   <desc xml:lang="zh-Hans">台</desc>
                </trait>
-               <bibl xml:id="bibl000048k-1">
+               <listBibl xml:id="biblk000048k-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">76-77</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">190-191</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000048k-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
