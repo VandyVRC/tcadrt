@@ -65,11 +65,12 @@
                   <label>Date</label>
                   <desc>1342-1877</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048i-1" from="1279-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048i-2" from="1279-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Yuan - Qing</desc>
+                  <desc>Yuan - Qing 1279 - 1912</desc>
                </state>
-               <desc></desc>
+               <desc> <p source="#bibl000048i-1">The earliest documentation of a temple to the Eastern Peak at Jinci is in Wang Sicheng’s stele inscription of 1342 where it was called the Temple to Mount Tai (Taishanmiao 泰山廟). Gao Ruxing also shows a Temple to Mount Tai on his map of Jinci published in 1551 (Gao Ruxing, Taiyuan xianzhi 1/11a and Jinci zhitu )  and it was still called this in a 1567 repair inscription (JCZ 29).  However, Liu Dapeng was uncertain of the age of the temple. By his time, the temple had also been changed from Temple to Mount Tai to Shrine to the Eastern Peak (Dongyueci 東嶽祠). The shrine was repaired in 1825 and 1877 (JCZ 29).</p>    
+               </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -85,7 +86,17 @@
                   <desc xml:lang="zh-Hant">祠</desc>
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl000048i-1">
+               <listBibl xml:id="biblk000048i-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">29</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">190</citedRange>
+                  </bibl>
+               </listBibl> 
+               <bibl xml:id="bibl000048i-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
