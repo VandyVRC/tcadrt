@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000190/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048x/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -54,22 +54,22 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000190" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000190-1" xml:lang="en">Sage Mother Hall</placeName>
-               <placeName xml:id="name000190-2" type="building-name" xml:lang="zh-Hant">聖母殿</placeName>
-               <placeName xml:id="name000190-3" type="building-name" xml:lang="zh-Hans">圣母殿</placeName>
-               <placeName xml:id="name000190-4" type="building-name" xml:lang="zh-latn-pinyin">Shèngmǔdiàn</placeName>
-               <placeName xml:id="name000190-5" type="building-name" xml:lang="zh-latn-wadegile">Sheng-mu-tien</placeName>
-               <placeName xml:id="name000190-6" type="building-name" xml:lang="en">Holy Mother Hall</placeName>
-               <placeName xml:id="name000190-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Shengmudian</placeName>
-               <placeName xml:id="name000190-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠聖母殿</placeName>
-               <placeName xml:id="name000190-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠圣母殿</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000190</idno>
+            <place xml:id="place-000048x" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048x-1" xml:lang="en">Sage Mother Hall</placeName>
+               <placeName xml:id="name000048x-2" type="building-name" xml:lang="zh-Hant">聖母殿</placeName>
+               <placeName xml:id="name000048x-3" type="building-name" xml:lang="zh-Hans">圣母殿</placeName>
+               <placeName xml:id="name000048x-4" type="building-name" xml:lang="zh-latn-pinyin">Shèngmǔdiàn</placeName>
+               <placeName xml:id="name000048x-5" type="building-name" xml:lang="zh-latn-wadegile">Sheng-mu-tien</placeName>
+               <placeName xml:id="name000048x-6" type="building-name" xml:lang="en">Holy Mother Hall</placeName>
+               <placeName xml:id="name000048x-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Shengmudian</placeName>
+               <placeName xml:id="name000048x-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠聖母殿</placeName>
+               <placeName xml:id="name000048x-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠圣母殿</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048x</idno>
                <state type="existence" from="1038-01-01" to="1087-01-01">
                   <label>Date</label>
                   <desc>1038-1087</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000190-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048x-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -87,32 +87,32 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000190-1">
+               <bibl xml:id="bibl000048x-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
                <!-- <note type="field-notes">Shengmudian 1038-1087-local and trans-local types of bracketing</note> -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000071" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000071" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000190" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000190" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000001" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048x" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048x" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
