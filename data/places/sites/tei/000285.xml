@@ -10,7 +10,7 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="SQ">Song Qisen</editor>
             <respStmt>
                <resp>Initial research 2020 by</resp>
@@ -18,7 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
