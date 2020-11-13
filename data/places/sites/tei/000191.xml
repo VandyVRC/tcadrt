@@ -194,9 +194,10 @@
                   passive="https://architecturasinica.org/keyword/k000085" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000191" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <relation ref="foaf:depicts"
+               <!--<relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49774706511_d80db334d5.jpg"
                   passive="https://architecturasinica.org/place/000191" ana="featured"/>
+                  -->
             </listRelation>
          </listPlace>
       </body>
