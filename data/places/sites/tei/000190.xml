@@ -115,8 +115,9 @@
                      <placeName xml:lang="zh-Hans">西湖区</placeName>
                   </region>
                </location> 
+               -->
                <location type="gps" subtype="preferred">
-                  <geo>30.242125 120.097605</geo>
+                  <geo> 34.091383 109.033876</geo>
                </location>
                <trait type="type" sub-type="site-type">
                   <label>Type </label>
@@ -125,6 +126,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
+               <!--
                <bibl xml:id="bibl000285-4">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11</citedRange>
