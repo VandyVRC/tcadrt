@@ -116,9 +116,8 @@
                   </region>
                   -->
                <location type="gps" subtype="preferred">
-                  <geo> 25.03694444 25.03694444</geo>
+                  <geo>25.03694444 25.03694444</geo>
                </location>
-               <!--  
                <trait type="type" sub-type="site-type">
                   <label>Type </label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
@@ -126,6 +125,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
+               <!--
                <bibl xml:id="bibl000285-4">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11</citedRange>
@@ -188,6 +188,10 @@
                   </bibl>
                   </listBibl>
                -->
+               <bibl xml:id="bibl000285-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">11</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000289"
