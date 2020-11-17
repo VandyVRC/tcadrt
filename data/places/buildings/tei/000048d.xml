@@ -102,6 +102,9 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+                <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50593599838_f0e012d461_c.jpg"
+                  passive="https://architecturasinica.org/place/000048d" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
