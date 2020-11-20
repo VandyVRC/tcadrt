@@ -52,7 +52,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000048u" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048u-1" xml:lang="en">Gong Shuzi Shrine Complex</placeName>
+               <placeName xml:id="name000048u-1" type="building-name" xml:lang="en">Gong Shuzi Shrine Complex</placeName>
                <placeName xml:id="name000048u-2" type="building-name" xml:lang="zh-Hant">公輸子祠</placeName>
                <placeName xml:id="name000048u-3" type="building-name" xml:lang="zh-Hans">公输子祠</placeName>
                <placeName xml:id="name000048u-4" type="building-name" xml:lang="zh-latn-pinyin">Gōngshūzicí</placeName>
@@ -66,7 +66,7 @@
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
-               <desc type="site-data" xml:lang="en">
+               <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048u-1">Gong Shuzi is the name of Lu Ban, the ancient craftsman, and a statue of him is worshiped in the main hall. The complex consists of a main hall of three bays, a surrounding wall, and an entry gateway. The original date of establishment is unknown and does not appear on Gao Ruxing’s Jinci zhitu. The statuary niche was repaired in the 8th year of the Yongzheng period (1730); the complex was repaired again in the 35th year of the Qianlong period (1770).</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
