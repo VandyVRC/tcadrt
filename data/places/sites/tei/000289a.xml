@@ -188,12 +188,11 @@
                -->
           </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000289"
-                  passive="https://architecturasinica.org/keyword/k000052"
-                  ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
+               <relation active="https://architecturasinica.org/place/000289a" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000289a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000289"/>
+               <relation active="https://architecturasinica.org/place/000289a" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
+               <relation active="https://architecturasinica.org/place/000289a" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
               <!-- <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49774706511_d80db334d5.jpg"
