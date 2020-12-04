@@ -177,10 +177,12 @@
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000289a" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-              <!-- <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49774706511_d80db334d5.jpg"
-                  passive="https://architecturasinica.org/place/000289a" ana="featured"/>
-                  -->
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50670316876_14e2669594_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50670415122_3d107176a7_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
