@@ -142,8 +142,7 @@
                      <ptr target="https://architecturasinica.org/bibl/6CNMZWS4"/>
                      <citedRange unit="pp">216</citedRange>
                   </bibl>
-               <!--
-          </place>
+                     </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000289"
                   passive="https://architecturasinica.org/keyword/k000052"
@@ -153,11 +152,12 @@
                <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49774706511_d80db334d5.jpg"
+                 active="https://live.staticflickr.com/65535/50670316676_46be23fba9_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50682538933_8c73183128_c.jpg"
                   passive="https://architecturasinica.org/place/000289" ana="featured"/>
             </listRelation>
-            -->
-            </place>
          </listPlace>
       </body>
    </text>
