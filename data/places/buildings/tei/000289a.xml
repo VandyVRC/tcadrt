@@ -65,9 +65,9 @@
                   <desc>Founded in the Qing Dynasty</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000289a-1"></p>
-                  <p source="#bibl000289a-2"></p>
-                  <p source="#bibl000289a-3"></p>
+                  <p source="#bibl000289a-1">The main hall of Longshan Monastery is dedicated to Princess Miaoshan in her manifestation as Guanyin. It is five bays across the front façade, with a double-eaves hip-gable roof. It is elevated on a stone-faced platform, and with a one-bay wide terrace extending out in front of the central bay.</p>
+                  <p source="#bibl000289a-2">Glen Dudbridge and Yü Chün-fang have traced the Miaoshan legend to the “Dabei pusa zhuan”  composed by Northern Song academician, Jiang Zhiqi’s (蔣之奇1031-1104), with calligraphy by Cai Jing 蔡京 (d. 1126). The text was inscribed on the ‘Miaoshan’ stone stele in 1100. The re-engraved stone stele, dated 1308, still stands in a crypt below the pagoda of the Xiangshan Monastery in Baofeng County, Henan, China. It measures 222 cm in height and 146 cm in width. The top is broken off unevenly, leaving varying amounts of text missing.</p>
+                  <p source="#bibl000289a-3">According to the legend, Miaoshan was the third daughter of King Zhuang of Chu (楚荘王, 613-591 BCE). From a young age, she was naturally drawn to Buddhism. When she came of age, she refused to marry, unlike her two elder sisters. Angered by this, her father subjected Miaoshan to hard labor. When she finally finished her tasks, she was allowed to practice Buddhism at a nunnery. Her success in the nunnery further angered her father, who ultimately burned the nunnery down, killing five hundred nuns. He then executed Miaoshan for her unfilial behavior. Although her body was guarded by a mountain spirit on earth, as a spirit, Miaoshan helped souls in hell and meditated for nine years on earth, achieving enlightenment. By this time, the king had fallen seriously ill. The only remedy was a medicine concocted with the eyes and hands of someone who had never felt anger. Thus, Miaoshan willingly offered her eyes and hands. The father miraculously recovered and discovered that his savior was his own daughter. Overwhelmed with remorse, the entire royal family converted to Buddhism. Miaoshan transformed into her true form: the Thousand-eyed and Thousand-armed Guanyin.</p>
                </desc>
                <desc type="building-data" xml:lang="zh-Hant">
                </desc>
@@ -106,10 +106,22 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000289a-4">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11</citedRange>
+               <bibl xml:id="bibl000289a-3">
+                  <ptr target="https://architecturasinica.org/bibl/NM87R74S"/>
+                  <citedRange unit="pp">293-301</citedRange>
                </bibl>
+               <listBibl xml:id="bibl000289a-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UMNPX4MR"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target=" https://architecturasinica.org/bibl/NM87R74S"/>
+                  </bibl>
+                  <bibl xml:id="bibl000289a-1">
+                     <ptr target="https://architecturasinica.org/bibl/NM87R74S"/>
+                     <citedRange unit="pp">293-301</citedRange>
+                  </bibl>
+               </listBibl>
                <!--
                <listBibl xml:id="bibl000285-1">
                   <bibl>
