@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Shu Yu of Tang Shrine Complex <foreign xml:lang="zh-Hant">唐叔虞祠</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="WO">Waka Ogihara</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-10-22-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048a-1" xml:lang="en">Shu Yu of Tang Shrine Complex</placeName>
+               <placeName xml:id="name000048a-2" type="building-name" xml:lang="zh-Hant">唐叔虞祠</placeName>
+               <placeName xml:id="name000048a-3" type="building-name" xml:lang="zh-Hans">唐叔虞祠</placeName>
+               <placeName xml:id="name000048a-4" type="building-name" xml:lang="zh-latn-pinyin">Táng Shū Yú cí</placeName>
+               <placeName xml:id="name000048a-5" type="building-name" xml:lang="zh-latn-wadegile">T'ang Shu Yü tz'u</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048a</idno>
+               <state type="existence" from="1770-01-01" to="1771-01-01">
+                  <label>Date</label>
+                  <desc>1770-1771</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048a-2" from="1644-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qing 1644 - 1912</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048a-1">Although a King of Jin Shrine 晉王祠 was recorded in the <title>Weishu</title>, the first mention of a shrine dedicated to Shu Yu of Tang as an ancestor of the Jin State is in the Shuijingzhu 水經註, by Li Daoyuan 酈道元 (d. 527 CE). Rebuilt by Song Taizong (r. 976-997 CE) after his conquest of the Northern Han in 979 CE, the site was repeatedly damaged during the Jin, Yuan, and Ming conquests of the area. Construction of the presently extant complex was initiated in 1768 with a plan to build an offering hall on the foundation of the old main hall and a new main hall behind it. The mountainside rises more than a zhang 丈 (approximately ten feet) behind the main hall. Small doors to the right and left of the main hall link it to the east with the Haotianshenci 昊天神祠 and, originally, to the west with the Jingyiyuan 靜怡園 (JCZ, 16). According to the inscription for the repair, actual construction was begun in August/September of 1770 and completed in October/November of 1771 (JCZ 319). For more information on the development of the Shrine to Shu Yu of Tang see Miller "The Shrine of Shu Yu of Tang," in Miller 2007.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building-type">
+                  <label>Type</label>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
+               </trait>
+               <listBibl xml:id="bibl000048a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">16, 319</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">59-79; 187</citedRange>
+                  </bibl>
+               </listBibl> 
+               <bibl xml:id="bibl000048a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
+                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
