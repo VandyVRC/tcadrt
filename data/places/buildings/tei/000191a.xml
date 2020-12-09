@@ -58,13 +58,13 @@
                <placeName xml:id="name000191a-4" type="building-name" xml:lang="zh-latn-pinyin">Lónghuá tǎ</placeName>
                <placeName xml:id="name000191a-5" type="building-name" xml:lang="zh-latn-wadegile">Lung-hua t`a</placeName>
                <idno type="URI">https://architecturasinica.org/place/000191a</idno>
-               <state type="existence" from="247-01-01" to="247-01-01">
+               <state type="existence" from="977-01-01" to="977-12-31">
                   <label>Date</label>
-                  <desc>247</desc>
+                  <desc>977</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048a-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000191a-2" from="960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
-                  <desc>Three Kingdoms 220-280</desc>
+                  <desc>Northern Song 960-1127</desc>
                   <!--
                </state>
                <desc type="building-data" xml:lang="en">
@@ -78,13 +78,17 @@
                <location type="verbatim">
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
+               -->
+               </state>
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
-                  <desc xml:lang="en">shrine</desc>
-                  <desc xml:lang="zh-latn-pinyin">cí</desc>
-                  <desc xml:lang="zh-Hant">祠</desc>
-                  <desc xml:lang="zh-Hans">祠</desc>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
                </trait>
+               <!--
                <listBibl xml:id="bibl000048a-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
@@ -110,8 +114,8 @@
                   active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
                   passive="https://architecturasinica.org/place/000048a" ana="featured"/>
             </listRelation>
+            -->
          </listPlace>
       </body>
    </text>
 </TEI>
--->
