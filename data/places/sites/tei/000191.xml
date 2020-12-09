@@ -196,10 +196,12 @@
                   passive="https://architecturasinica.org/keyword/k000085" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000191" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49774706511_d80db334d5.jpg"
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/4027860080_8823926438_c.jpg"
                   passive="https://architecturasinica.org/place/000191" ana="featured"/>
-                  -->
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50699427131_2da34d06b3_c.jpg"
+                  passive="https://architecturasinica.org/place/000191" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
