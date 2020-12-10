@@ -7,7 +7,7 @@
             <title level="a" xml:lang="en">Longhua Monastery, Longhua Pagoda <foreign xml:lang="zh-Hant">龍華寺龍華塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" xml:id="LS">Liyan Shen</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
@@ -15,7 +15,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="LS">Liyan Shen</name>
+               <name type="person" ref="#LS">Liyan Shen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -43,16 +43,13 @@
             <language ident="zh-Hans">Simplified Chinese</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
-      </profileDesc>
-      <revisionDesc>
-         <change n="1.0" who="#LS" when="2020-12-08-04:00">CREATED: place record</change>
-      </revisionDesc>
+      </profileDesc>    
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000191a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000191a-1" xml:lang="en">Longhua Pagoda</placeName>
+               <placeName xml:id="name000191a-1" type="building-name" xml:lang="en">Longhua Pagoda</placeName>
                <placeName xml:id="name000191a-2" type="building-name" xml:lang="zh-Hant">龍華塔</placeName>
                <placeName xml:id="name000191a-3" type="building-name" xml:lang="zh-Hans">龙华塔</placeName>
                <placeName xml:id="name000191a-4" type="building-name" xml:lang="zh-latn-pinyin">Lónghuá tǎ</placeName>
@@ -65,8 +62,8 @@
                <state type="existence" subtype="dynasty" source="#bibl000191a-2" from="960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960-1127</desc>
-                  <!--
                </state>
+                  <!--
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048a-1">Although a King of Jin Shrine 晉王祠 was recorded in the <title>Weishu</title>, the first mention of a shrine dedicated to Shu Yu of Tang as an ancestor of the Jin State is in the Shuijingzhu 水經註, by Li Daoyuan 酈道元 (d. 527 CE). Rebuilt by Song Taizong (r. 976-997 CE) after his conquest of the Northern Han in 979 CE, the site was repeatedly damaged during the Jin, Yuan, and Ming conquests of the area. Construction of the presently extant complex was initiated in 1768 with a plan to build an offering hall on the foundation of the old main hall and a new main hall behind it. The mountainside rises more than a zhang 丈 (approximately ten feet) behind the main hall. Small doors to the right and left of the main hall link it to the east with the Haotianshenci 昊天神祠 and, originally, to the west with the Jingyiyuan 靜怡園 (JCZ, 16). According to the inscription for the repair, actual construction was begun in August/September of 1770 and completed in October/November of 1771 (JCZ 319). For more information on the development of the Shrine to Shu Yu of Tang see Miller "The Shrine of Shu Yu of Tang," in Miller 2007.</p>
                </desc> 
@@ -79,7 +76,6 @@
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
                -->
-               </state>
                <trait type="type" sub-type="building-type">
                   <label>Type</label>
                   <desc xml:lang="en">pagoda</desc>
@@ -103,18 +99,15 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000191a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000191a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000191"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
+                  active="https://live.staticflickr.com/2458/4027848310_036df8a4c6_c.jpg"
                   passive="https://architecturasinica.org/place/000048a" ana="featured"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
-                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
-            </listRelation>
-            -->
+                         </listRelation>
          </listPlace>
       </body>
    </text>
