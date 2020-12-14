@@ -63,17 +63,15 @@
                <placeName xml:id="name000191-6" type="alternate" xml:lang="zh-Hant">空相寺</placeName>
                <placeName xml:id="name000191-7" type="alternate" xml:lang="zh-Hans">空相寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000285</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000191-4" from="0317-01-01" to="2020-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000191-2" from="0317-01-01" to="2020-01-01">
                   <label>Dynasty</label>
                   <desc>Founded in the Eastern Jin Dynasty</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000285-1"></p>
-                  <p source="#bibl000285-2"></p>
-                  <p source="#bibl000285-3"></p>
-               </desc>
+                  <p source="#bibl000285-1">Longhua Monastery is located at Longhua town. According to Sutra on the Descent of Maitreya, Maitreya Bodhisattva became a buddha in the human realm under a Longhua tree. Therefore, the monastery was named Longhua Monastery. According to ancient legend, its construction started during the Chiwu reign period of the Wu Kingdom (238-251). The current buildings were rebuilt at Guangxu era in Qing dynasty (1875-1909). The main buildings on the central axis are the  Mountain Gate, Maitreya Hall, Hall of the Celestial Kings Hall (Jingangdian金剛殿), Daxiongbao Hall (Mahavira Treasure Hall), and Hall of the Three Sages. Other buildings include the Abbot’s Quarters, bell tower, drum tower, Hall of Avalokitêśvara, Arhats’ Hall. Off axis, across from the Mountain Gate, is the Longhua Pagoda, the core structure of which has been dated to 977 CE. The third day of the third month of the lunar calendar is the day of nirvana for Budai Heshang, the Sinitic avatar of the Maitreya Buddha. As the site of enlightenment for Budai, Longhua Monastery hosts big temple fair on that day. In 1927, however, the Longhua area was used by members of the Chinese Nationalist Party as an execution ground for members of the Chinese Communist Party.</p>
+               </desc> 
                <desc xml:lang="zh-Hant">
-<p></p>
+                  <p>龍華寺位於上海龍華鎮。根據《彌勒下生經》，彌勒菩薩下生時在一棵龍華樹下成佛，於是此寺被命名為龍華寺。據傳說龍華寺始建於三國吳赤烏年間 (238-251)。龍華寺內的現存建築主要為清光緒年間重建。中軸線主要建築物有：山門、彌勒殿、天王殿(金剛殿 )、大雄寶殿、三聖殿.兩旁有方丈室、鐘鼓樓、觀音殿、羅漢堂等。彌勒菩薩的化身布袋和尚的涅槃日為農曆三月初三。作為彌勒道場的龍華寺在這一天會舉行龍華廟會。927年龍華一帶被國民黨設置為殺害共產黨人的刑場。</p>
 <p></p>
 <p></p>
                </desc>
@@ -124,24 +122,25 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <!--
-               <bibl xml:id="bibl000285-4">
+               <bibl xml:id="bibl000191-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11</citedRange>
                </bibl>
-               <listBibl xml:id="bibl000285-1">
+               <listBibl xml:id="bibl000191-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/BQCYEAW8"/>
-                     <citedRange unit="pp">368</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/NX3RN4QZ"/>
+                     <citedRange unit="pp">818-819</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/W8UD2B9E"/>
-                     <citedRange unit="pp">1</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/A5MC4XIJ"/>
+                     <citedRange unit="pp">377</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                     <citedRange unit="pp">26</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/XPCJMZIE"/>
+                     <citedRange unit="pp">110</citedRange>
                   </bibl>
+                  </listBibl>
+               <!--
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/QT5K96MP"/>
                      <citedRange unit="pp">194</citedRange>
