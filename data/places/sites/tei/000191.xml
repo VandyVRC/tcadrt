@@ -9,12 +9,12 @@
             <title level="a" xml:lang="en">Longhua Monastery <foreign xml:lang="zh-Hant">龍華寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="LS">Liyan Shen</editor>
             <respStmt>
                <resp>Initial research 2020 by</resp>
-               <name type="person">Liyan Shen</name>
+               <name type="person" ref="#LS">Liyan Shen</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -72,8 +72,6 @@
                </desc> 
                <desc xml:lang="zh-Hant">
                   <p>龍華寺位於上海龍華鎮。根據《彌勒下生經》，彌勒菩薩下生時在一棵龍華樹下成佛，於是此寺被命名為龍華寺(何 2006, 818-819 )。據傳說龍華寺始建於三國吳赤烏年間 (238-251) (任 2002, 377)。龍華寺內的現存建築主要為清光緒年間 (1875-1909) 重建 (任 2002, 377)。中軸線主要建築物有：山門 (彌勒殿)、天王殿(金剛殿) (杨 1986, 275)、大雄寶殿、三聖殿, 方丈室、藏經樓. 兩旁有鐘鼓樓、觀音殿、羅漢堂等 (何 2006, 818-819). 彌勒菩薩的化身布袋和尚的涅槃日為農曆三月初三 (陈 2016, 110)。作為彌勒道場的龍華寺在這一天會舉行龍華廟會 (陈 2016,110 )。1927年龍華一帶被國民黨設置為殺害共產黨人的刑場 (杨 1986, 275)。</p>
-<p></p>
-<p></p>
                </desc>
                <note type="External Links">
                   <p>
