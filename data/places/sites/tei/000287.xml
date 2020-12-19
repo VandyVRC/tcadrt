@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Xiangshan Monastery <foreign xml:lang="zh-Hant">香山寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="WO">Waka Ogihara</editor>
+            <respStmt>
+               <resp>Initial research 2020 by</resp>
+               <name type="person" ref="#WO">Waka Ogihara</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000287/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-12-18-15:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2020-12-18" who="#WO">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000287" type="site">
+               <placeName xml:id="name000287-1" type="site-name" xml:lang="en">Xiangshan Monastery</placeName>
+               <placeName xml:id="name000287-2" type="site-name" xml:lang="zh-Hant">香山寺</placeName>
+               <placeName xml:id="name000287-3" type="site-name" xml:lang="zh-Hans">香山寺</placeName>
+               <placeName xml:id="name000287-4" type="site-name" xml:lang="zh-latn-pinyin">Xiāngshānsì</placeName>
+               <placeName xml:id="name000287-5" type="site-name" xml:lang="zh-latn-wadegile">Hsiang-shan-ssu</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000287</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000287-5" from="386-01-01"
+                  to="584-01-01">
+                  <label>Dynasty</label>
+                  <desc>Founded in the Northern Wei Dynasty</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000287-1">Located in the Wanhua District (formerly named Manka) of Taipei, Taiwan, Longshan Monastery was built in 1738 during the Qing Dynasty. It is considered to be one of the most important religious sites for the worship of Guanyin in Taiwan. Although it originated from China, the popular belief in Guanyin gradually changed and developed into a new type of cult in Taiwan. At Longshan Monastery it is generally believed that Guanyin Buddha was formerly Princess Miaoshan.</p>
+                  <p source="#bibl000287-2">Although Longshan Monastery is nearly 250 years old, it was rebuilt four times. The first complex was destroyed in an earthquake in June of 1815. The first reconstruction took place in October of that year. However, a typhoon brought its destruction once again in 1867. The second reconstruction followed two months later. The monastery’s decay led to the necessity for a third reconstruction in 1926. Yet, in 1945, the monastery was hit by Allied Forces during World War II. The fourth and final reconstruction, led by Wang Shinan 王世南 took place a few months later and was finished in 1959. Although the main hall was completely destroyed in the 1945 bombing, the sculpture of the Guanyin remained intact, sitting solemnly on its lotus seat.</p>
+                  <p source="#bibl000287-3">In the current building complex is oriented north-south, the Sanchuan Hall is the southernmost building on the central axis of the monastery, with the Dragon Gate to its east and the Tiger Gate to its west. On axis north of the Sanchuan Hall 三川殿 is the main hall 正殿, which holds the Guanyin Buddha sculpture. The Tianshang Shengmu Hall 天上聖母殿 is the northernmost building on the central axis, and is framed by the Wenchang Hall 文昌帝君殿 to its east, and the Guandi Hall located to its west. There are also structures running perpendicular to the three main halls which serve to create an enclosed complex of two courtyards. Within these structures, the bell tower is on the east facing the drum tower on the west and framing the first courtyard between the Sanchuan and the main hall. The Hua Tuo 華佗廳 office and Yuelao office 月老廳 are facing each other on the east and west, respectively, between the main hall and Tianshang Shengmu Hall. These buildings frame the back courtyard.</p>
+                  <p source="#bibl000287-4">On November 12, 2018, Longshan Monastery was named the 100th addition to Taiwan’s list of national monuments by the Ministry of Culture. Today, it is a popular location for both religious purposes and tourism.</p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/yyfeyac3">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/y3u6r9su">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/yxn3uhfw">百度百科</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/y6bbuxak">Official website</ref>
+                  </p>
+               </note>
+              <!-- <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8204093 http://vocab.getty.edu/page/tgn/8610174">
+                  <placeName>浙江省杭州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                     <placeName xml:lang="zh-Hant">浙江省</placeName>
+                     <placeName xml:lang="zh-Hans">浙江省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Hangzhou</placeName>
+                     <placeName xml:lang="zh-Hant">杭州</placeName>
+                     <placeName xml:lang="zh-Hans">杭州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Xihuqu</placeName>
+                     <placeName xml:lang="zh-Hant">西湖區</placeName>
+                     <placeName xml:lang="zh-Hans">西湖区</placeName>
+                  </region>
+                  -->
+               <location type="gps" subtype="preferred">
+                  <geo>25.03722222 121.50000000</geo>
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000289-1">
+                  <ptr target="https://architecturasinica.org/bibl/6CNMZWS4"/>
+                  <citedRange unit="pp">216</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000289-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7Q7UBSSK"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MWEZ4DSF"/>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000289-3">
+                  <ptr target="https://architecturasinica.org/bibl/93QMUSVZ"/>
+               </bibl>
+               <bibl xml:id="bibl000289-4">
+                  <ptr target="https://architecturasinica.org/bibl/93QMUSVZ"/>
+               </bibl>   
+               <bibl xml:id="bibl000289-5">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000289"
+                  passive="https://architecturasinica.org/keyword/k000052"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
+              <relation ref="foaf:depicts"
+                 active="https://live.staticflickr.com/65535/50670316676_46be23fba9_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50682538933_8c73183128_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
