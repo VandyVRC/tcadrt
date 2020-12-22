@@ -69,15 +69,21 @@
             <state type="existence" source="#biblk000101-1" from="1272" to="1368">
                <desc>1272 - 1368</desc>
             </state>
-            <note source="#biblk000101-2">Wilkinson dates the beginning of the Yuan dynasty to the fall of the Southern Song dynasty in 1279. However, this date does not apply to northern areas previously held by the <term ref="/keyword/k000036">Jin dynasty</term>. A Chinese-style calendar was used for the northern Mongol dynasty ruled by Kubilai Khan beginning in 1260 under the reign title of Zhongtong 中統. The title of Yuan for the dynasty was officially proclaimed on January 18, 1272.</note>
+            <note source="#biblk000101-2">Wilkinson dates the beginning of the Yuan dynasty to the fall of the Southern Song dynasty in 1279. However, this date does not apply to northern areas previously held by the <term ref="/keyword/k000036">Jin dynasty</term>. A Chinese-style calendar was used for the northern Mongol dynasty ruled by Kubilai Khan beginning in 1260 under the reign title of Zhongtong 中統. The title of Yuan for the dynasty was officially proclaimed on the fifteenth day (乙亥), eleventh month, eighth year of the Zhiyuan reign period (December 18, 1271).</note>
             <bibl xml:id="biblk000101-1">
                <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                <citedRange unit="pp">12</citedRange>
             </bibl>
-            <bibl xml:id="biblk000101-2">
+            <listBibl xml:id="biblk000101-2">
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/VEW6L2RT"/>
                <citedRange unit="pp">3-5</citedRange>
             </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/6NFE6DVA"/>
+                  <citedRange unit="pp">138</citedRange>
+               </bibl>
+            </listBibl>
             
             <idno type="URI">https://architecturasinica.org/keyword/k000101</idno>
          </entryFree>
