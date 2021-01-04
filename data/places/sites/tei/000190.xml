@@ -61,15 +61,13 @@
                <placeName xml:id="name000190-2" type="site-name" xml:lang="zh-latn-pinyin">Xìngjiàosì</placeName>
                <placeName xml:id="name000190-5" type="site-name" xml:lang="zh-latn-wadegile">Hsing-chiao-ssu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000190</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000190-4" from="0618-01-01"
-                  to="2020-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000190-2" notBefore="0618-01-01">
                   <label>Dynasty</label>
                   <desc>Founded in the Tang Dynasty</desc>
                </state>
-               <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000190-1"></p>
-                  <p source="#bibl000190-2"></p>
-                  <p source="#bibl000190-3"></p>
+               <desc type="site-data" xml:lang="en" source="#bibl000190-1">
+                  <p>Xingjiao Monastery was constructed in 669 to contain the relics of the monk Xuanzang 玄奘 (602-664), which were moved in that year from their original burial pagoda. After his death/nirvana in 664 CE, Xuanzang’s remains were initially interred in White Deer Cliff (Bailuyuan 白鹿原), on the east bank of the Chanhe river滻河, in the eastern suburbs of modern Xi’an. The name was given based on the Tang Suzong’s (r. 756-762) official bestowal of a plaque stating “flourishing teachings” 興教, onto the pagoda itself. </p>
+                  <p>The oldest buildings at the site are Xuanzong’s pagoda (669 CE), and the pagoda of two of his disciples, themselves rivals: Kuiji 窺基 (632–682; pagoda from 829) and the Silla monk Woncheuk (圓測 (613–696) ; pagoda from 1115 CE; Miller 90-91). The rest of the monastery was destroyed during the Tongzhi reign period (1861-1875) of the Qing dynasty. Rebuilding efforts, resulting in the current remaining buildings in the complex, were completed in 1922 and 1939 (ZGMSCD 1012).</p>
                </desc>
                <desc xml:lang="zh-Hant">
 <p></p>
@@ -126,69 +124,21 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <!--
-               <bibl xml:id="bibl000285-4">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11</citedRange>
+               <bibl xml:id="bibl000285-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
                <listBibl xml:id="bibl000285-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/BQCYEAW8"/>
-                     <citedRange unit="pp">368</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/IHT4K5KA"/>
+                     <citedRange unit="pp">90-91</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/W8UD2B9E"/>
-                     <citedRange unit="pp">1</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                     <citedRange unit="pp">26</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/QT5K96MP"/>
-                     <citedRange unit="pp">194</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/QM3MFV8M"/>
-                     <citedRange unit="pp">24-27</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                     <citedRange unit="pp">1012</citedRange>
                   </bibl>
                </listBibl>
-                  <listBibl xml:id="bibl000285-2">
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/W8UD2B9E"/>
-                        <citedRange unit="pp">3, 14</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/GDES9C5J"/>
-                        <citedRange unit="pp">57-58</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/DV6IFCIU"/>
-                        <citedRange unit="pp">1-25</citedRange>
-                     </bibl>
-               </listBibl>
-               <listBibl xml:id="bibl000285-3">
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/GRKVQMTC"/>
-                        <citedRange unit="pp">386-387</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
-                        <citedRange unit="pp">172</citedRange>
-                     </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/E6PAI25I"/>
-                     <citedRange unit="pp">27-30</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/M5WSTWDJ"/>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                     <citedRange unit="pp">26</citedRange>
-                  </bibl>
-                  </listBibl>
-                  -->
+               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000190"
