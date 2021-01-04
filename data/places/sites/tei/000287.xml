@@ -61,17 +61,15 @@
                <placeName xml:id="name000287-4" type="site-name" xml:lang="zh-latn-pinyin">Xiāngshānsì</placeName>
                <placeName xml:id="name000287-5" type="site-name" xml:lang="zh-latn-wadegile">Hsiang-shan-ssu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000287</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000287-5" from="386-01-01"
+               <!-- <state type="existence" subtype="dynasty" source="#bibl000287-5" from="386-01-01"
                   to="584-01-01">
                   <label>Dynasty</label>
                   <desc>Founded in the Northern Wei Dynasty</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000287-1">Located in the Wanhua District (formerly named Manka) of Taipei, Taiwan, Longshan Monastery was built in 1738 during the Qing Dynasty. It is considered to be one of the most important religious sites for the worship of Guanyin in Taiwan. Although it originated from China, the popular belief in Guanyin gradually changed and developed into a new type of cult in Taiwan. At Longshan Monastery it is generally believed that Guanyin Buddha was formerly Princess Miaoshan.</p>
-                  <p source="#bibl000287-2">Although Longshan Monastery is nearly 250 years old, it was rebuilt four times. The first complex was destroyed in an earthquake in June of 1815. The first reconstruction took place in October of that year. However, a typhoon brought its destruction once again in 1867. The second reconstruction followed two months later. The monastery’s decay led to the necessity for a third reconstruction in 1926. Yet, in 1945, the monastery was hit by Allied Forces during World War II. The fourth and final reconstruction, led by Wang Shinan 王世南 took place a few months later and was finished in 1959. Although the main hall was completely destroyed in the 1945 bombing, the sculpture of the Guanyin remained intact, sitting solemnly on its lotus seat.</p>
-                  <p source="#bibl000287-3">In the current building complex is oriented north-south, the Sanchuan Hall is the southernmost building on the central axis of the monastery, with the Dragon Gate to its east and the Tiger Gate to its west. On axis north of the Sanchuan Hall 三川殿 is the main hall 正殿, which holds the Guanyin Buddha sculpture. The Tianshang Shengmu Hall 天上聖母殿 is the northernmost building on the central axis, and is framed by the Wenchang Hall 文昌帝君殿 to its east, and the Guandi Hall located to its west. There are also structures running perpendicular to the three main halls which serve to create an enclosed complex of two courtyards. Within these structures, the bell tower is on the east facing the drum tower on the west and framing the first courtyard between the Sanchuan and the main hall. The Hua Tuo 華佗廳 office and Yuelao office 月老廳 are facing each other on the east and west, respectively, between the main hall and Tianshang Shengmu Hall. These buildings frame the back courtyard.</p>
-                  <p source="#bibl000287-4">On November 12, 2018, Longshan Monastery was named the 100th addition to Taiwan’s list of national monuments by the Ministry of Culture. Today, it is a popular location for both religious purposes and tourism.</p>
+              
                </desc>
+                -->
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/y8c22y47">Wikipedia (in English)</ref>
@@ -149,12 +147,13 @@
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-              <relation ref="foaf:depicts"
+              <!--  <relation ref="foaf:depicts"
                  active="https://live.staticflickr.com/65535/50670316676_46be23fba9_c.jpg"
                   passive="https://architecturasinica.org/place/000289" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50682538933_8c73183128_c.jpg"
                   passive="https://architecturasinica.org/place/000289" ana="featured"/>
+                  -->
             </listRelation>
          </listPlace>
       </body>
