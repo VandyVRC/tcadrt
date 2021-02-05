@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -52,6 +53,7 @@
       <body>
          <entryFree xml:id="beveled_linggong" type="architectural-feature">        
             <term xml:id="term-beveled_linggong-1" xml:lang="en">beveled linggong</term>
+            <term xml:id="term-beveled_linggong-5" type="preferred" xml:lang="zh-latn-pinyin-nt">mojiao linggong</term>
             <term xml:id="term-beveled_linggong-4" type="preferred" xml:lang="zh-latn-pinyin">mòjiǎo lìnggǒng (preferred)</term>
             <term xml:id="term-beveled_linggong-2" xml:lang="zh-Hant">抹角令栱</term>
             <term xml:id="term-beveled_linggong-3" xml:lang="zh-Hans">抹角令栱</term>
