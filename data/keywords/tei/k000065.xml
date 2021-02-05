@@ -34,6 +34,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -45,10 +46,11 @@
    <text>
       <body>
          <entryFree xml:id="pizhu_xiaang" type="architectural-feature">           
-            <term xml:id="term-pizhu_xiaang-1" xml:lang="en">split-bamboo descending cantilever </term>
-            <term xml:id="term-pizhu_xiaang-4" xml:lang="zh-latn-pinyin">pizhu xiaang</term>
+            <term xml:id="term-pizhu_xiaang-5" xml:lang="zh-latn-pinyin-nt" type="preferred">pizhu xiaang</term>
             <term xml:id="term-pizhu_xiaang-2" xml:lang="zh-Hant">批竹下昂</term>
             <term xml:id="term-pizhu_xiaang-3" xml:lang="zh-Hans">批竹下昂</term>
+            <term xml:id="term-pizhu_xiaang-4" xml:lang="zh-latn-pinyin">pīzhú xiàáng</term>
+            <term xml:id="term-pizhu_xiaang-1" xml:lang="en">split-bamboo descending cantilever </term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000065</idno>
             <gloss/>
             <listRelation>
