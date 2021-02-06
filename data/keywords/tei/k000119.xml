@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -72,12 +73,19 @@
    <text>
       <body>
          <entryFree xml:id="k000119" type="architectural-feature">
-            <term xml:id="term-k000119-1" xml:lang="en" type="preferred">crescent moon defensive walls (preferred)</term>
+            <term xml:id="term-k000119-1" xml:lang="zh-latn-pinyin-nt" type="preferred">yuecheng</term>
             <term xml:id="term-k000119-2" xml:lang="zh-Hant">月城</term>
             <term xml:id="term-k000119-3" xml:lang="zh-Hans">月城</term>
             <term xml:id="term-k000119-4" xml:lang="zh-latn-pinyin">yuèchéng</term>
             <term xml:id="term-k000119-5" xml:lang="Wade-Giles">yüeh-ch'eng</term>
             <term xml:id="term-k000119-6" xml:lang="en" type="literal_translation">crescent moon defensive walls (lit.)</term>
+            <term xml:id="term-k000119-7" xml:lang="en" type="ATTCAT_preferred">crescent moon defensive walls (ATTCAT preferred)</term>
+            
+            <note type="related concepts">
+               <p xml:id="related-concept-k000119-1" xml:lang="zh-Hant">城墻 chéngqiáng</p>
+               <p xml:id="related-concept-k000119-2" xml:lang="zh-Hant">城門 chéngmén</p>
+               <p xml:id="related-concept-k000119-3" xml:lang="zh-Hant" ref="/keyword/k000089">甕城 wèngchéng</p>
+            </note>
             <!--<note>
               <p source="biblk000113-3">(ATTCAT 2018)</p>
             </note>-->
