@@ -38,6 +38,7 @@
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -59,11 +60,11 @@
              A primary ritual hall, main/central room, or pavilion. Often used in compounds such as tingtang 廳堂 "mansion hall," diantang 殿堂 "palatial hall," or fotang 佛堂 "Buddha hall," etc. (T. Miller, 2020) 
             </gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
-         </entryFree>
-            <bibl xml:id="biblk000049-1">
+                   <bibl xml:id="biblk000049-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">444</citedRange>
             </bibl>
+         </entryFree>
       </body>
    </text>
 </TEI>
