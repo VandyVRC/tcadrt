@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -71,13 +72,14 @@
    <text>
       <body>
          <entryFree xml:id="k000123" type="architectural-feature">
-            <term xml:id="term-k000123-3" xml:lang="zh-latn-pinyin" type="preferred">yuètái (preferred)</term>
+            <term xml:id="term-k000123-3" xml:lang="zh-latn-pinyin-nt">yuetai</term>
             <term xml:id="term-k000123-1" xml:lang="zh-Hant">月臺</term>
             <term xml:id="term-k000123-2" xml:lang="zh-Hans">月台</term>
+            <term xml:id="term-k000123-8" xml:lang="zh-latn-pinyin">yuètái</term>
             <term xml:id="term-k000123-4" xml:lang="Wade-Giles">yüe-t'ai</term>
             <term xml:id="term-k000123-6" xml:lang="en" source="#biblk000123-2">front platforms</term>
             <term xml:id="term-k000123-7" xml:lang="en" source="#biblk000123-3">terraces</term>
-            <term xml:id="term-k000123-5" xml:lang="zh-latn-pinyin" source="#biblk000123-1">yuetai</term>
+            
             <note type="related concepts">
                <p xml:id="related-concept-k000123-1" xml:lang="zh-Hant">露台 lùtái</p>
             </note>

@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -71,12 +72,13 @@
    <text>
       <body>
          <entryFree xml:id="k000121" type="architectural-feature">
-            <term xml:id="term-k000121-3" xml:lang="zh-latn-pinyin" type="preferred">mǎmiàn (preferred)</term>
+            <term xml:id="term-k000121-9" xml:lang="zh-latn-pinyin-nt" type="preferred">mamian</term>
             <term xml:id="term-k000121-1" xml:lang="zh-Hant">馬面</term>
             <term xml:id="term-k000121-2" xml:lang="zh-Hans">马面</term>
+            <term xml:id="term-k000121-3" xml:lang="zh-latn-pinyin">mǎmiàn</term>
             <term xml:id="term-k000121-4" xml:lang="Wade-Giles">ma-mien</term>
             <term xml:id="term-k000121-5" xml:lang="en" type="literal_translation" source="#biblk000121-1">horse face (lit.)</term>
-            <term xml:id="term-k000121-7" xml:lang="en" source="#biblk000121-2">bastions</term>
+            <term xml:id="term-k000121-7" xml:lang="en" source="#biblk000121-2" type="ATTCAT preferred">bastions (ATTCAT preferred)</term>
             <term xml:id="term-k000121-6" xml:lang="en" source="#biblk000121-3">projecting bastions</term>
             <term xml:id="term-k000121-8" xml:lang="en" source="#biblk000121-4">salients</term>
             
