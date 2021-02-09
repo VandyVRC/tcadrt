@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000125" type="architectural-feature">
+            <term xml:id="term-k000125-4" xml:lang="zh-latn-pinyin-nt" source="#biblk000125-1">wudian</term>
             <term xml:id="term-k000125-1" xml:lang="zh-Hant">廡殿</term>
             <term xml:id="term-k000125-2" xml:lang="zh-Hans">庑殿</term>
-            <term xml:id="term-k000125-3" xml:lang="zh-latn-pinyin" type="preferred">wǔdiàn (preferred)</term>
-            <term xml:id="term-k000125-4" xml:lang="zh-latn-pinyin" source="#biblk000125-1">wudian</term>
+            <term xml:id="term-k000125-3" xml:lang="zh-latn-pinyin">wǔdiàn</term>
             <term xml:id="term-k000125-5" xml:lang="Wade-Giles">wu-tien</term>            
             <term xml:id="term-k000125-6" xml:lang="en" source="#biblk000125-2">hip roof</term>
             <term xml:id="term-k000125-7" xml:lang="en" source="#biblk000125-3">hipped roof</term>
