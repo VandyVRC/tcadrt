@@ -60,21 +60,18 @@
    <text>
       <body>
          <entryFree xml:id="k000129" type="architectural-feature">
-            <term xml:id="term-k000129-9" xml:lang="zh-latn-pinyin-nt" type="preferred">tingtang</term>
+            <term xml:id="term-k000129-4" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000129-1">tingtang</term>
             <term xml:id="term-k000129-1" xml:lang="zh-Hant">廳堂</term>
             <term xml:id="term-k000129-2" xml:lang="zh-Hans">厅堂</term>
             <term xml:id="term-k000129-3" xml:lang="zh-latn-pinyin">tīngtáng</term>           
-            <term xml:id="term-k000129-4" xml:lang="zh-latn-pinyin" source="#biblk000129-1">tingtang</term>
             <term xml:id="term-k000129-5" xml:lang="Wade-Giles">t'ing-t'ang</term>  
+            <term xml:id="term-k000129-8" xml:lang="en" source="#biblk000129-4" type="ATTCAT_preferred">masion hall (ATTCAT preferred)</term>
             <term xml:id="term-k000129-6" xml:lang="en" source="#biblk000129-2">tingtang construction</term>
             <term xml:id="term-k000129-7" xml:lang="en" source="#biblk000129-3">mansion type</term>
-            <term xml:id="term-k000129-8" xml:lang="en" source="#biblk000129-4">hall</term>
-
-            <!--  <note>
+            <!--note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
-            </note> -->
-            
-            <bibl xml:id="biblk000129-1">
+            </note-->
+                        <bibl xml:id="biblk000129-1">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>      
             <bibl xml:id="biblk000129-2">
@@ -83,9 +80,14 @@
             <bibl xml:id="biblk000129-3">
                   <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
             </bibl>
-            <bibl xml:id="biblk000129-4">
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+            <listBibl xml:id="biblk000129-4">
+            <bibl>
+               <ptr target="https://architecturasinica.org/bibl/8ICVFUBE"/>
              </bibl> 
+            <bibl>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+            </bibl> 
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000129</idno>
             <listRelation>
                <listRelation>
