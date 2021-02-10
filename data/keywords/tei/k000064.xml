@@ -63,6 +63,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -76,12 +77,13 @@
    <text>
       <body>
          <entryFree xml:id="k000064" type="architectural-feature">
-            <term xml:id="term-k000064-1" xml:lang="en" type="preferred" source="#biblk000064-1">leveling pillars (preferred)</term>
+            <term xml:id="term-k000064-8" xml:lang="zh-latn-pinyin-bt">pingzhu</term>
             <term xml:id="term-k000064-2" xml:lang="zh-Hant" source="#biblk000064-2">平柱</term>
             <term xml:id="term-k000064-3" xml:lang="zh-Hans">平柱</term>
             <term xml:id="term-k000064-4" xml:lang="zh-latn-pinyin">píngzhù</term>
             <term xml:id="term-k000064-5" xml:lang="Wade-Giles">p'ing-chu</term>
             <term xml:id="term-k000064-6" xml:lang="en" type="literal_translation">level pillars (lit.)</term>
+            <term xml:id="term-k000064-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000064-1">leveling pillars (preferred)</term>
             <term xml:id="term-k000064-7" xml:lang="en" source="#biblk000064-3">central bay columns</term>
             <note type="Note (brief)">
                <p xml:lang="en">In traditional Chinese timber-frame architecture, leveling pillars are the two eaves pillars framing the central bay on the sides of the building parallel to the roof ridge. Leveling pillars are used as a standard height for calculating the height of other pillars across the façade, as they increase in height from the center towards the corners of the building, allowing for an upward curvature of the eaves (生起 shengqi). The term appears in the <title re="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</title> (1103) and in other official documents written by officials during the <term ref="/keyword/k000074">Song</term> Dynasty (960-1279) to describe the architecture of mausolea. Modern architectural historians use this term to describe central-bay pillars on all sides of a building dating from the <term ref="/keyword/k000082">Tang</term> (618-907) to early <term ref="/keyword/k000051">Ming</term> (1368-1644) dynasties. </p> 
