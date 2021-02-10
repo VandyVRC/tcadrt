@@ -37,6 +37,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -47,21 +49,22 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="mansion-hall" type="building-type">
-            <term xml:id="term-mansion-hall-1" xml:lang="en">hall</term>
-            <term xml:id="term-mansion-hall-4" xml:lang="zh-latn-pinyin" source="#biblk000049-1">táng</term>
-            <term xml:id="term-feature_name-5" xml:lang="Wade-Giles">t'ang</term>
-            <term xml:id="term-mansion-hall-2" xml:lang="zh-Hant">堂</term>
-            <term xml:id="term-mansion-hall-3" xml:lang="zh-Hans">堂</term>
+         <entryFree xml:id="k000049" type="building-type">
+            <term xml:id="term-k000049-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000049-1" type="preferred">tang</term>
+            <term xml:id="term-k000049-2" xml:lang="zh-Hant">堂</term>
+            <term xml:id="term-k000049-3" xml:lang="zh-Hans">堂</term>
+            <term xml:id="term-k000049-4" xml:lang="zh-latn-pinyin" source="#biblk000049-1">táng</term>
+            <term xml:id="term-k000049-5" xml:lang="Wade-Giles">t'ang</term>
+            <term xml:id="term-k000049-6" xml:lang="en">hall</term>
             <gloss>
              A primary ritual hall, main/central room, or pavilion. Often used in compounds such as tingtang 廳堂 "mansion hall," diantang 殿堂 "palatial hall," or fotang 佛堂 "Buddha hall," etc. (T. Miller, 2020) 
             </gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
-         </entryFree>
-            <bibl xml:id="biblk000049-1">
+                   <bibl xml:id="biblk000049-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">444</citedRange>
             </bibl>
+         </entryFree>
       </body>
    </text>
 </TEI>

@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,9 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000130" type="architectural-feature">
+            <term xml:id="term-k000130-8" xml:lang="zh-latn-pinyin-nt">diantang</term>
             <term xml:id="term-k000130-1" xml:lang="zh-Hant" source="#biblk000130-1">殿堂</term>
             <term xml:id="term-k000130-2" xml:lang="zh-Hans">殿堂</term>
-            <term xml:id="term-k000130-3" xml:lang="zh-latn-pinyin" type="preferred">diàntáng (preferred)</term>
+            <term xml:id="term-k000130-3" xml:lang="zh-latn-pinyin">diàntáng</term>
             <term xml:id="term-k000130-4" xml:lang="en" source="#biblk000130-2">diantang</term>
             <term xml:id="term-k000130-5" xml:lang="Wade-Giles">tien-t'ang</term>            
             <term xml:id="term-k000130-6" xml:lang="en" source="#biblk000130-3">place type</term>
