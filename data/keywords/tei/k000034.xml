@@ -35,6 +35,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -46,10 +47,11 @@
    <text>
       <body>
          <entryFree xml:id="ic_match_ct" type="architectural-feature">
-            <term xml:id="term-ic_match_ct-1" xml:lang="en">intercolumnar and column top bracket sets match</term>
-            <term xml:id="term-ic_match_ct-4" type="preferred" xml:lang="zh-latn-pinyin">bǔjiān pùzuò tóng zhùtóu pùzuò (preferred)</term>
+            <term xml:id="term-ic_match_ct-5" type="preferred" xml:lang="zh-latn-pinyin-nt">bujian puzuo tong zhutou puzuo</term>
             <term xml:id="term-ic_match_ct-2" xml:lang="zh-Hant">補間鋪作同柱頭鋪作</term>
             <term xml:id="term-ic_match_ct-3" xml:lang="zh-Hans">补间铺作同柱头铺作</term>
+            <term xml:id="term-ic_match_ct-4" xml:lang="zh-latn-pinyin">bǔjiān pùzuò tóng zhùtóu pùzuò</term>
+            <term xml:id="term-ic_match_ct-1" xml:lang="en">intercolumnar and column top bracket sets match</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000034</idno>
             <gloss/>
             <listRelation>
