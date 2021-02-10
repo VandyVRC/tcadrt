@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -71,12 +72,13 @@
    <text>
       <body>
          <entryFree xml:id="k000115" type="architectural-feature">
-            <term xml:id="term-k000115-1" xml:lang="en" type="preferred">forehead tie beams (preferred)</term>
+            <term xml:id="term-k000115-7" xml:lang="zh-latn-pinyin-nt" type="preferred">efang</term>           
             <term xml:id="term-k000115-2" xml:lang="zh-Hant">額枋</term>
             <term xml:id="term-k000115-3" xml:lang="zh-Hans">额枋</term>
             <term xml:id="term-k000115-4" xml:lang="zh-latn-pinyin">éfāng</term>
             <term xml:id="term-k000115-5" xml:lang="Wade-Giles">o-fang</term>
             <term xml:id="term-k000115-6" xml:lang="en" type="literal_translation">forehead tie beams (lit.)</term>
+            <term xml:id="term-k000115-1" xml:lang="en">forehead tie beams</term>
                        <idno type="URI">https://architecturasinica.org/keyword/k000115</idno>
             <listRelation>
                <listRelation>

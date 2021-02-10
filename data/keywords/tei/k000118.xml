@@ -67,6 +67,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -80,9 +81,10 @@
    <text>
       <body>
          <entryFree xml:id="k000118" type="architectural-feature">
-            <term xml:id="term-k000118-1" xml:lang="zh-latn-pinyin" type="preferred">yǐnggǒng (preferred)</term>
+            <term xml:id="term-k000118-6" xml:lang="zh-latn-pinyin-nt" type="preferred">yinggong</term>            
             <term xml:id="term-k000118-2" xml:lang="zh-Hant">影栱</term>
             <term xml:id="term-k000118-3" xml:lang="zh-Hans">影栱</term>
+            <term xml:id="term-k000118-1" xml:lang="zh-latn-pinyin">yǐnggǒng</term>
             <term xml:id="term-k000118-4" xml:lang="Wade-Giles">ying-kung</term>
             <term xml:id="term-k000118-5" xml:lang="en" type="literal_translation" source= "#biblk000118-1">shadow bracket arms (lit.)</term>
             <note type="Note (brief)">
