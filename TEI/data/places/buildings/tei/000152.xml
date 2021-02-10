@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Shidiyanjundian</title>
+            <title level="m">Traditional Chinese Architecture Digital Research Tool</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Traditional Chinese Architecture Digital Research Tool</authority>
+            <idno>000152</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2017-10-05-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2017-10-05-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000152" type="building">
+               <placeName xml:id="name000152-1" type="building-name">Shidiyanjundian</placeName>
+               <placeName xml:id="name000152-2" type="building-name" xml:lang="zh-Hant">十帝閻君殿</placeName>
+               <placeName xml:id="name000152-3" type="building-name" xml:lang="zh-Hans">十帝阎君殿</placeName>
+               <placeName xml:id="name000152-4"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="en">Chongqingsi_Shidiyanjundian</placeName>
+               <placeName xml:id="name000152-5"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hant">崇慶寺十帝閻君殿</placeName>
+               <placeName xml:id="name000152-6"
+                          type="alternate"
+                          subtype="building-name-in-site"
+                          xml:lang="zh-Hans">崇庆寺十帝阎君殿</placeName>
+               <placeName xml:id="name000152-7" xml:lang="en">Ten Kings of Hell Hall</placeName>
+               <placeName xml:id="name000152-11" type="alternate">Shidiyanjundian</placeName>
+               <idno type="URI">http://tcadrt.org/place//000152</idno>
+            </place>
+            <relation name="contained"
+                      active="http://tcadrt.org/place/000014"
+                      passive="http://tcadrt.org/place/000152"/>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
