@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -51,10 +52,11 @@
    <text>
       <body>
          <entryFree xml:id="corner_angled_bracket_arm" type="architectural-feature">
-            <term xml:id="term-corner_angled_bracket_arm-1" xml:lang="en">angled bracket arm on corner column; zhuanjiao puzuo xiegong; mojiaogong</term>
-            <term xml:id="term-corner_angled_bracket_arm-4" type="preferred" xml:lang="zh-latn-pinyin">zhuǎnjiǎo pùzuò xiégǒng (preferred)</term>
+            <term xml:id="term-corner_angled_bracket_arm-5" xml:lang="zh-latn-pinyin-nt" type="preferred">zhuanjiao puzuo xiegong</term>
             <term xml:id="term-corner_angled_bracket_arm-2" xml:lang="zh-Hant">轉角鋪作斜栱</term>
-            <term xml:id="term-corner_angled_bracket_arm-3" xml:lang="zh-Hans">转角铺作斜栱</term>
+            <term xml:id="term-corner_angled_bracket_arm-3" xml:lang="zh-Hans">转角铺作斜栱</term>            
+            <term xml:id="term-corner_angled_bracket_arm-4" xml:lang="zh-latn-pinyin">zhuǎnjiǎo pùzuò xiégǒng</term>            
+            <term xml:id="term-corner_angled_bracket_arm-1" xml:lang="en">angled bracket arm on corner column; zhuanjiao puzuo xiegong; mojiaogong</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000014</idno>
             <gloss/>
             <listRelation>
