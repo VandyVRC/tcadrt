@@ -61,11 +61,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
-            <language ident="zh-latn-pinyin">Pinyin</language>
-            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="en">English</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -77,14 +78,15 @@
    <text>
       <body>
          <entryFree xml:id="k000019" type="architectural-feature">
-      	   <term xml:id="term-k000019-1" xml:lang="zh-latn-pinyin" type="preferred">dǒugǒng (preferred)</term>
+            <term xml:id="term-k000019-1" xml:lang="zh-latn-pinyin-nt" type="preferred">dougong</term>
       	   <term xml:id="term-k000019-2" xml:lang="zh-Hant" source="#biblk000019-2">枓栱</term>
-      	   <term xml:id="term-k000019-3" xml:lang="zh-Hant">斗栱</term>
-      	   <term xml:id="term-k000019-4" xml:lang="Wade-Giles">tou-kung</term>
-      	   <term xml:id="term-k000019-5" xml:lang="en" type="literal_translation">blocks(s) and bracket arm(s) (lit.)</term>
-      	   <term xml:id="term-k000019-6" xml:lang="en" source="#biblk000019-4">bracket-block clusters</term>
-      	   <term xml:id="term-k000019-7" xml:lang="en" source="#biblk000019-3">bracket sets</term>
-      	   <term xml:id="term-k000019-8" xml:lang="en" source="#biblk000019-1">brackets; bracketing</term>
+      	   <term xml:id="term-k000019-3" xml:lang="zh-Hans">斗栱</term>
+            <term xml:id="term-k000019-4" xml:lang="zh-latn-pinyin">dǒugǒng (preferred)</term>
+      	   <term xml:id="term-k000019-5" xml:lang="zh-latn-wadegile">tou-kung</term>
+      	   <term xml:id="term-k000019-6" xml:lang="en" type="literal_translation">blocks(s) and bracket arm(s) (lit.)</term>
+      	   <term xml:id="term-k000019-7" xml:lang="en" source="#biblk000019-4">bracket-block clusters</term>
+      	   <term xml:id="term-k000019-8" xml:lang="en" source="#biblk000019-3">bracket sets</term>
+      	   <term xml:id="term-k000019-9" xml:lang="en" source="#biblk000019-1">brackets; bracketing</term>
 
             <note type="Note (brief)">
                <p xml:lang="en">Dougong refers to a unit consisting of a number of mortised bearing blocks (dou 斗), arms (gong 栱), tie-beams (fang 枋) and inclined beams (ang 昂). They are often used under the eaves, on beams, or on the tops of pillars.</p>
