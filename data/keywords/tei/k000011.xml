@@ -67,6 +67,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -82,9 +83,10 @@
    <text>
       <body>
          <entryFree xml:id="k000011" type="architectural-feature">
-      	   <term xml:id="term-k000011-1" xml:lang="zh-latn-pinyin" type="preferred">chuāndòu (preferred)</term>
+            <term xml:id="term-k000011-8" xml:lang="zh-latn-pinyin-nt" type="preferred">chuandou</term>
       	   <term xml:id="term-k000011-2" xml:lang="zh-Hant" source="#biblk000011-1">穿鬥</term>
       	   <term xml:id="term-k000011-3" xml:lang="zh-Hans">穿斗</term>
+            <term xml:id="term-k000011-1" xml:lang="zh-latn-pinyin">chuāndòu</term>
       	   <term xml:id="term-k000011-4" xml:lang="zh-latn-wadegile">ch'uan-tou</term>
       	   <term xml:id="term-k000011-5" xml:lang="en" type="literal_translation" source="#biblk000011-3">penetrating and interlocking (lit.)</term>
       	   <term xml:id="term-k000011-6" xml:lang="en" source="#biblk000011-2">column-and-tie-beam frameworks</term>
