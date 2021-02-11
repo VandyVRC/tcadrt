@@ -47,6 +47,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -59,12 +60,15 @@
    <text>
       <body>
          <entryFree xml:id="k000107" type="architectural-feature">
-            <term xml:id="term-k000107-1" xml:lang="en" type="preferred" source="#biblk000107-1">rafters (preferred)</term>
+            <term xml:id="term-k000107-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000107-2">chuan</term>
+            <term xml:id="term-k000107-1" xml:lang="en" source="#biblk000107-1">rafters</term>
             <term xml:id="term-k000107-2" xml:lang="zh-Hant">椽</term>
             <term xml:id="term-k000107-3" xml:lang="zh-Hans">椽</term>
             <term xml:id="term-k000107-4" xml:lang="zh-latn-pinyin" source="#biblk000107-2">chuán</term>
             <term xml:id="term-k000107-5" xml:lang="zh-latn-wadegile">ch'uan</term>
             <term xml:id="term-k000107-6" xml:lang="en" type="literal_translation">rafter (lit.)</term>
+         
+            
             <note type="Note (brief)">
                <p xml:lang="en" source="#biblk000107-3">Hanging inclined timber member supporting roof tiles. In Traditional Chinese Architecture rafters extend from purlin to purlin. Can also be used to as a unit of length.</p>
             </note>

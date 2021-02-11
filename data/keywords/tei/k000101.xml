@@ -44,6 +44,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,13 +59,15 @@
    <text>
       <body>
          <entryFree xml:id="k000101" type="time period">
-            <term xml:id="term-k000101-1" xml:lang="en">Yuan</term>
+            <term xml:id="term-k000101-8" xml:lang="zh-latn-pinyin-nt">Yuan</term>
             <term xml:id="term-k000101-2" xml:lang="zh-Hant">元</term>
-            <term xml:id="term-k000101-3" xml:lang="zh-Hans">元</term>
-            <term xml:id="term-k000101-4" xml:lang="zh-latn-pinyin" type="preferred">Yuán (preferred)</term>
-            <term xml:id="term-k000101-5" xml:lang="zh-latn-wadegile">Yüan</term>
             <term xml:id="term-k000101-6" xml:lang="zh-Hant">元朝</term>
+            <term xml:id="term-k000101-3" xml:lang="zh-Hans">元</term>
+            <term xml:id="term-k000101-4" xml:lang="zh-latn-pinyin">Yuán</term>
+            <term xml:id="term-k000101-5" xml:lang="zh-latn-wadegile">Yüan</term>
+            <term xml:id="term-k000101-1" xml:lang="en">Yuan</term>            
             <term xml:id="term-k000101-7" xml:lang="en">Yuan Dynasty</term>
+            
             
             <state type="existence" source="#biblk000101-1" from="1271" to="1368">
                <desc>1271 - 1368</desc>
