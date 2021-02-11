@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <built_work_site_foreign_key></built_work_site_foreign_key>
+        <site_data></site_data><!-- maps to <desc type="site-data"> -->
+        <building_name_pinyin>cangjingdian</building_name_pinyin> <!-- maps to  <placeName xml:id="name{$folder-id}-1" type="building-name">-->
+        <building_name2_traditional>藏經殿</building_name2_traditional> <!-- maps to <placeName xml:id="name{$folder-id}-2" type="building-name" xml:lang="zh-Hant"> -->
+        <building_name3_simplified>藏经殿</building_name3_simplified> <!-- maps to <placeName xml:id="name{$folder-id}-3" type="building-name" xml:lang="zh-Hans">-->
+        <work_building_identifier>000124</work_building_identifier> <!-- maps to <idno type="URI"> -->
+        <building_name_in_site>Anchansi_cangjingdian</building_name_in_site> <!-- maps to <placeName xml:id="name{$folder-id}-4" type="alternate" subtype="building-name-in-site" xml:lang="en"> -->
+        <building_in_site2_traditional>安禪寺藏經殿</building_in_site2_traditional> <!-- maps to <placeName xml:id="name{$folder-id}-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant"> -->
+        <building_in_site3_simplified>安禅寺藏经殿</building_in_site3_simplified> <!-- maps to <placeName xml:id="name{$folder-id}-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans"> -->
+        <group_batch>6</group_batch>
+        <number_in_group>360</number_in_group>
+        <number_in_architecture_category_3>63</number_in_architecture_category_3>
+        <building_data></building_data> <!-- maps to  <desc type="building_data"> -->
+        <site_name_en></site_name_en>
+        <building_name_en>sutra hall</building_name_en> <!-- maps to  <placeName xml:id="name{$folder-id}-7" xml:lang="en"> -->
+        <alternate_site_name_pinyin></alternate_site_name_pinyin> <!-- maps to <placeName xml:id="name{$folder-id}-7" type="alternate" subtype="site-name"> -->
+        <alternate_site_name_traditional></alternate_site_name_traditional> <!-- maps to <placeName xml:id="name{$folder-id}-9" type="alternate" subtype="site-name" xml:lang="zh-Hant"> -->
+        <alternate_site_name_simplified></alternate_site_name_simplified> <!-- maps to <placeName xml:id="name{$folder-id}-10" type="alternate" subtype="site-name" xml:lang="zh-Hans">-->
+        <alternate_building_name_pinyin>cangjingdian</alternate_building_name_pinyin> <!-- map to <placeName xml:id="name{$folder-id}-7" type="alternate"> -->
+        <building_date>960-1125</building_date> <!-- maps to <state type="existence"> -->
+        <building_start>0960</building_start> <!-- maps to <precision match="@from" notBefore=""> -->
+        <building_end>1125</building_end> <!-- maps to <precision match="@to" notAfter=""> -->
+        <decimal_latitude>37.42453333</decimal_latitude> <!-- map to <location type="gps"><geo>-->
+        <decimal_longitude>112.5473333</decimal_longitude> <!-- map to <location type="gps"><geo>-->
+        <verbatim_latitude>37˚ 25.472 (Garmin)</verbatim_latitude> <!-- map to <location type="verbatim"><note> -->
+        <verbatim_longitude>112˚ 32.840</verbatim_longitude> <!-- map to <location type="verbatim"><note> -->
+        <comments_and_field_notes>sutra repository Song, compare to Jidumiao qingong</comments_and_field_notes>
+        <most_recent_doc>2010</most_recent_doc>
+        <notes>ZGWWDTJ  山西 p. 762    57 – C 1  -other parts of the monastary have been destroyed</notes>
+        <ct_angled_bracket_arm>0</ct_angled_bracket_arm>
+        <corner_angled_bracket_arm>0</corner_angled_bracket_arm>
+        <ic_angled_bracket_arm>0</ic_angled_bracket_arm>
+        <ic_match_ct>0</ic_match_ct>
+        <number_of_ic_in_central_bay>1</number_of_ic_in_central_bay>
+        <pupaifang>1</pupaifang>
+        <first_step_touxin>0</first_step_touxin>
+        <first_step_jixin>1</first_step_jixin>
+        <cejiao>1</cejiao>
+        <pizhu_xiaang>0</pizhu_xiaang>
+        <qinmian_xiaang>0</qinmian_xiaang>
+        <qinmian-pizhu_xiaang>0</qinmian-pizhu_xiaang>
+        <number_of_xiaang>0</number_of_xiaang>
+        <ang-shaped_shuatou>0</ang-shaped_shuatou>
+        <beveled_linggong>0</beveled_linggong>
+        <chamfered_linggong>1</chamfered_linggong>
+    </row>
+    
+</root>

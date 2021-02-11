@@ -35,6 +35,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -45,11 +46,12 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="palace-Daoist-monastery-or-other" type="site-type">
-            <term xml:id="term-palace-Daoist-monastery-or-other-1" xml:lang="en" source="biblpalace-Daoist-monastery-or-other-1">palace (Daoist monastery or other)</term>
-            <term xml:id="term-palace-Daoist-monastery-or-other-4" xml:lang="zh-latn-pinyin" source="biblpalace-Daoist-monastery-or-other-1" type="preferred">gōng (preferred)</term>
-            <term xml:id="term-palace-Daoist-monastery-or-other-2" xml:lang="zh-Hant" source="biblpalace-Daoist-monastery-or-other-1">宮</term>
-            <term xml:id="term-palace-Daoist-monastery-or-other-3" xml:lang="zh-Hans" source="biblpalace-Daoist-monastery-or-other-1">宫</term>
+         <entryFree xml:id="k000061" type="site-type">
+            <term xml:id="term-k000061-5" xml:lang="zh-latn-pinyin-nt" source="biblpalace-Daoist-monastery-or-other-1" type="preferred">gong</term>
+            <term xml:id="term-k000061-2" xml:lang="zh-Hant" source="biblpalace-Daoist-monastery-or-other-1">宮</term>
+            <term xml:id="term-k000061-3" xml:lang="zh-Hans" source="biblpalace-Daoist-monastery-or-other-1">宫</term>
+            <term xml:id="term-k000061-4" xml:lang="zh-latn-pinyin" source="biblpalace-Daoist-monastery-or-other-1">gōng</term>
+            <term xml:id="term-k000061-1" xml:lang="en" source="biblpalace-Daoist-monastery-or-other-1">palace (Daoist monastery or other)</term>
             <gloss>Daoist monastery, but commonly used for other ritual buildings/complexes</gloss>
          	<idno type="URI">https://architecturasinica.org/keyword/k000061</idno>
          </entryFree>

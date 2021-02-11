@@ -64,6 +64,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -78,12 +79,13 @@
    <text>
       <body>
          <entryFree xml:id="k000110" type="architectural-feature">
-            <term xml:id="term-k000110-1" xml:lang="en" type="preferred" source="#biblk000110-1">barrel tile ends (preferred)</term>
+            <term xml:id="term-k000110-8" xml:lang="zh-latn-pinyin-nt" type="preferred">wadang</term>
             <term xml:id="term-k000110-2" xml:lang="zh-Hant">瓦當</term>
             <term xml:id="term-k000110-3" xml:lang="zh-Hans">瓦当</term>
             <term xml:id="term-k000110-4" xml:lang="zh-latn-pinyin">wǎdàng</term>
             <term xml:id="term-k000110-5" xml:lang="Wade-Giles">wa-tang</term>
             <term xml:id="term-k000110-6" xml:lang="en" type="literal_translation">tile ends (lit.)</term>
+            <term xml:id="term-k000110-1" xml:lang="en" source="#biblk000110-1">barrel tile ends</term>
             <term xml:id="term-k000110-7" xml:lang="en" source="#biblk000110-2">eaves-tile ends</term>
             <note type="Note (brief)"> 
                <p xml:lang="en">Type of <term ref="/keyword/k000109">barrel tile (筒瓦 tongwa)</term> used to cap the end of a line of covering tiles at the eaves.</p>
