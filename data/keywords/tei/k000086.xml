@@ -35,6 +35,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -46,8 +47,9 @@
    <text>
       <body>
          <entryFree xml:id="k000086" type="building-type">
+            <term xml:id="term-k000086-5" xml:lang="zh-latn-pinyin" type="preferred" source="#bibltower-1">lou</term>
             <term xml:id="term-k000086-1" xml:lang="en" source="bibltower-1">tower</term>
-            <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin" type="preferred" source="#bibltower-1">lóu (preferred)</term>
+            <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin" source="#bibltower-1">lóu</term>
             <term xml:id="term-k000086-2" xml:lang="zh-Hant" source="#bibltower-1">樓</term>
             <term xml:id="term-k000086-3" xml:lang="zh-Hans" source="#bibltower-1">楼</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>
