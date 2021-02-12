@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -53,6 +54,7 @@
    <text>
       <body>
          <entryFree xml:id="k000091" type="time period">
+            <term xml:id="term-k000091-9" xml:lang="zh-latn-pinyin-nt" type="preferred">Xi Jin</term>
             <term xml:id="term-k000091-1" xml:lang="en">Western Jin</term>
             <term xml:id="term-k000091-2" xml:lang="zh-Hant">西晉</term>
             <term xml:id="term-k000091-3" xml:lang="zh-Hans">西晋</term>
