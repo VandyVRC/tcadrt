@@ -72,6 +72,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -85,12 +86,13 @@
    <text>
       <body>
          <entryFree xml:id="k000104" type="architectural-feature">
-            <term xml:id="term-k000104-1" xml:lang="en" type="preferred" source="#biblk000104-1">plate tiles (preferred)</term>
+            <term xml:id="term-k000104-4" xml:lang="zh-latn-pinyin-nt">banwa</term>
             <term xml:id="term-k000104-2" xml:lang="zh-Hant">瓪瓦</term>
             <term xml:id="term-k000104-3" xml:lang="zh-Hans">瓪瓦</term>
-            <term xml:id="term-k000104-4" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
+            <term xml:id="term-k000104-8" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
             <term xml:id="term-k000104-5" xml:lang="zh-latn-wadegile">pan-wa</term>
             <term xml:id="term-k000104-6" xml:lang="en" type="literal_translation">concave tiles (lit.)</term>
+            <term xml:id="term-k000104-1" xml:lang="en" source="#biblk000104-1">plate tiles</term>
             <term xml:id="term-k000104-7" xml:lang="en" source="#biblk000104-2">flat tiles</term>     
 
             <note type="Note (brief)">
