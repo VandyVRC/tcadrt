@@ -81,22 +81,20 @@
    <text>
       <body>
          <entryFree xml:id="k000106" type="architectural-feature">
-            <term xml:id="term-k000106-4" xml:lang="zh-latn-pinyin-nt">chongchun banwa</term>
+            <term xml:id="term-k000106-4" xml:lang="zh-latn-pinyin-nt" type="preferred">chongchun banwa</term>
             <term xml:id="term-k000106-2" xml:lang="zh-Hant">重唇瓪瓦</term>
             <term xml:id="term-k000106-3" xml:lang="zh-Hans">重唇瓪瓦</term>
             <term xml:id="term-k000106-7" xml:lang="zh-latn-pinyin">chóngchún bǎnwǎ</term>
             <term xml:id="term-k000106-5" xml:lang="zh-latn-wadegile">ch'ung-ch'un pan-wa</term>
             <term xml:id="term-k000106-6" xml:lang="en" type="literal_translation">multi-lipped plate tiles (lit.)</term>
-            <term xml:id="term-k000106-1" xml:lang="en" source="#biblk000106-1">multi-lipped plate tiles</term>
-            
-            <note type="Note (brief)">
+            <term xml:id="term-k000106-1" xml:lang="en" source="#biblk000106-1" type="ATTCAT preferred">multi-lipped plate tiles (ATTCAT preferred)</term>
+                       <note type="Note (brief)">
                <p xml:lang="en"> A type of concave or plate tile, one variety of roofing tile. See <term ref="/keyword/k000104">瓪瓦 bǎnwǎ</term>.</p>
             </note> 
             <note type="related concepts">
                <p xml:id="related-concept-k000106-1" xml:lang="zh-Hant" ref="/keyword/k000104">瓪瓦 bǎnwǎ</p>
             </note>
-            
-            <bibl xml:id="#biblk000106-1">
+                        <bibl xml:id="#biblk000106-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>   
             
