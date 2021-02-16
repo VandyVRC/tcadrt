@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -53,7 +54,7 @@
    <text>
       <body>
          <entryFree xml:id="k000094" type="time period">
-            <term xml:id="term-k000094-1" xml:lang="en">Wu</term>
+            <term xml:id="term-k000094-1" xml:lang="zh-latn-pinyin-nt" type="preferred">Wu</term>
             <term xml:id="term-k000094-2" xml:lang="zh-Hant">吳</term>
             <term xml:id="term-k000094-3" xml:lang="zh-Hans">吴</term>
             <term xml:id="term-k000094-4" xml:lang="zh-latn-pinyin">Wú</term>
