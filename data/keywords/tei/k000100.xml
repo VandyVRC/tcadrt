@@ -68,6 +68,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -82,13 +83,15 @@
    <text>
       <body>
          <entryFree xml:id="k000100" type="architectural-feature">
-            <term xml:id="term-k000100-1" xml:lang="en" type="preferred" source="#biblk000100-1">shadow works (preferred)</term>
+            <term xml:id="term-k000100-4" xml:lang="zh-latn-pinyin-nt" type="preferred">yingzuo</term>
             <term xml:id="term-k000100-2" xml:lang="zh-Hant" source="#biblk000100-3">影作</term>
             <term xml:id="term-k000100-3" xml:lang="zh-Hans">影作</term>
-            <term xml:id="term-k000100-4" xml:lang="zh-latn-pinyin">yǐngzuò</term>
+            <term xml:id="term-k000100-8" xml:lang="zh-latn-pinyin">yǐngzuò</term>
             <term xml:id="term-k000100-5" xml:lang="zh-latn-wadegile">ying-tso</term>
             <term xml:id="term-k000100-6" xml:lang="en" type="literal_translation">image works (lit.)</term>
+            <term xml:id="term-k000100-1" xml:lang="en" source="#biblk000100-1" type="ATTCAT preferred">shadow works (ATTCAT preferred)</term>
             <term xml:id="term-k000100-7" xml:lang="en" source="#biblk000100-2">puzuo images</term>
+            
             <note type="Note (brief)">
                <p xml:lang="en">Seen in the <title ref="https://tinyurl.com/y6hzhlpx">Yingzao fashi</title> (1103 CE), specifically in the text (Chapter 14) and plates (Chapter 34) concerning the polychrome painting works (<term ref="https://architecturasinica.org/keyword/k000113">caihuazuo 彩畫作</term>), yingzuo refers to images of bracket-blocks (sometimes emerging from painted lotus blossoms) with a “neck” and two “feet” (sometimes decorated with floral motifs), painted on the wall surface above the forehead tie beams (eshangbi 額上壁 or gongyanbi 栱眼壁). </p>
                <p xml:lang="en">In current art historical and archaeological scholarship, the term has a broader meaning that described in the Yingzao fashi, and is often used to describe painted representations of timber-framed architecture, such as that found in tombs, cave temples, and reliquary chambers.</p>
