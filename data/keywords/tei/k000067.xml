@@ -35,6 +35,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -46,12 +47,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000067" type="architectural-feature">         
-            <term xml:id="term-k000067-1" xml:lang="en">column top tie beam</term>
-            <term xml:id="term-k000067-4" xml:lang="zh-latn-pinyin" type="preferred">pǔpāifāng (preferred)</term>
+         <entryFree xml:id="pupaifang" type="architectural-feature">         
+            <term xml:id="term-pupaifang-5" xml:lang="zh-latn-pinyin-nt" type="preferred">pupaifang</term>
+            <term xml:id="term-pupaifang-2" xml:lang="zh-Hant">普拍枋</term>
+            <term xml:id="term-pupaifang-3" xml:lang="zh-Hans">普拍枋</term>
+            <term xml:id="term-pupaifang-4" xml:lang="zh-latn-pinyin">pǔpāifāng</term>
             <term xml:id="term-k000067-6" xml:lang="zh-latn-wadegile">p`u-p`ai-fang</term>
-            <term xml:id="term-k000067-2" xml:lang="zh-Hant">普拍枋</term>
-            <term xml:id="term-k000067-3" xml:lang="zh-Hans">普拍枋</term>
+            <term xml:id="term-pupaifang-1" xml:lang="en">column top tie beam</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000067</idno>
             <gloss/>
             <listRelation>
