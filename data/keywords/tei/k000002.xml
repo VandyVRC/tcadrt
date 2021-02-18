@@ -40,6 +40,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -50,15 +52,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="belvedere-Daoist-monastery" type="site-type">
-            <term xml:id="term-belvedere-Daoist-monastery-1" xml:lang="en">belvedere (Daoist monastery)</term>
-            <term xml:id="term-belvedere-Daoist-monastery-4" xml:lang="zh-latn-pinyin" type="preferred">guàn (preferred)</term>
-            <term xml:id="term-belvedere-Daoist-monastery-2" xml:lang="zh-Hant">觀</term>
-            <term xml:id="term-belvedere-Daoist-monastery-3" xml:lang="zh-Hans">观</term>
-            
+         <entryFree xml:id="k000002" type="site-type">
+            <term xml:id="term-k000002-5" xml:lang="zh-latn-pinyin-nt" type="preferred">guan</term>
+            <term xml:id="term-k000002-2" xml:lang="zh-Hant">觀</term>
+            <term xml:id="term-k000002-3" xml:lang="zh-Hans">观</term>
+            <term xml:id="term-k000002-4" xml:lang="zh-latn-pinyin">guàn</term>
+            <term xml:id="term-k000002-6" xml:lang="zh-latn-wadegile">kuan</term>
+            <term xml:id="term-k000002-1" xml:lang="en" type="ATTCAT preferred">belvedere (ATTCAT preferred)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000002</idno>
             <gloss>Daoist monastery</gloss>
-            
          </entryFree>
       </body>
    </text>

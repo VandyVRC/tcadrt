@@ -35,6 +35,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -45,11 +47,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="pagoda" type="building-type">
-            <term xml:id="term-pagoda-1" xml:lang="en" source="biblpagoda-1">pagoda</term>
-            <term xml:id="term-pagoda-4" xml:lang="zh-latn-pinyin" source="biblpagoda-1" type="preferred">tǎ (preferred)</term>
-            <term xml:id="term-pagoda-2" xml:lang="zh-Hant" source="biblpagoda-1">塔</term>
-            <term xml:id="term-pagoda-3" xml:lang="zh-Hans" source="biblpagoda-1">塔</term>
+         <entryFree xml:id="k000060" type="building-type">
+            <term xml:id="term-k000060-5" xml:lang="zh-latn-pinyin-nt" source="biblpagoda-1" type="preferred">ta</term>
+            <term xml:id="term-k000060-2" xml:lang="zh-Hant" source="biblpagoda-1">塔</term>
+            <term xml:id="term-k000060-3" xml:lang="zh-Hans" source="biblpagoda-1">塔</term>
+            <term xml:id="term-k000060-4" xml:lang="zh-latn-pinyin" source="biblpagoda-1">tǎ</term>
+            <term xml:id="term-k000060-6" xml:lang="zh-latn-wadegile">t`a</term>
+            <term xml:id="term-k000060-1" xml:lang="en" source="biblpagoda-1">pagoda</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000060</idno>  
          </entryFree>
       </body>

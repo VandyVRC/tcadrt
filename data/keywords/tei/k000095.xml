@@ -44,6 +44,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -57,15 +58,15 @@
    <text>
       <body>
          <entryFree xml:id="k000095" type="time period">
-            <term xml:id="term-k000095-1" xml:lang="en">Xin </term>
+            <term xml:id="term-k000095-3" xml:lang="zh-latn-pinyin-nt" type="preferred">Xin</term>
             <term xml:id="term-k000095-2" xml:lang="zh-Hant">新</term>
             
             
             
             <term xml:id="term-k000095-1" xml:lang="zh-Hant">新</term>
             <term xml:id="term-k000095-2" xml:lang="zh-Hans">新</term>
-            <term xml:id="term-k000095-3" xml:lang="zh-latn-pinyin" type="preferred">Xīn (preferred)</term>
-            <term xml:id="term-k000095-4" xml:lang="Wade-Giles">hsin</term>
+            <term xml:id="term-k000095-3" xml:lang="zh-latn-pinyin">Xīn</term>
+            <term xml:id="term-k000095-4" xml:lang="zh-latn-wadegile">hsin</term>
             <term xml:id="term-k000095-5" xml:lang="en">Xin</term>
             <term xml:id="term-k000095-6" xml:lang="en">Xin Dynasty</term>
             <term xml:id="term-k000095-7" xml:lang="zh-Hant">新朝</term>

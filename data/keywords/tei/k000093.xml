@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -53,11 +54,11 @@
    <text>
       <body>
          <entryFree xml:id="k000093" type="time period">
-            <term xml:id="term-k000093-1" xml:lang="en">Wu-Yue</term>
+            <term xml:id="term-k000093-1" xml:lang="zh-latn-pinyin-nt" type="preferred">Wu-Yue</term>
             <term xml:id="term-k000093-2" xml:lang="zh-Hant">吳越</term>
             <term xml:id="term-k000093-3" xml:lang="zh-Hans">吴越</term>
             <term xml:id="term-k000093-4" xml:lang="zh-latn-pinyin">Wú-Yuè</term>
-            <term xml:id="term-k000093-5" xml:lang="Wade-Giles">Wu-yüeh</term>
+            <term xml:id="term-k000093-5" xml:lang="zh-latn-wadegile">Wu-yüeh</term>
             <term xml:id="term-k000093-6" xml:lang="zh-Hant">吳越國</term>
             <term xml:id="term-k000093-7" xml:lang="en">Wuyue Kingdom</term>
             <state type="existence" source="#biblk000093-1" from="0907" to="0978">

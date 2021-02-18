@@ -68,7 +68,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
-            <language ident="zh-latn-pinyin-nt">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -82,16 +82,17 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="cao" type="architectural-feature">
-            <term xml:id="term-feature_name-4" xml:lang="en" type="preferred" source="#biblk000097-1">eaves tie beams (preferred)</term>
-         	<term xml:id="term-feature_name-2" xml:lang="zh-Hant" source="#biblk000097-2">檐額</term>
-            <term xml:id="term-feature_name-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
-            <term xml:id="term-feature_name-3" xml:lang="zh-latn-pinyin">yán’é</term>
-         	<term xml:id="term-feature_name-5" xml:lang="Wade-Giles">yen-o</term>
-            <term xml:id="term-feature_name-1" xml:lang="en" type="literal_translation">eaves forehead (lit.)</term>
-         	<term xml:id="term-feature_name-6" xml:lang="en" source="#biblk000097-6">eaves architraves</term>
-         	<term xml:id="term-feature_name-9" xml:lang="en" source="#biblk000097-5">eaves-column-top-ties</term>
-         	<term xml:id="term-feature_name-8" xml:lang="en" source="#biblk000097-4">end-to-end architraves</term>
+         <entryFree xml:id="k000097" type="architectural-feature">
+            <term xml:id="term-k000097-10" xml:lang="zh-latn-pinyin-nt" type="preferred">yan’e</term>
+         	<term xml:id="term-k000097-2" xml:lang="zh-Hant" source="#biblk000097-2">檐額</term>
+            <term xml:id="term-k000097-7" xml:lang="zh-Hans" source="#biblk000097-3">檐额</term> 	
+            <term xml:id="term-k000097-3" xml:lang="zh-latn-pinyin">yán’é</term>
+         	<term xml:id="term-k000097-5" xml:lang="zh-latn-wadegile">yen-o</term>
+            <term xml:id="term-k000097-1" xml:lang="en" type="literal_translation">eaves forehead (lit.)</term>
+            <term xml:id="term-k000097-4" xml:lang="en" type="ATTACT preferred" source="#biblk000097-1">eaves tie beams (ATTCAT preferred)</term>
+         	<term xml:id="term-k000097-6" xml:lang="en" source="#biblk000097-6">eaves architraves</term>
+         	<term xml:id="term-k000097-9" xml:lang="en" source="#biblk000097-5">eaves-column-top-ties</term>
+         	<term xml:id="term-k000097-8" xml:lang="en" source="#biblk000097-4">end-to-end architraves</term>
             
             <note type="Note (brief)">
                <p xml:lang="en">Most architectural scholars agree that eaves tie beams (yan’e) refer to a structural element positioned atop the eaves pillars, which runs parallel to the roof ridge and spans at least three bays. The use of this element indicates a structural system where the roof is supported by a timber frame parallel to the roof ridge. This stands in contradistinction to the more commonly seen system where the timber-framing elements perpendicular to the roof ridge (support the roof. Scholars are in disagreement about whether the element referred to as the “eaves tie beam” must project from pillars at the corners of the building. The term is primarily used in the <title ref="https://tinyurl.com/yxqy4lrp">Yingzao fashi</title> (1103). However many questions are still unsettled, including the precise definition of the yan’e as used in the <title>Yingzao fashi</title>, the relationship of the yan’e to the mei 楣 (an earlier term used to refer to a lintel), the relationship of the pillar top tie beam (lan’e 闌額), and to the “large-lintel style” (da’e shi 大額式) of structure commonly seen 13th-14th century architecture in Shanxi and Shaanxi, remain unsettled. They usually fall into one of two groups: (1) Scholars who believe that yan’e are lintels that extend through pillars at the corners of the building, following the description in the <title>Yingzao fashi</title>, Chapter 5, 4a. They look to the Linshui ting 臨水亭 of the Jidumiao 濟瀆廟 in Jiyuanxian, Henan, the main hall of the Guanwangmiao 關王廟大殿 in Dingxiangxian, Shanxi, and the Guanyinge 觀音閣 of Kaihuasi 開化寺, in Gaoping municipality, Shanxi as examples. (2) Scholars who emphasize the comment in the <title>Yingzao fashi</title> stating the dimensions of the yan’e regularly exceed those of other timbers used in this location argue that the large individual horizontal timbers on top of eaves pillars that extend the full breadth of the façade are yan’e. They look to the <term ref="/keyword/k000101">Yuan</term> period Yuwang Hall 禹王殿 in Hancheng municipality, Shaanxi, and the main hall of the Guangsheng Lower Monastery 廣勝下寺大殿 in Hongtong, Shanxi, as examples.</p>

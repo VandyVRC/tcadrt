@@ -39,6 +39,8 @@
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
                 <language ident="zh-Hant">Traditional Chinese</language>
                 <language ident="zh-Hans">Simplified Chinese</language>
             </langUsage>
@@ -50,10 +52,12 @@
     <text>
         <body>
             <entryFree xml:id="k000112" type="building-type">
-                <term xml:id="term-k000112-1" xml:lang="en">tower-style pagodas</term>
-                <term xml:id="term-k000112-4" xml:lang="zh-latn-pinyin" type="preferred">lóugé shì tǎ (preferred)</term>
+                <term xml:id="term-k000112-5" xml:lang="zh-latn-pinyin-nt" type="preferred">louge shi ta</term>              
                 <term xml:id="term-k000112-2" xml:lang="zh-Hant">樓閣式塔</term>
                 <term xml:id="term-k000112-3" xml:lang="zh-Hans">楼阁式塔</term>
+                <term xml:id="term-k000112-4" xml:lang="zh-latn-pinyin">lóugé shì tǎ</term>
+                <term xml:id="term-k000112-6" xml:lang="zh-latn-wadegile">lou-ko-shih-t`a</term>
+                <term xml:id="term-k000112-1" xml:lang="en">tower-style pagodas</term>
                 <idno type="URI">https://architecturasinica.org/keyword/k000112</idno>  
             </entryFree>
         </body>

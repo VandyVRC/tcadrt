@@ -46,6 +46,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,13 +60,13 @@
    <text>
       <body>
          <entryFree xml:id="k000134" type="architectural-feature">
-            
+            <term xml:id="term-k000134-7" xml:lang="zh-latn-pinyin-nt" type="preferred">yixinggong</term>
             <term xml:id="term-k000134-1" xml:lang="zh-Hant" source="#biblk000134-1">翼形栱</term>
             <term xml:id="term-k000134-2" xml:lang="zh-Hans">翼形栱</term>
-            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin" type="preferred">yìxínggǒng(preferred)</term>
-            <term xml:id="term-k000134-4" xml:lang="Wade-Giles">i-hsing-kung</term>
+            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin">yìxínggǒng</term>
+            <term xml:id="term-k000134-4" xml:lang="zh-latn-wadegile">i-hsing-kung</term>
             <term xml:id="term-k000134-5" xml:lang="en" type="literal_translation" source="#biblk000134-2">wing-shaped bracket arm</term>
-            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-3">wing-shaped bracket</term>
+            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-3" type="ATTCAT_preferred">wing-shaped bracket (ATTCAT preferred)</term>
 
             <note>
                <p> Related terms: 異形栱</p>
