@@ -47,6 +47,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -59,9 +60,10 @@
    <text>
       <body>
          <entryFree xml:id="k000129" type="architectural-feature">
+            <term xml:id="term-k000129-9" xml:lang="zh-latn-pinyin-nt">tingtang</term>
             <term xml:id="term-k000129-1" xml:lang="zh-Hant">廳堂</term>
             <term xml:id="term-k000129-2" xml:lang="zh-Hans">厅堂</term>
-            <term xml:id="term-k000129-3" xml:lang="zh-latn-pinyin" type="preferred">tīngtáng (preferred)</term>           
+            <term xml:id="term-k000129-3" xml:lang="zh-latn-pinyin">tīngtáng</term>           
             <term xml:id="term-k000129-4" xml:lang="zh-latn-pinyin" source="#biblk000129-1">tingtang</term>
             <term xml:id="term-k000129-5" xml:lang="Wade-Giles">t'ing-t'ang</term>  
             <term xml:id="term-k000129-6" xml:lang="en" source="#biblk000129-2">tingtang construction</term>

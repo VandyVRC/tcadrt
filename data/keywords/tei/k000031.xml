@@ -35,6 +35,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -46,10 +47,11 @@
    <text>
       <body>
          <entryFree xml:id="hermitage" type="site-type">
-            <term xml:id="term-hermitage-1" xml:lang="en">hermitage</term>
-            <term xml:id="term-hermitage-4" type="preferred" xml:lang="zh-latn-pinyin">ān (preferred)</term>
+            <term xml:id="term-hermitage-5" type="preferred" xml:lang="zh-latn-pinyin-nt">an</term>
             <term xml:id="term-hermitage-2" xml:lang="zh-Hant">庵</term>
             <term xml:id="term-hermitage-3" xml:lang="zh-Hans">庵</term>
+            <term xml:id="term-hermitage-4" xml:lang="zh-latn-pinyin">ān</term>
+            <term xml:id="term-hermitage-1" xml:lang="en">hermitage</term>
             <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000031</idno>
          </entryFree>

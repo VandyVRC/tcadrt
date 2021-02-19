@@ -67,7 +67,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
-            <language ident="zh-latn-pinyin-nt">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -83,12 +83,13 @@
    <text>
       <body>
          <entryFree xml:id="k000038" type="architectural-feature">
-            <term xml:id="term-k000038-1" xml:lang="en" type="preferred" source="#biblk000038-1">pillar top tie beams (preferred)</term>
+            <term xml:id="term-k000038-12" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000038-4">lan'e</term>
             <term xml:id="term-k000038-2" xml:lang="zh-Hant" source="#biblk000038-2">闌額</term>
             <term xml:id="term-k000038-3" xml:lang="zh-Hans" source="#biblk000038-3">阑额</term>
             <term xml:id="term-k000038-4" xml:lang="zh-latn-pinyin" source="#biblk000038-4">lán'é</term>
             <term xml:id="term-k000038-5" xml:lang="Wade-Giles">lan-o</term>
             <term xml:id="term-k000038-6" xml:lang="en" type="literal_translation">forehead rail (lit.)</term>
+            <term xml:id="term-k000038-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000038-1">pillar top tie beams (ATTCAT preferred)</term>
             <term xml:id="term-k000038-7" xml:lang="en" source="#biblk000038-6">architraves</term>
             <term xml:id="term-k000038-8" xml:lang="en" source="#biblk000038-9">column-top-ties</term>
             <term xml:id="term-k000038-9" xml:lang="en" source="#biblk000038-8">connecting-beams</term>
