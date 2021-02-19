@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,22 +59,21 @@
    <text>
       <body>
          <entryFree xml:id="k000125" type="architectural-feature">
+            <term xml:id="term-k000125-4" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000125-1">wudian</term>
             <term xml:id="term-k000125-1" xml:lang="zh-Hant">廡殿</term>
             <term xml:id="term-k000125-2" xml:lang="zh-Hans">庑殿</term>
-            <term xml:id="term-k000125-3" xml:lang="zh-latn-pinyin" type="preferred">wǔdiàn (preferred)</term>
-            <term xml:id="term-k000125-4" xml:lang="zh-latn-pinyin" source="#biblk000125-1">wudian</term>
-            <term xml:id="term-k000125-5" xml:lang="Wade-Giles">wu-tien</term>            
+            <term xml:id="term-k000125-3" xml:lang="zh-latn-pinyin">wǔdiàn</term>
+            <term xml:id="term-k000125-5" xml:lang="Wade-Giles">wu-tien</term>          
             <term xml:id="term-k000125-6" xml:lang="en" source="#biblk000125-2">hip roof</term>
             <term xml:id="term-k000125-7" xml:lang="en" source="#biblk000125-3">hipped roof</term>
-
-            <note>
-              <p> Related terms: 四阿，五脊殿，吴殿</p>
-            </note> 
-            
+            <note type="related concepts">
+               <p xml:id="related-concept-k000125-1" xml:lang="zh-Hant">四阿 sì'ā</p>
+               <p xml:id="related-concept-k000125-2" xml:lang="zh-Hant">五脊殿 wǔjídiàn</p>
+               <p xml:id="related-concept-k000125-3" xml:lang="zh-Hant">吴殿 Wúdiàn</p>
+            </note>
             <bibl xml:id="biblk000125-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-            </bibl>
-                       
+            </bibl> 
             <listBibl xml:id="biblk000125-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
@@ -83,7 +83,6 @@
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                </bibl> 
             </listBibl>
-
             <listBibl xml:id="biblk000125-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/IRRH8K8Q"/>
@@ -96,13 +95,11 @@
                   <citedRange unit="pp">366,369</citedRange>
                </bibl> 
             </listBibl>
-            
-            <idno type="URI">https://architecturasinica.org/keyword/k000125</idno>
+                        <idno type="URI">https://architecturasinica.org/keyword/k000125</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> -->
-                  <!-- I don't know what should the category be -->
-            </listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000125" passive="Fortification Elements"/>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>

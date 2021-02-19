@@ -59,11 +59,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
-            <language ident="zh-latn-pinyin">Pinyin</language>
-            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="en">English</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -75,13 +76,13 @@
    <text>
       <body>
          <entryFree xml:id="k000017" type="architectural-feature">
-            <term xml:id="term-k000017-1" xml:lang="en" type="preferred" source="#biblk000017-1">T-beams (preferred)</term>
+            <term xml:id="term-k000017-1" xml:lang="zh-latn-pinyin-nt" type="preferred">dingfu</term>
             <term xml:id="term-k000017-2" xml:lang="zh-Hant" source="#biblk000017-2">丁栿</term>
             <term xml:id="term-k000017-3" xml:lang="zh-Hans">丁栿</term>
             <term xml:id="term-k000017-4" xml:lang="zh-latn-pinyin" source="#biblk000017-3">dīngfú</term>
-            <term xml:id="term-k000017-5" xml:lang="Wade-Giles">ting-fu</term>
+            <term xml:id="term-k000017-5" xml:lang="zh-latn-wadegile">ting-fu</term>
             <term xml:id="term-k000017-6" xml:lang="en" type="literal_translation">"丁" cross beams (lit.)</term>
-            
+            <term xml:id="term-k000017-7" xml:lang="en" type="ATTCAT_preferred" source="#biblk000017-1">T-beams (ATTCAT preferred)</term>
 	    <note type="Note (brief)">
 	       <p xml:lang="en">T-beams run parallel to the roof ridge and form a "T" shape with cross beams perpendicular to the roof ridge. In traditional Chinese timber-frame architecture, the dingfu refers to cross beams used on the gable sides of a building with a hip and gable roof (jiuji 九脊 or xialiangtou 廈兩頭; later xieshan 歇山) or the "hip" side of a building with a hip roof (<term ref="/keyword/k000074">Song</term> dynasty si'e 四阿 or <term ref="/keyword/k000070">Qing</term> dynasty wudian 廡殿). In historical texts, we have only found this technical term used in the <term ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</term> (e.g. Chapter 5, 7b). Modern architectural historians use this term to describe cross beams on the gable sides of buildings dating from the <term ref="/keyword/k000082">Tang</term> to the early <term ref="/keyword/k000051">Ming</term> dynasties.</p>          
 	       <p xml:lang="zh-Hant">丁栿指四阿（即<term ref="/keyword/k000070">清</term>代廡殿）或廈兩頭及九脊（即清代歇山）房屋山面承屋蓋用的梁，與進深方向的梁在平面上成"丁"字形。丁栿僅見於<term ref="/keyword/k000074">宋</term>《<term ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">營造法式</term>》（1103，故宫藏抄本 5.7b）。現代學者將之用於對<term ref="/keyword/k000082">唐</term>（618-907）至<term ref="/keyword/k000051">明</term>（1368-1644）初建築物的描述。</p>

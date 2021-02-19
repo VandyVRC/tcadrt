@@ -47,6 +47,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -59,14 +60,13 @@
    <text>
       <body>
          <entryFree xml:id="k000124" type="architectural-feature">
+            <term xml:id="term-k000124-4" xml:lang="zh-latn-pinyin-nt" type="preferred">yamu</term>
             <term xml:id="term-k000124-1" xml:lang="zh-Hant" source="#biblk000124-1">崖墓</term>
             <term xml:id="term-k000124-2" xml:lang="zh-Hans">崖墓</term>
-            <term xml:id="term-k000124-3" xml:lang="zh-latn-pinyin" type="preferred">yámù (preferred)</term>
-            <term xml:id="term-k000124-4" xml:lang="zh-latn-pinyin-nt">yamu</term>
+            <term xml:id="term-k000124-3" xml:lang="zh-latn-pinyin">yámù</term>
             <term xml:id="term-k000124-5" xml:lang="Wade-Giles">ya-mu</term>
-            <term xml:id="term-k000124-6" xml:lang="en" type="preferred" source="#biblk000124-2">cliff tomb</term>
+            <term xml:id="term-k000124-6" xml:lang="en" type="ATTCAT_preferred" source="#biblk000124-2">cliff tomb (ATTCAT preferred)</term>
             <term xml:id="term-k000124-7" xml:lang="en" source="#biblk000124-3">rock-cut tomb</term>
-            
             <!-- <note>
               <p> Related terms: 露台</p>
             </note> -->
@@ -91,11 +91,6 @@
             <bibl xml:id="biblk000124-3">
                <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
             </bibl>
-
-            
-            
-           
-            
             <idno type="URI">https://architecturasinica.org/keyword/k000124</idno>
             <listRelation>
                <listRelation>

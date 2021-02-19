@@ -47,6 +47,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -59,10 +60,10 @@
    <text>
       <body>
          <entryFree xml:id="k000133" type="architectural-feature">
-            
+            <term xml:id="term-k000133-8" xml:lang="zh-latn-pinyin-nt" type="preferred">tuofeng</term>
             <term xml:id="term-k000133-1" xml:lang="zh-Hant" source="#biblk000133-1">駝峰</term>
             <term xml:id="term-k000133-2" xml:lang="zh-Hans">驼峰</term>
-            <term xml:id="term-k000133-3" xml:lang="zh-latn-pinyin" type="preferred">tuófēng(preferred)</term>
+            <term xml:id="term-k000133-3" xml:lang="zh-latn-pinyin">tuófēng</term>
             <term xml:id="term-k000133-4" xml:lang="zh-latn-pinyin" source="#biblk000133-2">tuofeng</term>
             <term xml:id="term-k000133-5" xml:lang="Wade-Giles">t'o-feng</term>
             <term xml:id="term-k000133-6" xml:lang="en" source="#biblk000133-3">camel's hump</term>
