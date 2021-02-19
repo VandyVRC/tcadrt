@@ -36,6 +36,7 @@
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -47,10 +48,11 @@
    <text>
       <body>
          <entryFree xml:id="k000079" type="building-type">
-            <term xml:id="term-k000079-4" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblstupa-2">sudubo</term>     
-            <term xml:id="term-k000079-2" xml:lang="zh-Hant" source="#biblstupa-2">窣堵波</term>
-            <term xml:id="term-k000079-3" xml:lang="zh-latn-pinyin" source="#biblstupa-2">sūdǔbō</term>   
-            <term xml:id="term-k000079-1" xml:lang="en" source="#biblstupa-1">stupa</term>
+            <term xml:id="term-k000079-4" xml:lang="zh-latn-pinyin-nt" type="preferred">sudubo</term>     
+            <term xml:id="term-k000079-2" xml:lang="zh-Hant">窣堵波</term>
+            <term xml:id="term-k000079-3" xml:lang="zh-latn-pinyin">sūdǔbō</term>   
+            <term xml:id="term-k000075" xml:lang="zh-latn-wadegile">su-tu-po</term>
+            <term xml:id="term-k000079-1" xml:lang="en">stupa</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000079</idno>
          </entryFree>
       </body>
