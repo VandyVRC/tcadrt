@@ -40,6 +40,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>        
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -50,11 +52,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="cejiao" type="architectural-feature">
-            <term xml:id="term-cejiao-1" xml:lang="en">batter or inward incline of eaves columns</term>
-            <term xml:id="term-cejiao-4" type="preferred" xml:lang="zh-latn-pinyin"> cèjiǎo (preferred)</term>
-            <term xml:id="term-cejiao-2" xml:lang="zh-Hant">側腳</term>
-            <term xml:id="term-cejiao-3" xml:lang="zh-Hans">侧脚</term>
+         <entryFree xml:id="k000006" type="architectural-feature">
+            <term xml:id="term-k000006-5" xml:lang="zh-latn-pinyin-nt" type="preferred" >cejiao</term>
+            <term xml:id="term-k000006-2" xml:lang="zh-Hant">側腳</term>
+            <term xml:id="term-k000006-3" xml:lang="zh-Hans">侧脚</term>
+            <term xml:id="term-k000006-4" xml:lang="zh-latn-pinyin">cèjiǎo</term>
+            <term xml:id="term-k000006-6" xml:lang="zh-latn-wadegile">ts`e-chiao</term>
+            <term xml:id="term-k000006-1" xml:lang="en">batter or inward incline of eaves columns</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000006</idno>
             <gloss/>
             <listRelation>

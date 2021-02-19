@@ -33,10 +33,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
-            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="en">English</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -45,11 +47,14 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="first_step_touxin" type="architectural-feature">
-            <term xml:id="term-first_step_touxin-1" xml:lang="en">stolen heart (touxin): first step of huagong does not have a crossing bracket arm</term>
-            <term xml:id="term-first_step_touxin-4" type="preferred" xml:lang="zh-latn-pinyin">tōuxīnzào (preferred)</term>
-            <term xml:id="term-first_step_touxin-2" xml:lang="zh-Hant">偷心造</term>
-            <term xml:id="term-first_step_touxin-3" xml:lang="zh-Hans">偷心造</term>
+         <entryFree xml:id="k000024" type="architectural-feature">
+            <term xml:id="term-k000024-1" xml:lang="zh-latn-pinyin-nt" type="preferred">touxinzao</term>
+            <term xml:id="term-k000024-2" xml:lang="zh-Hant">偷心造</term>
+            <term xml:id="term-k000024-3" xml:lang="zh-Hans">偷心造</term>
+            <term xml:id="term-k000024-4" xml:lang="zh-latn-pinyin">tōuxīnzào</term>
+            <term xml:id="term-k000024-5" xml:lang="zh-latn-wadegile">t'ou hsin tsao</term>
+            <term xml:id="term-k000024-6" xml:lang="en" type="literal_translation">stolen heart (lit.)</term>
+            <term xml:id="term-k000024-7" xml:lang="en">first step of huagong does not have a crossing bracket arm</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000024</idno>
             <gloss/>
             <listRelation>

@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,10 +59,11 @@
    <text>
       <body>
          <entryFree xml:id="k000128" type="architectural-feature">
+            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin-nt" type="preferred">zhuchu</term>
             <term xml:id="term-k000128-1" xml:lang="zh-Hant">柱礎</term>
             <term xml:id="term-fk000128-2" xml:lang="zh-Hans">柱础</term>
-            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin" type="preferred">zhùchǔ (preferred)</term>
-            <term xml:id="term-k000128-4" xml:lang="Wade-Giles">chu-ch'u</term>           
+            <term xml:id="term-k000128-13" xml:lang="zh-latn-pinyin">zhùchǔ</term>
+            <term xml:id="term-k000128-4" xml:lang="zh-latn-wadegile">chu-ch'u</term>           
             <term xml:id="term-k000128-5" xml:lang="en" source="#biblk000128-1">base</term>
             <term xml:id="term-k000128-6" xml:lang="en" source="#biblk000128-2">boulder base</term>
             <term xml:id="term-k000128-7" xml:lang="en" source="#biblk000128-3">column base</term>

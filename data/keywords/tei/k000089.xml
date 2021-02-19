@@ -70,6 +70,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -84,13 +85,13 @@
    <text>
       <body>
       	<entryFree xml:id="k000089" type="architectural-feature">
+      	   <term xml:id="term-k000089-3" xml:lang="zh-latn-pinyin-nt" type="preferred">wengcheng</term>
       	   <term xml:id="term-k000089-1" xml:lang="zh-Hant" source="#biblk000089-1">甕城</term>
       	   <term xml:id="term-k000089-2" xml:lang="zh-Hans">瓮城</term>
-      	   <term xml:id="term-k000089-3" xml:lang="zh-latn-pinyin" type="preferred">wengcheng</term>    
       	   <term xml:id="term-k000089-4" xml:lang="zh-latn-pinyin">wèngchéng</term> 
-      	   <term xml:id="term-k000089-5" xml:lang="Wade-Giles">weng-ch’eng</term>
+      	   <term xml:id="term-k000089-5" xml:lang="zh-latn-wadegile">weng-ch’eng</term>
       	   <term xml:id="term-k000089-6" xml:lang="en" type="literal_translation">jar-shaped defensive wall (lit.)</term>
-      	   <term xml:id="term-k000089-7" xml:lang="en" source="#biblk000089-2">enceinte</term>
+      	   <term xml:id="term-k000089-7" xml:lang="en" type="ATTCAT_preferred" source="#biblk000089-2">enceinte (ATTCAT preferred)</term>
       	   <term xml:id="term-k000089-8" xml:lang="en" source="#biblk000089-3">barbicans</term>
       	   <term xml:id="term-k000089-9" xml:lang="en" source="#biblk000089-4">jar cities</term>
 

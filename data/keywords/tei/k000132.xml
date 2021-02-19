@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,12 +59,12 @@
    <text>
       <body>
          <entryFree xml:id="k000132" type="architectural-feature">
-            
+            <term xml:id="term-k000132-3" xml:lang="zh-latn-pinyin-nt" type="preferred">jiejianbanzhang</term>
             <term xml:id="term-k000132-1" xml:lang="zh-Hant" source="#biblk000132-1">截間版帳</term>
             <term xml:id="term-k000132-2" xml:lang="zh-Hans" source="#biblk000132-2">截间版帐</term>
-            <term xml:id="term-k000132-3" xml:lang="zh-latn-pinyin" type="preferred">jiéjiānbǎnzhàng (preferred)</term>
+            <term xml:id="term-k000132-6" xml:lang="zh-latn-pinyin">jiéjiānbǎnzhàng</term>
             <term xml:id="term-k000132-4" xml:lang="zh-latn-pinyin" source="#biblk000132-3">jiejian banzhang</term>
-            <term xml:id="term-k000132-5" xml:lang="Wade-Giles">chieh-chien-pan-chang</term>
+            <term xml:id="term-k000132-5" xml:lang="zh-latn-wadegile">chieh-chien-pan-chang</term>
 
             <note>
                <p> Related terms: 截間屏風骨，殿內截間格子，佛道帳，九脊小帳，牙腳帳，壁帳</p>

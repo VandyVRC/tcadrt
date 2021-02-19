@@ -40,6 +40,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -52,10 +54,12 @@
    <text>
       <body>
          <entryFree xml:id="k000012" type="site-type">
-            <term xml:id="term-k000012-1" xml:lang="en">cloister</term>
-            <term xml:id="term-k000012-2" xml:lang="zh-latn-pinyin" type="preferred">yuàn (preferred)</term>
+            <term xml:id="term-k000012-5" xml:lang="zh-latn-pinyin-nt" type="preferred">yuan</term>
             <term xml:id="term-k000012-3" xml:lang="zh-Hant">院</term>
             <term xml:id="term-k000012-4" xml:lang="zh-Hans">院</term>
+            <term xml:id="term-k000012-2" xml:lang="zh-latn-pinyin">yuàn</term>
+            <term xml:id="term-k000012-6" xml:lang="zh-latn-wadegile">yüan</term>
+            <term xml:id="term-k000012-1" xml:lang="en">cloister</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>
             <note type="Note (brief)">
                <p xml:lang="en">An enclosed quandrangle of buildings or the enclosing wall. Can refer to a single temple complex or an enclosed unit within a larger building complex, such as a palace. <s source="#biblk000012-2">Often translated as "cloister," particularly in the Buddhist context.</s></p> 

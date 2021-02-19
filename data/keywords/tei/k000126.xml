@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -59,11 +60,11 @@
       <body>
          <entryFree xml:id="k000126" type="architectural-feature">
             
-            
+            <term xml:id="term-k000126-5" xml:lang="zh-latn-pinyin-nt" type="preferred">sieding</term>
             <term xml:id="term-k000126-1" xml:lang="zh-Hant" source="#biblk000126-1">四阿頂</term>
             <term xml:id="term-k000126-2" xml:lang="zh-Hans">四阿顶</term>
-            <term xml:id="term-k000126-3" xml:lang="zh-latn-pinyin" type="preferred">sìēdǐng (preferred)</term>
-            <term xml:id="term-k000126-4" xml:lang="Wade-Giles">szu-o-ting</term>
+            <term xml:id="term-k000126-3" xml:lang="zh-latn-pinyin">sìēdǐng</term>
+            <term xml:id="term-k000126-4" xml:lang="zh-latn-wadegile">szu-o-ting</term>
             <note>
               <p> Related terms: 五脊殿，吴殿，庑殿，庑殿顶，四坡顶</p>
             </note> 
