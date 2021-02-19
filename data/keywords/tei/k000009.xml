@@ -68,7 +68,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
-            <language ident="zh-latn-pinyin-nt">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -83,9 +83,10 @@
    <text>
       <body>
          <entryFree xml:id="k000009" type="architectural-feature">
-            <term xml:id="term-k000009-1" xml:lang="zh-latn-pinyin" type="preferred" source="#biblk000009-1">chīwěi (preferred)</term>
+            <term xml:id="term-k000009-7" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000009-1">chiwei</term>
             <term xml:id="term-k000009-2" xml:lang="zh-Hant" source="#biblk000009-2">鴟尾</term>
             <term xml:id="term-k000009-3" xml:lang="zh-Hans">鴟尾</term>
+            <term xml:id="term-k000009-1" xml:lang="zh-latn-pinyin" source="#biblk000009-1">chīwěi</term>
             <term xml:id="term-k000009-4" xml:lang="Wade-Giles" source="#biblk000009-3">ch'ih-wei</term>
             <term xml:id="term-k000009-5" xml:lang="en" type="literal_translation">owl's tails; hawk's tails (lit.)</term>
             <term xml:id="term-k000009-6" xml:lang="en" source="#biblk000009-4">sea beasts</term>

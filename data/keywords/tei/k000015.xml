@@ -40,6 +40,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -50,11 +52,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="ct_angled_bracket_arm" type="architectural-feature">      
-            <term xml:id="term-ct_angled_bracket_arm-1" xml:lang="en">column top angled bracket arm</term>
-            <term xml:id="term-ct_angled_bracket_arm-4" type="preferred" xml:lang="zh-latn-pinyin">zhùtóu pùzuò xiégǒng (preferred)</term>
-            <term xml:id="term-ct_angled_bracket_arm-2" xml:lang="zh-Hant">柱頭鋪作斜栱 </term>
-            <term xml:id="term-ct_angled_bracket_arm-3" xml:lang="zh-Hans">柱头铺作斜栱</term>
+         <entryFree xml:id="k000015" type="architectural-feature">      
+            <term xml:id="term-k000015-5" xml:lang="zh-latn-pinyin-nt" type="preferred">zhutou puzuo xiegong</term>
+            <term xml:id="term-k000015-2" xml:lang="zh-Hant">柱頭鋪作斜栱 </term>
+            <term xml:id="term-k000015-3" xml:lang="zh-Hans">柱头铺作斜栱</term>
+            <term xml:id="term-k000015-4" xml:lang="zh-latn-pinyin">zhùtóu pùzuò xiégǒng</term>
+            <term xml:id="term-k000015-6" xml:lang="zh-latn-wadegile">chu-t`ou-p`u-tso-hsieh-kung</term>
+            <term xml:id="term-k000015-1" xml:lang="en">column top angled bracket arm</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000015</idno>
             <gloss/>
             <listRelation>

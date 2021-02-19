@@ -46,6 +46,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,10 +59,11 @@
    <text>
       <body>
          <entryFree xml:id="k000127" type="architectural-feature">
+            <term xml:id="term-k000127-8" xml:lang="zh-latn-pinyin-nt" type="preferred">yingzao fashi</term>
             <term xml:id="term-k000127-1" xml:lang="zh-Hant">營造法式</term>
             <term xml:id="term-k000127-2" xml:lang="zh-Hans">营造法式</term>
-            <term xml:id="term-k000127-3" xml:lang="zh-latn-pinyin" type="preferred">yíngzào fàshì (preferred)</term>
-            <term xml:id="term-k000127-4" xml:lang="Wade-Giles">ying-tsao fa-shih</term>           
+            <term xml:id="term-k000127-3" xml:lang="zh-latn-pinyin">yíngzào fàshì</term>
+            <term xml:id="term-k000127-4" xml:lang="zh-latn-wadegile">ying-tsao fa-shih</term>           
             <term xml:id="term-k000127-5" xml:lang="en" source="#biblk000127-1">Yingzao Fashi</term>
             <term xml:id="term-k000127-6" xml:lang="en" source="#biblk000127-2">Ying-tsao fashih</term>
             <term xml:id="term-k000127-7" xml:lang="en">building standard</term>

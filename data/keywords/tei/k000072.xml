@@ -35,6 +35,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -46,10 +48,13 @@
    <text>
       <body>
          <entryFree xml:id="k000072" type="architectural-feature">   
-            <term xml:id="term-k000072-1" xml:lang="en">split-bamboo/lute face descending cantilever</term>
-            <term xml:id="term-k000072-4" xml:lang="zh-latn-pinyin" type="preferred">qínmiàn-pīzhú xiàáng (preferred)</term>
+            <term xml:id="term-k000072-5" xml:lang="zh-latn-pinyin-nt" type="preferred">qinmian-pizhu xiaang</term>
             <term xml:id="term-k000072-2" xml:lang="zh-Hant">琴面/批竹下昂</term>
             <term xml:id="term-k000072-3" xml:lang="zh-Hans">琴面/批竹下昂</term>
+            <term xml:id="term-k000072-4" xml:lang="zh-latn-pinyin">qínmiàn-pīzhú xiàáng</term>
+            <term xml:id="term-k000072-6" xml:lang="zh-latn-wadegile">ch`in-mien-p`i-chu-hsia-ang</term>
+            <term xml:id="term-k000072-1" xml:lang="en">split-bamboo/lute face descending cantilever</term>
+            <term xml:id="term-k000072-1" xml:lang="en">split-bamboo/lute face descending cantilever</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000072</idno>
             <listRelation>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000072" rendition="featured">

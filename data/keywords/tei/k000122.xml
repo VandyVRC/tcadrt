@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -71,15 +72,15 @@
    <text>
       <body>
          <entryFree xml:id="k000122" type="architectural-feature">
-            <term xml:id="term-k000122-3" xml:lang="zh-latn-pinyin" type="preferred">yángmǎ chéng (preferred)</term>
+            <term xml:id="term-k000122-3" xml:lang="zh-latn-pinyin-nt" type="preferred">yangma cheng (preferred)</term>
             <term xml:id="term-k000122-1" xml:lang="zh-Hant">羊馬城</term>
             <term xml:id="term-k000122-2" xml:lang="zh-Hans">羊马城</term>
-            <term xml:id="term-k000122-4" xml:lang="Wade-Giles">yang-ma-ch'eng</term>
-            <term xml:id="term-k000122-8" xml:lang="en" source="#biblk000122-1">Fausse-brayes</term>
-            <term xml:id="term-k000122-6" xml:lang="en" source="#biblk000122-1">parapets</term>
-            <term xml:id="term-k000122-5" xml:lang="en" source="#biblk000122-1">ramparts</term>
-            <term xml:id="term-k000122-7" xml:lang="zh-latn-pinyin-nt">yangma cheng</term>
+            <term xml:id="term-k000122-9" xml:lang="zh-latn-pinyin">yángmǎ chéng</term>
+            <term xml:id="term-k000122-4" xml:lang="zh-latn-wadegile">yang-ma-ch'eng</term>
             <term xml:id="term-k000122-5" xml:lang="en" type="literal-translation">goat-and-horse defensive wall (lit.)</term>
+            <term xml:id="term-k000122-6" xml:lang="en" source="#biblk000122-1" type="ATTCAT_preferred">parapets (ATTCAT preferred)</term>
+            <term xml:id="term-k000122-8" xml:lang="en" source="#biblk000122-1">fausse-brayes</term>
+            <term xml:id="term-k000122-7" xml:lang="en" source="#biblk000122-1">ramparts</term>            
             <note type="related concepts">
                <p xml:id="related-concept-k000122-1" xml:lang="zh-Hant" ref="/keyword/k000089">甕城 wèngchéng</p>
                <p xml:id="related-concept-k000122-2" xml:lang="zh-Hant">羊馬垣 yángmǎyuán</p>

@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -72,12 +73,13 @@
    <text>
       <body>
          <entryFree xml:id="k000117" type="architectural-feature">
-            <term xml:id="term-k000117-1" xml:lang="en" type="preferred" source="#biblk000117-1">tie beams (preferred)</term>
+            <term xml:id="term-k000117-7" xml:lang="zh-latn-pinyin-nt" type="preferred">fang</term>            
             <term xml:id="term-k000117-2" xml:lang="zh-Hant">枋</term>
             <term xml:id="term-k000117-3" xml:lang="zh-Hans">枋</term>
             <term xml:id="term-k000117-4" xml:lang="zh-latn-pinyin">fāng</term>
-            <term xml:id="term-k000117-5" xml:lang="Wade-Giles">fang</term>
+            <term xml:id="term-k000117-5" xml:lang="zh-latn-wadegile">fang</term>
             <term xml:id="term-k000117-6" xml:lang="en" type="literal_translation">tie beam (lit.)</term>
+            <term xml:id="term-k000117-1" xml:lang="en" source="#biblk000117-1">tie beams</term>
             <note type="Note (brief)">
                <p>See <term ref="/keyword/k000116">fang 方</term></p>
             </note>

@@ -36,6 +36,7 @@
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -46,12 +47,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="historic-building-group" type="site-type">
-            <term xml:id="term-historic-building-group-5" xml:lang="zh-latn-pinyin-nt" type="preferred" source="biblhistoric-building-group-1">gujianzhuqun</term>
-            <term xml:id="term-historic-building-group-2" xml:lang="zh-Hant" source="biblhistoric-building-group-1">古建築群</term>
-            <term xml:id="term-historic-building-group-3" xml:lang="zh-Hans" source="biblhistoric-building-group-1">古建筑群</term>
-            <term xml:id="term-historic-building-group-4" xml:lang="zh-latn-pinyin" source="biblhistoric-building-group-1">gǔjiànzhúqún</term>
-            <term xml:id="term-historic-building-group-1" xml:lang="en" source="biblhistoric-building-group-1">historic building group</term>
+         <entryFree xml:id="k000032" type="site-type">
+            <term xml:id="term-k000032-5" xml:lang="zh-latn-pinyin-nt" type="preferred" source="biblhistoric-building-group-1">gujianzhuqun</term>
+            <term xml:id="term-k000032-2" xml:lang="zh-Hant" source="biblhistoric-building-group-1">古建築群</term>
+            <term xml:id="term-k000032-3" xml:lang="zh-Hans" source="biblhistoric-building-group-1">古建筑群</term>
+            <term xml:id="term-k000032-4" xml:lang="zh-latn-pinyin" source="biblhistoric-building-group-1">gǔjiànzhúqún</term>
+            <term xml:id="term-k000032-6" xml:lang="zh-latn-wadegile">ku-chien-chu-ch`ün</term>
+            <term xml:id="term-k000032-1" xml:lang="en" source="biblhistoric-building-group-1">historic building group</term>
             <gloss>modern designation for cluster of registered historic structures </gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000032</idno>
          </entryFree>

@@ -34,6 +34,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -44,9 +45,10 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="Jingnan" type="time period">
-            <term xml:id="term-Jingnan-1" xml:lang="en">Jingnan</term>
-            <term xml:id="term-Jingnan-2" xml:lang="zh-Hant">荊南</term>
+         <entryFree xml:id="k000037" type="time period">
+            <term xml:id="term-k000037-1" xml:lang="en">Jingnan</term>
+            <term xml:id="term-k000037-2" xml:lang="zh-Hant">荊南</term>
+            <term xml:id="term-k000037-6" xml:lang="zh-latn-wadegile">ching-nan</term>
             <state type="existence" from="0924" to="0963">
                <desc>924 - 963</desc>
             </state>

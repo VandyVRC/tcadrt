@@ -67,6 +67,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -81,12 +82,13 @@
    <text>
       <body>
          <entryFree xml:id="k000113" type="architectural-feature">
-            <term xml:id="term-k000113-1" xml:lang="en" type="preferred">polychrome painting works (preferred)</term>
+            <term xml:id="term-k000113-7" xml:lang="zh-latn-pinyin-nt" type="preferred">caihuazuo</term>           
             <term xml:id="term-k000113-2" xml:lang="zh-Hant">彩畫作</term>
             <term xml:id="term-k000113-3" xml:lang="zh-Hans">彩画作</term>
             <term xml:id="term-k000113-4" xml:lang="zh-latn-pinyin">cǎihuàzuò</term>
-            <term xml:id="term-k000113-5" xml:lang="Wade-Giles">ts’ai-hua-tso</term>
+            <term xml:id="term-k000113-5" xml:lang="zh-latn-wadegile">ts’ai-hua-tso</term>
             <term xml:id="term-k000113-6" xml:lang="en" type="literal_translation">polychrome painting works (lit.)</term>
+            <term xml:id="term-k000113-1" xml:lang="en">polychrome painting works</term>
             <note type="Note (brief)">
                <p xml:lang="en">A specific division of works that involves applying polychrome painting to architectural surfaces, categorized in the <title ref="https://tinyurl.com/y6hzhlpx">Yingzao fashi</title> (1103). The <title ref="https://tinyurl.com/y6hzhlpx">Yingzao fashi</title> details several schemes of polychrome painting works that can be largely divided into two types: (1) zhuangluan 裝銮 (lit. harness bells), which are images and/or patterns painted on components such as bracket-blocks, bracket-arms, cross-beams and pillars, as well as on wall surfaces; (2) shuaran 刷染 (lit. brushed-on colors), which entails less complicated designs and is limited to two or three colors used on the aforementioned surfaces as well as on doors, windows, balustrades (goulan 勾欄),  pale fences (chazi 叉子) and other places not specified in the text.</p>
                <p xml:lang="zh-Hant" source="biblk000113-3"><term ref="/keyword/k000055">北宋</term>官書《<title ref="https://tinyurl.com/yxqy4lrp">營造法式</title>》（1103年）列出的一類在建築表面上裝飾彩畫的工種。《<title>營造法式</title>》中列舉了多種彩畫作制度，涉及裝銮和刷染兩類：（1）裝銮采用各類圖案、紋樣，多施於枓、栱、梁、柱等構件之上，也用於畫壁；（2）刷染樣式則相對簡單，限於兩、三種顔色，除上述構件和壁面之外，還用於門、窗、勾欄、叉子等処。</p>

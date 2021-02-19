@@ -59,6 +59,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -71,12 +72,13 @@
    <text>
       <body>
          <entryFree xml:id="k000114" type="architectural-feature">
-            <term xml:id="term-k000114-1" xml:lang="en" type="preferred">forehead tie beams (preferred)</term>
+            <term xml:id="term-k000114-7" xml:lang="zh-latn-pinyin-nt" type="preferred">e</term>          
             <term xml:id="term-k000114-2" xml:lang="zh-Hant">額</term>
             <term xml:id="term-k000114-3" xml:lang="zh-Hans">额</term>
             <term xml:id="term-k000114-4" xml:lang="zh-latn-pinyin">é</term>
-            <term xml:id="term-k000114-5" xml:lang="Wade-Giles">o</term>
-            <term xml:id="term-k000114-6" xml:lang="en" type="literal_translation">forehead (lit.)</term>          
+            <term xml:id="term-k000114-5" xml:lang="zh-latn-wadegile">o</term>
+            <term xml:id="term-k000114-6" xml:lang="en" type="literal_translation">forehead (lit.)</term> 
+            <term xml:id="term-k000114-1" xml:lang="en">forehead tie beams</term>        
             <idno type="URI">https://architecturasinica.org/keyword/k000114</idno>
             <listRelation>
                <listRelation>
