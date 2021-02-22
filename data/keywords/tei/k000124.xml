@@ -94,8 +94,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000124</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> -->
-                  <!-- I don't know what should the category be -->
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> 
             </listRelation>
             </listRelation>
          </entryFree>
