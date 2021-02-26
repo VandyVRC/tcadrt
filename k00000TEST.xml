@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Term1</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt><resp>Data entry and revision by</resp><name type="person">Winona Salesky</name></respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k00000TEST/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#onlineForms" when="2021-02-26Z">Winona Salesky, Testing Keyword form and form submission</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree type="architectural-feature" xml:id="k00000TEST"><bibl xml:id="biblk00000TEST-bibl-1"><title>Su shi yan yi qing yi hai zhu chen ben</title><ptr target="https://architecturasinica.org/bibl/NUILVFRQ"/><citedRange unit="pp"/></bibl>
+            <term xml:lang="en" type="preferred" xml:id="termk00000TEST-1">Term1</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k00000TEST</idno>
+            <gloss xml:lang="en" source="#biblk00000TEST-bibl-1">Testing gloss <p>Adding some embedded xml to test</p>. </gloss>
+            <note type="Note (full)" xml:lang="en" source="#biblk00000TEST-bibl-1">Testing Notes. <p><term/></p></note>
+            <listRelation>
+               <relation active="https://architecturasinica.org/keyword/k00000TEST"/><relation ref="skos:broadMatch" passive="Fortification Elements" active="https://architecturasinica.org/keyword/k00000TEST"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
