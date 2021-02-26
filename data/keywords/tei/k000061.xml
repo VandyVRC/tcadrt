@@ -13,6 +13,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Add citation information 2021 by</resp>
+               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -54,8 +58,15 @@
             <term xml:id="term-k000061-4" xml:lang="zh-latn-pinyin" source="biblpalace-Daoist-monastery-or-other-1">gōng</term>
             <term xml:id="term-k000061-6" xml:lang="zh-latn-wadegile">kung</term>
             <term xml:id="term-k000061-1" xml:lang="en" source="biblpalace-Daoist-monastery-or-other-1">palace (Daoist monastery or other)</term>
+            <term xml:id="term-k000061-7" xml:lang="en" source="biblk000061-1">house (pre-Qin)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000061</idno>
             <gloss>Daoist monastery, but commonly used for other ritual buildings/complexes</gloss>
          	<idno type="URI">https://architecturasinica.org/keyword/k000061</idno>
+            </note>
+            <bibl xml:id="biblk000061-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">38</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
