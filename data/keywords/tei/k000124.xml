@@ -72,7 +72,7 @@
             </note> -->
             <listBibl xml:id="biblk000124-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/48I5DSAE"/>
+                  <ptr target="https://architecturasinica.org/bibl/4658M4DC"/>
                </bibl> 
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/IH7328B8"/>
@@ -81,7 +81,7 @@
             </listBibl>
             <listBibl xml:id="biblk000124-2">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/WE46QVN3"/>
+                  <ptr target="https://architecturasinica.org/bibl/S7HGPS2B"/>
                </bibl> 
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/88T3FMSR"/>
@@ -94,8 +94,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000124</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> -->
-                  <!-- I don't know what should the category be -->
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> 
             </listRelation>
             </listRelation>
          </entryFree>

@@ -13,6 +13,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citation information 2021 by</resp>
+               <name type="person" xml:id="ZYY">ZOU Yuyang</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -35,6 +39,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -47,11 +52,12 @@
    <text>
       <body>
          <entryFree xml:id="k000078" type="building-type">
-            <term xml:id="term-k000078-1" xml:lang="en" source="#biblstoried-pavilion-1">storied pavilion</term>
-            <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin" type="preferred" source="#biblstoried-pavilion-1">gé (preferred)</term>
+            <term xml:id="term-k000078-5" xml:lang="zh-latn-pinyin-nt" type="preferred">ge</term>
+            <term xml:id="term-k000078-2" xml:lang="zh-Hant">閣</term>
+            <term xml:id="term-k000078-3" xml:lang="zh-Hans">阁</term>
+            <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin">gé</term>
             <term xml:id="term-k000078-6" xml:lang="zh-latn-wadegile">ko</term>
-            <term xml:id="term-k000078-2" xml:lang="zh-Hant" source="#biblstoried-pavilion-1">閣</term>
-            <term xml:id="term-k000078-3" xml:lang="zh-Hans" source="#biblstoried-pavilion-1">阁</term>
+            <term xml:id="term-k000078-1" xml:lang="en">storied pavilion</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>
          </entryFree>
       </body>
