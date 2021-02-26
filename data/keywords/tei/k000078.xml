@@ -58,8 +58,14 @@
             <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin">gé</term>
             <term xml:id="term-k000078-6" xml:lang="zh-latn-wadegile">ko</term>
             <term xml:id="term-k000078-1" xml:lang="en">storied pavilion</term>
+            <term xml:id="term-k000078-7" xml:lang="en" source="#biblkeyword78-1">pavilion</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>
-         </entryFree>
+            
+            <bibl xml:id="biblk000078-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">356</citedRange>
+            </bibl>
+         </entryFree>      
       </body>
    </text>
 </TEI>
