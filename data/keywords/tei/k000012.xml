@@ -53,6 +53,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#TGM" when="2020-06-07-2020">Adding citation(s)</change>
+         <change n="2.1" who="#TGM" when="2020-02-25-2021">Adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,17 +65,21 @@
             <term xml:id="term-k000012-2" xml:lang="zh-latn-pinyin">yuàn</term>
             <term xml:id="term-k000012-6" xml:lang="zh-latn-wadegile">yüan</term>
             <term xml:id="term-k000012-1" xml:lang="en">cloister</term>
+            <term xml:id="term-k000012-7" xml:lang="en" source="#biblk000012-1">compound, building cluster</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>
             <note type="Note (brief)">
                <p xml:lang="en">An enclosed quandrangle of buildings or the enclosing wall. Can refer to a single temple complex or an enclosed unit within a larger building complex, such as a palace. <s source="#biblk000012-2">Often translated as "cloister," particularly in the Buddhist context.</s></p> 
                <p>(T. Miller)</p>
             </note>
-            <listBibl xml:id="biblk000012-2">
-               <bibl>
+            <bibl xml:id="biblk000012-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">371</citedRange>   
+            </bibl>
+            
+            <bibl xml:id="biblk000012-2">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">577</citedRange>   
-               </bibl>
-            </listBibl>
+             </bibl>
          </entryFree>
       </body>
    </text>
