@@ -47,7 +47,8 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-      </revisionDesc>
+         <change n="2.0" who="#ZYY" when="2021-03-04">Adding: citation(s)</change>
+      </revisionDesc>  
    </teiHeader>
    <text>
       <body>
@@ -57,14 +58,21 @@
             <term xml:id="term-k000078-3" xml:lang="zh-Hans">阁</term>
             <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin">gé</term>
             <term xml:id="term-k000078-6" xml:lang="zh-latn-wadegile">ko</term>
-            <term xml:id="term-k000078-1" xml:lang="en">storied pavilion</term>
-            <term xml:id="term-k000078-7" xml:lang="en" source="#biblkeyword78-1">pavilion</term>
+            <term xml:id="term-k000078-1" xml:lang="en" source="#biblk000078-1">storied pavilion</term>
+            <term xml:id="term-k000078-7" xml:lang="en" source="#biblk000078-2">pavilion</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>
-            
-            <bibl xml:id="biblk000078-1">
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000078-3">raised passageway between buildings; balcony, projecting from wall of a building and usu. surrounded by a railing; room or building for storing books or other valuable (esp. religious) items.</p>
+               <p>(ZOU YY)</p>
+            </note>
+            <bibl xml:id="biblk000078-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">356</citedRange>
             </bibl>
+             <bibl xml:id="biblk000078-3">
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp"></citedRange>
+             </bibl>
          </entryFree>      
       </body>
    </text>
