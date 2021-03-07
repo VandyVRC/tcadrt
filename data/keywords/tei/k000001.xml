@@ -67,9 +67,15 @@
             
             <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             
-            <note type="Gloss">
-            <p>Term used to describe a shuatou, a timber joined through the linggong, that has been crafted to mimic a slanted bracket-arm. (T. Miller)</p>
-            </note>
+            <gloss>
+               <p xml:lang="en">Term used to describe a shuatou, a timber joined through the linggong, that has been crafted to mimic a slanted bracket-arm. <s source="#biblk000001-1"> More on the shuatou can be found in Chen Mingda (2010, 241)</s> (T. Miller)</p>
+            </gloss>
+            
+            <bibl xml:id="biblk000001-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">241</citedRange>
+            </bibl>
+            
             <listRelation>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
                </relation>
