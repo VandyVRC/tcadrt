@@ -47,6 +47,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#SEB" when="2021-03-04">Adding citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +60,7 @@
             <term xml:id="term-k000083-6" xml:lang="zh-latn-wadegile">miao</term>
             <term xml:id="term-k000083-1" xml:lang="en">temple</term>
             <term xml:id="term-k000083-7" xml:lang="en" source="biblk000083-1">ancestral temple</term>
-            <gloss>building or complex dedicated to local or ancestral deities</gloss>
+            <!--   <gloss>building or complex dedicated to local or ancestral deities</gloss> --> 
             <idno type="URI">https://architecturasinica.org/keyword/k000083</idno>
             <bibl xml:id="biblk000083-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
