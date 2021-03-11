@@ -13,6 +13,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citation information 2021 by</resp>
+               <name type="person" xml:id="ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -43,6 +47,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#ZXL" when="2021-03-11-12:00">Adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,7 +59,12 @@
             <term xml:id="term-k000031-4" xml:lang="zh-latn-pinyin">ān</term>
             <term xml:id="term-k000031-6" xml:lang="zh-latn-wadegile">an</term>
             <term xml:id="term-k000031-1" xml:lang="en">hermitage</term>
-            <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>
+            <term xml:id="term-k000031-7" xml:lang="en" source="#biblk000031-1">convent</term>
+            <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>          
+            <bibl xml:id="biblk000031-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citeRange unit="pp">16</citeRange>
+            </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000031</idno>
          </entryFree>
       </body>
