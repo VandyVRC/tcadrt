@@ -20,7 +20,7 @@
                <name type="person" xml:id="YF">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, and add citation(s) by</resp>
+               <resp>Data entry and adding citation(s) by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
          </titleStmt>
@@ -61,13 +61,13 @@
             <term xml:id="term-k000139-1" xml:lang="zh-latn-pinyin-nt" type="preferred">pingliang</term>
             <term xml:id="term-k000139-2" xml:lang="zh-Hant">平梁</term>
             <term xml:id="term-k000139-3" xml:lang="zh-Hans">平梁</term>
-            <term xml:id="term-k000139-4" xml:lang="zh-latn-pinyin">píngliáng</term>
+            <term xml:id="term-k000139-4" xml:lang="zh-latn-pinyin" source="#biblk000139-4">píngliáng</term>
             <term xml:id="term-k000139-5" xml:lang="zh-latn-wadegile">p'ing-liang</term>
             <term xml:id="term-k000139-6" xml:lang="en" type="literal_translation" source="#biblk000139-1">flat roofbeam (lit.)</term>
             <term xml:id="term-k000139-7" xml:lang="en" source="#biblk000139-2">top beam</term>
             <term xml:id="term-k000139-8" xml:lang="en" source="#biblk000139-3">two-rafter crossbeam</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000139</idno>
-            <bibl xml:id="biblk000139-1">
+            <!-- <bibl xml:id="biblk000139-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">online edition accessed on 2021-03-12</citedRange>
             </bibl>
@@ -78,7 +78,11 @@
             <bibl xml:id="biblk000139-3">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">363</citedRange>
-            </bibl> 
+            </bibl> -->
+            <bibl xml:id="biblk000139-4">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">114</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000139</idno>
             <listRelation>
                <listRelation>
