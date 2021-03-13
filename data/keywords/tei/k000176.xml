@@ -63,21 +63,33 @@
             <term xml:id="term-k000176-4" xml:lang="zh-latn-pinyin" source="#biblk000176-1">tán</term>
             <term xml:id="term-k000176-5" xml:lang="zh-latn-wadegile">t'an</term>
             <note>
-               <p xml:lan="en" source="biblk000176-2">lit. an altar; also a building complex where the primary ritual structure is an altar</p>
+               <p xml:lan="en" source="biblk000176-2">lit. an altar. usually a raised structure of pounded earth enclosed by a perimeter wall; building complex where the primary ritual structure is an altar.</p>
             </note>
             <bibl xml:id="biblk000176-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">367</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000176-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">77</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">367</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">441</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000176</idno>
             <listRelation>
-
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-
             </listRelation>
          </entryFree>
       </body>
