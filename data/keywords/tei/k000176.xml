@@ -62,14 +62,23 @@
             <term xml:id="term-k000176-3" xml:lang="zh-Hans">坛</term>
             <term xml:id="term-k000176-4" xml:lang="zh-latn-pinyin" source="#biblk000176-1">tán</term>
             <term xml:id="term-k000176-5" xml:lang="zh-latn-wadegile">t'an</term>
-            <note>
-               <p xml:lan="en" source="biblk000176-2">lit. an altar. usually a raised structure of pounded earth enclosed by a perimeter wall; building complex where the primary ritual structure is an altar.</p>
+            <term xml:id="term-k000176-6" xml:lang="en" source="#biblk000176-2" type="literal_translation">altar</term>
+            <note type="Gloss">
+               <p xml:lan="en" source="biblk000176-3">A space for ritual sacrifices; an altar. A tan is typically a raised platform of pounded earth used for sacrifices to spirits. It can also refer to a building complex where the primary ritual structure is an altar (e.g. Tiantan 天壇 or "Altar to Heaven").</p>
             </note>
             <bibl xml:id="biblk000176-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">367</citedRange>
             </bibl>
-            <listBibl xml:id="biblk000176-2">
+            <bibl xml:id="biblk000176-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">441</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000176-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange unit="pp">digital edition accessed 2021-03-11</citedRange>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">77</citedRange>
