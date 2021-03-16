@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">敵樓</foreign> dílóu</title>
+               <foreign xml:lang="zh-Hant">臺</foreign> tái</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -57,13 +57,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000163/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000164/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-03-11</date>
+            <date>2021-03-16</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -80,31 +80,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-03-11">CREATED: record</change>
+         <change n="1.0" when="2021-03-16">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000163" type="site-type">
-            <term xml:id="term-k000163-8" xml:lang="zh-latn-pinyin-nt" type="preferred">dilou</term>
-            <term xml:id="term-k000163-2" xml:lang="zh-Hant">敵樓</term>
-            <term xml:id="term-k000163-3" xml:lang="zh-Hans">敌楼</term>
-            <term xml:id="term-k000163-4" xml:lang="zh-latn-pinyin" source="#biblk000163-1">dílóu</term>
-            <term xml:id="term-k000163-5" xml:lang="zh-latn-wadegile">ti-lo</term>
-           
-            <bibl xml:id="biblk000163-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD/>
-            </bibl>
+         <entryFree xml:id="k000164" type="building-type">
+            <term xml:id="term-k000164-1" xml:lang="zh-latn-pinyin-nt" type="preferred">tai</term>
+            <term xml:id="term-k000164-2" xml:lang="zh-Hant">臺</term>
+            <term xml:id="term-k000164-3" xml:lang="zh-Hans">台</term>
+            <term xml:id="term-k000164-4" xml:lang="zh-latn-pinyin">tái</term>
+            <term xml:id="term-k000164-5" xml:lang="zh-latn-wadegile">t`ai</term>
+            <term xml:id="term-k000164-6" xml:lang="en" type="literal_translation" source="#biblk000164-1">terrace; raised platform(lit.)</term>
+            
+            <bibl xml:id="biblk000164-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">Digital Edition</citedRange>
+            </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000103</idno>
             <listRelation>
                <listRelation>
-                  
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000103" passive="Bracketing"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-                  
                </listRelation>
             </listRelation>
          </entryFree>
