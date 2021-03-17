@@ -9,14 +9,14 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">泥道栱</foreign> nídàogǒng</title>
+               <foreign xml:lang="zh-Hant">泥道慢栱</foreign> nídào màngǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations by</resp>
@@ -28,13 +28,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000167/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000168/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-03-11</date>
+            <date>2021-03-12</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -51,22 +51,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-11">CREATED: record</change>
+         <change n="1.0" when="2021-03-12">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000167" type="site type">
-            <term xml:id="term-k000167-1" xml:lang="zh-latn-pinyin-nt" type="preferred">nidaogong</term>
-            <term xml:id="term-k000167-2" xml:lang="zh-Hant">泥道栱</term>
-            <term xml:id="term-k000167-3" xml:lang="zh-Hans">泥道栱</term>
-            <term xml:id="term-k000167-4" xml:lang="zh-latn-pinyin" source="#biblk000167-1">nídàogǒng</term>
-            <term xml:id="term-k000167-5" xml:lang="zh-latn-wadegile">ni-tao-kung</term>
-            <bibl xml:id="biblk000167-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">221</citedRange>
-            </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000167</idno>
+         <entryFree xml:id="k000168" type="site-type">
+            <term xml:id="term-k000168-1" xml:lang="zh-latn-pinyin-nt" type="preferred">nidao mangong</term>
+            <term xml:id="term-k000168-2" xml:lang="zh-Hant">泥道慢栱</term>
+            <term xml:id="term-k000168-3" xml:lang="zh-Hans">泥道慢栱</term>
+            <term xml:id="term-k000168-4" xml:lang="zh-latn-pinyin">nídào màngǒng</term>
+            <term xml:id="term-k000168-5" xml:lang="zh-latn-wadegile">ni-tao man-kung</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000168</idno>
             <listRelation>
                <listRelation>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
