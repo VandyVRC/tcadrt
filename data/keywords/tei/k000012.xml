@@ -15,12 +15,13 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding various languages and revising title statement 2020 by</resp>
+               <resp>Adding various scripts and revising title statement 2020 by</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>Adding citation information 2021 by</resp>
-               <name type="person" xml:id="LLZ">ZUO Lala 左拉拉</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -52,27 +53,43 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" who="#TGM" when="2020-06-07-2020">Adding citation(s)</change>
+         <change n="2.0" who="#TGM" when="2020-06-07">Adding citation(s)</change>
+         <change n="2.1" who="#TGM" when="2021-02-27">Adding citation(s)</change>
+         <change n="2.2" who="#TGM" when="2021-03-04">Adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000012" type="site-type">
-            <term xml:id="term-k000012-5" xml:lang="zh-latn-pinyin-nt" type="preferred">yuan</term>
-            <term xml:id="term-k000012-3" xml:lang="zh-Hant">院</term>
-            <term xml:id="term-k000012-4" xml:lang="zh-Hans">院</term>
-            <term xml:id="term-k000012-2" xml:lang="zh-latn-pinyin">yuàn</term>
-            <term xml:id="term-k000012-6" xml:lang="zh-latn-wadegile">yüan</term>
-            <term xml:id="term-k000012-1" xml:lang="en">cloister</term>
+            <term xml:id="term-k000012-1" xml:lang="zh-latn-pinyin-nt" type="preferred">yuan</term>
+            <term xml:id="term-k000012-2" xml:lang="zh-Hant">院</term>
+            <term xml:id="term-k000012-3" xml:lang="zh-Hans">院</term>
+            <term xml:id="term-k000012-4" xml:lang="zh-latn-pinyin">yuàn</term>
+            <term xml:id="term-k000012-5" xml:lang="zh-latn-wadegile">yüan</term>
+            <term xml:id="term-k000012-8" xml:lang="en" source="#biblk000012-1">compound</term>
+            <term xml:id="term-k000012-6" xml:lang="en" source="#biblk000012-2">cloister</term>
+            <term xml:id="term-k000012-7" xml:lang="en">courtyard</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">An enclosed quandrangle of buildings or the enclosing wall. Can refer to a single temple complex or an enclosed unit within a larger building complex, such as a palace. <s source="#biblk000012-2">Often translated as "cloister," particularly in the Buddhist context.</s></p> 
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000012-3">A walled courtyard containing buildings, space enclosed by a wall, or the enclosing wall around a group of buildings. Can also refer to a single building complex or an enclosed unit within a larger building complex, such as a palace or bureaucratic office. Often translated as "cloister," particularly in the Buddhist context.</p> 
                <p>(T. Miller)</p>
             </note>
-            <listBibl xml:id="biblk000012-2">
-               <bibl>
+            <bibl xml:id="biblk000012-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">371</citedRange>   
+            </bibl>
+            <bibl xml:id="biblk000012-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">577</citedRange>   
+            </bibl>
+            <listBibl xml:id="biblk000012-3">
+            <bibl >
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">577</citedRange>   
+             </bibl>
+               <bibl >
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange unit="pp">digital edition</citedRange>   
                </bibl>
             </listBibl>
          </entryFree>

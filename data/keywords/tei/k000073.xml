@@ -57,10 +57,14 @@
             <term xml:id="term-k000073-3" xml:lang="zh-Hans">祠</term>
             <term xml:id="term-k000073-4" xml:lang="zh-latn-pinyin">cí</term>
             <term xml:id="term-k000073-6" xml:lang="zh-latn-wadegile">tz`u</term>
-            <term xml:id="term-k000073-1" xml:lang="en">shrine</term>
+            <term xml:id="term-k000073-1" xml:lang="en" source="biblk000073-1">shrine</term>
             <gloss>building or complex dedicated to local or ancestral deities</gloss>
             <idno type="URI">https://architecturasinica.org/keyword/k000073</idno>
          </entryFree>
+         <bibl xml:id="biblk000073-1">
+            <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+            <citedRange unit="pp">27</citedRange>
+         </bibl>
       </body>
    </text>
 </TEI>
