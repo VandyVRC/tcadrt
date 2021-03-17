@@ -17,7 +17,7 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations by</resp>
@@ -57,21 +57,21 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000136" type="building-type">
+         <entryFree xml:id="k000136" type="building type">
             <term xml:id="term-k000136-1" xml:lang="zh-latn-pinyin-nt" type="preferred">lutai</term>
             <term xml:id="term-k000136-2" xml:lang="zh-Hant">露台</term>
             <term xml:id="term-k000136-3" xml:lang="zh-Hans">露台</term>
             <term xml:id="term-k000136-4" xml:lang="zh-latn-pinyin" source="#biblk000136-1">lùtái</term>
             <term xml:id="term-k000136-5" xml:lang="zh-latn-wadegile">lu-t'ai</term>
-            <term xml:id="term-k000136-6" xml:lang="en" type="literal_translation" source="#biblk000136-2">dew terrace (lit.)</term>
+            <!--<term xml:id="term-k000136-6" xml:lang="en" type="literal_translation" source="#biblk000136-2">dew terrace (lit.)</term> -->
             <bibl xml:id="biblk000136-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">472</citedRange>
             </bibl>
-            <bibl xml:id="biblk000136-2">
+            <!-- <bibl xml:id="biblk000136-2">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">285, 440</citedRange>
-            </bibl>
+            </bibl> -->
             <idno type="URI">https://architecturasinica.org/keyword/k000136</idno>
             <listRelation>
                <listRelation>
