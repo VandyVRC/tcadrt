@@ -77,7 +77,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000019" type="architectural-feature">
+         <entryFree xml:id="k000019" type="architectural feature">
             <term xml:id="term-k000019-1" xml:lang="zh-latn-pinyin-nt" type="preferred">dougong</term>
       	   <term xml:id="term-k000019-2" xml:lang="zh-Hant" source="#biblk000019-2">枓栱</term>
       	   <term xml:id="term-k000019-3" xml:lang="zh-Hans">斗栱</term>
@@ -156,7 +156,7 @@
                <listRelation>
                   <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000019" rendition="featured">
                   </relation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="Bracketing"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="bracketing"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>

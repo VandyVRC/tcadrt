@@ -16,7 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations by</resp>
@@ -62,19 +62,43 @@
             <term xml:id="term-k000176-3" xml:lang="zh-Hans">坛</term>
             <term xml:id="term-k000176-4" xml:lang="zh-latn-pinyin" source="#biblk000176-1">tán</term>
             <term xml:id="term-k000176-5" xml:lang="zh-latn-wadegile">t'an</term>
+            <term xml:id="term-k000176-6" xml:lang="en" source="#biblk000176-2" type="literal_translation">altar</term>
+            <note type="Gloss">
+               <p xml:lan="en" source="biblk000176-3">A space for ritual sacrifices; an altar. A tan is typically a raised platform of pounded earth used for sacrifices to spirits. It can also refer to a building complex where the primary ritual structure is an altar (e.g. Tiantan 天壇 or "Altar to Heaven").</p>
+            </note>
             <bibl xml:id="biblk000176-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">367</citedRange>
             </bibl>
+            <bibl xml:id="biblk000176-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">441</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000176-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange unit="pp">digital edition accessed 2021-03-11</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">77</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">367</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">441</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000176</idno>
             <listRelation>
-
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-
             </listRelation>
          </entryFree>
       </body>
