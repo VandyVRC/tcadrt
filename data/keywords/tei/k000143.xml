@@ -16,7 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations by</resp>
@@ -56,7 +56,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000143" type="architectural-feature">
+         <entryFree xml:id="k000143" type="architectural feature">
             <term xml:id="term-k000143-1" xml:lang="zh-latn-pinyin-nt" type="preferred">xieshan</term>
             <term xml:id="term-k000143-2" xml:lang="zh-Hant">歇山</term>
             <term xml:id="term-k000143-3" xml:lang="zh-Hans">歇山</term>
@@ -74,7 +74,7 @@
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000143" passive="Building Frame"/>
+                     active="https://architecturasinica.org/keyword/k000143" passive="building frame"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>
