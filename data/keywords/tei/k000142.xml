@@ -17,7 +17,7 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry and adding citation(s) by</resp>
@@ -57,7 +57,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000142" type="Building Frame">
+         <entryFree xml:id="k000142" type="architectural feature">
             <term xml:id="term-k000142-1" xml:lang="zh-latn-pinyin-nt" type="preferred">xinjian</term>
             <term xml:id="term-k000142-2" xml:lang="zh-Hant">心間</term>
             <term xml:id="term-k000142-3" xml:lang="zh-Hans">心间</term>
@@ -71,6 +71,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000142</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000142" passive="building frame"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
