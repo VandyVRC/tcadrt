@@ -120,6 +120,8 @@
                <relation active="https://architecturasinica.org/place/000158" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000158" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000040" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000158" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000020"/>
+               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4798/40758358071_bdd1017231_z.jpg" passive="https://architecturasinica.org/place/0000158" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51049169948_f71be289a5_4k.jpg" passive="https://architecturasinica.org/place/000158" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
