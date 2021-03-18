@@ -14,41 +14,12 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Initial research and revision by</resp>
-               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
-            </respStmt>
-            <respStmt>
-               <resp>Peer review by</resp>
-               <name type="team">ATTCAT 2018</name>
-            </respStmt>
-            <respStmt>
-               <resp>Data entry, proofreading, and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>English proofreading by</resp>
-               <name type="person" xml:id="AC">Aurelia Campbell</name>
-            </respStmt>
-            <respStmt>
-               <resp>Chinese proofreading by</resp>
-               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adding citations</resp>
-               <name type="person" xml:id="SQ">SONG Qisen 松奇森</name>
-            </respStmt>
-            <respStmt>
-               <resp>Revising title statement by</resp>
-               <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adding citation information 2021 by</resp>
+               <resp>Data entry, adding citations 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
          </titleStmt>
@@ -91,20 +62,17 @@
             <term xml:id="term-k000163-3" xml:lang="zh-Hans">敌楼</term>
             <term xml:id="term-k000163-4" xml:lang="zh-latn-pinyin" source="#biblk000163-1">dílóu</term>
             <term xml:id="term-k000163-5" xml:lang="zh-latn-wadegile">ti-lo</term>
-           
             <bibl xml:id="biblk000163-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD/>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000103</idno>
             <listRelation>
-               <listRelation>
-                  
+               <listRelation>                  
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-                  
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->                  
                </listRelation>
             </listRelation>
          </entryFree>
