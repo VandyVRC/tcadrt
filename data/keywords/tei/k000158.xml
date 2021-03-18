@@ -9,19 +9,18 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">櫨枓</foreign>lúdǒu</title>
+               <foreign xml:lang="zh-Hant">櫨枓 </foreign>lúdǒu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, and adding citations by</resp>
-               <name type="person" xml:id="HDN">HUANG Danni黄聃婗</name>
+               <resp>Data entry, and adding citations 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,8 +61,7 @@
             <term xml:id="term-k000158-2" xml:lang="zh-Hant">櫨枓</term>
             <term xml:id="term-k000158-3" xml:lang="zh-Hans">栌斗</term>
             <term xml:id="term-k000158-4" xml:lang="zh-latn-pinyin" source="#biblk000158-1">lúdǒu</term>
-            <term xml:id="term-k000158-5" xml:lang="zh-latn-wadegile">lu-tou</term>
-           
+            <term xml:id="term-k000158-5" xml:lang="zh-latn-wadegile">lu-tou</term>           
             <bibl xml:id="biblk000158-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">460</citedRange> 
@@ -71,6 +69,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000158</idno>
             <listRelation>
                <listRelation>
+		  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000158" passive="bracketing"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
