@@ -11,7 +11,11 @@
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation of original Chinese text by</resp>
+               <name type="person" xml:id="WPS">Wong Pui See</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -49,6 +53,7 @@
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="TGM" when="2021-03-27">Adding sources and dates</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,7 +70,7 @@
                <placeName xml:id="name000020-8" type="alternate" subtype="site-name" xml:lang="zh-Hant">大雲禪院</placeName>
                <placeName xml:id="name000158-10" type="alternate" subtype="site-name" xml:lang="zh-latn-pinyin">Dàyúnchányuàn</placeName>
                <idno type="URI">https://architecturasinica.org/place/000020</idno>
-               <desc type="site-data" xml:lang="en" source="#bibl000020-1">Dayun Cloister (大雲院) is located in Shihui Village of Beidanche Township (北耽車鄉實會村), approximately 500 meters to the northwest of Shuangfeng Shan (雙峰山). There are extant structures from the Five Dynasties and the Qing dynasty. It is one of the major historical and cultural sites protected at the national level (全國重點文物保護單位). According to a stele inscription, it was initially built in the third year of Later Jin Tianfu (後晉天福) reign period (938) under the original name Xianyan Cloister (仙岩院). In the fifth year of the Later Zhou Xiande (後周顯德) reign period (958), the Seven Treasures Pagoda (七寶塔) was built outside of the monastery. The monastery was then decreed by the imperial court to have its name changed to Dayun Chan Monastery (大雲禪寺) in the eighth year of Song Taiping Xingguo (太平興國) reign period (983). In the subsequent Jin and Yuan dynasties, the monastery sustained severe damage; on which multiple attempts of repair and renovation were implemented during the Ming Chenghua (成化) and Wanli (萬曆), as well as the Qing Shunzhi (順治) and Kangxi (康熙), periods. Occupying a total area of approximately 4,003 m2, the site is oriented north-south, facing south and has a two-courtyard configuration. The axial buildings are Tianwang dian (or Guardian King Hall, 天王殿), Dafodian (or Great Buddha Hall, 大佛殿), and Sanfodian (or Three Buddha Hall, 三佛殿); while the two side buildings are east service door and subsidiary hall. The artifacts inside the monastery are two Song steles, a Ming stele, a Qing stele, and 28.83-square meters of Five Dynasties murals. Outside, the extant Seven Treasures Pagoda is from the Five Dynasties and is located about 50 meters southwest of the monastery. [Translated WPS, edited TM, 2017-2018]</desc>
+               <desc type="site-data" xml:lang="en" source="#bibl000020-1">Dayun Cloister (大雲院) is located in Shihui Village of Beidanche Township (北耽車鄉實會村), approximately 500 meters to the northwest of Shuangfeng Shan (雙峰山). There are extant structures from the Five Dynasties and the Qing dynasty. It is one of the major historical and cultural sites protected at the national level (全國重點文物保護單位). According to a stele inscription, it was initially built in the third year of Later Jin Tianfu (後晉天福) reign period (938) under the original name Xianyan Cloister (仙岩院). Most scholars agree that the the Seven Treasures Pagoda (七寶塔) was built outside of the monastery in the first year of the Later Zhou Xiande (後周顯德) reign period (954; Yang 176), although some have cited the fifth year (958; Zhongguo wenwuju 305). The imperial court bestowed the name Dayun Chan Monastery (大雲禪寺) in the eighth year of Song Taiping Xingguo (太平興國) reign period (983). In the subsequent Jin and Yuan dynasties, the monastery sustained severe damage; on which multiple attempts of repair and renovation were implemented during the Ming Chenghua (成化) and Wanli (萬曆), as well as the Qing Shunzhi (順治) and Kangxi (康熙), periods. Occupying a total area of approximately 4,003 m2, the site is oriented north-south, facing south and has a two-courtyard configuration. The axial buildings are Tianwang dian (or Guardian King Hall, 天王殿), the Amitabha Hall or Dafodian (Great Buddha Hall, 大佛殿), and Sanfodian (or Three Buddhas Hall, 三佛殿); while the two side buildings are east service door and subsidiary hall. The artifacts inside the monastery are two Song steles, a Ming stele, a Qing stele, and 28.83-square meters of Five Dynasties murals. Outside, the extant Seven Treasures Pagoda is from the Five Dynasties and is located about 50 meters southwest of the monastery.</desc>
                <state type="existence" subtype="dynasty" source="#bibl000020-2" from="0907-01-01" to="0960-01-01">
                   <label>Dynasty</label>
                   <desc>Five Dynasties 907 - 960</desc>
@@ -106,10 +111,16 @@
                   <desc xml:lang="zh-Hant">院</desc>
                   <desc xml:lang="zh-Hans">院</desc>
                </trait>
-               <bibl xml:id="bibl000020-1">
+               <listBibl xml:id="bibl000020-1">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">II:305; 34-C5</citedRange>
                </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">176-177</citedRange>
+               </bibl>
+               </listBibl>
                <bibl xml:id="bibl000020-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
@@ -117,7 +128,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000020" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000020" ref="dcterms:temporal" passive="" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000020" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000040" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000020" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51049894526_be673f7c21_4k.jpg" passive="https://architecturasinica.org/place/000020" ana="featured"/>
             </listRelation>
