@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-11">CREATED: record</change>
+         <change n="1.1" when="2021-03-31" who="#TGM">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,11 +63,24 @@
             <term xml:id="term-k000172-3" xml:lang="zh-Hans">华栱</term>
             <term xml:id="term-k000172-4" xml:lang="zh-latn-pinyin">huāgǒng</term>
             <term xml:id="term-k000172-5" xml:lang="zh-latn-wadegile">hua-kung</term>
-            <term xml:id="term-k000172-6" xml:lang="en" type="literal_translation" source="#biblk000172-1">blossoming bracket-arm (lit.)</term> 
+            <term xml:id="term-k000172-6" xml:lang="en" type="literal_translation" source="#biblk000172-1">blossoming bracket-arm (lit.)</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000172-2">perpendicular bracket arm (Fu 357); bracket arm that extends outward and upward from the building plane to support the outward extension of the eaves. literally blossoming (華 hua, first tone) bracket-arm (栱 gong) (Kroll 167, 135)</p>
+            </note>
             <bibl xml:id="biblk000172-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">167, 135</citedRange>
             </bibl> 
+            <listBibl xml:id="biblk000172-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">167, 135</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">357</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000172</idno>
             <listRelation>
                <listRelation>
