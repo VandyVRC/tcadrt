@@ -62,13 +62,15 @@
                   <label>Date</label>
                   <desc>954</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000020b-2" from="0951-01-01" to="0960-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000020b-1" from="0951-01-01" to="0960-01-01">
                   <label>Dynasty</label>
                   <desc>Later Zhou 951-960</desc>
                </state>
+               <!--  
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000020b-1"></p>
                </desc>
+               -->
                   <location type="gps" subtype="preferred">
                      <geo>36.366517 113.43845</geo>
                </location>
@@ -93,7 +95,7 @@
                   </bibl>                  
                </listBibl> 
                -->
-               <bibl xml:id="bibl000020b-2">
+               <bibl xml:id="bibl000020b-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
