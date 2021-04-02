@@ -82,17 +82,17 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <listBibl xml:id="bibl000020b-1">
-                  <!--  <bibl>
+               <!--  <bibl>
+               <listBibl xml:id="bibl000020b-1">                  
                      <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
                      <citedRange unit="pp">16, 319</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                      <citedRange unit="pp">59-79; 187</citedRange>
-                  </bibl>
-                  -->
+                  </bibl>                  
                </listBibl> 
+               -->
                <bibl xml:id="bibl000020b-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
@@ -103,6 +103,9 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000020b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000020"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51088823122_053936169e_3k.jpg"
+                  passive="https://architecturasinica.org/place/000020b" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51088737726_77b95afb22_c.jpg"
                   passive="https://architecturasinica.org/place/000020b" ana="featured"/>
             </listRelation>
          </listPlace>
