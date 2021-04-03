@@ -23,6 +23,12 @@
                <resp>Data entry, adding citations by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller, </name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净, </name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -63,15 +69,23 @@
             <term xml:id="term-k000136-3" xml:lang="zh-Hans">露台</term>
             <term xml:id="term-k000136-4" xml:lang="zh-latn-pinyin" source="#biblk000136-1">lùtái</term>
             <term xml:id="term-k000136-5" xml:lang="zh-latn-wadegile">lu-t'ai</term>
-            <!--<term xml:id="term-k000136-6" xml:lang="en" type="literal_translation" source="#biblk000136-2">dew terrace (lit.)</term> -->
+            <note type="Gloss">
+               <p xml:lan="en" source="biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing</p>
+            </note>
             <bibl xml:id="biblk000136-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">472</citedRange>
             </bibl>
-            <!-- <bibl xml:id="biblk000136-2">
-               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">285, 440</citedRange>
-            </bibl> -->
+            <listBibl xml:id="biblk000136-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange unit="pp">digital edition accessed 2021-03-11</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">57</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000136</idno>
             <listRelation>
                <listRelation>
