@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Bao'en Monastery <foreign xml:lang="zh-Hant">報恩寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZYY">ZOU Yuyang</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZYY">ZOU Yuyang</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-05-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-05-04:00">CREATED: place record</change>
+         <name type="person" ref="#ZYY">ZOU Yuyang</name>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000293" type="site">
+               <placeName xml:id="name000293-1" type="site-name" xml:lang="en">Bao'en Monastery</placeName>
+               <placeName xml:id="name000293-4" type="site-name" xml:lang="zh-Hant">報恩寺</placeName>
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-Hans">报恩寺</placeName>
+               <placeName xml:id="name000293-2" type="site-name" xml:lang="zh-latn-pinyin">Bàoēnsì</placeName>
+               <placeName xml:id="name000293-3" type="site-name" xml:lang="zh-latn-wadegile">Pao-en-szu</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000293</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000293-1" from="1368-01-01"
+                  to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368-1644</desc>
+               </state>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://zh.wikipedia.org/zh/%E5%A4%A7%E6%8A%A5%E6%81%A9%E5%AF%BA">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://baike.baidu.com/item/%E5%A4%A7%E6%8A%A5%E6%81%A9%E5%AF%BA/3349404?fromtitle=%E6%8A%A5%E6%81%A9%E5%AF%BA&fromid=75137">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested">
+                  <placeName>江苏省南京市秦淮区</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Jiangsu, Nanjing, Qinhuai</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
+                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
+                     <placeName xml:lang="zh-Hans">江苏省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-Hans">苏</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">区</placeName>
+                     <placeName xml:lang="en">District</placeName>
+                  </region>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Qinhuai qu</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>32.0564 118.46998</geo>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000293-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000293" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000293" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
