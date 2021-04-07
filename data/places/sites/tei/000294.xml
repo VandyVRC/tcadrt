@@ -6,14 +6,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Qixia Monastery<foreign xml:lang="zh-Hant">棲霞寺</foreign>
+            <title level="a" xml:lang="en">Qixia Monastery<foreign xml:lang="zh-Hant"> 棲霞寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZXL">ZHANG Xuliang 張序亮</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>
-               <name type="person" xml:id="ZXL">ZHANG Xuliang 張序亮</name>
+               <name type="person" ref="#ZXL">ZHANG Xuliang 張序亮</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -43,7 +44,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-03" who="#WO">CREATED: place record</change>
+         <change n="1.0" when="2021-04-03" who="#ZXL">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,12 +57,11 @@
                <placeName xml:id="name000294-4" type="site-name" xml:lang="zh-latn-pinyin">Qīxíasì</placeName>
                <placeName xml:id="name000294-5" type="site-name" xml:lang="zh-latn-wadegile">Ch'i-hsia-ssu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000294</idno>
-               <state type="existence" source="#bibl000294-5" from="0489-01-01"
-                  to="0489-12-31">
+               <state type="existence" source="#bibl000294-1" from="0489-01-01" to="0489-12-31">
                   <label>Date</label>
                   <desc>489</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000294-5" from="0479-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000294-2" from="0479-01-01"
                   to="0502-01-01">
                   <label>Dynasty</label>
                   <desc>Qi Kingdom 479-502</desc>
@@ -83,6 +83,7 @@
                </trait>              
                      </place>
             <listRelation>
+               <relation active="https://architecturasinica.org/place/000294" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000294" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000068" ana="dynasty"/>
             </listRelation>
