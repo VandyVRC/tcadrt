@@ -53,12 +53,14 @@
          <listPlace>
             <place xml:id="place-000291" type="site">
                <placeName xml:id="name000291-1" type="site-name" xml:lang="en">Xingshengjiao Temple Pagoda</placeName>
-               <placeName xml:id="name000291-5" type="site-name" xml:lang="zh-Hant">興聖教寺塔</placeName>
-               <placeName xml:id="name000291-6" type="site-name" xml:lang="zh-Hans">兴圣教寺塔</placeName>
-               <placeName xml:id="name000291-2" type="site-name" xml:lang="zh-latn-pinyin">Xīngshèngjiāo sì tǎ</placeName>
-               <placeName xml:id="name000291-3" type="site-name" xml:lang="zh-latn-pinyinnt">Xingshengjiao si ta</placeName>
-               <placeName xml:id="name000291-4" type="site-name" xml:lang="zh-latn-wadegile">Hsing-sheng-chiao ssu t'a</placeName>
-                              <idno type="URI">https://architecturasinica.org/place/000291</idno>
+               <placeName xml:id="name000291-2" type="site-name" xml:lang="zh-Hant">興聖教寺塔</placeName>
+               <placeName xml:id="name000291-3" type="site-name" xml:lang="zh-Hans">兴圣教寺塔</placeName>
+               <placeName xml:id="name000291-4" type="site-name" xml:lang="zh-latn-pinyin">Xīngshèngjiāo sì tǎ</placeName>
+               <placeName xml:id="name000291-5" type="site-name" xml:lang="zh-latn-wadegile">Hsing-sheng-chiao ssu t'a</placeName>
+               <placeName xml:id="name000291-6" type="site-name" xml:lang="en">Songjiang Square Pagoda</placeName>
+               <placeName xml:id="name000291-7" type="site-name" xml:lang="zh-Hant">松江方塔</placeName>
+               <placeName xml:id="name000291-8" type="site-name" xml:lang="zh-Hans">松江方塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000291</idno>
                <state type="existence" subtype="dynasty" source="#bibl000291-1" from="0971-01-01"
                   to="1127-01-01">
                   <label>Dynasty</label>
@@ -130,13 +132,14 @@
                   </bibl>
                </listBibl> /!-->
             </place>
-           <!-- <listRelation>
+          <listRelation>
                <relation active="https://architecturasinica.org/place/000291"
                   passive="https://architecturasinica.org/keyword/k000060"
                   ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+            <!--
+               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>            
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49769751131_deff9345b0.jpg" .   embed new picture
                   passive="https://architecturasinica.org/place/000291" ana="featured"/>
