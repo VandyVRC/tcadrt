@@ -59,8 +59,8 @@
                    <desc>Yuan 1271 - 1368</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p>Zhenru Monastery, also known as Dasi, the “Grand Temple,” in the Qing dynasty (1644-1912), is a Buddhist monastery located in Zhenru Town in northwest Shanghai (Lu juan 1; Zuo 130). The town is named after the monastery (Shanghai wenwu baoguan weiyuanhui 16). Monk Yong’an reconstructed the monastery and gave the name Zhenruyuan to it during the Jiading reign of the Southern Song dynasty (1127-1279) (Lu juan 1). Then it was relocated to a place called Taoshupu by Monk Miaoxin during the Yanyou reign of the Yuan dynasty (1271-1368) and he acquired a new plaque in order to change the name from Zhenruyuan to Zhenrusi (Lu juan 1). Later during the Hongwu reign (1368-1398) and the Hongzhi Reign (1488-1505) of the Ming dynasty, Monk Daoxin and Monk Falei restored the monastery twice (Lu juan 1).</p>
-                  <p>While many of the compounds in the monastery are recent buildings, the main hall is considered an authentic building first constructed during Yuan Dynasty (Zuo 130). In August 1950, a local administrator found an inscription on an interior tie beam in the Zhenrusi main hall, which reads: “[The main hall] is built on the third day of the seventh month, the seventh year of yanyou reign of Yuan (1320),” which confirms the main hall is a Yuan architecture (Liu 91). However, the style of construction is heterogeneous, and Liu Dunzhen considers the main hall was first constructed in Yuan dynasty, restored in Ming dynasty, and several features were added in Qing dynasty (96). The main hall is north-south oriented and the main entrance is facing the south (Zuo 131). The ground plan of Zhenrusi main hall is special for its ratio between the front bay, middle bay, and rear bay, which is nearly 2:2:1 (Liu 91). Three-fourths of the central bay is occupied by Buddhist statues remaining on a rectangular altar (Zuo 131). Moreover, the roof frame of Zhenrusi main hall has several local feature as it is a combination of mansion style and palatial style (Zuo 134). The hidden roof which canopies the front half of the main hall roof is rare in Yuan dynasty but is more prevalent in Japan, similar to the structure of noyane (Zuo 132). Inscriptions on architectural members of the Zhenrusi main hall found in 1963 can be accurately understood through architectural terminology in Japanese, which further proofs its connection with Japanese architecture (Lu 8).</p>
+                  <p source="#bibl000290-2">Zhenru Monastery, also known as Dasi, the “Grand Temple,” in the Qing dynasty (1644-1912), is a Buddhist monastery located in Zhenru Town in northwest Shanghai (Lu 2004; Zuo 130). The town is named after the monastery (Shanghai wenwu baoguan weiyuanhui 16). Monk Yong’an reconstructed the monastery and gave the name Zhenruyuan to it during the Jiading reign of the Southern Song dynasty (1127-1279) (Lu juan 1). Then it was relocated to a place called Taoshupu by Monk Miaoxin during the Yanyou reign of the Yuan dynasty (1271-1368) and he acquired a new plaque in order to change the name from Zhenruyuan to Zhenrusi (Lu juan 1). Later during the Hongwu reign (1368-1398) and the Hongzhi Reign (1488-1505) of the Ming dynasty, Monk Daoxin and Monk Falei restored the monastery twice (Lu juan 1).</p>
+                  <p source="#bibl000290-3">While many of the compounds in the monastery are recent buildings, the main hall is considered an authentic building first constructed during Yuan Dynasty (Zuo 2019, 130). In August 1950, a local administrator found an inscription on an interior tie beam in the Zhenrusi main hall, which reads: “[The main hall] is built on the third day of the seventh month, the seventh year of yanyou reign of Yuan (1320),” which confirms the main hall is a Yuan architecture (Liu 1951, 91). However, the style of construction is heterogeneous, and Liu Dunzhen considers the main hall was first constructed in Yuan dynasty, restored in Ming dynasty, and several features were added in Qing dynasty (96). The main hall is north-south oriented and the main entrance is facing the south (Zuo 131). The ground plan of Zhenrusi main hall is special for its ratio between the front bay, middle bay, and rear bay, which is nearly 2:2:1 (Liu 91). Three-fourths of the central bay is occupied by Buddhist statues remaining on a rectangular altar (Zuo 131). Moreover, the roof frame of Zhenrusi main hall has several local feature as it is a combination of mansion style and palatial style (Zuo 134). The hidden roof which canopies the front half of the main hall roof is rare in Yuan dynasty but is more prevalent in Japan, similar to the structure of noyane (Zuo 132). Inscriptions on architectural members of the Zhenrusi main hall found in 1963 can be accurately understood through architectural terminology in Japanese, which further proofs its connection with Japanese architecture (Lu 8).</p>
                </desc>
                <note type="External Links">                  
                   <p>
@@ -101,10 +101,29 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-                              <bibl xml:id="bibl000290-1">
+                  <bibl xml:id="bibl000290-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <listBibl xml:id="bibl000290-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                     <citedRange unit="pp">130</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7IY8QL6N"/>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000290-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                     <citedRange unit="pp">130, 91,</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TJKBXJAV"/>
+                     <citedRange unit="pp">91</citedRange>
+                  </bibl>
+                  <!-- 
                <bibl xml:id="bibl000290-2">
                   <ptr target="https://architecturasinica.org/bibl/7IY8QL6N"/>
                </bibl>
@@ -120,6 +139,8 @@
                <bibl xml:id="bibl000290-6">
                   <ptr target="https://architecturasinica.org/bibl/HFHD67ZN"/>
                </bibl>
+                -->
+               </listBibl>
             </place>
             <listRelation>
               <relation active="https://architecturasinica.org/place/000290" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
