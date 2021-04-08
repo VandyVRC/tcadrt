@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Quanzhou Kaiyuan Monastery <foreign xml:lang="zh-Hant">泉州開元寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Shiyi FU</principal>
+            <editor role="creator" xml:id="TGM">Shiyi FU</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" xml:id="TGM">Shiyi FU</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000300/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-09-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000300" type="site">
+               <placeName xml:id="name000300-1" type="site-name" xml:lang="en">Quanzhou Kaiyuan Monastery</placeName>
+               <placeName xml:id="name000300-2" type="site-name" xml:lang="zh-latn-pinyin">Quánzhōukāiyuánsì</placeName>
+               <placeName xml:id="name000300-3" type="site-name" xml:lang="zh-latn-wadegile">Ch'üan chou k'ai yüan ssu</placeName>
+               <placeName xml:id="name000300-4" type="site-name" xml:lang="zh-Hant">泉州開元寺</placeName>
+               <placeName xml:id="name000300-5" type="site-name" xml:lang="zh-Hans">泉州开元寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000300</idno>
+               <desc type="site-data">left blank</desc>
+               <state type="existence" subtype="dynasty" source="#bibl000020-1" from="0907-01-01" to="0960-01-01">
+                  <label>Dynasty</label>
+                  <desc>Five Dynasties 907 - 960</desc>
+               </state>
+               <note type= "External links">
+                  <p>
+                     <ref target="https://tinyurl.com/hwhkuk96">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/2mu5xkcs">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/k29wmub7">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
+                  <placeName>福建省泉州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Fujian</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Fujian</placeName>
+                     <placeName xml:lang="zh-Hant">福建省</placeName>
+                     <placeName xml:lang="zh-Hans">福建省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Quanzhou</placeName>
+                     <placeName xml:lang="zh-Hans">泉州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>24.905 118.587222</geo>
+               </location>
+               <trait type="type" sub-type="site-type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000020-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>left blanck
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
