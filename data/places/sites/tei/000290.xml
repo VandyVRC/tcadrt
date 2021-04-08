@@ -8,14 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="CBL">CHEN Baolong 陈宝龙</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>Data entry</resp>
-               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -45,7 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-02">CREATED: place record</change>
+         <change n="1.0" when="2021-04-02" who="#CBL">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,14 +49,14 @@
          <listPlace>
             <place xml:id="place-000290" type="site">
                <placeName xml:id="name000290-1" type="site-name" xml:lang="en">Zhenru Monastery</placeName>
-               <placeName xml:id="name000290-2" type="site-name" xml:lang="zh-latn-pinyin">Zhēnrúsì</placeName>
-               <placeName xml:id="name000290-3" type="site-name" xml:lang="zh-latn-wadegile">Chen-ju-ssu</placeName>
                <placeName xml:id="name000290-4" type="site-name" xml:lang="zh-Hant">真如寺</placeName>
                <placeName xml:id="name000290-5" type="site-name" xml:lang="zh-Hans">真如寺</placeName>
+               <placeName xml:id="name000290-2" type="site-name" xml:lang="zh-latn-pinyin">Zhēnrúsì</placeName>
+               <placeName xml:id="name000290-3" type="site-name" xml:lang="zh-latn-wadegile">Chen-ju-ssu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000290</idno>
                 <state type="existence" subtype="dynasty" source="#bibl000290-1" from="1271-01-01" to="1368-01-01">
                   <label>Dynasty</label>
-                  <desc>Yuan</desc>
+                   <desc>Yuan 1271 - 1368</desc>
                </state>
                <desc type="site-data" xml:lang="en">
                   <p>Zhenru Monastery, also known as Dasi, the “Grand Temple,” in the Qing dynasty (1644-1912), is a Buddhist monastery located in Zhenru Town in northwest Shanghai (Lu juan 1; Zuo 130). The town is named after the monastery (Shanghai wenwu baoguan weiyuanhui 16). Monk Yong’an reconstructed the monastery and gave the name Zhenruyuan to it during the Jiading reign of the Southern Song dynasty (1127-1279) (Lu juan 1). Then it was relocated to a place called Taoshupu by Monk Miaoxin during the Yanyou reign of the Yuan dynasty (1271-1368) and he acquired a new plaque in order to change the name from Zhenruyuan to Zhenrusi (Lu juan 1). Later during the Hongwu reign (1368-1398) and the Hongzhi Reign (1488-1505) of the Ming dynasty, Monk Daoxin and Monk Falei restored the monastery twice (Lu juan 1).</p>
@@ -79,16 +75,20 @@
                </note>
                <location type="nested" source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
                   <placeName>上海普陀区</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Shanghai</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanghai, Putuo</placeName>
                   <country>China</country>
                   <region type="municipality">
                      <placeName xml:lang="zh-latn-pinyin">Shanghai</placeName>
                      <placeName xml:lang="zh-Hant">上海市</placeName>
                      <placeName xml:lang="zh-Hans">上海市</placeName>
                   </region>
-                  <region type="district">
-                     <placeName xml:lang="zh-latn-pinyin">Putuo</placeName>
-                     <placeName xml:lang="zh-Hans">普陀/placeName>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">区</placeName>
+                     <placeName xml:lang="en">District</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Putuo qu</placeName>
+                     <placeName xml:lang="zh-Hans">普陀</placeName>
                   </region>
                </location>
                <location type="gps">
@@ -101,8 +101,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               
-               <bibl xml:id="bibl000290-1">
+                              <bibl xml:id="bibl000290-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -122,18 +121,17 @@
                   <ptr target="https://architecturasinica.org/bibl/HFHD67ZN"/>
                </bibl>
             </place>
-            <!--
             <listRelation>
-              <relation active="https://architecturasinica.org/place/000048" passive="https://architecturasinica.org/keyword/k000073" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+              <relation active="https://architecturasinica.org/place/000290" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000290" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+               <!-- 
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg"
                   passive="https://architecturasinica.org/place/000048" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597499127_3d5a2a9fe0_o.jpg"
-                  passive="https://architecturasinica.org/place/000048" ana="featured"/>
-            </listRelation> -->
+                  passive="https://architecturasinica.org/place/000048" ana="featured"/> -->
+            </listRelation>
          </listPlace>
       </body>
    </text>
