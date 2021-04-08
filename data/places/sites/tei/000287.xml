@@ -115,6 +115,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
+               <!--  
                <bibl xml:id="bibl000289-1">
                   <ptr target="https://architecturasinica.org/bibl/6CNMZWS4"/>
                   <citedRange unit="pp">216</citedRange>
@@ -137,16 +138,18 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               -->
                      </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000289"
+               <relation active="https://architecturasinica.org/place/000287"
                   passive="https://architecturasinica.org/keyword/k000052"
                   ref="dcterms:subject" ana="site-type"/>
+               <!--  
                <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000289" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-              <!--  <relation ref="foaf:depicts"
+               <relation ref="foaf:depicts"
                  active="https://live.staticflickr.com/65535/50670316676_46be23fba9_c.jpg"
                   passive="https://architecturasinica.org/place/000289" ana="featured"/>
                <relation ref="foaf:depicts"
