@@ -101,11 +101,7 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-                  <bibl xml:id="bibl000290-3">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <listBibl xml:id="bibl000290-1">
+                 <listBibl xml:id="bibl000290-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7IY8QL6N"/>
                   </bibl>
@@ -121,29 +117,20 @@
                <listBibl xml:id="bibl000290-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
-                     <citedRange unit="pp">130, 91</citedRange>
+                     <citedRange unit="pp">130-132, 134</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/TJKBXJAV"/>
                      <citedRange unit="pp">91</citedRange>
                   </bibl>
-                  <!-- 
-               <bibl xml:id="bibl000290-2">
-                  <ptr target="https://architecturasinica.org/bibl/7IY8QL6N"/>
-               </bibl>
-               <bibl xml:id="bibl000290-3">
-                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
-               </bibl>
-               <bibl xml:id="bibl000290-4">
-                  <ptr target="https://architecturasinica.org/bibl/LW4E22PB"/>
-               </bibl>
-               <bibl xml:id="bibl000290-5">
-                  <ptr target="https://architecturasinica.org/bibl/TJKBXJAV"/>
-               </bibl>
-               <bibl xml:id="bibl000290-6">
-                  <ptr target="https://architecturasinica.org/bibl/HFHD67ZN"/>
-               </bibl>
-                -->
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/HFHD67ZN"/>
+                     <citedRange unit="pp">8</citedRange>
+                  </bibl>
+                  <bibl xml:id="bibl000290-3">
+                     <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                     <citedRange unit="pp">12</citedRange>
+                  </bibl>               
                </listBibl>
             </place>
             <listRelation>
