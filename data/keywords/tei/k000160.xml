@@ -5,16 +5,12 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">里 </foreign>lǐ</title>
+               <foreign xml:lang="zh-Hant">干欄 </foreign>gānlán</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator">FU Shiyi</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adding citations information 2021 by</resp>
+               <resp>Editing, proofreading, data entry and adding citations information 2021 by</resp>
                <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
             </respStmt>
          </titleStmt>
@@ -23,13 +19,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000087/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000160/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2021-04-02-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,42 +42,36 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000087" type="site type">
-            <term xml:id="term-k000087-5" xml:lang="zh-latn-pinyin-nt" type="preferred">li</term>
-            <term xml:id="term-k000087-2" xml:lang="zh-Hant">里</term>
-            <term xml:id="term-k000087-3" xml:lang="zh-Hans">里</term>
-            <term xml:id="term-k000087-4" xml:lang="zh-latn-pinyin">lǐ</term>
-            <term xml:id="term-k000087-5" xml:lang="zh-latn-wadegile">li</term>
-            <term xml:id="term-k000087-6" xml:lang="en" source="#biblk000087-1">ward</term>
-            <term xml:id="term-k000087-7" xml:lang="en" source="#biblk000087-2">a unit of length</term>
-            <term xml:id="term-k000087-8" xml:lang="en" source="#biblk000087-3">residential compound</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000087</idno>
+         <entryFree xml:id="k000159" type="Building Frame">
+            <term xml:id="term-k000160-1" xml:lang="zh-latn-pinyin-nt" type="preferred">ganlan</term>
+            <term xml:id="term-k000160-2" xml:lang="zh-Hant">干欄</term>
+            <term xml:id="term-k000160-3" xml:lang="zh-Hans">干栏</term>
+            <term xml:id="term-k000160-4" xml:lang="zh-latn-pinyin">gānlán</term>
+            <term xml:id="term-k000160-5" xml:lang="zh-latn-wadegile">kan-lan</term>
+            <term xml:id="term-k000160-6" xml:lang="en" source="#biblk000160-1">pile dwelling</term>
+            <term xml:id="term-k000160-7" xml:lang="en" source="#biblk000160-2">raised-floor (architecture)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
             <note type="Note (brief)">
-               <p xml:lang="en">left blank</p> 
+               <p xml:lang="en">
+                  <s source="#biblk000160-1">lit. 'elevated building', pile dwelling: A house built on piles with raised floors to avoid excess damp or poisonous animals.</s>
+               </p> 
                <p>(FU Shiyi)</p>
             </note>
-            <listBibl xml:id="biblk000087-1">
+            <listBibl xml:id="biblk000160-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
-                  <citedRange unit="pp">227</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">38</citedRange>   
                </bibl>
             </listBibl>
-            <listBibl xml:id="biblk000087-2">
+            <listBibl xml:id="biblk000160-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">360</citedRange>
-               </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000087-3">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">262</citedRange>
+                  <citedRange unit="pp">355</citedRange>   
                </bibl>
             </listBibl>
          </entryFree>

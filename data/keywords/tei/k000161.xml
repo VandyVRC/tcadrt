@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">欄 </foreign>lán</title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">FU Shiyi</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry 2021 by</resp>
+               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000161/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-02-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000161" type="Building Frame">
+            <term xml:id="term-k000161-1" xml:lang="zh-latn-pinyin-nt" type="preferred">lan</term>
+            <term xml:id="term-k000161-2" xml:lang="zh-Hant">欄</term>
+            <term xml:id="term-k000161-3" xml:lang="zh-Hans">栏</term>
+            <term xml:id="term-k000161-4" xml:lang="zh-latn-pinyin">lán</term>
+            <term xml:id="term-k000161-5" xml:lang="zh-latn-wadegile">lan</term>
+            <term xml:id="term-k000161-6" xml:lang="en">fence</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000161</idno>
+            <note type="Note (brief)">
+               <p xml:lang="en">left blank</p> 
+               <p>(FU Shiyi)</p>
+            </note>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
