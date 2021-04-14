@@ -16,6 +16,10 @@
                <resp>Initial research 2021 by</resp>
                <name type="person" ref="#SEB">Sarah Brooker</name>
             </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -99,7 +103,7 @@
                <location type="verbatim">
                   <note> (Google Earth)</note>
                </location>
-               <trait type="type" sub-type="site-type">
+               <trait type="type" sub-type="site type">
                   <label>Type</label>
                   <desc xml:lang="en">pagoda (Buddhist)</desc>
                   <desc xml:lang="zh-latn-pinyin">ta</desc>

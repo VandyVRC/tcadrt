@@ -13,6 +13,10 @@
                <resp>Initial research 2021 by</resp>
                <name type="person" ref="#CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -93,7 +97,7 @@
                <location type="gps" subtype="preferred">
                   <geo>31.251389 121.396667</geo>
                </location>
-               <trait type="type" sub-type="site-type">
+               <trait type="type" sub-type="site type">
                   <label>Type</label>
                   <desc xml:lang="en">Monastery</desc>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
