@@ -97,10 +97,9 @@
                <location type="gps" subtype="preferred">
                   <geo>34.72 110.69</geo>
                </location>
-               <!--  <location type="Verbatim">
-                  <geo>（Garmin）</geo>
+               <location type="verbatim">
+                  <note> (Google Earth)</note>
                </location>
-               -->
                <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">palace</desc>
