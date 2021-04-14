@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Xingshengjiao Monastery Pagoda <foreign xml:lang="zh-Hant">興聖教寺塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SEB">Sarah Brooker</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#SEB">Sarah Brooker</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000291/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-2-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SEB" when="2021-04-02">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000291" type="site">
+               <placeName xml:id="name000291-1" type="site-name" xml:lang="en">Xingshengjiao Temple Pagoda</placeName>
+               <placeName xml:id="name000291-2" type="site-name" xml:lang="zh-Hant">興聖教寺塔</placeName>
+               <placeName xml:id="name000291-3" type="site-name" xml:lang="zh-Hans">兴圣教寺塔</placeName>
+               <placeName xml:id="name000291-4" type="site-name" xml:lang="zh-latn-pinyin">Xīngshèngjiāo sì tǎ</placeName>
+               <placeName xml:id="name000291-5" type="site-name" xml:lang="zh-latn-wadegile">Hsing-sheng-chiao ssu t'a</placeName>
+               <placeName xml:id="name000291-6" type="site-name" xml:lang="en">Songjiang Square Pagoda</placeName>
+               <placeName xml:id="name000291-7" type="site-name" xml:lang="zh-Hant">松江方塔</placeName>
+               <placeName xml:id="name000291-8" type="site-name" xml:lang="zh-Hans">松江方塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000291</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000291-1" from="0971-01-01"
+                  to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1172</desc>
+               </state>
+               <!-- <desc type="site-data" source="#bibl000291-2">
+                  <p xml:lang="en">First established by Wuyue Kingdom in 970, prior to Wuyue capitulation to the Northern Song, the Liuhe Pagoda (六和塔) was constructed to store relic and calm the tides of Qiantang River. Built on a riverbank, it also functioned as a lighthouse. The original structure was destroyed completely during a battle in 1121 (Yang 359). The tower was rebuilt into an tower-style pagoda (<term ref="https://architecturasinica.org/keyword/k000112">樓閣式塔 lóugéshìtǎ</term>) in 1153 during the Southern Song Dynasty, and its inner brick tower still exists today. After that, the pagoda experienced several significant modifications. The tower was reconstructed both in 1573 and 1735 (Liang). During the latest restoration in the 1900, the wooden eaves and exterior structures were added to the Southern Song brick structure (Yang 359).</p> 
+                  <p xml:lang="en">The Liuhe Pagoda was built on a 0.73-meter tall octagonal brick podium. Tapering upward, the tower is 59.8 meters tall (Wang 87). Although the tower appears to have thirteen stories, there are only seven floors inside of it. Each floor consists of exterior wooden walls, an ambulatory, brick interior walls, and an inner sanctuary. The brick inner sanctuary imitates timber-frame structures. The size of its corbelled bracket sets strictly follows the standards for grade two modules preserved in the Yingzao fashi (Guo 76). Inside the ambulatory, a staircase spirals upward. All the doors and shrines are decorated with cusped arches, and Sumeru-style platforms (須彌座) are set below each shrine. The platform is curved with figures including flowers and sacred animals in Chinese tradition, such as qilin (麒麟), suanni (狻猊), and xiezhi (獬豸) (Wang 89).</p> 
+               </desc> -->
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/5x8s4wpm">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/u34bwpr7">Wikipedia (in Chinese)</ref>
+                  </p>                  
+                  <p>
+                     <ref target="https://tinyurl.com/p7ce7n98">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested">
+                  <country>China</country>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Shanghai Municipality</placeName>
+                     <placeName xml:lang="zh-Hant">上海市</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shànghǎi shì</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="en">Songjiang District</placeName>
+                     <placeName xml:lang="zh-Hant">松江區</placeName>
+                     <placeName xml:lang="zh-latn-pinyin"> Sōngjiāng qū</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>31.006389 121.241667 </geo>
+               </location>
+               <location type="verbatim">
+                  <note> (Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000291-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/> <!-- Wilkinson source for dynasty/!-->
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!-- <listBibl xml:id="bibl000291-2">  List bibl for note
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                     <citedRange unit="pp">359</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/GGMDVKRA"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZIPDD3MI"/>
+                     <citedRange unit="pp">87-89</citedRange>
+                  </bibl>      
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/A9NXDEAQ"/>
+                     <citedRange unit="pp">76</citedRange>
+                  </bibl>
+               </listBibl> /!-->
+            </place>
+          <listRelation>
+               <relation active="https://architecturasinica.org/place/000291"
+                  passive="https://architecturasinica.org/keyword/k000060"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+            <!--
+               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>            
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/49769751131_deff9345b0.jpg" .   embed new picture
+                  passive="https://architecturasinica.org/place/000291" ana="featured"/>-->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

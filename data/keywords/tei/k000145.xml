@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">丹墀</foreign>dānchí</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations by</resp>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+         	<idno type="URI">https://architecturasinica.org/keyword/k0000145/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-03-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-03-24">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000145" type="architectural feature">
+            <term xml:id="term-k000145-1" xml:lang="zh-latn-pinyin-nt" type="preferred">danchi</term>
+            <term xml:id="term-k000145-2" xml:lang="zh-Hant">丹墀</term>
+            <term xml:id="term-k000145-3" xml:lang="zh-Hans">丹墀</term>
+            <term xml:id="term-k000145-4" xml:lang="zh-latn-pinyin">dānchí</term>
+            <term xml:id="term-k000145-5" xml:lang="zh-latn-wadegile">tan-ch'ih</term>
+            <note type="Gloss">
+               <p xml:lan="en" source="biblk000145-1">Danchi generally refers to the ground of the main building in the palace complex, originated from painting the floor with cinnabar(丹砂) in the Han Dynasty palaces.
+                  In the Han dynasty (202BCE-220CE), it refers to the ground inside the palace. After the Tang (618-907) and Song Dynasties (960-1279), danchi is usually related to a lutai (露臺), but its exact position changes with time. In the Northern Song Dynasty (960-1127), danchi refers to the upper ground of the lutai outside the palace. In the Ming (1368-1644) and Qing Dynasties (1644-1911), it relates to the ground under the lutai outside a palace and sometimes used in the Confucian temple(文廟), yashu(衙署) and other structures.
+               </p>
+            </note>
+            <listBibl xml:id="biblk000145-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
+                  <citedRange unit="pp">68</citedRange>
+               </bibl>   
+               <bibl>   
+                  <ptr target="https://architecturasinica.org/bibl/TG9BQTZE"/>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

@@ -47,19 +47,26 @@
       </profileDesc>
       <revisionDesc> 
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#HDN" when="2021-03-12-04:00">adding citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000052" type="site-type">
-            <term xml:id="term-k000052-1" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000052-1">si</term>
-            <term xml:id="term-k000052-2" xml:lang="zh-Hant" source="#biblk000052-1">寺</term>
-            <term xml:id="term-k000052-3" xml:lang="zh-Hans" source="#biblk000052-1">寺</term>
-            <term xml:id="term-k000052-4" xml:lang="zh-latn-pinyin" source="#biblk000052-1">sì</term>
+         <entryFree xml:id="k000052" type="site type">
+            <term xml:id="term-k000052-1" xml:lang="zh-latn-pinyin-nt" type="preferred">si</term>
+            <term xml:id="term-k000052-2" xml:lang="zh-Hant">寺</term>
+            <term xml:id="term-k000052-3" xml:lang="zh-Hans">寺</term>
+            <term xml:id="term-k000052-4" xml:lang="zh-latn-pinyin">sì</term>
             <term xml:id="term-k000052-6" xml:lang="zh-latn-wadegile">ssu</term>
-            <term xml:id="term-k000052-5" xml:lang="en" source="#biblk000052-1">monastery (Buddhist)</term>          
-            <gloss>Buddhist monastery</gloss>
-         	<idno type="URI">https://architecturasinica.org/keyword/k000052</idno>
+            <term xml:id="term-k000052-5" xml:lang="en" source="#biblk000052-1">Buddhist temple</term>          
+            <!--
+            <gloss>monastery</gloss>
+            -->
+            <idno type="URI">https://architecturasinica.org/keyword/k000052</idno>          
+            <bibl xml:id="biblk000052-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">74</citedRange>
+            </bibl>      
          </entryFree>
       </body>
    </text>

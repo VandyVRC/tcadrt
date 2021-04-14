@@ -13,6 +13,10 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Add citation information 2021 by</resp>
+               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -43,19 +47,29 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#CBL" when="2021-03-10">Add citation(s)</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000061" type="site-type">
-            <term xml:id="term-k000061-5" xml:lang="zh-latn-pinyin-nt" source="biblpalace-Daoist-monastery-or-other-1" type="preferred">gong</term>
-            <term xml:id="term-k000061-2" xml:lang="zh-Hant" source="biblpalace-Daoist-monastery-or-other-1">宮</term>
-            <term xml:id="term-k000061-3" xml:lang="zh-Hans" source="biblpalace-Daoist-monastery-or-other-1">宫</term>
-            <term xml:id="term-k000061-4" xml:lang="zh-latn-pinyin" source="biblpalace-Daoist-monastery-or-other-1">gōng</term>
+         <entryFree xml:id="k000061" type="site type">
+            <term xml:id="term-k000061-5" xml:lang="zh-latn-pinyin-nt" type="preferred">gong</term>
+            <term xml:id="term-k000061-2" xml:lang="zh-Hant">宮</term>
+            <term xml:id="term-k000061-3" xml:lang="zh-Hans">宫</term>
+            <term xml:id="term-k000061-4" xml:lang="zh-latn-pinyin">gōng</term>
             <term xml:id="term-k000061-6" xml:lang="zh-latn-wadegile">kung</term>
-            <term xml:id="term-k000061-1" xml:lang="en" source="biblpalace-Daoist-monastery-or-other-1">palace (Daoist monastery or other)</term>
-            <gloss>Daoist monastery, but commonly used for other ritual buildings/complexes</gloss>
+            <term xml:id="term-k000061-1" xml:lang="en" source="#biblk000061-1">palace</term>
+            <!-- <term xml:id="term-k000061-1" xml:lang="en">palace (Daoist monastery or other)</term> 
+            -->
+            <idno type="URI">https://architecturasinica.org/keyword/k000061</idno>
+            <!-- 
+            <gloss>Daoist monastery, but commonly used for other ritual buildings/complexes</gloss> 
+            -->
          	<idno type="URI">https://architecturasinica.org/keyword/k000061</idno>
+            <bibl xml:id="biblk000061-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">356</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
