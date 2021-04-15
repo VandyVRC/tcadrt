@@ -7,11 +7,11 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">干欄 </foreign>gānlán</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">FU Shiyi</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" xml:id="FSY">FU Shiyi 付詩怡</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and adding citations information 2021 by</resp>
-               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -42,38 +42,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.0" when="2021-04-02-04:00" who="#FSY">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000159" type="Building Frame">
+         <entryFree xml:id="k000159" type="architectural feature">
             <term xml:id="term-k000160-1" xml:lang="zh-latn-pinyin-nt" type="preferred">ganlan</term>
             <term xml:id="term-k000160-2" xml:lang="zh-Hant">干欄</term>
             <term xml:id="term-k000160-3" xml:lang="zh-Hans">干栏</term>
             <term xml:id="term-k000160-4" xml:lang="zh-latn-pinyin">gānlán</term>
             <term xml:id="term-k000160-5" xml:lang="zh-latn-wadegile">kan-lan</term>
             <term xml:id="term-k000160-6" xml:lang="en" source="#biblk000160-1">pile dwelling</term>
-            <term xml:id="term-k000160-7" xml:lang="en" source="#biblk000160-2">raised-floor (architecture)</term>
+            <!-- <term xml:id="term-k000160-7" xml:lang="en" source="#biblk000160-2">raised-floor (architecture)</term>  -->
             <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">
-                  <s source="#biblk000160-1">lit. 'elevated building', pile dwelling: A house built on piles with raised floors to avoid excess damp or poisonous animals.</s>
-               </p> 
-               <p>(FU Shiyi)</p>
-            </note>
-            <listBibl xml:id="biblk000160-1">
-               <bibl>
+            <bibl xml:id="biblk000160-1">
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">38</citedRange>   
-               </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000160-2">
-               <bibl>
+                  <citedRange unit="pp">38</citedRange>                 
+            </bibl>
+            <!-- <bibl xml:id="biblk000160-2">
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">355</citedRange>   
-               </bibl>
-            </listBibl>
+                  <citedRange unit="pp">355</citedRange>                 
+            </bibl>
+             -->
+            <listRelation>
+            <relation ref="skos:broadMatch"
+               active="https://architecturasinica.org/keyword/k000160" passive="building frame"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>
