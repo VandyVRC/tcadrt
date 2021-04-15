@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Yongle Palace<foreign xml:lang="zh-Hant"> 永樂宮</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="XQ">XIE Qizheng 謝祺錚</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#XQ">XIE Qizheng 謝祺錚</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000288/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-09-04:00" who="#XQ">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000288" type="site">
+               <placeName xml:id="name000288-1" type="site-name" xml:lang="en">Yongle Palace</placeName>
+               <placeName xml:id="name000288-4" type="site-name" xml:lang="zh-Hant">永樂宮</placeName>
+               <placeName xml:id="name000288-5" type="site-name" xml:lang="zh-Hans">永乐宫</placeName>
+               <placeName xml:id="name000288-2" type="site-name" xml:lang="zh-latn-pinyin">yǒnglègōng</placeName>
+               <placeName xml:id="name000288-3" type="site-name" xml:lang="zh-latn-wadegile">Yung-le-kung</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000288</idno>
+                <state type="existence" subtype="dynasty" source="#bibl000288-2" from="1271-01-01" to="1368-12-31">
+                  <label>Dynasty</label>
+                  <desc>Yuan 1271-1368</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000288-1"></p>
+               </desc>
+               <!--  <note type="External Links">                  
+                  <p>
+                     <ref target="https://tinyurl.com/t6vnlgx">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/yx3v6cct">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/rodzqf3">百度百科</ref>
+                  </p>
+               </note>
+                -->
+                  <location type="nested">
+                     <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="en">Shanxi Province</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shānxī shěng</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Ruicheng county</placeName>
+                     <placeName xml:lang="zh-Hans">芮城縣</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Ruìchéng xiàn</placeName>
+                  </region>                 
+                  </location>
+               <location type="gps" subtype="preferred">
+                  <geo>34.719114 110.687713</geo>
+               </location>
+               <location type="verbatim">
+                  <note> (Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type </label>
+                  <desc xml:lang="en">palace</desc>
+                  <desc xml:lang="zh-latn-pinyin">gōng</desc>
+                  <desc xml:lang="zh-Hant">宮</desc>
+                  <desc xml:lang="zh-Hans">宫</desc>
+               </trait>
+               <!-- 
+               <bibl xml:id="bibl000288-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">12</citedRange> 
+               </bibl>
+               -->
+               <bibl xml:id="bibl000288-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000288" passive="https://architecturasinica.org/keyword/k000061" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000288" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+               <!--  <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg"
+                  passive="https://architecturasinica.org/place/000288" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_3d5a2a9fe0_o.jpg"
+                  passive="https://architecturasinica.org/place/000288" ana="featured"/>  -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

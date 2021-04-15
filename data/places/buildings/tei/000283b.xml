@@ -7,15 +7,15 @@
             <title level="a" xml:lang="en">Kaibao Monastery, Jieyin Hall <foreign xml:lang="zh-Hant">開寶寺接引殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>data entry, adding image</resp>
+               <resp>Website coordination, data entry and adding image</resp>
                <name type="person" xml:id="YFB" when="2020-04-15">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
@@ -93,7 +93,7 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000283b" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000283b" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building type"/>
                <relation active="https://architecturasinica.org/place/000283b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000283b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000283"/>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/65535/49769277533_aa918d7758_c.jpg" passive="https://architecturasinica.org/place/000286" ana="featured"/>
