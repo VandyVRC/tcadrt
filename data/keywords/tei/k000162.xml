@@ -7,11 +7,11 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">墓 </foreign>mù</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">FU Shiyi</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" xml:id="FSY">FU Shiyi 付詩怡</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry 2021 by</resp>
-               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -42,22 +42,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.0" when="2021-04-02-04:00" who="#FSY">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000162" type="site-type">
+         <entryFree xml:id="k000162" type="site ype">
             <term xml:id="term-k000162-1" xml:lang="zh-latn-pinyin-nt" type="preferred">mu</term>
             <term xml:id="term-k000162-2" xml:lang="zh-Hant">墓</term>
             <term xml:id="term-k000162-3" xml:lang="zh-Hans">墓</term>
             <term xml:id="term-k000162-4" xml:lang="zh-latn-pinyin">mù</term>
             <term xml:id="term-k000162-5" xml:lang="zh-latn-wadegile">mu</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000162</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">left blank</p> 
-               <p>(FU Shiyi)</p>
-            </note>
          </entryFree>
       </body>
    </text>
