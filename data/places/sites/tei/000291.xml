@@ -13,7 +13,7 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="SEB">Sarah Brooker</editor>
             <respStmt>
-               <resp>Initial research 2021 by</resp>
+               <resp>Initial research and description 2021 by</resp>
                <name type="person" ref="#SEB">Sarah Brooker</name>
             </respStmt>
             <respStmt>
@@ -64,15 +64,14 @@
                <placeName xml:id="name000291-7" type="site-name" xml:lang="zh-Hant">松江方塔</placeName>
                <placeName xml:id="name000291-8" type="site-name" xml:lang="zh-Hans">松江方塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000291</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000291-1" from="0971-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000291-4" from="0971-01-01"
                   to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1172</desc>
                </state>
-               <!-- <desc type="site-data" source="#bibl000291-2">
-                  <p xml:lang="en">First established by Wuyue Kingdom in 970, prior to Wuyue capitulation to the Northern Song, the Liuhe Pagoda (六和塔) was constructed to store relic and calm the tides of Qiantang River. Built on a riverbank, it also functioned as a lighthouse. The original structure was destroyed completely during a battle in 1121 (Yang 359). The tower was rebuilt into an tower-style pagoda (<term ref="https://architecturasinica.org/keyword/k000112">樓閣式塔 lóugéshìtǎ</term>) in 1153 during the Southern Song Dynasty, and its inner brick tower still exists today. After that, the pagoda experienced several significant modifications. The tower was reconstructed both in 1573 and 1735 (Liang). During the latest restoration in the 1900, the wooden eaves and exterior structures were added to the Southern Song brick structure (Yang 359).</p> 
-                  <p xml:lang="en">The Liuhe Pagoda was built on a 0.73-meter tall octagonal brick podium. Tapering upward, the tower is 59.8 meters tall (Wang 87). Although the tower appears to have thirteen stories, there are only seven floors inside of it. Each floor consists of exterior wooden walls, an ambulatory, brick interior walls, and an inner sanctuary. The brick inner sanctuary imitates timber-frame structures. The size of its corbelled bracket sets strictly follows the standards for grade two modules preserved in the Yingzao fashi (Guo 76). Inside the ambulatory, a staircase spirals upward. All the doors and shrines are decorated with cusped arches, and Sumeru-style platforms (須彌座) are set below each shrine. The platform is curved with figures including flowers and sacred animals in Chinese tradition, such as qilin (麒麟), suanni (狻猊), and xiezhi (獬豸) (Wang 89).</p> 
-               </desc> -->
+               <desc type="site-data" source="#bibl000291-1">Xingshengjiao Temple Pagoda is located in the Fangta Park of the Songjiang district in Shanghai. It is classified as a square type and a pavilion type pagoda (Tian 2002, 1; Ye 2015, 44; Zheng 1981, 73). The pagoda is also commonly known as the Songjiang Square Pagoda (Tian 2002, 1). Constructed during the Xining and Yuanyou reigns of the Northern Song (1068-1094) (Zheng 1981, 72), Xingshengjiao Temple Pagoda was originally a building within the Xingshengjiao Temple Complex. The pagoda is the only part of the temple to survive. It stands 9 stories tall, reaching 48.5 meters tall (Zheng 1981, 73-4). The core of the pagoda is constructed in brick, and the eaves are made of timber (Tan 2002, 90). Although it was built prior to the compilation of the Yingzao fashi, the measurements of the pagoda are consistent with the regulations of the Yingzao fashi (Tan 2002, 90). In order to compensate for the strong southeast wind at the site, the pagoda was originally constructed with a lean toward the southeast. However, over its lifetime, the southeast wind has gradually pushed the pagoda to have a 50 cm lean to the northwest (Zheng 1981, 75).</desc>
+               <desc type="site-data" source="#bibl000291-2">In 1974, an excavation by the Shanghai Museum uncovered a small pagoda crypt (Zhang and Sun 1983, 1125). The crypt is 0.65 meters wide from east to west, 0.48 meters long from north to south, and 0.45 meters deep (Lee 2010, 259; Zhang and Sun 1983, 1125). The inside of the crypt was undecorated (Lee 2010, 259). The crypt contained a set of nesting boxes, the outermost made of stone, the middle one made of lacquer, and the smallest two made of silver (Zhang and Sun 1983, 1127). On the top of the outermost box were 186 bronze coins and a small gilt bronze statue, the base standing 5.5 centimeters tall and the statue standing 14 centimeters tall overall (Lee 2010, 253-4; Zhang and Sun 1983, 1125-6). The statue has been identified as the Central Asian monk Sengqie (617-710) who was a popular figure of worship during the Tang and Northern Song dynasties (Lee 2010, 253; Zhang and Sun 1983, 1125). The lacquer box contained both silver boxes, a bronze reclining Buddha statue, a piece of agarwood, and 101 small silver beads (Zhang and Sun 1983, 1127-8). The bronze Buddha is 42 centimeters long, and hollow, containing two Śarīra relic beads (Lee 2010, 258). A piece of wood was used to seal these beads within the Buddha, with an inscription reading: “Interred here is the ordained monk (bhikkhu) Miaoyuan of the Xingsheng monastery” 興聖院比丘妙遠入藏 (Lee 2010, 258-9; modified translation). Within the two silver containers were two of the Buddha’s teeth, identified by the Shanghai museum as elephant teeth, and seven additional Śarīra relic beads (Zhang and Sun 1983, 1127-8).</desc>
+               <desc type="site-data" source="#bibl000291-3">Between 1975 and 1977, this pagoda underwent major renovations. During the renovations it was found that out of 177 dougong, approximately 110 were the original dougong from the Song dynasty (Tan 2002, 90; Tian 2002, 1; Zheng 1981, 73). In 1996, Xingshengjiao temple pagoda was added to the list of Shanghai’s nationally protected sites (Tan 2002, 90; Zheng 1981, 73). </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/5x8s4wpm">Wikipedia (in English)</ref>
@@ -110,27 +109,52 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000291-1">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/> <!-- Wilkinson source for dynasty/!-->
+               <bibl xml:id="bibl000291-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <listBibl xml:id="bibl000291-2">  List bibl for note
+               <listBibl xml:id="bibl000291-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                     <citedRange unit="pp">359</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/ER88RSCN"/>
+                     <citedRange unit="pp">90</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/GGMDVKRA"/>
+                     <ptr target="https://architecturasinica.org/bibl/CKRP6Y5G"/>
+                     <citedRange unit="pp">1</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/ZIPDD3MI"/>
-                     <citedRange unit="pp">87-89</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/PGDVZYW3"/>
+                     <citedRange unit="pp">44</citedRange>
                   </bibl>      
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/A9NXDEAQ"/>
-                     <citedRange unit="pp">76</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/ZFZJETZL"/>
+                     <citedRange unit="pp">72-5</citedRange>
                   </bibl>
-               </listBibl> /!-->
+               </listBibl>
+               <listBibl xml:id="bibl000291-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EQI7FU3L"/>
+                     <citedRange unit="pp">253-9</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/GIHGDWBM"/>
+                     <citedRange unit="pp">1125-8</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000291-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ER88RSCN"/>
+                     <citedRange unit="pp">90</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/CKRP6Y5G"/>
+                     <citedRange unit="pp">1</citedRange>
+                  </bibl>     
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZFZJETZL"/>
+                     <citedRange unit="pp">73</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
           <listRelation>
                <relation active="https://architecturasinica.org/place/000291"
@@ -138,11 +162,12 @@
                   ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-            <!--
                <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>            
-               <relation ref="foaf:depicts"
+           <!--   
+            <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49769751131_deff9345b0.jpg" .   embed new picture
-                  passive="https://architecturasinica.org/place/000291" ana="featured"/>-->
+                  passive="https://architecturasinica.org/place/000291" ana="featured"/>
+-->
             </listRelation>
          </listPlace>
       </body>
