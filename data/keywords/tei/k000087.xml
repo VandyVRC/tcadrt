@@ -7,15 +7,11 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">里 </foreign>lǐ</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <respStmt>
                   <resp>Website coordination by</resp>
-                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
-               </respStmt>
-               <resp>Editing, proofreading, and revision by</resp>
-               <name type="person">Tracy Miller</name>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
             </respStmt>
             <respStmt>
                <resp>Adding citations information 2021 by</resp>
