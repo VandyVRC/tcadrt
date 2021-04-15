@@ -162,11 +162,6 @@
                   ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-            <!--
-               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>            
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49769751131_deff9345b0.jpg" .   embed new picture
-                  passive="https://architecturasinica.org/place/000291" ana="featured"/> -->
             </listRelation>
          </listPlace>
       </body>
