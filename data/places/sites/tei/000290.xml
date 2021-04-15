@@ -7,8 +7,8 @@
             <title level="a" xml:lang="en">Zhenru Monastery <foreign xml:lang="zh-Hant">真如寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="CBL">CHEN Baolong 陈宝龙</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>

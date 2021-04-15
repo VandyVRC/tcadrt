@@ -9,8 +9,8 @@
             <title level="a" xml:lang="en">Xingshengjiao Monastery Pagoda <foreign xml:lang="zh-Hant">興聖教寺塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="SEB">Sarah Brooker</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Zhenru Monastery main hall <foreign xml:lang="zh-Hant">真如寺大殿</foreign>
+            <title level="a" xml:lang="en">Zhenru Monastery, main hall <foreign xml:lang="zh-Hant">真如寺大殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -18,6 +18,7 @@
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
@@ -60,6 +61,9 @@
                <placeName xml:id="name000290a-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
                <placeName xml:id="name000290a-4" type="building-name" xml:lang="zh-latn-pinyin">dàdiàn</placeName>
                <placeName xml:id="name000290a-5" type="building-name" xml:lang="zh-latn-wadegile">ta-tien</placeName>
+               <placeName xml:id="name000290a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenrusi zhengdian</placeName>
+               <placeName xml:id="name000290a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">真如寺正殿</placeName>
+               <placeName xml:id="name000290a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">真如寺正殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000290a</idno>
                <state type="existence" subtype="dynasty" source="#bibl000290a-2" from="1217-01-01"
                   to="1368-01-01">
@@ -114,16 +118,18 @@
                </bibl>
                      </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000290a" passive="https://architecturasinica.org/keyword/k000290" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000290a" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000290a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000290"/>
                <relation active="https://architecturasinica.org/place/000290a" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
-               <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50670316876_14e2669594_c.jpg"
-                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51116426191_6240b35b91_c.jpg"
+                  passive="https://architecturasinica.org/place/000290a" ana="featured"/>
+               <!--
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50670415122_3d107176a7_c.jpg"
-                  passive="https://architecturasinica.org/place/000289" ana="featured"/> -->
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/> 
+               -->
             </listRelation>
          </listPlace>
       </body>
