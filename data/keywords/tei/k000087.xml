@@ -10,12 +10,16 @@
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <respStmt>
+                  <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               </respStmt>
+               <resp>Editing, proofreading, and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Adding citations information 2021 by</resp>
-               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+               <name type="person" xml:id="FSY" when="2021-04-02-04:00">FU Shiyi 付詩怡</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,13 +51,12 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" when="2021-04-02-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000087" type="site type">
-            <term xml:id="term-k000087-5" xml:lang="zh-latn-pinyin-nt" type="preferred">li</term>
+            <term xml:id="term-k000087-1" xml:lang="zh-latn-pinyin-nt" type="preferred">li</term>
             <term xml:id="term-k000087-2" xml:lang="zh-Hant">里</term>
             <term xml:id="term-k000087-3" xml:lang="zh-Hans">里</term>
             <term xml:id="term-k000087-4" xml:lang="zh-latn-pinyin">lǐ</term>
@@ -62,28 +65,18 @@
             <term xml:id="term-k000087-7" xml:lang="en" source="#biblk000087-2">a unit of length</term>
             <term xml:id="term-k000087-8" xml:lang="en" source="#biblk000087-3">residential compound</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000087</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">left blank</p> 
-               <p>(FU Shiyi)</p>
-            </note>
-            <listBibl xml:id="biblk000087-1">
-               <bibl>
+               <bibl xml:id="biblk000087-1">
                   <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
                   <citedRange unit="pp">227</citedRange>
-               </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000087-2">
-               <bibl>
+               </bibl>            
+               <bibl xml:id="biblk000087-2">
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">360</citedRange>
                </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000087-3">
-               <bibl>
+               <bibl xml:id="biblk000087-3">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">262</citedRange>
-               </bibl>
-            </listBibl>
+               </bibl>            
          </entryFree>
       </body>
    </text>
