@@ -101,6 +101,7 @@
                </bibl>
             </place>
             <listRelation>
+               <relation active="https://architecturasinica.org/place/000020b" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building type"/>
                <relation active="https://architecturasinica.org/place/000020b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000044" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000020b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000020"/>
                <relation ref="foaf:depicts"
