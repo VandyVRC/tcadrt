@@ -74,7 +74,7 @@
                   <desc>Post Qing 1912 -</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000290b-1">Zhenru Buddhist Pagoda was constructed in 1990.</p>
+                  <p source="#bibl000290b-1">The construction of Zhenru Buddhist Pagoda was finished in 1999.</p>
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>31.251389 121.396667</geo>
@@ -87,7 +87,8 @@
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
                <bibl xml:id="bibl000290b-1">
-                  <ptr target="https://architecturasinica.org/bibl/38T6DVI5"/>                              
+                  <ptr target="https://architecturasinica.org/bibl/38T6DVI5"/>  
+                  <citedRange unit="pp">13</citedRange>
                </bibl>
                <bibl xml:id="bibl000290b-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
@@ -99,10 +100,10 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000290b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000290"/>
                <relation active="https://architecturasinica.org/place/000290b" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50670316876_14e2669594_c.jpg"
-                  passive="https://architecturasinica.org/place/000289" ana="featured"/>
                <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51116426121_b8fd612187_4k.jpg"
+                  passive="https://architecturasinica.org/place/000290" ana="featured"/>
+               <!-- <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50670415122_3d107176a7_c.jpg"
                   passive="https://architecturasinica.org/place/000289" ana="featured"/> -->
             </listRelation>

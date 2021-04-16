@@ -66,8 +66,8 @@
                <placeName xml:id="name000290a-4" type="building-name" xml:lang="zh-latn-pinyin">dàdiàn</placeName>
                <placeName xml:id="name000290a-5" type="building-name" xml:lang="zh-latn-wadegile">ta-tien</placeName>
                <placeName xml:id="name000290a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenrusi main hall</placeName>
-               <placeName xml:id="name000290a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">真如寺正殿</placeName>
-               <placeName xml:id="name000290a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">真如寺正殿</placeName>
+               <placeName xml:id="name000290a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">真如寺大殿</placeName>
+               <placeName xml:id="name000290a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">真如寺大殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000290a</idno>
                <state type="existence" subtype="dynasty" source="#bibl000290a-2" from="1217-01-01"
                   to="1368-01-01">
@@ -128,6 +128,9 @@
                   passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51116426191_6240b35b91_c.jpg"
+                  passive="https://architecturasinica.org/place/000290a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51115862497_9b101019e9_4k.jpg"
                   passive="https://architecturasinica.org/place/000290a" ana="featured"/>
                <!--
                <relation ref="foaf:depicts"
