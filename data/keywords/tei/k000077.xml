@@ -5,14 +5,14 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">南唐 </foreign>Nán Táng  </title>
+               <foreign xml:lang="zh-Hant">南唐 </foreign>Nán Táng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" ref="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding revising title statement 2020 by</resp>
@@ -25,6 +25,8 @@
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
+            <edition n="1.1"/>
+            <name type="person" ref="#TGM">Tracy Miller</name>
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
