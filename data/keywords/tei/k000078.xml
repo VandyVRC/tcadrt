@@ -48,6 +48,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" who="#ZYY" when="2021-03-04">Adding citation(s)</change>
+         <change n="1.1" who="#ZYY" when="2021-04-19">Gloss added by</change>
       </revisionDesc>  
    </teiHeader>
    <text>
@@ -62,11 +63,24 @@
             <term xml:id="term-k000078-1" xml:lang="en" source="#biblk000078-1">storied pavilion</term>
              -->
             <term xml:id="term-k000078-7" xml:lang="en" source="#biblk000078-1">balcony with railing</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>             
+            <note type="Gloss">
+               <p xml:lang="en" source="biblk000078-2">pavilion, usually with a balcony;  a raised passageway, similar to 棧道 (Fu 356; Kroll 131)</p>
+            </note>
             <bibl xml:id="biblk000078-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">131</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000078-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">356</citedRange>
+               </bibl>
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">131</citedRange>
-             </bibl>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>             
          </entryFree>      
       </body>
    </text>
