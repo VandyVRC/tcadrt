@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-20">CREATED: record</change>
+         <change n="1.1" when="2021-04-18" who="#MT">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,11 +62,33 @@
             <term xml:id="term-k000149-2" xml:lang="zh-Hant">間</term>
             <term xml:id="term-k000149-3" xml:lang="zh-Hans">间</term>
             <term xml:id="term-k000149-4" xml:lang="zh-latn-pinyin" source="#biblk000149-1">jiān</term>
-            <term xml:id="term-k000149-5" xml:lang="Wade-Giles">chien</term>            
+            <term xml:id="term-k000149-5" xml:lang="Wade-Giles">chien</term>  
+            <term xml:id="term-k000149-6" xml:lang="en" source="#biblk000149-2">bay(s)</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000149-3">bay(s) (Fu 358); spatial unit between two pillars (in elevation), but can include the spatial unit described by the four pillars on each corner of a one-bay square unit; 1-bay elevation x 1-bay section (Kroll 196; Guo 45)</p>
+            </note>
             <bibl xml:id="biblk000149-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">362</citedRange>
             </bibl> 
+            <bibl xml:id="biblk000149-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">45</citedRange>
+            </bibl> 
+            <listBibl xml:id="biblk000149-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">358</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">45</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000149</idno>
             <listRelation>
                <listRelation>

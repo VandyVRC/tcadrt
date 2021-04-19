@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-20">CREATED: record</change>
+         <change n="1.1" when="2021-04-18" who="#MT">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,10 +62,22 @@
             <term xml:id="term-k000148-2" xml:lang="zh-Hant">斜栱</term>
             <term xml:id="term-k000148-3" xml:lang="zh-Hans">斜栱</term>
             <term xml:id="term-k000148-4" xml:lang="zh-latn-pinyin" source="#biblk000148-1">xiégǒng</term>
-            <term xml:id="term-k000148-5" xml:lang="Wade-Giles">hsieh-kung</term>            
+            <term xml:id="term-k000148-5" xml:lang="Wade-Giles">hsieh-kung</term>  
+            <term xml:id="term-k000148-6" xml:lang="en" type="literal_translation" source="#biblk000148-2">diagonal bracket-arm (lit.)</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000148-3">literally: "diagonal" "bracket arm" (Kroll 斜 504; 栱 135; Liang 2005, 62 ) bracket arm placed at an acute angle with respect to the building facade</p>
+            </note>
             <bibl xml:id="biblk000148-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
             </bibl> 
+            <bibl xml:id="biblk000148-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">62,135,504</citedRange>
+            </bibl>    
+            <bibl xml:id="biblk000148-3">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">62,135,504</citedRange>
+            </bibl>                              
             <idno type="URI">https://architecturasinica.org/keyword/k000148</idno>
             <listRelation>
                <listRelation>

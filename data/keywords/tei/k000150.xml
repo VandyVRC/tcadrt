@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-20">CREATED: record</change>
+         <change n="1.1" when="2021-04-18" who="#MT">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,11 +62,29 @@
             <term xml:id="term-k000150-2" xml:lang="zh-Hant">次間</term>
             <term xml:id="term-k000150-3" xml:lang="zh-Hans">次间</term>
             <term xml:id="term-k000150-4" xml:lang="zh-latn-pinyin" source="#biblk000150-1">cìjiān</term>
-            <term xml:id="term-k000150-5" xml:lang="Wade-Giles">tz'u-chien</term>            
+            <term xml:id="term-k000150-5" xml:lang="Wade-Giles">tz'u-chien</term>      
+            <term xml:id="term-k000150-6" xml:lang="en" source="#biblk000150-2">side bay(s)</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000150-3">the bays on either side of the central bay; secondary bays or side bays (Guo, Fu)</p>
+            </note>
             <bibl xml:id="biblk000150-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">154</citedRange>
             </bibl> 
+            <bibl xml:id="biblk000150-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">27</citedRange>
+            </bibl> 
+            <listBibl xml:id="biblk000150-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">27</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">351</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000150</idno>
             <listRelation>
                <listRelation>
