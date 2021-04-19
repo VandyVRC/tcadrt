@@ -65,13 +65,8 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000163</idno>
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000163-1">turret (Levine 2014; Huang 2001); defense tower (Feng Jiren 2012, 94); literally:  "resisting" tower  (Kroll 82)</p>
-            </note>    
-            <listBibl xml:id="biblk000163-1">
-               <bibl >
-                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
-                  <citedRange unit="pp">digital edition</citedRange>   
-               </bibl>
-               <!--bibl>
+               <listBibl xml:id="biblk000163-1">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                </bibl> 
                <bibl>
@@ -81,8 +76,22 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">82</citedRange>
-               </bibl-->
-            </listBibl>
+               </bibl>
+            </listBibl>         
+            </note>    
+            <!--listBibl xml:id="biblk000163-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+                  <citedRange unit="pp">94</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">82</citedRange>
+               </bibl>
+            </listBibl-->
             <!--<listRelation>
                <listRelation>                  
                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
