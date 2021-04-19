@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-16">CREATED: record</change>
+         <change n="1.1" when="2021-04-19" who="#ZYY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,6 +69,13 @@
                <citedRange unit="pp">Digital Edition</citedRange>
             </bibl> 
     	     -->
+            <note type="Gloss">
+               <p xml:lang="en" source="biblk000164-2">literally:  terrace; raised platform (Kroll Fu 367) </p>
+            </note>
+            <bibl xml:id="biblk000164-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">367</citedRange>
+            </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000164</idno>
             <listRelation>
                <listRelation>

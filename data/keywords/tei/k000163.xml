@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-11">CREATED: record</change>
+         <change n="1.1" when="2021-04-19" who="#ZYY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,7 +63,23 @@
             <term xml:id="term-k000163-3" xml:lang="zh-Hans">敌楼</term>
             <term xml:id="term-k000163-4" xml:lang="zh-latn-pinyin">dílóu</term>
             <term xml:id="term-k000163-5" xml:lang="zh-latn-wadegile">ti-lo</term>
-            
+            <note type="Gloss">
+               <p xml:lang="en" source="biblk000163-1">turret (Levine 2014; Huang 2001); defense tower (Feng Jiren 2012, 94); literally:  "resisting" tower  (Kroll 82)</p>
+            </note>
+            <listBibl xml:id="biblk000163-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
+                  <citedRange unit="pp"></citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+                  <citedRange unit="pp"></citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">82</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000163</idno>
             <listRelation>
                <listRelation>                  
