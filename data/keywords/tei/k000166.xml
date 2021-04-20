@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-16">CREATED: record</change>
+         <change n="1.1" when="2021-04-19" who="#ZYY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,7 +66,24 @@
             <!--<term xml:id="term-k000166-6" xml:lang="en" type="literal_translation" source="#biblk000103-1"> (lit.)</term> 
             <bibl xml:id="biblk000103-1">
                <ptr target="https://architecturasinica.org/bibl/"/>
-            </bibl> -->       
+            </bibl> --> 
+            <note type="Gloss">
+               <p xml:lang="en" source="biblk000166-2">literally:  "simulated"  (Kroll 193) ang; pseudo-cantilever (Zuo, 2019, 175); false ang (Guo 45)</p>
+            </note>
+            <listBibl xml:id="biblk000166-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">193</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                  <citedRange unit="pp">175</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">45</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000166</idno>
             <listRelation>
                <listRelation>

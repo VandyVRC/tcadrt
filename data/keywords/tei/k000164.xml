@@ -19,7 +19,7 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations 2021 by</resp>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
          </titleStmt>
@@ -68,6 +68,13 @@
                <citedRange unit="pp">Digital Edition</citedRange>
             </bibl> 
     	     -->
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000164-1">literally:  terrace; raised platform (Kroll Fu 367) </p>
+            </note>
+            <bibl xml:id="biblk000164-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">Consulted online on 20 Apr 2021</citedRange>
+            </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000164</idno>
             <listRelation>
                <listRelation>
