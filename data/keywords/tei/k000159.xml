@@ -43,6 +43,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-04-20" who="FSY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,26 +55,29 @@
             <term xml:id="term-k000159-4" xml:lang="zh-latn-pinyin">sǎndǒu</term>
             <term xml:id="term-k000159-6" xml:lang="zh-latn-wadegile">san tou</term>
             <term xml:id="term-k000159-1" xml:lang="en">end-block</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000159</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">
-                  <s source="#biblk000159-1">A bearing block (16×14×10F), placed on each end of a longtitudinal bracket, which has a one-way opening to receive a bracket or lintel above.</s>
-                  <s source="#biblk000159-2">Smallest bearing-block with one-dimensional opening.</s>
-               </p>
-               <p>(FU Shiyi)</p>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000159-1">end block; literally:  "ordinary" "bearing block" (Kroll 396, 91); small bearing block, usually placed on the ends of a bracket arms to support timbers parallel to the building plane. (Guo 68, Fu 364, Chen 348)</p>
+               <p xml:lang="zh-Hant">用於栱兩端或枋木之間的小斗。</p>
             </note>
             <listBibl xml:id="biblk000159-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">68</citedRange>   
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">396, 91</citedRange>
                </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000159-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">68</citedRange>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">364</citedRange>   
+                  <citedRange unit="pp">364</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange unit="pp">348</citedRange>
                </bibl>
             </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000159</idno>
          </entryFree>
       </body>
    </text>

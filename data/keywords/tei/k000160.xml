@@ -43,6 +43,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-04-20" who="FSY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,25 +56,33 @@
             <term xml:id="term-k000160-5" xml:lang="zh-latn-wadegile">kan-lan</term>
             <term xml:id="term-k000160-6" xml:lang="en" source="#biblk000160-1">pile dwelling</term>
             <term xml:id="term-k000160-7" xml:lang="en" source="#biblk000160-2">raised-floor (architecture)</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
-            <note type="Note (brief)">
-               <p xml:lang="en">
-                  <s source="#biblk000160-1">lit. 'elevated building', pile dwelling: A house built on piles with raised floors to avoid excess damp or poisonous animals.</s>
-               </p> 
-               <p>(FU Shiyi)</p>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000160-1">dwelling or building elevated on high piles to avoid moisture (Guo 38, Fu 355); (幹欄) literally  supporting pile or balustrade (Kroll 128, 252)</p>
+               <p>一種底層使用木或竹柱架空的建築形式。</p>
             </note>
-            <listBibl xml:id="biblk000160-1">
+            <bibl xml:id="biblk000160-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">38</citedRange>   
+            </bibl>
+            <bibl xml:id="biblk000160-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">355</citedRange>   
+            </bibl>
+            <listBibl xml:id="biblk000160-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">38</citedRange>   
+                  <citedRange unit="pp">38</citedRange>
                </bibl>
-            </listBibl>
-            <listBibl xml:id="biblk000160-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">355</citedRange>   
+                  <citedRange unit="pp">355</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">128, 252</citedRange>
                </bibl>
             </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
          </entryFree>
       </body>
    </text>
