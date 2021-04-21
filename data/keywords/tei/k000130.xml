@@ -58,14 +58,13 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000130" type="architectural feature">
+         <entryFree xml:id="k000130" type="building type">
             <term xml:id="term-k000130-8" xml:lang="zh-latn-pinyin-nt" type="preferred">diantang</term>
             <term xml:id="term-k000130-1" xml:lang="zh-Hant" source="#biblk000130-1">殿堂</term>
             <term xml:id="term-k000130-2" xml:lang="zh-Hans">殿堂</term>
             <term xml:id="term-k000130-3" xml:lang="zh-latn-pinyin">diàntáng</term>
             <term xml:id="term-k000130-4" xml:lang="en" source="#biblk000130-2">diantang</term>
             <term xml:id="term-k000130-5" xml:lang="zh-latn-wadegile">tien-t'ang</term>            
-            <term xml:id="term-k000130-6" xml:lang="en" source="#biblk000130-3">place type</term>
             <term xml:id="term-k000130-7" xml:lang="en" source="#biblk000130-4">hall</term>
 
             <!--  <note>
@@ -92,12 +91,9 @@
            </listBibl>
            
             <idno type="URI">https://architecturasinica.org/keyword/k000130</idno>
-            <listRelation>
-               <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000130" passive="building-type"/>
-             
-            </listRelation>
-            </listRelation>
+            <listRelation><p>
+               
+            </p> </listRelation>
          </entryFree>
       </body>
    </text>
