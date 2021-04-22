@@ -12,7 +12,6 @@
                <foreign xml:lang="zh-Hant">殿堂</foreign> diantang</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
@@ -65,7 +64,7 @@
             <term xml:id="term-k000130-3" xml:lang="zh-latn-pinyin">diàntáng</term>
             <term xml:id="term-k000130-4" xml:lang="en" source="#biblk000130-2">diantang</term>
             <term xml:id="term-k000130-5" xml:lang="zh-latn-wadegile">tien-t'ang</term>            
-            <term xml:id="term-k000130-6" xml:lang="en">patial hall</term>
+            <term xml:id="term-k000130-6" xml:lang="en" source="#biblk000130-3">palace hall</term>
             <term xml:id="term-k000130-7" xml:lang="en" source="#biblk000130-4">hall</term>
 
             <!--  <note>
@@ -79,7 +78,8 @@
                <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
             </bibl>      
             <bibl xml:id="biblk000130-3">
-               <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
+               <ptr target="https://architecturasinica.org/bibl/DBN2F2VC"/>
+               <citedRange unit="pp">135</citedRange>
             </bibl>        
             
             <listBibl xml:id="biblk000130-4">
