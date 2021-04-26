@@ -17,6 +17,10 @@
                <resp>Adding citation information 2021 by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="team">Gateway to Traditional Chinese Monuments 2021</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -60,12 +64,29 @@
             <term xml:id="term-k000083-6" xml:lang="zh-latn-wadegile">miao</term>
             <term xml:id="term-k000083-1" xml:lang="en">temple</term>
             <term xml:id="term-k000083-7" xml:lang="en" source="#biblk000083-1">ancestral temple</term>
-            <!--   <gloss>building or complex dedicated to local or ancestral deities</gloss> --> 
+            <note type="Gloss">
+               <p xml:lan="en" source="#biblk000083-2">temple; a building used for worship or veneration, often of ancestral or local spirits (Guo 2002, 58; Miller 2007, 88; Kroll 2015, 307)</p>
+               <p xml:lan="zh-Hant" source="#biblk000083-2">用於供奉祖先或神靈的建築物。</p>
+            </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000083</idno>
             <bibl xml:id="biblk000083-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">307</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000083-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">58</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">88</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">307</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>

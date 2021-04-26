@@ -23,6 +23,10 @@
                <resp>Data entry, adding citations by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="team">Gateway to Traditional Chinese Monuments 2021</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -63,15 +67,24 @@
             <term xml:id="term-k000137-3" xml:lang="zh-Hans">上昂</term>
             <term xml:id="term-k000137-4" xml:lang="zh-latn-pinyin" source="#biblk000137-1">shàngáng</term>
             <term xml:id="term-k000137-5" xml:lang="zh-latn-wadegile">shang-ang</term>
-            <!-- <term xml:id="term-k000137-6" xml:lang="en" type="literal_translation" source="#biblk000137-2">above raise up/lift up (lit.)</term> -->
+            <note type="Gloss">
+               <p xml:lan="en" source="#biblk000137-2">perpendicular bracket arm (Fu 2017, 357); bracket arm that extends outward and upward from the building plane to support the outward extension of the eaves. literally: blossoming (華 hua, first tone) bracket-arm (栱 gong) (Kroll 2015, 167, 135)</p>
+               <p xml:lan="zh-Hant" source="#biblk000137-2">昂的一種，與下昂相對。為組織在斗栱中的斜向構件，昂頭外出，昂身斜收向裡。</p>
+            </note>
             <bibl xml:id="biblk000137-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">40</citedRange>
             </bibl>
-            <!-- <bibl xml:id="biblk000137-2">
-               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">digital edition 2021-03-12</citedRange>
-            </bibl> -->
+            <listBibl xml:id="biblk000137-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                     <citedRange unit="pp">167, 135</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                     <citedRange unit="pp">357</citedRange>
+                  </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000137</idno>
             <listRelation>
                <listRelation>

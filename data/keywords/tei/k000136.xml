@@ -25,9 +25,7 @@
             </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller, </name>
-               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净, </name>
-               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <name type="team">Gateway to Traditional Chinese Monuments 2021</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -71,13 +69,14 @@
             <term xml:id="term-k000136-5" xml:lang="zh-latn-wadegile">lu-t'ai</term>
             <note type="Gloss">
                <p xml:lan="en" source="#biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing</p>
+               <p xml:lan="zh-Hant" source="#biblk000136-2">沒有屋頂覆蓋的，露天的平台。</p>
             </note>
             <bibl xml:id="biblk000136-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">472</citedRange>
             </bibl>
             <listBibl xml:id="biblk000136-2">
-               <bibl>
+              <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                   <citedRange unit="pp">digital edition accessed 2021-03-11</citedRange>
                </bibl>
