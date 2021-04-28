@@ -8,6 +8,7 @@
                <foreign xml:lang="zh-Hant">閣</foreign> gé</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
+<<<<<<< Updated upstream
             <editor role="creator" ref="#ZYY">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
@@ -16,9 +17,19 @@
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+=======
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+>>>>>>> Stashed changes
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2021 by</resp>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citation information and gloss 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
          </titleStmt>
@@ -62,8 +73,13 @@
             <term xml:id="term-k000078-2" xml:lang="zh-Hant">閣</term>
             <term xml:id="term-k000078-3" xml:lang="zh-Hans">阁</term>
             <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin">gé</term>
+<<<<<<< Updated upstream
             <term xml:id="term-k000078-5" xml:lang="zh-latn-wadegile">ko</term>
             <term xml:id="term-k000078-6" xml:lang="en" source="#biblk000078-1">pavilion with a balcony or gallery</term>
+=======
+            <term xml:id="term-k000078-6" xml:lang="zh-latn-wadegile">ko</term>
+            <term xml:id="term-k000078-1" xml:lang="en" source="#biblk000078-1">balcony with railing</term>
+>>>>>>> Stashed changes
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000078-2">a pavilion, usually with a balcony or gallery; a raised passageway, similar to 棧道 (Fu 356; Kroll 131)</p>
             </note>
