@@ -6,15 +6,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Zhenru Monastery, main hall <foreign xml:lang="zh-Hant">真如寺大殿</foreign>
+            <title level="a" xml:lang="en">Bao'en Monastery, Asoka Pagoda <foreign xml:lang="zh-Hant">報恩寺琉璃塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="#ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <editor role="creator" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>
-               <name type="person" ref="#">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -69,32 +69,11 @@
                   <label>Dynasty</label>
                   <desc>Ming 1368-1644</desc>
                </state>
-               <location type="nested">
-                  <placeName>江苏省南京市秦淮区</placeName>
-                  <placeName xml:lang="zh-latn-pinyin-nt">Jiangsu, Nanjing, Qinhuai</placeName>
-                  <country>China</country>
-                  <region type="province">
-                     <placeName xml:lang="zh-latn-pinyin-nt">Jiangsu</placeName>
-                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
-                     <placeName xml:lang="zh-Hans">江苏省</placeName>
-                  </region>
-                  <region type="county-city">
-                     <placeName xml:lang="zh-latn-pinyin-nt">Nanjing</placeName>
-                     <placeName xml:lang="zh-Hans">南京市</placeName>
-                  </region>
-                  <region type="political-subdivision">
-                     <placeName xml:lang="zh-Hans">区</placeName>
-                     <placeName xml:lang="en">District</placeName>
-                  </region>
-                  <region type="locality">
-                     <placeName xml:lang="zh-latn-pinyin">Qinhuai qu</placeName>
-                  </region>
-               </location>
                <location type="gps" subtype="preferred">
                   <geo>32.0564 118.46998</geo>
                </location>
                <trait type="type" sub-type="building type">
-                  <label>Type </label>
+                  <label>Type</label>
                   <desc xml:lang="en">pagoda</desc>
                   <desc xml:lang="zh-latn-pinyin">ta</desc>
                   <desc xml:lang="zh-Hant">塔</desc>
@@ -109,10 +88,8 @@
                <relation active="https://architecturasinica.org/place/000293a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000293a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000293"/>
                <relation active="https://architecturasinica.org/place/000293a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51142587928_eea8a60ecf_c.jpg"
-                  passive="https://architecturasinica.org/place/000289" ana="featured"/> 
-   
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51143056548_03e47e684c_c.jpg" passive="https://architecturasinica.org/place/000289" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51142587928_eea8a60ecf_c.jpg" passive="https://architecturasinica.org/place/000289" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>
