@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Bao'en Monastery, Asoka Pagoda <foreign xml:lang="zh-Hant">報恩寺琉璃塔</foreign>
+            <title level="a" xml:lang="en">Bao'en Monastery, Glazed Pagoda <foreign xml:lang="zh-Hant">報恩寺琉璃塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -49,20 +49,23 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-27" who="#ZYY">CREATED: place record</change>
+         <change n="1.1" when="2021-04-28" who="#TGM">Added alternate name and coordinates</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000293a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en">Asoka Pagoda</placeName>
+               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en">Glazed Pagoda</placeName>
                <placeName xml:id="name000293a-2" type="building-name" xml:lang="zh-Hant">琉璃塔</placeName>
                <placeName xml:id="name000293a-3" type="building-name" xml:lang="zh-Hans">琉璃塔</placeName>
                <placeName xml:id="name000293a-4" type="building-name" xml:lang="zh-latn-pinyin">líulítǎ</placeName>
                <placeName xml:id="name000293a-5" type="building-name" xml:lang="zh-latn-wadegile">liu-li-t'a</placeName>
-               <placeName xml:id="name000293a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Bao'en Monastery Asoka Pagoda</placeName>
+               <placeName xml:id="name000293a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Bao'en Monastery Glazed Pagoda</placeName>
                <placeName xml:id="name000293a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">報恩寺琉璃塔</placeName>
                <placeName xml:id="name000293a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">报恩寺琉璃塔</placeName>
+               <placeName xml:id="name000293a-9" type="alternate" xml:lang="en">Porcelain Pagoda</placeName>
                <idno type="URI">https://architecturasinica.org/place/000293a</idno>
                <state type="existence" subtype="dynasty" source="#bibl000293a-1" from="1368-01-01"
                   to="1644-01-01">
@@ -70,7 +73,8 @@
                   <desc>Ming 1368-1644</desc>
                </state>
                <location type="gps" subtype="preferred">
-                  <geo>32.009167 118.783333</geo>
+                  <geo>32.011143 118.788516</geo>
+                  <note>location determined with GoogleEarth</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
