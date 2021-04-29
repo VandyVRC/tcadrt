@@ -22,6 +22,10 @@
                <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -61,20 +65,21 @@
             <term xml:id="term-k000164-2" xml:lang="zh-Hant">臺</term>
             <term xml:id="term-k000164-3" xml:lang="zh-Hans">台</term>
             <term xml:id="term-k000164-4" xml:lang="zh-latn-pinyin">tái</term>
-            <term xml:id="term-k000164-5" xml:lang="zh-latn-wadegile">t`ai</term>
-            <!--<term xml:id="term-k000164-6" xml:lang="en" type="literal_translation" source="#biblk000164-1">terrace; raised platform(lit.)</term>
-            <bibl xml:id="biblk000164-1">
-               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">Digital Edition</citedRange>
-            </bibl> 
-    	     -->
+            <term xml:id="term-k000164-5" xml:lang="zh-latn-wadegile">t`ai</term>            
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000164-1">literally:  terrace; raised platform (Kroll Fu 367) </p>
+               <p xml:lang="en" source="#biblk000164-1">literally: terrace; raised platform (Kroll 2015, 440; Fu 2017, 367)</p>
+               <p xml:lang="zh-Hant" source="#biblk000164-1">高而上平的建築物。(Kroll 2015, 440; Fu 2017, 367)</p>
             </note>
-            <bibl xml:id="biblk000164-1">
+            <listBibl xml:id="biblk000164-1">
+               <bibl>
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">Consulted online on 20 Apr 2021</citedRange>
-            </bibl> 
+               <citedRange unit="pp">440</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">367</citedRange>
+               </bibl>     
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000164</idno>
             <listRelation>
                <listRelation>
