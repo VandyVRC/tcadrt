@@ -22,6 +22,10 @@
                <resp>Data entry, adding citations 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -51,7 +55,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-16">CREATED: record</change>
+         <change n="1.0" when="2021-03-16" who="#ZYY">CREATED: record</change>
          <change n="1.1" when="2021-04-19" who="#ZYY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
@@ -62,20 +66,19 @@
             <term xml:id="term-k000165-2" xml:lang="zh-Hant">琉璃瓦</term>
             <term xml:id="term-k000165-3" xml:lang="zh-Hans">琉璃瓦</term>
             <term xml:id="term-k000165-4" xml:lang="zh-latn-pinyin" source="#biblk000165-1">líulíwǎ</term>
-            <term xml:id="term-k000165-5" xml:lang="zh-latn-wadegile">liu-li-wa</term>
-            <!--<term xml:id="term-k000165-6" xml:lang="en" type="literal_translation" source="#biblk000165-2"> (lit.)</term> -->                      
-            <bibl xml:id="biblk000165-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-		    <citedRange unit="pp">299</citedRange>
-            </bibl>
+            <term xml:id="term-k000165-5" xml:lang="zh-latn-wadegile">liu-li-wa</term>                
             <note type="Gloss">
-               <p xml:lang="en" source="biblk000165-2">glazed roofing tile (Guo 56); roofing tile where the exposed surface has been glazed [before firing] (Chen 299)</p>
+               <p xml:lang="en" source="biblk000165-1">literally:  "stolen-heart" or "stolen-center";  successive transvers projection (Guo 2002, 80); a huagong which supports another timber extending perpendicular to the building plane (e.g. huagong, ang) without a crossing timber parallel to the building plane (e.g. guazigong) (Fu 2017, 368; Chen 2010, 299).</p>
             </note>
-            <listBibl xml:id="biblk000165-2">
+            <listBibl xml:id="biblk000165-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">56</citedRange>
+                  <citedRange unit="pp">80</citedRange>
                </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">368</citedRange>
+               </bibl>             
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/"/>
                   <citedRange unit="pp">299</citedRange>
