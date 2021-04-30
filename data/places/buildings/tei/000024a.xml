@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, Bao'en Cloister <foreign xml:lang="zh-Hant">獨樂寺報恩院</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <respStmt>
+               <resp>Editing and proofreading by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-17-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-17-04:00" who="#HDN">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-name000024a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024a-1" xml:lang="en">Bao'en Cloister</placeName>
+               <placeName xml:id="name000024a-2" type="building-name" xml:lang="zh-Hant">報恩院</placeName>
+               <placeName xml:id="name000024a-3" type="building-name" xml:lang="zh-Hans">报恩院</placeName>
+               <placeName xml:id="name000024a-4" type="building-name" xml:lang="zh-latn-pinyin">Bào ēn yuàn</placeName>
+               <placeName xml:id="name000024a-5" type="building-name" xml:lang="zh-latn-wadegile">Pao-en-yüan</placeName>
+               <placeName xml:id="name000024a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Bao'enyuan</placeName>
+               <placeName xml:id="name000024a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺報恩院</placeName>
+               <placeName xml:id="name000024a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">独乐寺报恩院</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024a</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000024a-1" from="1368-01-01" to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368-1644</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>40.045342 117.402597</geo>
+               </location>
+               <location type="verbatim">
+                  <note>(Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">Cloister</desc>
+                  <desc xml:lang="zh-latn-pinyin">yuan</desc>
+                  <desc xml:lang="zh-Hant">院</desc>
+                  <desc xml:lang="zh-Hans">院</desc>
+               </trait>
+            <bibl xml:id="bibl000048x-2">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">12</citedRange>
+            </bibl> 
+            </place>
+            <listRelation>
+               <!--  
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000164">
+                  <desc>Guanyinge, Front view from Shanmen</desc>
+               </relation>
+               -->
+               <relation active="https://architecturasinica.org/place/000024a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="site-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
