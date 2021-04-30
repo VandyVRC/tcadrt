@@ -57,7 +57,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000293a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en">Glazed Pagoda</placeName>
+               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en" source="bibl000293a-2">Porcelain Pagoda</placeName>
                <placeName xml:id="name000293a-2" type="building-name" xml:lang="zh-Hant">琉璃塔</placeName>
                <placeName xml:id="name000293a-3" type="building-name" xml:lang="zh-Hans">琉璃塔</placeName>
                <placeName xml:id="name000293a-4" type="building-name" xml:lang="zh-latn-pinyin">líulítǎ</placeName>
@@ -86,6 +86,10 @@
                <bibl xml:id="bibl000293a-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000293a-2">
+                  <ptr target="https://architecturasinica.org/bibl/5KTZF2DZ"/>
+                  <citedRange unit="pp">159</citedRange>
                </bibl>
                      </place>
             <listRelation>
