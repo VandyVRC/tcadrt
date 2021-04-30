@@ -14,13 +14,12 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations by</resp>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
             <respStmt>
@@ -68,8 +67,8 @@
             <term xml:id="term-k000137-4" xml:lang="zh-latn-pinyin" source="#biblk000137-1">shàngáng</term>
             <term xml:id="term-k000137-5" xml:lang="zh-latn-wadegile">shang-ang</term>
             <note type="Gloss">
-               <p xml:lan="en" source="#biblk000137-2">perpendicular bracket arm (Fu 2017, 357); bracket arm that extends outward and upward from the building plane to support the outward extension of the eaves. literally: blossoming (華 hua, first tone) bracket-arm (栱 gong) (Kroll 2015, 167, 135)</p>
-               <p xml:lan="zh-Hant" source="#biblk000137-2">昂的一種，與下昂相對。為組織在斗栱中的斜向構件，昂頭外出，昂身斜收向裡。</p>
+               <p xml:lang="en" source="#biblk000137-2">literally: "upward ang (slanted bracket arm)"; ascending cantilever (Fu 2017, 365); upward cantilever (Zuo 2019, 178)</p>
+               <p xml:lang="zh-Hant" source="#biblk000137-2">昂的一種，與下昂相對。為組織在斗栱中的斜向構件，昂頭外出，昂身斜收向裡。</p>
             </note>
             <bibl xml:id="biblk000137-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
@@ -77,16 +76,13 @@
             </bibl>
             <listBibl xml:id="biblk000137-2">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                     <citedRange unit="pp">167, 135</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                     <citedRange unit="pp">365</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                     <citedRange unit="pp">357</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                     <citedRange unit="pp">178</citedRange>
                   </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/SH26X3YC"/>
-               </bibl>
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000137</idno>
             <listRelation>
