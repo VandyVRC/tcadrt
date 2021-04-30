@@ -57,7 +57,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000293a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en" source="bibl000293a-2">Porcelain Pagoda</placeName>
+               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en" source="#bibl000293a-1">Porcelain Pagoda</placeName>
                <placeName xml:id="name000293a-2" type="building-name" xml:lang="zh-Hant">琉璃塔</placeName>
                <placeName xml:id="name000293a-3" type="building-name" xml:lang="zh-Hans">琉璃塔</placeName>
                <placeName xml:id="name000293a-4" type="building-name" xml:lang="zh-latn-pinyin">líulítǎ</placeName>
@@ -67,7 +67,7 @@
                <placeName xml:id="name000293a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">报恩寺琉璃塔</placeName>
                <placeName xml:id="name000293a-9" type="alternate" xml:lang="en">Porcelain Pagoda</placeName>
                <idno type="URI">https://architecturasinica.org/place/000293a</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000293a-1" from="1368-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000293a-2" from="1368-01-01"
                   to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368-1644</desc>
@@ -83,11 +83,11 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000293a-1">
+               <bibl xml:id="bibl000293a-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <bibl xml:id="bibl000293a-2">
+               <bibl xml:id="bibl000293a-1">
                   <ptr target="https://architecturasinica.org/bibl/5KTZF2DZ"/>
                   <citedRange unit="pp">159</citedRange>
                </bibl>
