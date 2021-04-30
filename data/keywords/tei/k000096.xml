@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">西夏 </foreign> Xīxià</title>
+               <foreign xml:lang="zh-Hant">西夏 </foreign>Xīxià</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -40,6 +40,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -53,14 +54,13 @@
    <text>
       <body>
          <entryFree xml:id="k000096" type="time period">
-            <term xml:id="term-k000096-1" xml:lang="en">Xixia</term>
+            <term xml:id="term-k000096-6" xml:lang="en">Western Xia</term>
             <term xml:id="term-k000096-2" xml:lang="zh-Hant">西夏</term>
             <term xml:id="term-k000096-3" xml:lang="zh-Hans">西夏</term>
             <term xml:id="term-k000096-4" xml:lang="zh-latn-pinyin">Xīxià</term>
-            <term xml:id="term-k000096-5" xml:lang="Wade-Giles">Hsi-hsia</term>
-            <term xml:id="term-k000096-6" xml:lang="en">Western Xia</term>
-            <term xml:id="term-k000096-7" xml:lang="zh-Hant">西夏國</term>
+            <term xml:id="term-k000096-5" xml:lang="zh-latn-wadegile">Hsi-hsia</term>
             <term xml:id="term-k000096-8" xml:lang="en">Western Xia Kingdom</term>
+            <term xml:id="term-k000096-7" xml:lang="zh-Hant">西夏國</term>
             <state type="existence" source="#biblk000096-1" from="1038" to="1227">
                <desc>1038 - 1227</desc>
             </state>

@@ -5,7 +5,6 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-         	    <titleStmt>
          	       <title level="a" xml:lang="en"> <foreign xml:lang="zh-Hant">影栱</foreign> yǐnggǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -20,11 +19,11 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="1.0"/>
-         </editionStmt>
-         <publicationStmt>
+          </titleStmt>
+            <editionStmt>
+               <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
             <authority>Architectura Sinica</authority>
          	<idno type="URI">https://architecturasinica.org/keyword/k000098/tei</idno>
             <availability>
@@ -42,6 +41,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -53,24 +53,58 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000098" type="architectural-feature">
-            <term xml:id="term-k000098-4" xml:lang="en" >shadow bracket-arm(s)</term>
-            <term xml:id="term-k000098-1" xml:lang="en">shadow bracket-arm</term>
-            <term xml:id="term-k000098-2" xml:lang="zh-Hant">影栱</term>
+         <entryFree xml:id="k000098" type="architectural feature">
+            <term xml:id="term-k000098-4" xml:lang="zh-latn-pinyin-nt" type="preferred" source="#biblk000098-1">yinggong</term>
+            <term xml:id="term-k000098-2" xml:lang="zh-Hant" source="#biblk000098-2">影栱</term>
             <term xml:id="term-k000098-3" xml:lang="zh-Hans">影栱</term>
-            <term xml:id="term-k000098-6" xml:lang="zh-latn-pinyin" type="preferred">yǐnggǒng (preferred)</term>
-            <term xml:id="term-k000098-5" xml:lang="Wade-Giles">ying-kung</term>
+            <term xml:id="term-k000098-6" xml:lang="zh-latn-pinyin">yǐnggǒng</term>
+            <term xml:id="term-k000098-5" xml:lang="zh-latn-wadegile">ying-kung</term>
+            <term xml:id="term-k000098-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000098-3">shadow bracket-arm (ATTCAT preferred)</term>
          	<note>
          		<p>Seen in the Yingzao fashi (1103 CE), referring to square beams carved with bracket-arms in low relief, layered within the wall plane above pillar tops. See also “superficial bracket arms” (fubigong). </p>
-         		<p>見於北宋官書《營造法式》（1103），指柱頭一綫之上所用之方刻出栱的形象。又名見扶壁栱。</p>          
-         		<p>Related Concepts: <term ref="https://architecturasinica.org/keyword/k000100"></term>shadow works 影作 ; fubigong 扶壁栱</p>
-         		<p>Sources and Contributors:</p>
-         		<p>shadow bracket-arm: (1) Tracy Miller, The Divine Nature of Power: Chinese Ritual Architecture at the Sacred Site of Jinci (2007) 205 </p>
-         		<p>影栱: (2) 營造法式 (故宮) 卷 4.10a (3) 梁思成, 《營造法式》註釋·卷上 (1983) 128-131 (4) 潘谷西, 何建中, 《營造法式》解讀
-         			(2005) 264 (5) 陳明達, 《營造法式》辭解 (2010) 184</p>
-         		<p>yinggong: (6) Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 36</p>
-         		<p>(REN Sijie 任思捷, YANG Wantian, ATTCAT 2018)</p>
+         		<p>見於北宋官書《營造法式》（1103），指柱頭一綫之上所用之方刻出栱的形象。又名見扶壁栱。</p>   
+         	   <note type="related concepts">
+         	      <p><term ref="/keyword/k000100">影作 yǐngzuò</term></p>
+         	      <p><term ref="/keyword/k000029">扶壁栱 fúbìgǒng</term></p>
+         	   </note>
+         		   <!--  <p>Sources and Contributors:</p>
+         		<p>shadow bracket-arm: (3) Tracy Miller, The Divine Nature of Power: Chinese Ritual Architecture at the Sacred Site of Jinci (2007) 205; ATTCAT 2918</p>
+         		<p>影栱: (2) 營造法式 (故宮) 卷 4.10a ; 梁思成, 《營造法式》註釋·卷上 (1983) 128-131;  潘谷西, 何建中, 《營造法式》解讀
+         			(2005) 264 ; 陳明達, 《營造法式》辭解 (2010) 184</p>
+         		<p>yinggong: (1) Qinghua Guo, A Visual Dictionary of Chinese Architecture (2002) 36</p>
+         		-->
             </note>
+            <bibl xml:id="biblk000098-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000098-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange>4.10a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+                  <citedRange unit="pp">128-131</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">264</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">184</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000098-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange>205</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000098</idno>
             <listRelation>
                <listRelation>
@@ -83,7 +117,7 @@
                   	passive="https://architecturasinica.org/keyword/k000098" rendition="featured">
                   </relation>-->
                   <relation ref="skos:broadMatch"
-                  	active="https://architecturasinica.org/keyword/k000098" passive="Bracketing"/>
+                  	active="https://architecturasinica.org/keyword/k000098" passive="bracketing"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="Name of example source"/>
                   <!--where there is an xxx put the number of the feature-->
                </listRelation>

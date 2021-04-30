@@ -47,6 +47,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -58,31 +59,31 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000107" type="architectural-feature">
-            <term xml:id="term-k000107-1" xml:lang="en" type="preferred" source="#biblk000107-1">rafters (preferred)</term>
+         <entryFree xml:id="k000107" type="architectural feature">
+            <term xml:id="term-k000107-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000107-1" type="preferred">chuan</term>
             <term xml:id="term-k000107-2" xml:lang="zh-Hant">椽</term>
             <term xml:id="term-k000107-3" xml:lang="zh-Hans">椽</term>
-            <term xml:id="term-k000107-4" xml:lang="zh-latn-pinyin" source="#biblk000107-2">chuán</term>
-            <term xml:id="term-k000107-5" xml:lang="Wade-Giles">ch'uan</term>
+            <term xml:id="term-k000107-4" xml:lang="zh-latn-pinyin" source="#biblk000107-1">chuán</term>
+            <term xml:id="term-k000107-5" xml:lang="zh-latn-wadegile">ch'uan</term>
             <term xml:id="term-k000107-6" xml:lang="en" type="literal_translation">rafter (lit.)</term>
+            <term xml:id="term-k000107-1" xml:lang="en" source="#biblk000107-2">rafters</term>            
             <note type="Note (brief)">
                <p xml:lang="en" source="#biblk000107-3">Hanging inclined timber member supporting roof tiles. In Traditional Chinese Architecture rafters extend from purlin to purlin. Can also be used to as a unit of length.</p>
             </note>
-            <bibl xml:id="#biblk000107-1">
+            <bibl xml:id="biblk000107-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">351</citedRange>
             </bibl> 
-            <bibl xml:id="#biblk000107-2">
+            <bibl xml:id="biblk000107-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">378</citedRange>
             </bibl> 
-            <bibl xml:id="#biblk000107-3">
+            <bibl xml:id="biblk000107-3">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000107</idno>
             <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000107" passive="Building Frame"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000107" passive="Foundations"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000107" passive="building frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> 
                      </listRelation>

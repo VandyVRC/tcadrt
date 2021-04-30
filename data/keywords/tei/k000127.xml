@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">營造法式 </foreign> yingzao fashi</title>
+               <foreign xml:lang="zh-Hant">營造法式 </foreign> Yíngzào fǎshì</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -58,15 +58,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000127" type="architectural-feature">
-            <term xml:id="term-k000127-8" xml:lang="zh-latn-pinyin-nt" type="preferred">yingzao fashi</term>
+         <entryFree xml:id="k000127" type="architectural feature">
+            <term xml:id="term-k000127-8" xml:lang="zh-latn-pinyin-nt" type="preferred">Yingzao fashi</term>
             <term xml:id="term-k000127-1" xml:lang="zh-Hant">營造法式</term>
             <term xml:id="term-k000127-2" xml:lang="zh-Hans">营造法式</term>
-            <term xml:id="term-k000127-3" xml:lang="zh-latn-pinyin">yíngzào fàshì</term>
-            <term xml:id="term-k000127-4" xml:lang="Wade-Giles">ying-tsao fa-shih</term>           
+            <term xml:id="term-k000127-3" xml:lang="zh-latn-pinyin">Yíngzào fǎshì</term>
+            <term xml:id="term-k000127-4" xml:lang="zh-latn-wadegile">Ying-tsao fa-shih</term>           
             <term xml:id="term-k000127-5" xml:lang="en" source="#biblk000127-1">Yingzao Fashi</term>
             <term xml:id="term-k000127-6" xml:lang="en" source="#biblk000127-2">Ying-tsao fashih</term>
-            <term xml:id="term-k000127-7" xml:lang="en">building standard</term>
+            <term xml:id="term-k000127-7" xml:lang="en">building standards</term>
 
             <note>
               <!--  <p> Related terms: 四阿，五脊殿，吴殿</p>-->
@@ -84,7 +84,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000127</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000124" passive="Fortification Elements"/> -->
+                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000127" passive="fortification elements"/> -->
                   <!-- I don't know what should the category be -->
             </listRelation>
             </listRelation>

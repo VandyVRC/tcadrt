@@ -72,6 +72,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -84,15 +85,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000104" type="architectural-feature">
-            <term xml:id="term-k000104-1" xml:lang="en" type="preferred" source="#biblk000104-1">plate tiles (preferred)</term>
+         <entryFree xml:id="k000104" type="architectural feature">
+            <term xml:id="term-k000104-4" xml:lang="zh-latn-pinyin-nt" type="preferred">banwa</term>
             <term xml:id="term-k000104-2" xml:lang="zh-Hant">瓪瓦</term>
             <term xml:id="term-k000104-3" xml:lang="zh-Hans">瓪瓦</term>
-            <term xml:id="term-k000104-4" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
-            <term xml:id="term-k000104-5" xml:lang="Wade-Giles">pan-wa</term>
+            <term xml:id="term-k000104-8" xml:lang="zh-latn-pinyin">bǎnwǎ</term>
+            <term xml:id="term-k000104-5" xml:lang="zh-latn-wadegile">pan-wa</term>
             <term xml:id="term-k000104-6" xml:lang="en" type="literal_translation">concave tiles (lit.)</term>
+            <term xml:id="term-k000104-1" xml:lang="en" source="#biblk000104-1" type="ATTCAT preferred">plate tiles (ATTCAT preferred)</term>
             <term xml:id="term-k000104-7" xml:lang="en" source="#biblk000104-2">flat tiles</term>     
-
             <note type="Note (brief)">
                <p xml:lang="en">Roofing tile of shallow concave shape; can serve as a gutter tile or a covering tile. Eaves tiles of this type have an overhanging lip to allow water to drip away from the bottom edge. These are categorized according to decorative treatment of the lip. Two types described in the <title ref="https://tinyurl.com/y6hzhlpx">Yingzao fashi</title> (e.g. Chapter 13) are the <term ref="https://architecturasinica.org/keyword/k000106">chongchun banwa 重唇瓪瓦</term> and huatou banwa 華頭瓪瓦 (lit. flower/ornamented head plate tile). Although having the same pronunciation, from the <term ref="/keyword/k000101">Yuan</term> dynasty onward this term was also written: "板瓦".</p>
                <p xml:lang="zh-Hant">瓪瓦。<term ref="/keyword/k000101">元</term>以後也寫作“板瓦”。弧形瓦件，用於屋面既可做底瓦，也可做蓋瓦。檐端的瓪瓦可粘掛模印有花紋的瓦頭，以利於排洩雨水。在《<title ref="https://tinyurl.com/yxqy4lrp">營造法式</title>》（卷十三）中記載有“重唇瓪瓦”與“華頭瓪瓦” 兩種。</p>
@@ -119,7 +120,7 @@
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/49480387843_25db5fffd9.jpg"
                      passive="https://architecturasinica.org/keyword/k000104" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000104" passive="Roofing Tiles"/>
+                     active="https://architecturasinica.org/keyword/k000104" passive="roofing tiles"/>
                   <!-- <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   where there is an xxx put the number of the example-->

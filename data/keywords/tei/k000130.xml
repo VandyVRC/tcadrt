@@ -12,7 +12,6 @@
                <foreign xml:lang="zh-Hant">殿堂</foreign> diantang</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial Research</resp>
@@ -58,15 +57,16 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000130" type="architectural-feature">
+         <entryFree xml:id="k000130" type="building type">
             <term xml:id="term-k000130-8" xml:lang="zh-latn-pinyin-nt" type="preferred">diantang</term>
             <term xml:id="term-k000130-1" xml:lang="zh-Hant" source="#biblk000130-1">殿堂</term>
             <term xml:id="term-k000130-2" xml:lang="zh-Hans">殿堂</term>
             <term xml:id="term-k000130-3" xml:lang="zh-latn-pinyin">diàntáng</term>
             <term xml:id="term-k000130-4" xml:lang="en" source="#biblk000130-2">diantang</term>
-            <term xml:id="term-k000130-5" xml:lang="Wade-Giles">tien-t'ang</term>            
-            <term xml:id="term-k000130-6" xml:lang="en" source="#biblk000130-3">place type</term>
-            <term xml:id="term-k000130-7" xml:lang="en" source="#biblk000130-4">hall</term>
+            <term xml:id="term-k000130-5" xml:lang="zh-latn-wadegile">tien-t'ang</term>            
+            <term xml:id="term-k000130-6" xml:lang="en" source="#biblk000130-3">hall</term>
+            <term xml:id="term-k000130-7" xml:lang="en" source="#biblk000130-4">palace hall</term>
+            <term xml:id="term-k000130-9" xml:lang="en" source="#biblk000130-5">palatial hall</term>
 
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
@@ -77,27 +77,25 @@
             </bibl>            
             <bibl xml:id="biblk000130-2">
                <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
-            </bibl>      
-            <bibl xml:id="biblk000130-3">
-               <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
-            </bibl>        
-            
-            <listBibl xml:id="biblk000130-4">
+            </bibl>             
+            <listBibl xml:id="biblk000130-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/3VB5QMD"/>
-               </bibl>  
-           </listBibl>
+               </bibl> 
+            </listBibl>
+            <bibl xml:id="biblk000130-4">
+                <ptr target="https://architecturasinica.org/bibl/DBN2F2VC"/>
+                <citedRange unit="pp">135</citedRange>
+            </bibl> 
+            <bibl xml:id="biblk000130-5">
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+               <citedRange unit="pp">107</citedRange>
+            </bibl>
            
             <idno type="URI">https://architecturasinica.org/keyword/k000130</idno>
-            <listRelation>
-               <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000130" passive="building-type"/>
-             
-            </listRelation>
-            </listRelation>
+            <listRelation><p>
+               
+            </p> </listRelation>
          </entryFree>
       </body>
    </text>

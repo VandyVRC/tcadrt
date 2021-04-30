@@ -85,15 +85,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000109" type="architectural-feature">
+         <entryFree xml:id="k000109" type="architectural feature">
             <term xml:id="term-k000109-8" xml:lang="zh-latn-pinyin-nt" type="preferred">tongwa</term>
             <term xml:id="term-k000109-2" xml:lang="zh-Hant">筒瓦</term>
             <term xml:id="term-k000109-3" xml:lang="zh-Hant">㼧瓦</term>
             <term xml:id="term-k000109-4" xml:lang="zh-Hans">筒瓦</term>
             <term xml:id="term-k000109-6" xml:lang="zh-latn-pinyin">tǒngwǎ</term>
-            <term xml:id="term-k000109-5" xml:lang="Wade-Giles">t'ong-wa</term>
-            <term xml:id="term-k000109-7" xml:lang="en" type="literal_translation">barrel tiles (lit.)</term>
-            <term xml:id="term-k000109-1" xml:lang="en" type="ATTCAT_preferred"source="#biblk000109-1">barrel tiles (ATTCAT preferred)</term>
+            <term xml:id="term-k000109-5" xml:lang="zh-latn-wadegile">t'ong-wa</term>
+            <term xml:id="term-k000109-7" xml:lang="en" type="literal_translation" source="#biblk000109-1">barrel tiles (lit.)</term>
+            <term xml:id="term-k000109-1" xml:lang="en" type="ATTCAT_preferred">barrel tiles (ATTCAT preferred)</term>
        <note type="Note (brief)">
                <p xml:lang="en" source="#biblk000109-2">Barrel tiles. A type of ceramic roofing tile with a semi-circular (or greater) cross section. Usually used as a covering tile to prevent water from seeping between two rows of concave/gutter tiles (<term ref="/keyword/kooo104">banwa 瓪瓦</term>). Also written 㼧 (tong (lit. convex tile)).</p>
                <p xml:lang="zh-Hant">瓦的一種，也寫作“㼧瓦”。通常是半圓形（或大半圓形），用於屋面作為蓋瓦。</p>
@@ -115,7 +115,7 @@
                   <!--  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000109" rendition="featured"> </relation>-->
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000109" passive="Roofing Tiles"/>
+                     active="https://architecturasinica.org/keyword/k000109" passive="roofing tiles"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->

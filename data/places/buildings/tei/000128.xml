@@ -30,6 +30,10 @@
                <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -93,7 +97,7 @@
                <location type="verbatim">
                   <note>35˚ 39.489' 113˚ 14.464'</note>
                </location>
-               <trait type="type" sub-type="building-type">
+               <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">palatial hall</desc>
                   <desc xml:lang="zh-latn-pinyin">dian</desc>

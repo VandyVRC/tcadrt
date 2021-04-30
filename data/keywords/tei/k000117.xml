@@ -37,6 +37,10 @@
                <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citation information 2021 by</resp>
+               <name type="person" xml:id="LLZ">ZUO Lala 左拉拉</name>
+            </respStmt>
                </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -72,12 +76,12 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000117" type="architectural-feature">
+         <entryFree xml:id="k000117" type="architectural feature">
             <term xml:id="term-k000117-7" xml:lang="zh-latn-pinyin-nt" type="preferred">fang</term>            
             <term xml:id="term-k000117-2" xml:lang="zh-Hant">枋</term>
             <term xml:id="term-k000117-3" xml:lang="zh-Hans">枋</term>
             <term xml:id="term-k000117-4" xml:lang="zh-latn-pinyin">fāng</term>
-            <term xml:id="term-k000117-5" xml:lang="Wade-Giles">fang</term>
+            <term xml:id="term-k000117-5" xml:lang="zh-latn-wadegile">fang</term>
             <term xml:id="term-k000117-6" xml:lang="en" type="literal_translation">tie beam (lit.)</term>
             <term xml:id="term-k000117-1" xml:lang="en" source="#biblk000117-1">tie beams</term>
             <note type="Note (brief)">
@@ -91,7 +95,7 @@
                         <listRelation>
                <listRelation>
                  <relation ref="skos:broadMatch"
-                    active="https://architecturasinica.org/keyword/k000117" passive="Building Frame"/>
+                    active="https://architecturasinica.org/keyword/k000117" passive="building frame"/>
                   </listRelation>
             </listRelation>
          </entryFree>

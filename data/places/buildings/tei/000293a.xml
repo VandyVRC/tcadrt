@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Bao'en Monastery, Glazed Pagoda <foreign xml:lang="zh-Hant">報恩寺琉璃塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000293a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-27" who="#ZYY">CREATED: place record</change>
+         <change n="1.1" when="2021-04-28" who="#TGM">Added alternate name and coordinates</change>
+         
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000293a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000293a-1" type="building-name" xml:lang="en">Glazed Pagoda</placeName>
+               <placeName xml:id="name000293a-2" type="building-name" xml:lang="zh-Hant">琉璃塔</placeName>
+               <placeName xml:id="name000293a-3" type="building-name" xml:lang="zh-Hans">琉璃塔</placeName>
+               <placeName xml:id="name000293a-4" type="building-name" xml:lang="zh-latn-pinyin">líulítǎ</placeName>
+               <placeName xml:id="name000293a-5" type="building-name" xml:lang="zh-latn-wadegile">liu-li-t'a</placeName>
+               <placeName xml:id="name000293a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Bao'en Monastery Glazed Pagoda</placeName>
+               <placeName xml:id="name000293a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">報恩寺琉璃塔</placeName>
+               <placeName xml:id="name000293a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">报恩寺琉璃塔</placeName>
+               <placeName xml:id="name000293a-9" type="alternate" xml:lang="en">Porcelain Pagoda</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000293a</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000293a-1" from="1368-01-01"
+                  to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368-1644</desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>32.011143 118.788516</geo>
+                  <note>location determined with GoogleEarth</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000293a-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000293a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000293a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000293"/>
+               <relation active="https://architecturasinica.org/place/000293a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51143056548_03e47e684c_c.jpg" passive="https://architecturasinica.org/place/000289" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51142587928_eea8a60ecf_c.jpg" passive="https://architecturasinica.org/place/000289" ana="featured"/> 
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

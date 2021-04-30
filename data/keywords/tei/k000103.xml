@@ -17,7 +17,7 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
@@ -69,6 +69,7 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
@@ -79,35 +80,33 @@
          <change n="2.0" who="#TGM" when="2020-02-09">REVISED: adding citation</change>
          <change n="2.0" who="#TGM" when="2020-02-17">REVISED: pinyin from LC to CP; modifying definition</change>
          <change who="#TGM" when="2020-09-11">Adding AC and ZJ edits</change>
+         <change n="2.1" who="#TGM" when="2021-03-10">removing extra references; adding links</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000103" type="architectural-feature">
-            <term xml:id="term-k000103-1" xml:lang="en" type="preferred" source="#biblk000103-1">slanted bracket arms (preferred)</term>
+         <entryFree xml:id="k000103" type="architectural feature">
+            <term xml:id="term-k000103-8" xml:lang="zh-latn-pinyin-nt" type="preferred">ang</term>
             <term xml:id="term-k000103-2" xml:lang="zh-Hant">昂</term>
             <term xml:id="term-k000103-3" xml:lang="zh-Hans">昂</term>
             <term xml:id="term-k000103-4" xml:lang="zh-latn-pinyin">áng</term>
-            <term xml:id="term-k000103-5" xml:lang="Wade-Giles">ang</term>
-            <term xml:id="term-k000103-6" xml:lang="en" type="literal_translation" source="#biblk000103-4">raise up; lift up (lit.)</term>
+            <term xml:id="term-k000103-5" xml:lang="zh-latn-wadegile">ang</term>
+            <term xml:id="term-k000103-6" xml:lang="en" type="literal_translation" source="#biblk000103-3">raise up; lift up (lit.)</term>
+            <term xml:id="term-k000103-1" xml:lang="en" source="#biblk000103-1" type="ATTCAT preferred">slanted bracket arms (ATTCAT preferred)</term>
             <term xml:id="term-k000103-7" xml:lang="en" source="#biblk000103-2">(descending or ascending) cantilevers</term>
             <note type="Note (brief)">
                <p xml:lang="en">Angled timber member used in corbel bracket sets and placed perpendicular to the building plane. Can be descending (下昂 xia'ang), where the tip extends downward through the bracket set to the exterior of the building; or ascending (上昂 shang'ang), where it extends from the building plane upward, usually to support the interior building frame. Level timbers placed perpendicular to the building plane include huagong 華栱 and shuatou 耍頭. </p>
-               <p xml:lang="en">From the <term ref="/keyword/k000074">Song</term> and <term ref="/keyword/k000036">Jin</term> dynasties (10th-13th centuries), we see buildings where 華栱 huagong were made to look like xiaang 下昂 and shuatou 耍頭. These are sometimes called pretend ang (假昂 jia'ang), and slanted bracket arm-shaped shuatou (angxing shuatou 昂形耍頭).</p>
+               <p xml:lang="en">From the <term ref="/keyword/k000074">Song</term> and <term ref="/keyword/k000036">Jin</term> dynasties (10th-13th centuries), we see buildings where huagong 華栱 and shuatou 耍頭 were made to look like xiaang 下昂. These are sometimes called pretend ang (假昂 jia'ang), and slanted bracket arm-shaped shuatou (<term ref="/keyword/k000001">angxing shuatou 昂形耍頭</term>).</p>
                <p xml:lang="zh-Hant">铺作中垂直于屋身方向的斜向构件。可以是下昂，用于外跳，昂身穿过铺作向外伸出，昂嘴向下倾斜；或上昂，常用于里跳，向上支撑内部结构。铺作中垂直于屋身方向的水平出跳构件有华栱和耍头。<term ref="/keyword/k000074">宋</term><term ref="/keyword/k000036">金</term>以后，有时华栱或耍头会在外跳做成昂的形状，称为假昂，及昂形耍头.</p>
-	    </note>
-            <note type="related concepts">
-               <p>下昂 xià'áng; 上昂 shàngáng; 華栱 huágǒng; 耍頭 shuǎtóu; 假昂 jiǎ'áng; <term ref="https://architecturasinica.org/keyword/k000001">昂形耍頭 ángxíng shuǎtóu</term>; <term source="#biblk000103-3">插昂 chā'áng</term>; <term source="#biblk000103-3">假昂頭 jiǎ'ángtóu</term>; <term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term></p>
-	    </note>
-            
+            </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000103-1" xml:lang="zh-Hant">下昂 xià'áng</p>
                <p xml:id="related-concept-k000103-2" xml:lang="zh-Hant">上昂 shàngáng</p>
-               <p xml:id="related-concept-k000103-3" xml:lang="zh-Hant">華栱 huágǒng</p>
+               <p xml:id="related-concept-k000103-3" xml:lang="zh-Hant">華栱 huāgǒng</p>
                <p xml:id="related-concept-k000103-4" xml:lang="zh-Hant">耍頭 shuǎtóu</p>
                <p xml:id="related-concept-k000103-5" xml:lang="zh-Hant">假昂 jiǎ'áng</p>
                <p xml:id="related-concept-k000103-6" xml:lang="zh-Hant" ref="/keyword/k000001">昂形耍頭 ángxíng shuǎtóu</p>
-               <p xml:id="related-concept-k000103-7" xml:lang="zh-Hant">插昂 chā'áng</p>
+               <p xml:id="related-concept-k000103-7" xml:lang="zh-Hant" source="#biblk000103-4">插昂 chā'áng</p>
                <p xml:id="related-concept-k000103-8" xml:lang="zh-Hant">假昂頭 jiǎ'ángtóu</p>
                <p xml:id="related-concept-k000103-9" xml:lang="zh-Hant" ref="/keyword/k000013">鋪作 pūzuò</p>
             </note>
@@ -119,12 +118,12 @@
                <citedRange unit="pp">349</citedRange>
             </bibl>
             <bibl xml:id="biblk000103-3">
-               <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
-               <citedRange unit="pp">395</citedRange>
-            </bibl> 
-            <bibl xml:id="biblk000103-4">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">4</citedRange>
+            </bibl> 
+            <bibl xml:id="biblk000103-4">
+               <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
+               <citedRange unit="pp">395</citedRange>
             </bibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000103</idno>
             <listRelation>
@@ -133,7 +132,7 @@
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000103" passive="Bracketing"/>
+                     active="https://architecturasinica.org/keyword/k000103" passive="bracketing"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>

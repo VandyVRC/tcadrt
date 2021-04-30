@@ -49,6 +49,10 @@
                <resp>Revising title statement by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citation information 2021 by</resp>
+               <name type="person" xml:id="ZX">ZHANG xuliang 張序亮</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -84,12 +88,12 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000108" type="architectural-feature">
+         <entryFree xml:id="k000108" type="architectural feature">
             <term xml:id="term-k000108-7" xml:lang="zh-latn-pinyin-nt" type="preferred">goutou</term>
             <term xml:id="term-k000108-2" xml:lang="zh-Hant">勾頭</term>
             <term xml:id="term-k000108-3" xml:lang="zh-Hans">勾头</term>
             <term xml:id="term-k000108-4" xml:lang="zh-latn-pinyin">gōutóu</term>
-            <term xml:id="term-k000108-5" xml:lang="Wade-Giles">kou-t'ou</term>
+            <term xml:id="term-k000108-5" xml:lang="zh-latn-wadegile">kou-t'ou</term>
             <term xml:id="term-k000108-6" xml:lang="en" type="literal_translation">hooked heads (lit.)</term>
             <term xml:id="term-k000108-1" xml:lang="en" >barrel tile ends</term>
           <note type="Note (brief)">
@@ -117,7 +121,7 @@
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/49480387843_25db5fffd9_c.jpg"
                      passive="https://architecturasinica.org/keyword/k000108" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000108" passive="Roofing Tiles"/>
+                     active="https://architecturasinica.org/keyword/k000108" passive="roofing tiles"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->

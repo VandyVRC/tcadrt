@@ -18,7 +18,7 @@
             <editor role="content-author" xml:id="CL">CHEN Luxi 陳麓西</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
@@ -86,12 +86,12 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000045" type="architectural-feature">
+         <entryFree xml:id="k000045" type="architectural feature">
             <term xml:id="term-k000045-7" xml:lang="zh-latn-pinyin-nt" type="preferred">liang</term>
             <term xml:id="term-k000045-6" xml:lang="zh-Hant" source="#biblk000045-2">梁</term>
             <term xml:id="term-k000045-5" xml:lang="zh-Hans">梁</term>
             <term xml:id="term-k000045-4" xml:lang="zh-latn-pinyin">liáng</term>
-            <term xml:id="term-k000045-3" xml:lang="Wade-Giles">liang</term>
+            <term xml:id="term-k000045-3" xml:lang="zh-latn-wadegile">liang</term>
             <term xml:id="term-k000045-2" xml:lang="en" type="literal_translation" source="#biblk000045-3">beams</term>
             <term xml:id="term-k000045-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000045-1">cross beams (ATTCAT preferred)</term>
             <note type="Note (brief)">
@@ -201,7 +201,7 @@
                      passive="https://architecturasinica.org/keyword/k000045" rendition="featured">
                   </relation>
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000045" passive="Building Frame"/>
+                     active="https://architecturasinica.org/keyword/k000045" passive="building frame"/>
                   <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->
                </listRelation>

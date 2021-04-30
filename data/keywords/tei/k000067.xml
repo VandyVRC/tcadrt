@@ -35,6 +35,8 @@
          <langUsage>
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
          </langUsage>
@@ -45,17 +47,19 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000067" type="architectural-feature">         
-            <term xml:id="term-k000067-1" xml:lang="en">column top tie beam</term>
-            <term xml:id="term-k000067-4" xml:lang="zh-latn-pinyin" type="preferred">pǔpāifāng (preferred)</term>
-            <term xml:id="term-k000067-2" xml:lang="zh-Hant">普拍枋</term>
-            <term xml:id="term-k000067-3" xml:lang="zh-Hans">普拍枋</term>
+         <entryFree xml:id="pupaifang" type="architectural feature">         
+            <term xml:id="term-pupaifang-5" xml:lang="zh-latn-pinyin-nt" type="preferred">pupaifang</term>
+            <term xml:id="term-pupaifang-2" xml:lang="zh-Hant">普拍枋</term>
+            <term xml:id="term-pupaifang-3" xml:lang="zh-Hans">普拍枋</term>
+            <term xml:id="term-pupaifang-4" xml:lang="zh-latn-pinyin">pǔpāifāng</term>
+            <term xml:id="term-k000067-6" xml:lang="zh-latn-wadegile">p`u-p`ai-fang</term>
+            <term xml:id="term-pupaifang-1" xml:lang="en">column top tie beam</term>
          	<idno type="URI">https://architecturasinica.org/keyword/k000067</idno>
             <gloss/>
             <listRelation>
             	<relation ref="foaf:depicts" active="https://farm3.staticflickr.com/2543/3824680596_8327be70dc_z.jpg" passive="https://architecturasinica.org/keyword/k000067" rendition="featured">
                </relation>
-            	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000067" passive="Building Frame"/>
+            	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000067" passive="building frame"/>
                <relation ref="https://architecturasinica.org/place/000198" source="Kaishansi main hall"/>
             </listRelation>
          </entryFree>

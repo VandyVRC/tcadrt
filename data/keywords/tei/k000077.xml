@@ -5,14 +5,14 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">南唐 </foreign>Nántáng  </title>
+               <foreign xml:lang="zh-Hant">南唐 </foreign>Nán Táng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>data entry and proof correction</resp>
-               <name type="person" ref="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding revising title statement 2020 by</resp>
@@ -25,6 +25,8 @@
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
+            <edition n="1.1"/>
+            <name type="person" ref="#TGM">Tracy Miller</name>
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
@@ -61,12 +63,12 @@
             <term xml:id="term-k000077-2" xml:lang="zh-Hant">南唐</term>
             <term xml:id="term-k000077-3" xml:lang="zh-Hans">南唐</term>
             <term xml:id="term-k000077-4" xml:lang="zh-latn-pinyin">Nán Táng</term>
-            <term xml:id="term-k000077-5" xml:lang="Wade-Giles">Nan T'ang</term>
+            <term xml:id="term-k000077-5" xml:lang="zh-latn-wadegile">Nan T'ang</term>
             <term xml:id="term-k000077-6" xml:lang="en">Southern Tang</term>
             <term xml:id="term-k000077-7" xml:lang="zh-Hant">南唐國</term>
             <term xml:id="term-k000077-8" xml:lang="en">Southern Tang Kingdom</term>
-            <state type="existence" source="#biblk000077-1" from="0937" to="0946">
-               <desc>937 - 946</desc>
+            <state type="existence" source="#biblk000077-1" from="0937" to="0975">
+               <desc>937 - 975</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000077</idno>
          </entryFree>
