@@ -13,6 +13,10 @@
                <resp>Editing and proofreading by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -74,9 +78,9 @@
                   <desc xml:lang="zh-Hant">院</desc>
                   <desc xml:lang="zh-Hans">院</desc>
                </trait>
-               <!--note type="field-notes">984</note
             </place>
             <listRelation>
+               <!--  
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
@@ -97,10 +101,11 @@
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000164">
                   <desc>Guanyinge, Front view from Shanmen</desc>
                </relation>
-               <relation ana="contained" active="https://architecturasinica.org/place/000164" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+               -->
+               <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="site-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
             </listRelation>
          </listPlace>
       </body>
    </text>
 </TEI>
--->
