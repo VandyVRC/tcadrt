@@ -78,6 +78,10 @@
                   <desc xml:lang="zh-Hant">院</desc>
                   <desc xml:lang="zh-Hans">院</desc>
                </trait>
+            <bibl xml:id="bibl000048x-2">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">12</citedRange>
+            </bibl> 
             </place>
             <listRelation>
                <!--  
@@ -97,11 +101,11 @@
                   </desc>
                </relation>
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000024a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000164">
                   <desc>Guanyinge, Front view from Shanmen</desc>
                </relation>
                -->
+               <relation active="https://architecturasinica.org/place/000024a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="site-type"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000024a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
             </listRelation>
