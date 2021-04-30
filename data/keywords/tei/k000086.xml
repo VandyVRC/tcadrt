@@ -7,14 +7,14 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">樓 </foreign>lóu</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2021 by</resp>
+               <resp>Adding citation and gloss 2021 by</resp>
                <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
             </respStmt>
          </titleStmt>
@@ -52,13 +52,29 @@
    <text>
       <body>
          <entryFree xml:id="k000086" type="building type">
-            <term xml:id="term-k000086-5" xml:lang="zh-latn-pinyin-nt" type="preferred">lou</term>
+            <term xml:id="term-k000086-1" xml:lang="zh-latn-pinyin-nt" type="preferred">lou</term>            
             <term xml:id="term-k000086-2" xml:lang="zh-Hant">樓</term>
             <term xml:id="term-k000086-3" xml:lang="zh-Hans">楼</term>
-            <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin">lóu</term>
-            <term xml:id="term-k000086-6" xml:lang="zh-latn-wadegile">lou</term>
-            <term xml:id="term-k000086-1" xml:lang="en">tower</term>
+            <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin">lóu</term>            
+            <term xml:id="term-k000086-5" xml:lang="zh-latn-wadegile">lou</term>
+             <note type="Gloss">
+               <p xml:lang="en" source="biblk000086-1">tower; a multi-story building or other structure (Kroll 2015, 281; Chen 2010, 403 (louge)); see also: louge; ge</p>
+            </note>
+                <listBibl xml:id="biblk000086-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">281</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">403</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>
+            <bibl xml:id="biblk000086-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">403</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
