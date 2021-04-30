@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Qixia Monastery, Thousand Buddha Cliff<foreign xml:lang="zh-Hant">棲霞寺千佛岩石窟</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZXL">ZHANG Xuliang 張序亮</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000294b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-20" who="#ZXL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000294b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000294b-1" type="building-name" xml:lang="en">Thousand Buddha Cliff</placeName>
+               <placeName xml:id="name000294b-2" type="building-name" xml:lang="zh-Hant">千佛岩石窟</placeName>
+               <placeName xml:id="name000294b-3" type="building-name" xml:lang="zh-Hans">千佛岩石窟</placeName>
+               <placeName xml:id="name000294b-4" type="building-name" xml:lang="zh-latn-pinyin">qīanfóyánshíkū</placeName>
+               <placeName xml:id="name000294b-5" type="building-name" xml:lang="zh-latn-wadegile">ch'ien-fo-yen-shih-k'u</placeName>
+               <placeName xml:id="name000294b-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qixia Monastery Thousand Buddha Cliff</placeName>
+               <placeName xml:id="name000294b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">棲霞寺千佛岩石窟</placeName>
+               <placeName xml:id="name000294b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">栖霞寺千佛岩石窟</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000294b</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000294b-2" from="0479-01-01"
+                  to="0502-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qi Kingdom</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000294b-1">The Thousand Buddha Rock was first carved by Ming Zhongzhang, Ming Sengshao’s son, in 484 during <term ref="/keyword/000068">Southern Qi</term>(Xiang 2001, 128). Buddhist statues continued to be carved in the following dynasties. Due to the large number of niches and statues, it is called the Thousand Buddha Cliff. With 322 niches and 533 Buddha statues, it is the only extant Buddhist grotto from Southern Dynasties (Zi 2014, 85; Xiang 2001, 128).</p>
+               </desc>
+               <desc type="site-data" xml:lang="zh-Hant">
+                  <p source="#bibl000294b-1">千佛岩石窟建于南齊484年，由南齊縣令明仲璋遵照其父明僧紹的遺志建造(Xiang 2001, 128)。後經曆代鑿建，因佛龛、佛像衆多稱作千佛窟。這是中國現存唯一的南朝佛教石窟，窟內現存佛龛322個，佛像533尊 (Zi 2014, 85; Xiang 2001, 128)。</p>
+               </desc>   
+               <location type="gps" subtype="preferred">
+                  <geo>32.154167 118.953889</geo>
+               </location>
+               </place>
+            <listRelation>
+               <relation ana="contained" active="https://architecturasinica.org/place/000294b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
+               <relation active="https://architecturasinica.org/place/000294b" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000068" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51123429601_96e93f791b_c.jpg"
+                  passive="https://architecturasinica.org/place/000294b" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51124228750_2130ae00d2_c.jpg"
+                  passive="https://architecturasinica.org/place/000294b" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
