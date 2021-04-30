@@ -9,18 +9,22 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">樓閣</foreign>lóugé </title>
+               <foreign xml:lang="zh-Hant">樓閣</foreign> lóugé</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, proofreading, and revision by</resp>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+		 <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -57,31 +61,22 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000177" type="building-type">
+         <entryFree xml:id="k000177" type="building type">
             <term xml:id="term-k000177-1" xml:lang="zh-latn-pinyin-nt" type="preferred">louge</term>
             <term xml:id="term-k000177-2" xml:lang="zh-Hant">樓閣</term>
             <term xml:id="term-k000177-3" xml:lang="zh-Hans">楼阁</term>
-            <term xml:id="term-k000177-4" xml:lang="zh-latn-pinyin" source="#biblk000177-1">lóugé </term>
+            <term xml:id="term-k000177-4" xml:lang="zh-latn-pinyin">lóugé </term>
             <term xml:id="term-k000177-5" xml:lang="Wade-Giles">lou-ko</term>   
-            <term xml:id="term-k000177-6" xml:lang="en" source="#biblk000177-2">multistory structure</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000177-3">multi-story (ge-type) building (Guo 56; Chen 403)</p>
+               <p xml:lang="en" source="#biblk000177-1">multi-story building (Guo 2002, 56; Chen 2010, 403)</p>
             </note>
-            <bibl xml:id="biblk000177-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">403</citedRange>
-            </bibl> 
-            <bibl xml:id="biblk000177-2">
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">361</citedRange>
-            </bibl> 
-            <listBibl xml:id="biblk000177-3">
+            <listBibl xml:id="biblk000177-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">56</citedRange>
                </bibl>
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                   <citedRange unit="pp">403</citedRange>
                </bibl>
             </listBibl>
