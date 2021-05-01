@@ -57,7 +57,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000153" type="architectural-feature">
+         <entryFree xml:id="k000153" type="architectural feature">
             <term xml:id="term-k000153-8" xml:lang="zh-latn-pinyin-nt" type="preferred">touxin</term>
             <term xml:id="term-k000153-2" xml:lang="zh-Hant">偷心</term>
             <term xml:id="term-k000153-3" xml:lang="zh-Hans">偷心</term>
@@ -69,12 +69,10 @@
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000153</idno>
             <listRelation>
-               
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000153" passive="bracketing"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
-                  <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000153" passive="Bracketing"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                
