@@ -78,6 +78,20 @@
                <location type="gps" subtype="preferred">
                   <geo>32.154167 118.953889</geo>
                </location>
+               <listBibl xml:id="bibl000294b-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/CGZKKQBR"/>
+                     <citedRange unit="pp">128</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/XJRT73BY"/>
+                     <citedRange unit="pp">85</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000294b-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">11</citedRange>
+               </bibl>
                </place>
             <listRelation>
                <relation ana="contained" active="https://architecturasinica.org/place/000294b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
