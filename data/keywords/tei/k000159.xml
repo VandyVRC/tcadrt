@@ -7,10 +7,10 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">散枓</foreign>sǎndǒu</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator">FU Shiyi</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>data entry and adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
             </respStmt>
          </titleStmt>
@@ -43,21 +43,20 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
-         <change n="1.1" when="2021-04-20" who="FSY">Gloss added by</change>
+         <change n="1.1" when="2021-04-20" who="FSY">Added gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000159" type="Bracketing">
-            <term xml:id="term-k000159-5" xml:lang="zh-latn-pinyin-nt" type="preferred">sandou</term>
+            <term xml:id="term-k000159-1" xml:lang="zh-latn-pinyin-nt" type="preferred">sandou</term>
             <term xml:id="term-k000159-2" xml:lang="zh-Hant">散枓</term>
             <term xml:id="term-k000159-3" xml:lang="zh-Hans">散斗</term>
             <term xml:id="term-k000159-4" xml:lang="zh-latn-pinyin">sǎndǒu</term>
-            <term xml:id="term-k000159-6" xml:lang="zh-latn-wadegile">san tou</term>
-            <term xml:id="term-k000159-1" xml:lang="en">end-block</term>
+            <term xml:id="term-k000159-5" xml:lang="zh-latn-wadegile">san-tou</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000159-1">end block; literally:  "ordinary" "bearing block" (Kroll 396, 91); small bearing block, usually placed on the ends of a bracket arms to support timbers parallel to the building plane. (Guo 68, Fu 364, Chen 348)</p>
-               <p xml:lang="zh-Hant">用於栱兩端或枋木之間的小斗。</p>
+               <p xml:lang="en" source="#biblk000159-1">end block; literally:  "ordinary" "bearing block" (Kroll 2015, 396, 91); small bearing block, usually placed on the ends of a bracket arms to support timbers parallel to the building plane. (Guo 2002, 68; Fu 2017, 364; Chen 2010, 348)</p>
+               <!-- <p xml:lang="zh-Hant">用於栱兩端或枋木之間的小斗。</p> -->
             </note>
             <listBibl xml:id="biblk000159-1">
                <bibl>
@@ -73,7 +72,7 @@
                   <citedRange unit="pp">364</citedRange>
                </bibl>
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                   <citedRange unit="pp">348</citedRange>
                </bibl>
             </listBibl>
