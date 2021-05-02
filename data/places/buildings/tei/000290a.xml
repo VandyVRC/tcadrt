@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Zhenru Monastery, main hall <foreign xml:lang="zh-Hant">真如寺大殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="CBL">Chen Baolong 陈宝龙</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#CBL">Chen Baolong 陈宝龙</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000290a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-14" who="#CBL">CREATED: place record</change>
+         <change n="1.1" when="2021-04-16" who="#CBL">Information Revision and adding pictures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000290a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000290a-1" type="building-name" xml:lang="en">main hall</placeName>
+               <placeName xml:id="name000290a-2" type="building-name" xml:lang="zh-Hant">大殿</placeName>
+               <placeName xml:id="name000290a-3" type="building-name" xml:lang="zh-Hans">大殿</placeName>
+               <placeName xml:id="name000290a-4" type="building-name" xml:lang="zh-latn-pinyin">dàdiàn</placeName>
+               <placeName xml:id="name000290a-5" type="building-name" xml:lang="zh-latn-wadegile">ta-tien</placeName>
+               <placeName xml:id="name000290a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenrusi main hall</placeName>
+               <placeName xml:id="name000290a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">真如寺大殿</placeName>
+               <placeName xml:id="name000290a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">真如寺大殿</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000290a</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000290a-2" from="1217-01-01"
+                  to="1368-01-01">
+                  <label>Dynasty</label>
+                  <desc>Yuan Dynasty</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000290a-1">While many of the compounds in the monastery are recent buildings, the main hall is considered an authentic building first constructed during Yuan Dynasty (Zuo 2019, 130). In August 1950, a local administrator found an inscription on an interior tie beam in the Zhenrusi main hall, which reads: “[The main hall] is built on the third day of the seventh month, the seventh year of yanyou reign of Yuan (1320),” which confirms the main hall is a Yuan architecture (Liu 1951, 91). However, the style of construction is heterogeneous, and Liu Dunzhen considers the main hall was first constructed in Yuan dynasty, restored in Ming dynasty, and several features were added in Qing dynasty (1951, 96). The main hall is north-south oriented and the main entrance is facing the south (Zuo 2019, 131). The ground plan of Zhenrusi main hall is special for its ratio between the front bay, middle bay, and rear bay, which is nearly 2:2:1 (Liu 1951, 91). Three-fourths of the central bay is occupied by Buddhist statues remaining on a rectangular altar (Zuo 2019, 131). Moreover, the roof frame of Zhenrusi main hall has several local features as it is a combination of mansion style and palatial style (Zuo 2019, 134). The hidden roof which canopies the front half of the main hall roof is rare in Yuan dynasty but is more prevalent in Japan, similar to the structure of <term ref="http://www.aisf.or.jp/~jaanus/deta/n/noyane.htm">noyane 野屋根</term>(Zuo 2019, 132). Inscriptions on architectural members of the Zhenrusi main hall found in 1963 can be accurately understood through architectural terminology in Japanese, which further prooves its connection with Japanese architecture (Lu 1996, 8).</p>
+               </desc>
+               <desc type="site-data" xml:lang="zh-Hant">
+                  <p source="#bibl000290a-1">儘管真如寺中許多建築是隨後才落成，真如寺大殿被認為是一座元代木结构建築（左 2019, 130）。1950年8月，當地官員在真如寺大殿內梁上發現如下墨筆字：“峕大元歲次庚申演延祐七年癸未季夏月乙巳二十乙日巽時鼎建。”此發現亦可證實真如寺大殿為元代建築（劉 1951, 91）。然而由于大殿结构風格多樣，劉敦楨 (1951) 認為大殿初落成於元代，於明代多次重修，而一些特徵又於清代添加（91）。該大殿坐北朝南（左 2019, 131）。大殿內槽三間尺寸之比例頗為特別：由南向北第一間，第二間，和第三間之间比例約為二比二比一（劉 1951, 91）。大殿正中一間後四分之三有一長方形寶座，上立佛像一尊（左 2019, 131）。此外，大殿結構也具有本土特色，即為廳堂造與殿堂造之結合（左 2019, 134）。大殿內遮蔽用隱藏式屋頂在元代極為罕見，而更類似於日本流行的<term ref="http://www.aisf.or.jp/~jaanus/deta/n/noyane.htm">野屋根</term>（左 2019, 132）。1963年在大殿構件发现五十四則墨筆字。这些文字可以由日語建築術語準確解釋，此發現揭示了真如寺大殿與日本建築的聯繫（路 1996, 8）。</p>
+               </desc>   
+               <!-- <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8204093 http://vocab.getty.edu/page/tgn/8610174">
+                  <placeName>浙江省杭州市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                     <placeName xml:lang="zh-Hant">浙江省</placeName>
+                     <placeName xml:lang="zh-Hans">浙江省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Hangzhou</placeName>
+                     <placeName xml:lang="zh-Hant">杭州</placeName>
+                     <placeName xml:lang="zh-Hans">杭州</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Xihuqu</placeName>
+                     <placeName xml:lang="zh-Hant">西湖區</placeName>
+                     <placeName xml:lang="zh-Hans">西湖区</placeName>
+                  </region>
+                  -->
+               <location type="gps" subtype="preferred">
+                  <geo>31.251389 121.396667</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <listBibl xml:id="bibl000290a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                     <citedRange unit="pp">130-132, 134</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TJKBXJAV"/>
+                     <citedRange unit="pp">91</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/HFHD67ZN"/>
+                     <citedRange unit="pp">8</citedRange>
+                  </bibl>                    
+               </listBibl>
+               <bibl xml:id="bibl000290a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000290a" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000290a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000290"/>
+               <relation active="https://architecturasinica.org/place/000290a" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51116426191_6240b35b91_c.jpg"
+                  passive="https://architecturasinica.org/place/000290a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51115862497_9b101019e9_4k.jpg"
+                  passive="https://architecturasinica.org/place/000290a" ana="featured"/>
+               <!--
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50670415122_3d107176a7_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/> 
+               -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

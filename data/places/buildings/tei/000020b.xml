@@ -57,6 +57,9 @@
                <placeName xml:id="name000020b-3" type="building-name" xml:lang="zh-Hans">七宝塔</placeName>
                <placeName xml:id="name000020b-4" type="building-name" xml:lang="zh-latn-pinyin">Qībǎotǎ</placeName>
                <placeName xml:id="name000020b-5" type="building-name" xml:lang="zh-latn-wadegile">Ch'i-pao-t'a</placeName>
+               <placeName xml:id="name000020b-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Dayun Cloister, Seven Treasures Pagoda</placeName>
+               <placeName xml:id="name000020b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">大雲院七寶塔</placeName>
+               <placeName xml:id="name000020b-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">大云院七宝塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000020b</idno>
                <state type="existence" from="0954-01-01" to="0954-12-31">
                   <label>Date</label>
@@ -101,6 +104,7 @@
                </bibl>
             </place>
             <listRelation>
+               <relation active="https://architecturasinica.org/place/000020b" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building type"/>
                <relation active="https://architecturasinica.org/place/000020b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000044" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000020b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000020"/>
                <relation ref="foaf:depicts"

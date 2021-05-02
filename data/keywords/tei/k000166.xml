@@ -19,8 +19,12 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citation 2021 by</resp>
+               <resp>Data entry, adding citation and gloss 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -56,19 +60,34 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000166" type="site type">
+         <entryFree xml:id="k000166" type="architectural feature">
             <term xml:id="term-k000166-1" xml:lang="zh-latn-pinyin-nt" type="preferred">jia'ang</term>
             <term xml:id="term-k000166-2" xml:lang="zh-Hant">假昂</term>
             <term xml:id="term-k000166-3" xml:lang="zh-Hans">假昂</term>
             <term xml:id="term-k000166-4" xml:lang="zh-latn-pinyin">jiǎ’áng</term>
             <term xml:id="term-k000166-5" xml:lang="zh-latn-wadegile">chia-ang</term>
-            <!--<term xml:id="term-k000166-6" xml:lang="en" type="literal_translation" source="#biblk000103-1"> (lit.)</term> 
-            <bibl xml:id="biblk000103-1">
-               <ptr target="https://architecturasinica.org/bibl/"/>
-            </bibl> -->       
+            <note type="Gloss">
+               <p xml:lang="en" source="biblk000166-1">literally:  "simulated"  (Kroll 193) ang; pseudo-cantilever (Zuo, 2019, 175); false ang (Guo 45)</p>
+            </note>
+            <listBibl xml:id="biblk000166-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">193</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                  <citedRange unit="pp">175</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">45</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000166</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000166" passive="bracketing"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
