@@ -8,10 +8,18 @@
                <foreign xml:lang="zh-Hant">散枓 </foreign>sǎndǒu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" xml:id="FSY">FU Shiyi 付詩怡</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
+               <resp>data entry and adding citations and gloss 2021 by</resp>
+              <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+                 <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+               <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -42,29 +50,44 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-02-04:00" who="#FSY">CREATED: record</change>
+         <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-04-20" who="FSY">Added gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000159" type="architectural feature">
-            <term xml:id="term-k000159-5" xml:lang="zh-latn-pinyin-nt" type="preferred">sandou</term>
+            <term xml:id="term-k000159-1" xml:lang="zh-latn-pinyin-nt" type="preferred">sandou</term>
             <term xml:id="term-k000159-2" xml:lang="zh-Hant">散枓</term>
             <term xml:id="term-k000159-3" xml:lang="zh-Hans">散斗</term>
             <term xml:id="term-k000159-4" xml:lang="zh-latn-pinyin">sǎndǒu</term>
-            <term xml:id="term-k000159-6" xml:lang="zh-latn-wadegile">san tou</term>
-            <term xml:id="term-k000159-1" xml:lang="en" source="#biblk000159-1">end-block</term>
-            <bibl xml:id="biblk000159-1">
+            <term xml:id="term-k000159-5" xml:lang="zh-latn-wadegile">san-tou</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000159-1">end block; literally:  "ordinary" "bearing block" (Kroll 2015, 396, 91); small bearing block, usually placed on the ends of a bracket arms to support timbers parallel to the building plane. (Guo 2002, 68; Fu 2017, 364; Chen 2010, 348)</p>
+               <!-- <p xml:lang="zh-Hant">用於栱兩端或枋木之間的小斗。</p> -->
+            </note>
+            <listBibl xml:id="biblk000159-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">396, 91</citedRange>
+               </bibl>
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">68</citedRange>                  
-            </bibl>
+                  <citedRange unit="pp">68</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">364</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">348</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000159</idno>
             <listRelation>
-               <listRelation>
-            <relation ref="skos:broadMatch"
-               active="https://architecturasinica.org/keyword/k000159" passive="bracketing"/>
+            <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000001" passive="bracketing"/>
                </listRelation>
-            </listRelation>
          </entryFree>
       </body>
    </text>
