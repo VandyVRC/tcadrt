@@ -19,7 +19,7 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, and adding citations 2021 by</resp>
+               <resp>Data entry and adding citations 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-18">CREATED: record</change>
+         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,10 +63,28 @@
             <term xml:id="term-k000157-3" xml:lang="zh-Hans">斗</term>
             <term xml:id="term-k000157-4" xml:lang="zh-latn-pinyin" source="#biblk000157-1">dǒu</term>
             <term xml:id="term-k000157-5" xml:lang="zh-latn-wadegile">tou</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000157-2">literally:  "ladle" or a standard rice measure (Kroll 2015, 91); bearing block (which resembles a standard rice measure in shape) (Fu 2017, 353; Guo 2002, 33)</p>
+               <p xml:lang="zh-Hant" source="#biblk000157-3">本意爲一種量器；作爲建築術語指斗栱中承托的方形構件，其形如斗。</p>
+            </note> 
             <bibl xml:id="biblk000157-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">208</citedRange> 
             </bibl> 
+            <listBibl xml:id="biblk000157-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">91</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">353</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">33</citedRange> 
+               </bibl>
+            </listBibl>     
             <idno type="URI">https://architecturasinica.org/keyword/k000157</idno>
             <listRelation>
                <listRelation>
