@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-12">CREATED: record</change>
+         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,10 +63,27 @@
             <term xml:id="term-k000155-3" xml:lang="zh-Hans">慢栱</term>
             <term xml:id="term-k000155-4" xml:lang="zh-latn-pinyin" source="#biblk000155-1">màngǒng</term>
             <term xml:id="term-k000155-5" xml:lang="zh-latn-wadegile">man-kung</term>           
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000155-2">literally: "boastful; contemptuous, arrogant" bracket arm (Kroll 2015, 294), a long bracket-arm placed parallel to the building plane above a shorter bracket arm, either a guazigong or nidaogong (Guo 2002, 57, Fu 2017, 361)</p>     
+            </note>  
             <bibl xml:id="biblk000155-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">396</citedRange> 
             </bibl> 
+            <listBibl xml:id="biblk000155-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">294</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">57</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">361</citedRange> 
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000155</idno>
             <listRelation>
                <listRelation>
