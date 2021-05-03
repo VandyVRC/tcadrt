@@ -14,6 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -21,10 +22,6 @@
             <respStmt>
                <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
-            </respStmt>
-            <respStmt>
-               <resp>Peer review by</resp>
-               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -55,7 +52,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-12">CREATED: record</change>
+         <change n="1.0" when="2021-03-12" who="#SEB">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,18 +64,13 @@
             <term xml:id="term-k000135-4" xml:lang="zh-latn-pinyin">cháojū</term>
             <term xml:id="term-k000135-5" xml:lang="zh-latn-wadegile">ch'ao-chü</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000135-1">literally: "nest“ ”dwelling" (Kroll 2016, online edition); refers to an elevated residence made of timber where "ancient" people lived prior to the invention of buildings (Lunheng 論衡, 詰術篇 ; Zhuangzi 莊子, 盜跖) See also "cave dwelling" xuechu 穴處.</p>
-               <p xml:lang="zh-Hant" source="#biblk000135-1">指在建築發明以前，古代人們所居住的抬高的木構居所（論衡, 詰術篇 ;莊子，盜跖）。參見“穴處”</p>
+               <p xml:lang="en" source="#biblk000135-1">literally: "nest“ ”dwelling" (Kroll 2016, online edition); refers to an elevated residence made of timber where "ancient" people lived prior to the invention of buildings (<term ref="https://tinyurl.com/hj73zuc5">Lunheng Jieshu pain</term> ; <term ref="https://ctext.org/zhuangzi/robber-zhi/zhs">Zhuangzi Daozhi</term>) See also "cave dwelling" xuechu.</p>
+               <p xml:lang="zh-Hant" source="#biblk000135-1">指在建築發明以前，古代人們所居住的抬高的木構居所（<term ref="https://tinyurl.com/hj73zuc5">論衡, 詰術篇</term> ;<term ref="https://ctext.org/zhuangzi/robber-zhi/zhs">莊子，盜跖</term>）。參見“穴處”</p>
             </note>
-            <listBibl xml:id="biblk000135-1">
-               <bibl>
+               <bibl xml:id="biblk000135-1">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">accessed March 11, 2021</citedRange>
                </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/CXSU22XN"/>
-               </bibl>
-            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000135</idno>
             <listRelation>
                <listRelation>
