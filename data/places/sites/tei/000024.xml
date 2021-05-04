@@ -13,9 +13,13 @@
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
-            <respStmt>
-               <resp>adding external links</resp>
+                      <respStmt>
+               <resp>adding external links 2020 by</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -45,10 +49,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="1.0" when="2018-03-21-04:00" who="#TGM">CREATED: place record</change>
+         <change n="2.0" when="2020-03-25" who="ML">adding external links</change>
+         <change n="2.1" when="2020-09-17" who="#SLY">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
+         <change n="2.2" when="2021-05-04" who="#HDN">Adding site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -112,6 +116,7 @@
                <relation active="https://architecturasinica.org/place/000024" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51158192711_1afb4c1fcd_c.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>
