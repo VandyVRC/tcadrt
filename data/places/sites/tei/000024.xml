@@ -7,13 +7,18 @@
             <title level="a" xml:lang="en">Dule Monastery <foreign xml:lang="zh-Hant">獨樂寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
-                      <respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
                <resp>adding external links 2020 by</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
