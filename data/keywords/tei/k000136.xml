@@ -14,20 +14,17 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations by</resp>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
             <respStmt>
-               <resp>Initial research and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller, </name>
-               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净, </name>
-               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -70,7 +67,8 @@
             <term xml:id="term-k000136-4" xml:lang="zh-latn-pinyin" source="#biblk000136-1">lùtái</term>
             <term xml:id="term-k000136-5" xml:lang="zh-latn-wadegile">lu-t'ai</term>
             <note type="Gloss">
-               <p xml:lan="en" source="#biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing</p>
+               <p xml:lang="en" source="#biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000136-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
             </note>
             <bibl xml:id="biblk000136-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
@@ -78,13 +76,13 @@
             </bibl>
             <listBibl xml:id="biblk000136-2">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
-                  <citedRange unit="pp">digital edition accessed 2021-03-11</citedRange>
-               </bibl>
-               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">57</citedRange>
                </bibl>
+              <bibl>
+                 <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">accessed March 11, 2021</citedRange>
+               </bibl>    
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000136</idno>
             <listRelation>
@@ -92,8 +90,6 @@
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
-                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>
             </listRelation>
          </entryFree>

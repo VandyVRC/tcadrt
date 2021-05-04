@@ -7,14 +7,23 @@
             <title level="a" xml:lang="en">Jin Shrines, Sage Mother Hall <foreign xml:lang="zh-Hant">晉祠聖母殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>Adding description and citations 2021 by</resp>
+               <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation 2020 by</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
          </titleStmt>
@@ -49,6 +58,7 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" who="#MT" when="2021-04-18">adding external links and building information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,22 +74,27 @@
                <placeName xml:id="name000048x-7" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Shengmudian</placeName>
                <placeName xml:id="name000048x-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠聖母殿</placeName>
                <placeName xml:id="name000048x-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠圣母殿</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048x</idno>
+               <idno type="URI">https://architecturasinica.org/place/000048x</idno>            
+               <!--<desc type="building-data" xml:lang="en" source="#bibl000048x-1">The Sage Mother Hall, also known as the Holy Mother Hall, is the oldest building in the Jinci Shrine complex. Based largely on a stele inscription describing the restoration of the hall under the Song imperial patronage, Chai Zejun and Peng Hai have argued that a building was constructed at that location in the ninth year of Taiping Xingguo (太平興國) reign period (984) (Chai 2002, 11, Peng ), but we do not know to whom that structure was dedicated. The current building has undergone repeated restoration, and Miller has argued that it was constructed between 1038 to 1087 during the  <term ref="/keyword/k000055">Northern Song Dynasty</term>  (Miller 2007, 122).  Due to a sinking foundations and tilting of the hall, the building underwent a full renovation from 1992 to 1995 (Chai 2002, 15).The hall is east-west oriented and the main entrance is faces toward the east. The hall has a double-eaves hip-and-gable roof with a seven-bay front facade of 26.71 meters and six-bay side facades of 21.15 meters (Chai 2002, 125). It is composed of a tall central section surrounded by a second set of eaves covering a veranda that is one bay deep along the side and back facades and two bays deep along the front facade (Miller 2007, 107). Four front columns in the central and second bays are cut short and supported by three-rafter beams of front veranda that span the two-bay space (Qi 1992, 53-57). The style of structural features suggests an eleventh-century practice in southern Shanxi province.（Miller 2007, 108-121）
+                  Moreover, inside the hall are 43 sculptures of the Sage Mother and attendants from the Northern Song Dynasty. An inscription on the throne of the the statue of the Sage Mother provides evidence that the throne and six of the front column dragons date to the second year of the Yuanyou 元祐 reign period, or 1087 CE.</desc>
+               <desc type="builing-data" xml:lang="zh-Hant" source="#bibl000048x-1">聖母殿是晉祠內現存最古的一座廟宇。建築幾經修葺，殿初建於北宋太平興國九年(柴 2002,11)，今建築主體的建造年代約為1038-1087 (Miller 2007, 122)。因基礎下沈，殿身傾斜等原因，聖母殿於1992年-1995年間進行落架大修 (柴 2002，15)。聖母殿坐西向東。殿為重檐歇山頂，面闊七間26.71米，進深六間21.15米 (柴 2002，125)。 四周圍廊 (副階周匝)，兩山及後檐廊深一間，前廊深兩間。前檐明次三間的廊下內柱改為不落地的童柱，立於前廊的三椽栿上。 (祁 1992, 53-57) 建築結構顯示是山西南部十一世紀流行的做法 (Miller 2007, 108-121 此外，殿內有宋代雕塑43尊，神龕內的聖母像與殿堂前廊柱上的木雕盤龍是北宋元祐二年 (1087 CE) 原物。</desc> 
+               -->
                <state type="existence" from="1038-01-01" to="1087-01-01">
                   <label>Date</label>
                   <desc>1038-1087</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048x-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048x-2" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc type="building-data" xml:lang="en">The Sage Mother Hall, also known as the Holy Mother Hall, is the oldest building in the Jinci Shrine complex.</desc>
                <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
-               </location>
-               <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
-               </location>
+               </location> 
+               <note type="External Links">                 
+                  <p>
+                     <ref target="https://tinyurl.com/3vwv5yww">百度百科</ref>
+                  </p>
+               </note>              
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">palatial hall</desc>
@@ -87,10 +102,24 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000048x-1">
+               <bibl xml:id="bibl000048x-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
+               </bibl>             
+               <listBibl xml:id="bibl000048x-1">                  
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/6MPUAYKR"/>
+                     <citedRange unit="pp">11,15,125</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">107-122</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KWL52K7V"/>
+                     <citedRange unit="pp">53-57</citedRange>
+                  </bibl>                  
+               </listBibl>              
                <!-- <note type="field-notes">Shengmudian 1038-1087-local and trans-local types of bracketing</note> -->
             </place>
             <listRelation>

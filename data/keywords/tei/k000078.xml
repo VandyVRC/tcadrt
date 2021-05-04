@@ -7,15 +7,23 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">閣</foreign> gé</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2021 by</resp>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citation information and gloss 2021 by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,7 +56,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" who="#ZYY" when="2021-03-04">Adding citation(s)</change>
-         <change n="1.1" who="#ZYY" when="2021-04-19">Gloss added by</change>
+         <change n="1.1" who="#ZYY" when="2021-04-19">Adding gloss</change>
       </revisionDesc>  
    </teiHeader>
    <text>
@@ -59,28 +67,28 @@
             <term xml:id="term-k000078-3" xml:lang="zh-Hans">阁</term>
             <term xml:id="term-k000078-4" xml:lang="zh-latn-pinyin">gé</term>
             <term xml:id="term-k000078-5" xml:lang="zh-latn-wadegile">ko</term>
-            <!--
-            <term xml:id="term-k000078-1" xml:lang="en" source="#biblk000078-1">storied pavilion</term>
-             -->
-            <term xml:id="term-k000078-6" xml:lang="en" source="#biblk000078-1">pavilion with a balcony or gallery</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000078-2">a pavilion, usually with a balcony or gallery; a raised passageway, similar to 棧道 (Fu 356; Kroll 131)</p>
+               <p xml:lang="en" source="#biblk000078-1">pavilion, usually with a balustrade or railing;  a raised passageway, similar to 棧道 zhandao (Fu 2017, 356; Kroll 2015, 131; CMW S21); in practice often interchangeable with the <term ref="/keyword/k000086">樓 lou (tower)</term>, and often used with lou in compounds to mean a multi-story structure, see: 樓閣 louge</p>
+               <p xml:lang="zh-Hant" source="#biblk000078-1">閣本意為台上架屋，後泛指多層房屋，可與樓互換使用，或樓閣並用。(Fu 2017, 356; Kroll 2015, 131; CMW S21)</p>
             </note>
             <bibl xml:id="biblk000078-1">
-               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">131</citedRange>
-            </bibl>
-            <listBibl xml:id="biblk000078-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">356</citedRange>
+            </bibl> 
+            <listBibl xml:id="biblk000078-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">356</citedRange>
-               </bibl>
+               </bibl> 
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">131</citedRange>
+                  <citedRange unit="pp">131</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SH26X3YC"/>
                </bibl>
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>             
+            <idno type="URI">https://architecturasinica.org/keyword/k000078</idno>    
          </entryFree>      
       </body>
    </text>
