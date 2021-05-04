@@ -10,12 +10,18 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-                  <resp>Website coordination by</resp>
-                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+               <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">CMW S21</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations information 2021 by</resp>
-               <name type="person" xml:id="FSY" when="2021-04-02-04:00">FU Shiyi 付詩怡</name>
+               <resp>Adding citations and gloss 2021 by</resp>
+               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+                  <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-04-20" who="FSY">Added citations and gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,22 +64,25 @@
             <term xml:id="term-k000087-3" xml:lang="zh-Hans">里</term>
             <term xml:id="term-k000087-4" xml:lang="zh-latn-pinyin">lǐ</term>
             <term xml:id="term-k000087-5" xml:lang="zh-latn-wadegile">li</term>
-            <term xml:id="term-k000087-6" xml:lang="en" source="#biblk000087-1">ward</term>
-            <term xml:id="term-k000087-7" xml:lang="en" source="#biblk000087-2">a unit of length</term>
-            <term xml:id="term-k000087-8" xml:lang="en" source="#biblk000087-3">residential compound</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000087</idno>
-               <bibl xml:id="biblk000087-1">
-                  <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
-                  <citedRange unit="pp">227</citedRange>
-               </bibl>            
-               <bibl xml:id="biblk000087-2">
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">360</citedRange>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000087-1">a ward (Steinhardt 1990, 227) or neighborhood (Miller 2007, 32); a unit of length (Fu 2017, 360)</p>
+               <!-- <p xml:lang="zh-Hant">地方行政組織；一種長度單位。</p> -->
+            </note>
+            <listBibl xml:id="biblk000087-1">
+               <bibl>
+               <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
+               <citedRange unit="pp">227</citedRange>
                </bibl>
-               <bibl xml:id="biblk000087-3">
-                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">262</citedRange>
-               </bibl>            
+               <bibl>
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+               <citedRange unit="pp">32</citedRange>
+               </bibl>
+               <bibl>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">360</citedRange>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000087</idno>
          </entryFree>
       </body>
    </text>
