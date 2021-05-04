@@ -8,6 +8,7 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="HDN">HUANG Danni 黄聃婗</editor>
             <respStmt>
                <resp>Editing and proofreading by</resp>
@@ -105,6 +106,7 @@
                   <desc>Guanyinge, Front view from Shanmen</desc>
                </relation>
                -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51150352112_0d918811a8_c.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/>            
                <relation active="https://architecturasinica.org/place/000024a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000024a" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="site-type"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000024a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
