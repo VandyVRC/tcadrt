@@ -56,7 +56,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000293a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000293b-1" type="building-name" xml:lang="en" source="bibl000293b-2">Underground Palace</placeName>
+               <placeName xml:id="name000293b-1" type="building-name" xml:lang="en" source="bibl000293b-1">Underground Palace</placeName>
                <placeName xml:id="name000293b-2" type="building-name" xml:lang="zh-Hant">地宮</placeName>
                <placeName xml:id="name000293b-3" type="building-name" xml:lang="zh-Hans">地宫</placeName>
                <placeName xml:id="name000293b-4" type="building-name" xml:lang="zh-latn-pinyin">dìgōng</placeName>
@@ -65,7 +65,7 @@
                <placeName xml:id="name000293b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">報恩寺地宮</placeName>
                <placeName xml:id="name000293b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">报恩寺地宫</placeName>
                <idno type="URI">https://architecturasinica.org/place/000293b</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000293b-1" from="960-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000293b-2" from="960-01-01"
                   to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960-1127 </desc>
@@ -81,14 +81,13 @@
                   <desc xml:lang="zh-Hant">宮</desc>
                   <desc xml:lang="zh-Hans">宫</desc>
                </trait>
-               <!-- 
                <bibl xml:id="bibl000293b-1">
                   <ptr target="https://architecturasinica.org/bibl/JS3S25G5"/>
                   <citedRange unit="pp">51</citedRange>
                </bibl>
                <bibl xml:id="bibl000293b-2">
-                  <ptr target="https://architecturasinica.org/bibl/JS3S25G5"/>
-                  <citedRange unit="pp">52</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
                 -->
                      </place>
