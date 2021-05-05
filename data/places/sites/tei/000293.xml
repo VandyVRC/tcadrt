@@ -53,11 +53,24 @@
       <body>
          <listPlace>
             <place xml:id="place-000293" type="site">
-               <placeName xml:id="name000293-1" type="site-name" xml:lang="en">Bao'en Monastery</placeName>
-               <placeName xml:id="name000293-4" type="site-name" xml:lang="zh-Hant">報恩寺</placeName>
-               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-Hans">报恩寺</placeName>
-               <placeName xml:id="name000293-2" type="site-name" xml:lang="zh-latn-pinyin">Bàoēnsì</placeName>
-               <placeName xml:id="name000293-3" type="site-name" xml:lang="zh-latn-wadegile">Pao-en-szu</placeName>
+               <placeName xml:id="name000293-1" type="site-name" xml:lang="en">Great Bao'en Monastery</placeName>
+               <placeName xml:id="name000293-4" type="site-name" xml:lang="zh-Hant">大報恩寺</placeName>
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-Hans">大报恩寺</placeName>
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-latn-pinyin">Changgansi</placeName>
+               <placeName xml:id="name000293-6" type="alternate" xml:lang="zh-Hant">長干寺</placeName>
+               <placeName xml:id="name000293-7" type="alternate" xml:lang="zh-Hans">长干寺</placeName>
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-latn-pinyin">Jianchusi</placeName>
+               <placeName xml:id="name000293-6" type="alternate" xml:lang="zh-Hant">建初寺</placeName>
+               <placeName xml:id="name000293-7" type="alternate" xml:lang="zh-Hans">建初寺</placeName>
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-latn-pinyin">Tianxisi</placeName>
+               <placeName xml:id="name000293-6" type="alternate" xml:lang="zh-Hant">天禧寺</placeName>
+               <placeName xml:id="name000293-7" type="alternate" xml:lang="zh-Hans">天禧寺</placeName>  
+               <placeName xml:id="name000293-5" type="site-name" xml:lang="zh-latn-pinyin">Ci'en</placeName>
+               <placeName xml:id="name000293-6" type="alternate" xml:lang="zh-Hant">慈恩旌忠寺</placeName>
+               <placeName xml:id="name000293-7" type="alternate" xml:lang="zh-Hans">慈恩旌忠寺</placeName>
+            
+               <placeName xml:id="name000293-2" type="site-name" xml:lang="zh-latn-pinyin">Dàbàoēnsì</placeName>
+               <placeName xml:id="name000293-3" type="site-name" xml:lang="zh-latn-wadegile">Ta-pao-en-szu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000293</idno>
                <state type="existence" subtype="dynasty" source="#bibl000293-1" from="1368-01-01"
                   to="1644-01-01">
