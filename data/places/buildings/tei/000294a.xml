@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Qixia Monastery, Sarira Pagoda<foreign xml:lang="zh-Hant">棲霞寺舍利塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZXL">ZHANG Xuliang 張序亮</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000294a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-20" who="#ZXL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000294a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000294a-1" type="building-name" xml:lang="en">Sarira Pagoda</placeName>
+               <placeName xml:id="name000294a-2" type="building-name" xml:lang="zh-Hant">舍利塔</placeName>
+               <placeName xml:id="name000294a-3" type="building-name" xml:lang="zh-Hans">舍利塔</placeName>
+               <placeName xml:id="name000294a-4" type="building-name" xml:lang="zh-latn-pinyin">shělìtǎ</placeName>
+               <placeName xml:id="name000294a-5" type="building-name" xml:lang="zh-latn-wadegile">she-li-t'a</placeName>
+               <placeName xml:id="name000294a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qixia Monastery Sarira Pagoda</placeName>
+               <placeName xml:id="name000294a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">棲霞寺舍利塔</placeName>
+               <placeName xml:id="name000294a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">栖霞寺舍利塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000294a</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000294a-2" from="0937-01-01"
+                  to="0975-01-01">
+                  <label>Dynasty</label>
+                  <desc>Southern Tang</desc>
+               </state>
+               <desc type="building-data">
+                  <p xml:lang="en" source="#bibl000294a-1">In 601, the Sarira Pagoda was first built in wood by Sui Emperor Wendi. It was later rebuilt in stone in the <term ref="/keyword/000077">Southern Tang dynasty</term> (Xiang 2001, 40; Ren and Yang 1989). The 18.73-meter pagoda is a 5-story octagonal structure with reliefs of bodhisattvas and Celestial Kings carved on eight sides (Zi 2014, 83). The base is carved with the scenes of the Eight Stages of the Life of the Buddha (Xiang 2001, 40).</p>
+                  <p xml:lang="zh-Hant" source="#bibl000294a-1">舍利塔原爲木塔，爲601年隋文帝下令于棲霞寺後南側建造 (Xiang 2001, 40)。南唐時期重建其爲舍利石塔 (Ren and Yang 1989)。舍利塔爲五層八角建築物，高18.73米，塔身刻有菩薩、天王像，塔基浮雕刻有釋迦牟尼一生八相圖 (Zi 2014, 83; Xiang 2001, 40)。</p>
+               </desc>   
+               <location type="gps" subtype="preferred">
+                  <geo>32.154167 118.953889</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <listBibl xml:id="bibl000294a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VZ3BCZ76"/>
+                     <citedRange unit="pp">40</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZXZBG7W5"/>
+                     <citedRange unit="pp">accessed March 28, 2021</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/XJRT73BY"/>
+                     <citedRange unit="pp">83</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000294a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000294a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000294a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
+               <relation active="https://architecturasinica.org/place/000294a" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000077" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51124228570_31257e7d1c_c.jpg"
+                  passive="https://architecturasinica.org/place/000294a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51123193549_f64616d784_c.jpg"
+                  passive="https://architecturasinica.org/place/000294a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
