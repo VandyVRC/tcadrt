@@ -75,6 +75,13 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000024-1"></p>
+               </desc>
+               <desc type="site-data" xml:lang="zh-Hant">
+                  <p source="#bibl000024-2"></p>
+               </desc>
+                     
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/vluqswm">Wikipedia (in Chinese)</ref>
@@ -113,7 +120,19 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+                 <listBibl xml:id="bibl000024-2">
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     </bibl>
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/CFPUZ3UX"/>
+                     </bibl>
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                     </bibl>
+                  </listBibl>
             </place>
+            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000024" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
