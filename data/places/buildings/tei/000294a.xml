@@ -69,11 +69,9 @@
                   <label>Dynasty</label>
                   <desc>Southern Tang</desc>
                </state>
-               <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000294a-1">In 601, the Sarira Pagoda was first built in wood by Sui Emperor Wendi. It was later rebuilt in stone in the <term ref="/keyword/000077">Southern Tang dynasty</term> (Xiang 2001, 40; Ren and Yang 1989). The 18.73-meter pagoda is a 5-story octagonal structure with reliefs of bodhisattvas and Celestial Kings carved on eight sides (Zi 2014, 83). The base is carved with the scenes of the Eight Stages of the Life of the Buddha (Xiang 2001, 40).</p>
-               </desc>
-               <desc type="site-data" xml:lang="zh-Hant">
-                  <p source="#bibl000294a-1">舍利塔原爲木塔，爲601年隋文帝下令于棲霞寺後南側建造 (Xiang 2001, 40)。南唐時期重建其爲舍利石塔 (Ren and Yang 1989)。舍利塔爲五層八角建築物，高18.73米，塔身刻有菩薩、天王像，塔基浮雕刻有釋迦牟尼一生八相圖 (Zi 2014, 83; Xiang 2001, 40)。</p>
+               <desc type="building-data">
+                  <p xml:lang="en" source="#bibl000294a-1">In 601, the Sarira Pagoda was first built in wood by Sui Emperor Wendi. It was later rebuilt in stone in the <term ref="/keyword/000077">Southern Tang dynasty</term> (Xiang 2001, 40; Ren and Yang 1989). The 18.73-meter pagoda is a 5-story octagonal structure with reliefs of bodhisattvas and Celestial Kings carved on eight sides (Zi 2014, 83). The base is carved with the scenes of the Eight Stages of the Life of the Buddha (Xiang 2001, 40).</p>
+                  <p xml:lang="zh-Hant" source="#bibl000294a-1">舍利塔原爲木塔，爲601年隋文帝下令于棲霞寺後南側建造 (Xiang 2001, 40)。南唐時期重建其爲舍利石塔 (Ren and Yang 1989)。舍利塔爲五層八角建築物，高18.73米，塔身刻有菩薩、天王像，塔基浮雕刻有釋迦牟尼一生八相圖 (Zi 2014, 83; Xiang 2001, 40)。</p>
                </desc>   
                <location type="gps" subtype="preferred">
                   <geo>32.154167 118.953889</geo>
@@ -85,6 +83,24 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
+               <listBibl xml:id="bibl000294a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VZ3BCZ76"/>
+                     <citedRange unit="pp">40</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZXZBG7W5"/>
+                     <citedRange unit="pp">accessed March 28, 2021</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/XJRT73BY"/>
+                     <citedRange unit="pp">83</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000294a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                      </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000294a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
