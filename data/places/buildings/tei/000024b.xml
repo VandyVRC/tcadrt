@@ -22,6 +22,10 @@
                <resp>adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -52,8 +56,9 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
-         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+         <change n="2.1" when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.2" when="2021-05-05" who="#HDN">Added location</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,16 +82,35 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125 </desc>
                </state>
+               <!--
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024b-2"></p>
+                  <p xml:lang="zh-Hant" source="#bibl000024b-2"></p>
+               </desc>
+               -->
                <location type="gps" subtype="preferred">
-                  <geo>40.0438 117.3966833</geo>
+                  <geo>40.045342 117.402597</geo>
                </location>
                <location type="verbatim">
-                  <note>40˚ 02.645' N (Garmin) 117˚ 23.800' N</note>
+                  <note>(Google Earth)</note>
                </location>
                <bibl xml:id="bibl000024b-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <!-- 
+               <listBibl xml:id="bibl000024b-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
+                  </bibl>
+               </listBibl>
+                -->
                <!--note type="field-notes">984</note-->
             </place>
             <listRelation>
