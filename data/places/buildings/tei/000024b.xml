@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, Mountain Gate <foreign xml:lang="zh-Hant">獨樂寺山門</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000024b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024b-1" xml:lang="en">Mountain Gate</placeName>
+               <placeName xml:id="name000024b-2" type="building-name" xml:lang="zh-Hant">山門</placeName>
+               <placeName xml:id="name000024b-3" type="building-name" xml:lang="zh-Hans">山门</placeName>
+               <placeName xml:id="name000024b-4" type="building-name" xml:lang="zh-latn-pinyin">Shānmén</placeName>
+               <placeName xml:id="name000024b-5" type="building-name" xml:lang="zh-latn-wadegile">Shan-men</placeName>
+               <placeName xml:id="name000024b-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Shanmen</placeName>
+               <placeName xml:id="name000024b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺山門</placeName>
+               <placeName xml:id="name000024b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">獨樂寺山門</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024b</idno>
+               <state type="existence" from="0984-01-01" to="0984-01-01">
+                  <label>Date</label>
+                  <desc>984</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000024b-1" from="0916-01-01" to="1125-01-01">
+                  <label>Dynasty</label>
+                  <desc>Liao 916 - 1125 </desc>
+               </state>
+               <location type="gps" subtype="preferred">
+                  <geo>40.0438 117.3966833</geo>
+               </location>
+               <location type="verbatim">
+                  <note>40˚ 02.645' N (Garmin) 117˚ 23.800' N</note>
+               </location>
+               <bibl xml:id="bibl000024b-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <!--note type="field-notes">984</note-->
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <!-- 
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4063/4685824019_a8550d0519_" passive="https://architecturasinica.org/place/000024b">
+                  <desc>Shanmen view of front from the east side</desc>
+               </relation>
+               -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51146247364_de3240e5d9_c.jpg" passive="https://architecturasinica.org/place/000024b" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51146570740_630b589f72_c.jpg" passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51146567120_4ed677b9a7_c.jpg" passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
