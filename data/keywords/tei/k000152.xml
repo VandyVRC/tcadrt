@@ -14,13 +14,13 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
-            <editor role="associate" xml:id="XQ">XIE Qizheng 謝祺錚</editor> 
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YF">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citation by</resp>
+               <resp>Data entry, adding citation 2021 by</resp>
                <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
             </respStmt>
          </titleStmt>
@@ -52,7 +52,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-17">CREATED: record</change>
+         <change n="1.0" when="2021-03-17" who="#XQ">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,10 +61,11 @@
             <term xml:id="term-k000152-8" xml:lang="zh-latn-pinyin-nt" type="preferred">jinjian</term>
             <term xml:id="term-k000152-2" xml:lang="zh-Hant">盡間</term>
             <term xml:id="term-k000152-3" xml:lang="zh-Hans">尽间</term>
-            <term xml:id="term-k000152-4" xml:lang="zh-latn-pinyin" source="#biblk000152-1">jǐnjiān</term>
+            <term xml:id="term-k000152-4" xml:lang="zh-latn-pinyin" source="#biblk000152-1">jìnjiān</term>
             <term xml:id="term-k000152-5" xml:lang="zh-latn-wadegile">chin-chien</term> 
             <bibl xml:id="biblk000152-1">
-               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">215</citedRange>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000152</idno>
             <listRelation>
