@@ -9,7 +9,8 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -56,6 +57,7 @@
          <change n="2.0" who="#TGM" when="2020-06-07">Adding citation(s)</change>
          <change n="2.1" who="#TGM" when="2021-02-27">Adding citation(s)</change>
          <change n="2.2" who="#TGM" when="2021-03-04">Adding citation(s)</change>
+         <change n="2.3" who="#TGM" when="2021-03-04">Adding Chinese</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,10 +71,9 @@
             <term xml:id="term-k000012-8" xml:lang="en" source="#biblk000012-1">compound</term>
             <term xml:id="term-k000012-6" xml:lang="en" source="#biblk000012-2">cloister</term>
             <term xml:id="term-k000012-7" xml:lang="en">courtyard</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000012-3">A walled courtyard containing buildings, space enclosed by a wall, or the enclosing wall around a group of buildings. Can also refer to a single building complex or an enclosed unit within a larger building complex, such as a palace or bureaucratic office. Often translated as "cloister," particularly in the Buddhist context.</p> 
-               <p>(T. Miller)</p>
+               <p xml:lang="Hant" source="#biblk000012-3">建築要素圍合成的空間</p>
             </note>
             <bibl xml:id="biblk000012-1">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
@@ -92,6 +93,16 @@
                   <citedRange unit="pp">digital edition</citedRange>   
                </bibl>
             </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000012</idno>           
+            <listRelation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51150352112_0d918811a8_b.jpg" passive="https://architecturasinica.org/keyword/k000012" rendition="featured"> </relation>
+               <relation ref="https://architecturasinica.org/place/000020"
+                     source="Dayun Cloister 大雲院"/> 
+               <relation ref="https://architecturasinica.org/place/000078"
+                     source="Dayun Cloister in Qinxian 沁縣大雲院"/>
+               <relation ref="https://architecturasinica.org/place/000024a"
+                  source="Dule Monastery, Bao'en Cloister 獨樂寺報恩院"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>

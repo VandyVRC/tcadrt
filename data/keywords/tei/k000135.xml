@@ -53,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-12" who="#SEB">CREATED: record</change>
+         <change n="1.1" when="2021-05-06" who="#TGM">added definition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,16 +65,20 @@
             <term xml:id="term-k000135-4" xml:lang="zh-latn-pinyin">cháojū</term>
             <term xml:id="term-k000135-5" xml:lang="zh-latn-wadegile">ch'ao-chü</term>
             <note type="Gloss">
-               <p xml:lang="en"><s source="#biblk000135-1">literally: "nest“ ”dwelling" (Kroll 2016, online edition)</s>; refers to an elevated residence made of timber where "ancient" people lived prior to the invention of buildings (<term ref="https://tinyurl.com/hj73zuc5">Lunheng, “Jieshu”</term> ; <term ref="https://ctext.org/zhuangzi/robber-zhi/zhs">Zhuangzi, “Daozhi”</term>)</p>
+               <p xml:lang="en"><s source="#biblk000135-1">literally: "nest" "dwelling" (Kroll 2016, online edition);</s> refers to an elevated residence made of timber where "ancient" people lived prior to the invention of buildings (<term ref="https://tinyurl.com/hj73zuc5">Lunheng, “Jieshu”</term>; <term ref="https://ctext.org/zhuangzi/robber-zhi/zhs">Zhuangzi, “Daozhi”</term>); <s source="#biblk000135-2">pile or stilt dwelling (Guo 2002, 38)</s></p>
                <p xml:lang="zh-Hant">指在建築發明以前，古代人們所居住的抬高的木構居所（<term ref="https://tinyurl.com/hj73zuc5">論衡:詰術</term> ;<term ref="https://ctext.org/zhuangzi/robber-zhi/zh"> 莊子:盜跖)</term></p>
             </note>
             <note type="Related terms">
-            <p>穴處 Xuéchù (cave dwelling)</p>
+            <p>穴處 xuéchù (cave dwelling)</p>
             </note>
                <bibl xml:id="biblk000135-1">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">accessed March 11, 2021</citedRange>
                </bibl>
+            <bibl xml:id="biblk000135-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">38</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000135</idno>
             <listRelation>
                <listRelation>
