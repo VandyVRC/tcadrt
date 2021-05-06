@@ -8,7 +8,9 @@
                <foreign xml:lang="zh-Hant">樓 </foreign>lóu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -47,6 +49,8 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" when="2021-04-16" who="#MT">add gloss</change>
+         <change n="2.1" when="2021-05-06" who="#TGM">update gloss and authors</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,7 +62,8 @@
             <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin">lóu</term>            
             <term xml:id="term-k000086-5" xml:lang="zh-latn-wadegile">lou</term>
              <note type="Gloss">
-                <p xml:lang="en" source="#biblk000086-1">tower; a multi-story building or other structure (Kroll 2015, 281; Chen 2010, 403 (louge)); see also: <term ref="/keyword/k000177">louge</term>; <term ref="/keyword/k000078">ge</term></p>
+                <p xml:lang="en" source="#biblk000086-1">often translated "tower"; originally one building layered on top of another; an upper story (Hanyu dacidian (online edition) ); later referring to a multi-story building or other structure; also "double-decked"; see: louge; ge (Kroll 2015, 281; Chen 2010, 403 (louge)); see also: <term ref="/keyword/k000177">louge</term>; <term ref="/keyword/k000078">ge</term></p>
+                <p xml:lang="Hant" source="#biblk000086-1">本意為屋上架屋，後泛指多層房屋。參見 <term ref="/keyword/k000177">“樓閣”</term>、<term ref="/keyword/k000078">“閣”</term>。</p>
             </note>
                 <listBibl xml:id="biblk000086-1">
                <bibl>
