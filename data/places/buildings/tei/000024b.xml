@@ -82,12 +82,12 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125 </desc>
                </state>
-               <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000024b-2"></p>
+               <!--
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024b-2"></p>
+                  <p xml:lang="zh-Hant" source="#bibl000024b-2"></p>
                </desc>
-               <desc type="site-data" xml:lang="zh-Hant">
-                  <p source="#bibl000024b-2"></p>
-               </desc>
+               -->
                <location type="gps" subtype="preferred">
                   <geo>40.045342 117.402597</geo>
                </location>
@@ -98,6 +98,7 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <!-- 
                <listBibl xml:id="bibl000024b-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
@@ -109,6 +110,7 @@
                      <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
                   </bibl>
                </listBibl>
+                -->
                <!--note type="field-notes">984</note-->
             </place>
             <listRelation>
