@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Dule Monastery, Bao'en Cloister <foreign xml:lang="zh-Hant">獨樂寺報恩院</foreign>
+            <title level="a" xml:lang="en">Dule Monastery, Bao'en Cloister<foreign xml:lang="zh-Hant">獨樂寺報恩院</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -52,6 +52,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-04-17-04:00" who="#HDN">CREATED: place record</change>
          <change n="1.1" when="2021-05-05" who="#HDN">Added location</change>
+         <change n="1.2" when="2021-05-06" who="#HDN">Added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,11 +72,10 @@
                   <label>Dynasty</label>
                   <desc>Ming 1368-1644</desc>
                </state>
-               <desc type="site-data" xml:lang="en">
-                  <p> </p>
-               </desc>
-               <desc type="site-data" xml:lang="zh-Hant">
-                  <p> </p>
+               <desc type="site-data">
+                  <p xml:lang="en">
+                     According to the documentation at the site, the Bao’en Cloister was constructed during the <term ref="/keyword/k000051">Ming dynasty</term> and reconstructed in the <term ref="/keyword/k000070">Qing dynasty</term> under Emperor Qianlong (plaque). The Bao’en Cloister is a <term ref="/keyword/k000012">courtyard</term> consisting of four halls: the Mahavira Hall (the main hall), the eastern and western halls, and the front hall. As the main hall of the courtyard, the Mahavira Treasure Hall (Daxiong baodian 大雄寶殿) enshrines the Amitābha 阿彌陀佛, Shakyamuni 釋迦摩尼 and <term ref="https://tinyurl.com/n45ywpbn">Bhaiṣajyaguru</term> 藥師佛. The eastern hall enshrines the <term ref="https://tinyurl.com/4t3x9hc3">Bodhisattva Mañjuśrī</term> (Wenshu pusa 文殊菩薩). The western hall enshrines the <term ref="https://tinyurl.com/5vucej57">bodhisattva Samantabhadra</term> (Puxian pusa 普賢菩薩) (plaque).</p>
+                  <p xml:lang="zh-Hant"></p>          
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>40.045342 117.402597</geo>
