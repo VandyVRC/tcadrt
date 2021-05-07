@@ -138,11 +138,19 @@
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51161820955_7034925a17_h.jpg"
                   passive="https://architecturasinica.org/place/000024b" ana="featured"/>
-               <relation ref="foaf:depicts" active="farm5.staticflickr.com/65535/51146567120_d1e9831781_h.jpg" passive="https://architecturasinica.org/place/000024b">               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51146247364_de3240e5d9_c.jpg"
+                  passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51146570740_630b589f72_c.jpg"
+                  passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               <!--            
+              <relation ref="foaf:depicts" active="farm5.staticflickr.com/65535/51146567120_d1e9831781_h.jpg" passive="https://architecturasinica.org/place/000024b">               
                <relation ref="https://live.staticflickr.com/65535/51146570740_9377c5da6a_h.jpg" passive="https://architecturasinica.org/place/000024b" ana="featured"/>
                <relation ref="https://live.staticflickr.com/65535/51146247364_6bf20fd99b_h.jpg" passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+                 -->
                <relation ana="contained" active="https://architecturasinica.org/place/000024b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
-               </relation>
             </listRelation>
          </listPlace>
       </body>
