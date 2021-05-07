@@ -79,17 +79,18 @@
                   <label>Date</label>
                   <desc>984</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000024b-1" from="0916-01-01" to="1125-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000024b-2" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125 </desc>
                </state>
                <desc type="site-data">
-                  <p xml:lang="en" source="#bibl000024b-2">
-                     Built in the <term ref="/keyword/k000047">Liao</term> dynasty, the Mountain Gate (Shanmen 山门) is the oldest extant monastery gate with a <term ref="/keyword/k000125">hipped roof (wudian廡殿) </term> in China (Ding 2016, 40). The wooden plaque inscribed with its name, “Dulesi,” was believed to be written by the <term ref="/keyword/k000051">Ming dymasty</term> senior secretary (daxueshi 大学士) Yan Song 嚴嵩. 
+                  <p xml:lang="en" source="#bibl000024b-1">Built in the <term ref="/keyword/k000047">Liao</term> dynasty, the Mountain Gate (Shanmen 山门) is the oldest extant monastery gate with a <term ref="/keyword/k000125">hipped roof (wudian廡殿) </term> in China (Ding 2016, 40). The wooden plaque inscribed with its name, “Dulesi,” was believed to be written by the <term ref="/keyword/k000051">Ming dymasty</term> senior secretary (daxueshi 大学士) Yan Song 嚴嵩. 
                      The Mountain Gate is roughly ten meters in height, three bays wide, and two bays deep (4.36 x 6.10 m) (Liang 1932). As the only surviving Liao gate, it exhibits architectural components similar to <term ref="/place/000024c">the Guanyin Pavilion</term> behind it (Steinhardt 1997, 38). The main types of <term ref="/keyword/k000019">dougong 斗拱</term> shown in the Mountain Gate include: bracket sets on the <term ref="/keyword/k000120">pillar-tops 柱頭鋪作</term>, corner bracket arms 轉角鋪作, <term ref="/keyword/k000105">intercolumnar bracket sets 補間鋪作</term>, <term ref="/ keyword/k000118">shadow bracket arms 影栱</term>, and corner spanning bracket arms (mojiao bracket sets 抹角栱) —— some of them can be seen in the structure of the Guanyin Pavilion as well. The dougong of the Mountain Gate is about one-half of the height of the pillars (lizhu 立柱) below, which is consistent with Tang architectural style (Liang 1932). 
                      In addition to the monumental dougong, the historical significance of the Mountain Gate also lies in the two <term ref="https://tinyurl.com/vkc2erk7">Kongo Rikishi (vajra-warriors 金剛力士)</term> — heng 哼and ha 哈 — guardians standing at either side of the entrance. Scholars regard them as the oldest extant clay examples of Kongo Rikishi in China (Ding 2016, 144). Moreover, the ceramic <term ref="/keyword/k000009">chiwei 鴟尾 (owl tails)</term> on top of the Mountain gate are the oldest existing chiwei elements in China, and Liang Sicheng called them “extremely rare objects” (Ding 2016, 116).
                   </p>
-                  <p xml:lang="zh-Hant" source="#bibl000024b-2"></p>          
+                  <!--  
+                  <p xml:lang="zh-Hant" source="#bibl000024b-1"></p>      
+                  -->
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>40.045342 117.402597</geo>
@@ -97,23 +98,26 @@
                <location type="verbatim">
                   <note>(Google Earth)</note>
                </location>
-               <bibl xml:id="bibl000024b-1">
+               <bibl xml:id="bibl000024b-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-            
-               <listBibl xml:id="bibl000024b-2">
+               <!-- 
+               <listBibl xml:id="bibl000024b-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                     <citedRange unit="pp">3-5</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">3-5</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
+                     <citedRange unit="pp">40</citedRange>
                   </bibl>
-               </listBibl>
-              
+               </listBibl>   
+                -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
