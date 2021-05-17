@@ -168,12 +168,22 @@
                   ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>            
-           <!--   
+               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>              
             <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49769751131_deff9345b0.jpg" .   embed new picture
+               active="https://live.staticflickr.com/65535/51139226678_ada786294a_4k.jpg"   
                   passive="https://architecturasinica.org/place/000291" ana="featured"/>
--->
+             <relation ref="foaf:depicts"
+                active="https://live.staticflickr.com/65535/51139009531_fff90f90ba_4k.jpg"   
+                passive="https://architecturasinica.org/place/000291" ana="featured"/>
+             <relation ref="foaf:depicts"
+                active="https://live.staticflickr.com/65535/51138333467_bcb7b8cb00_4k.jpg"   
+                passive="https://architecturasinica.org/place/000291"/>
+             <relation ref="foaf:depicts"
+                active="https://live.staticflickr.com/65535/51139226833_b48be143cd_4k.jpg"   
+                passive="https://architecturasinica.org/place/000291"/>
+             <relation ref="foaf:depicts"
+                active="https://live.staticflickr.com/65535/51139784804_b469e3352f_4k.jpg"   
+                passive="https://architecturasinica.org/place/000291"/>
             </listRelation>
          </listPlace>
       </body>
