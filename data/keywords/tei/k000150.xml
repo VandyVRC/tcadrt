@@ -14,6 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -57,6 +58,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-03-20">CREATED: record</change>
          <change n="1.1" when="2021-04-18" who="#MT">added gloss</change>
+         <change n="1.1" when="2021-05-21" who="#YFB">added gloss in Chinese and image</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,8 +69,9 @@
             <term xml:id="term-k000150-3" xml:lang="zh-Hans">次间</term>
             <term xml:id="term-k000150-4" xml:lang="zh-latn-pinyin">cìjiān</term>
             <term xml:id="term-k000150-5" xml:lang="Wade-Giles">tz'u-chien</term>      
-            <note type="Gloss">
+            <note type="Gloss"> 
                <p xml:lang="en" source="#biblk000150-1">the bays on either side of the central bay; secondary bays or side bays (Guo 2002, 27; Fu 2017, 351)</p>
+               <p xml:lang="zh-Hant" source="#biblk000150-1">明間兩側的開間。</p>   
             </note> 
             <listBibl xml:id="biblk000150-1">
                <bibl>
@@ -83,7 +86,8 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000150</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+                 <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51147916251_cf2476ece9_c.jpg" passive="https://architecturasinica.org/keyword/k000150" rendition="featured"> </relation>
+                  <!--
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <relation ref="skos:broadMatch"
