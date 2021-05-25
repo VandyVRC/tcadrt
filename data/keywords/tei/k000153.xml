@@ -14,10 +14,10 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
-            <editor role="associate" xml:id="XQ">XIE Qizheng 謝祺錚</editor> 
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citation by</resp>
@@ -52,7 +52,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-17">CREATED: record</change>
+         <change n="1.0" when="2021-03-17" who="#XQ">CREATED: record</change>
+         <change n="1.1" when="2021-05-25" who="#YFB">Added gloss and image</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,20 +63,42 @@
             <term xml:id="term-k000153-2" xml:lang="zh-Hant">偷心</term>
             <term xml:id="term-k000153-3" xml:lang="zh-Hans">偷心</term>
             <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin" source="#biblk000153-1">tōuxīn</term>
-            <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">t'ou-hsin</term> 
+            <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">t'ou-hsin</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000153-2">literally:  "stolen-heart" or "stolen-center";  successive transvers projection (Guo 2002, 80); a huagong which supports another timber extending perpendicular to the building plane (e.g. <term ref="/keyword/k000172">huagong</term>, <term ref="/keyword/k000103">ang</term>) without a crossing timber parallel to the building plane (e.g. guazigong) (Fu 2017, 368; Chen 2010, 299)</p>
+               <p xml:lang="zh-Hant" source="#biblk000153-3">鋪作出跳上交互斗口內，只承上一跳，不用橫栱的做法。（陳 2010, 299)</p>   
+            </note> 
             <bibl xml:id="biblk000153-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">299</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000151-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">80</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">368</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">299</citedRange>
+               </bibl>                  
+            </listBibl>
+            <bibl xml:id="biblk000151-3">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">299</citedRange>
+            </bibl>  
             <idno type="URI">https://architecturasinica.org/keyword/k000153</idno>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000153" passive="bracketing"/>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51159005643_e47b3b569b_b.jpg" passive="https://architecturasinica.org/keyword/k000153" rendition="featured"> </relation>
+               <!--
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-               
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->               
             </listRelation>
          </entryFree>
       </body>
