@@ -14,10 +14,10 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
-            <editor role="associate" xml:id="XQ">XIE Qizheng 謝祺錚</editor> 
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citation by</resp>
@@ -53,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-17">CREATED: record</change>
+         <change n="1.1" when="2021-05-25" who="#YFB">Added gloss and image</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,22 +63,47 @@
             <term xml:id="term-k000154-2" xml:lang="zh-Hant">計心</term>
             <term xml:id="term-k000154-3" xml:lang="zh-Hans">计心</term>
             <term xml:id="term-k000154-4" xml:lang="zh-latn-pinyin" source="#biblk000154-1">jìxīn</term>
-            <term xml:id="term-k000154-5" xml:lang="zh-latn-wadegile">chi-hsin</term> 
+            <term xml:id="term-k000154-5" xml:lang="zh-latn-wadegile">chi-hsin</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000154-2">literally:  "added center" (Kroll 2015, 189-90, 507); huagong which supports bracket-arms running both parallel (e.g. guazigong) and perpendicular (e.g. huagong, ang) to the building plane (Chen 2010, 257); also crisscross center or projection (Guo 2002, 50); "crisscross-heart"  (Zuo 2019, 175); see also touxin.</p>
+               <p xml:lang="zh-Hant" source="#biblk000154-3">鋪作跳頭上用橫栱、昂的做法。（陳 2010, 257）。</p>   
+            </note> 
             <bibl xml:id="biblk000154-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">257</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000154-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">189-90, 507</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">257</citedRange>
+               </bibl>  
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">50</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                  <citedRange unit="pp">175</citedRange>
+               </bibl>                               
+            </listBibl>
+            <bibl xml:id="biblk000154-3">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">257</citedRange>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000154</idno>
             <listRelation>
-               
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51159477774_5a3e2f02f2_k.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+               <!-- 
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000154" passive="bracketing"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-               
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->               
             </listRelation>
          </entryFree>
       </body>
