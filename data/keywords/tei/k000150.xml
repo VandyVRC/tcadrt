@@ -23,10 +23,6 @@
                <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
             </respStmt>
-		 <respStmt>
-               <resp>Peer review by</resp>
-               <name type="team">CMW S21</name>
-            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -57,7 +53,6 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-20">CREATED: record</change>
-         <change n="1.1" when="2021-04-18" who="#MT">added gloss</change>
          <change n="1.1" when="2021-05-21" who="#YFB">added gloss in Chinese and image</change>
       </revisionDesc>
    </teiHeader>
