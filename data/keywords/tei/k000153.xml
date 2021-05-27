@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">偷心</foreign> tōuxīn</title>
+               <foreign xml:lang="zh-Hant">當心間</foreign> dāngxīnjiān</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -20,8 +20,8 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citation by</resp>
-               <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
+               <resp>Data entry, adding citation and gloss by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -35,7 +35,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-03-17</date>
+            <date>2021-05-27</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -52,48 +52,34 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-17" who="#XQ">CREATED: record</change>
-         <change n="1.1" when="2021-05-25" who="#YFB">Added gloss and image</change>
+         <change n="1.0" when="2021-05-27" who="#XQ">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000153" type="architectural feature">
-            <term xml:id="term-k000153-8" xml:lang="zh-latn-pinyin-nt" type="preferred">touxin</term>
-            <term xml:id="term-k000153-2" xml:lang="zh-Hant">偷心</term>
-            <term xml:id="term-k000153-3" xml:lang="zh-Hans">偷心</term>
-            <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin" source="#biblk000153-1">tōuxīn</term>
-            <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">t'ou-hsin</term>
+            <term xml:id="term-k000153-8" xml:lang="zh-latn-pinyin-nt" type="preferred">dangxinjian</term>
+            <term xml:id="term-k000153-2" xml:lang="zh-Hant">當心間</term>
+            <term xml:id="term-k000153-3" xml:lang="zh-Hans">当心间</term>
+            <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin">dāngxīnjiān</term>
+            <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">tang-hsin-chien</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000153-2">literally: "stolen-heart" or "stolen-center";  successive transvers projection (Guo 2002, 80); a huagong which supports another timber extending perpendicular to the building plane (e.g. <term ref="/keyword/k000172">huagong</term>, <term ref="/keyword/k000103">ang</term>) without a crossing timber parallel to the building plane (e.g. guazigong) (Fu 2017, 368; Chen 2010, 299).</p>
-               <p xml:lang="zh-Hant" source="#biblk000153-3">鋪作出跳上交互斗口內，只承上一跳，不用橫栱的做法（陳 2010, 299)。</p>   
-            </note> 
-            <bibl xml:id="biblk000153-1">
+               <p xml:lang="en" source="#biblk000153-1">central bay (Chen 2010, 376; Guo 2002, 29); see <term ref="/keyword/k000142">xinjian</term>; mingjian.</p>
+               <p xml:lang="zh-Hant" source="#biblk000153-1">建築物的中心開間。參見 “<term ref="/keyword/k000142">心間</term>”; "明間”。</p>   
+            </note>
+            <listBibl xml:id="biblk000153-1">
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">299</citedRange>
+               <citedRange unit="pp">376</citedRange>
             </bibl>
-            <listBibl xml:id="biblk000153-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">80</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">368</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">299</citedRange>
-               </bibl>                  
-            </listBibl>
-            <bibl xml:id="biblk000153-3">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">299</citedRange>
-            </bibl>  
+                  <citedRange unit="pp">29</citedRange>
+               </bibl>           
+            </listBibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000153</idno>
             <listRelation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000153" passive="bracketing"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51159005643_e47b3b569b_b.jpg" passive="https://architecturasinica.org/keyword/k000153" rendition="featured"> </relation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000151" passive="building frame"/>
                <!--
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
