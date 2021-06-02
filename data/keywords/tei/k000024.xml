@@ -9,9 +9,15 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -43,6 +49,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-05-27" who="#YFB">Added gloss and image</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,13 +60,42 @@
             <term xml:id="term-k000024-3" xml:lang="zh-Hans">偷心造</term>
             <term xml:id="term-k000024-4" xml:lang="zh-latn-pinyin">tōuxīnzào</term>
             <term xml:id="term-k000024-5" xml:lang="zh-latn-wadegile">t'ou hsin tsao</term>
-            <term xml:id="term-k000024-6" xml:lang="en" type="literal_translation">stolen heart (lit.)</term>
-            <term xml:id="term-k000024-7" xml:lang="en">first step of huagong does not have a crossing bracket arm</term>
+            <term xml:id="term-k000024-6" xml:lang="zh-Hant" type="alternate">偷心</term>
+            <term xml:id="term-k000024-7" xml:lang="zh-latn-pinyin" type="alternate" source="#biblk000024-1">tōuxīn</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000024</idno>
-            <gloss/>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000024-2"><term type="literal_translation">literally: "stolen-heart" or "stolen-center";</term> successive transverse projection (Guo 2002, 80); a <term ref="/keyword/k000172">huagong</term> which supports another timber extending perpendicular to the building plane (e.g. <term ref="/keyword/k000172">huagong</term>, <term ref="/keyword/k000103">ang</term>) without a crossing timber parallel to the building plane (e.g. guazigong, <term ref="/keyword/k000156">linggong</term>) (Fu 2017, 368; Chen 2010, 299).</p>
+               <p xml:lang="zh-Hant" source="#biblk000024-3">鋪作出跳上交互斗口內，只承上一跳，不用橫栱的做法（陳 2010, 299)。</p>   
+            </note>
+            <note type="Related Concepts">
+               <term ref="/keyword/k000023">jìxīnzào 計心造</term>
+            </note>
+            <bibl xml:id="biblk000024-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">299</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000024-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">80</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">368</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">299</citedRange>
+               </bibl>                  
+            </listBibl>
+            <bibl xml:id="biblk000024-3">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">299</citedRange>
+            </bibl>  
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/k000024" rendition="featured">
+               <relation ref="foaf:depicts" active="https://farm4.staticflickr.com/3280/3568184814_c6ab56c8d2_z.jpg" passive="https://architecturasinica.org/keyword/k000024" rendition="featured">                  
                </relation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51159005643_e47b3b569b_b.jpg" passive="https://architecturasinica.org/keyword/k000153" rendition="featured"> </relation>               
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000024" passive="bracketing"/>
                <relation ref="https://architecturasinica.org/place/000167" source="Fengguosi Mahāvīra Hall"/>
             </listRelation>

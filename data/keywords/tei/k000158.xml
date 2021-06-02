@@ -14,12 +14,13 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, and adding citations 2021 by</resp>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
@@ -62,10 +63,28 @@
             <term xml:id="term-k000158-3" xml:lang="zh-Hans">栌斗</term>
             <term xml:id="term-k000158-4" xml:lang="zh-latn-pinyin" source="#biblk000158-1">lúdǒu</term>
             <term xml:id="term-k000158-5" xml:lang="zh-latn-wadegile">lu-tou</term>           
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000158-2">"cap block; largest bearing block in a bracket set, joined into the top of a pillar (Fu 2017, 361; Guo 2002, 56); literally:  "smokebush" "bearing block" (Kroll 2015, 282, 91)</p>
+               <p xml:lang="zh-Hant" source="#biblk000158-2">一組枓栱中最下部的尺寸最大的枓；直接位於柱頭之上。</p> 
+            </note>         
             <bibl xml:id="biblk000158-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">460</citedRange> 
             </bibl> 
+            <listBibl xml:id="biblk000158-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">361</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">56</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">282, 91</citedRange> 
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000158</idno>
             <listRelation>
                <listRelation>

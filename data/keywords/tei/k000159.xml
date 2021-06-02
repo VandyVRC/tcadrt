@@ -10,6 +10,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
              <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+             <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>data entry and adding citations and gloss 2021 by</resp>
               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
@@ -17,10 +18,6 @@
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
-            </respStmt>
-               <respStmt>
-               <resp>Peer review by</resp>
-               <name type="team">CMW S21</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -52,7 +49,6 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
-         <change n="1.1" when="2021-04-20" who="FSY">Added gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,7 +61,7 @@
             <term xml:id="term-k000159-5" xml:lang="zh-latn-wadegile">san-tou</term>
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000159-1">end block; literally:  "ordinary" "bearing block" (Kroll 2015, 396, 91); small bearing block, usually placed on the ends of a bracket arms to support timbers parallel to the building plane. (Guo 2002, 68; Fu 2017, 364; Chen 2010, 348)</p>
-               <!-- <p xml:lang="zh-Hant">用於栱兩端或枋木之間的小斗。</p> -->
+               <p xml:lang="zh-Hant" source="#biblk000159-1">用於栱兩端或枋木之間的小斗。開口方向與屋身平行。</p>
             </note>
             <listBibl xml:id="biblk000159-1">
                <bibl>

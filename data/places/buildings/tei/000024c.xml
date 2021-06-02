@@ -22,6 +22,10 @@
                <resp>adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -52,8 +56,10 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
-         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+         <change n="2.1" when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.2" when="2021-05-05" who="#HDN">Added location</change>
+         <change n="2.3" when="2021-05-06" who="#HDN">Added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -75,13 +81,21 @@
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000024c-1" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
-                  <desc>Liao 916 - 1125 </desc>
+                  <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024c-2">
+                     Rebuilt in 984 during the second year of the <term ref="/keyword/k000047">Liao</term> Tonghe reign period (遼統和二年), the Guanyin Pavilion is among the oldest extant <term ref="/keyword/k000078">ge 閣</term> in China (Chen 2007, 2). The pavilion exhibits three plaques with inscriptions. “觀音之閣” was traditionally attributed to Li Bai 李白 (701-762), a poet from the <term ref="/keyword/k000082">Tang dynasty</term> (Liang 1932). “普門香界” and “具足圓成” were traditionally attributed to Emperor Qianlong 乾隆 from the <term ref="/keyword/k000070">Qing dynasty</term> (Liang 1932).  
+                     Categorized as a <term ref="/keyword/k000130">palatial hall (diantang 殿堂)</term>, the pavilion reflects the ideal timber proportions as expressed in <term ref="/bibl/9RI3GY8T">the Yingzaofashi 營造法式</term> (Steinhardt, 48). The pavilion is five bays wide by four bays deep, and is crowned with a <term ref=" keyword/k000143">hip-and-gable roof</term> (xieshanding 歇山頂). It has three floors, and it is about twenty-three meters in height. Interestingly, the pavilion exterior shows only two floors, resulting from a hidden mezzanine creating the second level (Liang 1932). 
+                     Similar dougong structures such as corner bracket sets 轉角鋪作, <term ref="/keyword/k000120">pillar-tops 柱頭鋪作</term>, and <term ref="/keyword/k000105">intercolumnar bracket sets 補間鋪作</term> are shown in both the pavilion and the <term ref="/place/000024b">Mountain Gate</term>.
+                     Located at the center of the pavilion is a Buddhist <term ref="/keyword/k000176">altar</term> 佛壇 (Chen 2007, 11). The altar is surrounded by two circuits of columns, twenty-eight in total. The columns enclose an empty central space for the enshrinement of the almost sixteen-meter high sculpture of Guanyin clay statue and the three-meter tall clay sculptures of two assistant bodhisattvas (Chen 2007, 11). The Guanyin is an example of the eleven-faced <term ref="https://tinyurl.com/zkn2e9c5">Avalokiteśvara</term> 十一面觀音. Observers only can see the eleven heads when they reach the third floor. Above the statue’s head is an octagonal caisson ceiling, known as zaojing 藻井.</p>
+                  <p xml:lang="zh-Hant" source="#bibl000024c-2"></p>          
+               </desc>
                <location type="gps" subtype="preferred">
-                  <geo>40.04408333 117.3966666</geo>
+                  <geo>40.045342 117.402597</geo>
                </location>
                <location type="verbatim">
-                  <note>40˚ 02.628' N (Garmin) 117˚ 23.801' E</note>
+                  <note>(Google Earth)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -94,6 +108,17 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <listBibl xml:id="bibl000024c-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  </bibl>
+               </listBibl> 
                <!--note type="field-notes">984</note-->
             </place>
             <listRelation>
@@ -119,7 +144,8 @@
                   <desc>Guanyinge, Front view from Shanmen</desc>
                </relation>
                 -->
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51145684313_fe3d81779d_c.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
+               <relation ref="https://live.staticflickr.com/65535/51160710931_393b13f3aa_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000024c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
             </listRelation>
          </listPlace>

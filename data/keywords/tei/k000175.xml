@@ -18,7 +18,7 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry 2021 by</resp>
+               <resp>Data entry and adding gloss 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
@@ -51,6 +51,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-08" who="#HDN">CREATED: record</change>
+         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +62,21 @@
             <term xml:id="term-k000175-3" xml:lang="zh-Hans">坛庙</term>
             <term xml:id="term-k000175-4" xml:lang="zh-latn-pinyin">tánmiào</term>
             <term xml:id="term-k000175-5" xml:lang="zh-latn-wadegile">t'an-miao</term>           
-                       <idno type="URI">https://architecturasinica.org/keyword/k000175</idno>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000175-1">a combination of two architectural types: the 壇 altar and 廟 temple or temple complex; a temple complex containing an altar for worship of deities associated with the state (Fu 2017, 367; Kroll 2015, 441)</p>
+               <p xml:lang="zh-Hant">壇和廟的合稱；也指包含壇與廟，用於官方祭祀的建築羣。</p>
+            </note>  
+            <listBibl xml:id="biblk000175-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                     <citedRange unit="pp">367</citedRange> 
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                     <citedRange unit="pp">441</citedRange> 
+                  </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000175</idno>
             <listRelation>
                <listRelation>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>

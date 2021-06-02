@@ -7,14 +7,18 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">寺</foreign> sì</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-            <resp>Data entry, adding citations 2021 by</resp>
+            <resp>Website coordination by</resp>
+            <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+            <resp>Data entry, adding citations and gloss 2021 by</resp>
             <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
@@ -47,7 +51,8 @@
       </profileDesc>
       <revisionDesc> 
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="1.1" who="#HDN" when="2021-03-12-04:00">adding citation(s)</change>
+         <change n="1.1" when="2021-03-12-04:00" who="#HDN">Added citations</change>
+         <change n="1.1" when="2021-05-03" who="#HDN">Added glossd</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,16 +62,22 @@
             <term xml:id="term-k000052-2" xml:lang="zh-Hant">寺</term>
             <term xml:id="term-k000052-3" xml:lang="zh-Hans">寺</term>
             <term xml:id="term-k000052-4" xml:lang="zh-latn-pinyin">sì</term>
-            <term xml:id="term-k000052-6" xml:lang="zh-latn-wadegile">ssu</term>
-            <term xml:id="term-k000052-5" xml:lang="en" source="#biblk000052-1">Buddhist temple</term>          
-            <!--
-            <gloss>monastery</gloss>
-            -->
-            <idno type="URI">https://architecturasinica.org/keyword/k000052</idno>          
-            <bibl xml:id="biblk000052-1">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-               <citedRange unit="pp">74</citedRange>
-            </bibl>      
+            <term xml:id="term-k000052-6" xml:lang="zh-latn-wadegile">ssu</term>   
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000052-1">government office; monastery (in a Buddhist context) (Guo 2002, 74; Zurcher 2007, 38-39)</p>   
+               <p xml:lang="zh-Hant" source="#biblk000052-1">官署；佛教廟宇。</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000052</idno>            
+            <listBibl xml:id="biblk000052-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">74</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/Q7AYX72Q"/>
+                  <citedRange unit="pp">38-39</citedRange> 
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>

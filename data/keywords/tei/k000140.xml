@@ -14,7 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -63,11 +63,36 @@
             <term xml:id="term-k000140-3" xml:lang="zh-Hans">乳栿</term>
             <term xml:id="term-k000140-4" xml:lang="zh-latn-pinyin" source="#biblk000140-1">rǔfú</term>
             <term xml:id="term-k000140-5" xml:lang="zh-latn-wadegile">ju-fu</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000140</idno>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000140-2">literally: "nipple" beam (Kroll 2015, 391); a beam spanning two-rafters in length and joining eaves columns to the interior building structure (Guo 2002, 67; Fu 2017, 364, Chen 2010, 196); two-rafter eaves beam (Zuo 2019, 178)</p>
+               <p xml:lang="zh-Hant" source="#biblk000140-2">長兩椽的梁，通常一端架在檐柱之上。</p>
+            </note>
             <bibl xml:id="biblk000140-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">196</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000140-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">391</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">67</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">364</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                  <citedRange unit="pp">178</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000140</idno>
             <listRelation>
                <listRelation>

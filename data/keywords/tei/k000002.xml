@@ -5,11 +5,15 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">觀</foreign> guàn </title>
+               <foreign xml:lang="zh-Hant">觀</foreign> guàn</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -19,7 +23,7 @@
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
-               <resp>adding  citation information 2021 by</resp>
+               <resp>adding citation information 2021 by</resp>
                <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
             </respStmt>
          </titleStmt>
@@ -51,8 +55,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.0" when="2018-03-21-04:00" who="#TGM">CREATED: record</change>
          <change n="1.1" who="#XQ" when="2021-02-27">Adding citation</change>
+         <change n="1.1" when="2021-05-25" who="#YFB">Added gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,16 +69,27 @@
             <term xml:id="term-k000002-4" xml:lang="zh-latn-pinyin">guàn</term>
             <term xml:id="term-k000002-6" xml:lang="zh-latn-wadegile">kuan</term>
             <term xml:id="term-k000002-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000002-1">belvedere (ATTCAT preferred)</term>
-            <term xml:id="term-k000002-7" xml:lang="en" source="#biblk000002-2">Taoist temple</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000002</idno>
-            <!-- <gloss>Daoist monastery</gloss>  -->
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000002-2">(1) a tall structure that allows for a wide view (Guo 2002, 39); watchtower, belvedere, mirador (Kroll 2015, 143); (2) a Daoist monastery or temple (Guo 2002, 39); use related to the verbal guan (in first tone): "to view intently" (Kroll 2015, 143)</p>
+               <p xml:lang="zh-Hant" source="#biblk000002-2">（1）可眺望的高建築物；（2）道教建築。</p>
+            </note>
             <bibl xml:id="biblk000002-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
-            <bibl xml:id="biblk000002-2">
+            <listBibl xml:id="biblk000002-2">
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">39</citedRange>   
             </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">143</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation/>
+            </listRelation>
          </entryFree>
       </body>
    </text>

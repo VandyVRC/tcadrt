@@ -14,7 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -63,11 +63,24 @@
             <term xml:id="term-k000142-3" xml:lang="zh-Hans">心间</term>
             <term xml:id="term-k000142-4" xml:lang="zh-latn-pinyin" source="#biblk000142-1">xīnjiān</term>
             <term xml:id="term-k000142-5" xml:lang="zh-latn-wadegile">hsin-chien</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000142</idno>
+            <note type="Gloss">                
+               <p xml:lang="en" source="#biblk000142-2">central bay (Steinhardt 1991, 27-50); literally: heart/central space between two columns (Kroll 2015, 196, 507)</p>                
+               <p xml:lang="zh-Hant" source="#biblk000142-2">指處於建築中心位置的開間。</p>             
+            </note>
             <bibl xml:id="biblk000142-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">online edition accessed on 2021-03-12</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000142-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/AA382A52"/>
+                  <citedRange unit="pp">27-50</citedRange>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">196,507</citedRange>
+               </bibl>                     
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000142</idno>
             <listRelation>
                <listRelation>
