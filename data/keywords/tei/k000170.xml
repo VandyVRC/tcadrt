@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">壇廟</foreign> tánmiào</title>
+               <foreign xml:lang="zh-Hant">祠堂</foreign> cítáng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -20,8 +20,8 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding gloss 2021 by</resp>
-               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,13 +29,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000175/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000170/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-04-08</date>
+            <date>2021-06-02</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -52,33 +52,33 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-04-08" who="#HDN">CREATED: record</change>
-         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
+         <change n="1.0" when="2021-06-02" who="#YFB">CREATED: record, added citations and gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000175" type="site type">
-            <term xml:id="term-k000175-1" xml:lang="zh-latn-pinyin-nt" type="preferred">tanmiao</term>
-            <term xml:id="term-k000175-2" xml:lang="zh-Hant">壇廟</term>
-            <term xml:id="term-k000175-3" xml:lang="zh-Hans">坛庙</term>
-            <term xml:id="term-k000175-4" xml:lang="zh-latn-pinyin">tánmiào</term>
-            <term xml:id="term-k000175-5" xml:lang="zh-latn-wadegile">t'an-miao</term>           
+         <entryFree xml:id="k000170" type="building type">
+            <term xml:id="term-k000170-1" xml:lang="zh-latn-pinyin-nt" type="preferred">citang</term>
+            <term xml:id="term-k000170-2" xml:lang="zh-Hant">祠堂</term>
+            <term xml:id="term-k000170-3" xml:lang="zh-Hans">祠堂</term>
+            <term xml:id="term-k000170-4" xml:lang="zh-latn-pinyin">cítáng</term>
+            <term xml:id="term-k000170-5" xml:lang="zh-latn-wadegile">t'ai-miao</term>           
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000175-1">a combination of two architectural types: the <term ref="/keyword/k000176">壇 altar</term> and <term ref="/keyword/k000083">廟 temple</term> or temple complex; a temple complex containing an altar for worship of deities associated with the state (Fu 2017, 367; Kroll 2015, 441)</p>
-               <p xml:lang="zh-Hant" source="#biblk000175-1">壇和廟的合稱；也指包含壇與廟，用於官方祭祀的建築羣。</p>
+               <p xml:lang="en" source="#biblk000170-1">usually an ancestral hall (Fu 2017, 152); literally: hall or space in which cultic sacrifices (ci 祠) are performed (Kroll 2015, 64, 444)</p>
+               <p xml:lang="zh-Hant" source="#biblk000170-1">祭祀祖先或先賢之處。</p>
             </note>  
-            <listBibl xml:id="biblk000175-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                     <citedRange unit="pp">367</citedRange> 
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                     <citedRange unit="pp">441</citedRange> 
-                  </bibl>
+            <listBibl xml:id="biblk000170-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">152</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">64, 444</citedRange>
+               </bibl>
+                  
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000175</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000170</idno>
             <listRelation>
                <listRelation>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
