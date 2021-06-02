@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">祠堂</foreign> cítáng</title>
+               <foreign xml:lang="zh-Hant">明間</foreign> míngjiān</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -29,7 +29,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000170/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000171/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -57,35 +57,46 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000170" type="building type">
-            <term xml:id="term-k000170-1" xml:lang="zh-latn-pinyin-nt" type="preferred">citang</term>
-            <term xml:id="term-k000170-2" xml:lang="zh-Hant">祠堂</term>
-            <term xml:id="term-k000170-3" xml:lang="zh-Hans">祠堂</term>
-            <term xml:id="term-k000170-4" xml:lang="zh-latn-pinyin">cítáng</term>
-            <term xml:id="term-k000170-5" xml:lang="zh-latn-wadegile">tz'u-t'ang</term>           
+         <entryFree xml:id="k000171" type="architectural feature">
+            <term xml:id="term-k000171-1" xml:lang="zh-latn-pinyin-nt" type="preferred">mingjian</term>
+            <term xml:id="term-k000171-2" xml:lang="zh-Hant">明間</term>
+            <term xml:id="term-k000171-3" xml:lang="zh-Hans">明间</term>
+            <term xml:id="term-k000171-4" xml:lang="zh-latn-pinyin">míngjiān</term>
+            <term xml:id="term-k000171-5" xml:lang="zh-latn-wadegile">ming-chien</term>           
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000170-1">usually an ancestral hall (Fu 2017, 152); literally: hall or space in which cultic sacrifices (ci 祠) are performed (Kroll 2015, 64, 444)</p>
-               <p xml:lang="zh-Hant" source="#biblk000170-1">祭祀祖先或先賢之處。</p>
-            </note>  
-            <listBibl xml:id="biblk000170-1">
+               <p xml:lang="en" source="#biblk000171-1">central bay (Fu 2017, 361; Guo 2002, 29)</p>
+               <p xml:lang="zh-Hant" source="#biblk000171-1">建築物的中心開間。</p>
+            </note>
+            <note type="Related Concepts" source="#biblk000171-2">
+               <term ref="/keyword/k000024">xīnjiān 心間</term>
+               <term ref="/keyword/k000153">dāngxīnjiān 當心間</term>
+            </note>
+            <listBibl xml:id="biblk000171-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">152</citedRange> 
+                  <citedRange unit="pp">361</citedRange> 
                </bibl>
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">64, 444</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">29</citedRange>
                </bibl>
-                  
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000170</idno>
+            <listBibl xml:id="biblk000171-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">376</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">29</citedRange>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000171</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
-                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51149009405_03a0bbd743_c.jpg" passive="https://architecturasinica.org/keyword/k000171" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000171" passive="building frame"/>
                </listRelation>
             </listRelation>
          </entryFree>
