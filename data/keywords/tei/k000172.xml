@@ -64,9 +64,15 @@
             <term xml:id="term-k000172-4" xml:lang="zh-latn-pinyin">huāgǒng</term>
             <term xml:id="term-k000172-5" xml:lang="zh-latn-wadegile">hua-kung</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000172-1">literally: <term type="literal_translation">blossoming bracket-arm</term> (Kroll 167 (huā), 135); perpendicular bracket arm (Fu 357); bracket arm that extends outward and upward from the building plane to support the outward extension of the eaves.</p>
-               <p xml:lang="zh-Hant">斗栱中垂直于屋身的出跳栱，以承屋檐。</p>
+               <p xml:lang="en" source="#biblk000172-1">literally: <term type="literal_translation">blossoming bracket-arm</term> (Kroll 167 (huā), 135); perpendicular bracket arm (Fu 357); bracket arm that extends outward and upward from the building plane, used to support the outward extension of the eaves and interior roof frame. The size and shape of this element are described in the <title>Yingzao fashi</title>. For more details see Chen 2010, 296.</p>
+               <p xml:lang="zh-Hant">斗栱中垂直于屋身的出跳栱，以承屋檐和屋內梁架。</p>
             </note> 
+            <note type="related concepts">
+               <p xml:id="related-concept-k000172-1" xml:lang="zh-Hant" source="#biblk000172-2">卷頭 juǎntóu</p>
+               <p xml:id="related-concept-k000172-2" xml:lang="zh-Hant" source="#biblk000172-3">跳頭 tiàotóu</p>
+               <p xml:id="related-concept-k000172-3" xml:lang="zh-Hant" source="#biblk000172-4">抄栱</p>
+               <p xml:id="related-concept-k000172-4" xml:lang="zh-Hant" source="#biblk000172-5">杪栱 miǎogǒng</p>
+            </note>
             <listBibl xml:id="biblk000172-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
@@ -76,7 +82,32 @@
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">357</citedRange>
                </bibl>
-            </listBibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000172-2">
+                     <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                     <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000172-3">
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">389</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000172-4">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <listBibl xml:id="biblk000172-5">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                     <citedRange unit="pp">58</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                     <citedRange unit="pp">306</citedRange>
+                  </bibl>
+               </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000172</idno>
             <listRelation>
                <listRelation>
