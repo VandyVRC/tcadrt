@@ -130,10 +130,10 @@
       	   <idno type="URI">https://architecturasinica.org/keyword/k000019</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000019" rendition="featured">
-                  </relation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="bracketing"/>
                   <!--
+                     <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000019" rendition="featured">
+                  </relation>
                      <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   -->
                </listRelation>
