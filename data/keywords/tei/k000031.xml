@@ -7,11 +7,17 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">庵</foreign> an</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Adding citation information 2021 by</resp>
@@ -48,6 +54,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" who="#ZXL" when="2021-03-11-12:00">Adding citation(s)</change>
+         <change n="1.1" when="2021-06-01" who="#YFB">Added gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,16 +64,21 @@
             <term xml:id="term-k000031-2" xml:lang="zh-Hant">庵</term>
             <term xml:id="term-k000031-3" xml:lang="zh-Hans">庵</term>
             <term xml:id="term-k000031-4" xml:lang="zh-latn-pinyin">ān</term>
-            <term xml:id="term-k000031-6" xml:lang="zh-latn-wadegile">an</term>
-            <term xml:id="term-k000031-1" xml:lang="en">hermitage</term>
-            <term xml:id="term-k000031-7" xml:lang="en" source="#biblk000031-1">convent</term>
-            <!--
-            <gloss>usually a small Buddhist monastery, also used for nunneries</gloss>
-            -->
-            <bibl xml:id="biblk000031-1">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-               <citeRange unit="pp">16</citeRange>
-            </bibl> 
+            <term xml:id="term-k000031-1" xml:lang="zh-latn-wadegile">an</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000031-1">literally: a cottage or hut; in a religious context a hermitage, sanctuary; often a convent (Kroll 2015, 2; Guo 2002, 16; Hanyu dacidian (online edition))</p>
+               <p xml:lang="zh-Hant">草屋；宗教建築中指寺院，多爲尼姑所居。（漢語大詞典）</p>   
+            </note> 
+            <listBibl xml:id="biblk000031-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">2</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">16</citedRange>
+               </bibl>              
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000031</idno>
          </entryFree>
       </body>

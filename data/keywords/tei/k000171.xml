@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">祠廟</foreign> címiào</title>
+               <foreign xml:lang="zh-Hant">明間</foreign> míngjiān</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -20,8 +20,8 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding gloss by</resp>
-               <name type="person" xml:id="HDN">HUANG Danni黄聃婗</name>
+               <resp>Data entry, adding citations and gloss 2021 by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,13 +29,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000173/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000171/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-04-08</date>
+            <date>2021-06-02</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -52,43 +52,53 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-            <change n="1.0" when="2021-04-08" who="#HDN">CREATED: record</change>
-         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
+         <change n="1.0" when="2021-06-02" who="#YFB">CREATED: record, added citations and gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000173" type="site type">
-            <term xml:id="term-k000173-1" xml:lang="zh-latn-pinyin-nt" type="preferred">cimiao</term>
-            <term xml:id="term-k000173-2" xml:lang="zh-Hant">祠廟</term>
-            <term xml:id="term-k000173-3" xml:lang="zh-Hans">祠庙</term>
-            <term xml:id="term-k000173-4" xml:lang="zh-latn-pinyin">címiào</term>
-            <term xml:id="term-k000173-5" xml:lang="zh-latn-wadegile">tz'u-miao</term>
+         <entryFree xml:id="k000171" type="architectural feature">
+            <term xml:id="term-k000171-1" xml:lang="zh-latn-pinyin-nt" type="preferred">mingjian</term>
+            <term xml:id="term-k000171-2" xml:lang="zh-Hant">明間</term>
+            <term xml:id="term-k000171-3" xml:lang="zh-Hans">明间</term>
+            <term xml:id="term-k000171-4" xml:lang="zh-latn-pinyin">míngjiān</term>
+            <term xml:id="term-k000171-5" xml:lang="zh-latn-wadegile">ming-chien</term>           
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000173-1">a combination of two architectural types: the ci <term ref="/keyword/k000073">祠 shrine</term> and the miao <term ref="/keyword/k000083">廟 temple</term> (Fu 351); literally: a temple for ci 祠 sacrifices (Miller 2007, 32-33)</p>
-               <p xml:lang="zh-Hant" source="#biblk000173-1">祠和廟的合稱。</p>
-            </note>  
-            <listBibl xml:id="biblk000173-1">
+               <p xml:lang="en" source="#biblk000171-1">central bay (Fu 2017, 361; Guo 2002, 29)</p>
+               <p xml:lang="zh-Hant" source="#biblk000171-1">建築物的中心開間。</p>
+            </note>
+            <note type="Related Concepts">
+               <p source="#biblk000171-2"><term ref="/keyword/k000142">xīnjiān 心間</term></p>
+               <p source="#biblk000171-2"><term ref="/keyword/k000153">dāngxīnjiān 當心間</term></p>
+            </note>
+            <listBibl xml:id="biblk000171-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">351</citedRange> 
+                  <citedRange unit="pp">361</citedRange> 
                </bibl>
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">32-33</citedRange> 
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">29</citedRange>
                </bibl>
-            </listBibl>           
-            <idno type="URI">https://architecturasinica.org/keyword/k000173</idno>
-            <!-- 
+            </listBibl>
+            <listBibl xml:id="biblk000171-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">376</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">29</citedRange>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000171</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> 
-                  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51149009405_03a0bbd743_c.jpg" passive="https://architecturasinica.org/keyword/k000171" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000171" passive="building frame"/>
                </listRelation>
-            </listRelation> -->
+            </listRelation>
          </entryFree>
       </body>
    </text>

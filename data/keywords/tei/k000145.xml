@@ -5,18 +5,19 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">丹墀</foreign>dānchí</title>
+               <foreign xml:lang="zh-Hant">丹墀</foreign> dānchí</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding citations by</resp>
-               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-         	<idno type="URI">https://architecturasinica.org/keyword/k0000145/tei</idno>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000145/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -47,7 +48,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-24">CREATED: record</change>
+         <change n="1.0" when="2021-03-24" who="#ZJ">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,19 +60,13 @@
             <term xml:id="term-k000145-4" xml:lang="zh-latn-pinyin">dānchí</term>
             <term xml:id="term-k000145-5" xml:lang="zh-latn-wadegile">tan-ch'ih</term>
             <note type="Gloss">
-               <p xml:lan="en" source="biblk000145-1">Danchi generally refers to the ground of the main building in the palace complex, originated from painting the floor with cinnabar(丹砂) in the Han Dynasty palaces.
-                  In the Han dynasty (202BCE-220CE), it refers to the ground inside the palace. After the Tang (618-907) and Song Dynasties (960-1279), danchi is usually related to a lutai (露臺), but its exact position changes with time. In the Northern Song Dynasty (960-1127), danchi refers to the upper ground of the lutai outside the palace. In the Ming (1368-1644) and Qing Dynasties (1644-1911), it relates to the ground under the lutai outside a palace and sometimes used in the Confucian temple(文廟), yashu(衙署) and other structures.
-               </p>
+               <p xml:lan="en" source="biblk000145-1">lit. "cinnabar  stairway" (Kroll 2015, 50, 74); usually refers to the platform supporting the primary buildings in a palatial compound. Sui dynasty usage differs, however, suggesting that this term referred to different locations over time.</p>
+               <p xml:lang="zh-Hant" source="#biblk000145-1">指處於建築中心位置的開間。</p>   
             </note>
-            <listBibl xml:id="biblk000145-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/XZ22VAGV"/>
-                  <citedRange unit="pp">68</citedRange>
+               <bibl xml:id="biblk000145-1">
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">50, 74</citedRange>
                </bibl>   
-               <bibl>   
-                  <ptr target="https://architecturasinica.org/bibl/TG9BQTZE"/>
-               </bibl>
-            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
          </entryFree>
       </body>

@@ -14,6 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -62,12 +63,21 @@
             <term xml:id="term-k000143-3" xml:lang="zh-Hans">歇山</term>
             <term xml:id="term-k000143-4" xml:lang="zh-latn-pinyin">xiēshān</term>
             <term xml:id="term-k000143-5" xml:lang="zh-latn-wadegile">hsieh-shan</term>           
-            <term xml:id="term-k000143-6" xml:lang="en" source="#biblk000143-1">hip-gable roof</term>
-            <bibl xml:id="biblk000143-1">
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">369</citedRange>
-            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000143</idno>
+            <note type="Gloss">                
+               <p xml:lang="en" source="#biblk000143-1">hip-gable roof (Fu 2017, 369); literally: interrupted or halted mountain (peak) (Kroll 2015, 503, 399)</p>                
+               <p xml:lang="zh-Hant" source="#biblk000143-1">指處於建築中心位置的開間。</p>             
+            </note>
+            <listBibl xml:id="biblk000143-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">369</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">399, 503</citedRange>
+               </bibl>                    
+            </listBibl>
             <listRelation>
                <listRelation>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
