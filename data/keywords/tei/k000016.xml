@@ -84,18 +84,19 @@
       <body>
          <entryFree xml:id="k000016" type="architectural feature">
             <term xml:id="term-k000016-1" xml:lang="zh-latn-pinyin-nt" type="preferred">die</term>
-            <term xml:id="term-k000016-2" xml:lang="zh-Hant" source="#biblk000016-2">堞</term>
+            <term xml:id="term-k000016-2" xml:lang="zh-Hant" source="#biblk000016-1">堞</term>
             <term xml:id="term-k000016-3" xml:lang="zh-Hans">堞</term>
             <term xml:id="term-k000016-4" xml:lang="zh-latn-pinyin">dié</term>
             <term xml:id="term-k000016-5" xml:lang="zh-latn-wadegile">tieh</term>
             <term xml:id="term-k000016-6" xml:lang="en" type="literal_translation">battlements (lit.)</term>
-            <term xml:id="term-k000016-7" xml:lang="en" type="ATTCAT_preferred" source="#biblk000016-1">battlements (ATTCAT preferred)</term>
+            <term xml:id="term-k000016-7" xml:lang="en" type="ATTCAT_preferred" source="#biblk000016-2">battlements (ATTCAT preferred)</term>
             <term xml:id="term-k000016-8" xml:lang="en" source="#biblk000016-3">parapets</term>
             <term xml:id="term-k000016-9" xml:lang="en" source="#biblk000016-4">merlons</term>
             <note type="Note (brief)">
-               <p xml:lang="en" source="#biblk000016-5">In traditional Chinese fortifications, die refers to the battlements built on the top of a city wall constructed to protect defenders from missile fire. This term already appears in the literature of the Pre-<term ref="/keyword/k000069">Qin</term> period (e.g. “In the standards of city wall building, the wall should be [built to the] height of 30 feet, die should be added to the top, and the width should be ten feet 行城之法。高城三十尺。上加堞。廣十尺,” from Mozi, Chapter 14, Beiti). The element is also referred to as zhidie 雉堞, nütouqiang 女頭墻, and duokouqiang 垛口墻 in different traditional textual sources.
-               </p>
-               <p xml:lang="zh-Hant" source="#biblk000016-5">堞在先<term ref="https://tinyurl.com/y4q5w8wt">秦</term>文獻中就有出現，如《墨子備梯卷十四: 行城之法。高城三十尺。上加堞。廣十尺。指修築於城墻頂面外邊緣的齒形矮墻。起遮護守城士兵的作用，是城墻頂面的主要防禦設施之壹。<!--又稱雉堞、女頭墻、垛口墻等。--></p>
+               <p xml:lang="en" source="#biblk000016-5">In traditional Chinese fortifications, die refers to the battlements built on the top of a city wall constructed to protect defenders from missile fire. This term already appears in the literature of the Pre-<term ref="/keyword/k000069">Qin</term> period (e.g. “In the standards of city wall building, the wall should be [built to the] height of 30 feet, die should be added to the top, and the width should be ten feet 行城之法。高城三十尺。上加堞。廣十尺,” from <term ref="https://ctext.org/mozi/defense-against-attack-with-ladders/zh">Mozi, Chapter 14, Beiti</term>).</p>
+                  <!--  The element is also referred to as zhidie 雉堞, nütouqiang 女頭墻, and duokouqiang 垛口墻 in different traditional textual sources.-->
+               <p xml:lang="zh-Hant" source="#biblk000016-5">堞在先秦文獻中就有出現，如《墨子卷十四備梯: 行城之法。高城三十尺。上加堞。廣十尺。指修築於城墻頂面外邊緣的齒形矮墻。起遮護守城士兵的作用，是城墻頂面的主要防禦設施之壹。</p>
+                  <!--又稱雉堞、女頭墻、垛口墻等。-->
             </note>
                <!--p> Sources and Contributors:</p>
             	<p>battlement: ATTCAT</p>
@@ -116,10 +117,10 @@
                <p xml:lang="zh-Hant">
                   <s source="#biblk000016-"> 從古代圖像資料看，<term ref="https://tinyurl.com/y6nrfm38">宋</term>及宋以前，堞多為“山”字形。<term ref="https://tinyurl.com/y4vn7kjx">南宋</term>陳規《<term ref="https://tinyurl.com/yygvs97c">守城機要</term>》中記載：“女頭墻，舊制與城外邊約地六尺壹個，高者不過五尺，作山字樣，兩女頭間留女口壹個”。</s><!--（陳規等，清道光瓶花書屋校刊本，卷二：3b-4a）--> 如敦煌石窟257窟西壁中層北魏時期的壁畫（圖1）、<term ref="https://tinyurl.com/y3sl3qg7">唐</term>懿德太子墓墓室壁畫（圖2）城墻頂部都有“山”字形堞墻。宋之後，大部分城墻上垛口墻變為連續的矩形垛墻形式（圖3），但“山”字形堞墻在皇家建築上仍有使用，如明南京宮城（圖4），明孝陵寶城寶頂圍墻部分。城墻上堞墻形制的變化總體上呈現出，垛墻面積變大，垛口變窄，即保護遮蔽面積變大的趨勢。<!-- (賈亭立 等，2010:440）--> </p>
             </note>
-            <bibl xml:id="biblk000016-1">
+            <bibl xml:id="biblk000016-2">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
             </bibl>
-            <listBibl xml:id="biblk000016-2">
+            <listBibl xml:id="biblk000016-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/GZW8LD88"/>                  
                </bibl>
