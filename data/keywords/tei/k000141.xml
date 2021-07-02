@@ -23,6 +23,14 @@
                <resp>Data entry and adding citation(s) by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
+            <respStmt>
+               <resp>Revision by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -53,6 +61,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#CBL" when="2021-03-12">CREATED: record and adding citations</change>
+         <change n="2.0" who="#CBL" when="2021-07-03">Revision: add note</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,35 +72,35 @@
             <term xml:id="term-k000141-3" xml:lang="zh-Hans">剳牵</term>
             <term xml:id="term-k000141-4" xml:lang="zh-latn-pinyin" source="#biblk000141-1">zhāqiān</term>
             <term xml:id="term-k000141-5" xml:lang="zh-latn-wadegile">cha-ch'ien</term>
-            <note type="Gloss">                
-               <p xml:lang="en" source="#biblk000141-2">one-rafter beam (Guo 2002, 29); a beam spanning one rafter in length (Chen 2010, 393); usually serves a joining rather than load-bearing role; literally: to stitch and bind (Kroll 2015, 588, 359-360).</p>                
-               <p xml:lang="zh-Hant" source="#biblk000141-2">指長一椽的梁，通常僅起聯繫作用而不荷重。</p>             
+            <term xml:id="term-k000141-6" xml:lang="en" source="#biblk000141-2">one-rafter beam</term>
+            <term xml:id="term-k000141-8" xml:lang="en" type="literal_translation" source="#biblk000141-3">to stitch and bind</term>
+            <note type="Note">                
+               <p xml:lang="en" source="#biblk000141-4">According to Yingzao fashi, zhaqian refers to cross beams that span one rafter （Liang 1983，142）. Zhaqian usually only serves to connect two members, but is not load-bearing . In extant buildings in southeast China, a similar component--called shuiliang in Zhejiang and Jiangsu, shumu in southern Fujian, and shuishu in Guangdong-- structurally combines zhaqian, chashou, and tuojiao.</p>                
+               <p xml:lang="zh-Hant" source="#biblk000141-4">劄牽為《營造法式》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為水梁（江浙）、束木（閩南）、水束（廣府），等。
+               </p>             
             </note>
             <bibl xml:id="biblk000141-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">393</citedRange>
             </bibl>
-            <listBibl xml:id="biblk000141-2">
-               <bibl>
+            <bibl xml:id="biblk000141-2">
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">29</citedRange>
-               </bibl> 
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">393</citedRange>
-               </bibl> 
-               <bibl>
+            </bibl>    
+            <bibl xml:id="biblk000141-3">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">588, 359-360</citedRange>
-               </bibl>                     
-            </listBibl>
+            </bibl>
+            <bibl xml:id="biblk000141-4">
+               <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+               <citedRange unit="pp">142</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000141</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000141" passive="building frame"/>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51272659777_ef186b6d0f_k.jpg" passive="https://architecturasinica.org/keyword/k000141" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000141" passive="building frame"/> 
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>
