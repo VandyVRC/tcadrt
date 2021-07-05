@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Huayan Lower Monastery, Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</foreign>
+            <title level="a" xml:lang="en">Huayan Upper Monastery, Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -49,6 +49,8 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change when="2020-09-26">Editing name by
+            <name type="person" ref="TGM">Tracy Miller</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,11 +58,11 @@
          <listPlace>
             <place xml:id="place-000183" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000183-1" xml:lang="en">Mahāvīra Treasure Hall</placeName>
-               <placeName xml:id="name000183-2" type="building-name" xml:lang="zh-Hant">上寺大雄寶殿</placeName>
-               <placeName xml:id="name000183-3" type="building-name" xml:lang="zh-Hans">上寺大雄寶殿</placeName>
-               <placeName xml:id="name000183-4" type="building-name" xml:lang="zh-latn-pinyin">Dàxióngdiàn</placeName>
-               <placeName xml:id="name000183-5" type="building-name" xml:lang="zh-latn-wadegile">Ta-hsiung-tien</placeName>
-               <placeName xml:id="name000183-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Huayansi Shangsi Daxiongbaodian</placeName>
+               <placeName xml:id="name000183-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
+               <placeName xml:id="name000183-3" type="building-name" xml:lang="zh-Hans">大雄寶殿</placeName>
+               <placeName xml:id="name000183-4" type="building-name" xml:lang="zh-latn-pinyin">Huáyánsì shàngsì dàxióng bǎodiàn</placeName>
+               <placeName xml:id="name000183-5" type="building-name" xml:lang="zh-latn-wadegile">Hua-yen-ssu shang-ssu ta-hsiung pao-tien</placeName>
+               <placeName xml:id="name000183-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Huayan Upper Monastery Daxiongbao Hall</placeName>
                <placeName xml:id="name000183-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</placeName>
                <placeName xml:id="name000183-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">华严寺上寺大雄寶殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000183</idno>
