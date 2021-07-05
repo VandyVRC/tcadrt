@@ -60,6 +60,7 @@
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
          <change n="2.2" when="2021-05-05" who="#HDN">Added location</change>
          <change n="2.3" when="2021-05-06" who="#HDN">Added site description</change>
+         <change n="2.4" when="2021-07-05" who="#HDN">Added listbibl</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -101,20 +102,25 @@
                <bibl xml:id="bibl000024b-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <listBibl xml:id="bibl000024b-1">
+               </bibl>  
+               <bibl xml:id="bibl000024b-1">
+                     <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
+                     <citedRange unit="pp">40</citedRange>
+                     </bibl>               
+               <listBibl xml:id="bibl000024b-3">  
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                     <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                     <citedRange unit="pp">12</citedRange>
                   </bibl>
-                  <bibl>
+               <bibl>
                      <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                      <citedRange unit="pp">38</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
-                     <citedRange unit="pp">40,116,144</citedRange>
+                     <citedRange unit="pp">116,144</citedRange>
                   </bibl>
-               </listBibl>   
+               </listBibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
