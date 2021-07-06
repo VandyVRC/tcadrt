@@ -59,6 +59,7 @@
          <change n="2.1" when="2020-09-17" who="#SLY">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
          <change n="2.2" when="2021-05-05" who="#HDN">Added location</change>
          <change n="2.3" when="2021-05-06" who="#HDN">Added site description</change>
+         <change n="2.4" when="2021-07-05" who="#HDN">Added listbibl</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -75,6 +76,9 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024-2">             
+                  <p xml:lang="zh-Hant" source="#bibl000024-2"></p>   
                <desc type="site-data" xml:lang="en">
                   <p>Located in Ji county 薊縣, Tianjin Municipality 天津市, Dule Monastery (Dulesi 獨樂寺) is the earliest extant <term ref="/keyword/k000047">Liao</term> Buddhist monastery. Dule Monastery consists of two courtyards, one with <term ref="/place/000024b">the Mountain Gate (Shanmen 山門)</term> and <term ref="/place/000024c">the Guanyin Pavilion (Guanyin ge 觀音閣)</term>, and the other, <term ref="/place/000024a">Bao’en Cloister (Bao’en yuan 報恩院)</term>, with the Mahavira Treasure Hall (Daxiong baodian 大雄寶殿).</p>
                   <p source="#bibl000024-1">The monastery has a long history and may have had significance to the Liao royal family. According to Chen Mingda’s research using the Qinding Panshanzhi 欽定盤山志, Dule Monastery was first constructed on Mount Pan in the nineteenth year of the <term ref="keyword/k000056">Northern Wei</term> Taihe reign period (495). In the eighteenth year of the <term ref="keyword/k000082">Tang</term> Kaiyuan period (730), Ji Prefecture was changed to Ji County and the monastery was named after it. In 922, Khitan troops invaded Ji County and, in the eleventh year of the Tianxian reign period (936), Abaoji (Liao Taizu) worshipped Guanyin as a family deity (Chen 2007, 197-98; date unconfirmed; elevation to "family deity" 家神 found in <title ref="https://tinyurl.com/e5ftcenv">Liaoshi 49.835</title>; <title ref="https://tinyurl.com/4p46dhdb">Liaoshi 37.445-446</title>). Today, <term ref="/place/000024b">the Mountain Gate</term> and <term ref="/place/000024c">the Guanyin Pavilion</term> remain the original structures rebuilt during the second year of the <term ref="/keyword/k000047">Liao</term> Tonghe reign period (984), and the rest of the buildings in the Monastery were rebuilt during the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasty (Chen 2007, 197-98, Liang 1932).</p>
@@ -122,13 +126,11 @@
                  <listBibl xml:id="bibl000024-1">
                      <bibl>
                         <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/CFPUZ3UX"/>
+                        <citedRange unit="pp">197-201</citedRange>
                      </bibl>
                      <bibl>
                         <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
-                     </bibl>
+                     </bibl>     
                   </listBibl>
             </place>
             
@@ -137,9 +139,7 @@
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51158192711_1afb4c1fcd_c.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/> 
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/> 
-
-               
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/>              
             </listRelation>
          </listPlace>
       </body>
