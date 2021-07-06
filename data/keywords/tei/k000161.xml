@@ -49,7 +49,6 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00" who="FSY">CREATED: record</change>
-         <change n="1.1" when="2021-04-20" who="FSY">Gloss added by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,10 +59,9 @@
             <term xml:id="term-k000161-3" xml:lang="zh-Hans">栏</term>
             <term xml:id="term-k000161-4" xml:lang="zh-latn-pinyin">lán</term>
             <term xml:id="term-k000161-5" xml:lang="zh-latn-wadegile">lan</term>
-            <term xml:id="term-k000161-6" xml:lang="en">fence</term>
             <note type="Gloss">
-               <p xml:lang="en" xml:id="biblk000161-1">a railing or balustrade; literally:  "pen" or "stable" (Kroll 252)</p> 
-               <!--<p>以竹木等做成的遮攔物。</p>  -->
+               <p xml:lang="en" source="#biblk000161-1">a railing or balustrade; literally:  "pen" or "stable" (Kroll 2015, 252)</p>
+               <p xml:lang="zh-Hant" source="#biblk000161-1">以竹木等做成的遮攔物。</p>
             </note>
             <bibl xml:id="biblk000161-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>

@@ -8,20 +8,19 @@
                <foreign xml:lang="zh-Hant">里 </foreign>lǐ</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
-               <respStmt>
-               <resp>Peer review by</resp>
-               <name type="team">CMW S21</name>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
             </respStmt>
             <respStmt>
                <resp>Adding citations and gloss 2021 by</resp>
-               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
-                  <resp>Website coordination by</resp>
-                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>               
+               <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>             
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -66,7 +65,7 @@
             <term xml:id="term-k000087-5" xml:lang="zh-latn-wadegile">li</term>
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000087-1">a ward (Steinhardt 1990, 227) or neighborhood (Miller 2007, 32); a unit of length (Fu 2017, 360)</p>
-               <!-- <p xml:lang="zh-Hant">地方行政組織；一種長度單位。</p> -->
+               <p xml:lang="zh-Hant" source="#biblk000087-1">地方行政組織；一種長度單位。</p>
             </note>
             <listBibl xml:id="biblk000087-1">
                <bibl>

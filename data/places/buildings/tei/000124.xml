@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Anchan Monastery, sutra hall <foreign xml:lang="zh-Hant">安禪寺藏經殿</foreign>
+            <title level="a" xml:lang="en">Anchan Monastery, sutra preservation hall <foreign xml:lang="zh-Hant">安禪寺藏經殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -63,21 +63,23 @@
          <change n="2.0" when="2020-03-24">CREATED: place record</change>
          <change when="2020-09-24">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.1" when="2021-05-18">modifying name and pinyin<name type="person" ref="#">Tracy Miller</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000124" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000124-1" type="building-name" xml:lang="en">sutra hall</placeName>
+               <placeName xml:id="name000124-1" type="building-name" xml:lang="en">sutra preservation hall</placeName>
                <placeName xml:id="name000124-2" type="building-name" xml:lang="zh-Hant">藏經殿</placeName>
                <placeName xml:id="name000124-3" type="building-name" xml:lang="zh-Hans">藏经殿</placeName>
                <placeName xml:id="name000124-4" type="building-name" xml:lang="zh-latn-pinyin">Cángjīngdiàn</placeName>
                <placeName xml:id="name000124-5" type="building-name" xml:lang="zh-latn-wadegile">Ts'ang-ching-tien</placeName>
-               <placeName xml:id="name000124-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Anchansi zangjingdian</placeName>
+               <placeName xml:id="name000124-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Anchansi cangjingdian</placeName>
                <placeName xml:id="name000124-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">安禪寺藏經殿</placeName>
                <placeName xml:id="name000124-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">安禅寺藏经殿</placeName>
-               <placeName xml:id="name000124-11" type="alternate">Zangjingdian</placeName>
+               <placeName xml:id="name000124-11" type="alternate" xml:lang="zh-latn-pinyin">Zangjingdian</placeName>
+               <placeName xml:id="name000124-12" type="alternate" xml:lang="en">sutra repository</placeName>
                <idno type="URI">https://architecturasinica.org/place/000124</idno>
                <state type="existence" from="0960-01-01" to="1125-01-01">
                   <label>Date</label>
@@ -87,7 +89,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc type="building-data" source="#bibl000124-1">The zangjingdian (藏经殿) or the sutra repository hall of Anchansi is built on a brick podium. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, laid with yellow and green glazed tiles with square centers. Under the eaves are four layer bracket sets (pūzuò) with a single huágŏng (petal bracket arm) and a locust head style shuătóu (trifling-tip), there is one intercolumnar bracket set in each bay. The entasis of the columns is prominent. The original system of woodwork/latticework is no longer extant.</desc>
+               <desc type="building-data" source="#bibl000124-1">The sutra preservation hall or sutra repository (cangjingdian 藏经殿)  of Anchansi is built on a brick foundation. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, and the gray rooftiles are punctuated with a central diamond of yellow and green glazed tiles. Under the eaves are four layer bracket sets (<term ref="/keyword/k000013">puzuo</term>) with a single <term ref="/keyword/k000172">huagong</term> and a locust head style <term>shuatou</term>. There is one intercolumnar bracket set in the central bay. The entasis of the columns is clearly evident. The original system of woodwork/latticework is no longer extant.</desc>
                <location type="gps" subtype="preferred">
                   <geo>37.42453333 112.5473333</geo>
                </location>
@@ -119,6 +121,7 @@
                <relation active="https://architecturasinica.org/place/000124" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000124" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000124" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000001"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/4087/4831345368_dbe72ddfc7_b.jpg" passive="https://architecturasinica.org/place/000124" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

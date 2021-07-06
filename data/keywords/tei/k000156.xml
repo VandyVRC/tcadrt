@@ -14,6 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -51,8 +52,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-03-18">CREATED: record</change>
-         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
+         <change n="1.0" when="2021-03-18"  who="#HDN">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +66,11 @@
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000156-2">literally:  "commanding" or "leading" bracket arm (Kroll 2015, 277, 135; Fu 2017, 360); outermost bracket arm (in a bracket set); placed parallel to the building plane, and usually the closest to the eaves purlin (Zuo 2019, 176; Guo 2002, 55); if linggong is used inside the building, it is beneath the suantingfang; also called "single bracket-arm". (Chen, 2010, 131)</p>     
                <p xml:lang="zh-Hant" source="#biblk000156-3">鋪作最外一跳上的横栱，或名”单栱“。外在橑檐方下，内在筭桯方下。（陳 2010, 131）</p> 
-            </note>  
+            </note>
+            <bibl xml:id="biblk000156-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">131</citedRange> 
+            </bibl> 
             <listBibl xml:id="biblk000156-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
@@ -89,16 +93,10 @@
                   <citedRange unit="pp">131</citedRange> 
                </bibl>
             </listBibl>     
-            <listBibl xml:id="biblk000156-3"> 
-               <bibl>
+               <bibl xml:id="biblk000156-3">
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                   <citedRange unit="pp">131</citedRange> 
-               </bibl>
-            </listBibl>    
-            <bibl xml:id="biblk000156-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">131</citedRange> 
-            </bibl> 
+               </bibl>                
             <idno type="URI">https://architecturasinica.org/keyword/k000156</idno>
             <listRelation>
                <listRelation>

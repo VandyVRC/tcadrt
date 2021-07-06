@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Huayan Lower Monastery <foreign xml:lang="zh-Hant">華嚴寺</foreign>
+            <title level="a" xml:lang="en">Huayan Monastery <foreign xml:lang="zh-Hant">華嚴寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -49,22 +49,25 @@
          <change n="2.0" who="#SQ" when="2020-03-20-04:00">adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change when="2021-07-05">editing title by
+            <name type="person" ref="#TGM">Tracy Miller</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000041" type="site">
-               <placeName xml:id="name000041-1" type="site-name" xml:lang="en">Huayan Lower Monastery</placeName>
+               <placeName xml:id="name000041-1" type="site-name" xml:lang="en">Huayan Monastery</placeName>
                <placeName xml:id="name000041-2" type="site-name" xml:lang="zh-latn-pinyin">Huáyánsì</placeName>
                <placeName xml:id="name000041-3" type="site-name" xml:lang="zh-latn-wadegile">Hua-yen-ssu</placeName>
                <placeName xml:id="name000041-4" type="site-name" xml:lang="zh-Hant">華嚴寺</placeName>
                <placeName xml:id="name000041-5" type="site-name" xml:lang="zh-Hans">华严寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000041</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000041-1" from="0916-01-01" to="1125-01-01">
+               <!-- <state type="existence" subtype="dynasty" source="#bibl000041-1" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               -->
                <note type="External Links">                  
                   <p>
                      <ref target="https://tinyurl.com/wxxqmex">Wikipedia (in English)</ref>
@@ -73,7 +76,7 @@
                      <ref target="https://tinyurl.com/wb42oba">Wikipedia (in Chinese)</ref>
                   </p>
                   <p>
-                     <ref target="https://tinyurl.com/wz9ecru">百度百科</ref>
+                     <ref target="https://tinyurl.com/5eve3n77">百度百科</ref>
                   </p>
                </note>
                <location type="nested" source="http://vocab.getty.edu/tgn/8208819 http://vocab.getty.edu/aat/300387198">
