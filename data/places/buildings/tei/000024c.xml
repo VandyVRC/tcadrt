@@ -100,9 +100,8 @@
                   <desc xml:lang="zh-latn-pinyin">ge</desc>
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="zh-Hans">阁</desc>
-               </trait>
-              
-               <listBibl xml:id="bibl000024c-2">
+               </trait>              
+               <listBibl xml:id="bibl000024c-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
                      <citedRange unit="pp">2</citedRange>
@@ -110,11 +109,20 @@
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
                   </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000024c-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                      <citedRange unit="pp">48</citedRange>
                   </bibl>
-               </listBibl> 
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+               </listBibl>
+                  <bibl xml:id="bibl000024c-3">
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">11</citedRange>
+                  </bibl> 
                <bibl xml:id="bibl000024c-4">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
