@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">丹墀</foreign> dānchí</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+         	<idno type="URI">https://architecturasinica.org/keyword/k000145/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-03-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-03-24" who="#ZJ">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000145" type="architectural feature">
+            <term xml:id="term-k000145-1" xml:lang="zh-latn-pinyin-nt" type="preferred">danchi</term>
+            <term xml:id="term-k000145-2" xml:lang="zh-Hant">丹墀</term>
+            <term xml:id="term-k000145-3" xml:lang="zh-Hans">丹墀</term>
+            <term xml:id="term-k000145-4" xml:lang="zh-latn-pinyin">dānchí</term>
+            <term xml:id="term-k000145-5" xml:lang="zh-latn-wadegile">tan-ch'ih</term>
+            <note type="Gloss">
+               <p xml:lan="en" source="biblk000145-1">lit. "cinnabar  stairway" (Kroll 2015, 50, 74); usually refers to the platform supporting the primary buildings in a palatial compound. Sui dynasty usage differs, however, suggesting that this term referred to different locations over time.</p>
+               <p xml:lang="zh-Hant" source="#biblk000145-1">指處於建築中心位置的開間。</p>   
+            </note>
+               <bibl xml:id="biblk000145-1">
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">50, 74</citedRange>
+               </bibl>   
+            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

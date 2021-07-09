@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, Guanyin Pavilion <foreign xml:lang="zh-Hant">獨樂寺觀音閣</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024c/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change n="2.1" when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.2" when="2021-05-05" who="#HDN">Added location, site description</change>
+         <change n="2.2" when="2021-07-05" who="#HDN">Added listbibl</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000024c" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024c-1" xml:lang="en">Guanyin Pavilion</placeName>
+               <placeName xml:id="name000024c-2" type="building-name" xml:lang="zh-Hant">觀音閣</placeName>
+               <placeName xml:id="name000024c-3" type="building-name" xml:lang="zh-Hans">观音阁</placeName>
+               <placeName xml:id="name000024c-4" type="building-name" xml:lang="zh-latn-pinyin">Guānyīngé</placeName>
+               <placeName xml:id="name000024c-5" type="building-name" xml:lang="zh-latn-wadegile">Kuan-yin-ko</placeName>
+               <placeName xml:id="name000024c-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Guanyinge</placeName>
+               <placeName xml:id="name000024c-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺觀音閣</placeName>
+               <placeName xml:id="name000024c-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">独乐寺观音阁</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024c</idno>
+               <state type="existence" from="0984-01-01" to="0984-01-01">
+                  <label>Date</label>
+                  <desc>984</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000024c-4" from="0916-01-01" to="1125-01-01">
+                  <label>Dynasty</label>
+                  <desc>Liao 916 - 1125</desc>
+               </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024c-1">Rebuilt in 984 during the second year of the <term ref="/keyword/k000047">Liao</term> Tonghe reign period (遼統和二年), the Guanyin Pavilion is among the oldest extant <term ref="/keyword/k000078">ge 閣</term> in China (Chen 2007, 2). The pavilion exhibits three plaques with inscriptions. “觀音之閣” was traditionally attributed to Li Bai 李白 (701-762), a poet from the <term ref="/keyword/k000082">Tang dynasty</term> (Liang 1932). “普門香界” and “具足圓成” were traditionally attributed to Emperor Qianlong 乾隆 from the <term ref="/keyword/k000070">Qing dynasty</term> (Liang 1932).</p>
+                  <p xml:lang="en" source="#bibl000024c-2">Categorized as a <term ref="/keyword/k000130">palatial hall (diantang 殿堂)</term>, the pavilion reflects the ideal timber proportions as expressed in the Yingzaofashi 營造法式 (Steinhardt 1997, 48). The pavilion is five bays wide by four bays deep, and is crowned with a <term ref="/keyword/k000143">hip-and-gable roof</term> (xieshanding 歇山頂). It has three floors, and it is about twenty-three meters in height. Interestingly, the pavilion exterior shows only two floors, resulting from a hidden mezzanine creating the second level (Liang 1932).</p>
+                  <p xml:lang="en" source="#bibl000024c-3">Similar dougong structures such as corner bracket sets 轉角鋪作, <term ref="/keyword/k000120">pillar-tops 柱頭鋪作</term>, and <term ref="/keyword/k000105">intercolumnar bracket sets 補間鋪作</term> are shown in both the pavilion and the <term ref="/place/000024b">Mountain Gate</term>. Located at the center of the pavilion is a Buddhist <term ref="/keyword/k000176">altar</term> 佛壇 (Chen 2007, 11). The altar is surrounded by two circuits of columns, twenty-eight in total. The columns enclose an empty central space for the enshrinement of the almost sixteen-meter high sculpture of Guanyin clay statue and the three-meter tall clay sculptures of two assistant bodhisattvas (Chen 2007, 11). The Guanyin is an example of the eleven-faced <term ref="https://tinyurl.com/zkn2e9c5">Avalokiteśvara</term> 十一面觀音. Observers only can see the eleven heads when they reach the third floor. Above the statue’s head is an octagonal caisson ceiling, known as zaojing 藻井.</p>         
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>40.045342 117.402597</geo>
+               </location>
+               <location type="verbatim">
+                  <note>(Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">storied pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
+               </trait>              
+               <listBibl xml:id="bibl000024c-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">2</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000024c-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">48</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+               </listBibl>
+                  <bibl xml:id="bibl000024c-3">
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">11</citedRange>
+                  </bibl> 
+               <bibl xml:id="bibl000024c-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <!-- 
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000024c">
+                  <desc>Guanyinge, Front view from Shanmen</desc>
+               </relation>
+                -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
+               <relation ref="https://live.staticflickr.com/65535/51160710931_393b13f3aa_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

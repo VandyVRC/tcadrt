@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, revolving sutra pavilion <foreign xml:lang="zh-Hant">隆興寺轉論藏閣</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, revolving sutra pavilion <foreign xml:lang="zh-Hant">隆興寺轉輪藏閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -56,14 +56,14 @@
          <listPlace>
             <place xml:id="place-000211" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000211-1" xml:lang="en">revolving sutra pavilion</placeName>
-               <placeName xml:id="name000211-2" type="building-name" xml:lang="zh-Hant">轉論藏閣</placeName>
-               <placeName xml:id="name000211-3" type="building-name" xml:lang="zh-Hans">转论藏阁</placeName>
+               <placeName xml:id="name000211-2" type="building-name" xml:lang="zh-Hant">轉輪藏閣</placeName>
+               <placeName xml:id="name000211-3" type="building-name" xml:lang="zh-Hans">转轮藏阁</placeName>
                <placeName xml:id="name000211-4" type="building-name" xml:lang="zh-latn-pinyin">zhuǎnlùnzànggé</placeName>
                <placeName xml:id="name000211-5" type="site-name" xml:lang="zh-latn-wadegile">chuan-lun-tsang-ko</placeName>
                <placeName xml:id="name000211-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longxingsi zhuanlunzangge</placeName>
-               <placeName xml:id="name000211-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺轉論藏閣</placeName>
-               <placeName xml:id="name000211-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺轉論藏閣</placeName>
-               <placeName xml:id="name000211-11" type="alternate">Zhuanlunzangge</placeName>
+               <placeName xml:id="name000211-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺轉輪藏閣</placeName>
+               <placeName xml:id="name000211-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺轉轮藏阁</placeName>
+               <placeName xml:id="name000211-11" type="alternate">zhuanlunzangge</placeName>
                <idno type="URI">https://architecturasinica.org/place/000211</idno>
                <state type="existence" from="1050-01-01" to="1100-01-01">
                   <label>Date</label>
@@ -79,12 +79,12 @@
                <location type="verbatim">
                   <note>38˚ 08' 36.44" N (google earth 9/2009) 114˚ 34' 34.26" E</note>
                </location>
-               <trait type="type" sub-type="building-type">
+               <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">pavilion</desc>
-                  <desc xml:lang="zh-latn-pinyin">ting</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="zh-latn-pinyin">ge</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
                </trait>
                <bibl xml:id="bibl000211-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>

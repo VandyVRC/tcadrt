@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Xingshengjiao Monastery Pagoda <foreign xml:lang="zh-Hant">興聖教寺塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SEB">Sarah Brooker</editor>
+            <respStmt>
+               <resp>Initial research and description 2021 by</resp>
+               <name type="person" ref="#SEB">Sarah Brooker</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000291/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-2-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SEB" when="2021-04-02">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000291" type="site">
+               <placeName xml:id="name000291-1" type="site-name" xml:lang="en">Xingshengjiao Temple Pagoda</placeName>
+               <placeName xml:id="name000291-2" type="site-name" xml:lang="zh-Hant">興聖教寺塔</placeName>
+               <placeName xml:id="name000291-3" type="site-name" xml:lang="zh-Hans">兴圣教寺塔</placeName>
+               <placeName xml:id="name000291-4" type="site-name" xml:lang="zh-latn-pinyin">Xīngshèngjiāo sì tǎ</placeName>
+               <placeName xml:id="name000291-5" type="site-name" xml:lang="zh-latn-wadegile">Hsing-sheng-chiao ssu t'a</placeName>
+               <placeName xml:id="name000291-6" type="site-name" xml:lang="en">Songjiang Square Pagoda</placeName>
+               <placeName xml:id="name000291-7" type="site-name" xml:lang="zh-Hant">松江方塔</placeName>
+               <placeName xml:id="name000291-8" type="site-name" xml:lang="zh-Hans">松江方塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000291</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000291-4" from="0971-01-01"
+                  to="1127-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Song 960 - 1172</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000291-1">Xingshengjiao Temple Pagoda is located in the Fangta Park of the Songjiang district in Shanghai. It is classified as a square type and a pavilion type pagoda (Tian 2002, 1; Ye 2015, 44; Zheng 1981, 73). The pagoda is also commonly known as the Songjiang Square Pagoda (Tian 2002, 1). Constructed during the Xining and Yuanyou reigns of the <term ref="https://architecturasinica.org/keyword/k000055" >Northern Song (1068-1094)</term> (Zheng 1981, 72), Xingshengjiao Temple Pagoda was originally a building within the Xingshengjiao Temple Complex. The pagoda is the only part of the temple to survive. It stands 9 stories tall, reaching 48.5 meters tall (Zheng 1981, 73-4). The core of the pagoda is constructed in brick, and the eaves are made of timber (Tan 2002, 90). Although it was built prior to the compilation of the <term ref="https://architecturasinica.org/keyword/k000127">Yingzao fashi</term>, the measurements of the pagoda are consistent with the regulations of the Yingzao fashi (Tan 2002, 90). In order to compensate for the strong southeast wind at the site, the pagoda was originally constructed with a incline toward the southeast. However, over its lifetime, the southeast wind has gradually pushed the pagoda to have a 50 cm incline to the northwest (Zheng 1981, 75).</p>
+                  <p source="#bibl000291-2">In 1974, an excavation by the Shanghai Museum uncovered a small pagoda crypt (Zhang and Sun 1983, 1125). The crypt is 0.65 meters wide from east to west, 0.48 meters long from north to south, and 0.45 meters deep (Lee 2010, 259; Zhang and Sun 1983, 1125). The inside of the crypt was undecorated (Lee 2010, 259). The crypt contained a set of nesting boxes, the outermost made of stone, the middle one made of lacquer, and the smallest two made of silver (Zhang and Sun 1983, 1127). On the top of the outermost box were 186 bronze coins and a small gilt bronze statue, the base standing 5.5 centimeters tall and the statue standing 14 centimeters tall overall (Lee 2010, 253-4; Zhang and Sun 1983, 1125-6). The statue has been identified as the Central Asian monk Sengqie (617-710) who was a popular figure of worship during the <term ref="https://architecturasinica.org/keyword/k000082">Tang</term> and <term ref="https://architecturasinica.org/keyword/k000055">Northern Song</term> dynasties (Lee 2010, 253; Zhang and Sun 1983, 1125). The lacquer box contained both silver boxes, a bronze reclining Buddha statue, a piece of agarwood, and 101 small silver beads (Zhang and Sun 1983, 1127-8). The bronze Buddha is 42 centimeters long, and hollow, containing two Śarīra relic beads (Lee 2010, 258). A piece of wood was used to seal these beads within the Buddha, with an inscription reading: “Interred here is the ordained monk (bhikkhu) Miaoyuan of the Xingsheng monastery” 興聖院比丘妙遠入藏 (Lee 2010, 258-9; modified translation). Within the two silver containers were two of the Buddha’s teeth, identified by the Shanghai museum as elephant teeth, and seven additional Śarīra relic beads (Zhang and Sun 1983, 1127-8).</p>
+                  <p source="#bibl000291-3">Between 1975 and 1977, this pagoda underwent major renovations. During the renovations it was found that out of 177 dougong, approximately 110 were the original dougong from the <term ref="https://architecturasinica.org/keyword/k000074">Song dynasty</term> (Tan 2002, 90; Tian 2002, 1; Zheng 1981, 73). In 1996, Xingshengjiao temple pagoda was added to the list of Shanghai’s nationally protected sites (Tan 2002, 90; Zheng 1981, 73).</p>
+               </desc>     
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/5x8s4wpm">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/u34bwpr7">Wikipedia (in Chinese)</ref>
+                  </p>                  
+                  <p>
+                     <ref target="https://tinyurl.com/p7ce7n98">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested">
+                  <country>China</country>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Shanghai Municipality</placeName>
+                     <placeName xml:lang="zh-Hant">上海市</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shànghǎi shì</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="en">Songjiang District</placeName>
+                     <placeName xml:lang="zh-Hant">松江區</placeName>
+                     <placeName xml:lang="zh-latn-pinyin"> Sōngjiāng qū</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>31.006389 121.241667 </geo>
+               </location>
+               <location type="verbatim">
+                  <note> (Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <listBibl xml:id="bibl000291-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/63QAUNNU"/>
+                     <citedRange unit="pp">1</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/RWQPFSUR"/>
+                     <citedRange unit="pp">44</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/65QW2AY7"/>
+                     <citedRange unit="pp">72-5</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WUDDY8ZF"/>
+                     <citedRange unit="pp">90</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000291-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MAGI7IHW"/>
+                     <citedRange unit="pp">1125-8</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/J3K7JDVU"/>
+                     <citedRange unit="pp">253-9</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000291-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WUDDY8ZF"/>
+                     <citedRange unit="pp">90</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/63QAUNNU"/>
+                     <citedRange unit="pp">1</citedRange>
+                  </bibl>     
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/65QW2AY7"/>
+                     <citedRange unit="pp">73</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000291-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+          <listRelation>
+               <relation active="https://architecturasinica.org/place/000291"
+                  passive="https://architecturasinica.org/keyword/k000060"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000291" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000291" passive="https://architecturasinica.org/keyword/k000112" ref="dcterms:subject" ana="architectural-feature"/>              
+            <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/51139226678_e14cc2c581_c.jpg"   
+                  passive="https://architecturasinica.org/place/000291" ana="featured"/>
+             <relation ref="foaf:depicts"
+                active="https://live.staticflickr.com/65535/51139009531_c95eee5382_c.jpg"   
+                passive="https://architecturasinica.org/place/000291" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">當心間</foreign> dāngxīnjiān</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
+            <editor role="content-author">CMW S21</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citation and gloss by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000153/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-05-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-05-27" who="#XQ">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000153" type="architectural feature">
+            <term xml:id="term-k000153-8" xml:lang="zh-latn-pinyin-nt" type="preferred">dangxinjian</term>
+            <term xml:id="term-k000153-2" xml:lang="zh-Hant">當心間</term>
+            <term xml:id="term-k000153-3" xml:lang="zh-Hans">当心间</term>
+            <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin">dāngxīnjiān</term>
+            <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">tang-hsin-chien</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000153-1">central bay (Chen 2010, 376; Guo 2002, 29); see <term ref="/keyword/k000142">xinjian</term>; mingjian.</p>
+               <p xml:lang="zh-Hant" source="#biblk000153-1">建築物的中心開間。參見 “<term ref="/keyword/k000142">心間</term>”; "明間”。</p>   
+            </note>
+            <listBibl xml:id="biblk000153-1">
+            <bibl>
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">376</citedRange>
+            </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">29</citedRange>
+               </bibl>           
+            </listBibl> 
+            <idno type="URI">https://architecturasinica.org/keyword/k000153</idno>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000151" passive="building frame"/>
+               <!--
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->               
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

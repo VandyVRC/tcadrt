@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Zhenru Monastery <foreign xml:lang="zh-Hant">真如寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="CBL">CHEN Baolong 陈宝龙</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#CBL">CHEN Baolong 陈宝龙</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <name type="person" ref="#TGM">, Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000290/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-02" who="#CBL">CREATED: place record</change>
+         <change n="1.1" when="2021-04-16" who="#CBL">Information Revision</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000290" type="site">
+               <placeName xml:id="name000290-1" type="site-name" xml:lang="en">Zhenru Monastery</placeName>
+               <placeName xml:id="name000290-4" type="site-name" xml:lang="zh-Hant">真如寺</placeName>
+               <placeName xml:id="name000290-5" type="site-name" xml:lang="zh-Hans">真如寺</placeName>
+               <placeName xml:id="name000290-2" type="site-name" xml:lang="zh-latn-pinyin">Zhēnrúsì</placeName>
+               <placeName xml:id="name000290-3" type="site-name" xml:lang="zh-latn-wadegile">Chen-ju-ssu</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000290</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000290-2" from="1271-01-01" to="1368-01-01">
+                  <label>Dynasty</label>
+                   <desc>Yuan 1271 - 1368</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000290-1">Zhenru Monastery, also known as Dasi, the “Grand Temple,” in the <term ref="/keyword/000070">Qing dynasty</term>, is a Buddhist monastery located in Zhenru Town in northwest Shanghai (Lu 2004; Zuo 2019, 130). The town is named after the monastery (Shanghai wenwu baoguan weiyuanhui 1966, 16). The Monk Yong’an reconstructed the monastery and gave the name Zhenruyuan to it during the Jiading reign (1208-1224) of the <term ref="/keyword/000076">Southern Song dynasty</term> (Lu 2004). Then it was relocated to a place called Taoshupu by the Monk Miaoxin during the Yanyou reign (1314-1320) of the <term ref="/keyword/000101">Yuan dynasty</term> and he acquired a new plaque in order to change the name from Zhenruyuan to Zhenrusi (Lu 2004). Later during the Hongwu reign (1368-1398) and the Hongzhi Reign (1488-1505) of the Ming dynasty, Monk Daoxin and Monk Falei restored the monastery twice (Lu 2004).</p>
+                  </desc>
+               <desc type="site-data" xml:lang="zh-Hant">
+                  <p source="#bibl000290-1">真如寺，<term ref="/keyword/000070">清代</term>又稱大寺，是一座位於上海西北真如鎮的佛教寺廟（陸 2004 ; 左 2019,130)。 真如鎮由寺得名（上海文物保管委員會 1996，16）. <term ref="/keyword/000076">南宋</term>嘉定年間（1208-1224）僧人永安重修寺廟並命其名為真如院（陸 2004)。 <term ref="/keyword/000101">元代</term>延祐年間（1314-1320）僧人妙心移寺至桃樹浦並請額將真如院改名為真如寺。 明洪武（1368-1398）與弘治（1488-1505）年間僧道馨與法雷前後兩次修復真如寺（陸 2004)。</p>                  
+               </desc>
+               <note type="External Links">                  
+                  <p>
+                     <ref target="https://tinyurl.com/dxdfypk3">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/2ss5uw24">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/4z6uhfxp">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested">
+                  <country>China</country>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Shanghai Municipality</placeName>
+                     <placeName xml:lang="zh-Hant">上海市</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shànghǎi shì</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                  <placeName xml:lang="en">Putuo District</placeName>
+                     <placeName xml:lang="zh-Hant">普陀區</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Pǔtuó qū</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>31.251389 121.396667</geo>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type</label>
+                  <desc xml:lang="en">Monastery</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+                 <listBibl xml:id="bibl000290-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7IY8QL6N"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                     <citedRange unit="pp">130</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/LW4E22PB"/>
+                     <citedRange unit="pp">16</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000290-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+              <relation active="https://architecturasinica.org/place/000290" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000290" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51116426191_6240b35b91_c.jpg"
+                  passive="https://architecturasinica.org/place/000290" ana="featured"/>
+               <!-- <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51115862497_72dfb73cdc_c.jpg"
+                  passive="https://architecturasinica.org/place/000048" ana="featured"/>            
+                  <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_3d5a2a9fe0_o.jpg"
+                  passive="https://architecturasinica.org/place/000048" ana="featured"/> -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

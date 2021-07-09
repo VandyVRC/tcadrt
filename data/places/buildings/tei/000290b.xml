@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Zhenru Monastery, Buddhist Pagoda <foreign xml:lang="zh-Hant">真如佛塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="CBL">Chen Baolong 陈宝龙</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#CBL">Chen Baolong 陈宝龙</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000290b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-14" who="#CBL">CREATED: place record</change>
+         <change n="1.1" when="2021-04-16" who="#CBL">Information Revision and adding a picture</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000290b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000290b-1" type="building-name" xml:lang="en">Buddhist Pagoda</placeName>
+               <placeName xml:id="name000290b-2" type="building-name" xml:lang="zh-Hant">佛塔</placeName>
+               <placeName xml:id="name000290b-3" type="building-name" xml:lang="zh-Hans">佛塔</placeName>
+               <placeName xml:id="name000290b-4" type="building-name" xml:lang="zh-latn-pinyin">fótǎ</placeName>
+               <placeName xml:id="name000290b-5" type="building-name" xml:lang="zh-latn-wadegile">fo-t'a</placeName>
+               <placeName xml:id="name000290b-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenrusi Buddhist pagoda</placeName>
+               <placeName xml:id="name000290b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">真如寺佛塔</placeName>
+               <placeName xml:id="name000290b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">真如寺佛塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000290b</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000290b-2" from="1912-01-01" to="0000">
+                  <label>Dynasty</label>
+                  <desc>Post Qing 1912 -</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000290b-1">The construction of Zhenru Buddhist Pagoda was finished in 1999.</p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>31.251389 121.396667</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">pagoda</desc> 
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000290b-1">
+                  <ptr target="https://architecturasinica.org/bibl/38T6DVI5"/>  
+                  <citedRange unit="pp">13</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000290b-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000290b" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000290b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000290"/>
+               <relation active="https://architecturasinica.org/place/000290b" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51116426121_b8fd612187_4k.jpg"
+                  passive="https://architecturasinica.org/place/000290" ana="featured"/>
+               <!-- <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50670415122_3d107176a7_c.jpg"
+                  passive="https://architecturasinica.org/place/000289" ana="featured"/> -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

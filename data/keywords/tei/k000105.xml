@@ -56,7 +56,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000105" type="architectural-feature">
+         <entryFree xml:id="k000105" type="architectural feature">
             <term xml:id="term-k000105-4" xml:lang="zh-latn-pinyin-nt" type="preferred">bujian puzuo</term>
             <term xml:id="term-k000105-2" xml:lang="zh-Hant">補間鋪作</term>
             <term xml:id="term-k000105-3" xml:lang="zh-Hans">补间铺作</term>  
@@ -65,12 +65,11 @@
             <term xml:id="term-k000105-6" xml:lang="en" type="literal_translation">supplementary bay-corbelling (lit.)</term>
             <term xml:id="term-k000105-1" xml:lang="en" type="ATTCAT preferred" source="#biblk000105-1">inter-columnar corbelling; intercolumnar bracketing (ATTCAT preferred)</term>
             <term xml:id="term-k000105-7" xml:lang="en" source="#biblk000105-2">intercolumnar bracket set</term>
-            <note>
-               <p>Corbelling that appears between the pillars; see puzuo</p>
-               <p>
-                  Related terms:
-                  <term ref="https://architecturasinica.org/keyword/k000013">鋪作 pūzuò</term>, 平身科 píngshēnkē
-               </p>
+               <note type="Gloss">
+                  <p xml:lang="en">Corbelling that appears between the pillars; see <term ref="/keyword/k000013">pūzuò</term></p>
+               </note>
+            <note type="Related terms">
+               <p><term ref="/keyword/k000013">鋪作 pūzuò</term>, 平身科 píngshēnkē</p>
             </note>
             <bibl xml:id="#biblk000105-1">
                <ptr target="https://architecturasinica.org/bibl/XPA3Z57S"/>
@@ -94,7 +93,7 @@
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>-->
                  
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000105" passive="Bracketing"/>
+                     active="https://architecturasinica.org/keyword/k000105" passive="bracketing"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->

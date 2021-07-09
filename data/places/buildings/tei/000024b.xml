@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, Mountain Gate <foreign xml:lang="zh-Hant">獨樂寺山門</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citations</resp>
+               <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change n="2.1" when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.2" when="2021-05-05" who="#HDN">Added location, site description</change>
+         <change n="2.2" when="2021-07-05" who="#HDN">Added listbibl</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000024b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024b-1" xml:lang="en">Mountain Gate</placeName>
+               <placeName xml:id="name000024b-2" type="building-name" xml:lang="zh-Hant">山門</placeName>
+               <placeName xml:id="name000024b-3" type="building-name" xml:lang="zh-Hans">山门</placeName>
+               <placeName xml:id="name000024b-4" type="building-name" xml:lang="zh-latn-pinyin">Shānmén</placeName>
+               <placeName xml:id="name000024b-5" type="building-name" xml:lang="zh-latn-wadegile">Shan-men</placeName>
+               <placeName xml:id="name000024b-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Shanmen</placeName>
+               <placeName xml:id="name000024b-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺山門</placeName>
+               <placeName xml:id="name000024b-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">獨樂寺山門</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024b</idno>
+               <state type="existence" from="0984-01-01" to="0984-01-01">
+                  <label>Date</label>
+                  <desc>984</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000024b-4" from="0916-01-01" to="1125-01-01">
+                  <label>Dynasty</label>
+                  <desc>Liao 916 - 1125 </desc>
+               </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024b-1">Built in the <term ref="/keyword/k000047">Liao</term> dynasty, the Mountain Gate (Shanmen 山门) is the oldest extant monastery gate with a <term ref="/keyword/k000125">hipped roof (wudian廡殿) </term> in China (Ding 2016, 40). The wooden plaque inscribed with its name, “Dulesi,” was believed to be written by the <term ref="/keyword/k000051">Ming dymasty</term> senior secretary (daxueshi 大学士) Yan Song 嚴嵩.</p>
+                  <p xml:lang="en" source="#bibl000024b-2">The Mountain Gate is roughly ten meters in height, three bays wide, and two bays deep (4.36 x 6.10 m) (Liang 1932). As the only surviving Liao gate, it exhibits architectural components similar to <term ref="/place/000024c">the Guanyin Pavilion</term> behind it (Steinhardt 1997, 38). The main types of <term ref="/keyword/k000019">dougong 斗拱</term> shown in the Mountain Gate include: bracket sets on the <term ref="/keyword/k000120">pillar-tops 柱頭鋪作</term>, corner bracket arms 轉角鋪作, <term ref="/keyword/k000105">intercolumnar bracket sets 補間鋪作</term>, <term ref="/ keyword/k000118">shadow bracket arms 影栱</term>, and corner spanning bracket arms (mojiao bracket sets 抹角栱) —— some of them can be seen in the structure of the Guanyin Pavilion as well. The dougong of the Mountain Gate is about one-half of the height of the pillars (lizhu 立柱) below, which is consistent with Tang architectural style (Liang 1932).</p>
+                  <p xml:lang="en" source="#bibl000024b-3"> In addition to the monumental dougong, the historical significance of the Mountain Gate also lies in the two <term ref="https://tinyurl.com/vkc2erk7">Kongo Rikishi (vajra-warriors 金剛力士)</term> — heng 哼and ha 哈 — guardians standing at either side of the entrance. Scholars regard them as the oldest extant clay examples of Kongo Rikishi in China (Ding 2016, 144). Moreover, the ceramic <term ref="/keyword/k000009">chiwei 鴟尾 (owl tails)</term> on top of the Mountain gate are the oldest existing chiwei elements in China, and Liang Sicheng called them “extremely rare objects” (Ding 2016, 116).</p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>40.045342 117.402597</geo>
+               </location>
+               <bibl xml:id="bibl000024b-1">
+                  <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
+                  <citedRange unit="pp">40</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000024b-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl> 
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">38</citedRange>
+                  </bibl>
+               </listBibl>
+                  <bibl xml:id="bibl000024b-3">
+                     <ptr target="https://architecturasinica.org/bibl/QUW676U6"/>
+                     <citedRange unit="pp">144, 116</citedRange>
+                  </bibl>                
+               <bibl xml:id="bibl000024b-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>           
+            </place>
+            <listRelation>
+            <!--
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               -->      
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51161820955_7034925a17_h.jpg"
+                  passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51146247364_de3240e5d9_c.jpg"
+                  passive="https://architecturasinica.org/place/000024b" ana="featured"/>           
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51146570740_630b589f72_c.jpg"
+                  passive="https://architecturasinica.org/place/000024b" ana="featured"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

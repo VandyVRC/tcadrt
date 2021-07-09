@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">補間鋪作同柱頭鋪作</foreign> bǔjiān pùzuò tóng zhùtóu pùzuò</title>
+               <foreign xml:lang="zh-Hant">補間鋪作同柱頭鋪作</foreign> bǔjiān pūzuò tóng zhùtóu pūzuò</title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
@@ -47,11 +47,11 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000034" type="architectural-feature">
+         <entryFree xml:id="k000034" type="architectural feature">
             <term xml:id="term-k000034-5" type="preferred" xml:lang="zh-latn-pinyin-nt">bujian puzuo tong zhutou puzuo</term>
             <term xml:id="term-k000034-2" xml:lang="zh-Hant">補間鋪作同柱頭鋪作</term>
             <term xml:id="term-k000034-3" xml:lang="zh-Hans">补间铺作同柱头铺作</term>
-            <term xml:id="term-k000034-4" xml:lang="zh-latn-pinyin">bǔjiān pùzuò tóng zhùtóu pùzuò</term>
+            <term xml:id="term-k000034-4" xml:lang="zh-latn-pinyin">bǔjiān pūzuò tóng zhùtóu pūzuò</term>
             <term xml:id="term-k000034-6" xml:lang="zh-latn-wadegile">pu-chien-p`u-tso-t`ung-chu-t`ou-p`u-tso</term>
             <term xml:id="term-k000034-1" xml:lang="en">intercolumnar and column top bracket sets match</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000034</idno>
@@ -59,7 +59,7 @@
             <listRelation>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4612/39428627105_9795f73011_z.jpg" passive="https://architecturasinica.org/keyword/k000034" rendition="featured">
                </relation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000034" passive="Bracketing"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000034" passive="bracketing"/>
                <relation ref="https://architecturasinica.org/place/000132" source="Baoguosi Mahāvīra Treasure Hall"/>
             </listRelation>
          </entryFree>

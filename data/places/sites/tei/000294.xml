@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Qixia Monastery<foreign xml:lang="zh-Hant"> 棲霞寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZXL">ZHANG Xuliang 張序亮</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000294/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-03-15:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-04-03" who="#ZXL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000294" type="site">
+               <placeName xml:id="name000294-1" type="site-name" xml:lang="en">Qixia Monastery</placeName>
+               <placeName xml:id="name000294-2" type="site-name" xml:lang="zh-Hant">棲霞寺</placeName>
+               <placeName xml:id="name000294-3" type="site-name" xml:lang="zh-Hans">栖霞寺</placeName>
+               <placeName xml:id="name000294-4" type="site-name" xml:lang="zh-latn-pinyin">Qīxíasì</placeName>
+               <placeName xml:id="name000294-5" type="site-name" xml:lang="zh-latn-wadegile">Ch'i-hsia-ssu</placeName>
+               <placeName xml:id="name000294-17" type="site-name" xml:lang="zh-latn-pinyin">Gongde Monastery</placeName>
+               <placeName xml:id="name000294-6" type="alternate" xml:lang="zh-Hant">功德寺</placeName>
+               <placeName xml:id="name000294-7" type="alternate" xml:lang="zh-Hans">功德寺</placeName>
+               <placeName xml:id="name000294-8" type="site-name" xml:lang="zh-latn-pinyin">Yinjun Qixia Monastery</placeName>
+               <placeName xml:id="name000294-9" type="alternate" xml:lang="zh-Hant">隱君棲霞寺</placeName>
+               <placeName xml:id="name000294-10" type="alternate" xml:lang="zh-Hans">隐君栖霞寺</placeName>
+               <placeName xml:id="name000294-11" type="site-name" xml:lang="zh-latn-pinyin">Miaoyin Monastery</placeName>
+               <placeName xml:id="name000294-12" type="alternate" xml:lang="zh-Hant">妙音寺</placeName>
+               <placeName xml:id="name000294-13" type="alternate" xml:lang="zh-Hans">妙音寺</placeName>
+               <placeName xml:id="name000294-14" type="site-name" xml:lang="zh-latn-pinyin">Punyun Monastery</placeName>
+               <placeName xml:id="name000294-15" type="alternate" xml:lang="zh-Hant">普雲寺</placeName>
+               <placeName xml:id="name000294-16" type="alternate" xml:lang="zh-Hans">普云寺</placeName>
+               <placeName xml:id="name000294-20" type="site-name" xml:lang="zh-latn-pinyin">Qixia Chan Monastery</placeName>
+               <placeName xml:id="name000294-18" type="alternate" xml:lang="zh-Hant">棲霞襌寺</placeName>
+               <placeName xml:id="name000294-19" type="alternate" xml:lang="zh-Hans">栖霞禅寺</placeName>
+               <placeName xml:id="name000294-21" type="site-name" xml:lang="zh-latn-pinyin">Jingde Qixia Monastery</placeName>
+               <placeName xml:id="name000294-22" type="alternate" xml:lang="zh-Hant">景德棲霞寺</placeName>
+               <placeName xml:id="name000294-23" type="alternate" xml:lang="zh-Hans">景德栖霞寺</placeName>
+               <placeName xml:id="name000294-24" type="site-name" xml:lang="zh-latn-pinyin">Huxue Monastery</placeName>
+               <placeName xml:id="name000294-25" type="alternate" xml:lang="zh-Hant">虎穴寺</placeName>
+               <placeName xml:id="name000294-26" type="alternate" xml:lang="zh-Hans">虎穴寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000294</idno>
+               <state type="existence" from="0489-01-01" to="0489-12-31">
+                  <label>Date</label>
+                  <desc>489</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000294-2" from="0479-01-01"
+                  to="0502-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qi Kingdom 479-502</desc>
+               </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000294-1">The Qixia Monastery is a Buddhist monastery complex located in Qixia district, Nanjing municipality, Jiangsu province. It was constructed from the residence of the recluse Ming Sengshao in 489 under the <term ref="/keyword/000068">Southern Qi dynasty</term> (Wu and Chen 1994, online edition). At the beginning of the <term ref="/keyword/000082">Tang dynasty</term>, the emperor Gaozu (r. 618-626) renamed it Gongde Monastery and built 49 more subsidiary buildings. Because of its grand scale, the monastery, together with Lingyan Monastery in Shandong, Yuquan Monastery in Jingzhou, and Guoqing Monastery in Zhejiang, was known as one of the Four Great Forests [of Buddhism] (Ren and Yang 1989, online edition). It was later renamed Yinjun Qixia (“Recluse of Qixia”) Monastery because Tang emperor Gaozong wrote a stele inscription for Ming Sengshao. It was subsequently called Miaoyin Monatery in <term ref="/keyword/000077">Southern Tang</term> and Puyun Monatery, Qixia Chan Monastery, Jingde qixia Monastery, and Huxue Monastery during <term ref="/keyword/000074">Song dynasty</term> (Wu and Chen 1994, online edition). It was renamed Qixia Monastery in 1392, and the timber buildings were destroyed by war in 1855 (Wu and Chen 1994, online edition).</p>
+                  <p xml:lang="zh-Hant" source="#bibl000294-1">棲霞寺位于江蘇省南京市，是建于<term ref="/keyword/000068">南齊</term>永明七年（489）的一座寺院 ，由隱士明僧紹的舍宅改建而成 (Wu and Chen 1994)。唐高祖將棲霞寺改名功德寺，並增建殿堂49所，規模宏大，與山東靈岩寺、荊州（今湖北）玉泉寺、浙江國清寺並稱天下四大叢林 (Ren and Yang 1989, online edition)。後因唐高宗題寫明征君（即明僧紹）碑文改名爲隱君棲霞寺。<term ref="/keyword/000077">南唐</term>改名妙音寺，<term ref="/keyword/000074">宋代</term>先後改名爲普雲寺、棲霞禅寺、景德棲霞寺、虎穴寺(Wu and Chen 1994)。<term ref="/keyword/000051">明</term>1392年複名棲霞寺，最終大部分建築于<term ref="/keyword/000070">清</term>1855年毀于戰火 (Wu and Chen 1994, online edition)。</p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Qixia_Temple">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/whz86bxx">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/kuu296u8">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested">
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="en">Jiangsu Province</placeName>
+                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Jiāngsū shěng</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Nanjing Municipality</placeName>
+                     <placeName xml:lang="zh-Hant">南京市</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Nánjīng shì</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="en">Qixia District</placeName>
+                     <placeName xml:lang="zh-Hans">棲霞區</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Qīxiá qū</placeName>
+                  </region>
+               </location>            
+               <location type="gps" subtype="preferred">
+                  <geo>32.154167 118.953889</geo>
+               </location>
+               <location type="verbatim">
+                  <note>(google map)</note>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <listBibl xml:id="bibl000294-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FDNDMZVI"/>
+                     <citedRange unit="pp">accessed March 28, 2021</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZXZBG7W5"/>
+                     <citedRange unit="pp">accessed March 28, 2021</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000294-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">11</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000294" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000294" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000068" ana="dynasty"/> 
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51123429521_a538b82199_c.jpg"
+                  passive="https://architecturasinica.org/place/000294" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51123009622_271910fc28_c.jpg"
+                  passive="https://architecturasinica.org/place/000294" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
