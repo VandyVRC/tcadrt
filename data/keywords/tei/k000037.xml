@@ -4,9 +4,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jingnan</title>
+            <title level="a" xml:lang="en"><foreign xml:lang="zh-Hant">荊南 </foreign>
+               Jīngnán</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
@@ -41,18 +42,26 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#TGM" when="2021-07-17-04:00">add citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000037" type="time period">
             <term xml:id="term-k000037-1" xml:lang="en">Jingnan</term>
-            <term xml:id="term-k000037-2" xml:lang="zh-Hant">荊南</term>
-            <term xml:id="term-k000037-6" xml:lang="zh-latn-wadegile">ching-nan</term>
-            <state type="existence" from="0924" to="0963">
+            <term xml:id="term-k000037-2" xml:lang="zh-latn-pinyin">Jīngnán</term>
+            <term xml:id="term-k000037-3" xml:lang="zh-Hant">荊南</term>
+            <term xml:id="term-k000037-4" xml:lang="zh-latn-wadegile">Ching-nan</term>
+            <term xml:id="term-k000037-5" xml:lang="zh-latn-pinyin" type="alternate">Nánpíng</term>
+            <term xml:id="term-k000037-6" xml:lang="zh-Hant" type="alternate">南平</term>
+            <state type="existence" source="#biblk000037-1" from="0924" to="0963">
                <desc>924 - 963</desc>
             </state>
             <idno type="URI">https://architecturasinica.org/keyword/k000037</idno>
+            <bibl xml:id="biblk000037-1">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">12</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
