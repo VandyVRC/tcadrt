@@ -53,15 +53,18 @@
             <term xml:id="term-k000195-3" xml:lang="zh-Hans">中华民国</term>
             <term xml:id="term-k000195-4" xml:lang="zh-latn-pinyin">Zhōnghuá mínguó</term>
             <term xml:id="term-k000195-6" xml:lang="zh-latn-wadegile">Chung-hua min-kuo</term>
-            <state type="existence" source="#biblk000195-1" from="1912" to="1913">
-               <desc>1912 - 1913 CE</desc>
+            <state type="existence" source="#biblk000195-1" from="1912" to="1949">
+               <desc>1912 - 1949 CE</desc>
             </state>
-            <idno type="URI">https://architecturasinica.org/keyword/k000030</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000195</idno>
+            <note>Note: source for this entry is for founding year only</note>
          </entryFree>
-         <bibl xml:id="biblk000195-1">
+         <listBibl xml:id="biblk000195-1">
+         <bibl>
             <ptr target="https://architecturasinica.org/bibl/F5EGNLL3"/>
             <citedRange unit="pp">383</citedRange>
          </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
