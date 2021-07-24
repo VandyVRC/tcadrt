@@ -17,7 +17,7 @@
             <editor role="content-author" xml:id="BL">BAO Lu 寶璐</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
@@ -84,7 +84,7 @@
    </teiHeader>
    <text>
       <body>
-      	<entryFree xml:id="k000089" type="architectural-feature">
+      	<entryFree xml:id="k000089" type="architectural feature">
       	   <term xml:id="term-k000089-3" xml:lang="zh-latn-pinyin-nt" type="preferred">wengcheng</term>
       	   <term xml:id="term-k000089-1" xml:lang="zh-Hant" source="#biblk000089-1">甕城</term>
       	   <term xml:id="term-k000089-2" xml:lang="zh-Hans">瓮城</term>
@@ -159,7 +159,7 @@
                      active="https://live.staticflickr.com/65535/50836687727_d7a5304ea6_o.jpg"
                      passive="https://architecturasinica.org/keyword/k000089" rendition="featured"/>
                	<relation ref="skos:broadMatch"
-               		active="https://architecturasinica.org/keyword/k000089" passive="Fortification Elements"/>
+               		active="https://architecturasinica.org/keyword/k000089" passive="fortification elements"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->

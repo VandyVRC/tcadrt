@@ -7,15 +7,24 @@
             <title level="a" xml:lang="en">Dule Monastery <foreign xml:lang="zh-Hant">獨樂寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links 2020 by</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial site research 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -45,10 +54,11 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="1.0" when="2018-03-21-04:00" who="#TGM">CREATED: place record</change>
+         <change n="2.0" when="2020-03-25" who="ML">adding external links</change>
+         <change n="2.1" when="2020-09-17" who="#SLY">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
+         <change n="2.2" when="2021-05-05" who="#HDN">Added location, site description</change>
+         <change n="2.3" when="2021-07-05" who="#HDN">Added listbibl</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,10 +71,16 @@
                <placeName xml:id="name000024-4" type="site-name" xml:lang="zh-Hant">獨樂寺</placeName>
                <placeName xml:id="name000024-5" type="site-name" xml:lang="zh-Hans">独乐寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000024</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000024-1" from="0001-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000024-4" from="0001-01-01">
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="site-data">
+                  <p>Located in Ji county 薊縣, Tianjin Municipality 天津市, Dule Monastery (Dulesi 獨樂寺) is the earliest extant <term ref="/keyword/k000047">Liao</term> Buddhist monastery. Dule Monastery consists of two courtyards, one with <term ref="/place/000024b">the Mountain Gate (Shanmen 山門)</term> and <term ref="/place/000024c">the Guanyin Pavilion (Guanyin ge 觀音閣)</term>, and the other, <term ref="/place/000024a">Bao’en Cloister (Bao’en yuan 報恩院)</term>, with the Mahavira Treasure Hall (Daxiong baodian 大雄寶殿).</p>
+                     <p xml:lang="en" source="#bibl000024-1">The monastery has a long history and may have had significance to the Liao royal family. According to Chen Mingda’s research using the Qinding Panshanzhi 欽定盤山志, Dule Monastery was first constructed on Mount Pan in the nineteenth year of the <term ref="keyword/k000056">Northern Wei</term> Taihe reign period (495). In the eighteenth year of the <term ref="keyword/k000082">Tang</term> Kaiyuan period (730), Ji Prefecture was changed to Ji County and the monastery was named after it. In 922, Khitan troops invaded Ji County and, in the eleventh year of the Tianxian reign period (936), Abaoji (Liao Taizu) worshipped Guanyin as a family deity (Chen 2007, 197-98; date unconfirmed; elevation to "family deity" 家神 found in <title ref="https://tinyurl.com/e5ftcenv">Liaoshi 49.835</title>; <title ref="https://tinyurl.com/4p46dhdb">Liaoshi 37.445-446</title>). Today, <term ref="/place/000024b">the Mountain Gate</term> and <term ref="/place/000024c">the Guanyin Pavilion</term> remain the original structures rebuilt during the second year of the <term ref="/keyword/k000047">Liao</term> Tonghe reign period (984), and the rest of the buildings in the Monastery were rebuilt during the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasty (Chen 2007, 197-98, Liang 1932).</p>
+                  <p source="#bibl000024-2">Since the construction, Dule Monastery has experienced multiple earthquakes. We have documentation of the dates of seven of them: (1) the third year of the<term ref="/keyword/k000047">Liao</term> Qingning reign period (1057), (2) the fifth year of the <term ref="/keyword/k000101">Yuan</term> Zhizheng reign period (1345), (3) the sixteenth year of the <term ref="/keyword/k000101">Yuan</term> Zhizheng reign period (1356), (4) the seventeenth year of the <term ref="/keyword/k000051">Ming </term> Chenghua reign period (1481), (5) the fourth year of the <term ref="/keyword/k000051">Ming </term> Tianqi reign period (1624), (6) the eighteenth year of the <term ref="/keyword/k000070">Qing</term> Kangxi reign period (1679), and (7) the 1976 Tangshan earthquake (Chen 2007, 198-201).</p>
+                  <p source="#bibl000024-3">Modern architectural surveys, first by Sekino Tadashi in 1931 and then by Liang Sicheng in 1932, brought the monastery to the attention of the public and architectural historians across the globe (Ding 2013, 3). In March 1990, the National Administration of Cultural Heritage established the Dulesi maintenance project. The restoration of the Mountain Gate and Guanyin Pavilion was completed when the eight-year Dulesi maintenance project ended in 1998 (Chen 2007, 201).</p> 
+               </desc>  
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/vluqswm">Wikipedia (in Chinese)</ref>
@@ -73,45 +89,66 @@
                      <ref target="https://tinyurl.com/ttt7c3h">百度百科</ref>
                   </p>
                </note>
-               <location type="nested">
-                  <placeName>河北省蓟县</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Hebei</placeName>
-                  <country>China</country>
-                  <region type="province">
-                     <placeName xml:lang="zh-latn-pinyin">Hebei</placeName>
-                     <placeName xml:lang="zh-Hant">河北省</placeName>
-                     <placeName xml:lang="zh-Hans">河北省</placeName>
+               <location type="nested">              
+                  <country>China</country>  
+                  <region type="county-city">       
+                     <placeName xml:lang="en">Tianjin Municipality</placeName>
+                     <placeName xml:lang="zh-Hant">天津市</placeName>                     
+                     <placeName xml:lang="zh-latn-pinyin">tiānjīn shì</placeName>
                   </region>
-                  <region type="county-city">
-                     <placeName xml:lang="zh-Hans">蓟</placeName>
-                  </region>
-                  <region type="political-subdivision">
-                     <placeName xml:lang="zh-Hans">县</placeName>
-                     <placeName xml:lang="en">County</placeName>
-                  </region>
+                  <region type="political-subdivision">                     
+                     <placeName xml:lang="en">Ji County</placeName>                     
+                     <placeName xml:lang="zh-Hant">薊縣</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Jìxiàn</placeName>
+                  </region>                  
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>40.0438 117.3966833</geo>
+                  <geo>40.045342 117.402597</geo>
                </location>
-               <location type="gps">
-                  <geo>40.04408333 117.3966666</geo>
+               <location type="verbatim">
+                  <note>(Google Earth)</note>
                </location>
-               <trait type="type" sub-type="site-type">
+               <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
                   <desc xml:lang="zh-latn-pinyin">si</desc>
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <bibl xml:id="bibl000024-1">
+               <listBibl xml:id="bibl000024-1">
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                        <citedRange unit="pp">197-198</citedRange>
+                     </bibl>
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                     </bibl>     
+               </listBibl>
+               <bibl xml:id="bibl000024-2">
+                  <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                  <citedRange unit="pp">198-201</citedRange>
+               </bibl>
+               <listBibl xml:id="bibl000024-3">                 
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/CFPUZ3UX"/>
+                     <citedRange unit="pp">3</citedRange>
+                  </bibl>     
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">201</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000024-4">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
+               </bibl>               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000024" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000024" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51158192711_1afb4c1fcd_c.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024" ana="featured"/>              
             </listRelation>
          </listPlace>
       </body>

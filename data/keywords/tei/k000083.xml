@@ -7,14 +7,16 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">廟 </foreign>miào</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2021 by </resp>
+               <resp>Adding citation information and gloss 2021 by</resp>
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
          </titleStmt>
@@ -47,19 +49,36 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.1" who="#SEB" when="2021-03-04">Added citation and gloss</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000083" type="site-type">
-            <term xml:id="term-k000083-5" xml:lang="zh-latn-pinyin-nt" type="prefferred">miao</term>
+         <entryFree xml:id="k000083" type="site type">
+            <term xml:id="term-k000083-5" xml:lang="zh-latn-pinyin-nt" type="preferred">miao</term>
             <term xml:id="term-k000083-2" xml:lang="zh-Hant">廟</term>
             <term xml:id="term-k000083-3" xml:lang="zh-Hans">庙</term>
             <term xml:id="term-k000083-4" xml:lang="zh-latn-pinyin">miào</term>
             <term xml:id="term-k000083-6" xml:lang="zh-latn-wadegile">miao</term>
-            <term xml:id="term-k000083-1" xml:lang="en">temple</term>
-            <gloss>building or complex dedicated to local or ancestral deities</gloss>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000083-1">temple; a building used for worship or veneration, often of ancestral or local spirits (Guo 2002, 58; Miller 2007, 88; Kroll 2015, 307)</p>
+               <p xml:lang="zh-Hant" source="#biblk000083-1">用於供奉祖先或神靈的建築物。</p>
+            </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000083</idno>
+            <listBibl xml:id="biblk000083-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">58</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">88</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">307</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>

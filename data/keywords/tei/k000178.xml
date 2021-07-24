@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">下昂</foreign> xià'áng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, proofreading, and revision by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading, and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citations</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000178/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-01-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#JZ" when="2021-06-28">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000178" type="architectural feature">
+            <term xml:id="term-k000178-1" xml:lang="zh-latn-pinyin-nt" type="preferred">xia'ang</term>
+            <term xml:id="term-k000178-2" xml:lang="zh-Hant">下昂</term>
+            <term xml:id="term-k000178-3" xml:lang="zh-Hans">下昂</term>
+            <term xml:id="term-k000178-4" xml:lang="zh-latn-pinyin">xià'áng</term>
+            <term xml:id="term-k000178-5" xml:lang="zh-latn-wadegile">hsia-ang</term>
+            <term xml:id="term-k000178-6" xml:lang="en" type="literal_translation" source="#biblk000178-1">down-ang (lit.)</term>
+            <term xml:id="term-k000178-7" xml:lang="en" source="#biblk000178-2">descending cantilever</term>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000178-3">Meaning literally “downward” or “descending” ang, xia'ang refers to an angled timber member used in dougong. As an architectural term, it first appears in the Tongdian (801) as <term ref="https://tinyurl.com/3s39rndz">"下枊"</term>. After that it is mainly seen in the Yingzao fashi. According to the Yingzao fashi (1103), xia'ang is an alternative term for feiang 飛昂. It is a type of slanted bracket arm with the descending end (昂尖 angjian) angled towards the exterior of a building, and its body extending to the interior (YZFS, 4.4b-4.5a). Primarily based on studies of the Yingzao fashi and extant Chinese timber frame architecture since the <term ref="/keyword/k000082">Tang</term> dynasty (618-907), (e.g. the East Great Hall in Foguang Monastery, which is the earliest known building with a xia'ang), scholars commonly agree that the function of a xia'ang is to increase the outward projection of the eaves while simutaneously reducing the height of the roof. The unique formal characteristic of the xia'ang is that the small bearing block (dou) joined into the end of the upper- and outward-most ang is positioned at a lower level than the bracket arm (gong) of the same puzuo layer. Structurally speaking, its force mechanism is similar to that of a lever, equalizing the load on the inside and outside of the bracket set. (Liang 1983, 107-108; Chen 1981, 99; Xu 1985, 2).</p>
+               <p xml:lang="en">Currently research on the xia'ang focuses on two aspects. One is how the tail of xia'ang (昂尾) was incorporated into the roof frame. The other is how the slope of a xia'ang was determined.</p>
+               <p xml:lang="en" source="#biblk000178-4">Regarding how the tail of the xia'ang was incorporated into the roof frame, on the one hand, scholars seek to understand the three different methods mentioned in the Yingzao fashi based on extant historic buildings. This research is directly related to the concepts of <term ref="/keyword/k000137">shang'ang 上昂</term> and tiaowo 挑斡, timbers placed in similar configurations inside the building, but which do not also support the eaves. On the other hand, more importantly, how the tail of a xia'ang was incorporated inside the roof frame is significant for understanding the connection of corbel bracket sets (or <term ref="/keyword/k000013">puzuo layers</term>) with the timber structure of the whole building.as well as the development of Chinese timber frame architecture. Based on his knowledge of early extant structures in the south (the main halls of Hualin Monastery and Baoguo Monastery), Chen Mingda’s initial understanding of the development of timber bracketing was that the xia'ang evolvedfrom a structural element to an ornamental one (Chen 1990; 42-43). However, some scholars point out that the xia'ang in ancient Japanese timber frame architecture originated in China and was transmitted to Japan through the Korean peninsula. Thus, they turn to evidence from earlier extant architecture in Japan, such as the Five-story Pagoda in Horyuji (670-711),where the xia'ang is employed not only to support the extension of the eaves, at the same time it also reinforces the timber frame between eave pillars and interior pillars. This use is different from extant historic buildings in China, yet likely reflects the role of the xia'ang before the Tang dynasty(Wen 2013; Shigeatsu 2017). This argument strongly supports Chen's position.</p>
+               <p xml:lang="en" source="#biblk000178-5">Studies of the slope of a xia'ang are based in the hypothesis that there is a geometrical design method for corbel bracket sets (Liu and Sun 2009).This perspective, however, is challenged by other scholars (Xiao 2017)</p>
+               <p xml:lang="zh-Hant">下昂為組織在枓栱中的斜向構件。“下昂”作為建築術語在文獻中首見于《通典》（801），寫作“下枊”，此後主要出現于《營造法式》。根據《營造法式》（1103），下昂為飛昂的別稱。下昂也是昂的一種，昂尖下指，昂身伸入屋內（YZFS,4.4b-4.5a）。研究者主要以唐以來的現存中國木構建築實例（五台山佛光寺東大殿 (857 CE) 為現存最早使用下昂的實例）及《營造法式》等為依據，一般都同意下昂的作用是取得簷部出跳長度的同時降低出跳的高度；因此傳遞出跳，且外跳昂上所挑之枓低於同層鋪作之枓 ，是下昂形式上的的重要特征之一；其受力機制類似於槓桿，可使枓栱內外荷載平衡。（梁 1983,107-108；陳 1981,99；徐 1985,2）。</p>
+               <p xml:lang="zh-Hant">和下昂有關的討論主要集中在兩個方面。一是昂尾做法；二是下昂斜度。</p>
+               <p xml:lang="zh-Hant">有關昂尾做法的討論一方面是對《營造法式》記載的三種做法的闡釋，這也與對<term ref="/keyword/k000137">“上昂”</term>與“挑斡”的理解有關聯（陳 1981,99）；更重要的是昂尾的處理實質上關乎<term ref="/keyword/k000019">枓栱</term>（或鋪作層）與建築整體梁架的關係及其演變。陳明達基於對南方早期建築（華林寺大殿、保國寺大殿）的認識，及其對鋪作演變的研究，認為下昂有一個從結構構件到裝飾構件的轉變過程（陳 1990；42-43）。而結合日本建築實例，已有研究者指出日本古代的下昂源於中國，經過朝鮮半島傳入日本。在作為出簷構件的同時，也起到加固簷柱和內柱列之間的草架結構的作用，與現存中國實例的下昂並不完全相同，可能反映中國唐代以前更古老的形式（溫，2013；清水，2017）。有力的補充了陳明達的觀點。</p>
+               <p xml:lang="zh-Hant">對於下昂斜度的研究源於認為存在枓栱的幾何設計方法（劉和孫 2009），但這一觀點也被其他學者質疑（肖 2017）。</p>
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000178-1" xml:lang="zh-Hant" ref="/keyword/k000103">昂 áng</p>
+               <p xml:id="related-concept-k000178-2" xml:lang="zh-Hant" ref="/keyword/k000137">上昂 shàng'áng</p>
+               <p xml:id="related-concept-k000178-3" xml:lang="zh-Hant" ref="/keyword/k000172">華栱 huāgǒng</p>
+               <p xml:id="related-concept-k000178-4" xml:lang="zh-Hant">耍頭 shuǎtóu</p>
+               <p xml:id="related-concept-k000178-5" xml:lang="zh-Hant">假昂 jiǎ'áng</p>
+               <p xml:id="related-concept-k000178-6" xml:lang="zh-Hant" ref="/keyword/k000001">昂形耍頭 ángxíng shuǎtóu</p>
+               <p xml:id="related-concept-k000178-7" xml:lang="zh-Hant">插昂 chā'áng</p>
+               <p xml:id="related-concept-k000178-8" xml:lang="zh-Hant">挑斡 tiǎo wò</p>
+               <p xml:id="related-concept-k000178-9" xml:lang="zh-Hant">假昂頭 jiǎ'ángtóu</p>
+               <p xml:id="related-concept-k000178-10" xml:lang="zh-Hant" ref="/keyword/k000013">鋪作 pūzuò</p>
+            </note>
+            <bibl xml:id="biblk000178-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">83</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000178-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">369</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000178-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/VWGY726P"/>
+                  <citedRange unit="pp">107-108</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
+                  <citedRange unit="pp">99</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/RW8IHXZZ"/>
+                  <citedRange unit="pp">2</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000178-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/STM7J45X"/>
+                  <citedRange unit="pp">99</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/P8DQDYRK"/>
+                  <citedRange unit="pp">42-43</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/Y2XFHEPY"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/P3LTNMW9"/>
+                </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000178-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3QX6LJMB"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J8G3N2SD"/>
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000178</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51277669993_383a5a6d01_o.jpg" passive="https://architecturasinica.org/keyword/k000178" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000178" passive="bracketing"/> 
+                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">華栱</foreign> huāgǒng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, proofreading, and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000172/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-03-11</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-03-11">CREATED: record</change>
+         <change n="1.1" when="2021-03-31" who="#TGM">Gloss added by</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000172" type="architectural feature">
+            <term xml:id="term-k000172-1" xml:lang="zh-latn-pinyin-nt" type="preferred">huagong</term>
+            <term xml:id="term-k000172-2" xml:lang="zh-Hant">華栱</term>
+            <term xml:id="term-k000172-3" xml:lang="zh-Hans">华栱</term>
+            <term xml:id="term-k000172-4" xml:lang="zh-latn-pinyin">huāgǒng</term>
+            <term xml:id="term-k000172-5" xml:lang="zh-latn-wadegile">hua-kung</term>
+            <term xml:id="term-k000172-6" xml:lang="en" source="#biblk000172-6">perpendicular bracket arm</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000172-1">literally: <term type="literal_translation">blossoming bracket-arm</term> (Kroll 167 (huā), 135); perpendicular/transversal bracket arm; flower arm (Fu 357); bracket arm that extends outward and upward from the building plane, used to support the outward extension of the eaves and interior roof frame. The size and shape of this element are described in the <title ref="https://tinyurl.com/hc2kzwt8">Yingzao fashi</title>. For more details see Chen 2010, 296; Guo 2002, 42.</p>
+               <p xml:lang="zh-Hant">斗栱中垂直于屋身的出跳栱，以承屋檐和屋內梁架。</p>
+            </note> 
+            <note type="related concepts">
+               <p xml:id="related-concept-k000172-1" xml:lang="zh-Hant" source="#biblk000172-2">卷頭 juǎntóu</p>
+               <p xml:id="related-concept-k000172-2" xml:lang="zh-Hant" source="#biblk000172-3">跳頭 tiàotóu</p>
+               <p xml:id="related-concept-k000172-3" xml:lang="zh-Hant" source="#biblk000172-4">抄栱</p>
+               <p xml:id="related-concept-k000172-4" xml:lang="zh-Hant" source="#biblk000172-5">杪栱 miǎogǒng</p>
+            </note>
+            <listBibl xml:id="biblk000172-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">167, 135</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">357</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">42</citedRange>
+               </bibl>
+            </listBibl>
+               <bibl xml:id="biblk000172-2">
+                     <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                     <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000172-3">
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">389</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000172-4">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">296</citedRange>
+               </bibl>
+               <listBibl xml:id="biblk000172-5">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                     <citedRange unit="pp">58</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                     <citedRange unit="pp">306, 135</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="biblk000172-6">
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">357</citedRange>
+               </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000172</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51240572631_003c3550aa_b.jpg" passive="https://architecturasinica.org/keyword/k000172" rendition="featured"> </relation>
+                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000172" passive="bracketing"/>
+                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

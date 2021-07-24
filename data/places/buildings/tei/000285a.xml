@@ -6,11 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Lingyin Monastery East Stone Pagoda <foreign xml:lang="zh-Hant">靈隱寺東石塔</foreign>
+            <title level="a" xml:lang="en">Lingyin Monastery, East Stone Pagoda <foreign xml:lang="zh-Hant">靈隱寺東石塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="SQ">Song Qisen</editor>
             <respStmt>
                <resp>Initial research 2020 by</resp>
@@ -19,6 +19,10 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -124,7 +128,7 @@
                <location type="gps" subtype="preferred">
                   <geo>30.242860 120.096977</geo>
                </location>
-               <trait type="type" sub-type="building-type">
+               <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">pagoda</desc>
                   <desc xml:lang="zh-latn-pinyin">ta</desc>

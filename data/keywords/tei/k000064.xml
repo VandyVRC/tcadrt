@@ -15,7 +15,7 @@
             <editor role="content-author" ref="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Initial research, data entry and revision by</resp>
@@ -76,8 +76,8 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000064" type="architectural-feature">
-            <term xml:id="term-k000064-8" xml:lang="zh-latn-pinyin-bt">pingzhu</term>
+         <entryFree xml:id="k000064" type="architectural feature">
+            <term xml:id="term-k000064-8" xml:lang="zh-latn-pinyin-nt">pingzhu</term>
             <term xml:id="term-k000064-2" xml:lang="zh-Hant" source="#biblk000064-2">平柱</term>
             <term xml:id="term-k000064-3" xml:lang="zh-Hans">平柱</term>
             <term xml:id="term-k000064-4" xml:lang="zh-latn-pinyin">píngzhù</term>
@@ -128,7 +128,7 @@
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/49493824338_7a433fd40f_c.jpg" passive="https://architecturasinica.org/Keyword/k000064" rendition="featured"> </relation>
-               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000064" passive="Building Frame"/>
+               	<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000064" passive="building frame"/>
                   <relation ref="https://architecturasinica.org/place/000174" source="Geyuansi Mañjuśrī Hall"/>
                   <!--where there is an xxx put the number of the feature-->
                </listRelation>

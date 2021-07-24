@@ -16,7 +16,7 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
@@ -77,7 +77,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000102" type="architectural-feature">
+         <entryFree xml:id="k000102" type="architectural feature">
             <term xml:id="term-k000102-8" xml:lang="zh-latn-pinyin-nt" type="preferred">zhu</term>
             <term xml:id="term-k000102-2" xml:lang="zh-Hant" source="#biblk000102-1">柱</term>
             <term xml:id="term-k000102-3" xml:lang="zh-Hans">柱</term>
@@ -139,8 +139,8 @@
                   <relation ref="foaf:depicts"
                      active="https://live.staticflickr.com/65535/46981817425_6e666576d5_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000016" rendition="featured"> </relation>-->
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="Building Frame"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="Foundations"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="building frame"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000102" passive="foundations"/>
                   <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/>
                   <!--where there is an xxx put the number of the example-->

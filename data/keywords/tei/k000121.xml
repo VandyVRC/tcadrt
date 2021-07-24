@@ -14,8 +14,8 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立 </editor>
-            <editor role="content-author" xml:id="XF">XIE Fei 谢菲 </editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
+            <editor role="content-author" xml:id="XF">XIE Fei 谢菲</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -71,7 +71,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000121" type="architectural-feature">
+         <entryFree xml:id="k000121" type="architectural feature">
             <term xml:id="term-k000121-9" xml:lang="zh-latn-pinyin-nt" type="preferred">mamian</term>
             <term xml:id="term-k000121-1" xml:lang="zh-Hant">馬面</term>
             <term xml:id="term-k000121-2" xml:lang="zh-Hans">马面</term>
@@ -119,7 +119,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000121</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000121" passive="Fortification Elements"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000121" passive="fortification elements"/>
             </listRelation>
             </listRelation>
          </entryFree>
