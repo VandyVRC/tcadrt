@@ -9,19 +9,34 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">祠廟</foreign> címiào</title>
+               <foreign xml:lang="zh-Hant">華表</foreign> huábiǎo</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" xml:id="LS">LIU Shuo 劉碩</editor>
+            <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding gloss by</resp>
-               <name type="person" xml:id="HDN">HUANG Danni黄聃婗</name>
+               <resp>Data entry and adding notes and citations by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,7 +44,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000173/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000179/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -52,23 +67,22 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-            <change n="1.0" when="2021-04-08" who="#HDN">CREATED: record</change>
-         <change n="1.1" when="2021-05-03" who="#HDN">Gloss added by</change>
+            <change n="1.0" when="2021-08-04" who="#YFB">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000173" type="site type">
-            <term xml:id="term-k000173-1" xml:lang="zh-latn-pinyin-nt" type="preferred">cimiao</term>
-            <term xml:id="term-k000173-2" xml:lang="zh-Hant">祠廟</term>
-            <term xml:id="term-k000173-3" xml:lang="zh-Hans">祠庙</term>
-            <term xml:id="term-k000173-4" xml:lang="zh-latn-pinyin">címiào</term>
-            <term xml:id="term-k000173-5" xml:lang="zh-latn-wadegile">tz'u-miao</term>
+         <entryFree xml:id="k000179" type="architectural feature">
+            <term xml:id="term-k000179-1" xml:lang="zh-latn-pinyin-nt" type="preferred">huabiao</term>
+            <term xml:id="term-k000179-2" xml:lang="zh-Hant">華表</term>
+            <term xml:id="term-k000179-3" xml:lang="zh-Hans">华表</term>
+            <term xml:id="term-k000179-4" xml:lang="zh-latn-pinyin">huábiǎo</term>
+            <term xml:id="term-k000179-5" xml:lang="zh-latn-wadegile">hua-piao</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000173-1">a combination of two architectural types: the ci <term ref="/keyword/k000073">祠 shrine</term> and the miao <term ref="/keyword/k000083">廟 temple</term> (Fu 351); literally: a temple for ci 祠 sacrifices (Miller 2007, 32-33)</p>
-               <p xml:lang="zh-Hant" source="#biblk000173-1">祠和廟的合稱。</p>
+               <p xml:lang="en" source="#biblk000179-1">華表最早是具有指示方向，標識信息，標記地點等功能的木柱或者石柱，而後還起到了在建築群中强調主要軸綫，突出建築主體部分的作用。由南朝與唐人所引早期文獻判斷，“華”與“桓”、“和”可能在陈楚之地因发音相近而被混用，華表即柱頂部有木貫穿木柱的“桓表”（司馬 1959, 10. 423-424）。這一形象在宋元繪畫中也有所見（如張擇端的《 金明池爭標圖》，王振鵬的《龍池競渡圖卷》等）。此後華表始終保持了柱頂部有贯穿柱身的板状构件的基本特征。宋及以後的華表頂部還有蹲獸，常在相關場合成對或四植對稱放置。</p>
+               <p xml:lang="zh-Hant" source="#biblk000179-1">祠和廟的合稱。</p>
             </note>  
-            <listBibl xml:id="biblk000173-1">
+            <listBibl xml:id="biblk000179-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">351</citedRange> 
@@ -78,7 +92,7 @@
                   <citedRange unit="pp">32-33</citedRange> 
                </bibl>
             </listBibl>           
-            <idno type="URI">https://architecturasinica.org/keyword/k000173</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000179</idno>
             <!-- 
             <listRelation>
                <listRelation>
