@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">華表</foreign> huábiǎo</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
+            <editor role="content-author" xml:id="LS">LIU Shuo 劉碩</editor>           
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding notes and citations by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000179/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+            <change n="1.0" when="2021-08-04" who="#YFB">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000179" type="architectural feature">
+            <term xml:id="term-k000179-1" xml:lang="zh-latn-pinyin-nt" type="preferred">huabiao</term>
+            <term xml:id="term-k000179-2" xml:lang="zh-Hant">華表</term>
+            <term xml:id="term-k000179-3" xml:lang="zh-Hans">华表</term>
+            <term xml:id="term-k000179-4" xml:lang="zh-latn-pinyin">huábiǎo</term>
+            <term xml:id="term-k000179-5" xml:lang="zh-latn-wadegile">hua-piao</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000179-1">Huabiao originated as wooden or stone pillars whose function was to show directions or display information. Later, huabiao also helped emphasize the central axis or the central portion of an architectural complex. According to earlier texts quoted by Sima Zhen (司馬貞, 679-732) in the Tang dynasty, huabiao was a type of signpost or guidepost with a crosspiece joined through the upper part of the pillar. The origin of this term was unclear even in the Tang dynasty. According to Sima Zhen's Shiji suoyin:  "Zheng Xuan (127-200) noted that what we refer to presently as an "illustrious marker" (huabiao) was made by mounting one lateral and one transversal piece of wood [through the top of a post] to make an X (criss-cross (wu 午)), this was referred to as: threaded-timber four-directional signpost (muguan biaozhu sichu 木貫表柱四出) . Cui Hao (ca. 381-450) believed the "muguan biaozhu sichu" was called  huan 桓, and in the Chen-Chu region, because the pronunciation of huan 桓 is close to he 和;  it was also called a hebiao 和表. Hua and he are [often] mistakenly used for each other" (1959, 10.423). Thus, in writing, because the pronunciation of  huan, he, and hua were so close, huanbiao 桓表 was another way of writing huabiao 華表. Huabiao structures can be seen in visual material, especially in Song and Yuan paintings, such as Zhang Zeduan’s  “Jinmingchi zhengbiao tu 金明池爭標圖” and Wang Zhengpeng’s “Longchi jingdu tujuan 龍池競渡圖卷,” where a characteristic feature was a crosspiece joined through the upper part of the pillar. After the Song dynasty, we also begin to see crouching animal sculptures on the top of huabiao.</p>
+               <p>Our earliest examples of the term huabiao are from the Han dynasty, where it was used as a standard or banner for commemorating good deeds or a placard for publicizing criminal offenses (“jinshan zhijing, feibang zhimu 進善之旌, 誹謗之木”) (Sima 1959, 423-424). Before the Song and Yuan dynasties, huabiao were made of wood and the decoration methods of huabiao were documented in the Yingzao fashi (Li 2009, 25.7a; 28.6b). After the Jin and Yuan dynasties, wooden huabiao were gradually replaced with stone.</p>
+               <p>The usage of the term huabiao was not consistent between the Han and Qing dynasties. Huabiao were mainly located at the important traffic nodes, such as an ancient precinct or courier station (tingyou 亭郵), the intersections of main roads, and at the two ends of a bridge (Xu 2017, 2.50; Cui 1936), but from the Ming dynasty this type of usage gradually disappeared. After the Yuan dynasty, huabiao could also be erected in other places, such as the mausoleums of the emperor and high-level nobles, Confucian temples, and at ancient altars.</p>
+                 <p> Within both classical and contemporary literature, the term huabiao does not necessarily refer to a structure with all the features mentioned above, but can have other meanings. For example, huabiao can refer to a stone pillar located on the both sides of a “spirit path” (shendao 神道) in the Southern Dynasties, the wangzhu 望柱 after the Song dynasty, the stone pen-shape structure (shibi 石筆) in the southern and southwestern China, and even paifang 牌坊.</p>
+               <p xml:lang="zh-Hant" source="#biblk000179-1">華表最早是具有指示方向，標識信息，標記地點等功能的木柱或者石柱，而後還起到了在建築群中强調主要軸綫，突出建築主體部分的作用。由南朝與唐人所引早期文獻判斷，“華”與“桓”、“和”可能在陈楚之地因发音相近而被混用，華表即柱頂部有木貫穿木柱的“桓表”（司馬 1959, 10. 423-424）。這一形象在宋元繪畫中也有所見（如張擇端的《 金明池爭標圖》，王振鵬的《龍池競渡圖卷》等）。此後華表始終保持了柱頂部有贯穿柱身的板状构件的基本特征。宋及以後的華表頂部還有蹲獸，常在相關場合成對或四植對稱放置。“華表”一詞最早出现于汉代文献。華表传说起源于上古时之“诽谤之木”  ，宋元以前華表也多由木製，北宋《營造法式》（李 2009,25.7a; 28.6b）中就對木製華表的裝飾方法有所記載。而金、元時，石製華表出現并且逐渐取代了木質華表。</p>
+                  <p>自漢至清，華表的應用場合并非一成不變，自漢代起，華表主要设置于邮亭 、大路交衢、橋頭等交通節點位置 （許 2017,vol.2 50；崔 1936） ，這一做法至明代才逐漸消失。明以降帝王以及高等級貴族陵墓、文廟、州學、社稷壇等処亦設置有華表。</p>
+                  <p>需要辨析的是，古今文獻中提到的“華表”有多種指代：如漢晉以及南朝陵墓的神道石柱、宋代以後陵墓等處之望柱，以及华南、西南地區的旗杆石甚至橋頭之牌坊，它們在形象上或是功能上都與前文所述狹義之“華表”有相似性，故也在不同時代不同文獻中被稱爲“華表”。關於這些構築物是否確實可以稱為華表，還值得再探討。（Liu Shuo 劉碩 Sun Xiaoqian 孫曉倩）</p>
+            </note>  
+            <listBibl xml:id="biblk000179-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">351</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">32-33</citedRange> 
+               </bibl>
+            </listBibl>           
+            <idno type="URI">https://architecturasinica.org/keyword/k000179</idno>
+            <!--WS:  Test Webhooks
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> 
+                  <relation ref="https://architecturasinica.org/place/000xxx"
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example
+               </listRelation>
+            </listRelation> -->
+         </entryFree>
+      </body>
+   </text>
+</TEI>
