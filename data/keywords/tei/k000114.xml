@@ -37,6 +37,10 @@
                <resp>Data entry and adding citations by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding citations and notes by</resp>
+               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -80,8 +84,18 @@
             <term xml:id="term-k000114-6" xml:lang="en" type="literal_translation">forehead (lit.)</term> 
             <term xml:id="term-k000114-1" xml:lang="en">forehead tie beams</term>        
             <idno type="URI">https://architecturasinica.org/keyword/k000114</idno>
-            <note>
-            </note>   
+            <note xml:lang="en">
+               <p>Da'e is usually used to refer to over-sized column-top tie beams often found in the timber architecture of Shanxi and Shaanxi constructed during the <term ref="https://dev.architecturasinica.org/keyword/k000101">Yuan</term> dynasty.</p> 
+               <p>As an architectural term, da’e is only recorded in the Yingzao fashi, but it is not clearly defined. Based on the context in which the term is used, it is possible that da’e is an alternate name for lan’e. This is because it is often used together with yan’e and you’e where the term lan’e would normally appear. Still, nothing in the Yingzao fashi indicates that this so-called da’e is a larger size version of lan’e. In a seminal article, the twentieth-century architectural historian Zhang Yuhuan used this term to describe huge longitudinal beams found in <term ref="https://dev.architecturasinica.org/keyword/k000101">Yuan</term> timber architecture in Shanxi and Shaanxi. Many modern scholars consider it to be the signature element of the so-called “da’e style” buildings of the <term ref="https://dev.architecturasinica.org/keyword/k000101">Yuan</term> dynasty. Da’e can be placed either under the eaves or inside the building, but must be parallel to the roof ridge as part of the zongjia (縱架). Some scholars believe that the <term ref="https://dev.architecturasinica.org/keyword/k000101">Yuan</term> dynasty da’e are equivalent to the yan’e in the Yingzao fashi, while others disagree.</p>   
+            </note> 
+            <note xml:lang="zh-Hant" source="#bibl000114-1">
+               <p>大額一般指晉陝地區元代建築中材分巨大的橫梁。大額一詞作為建築構件，僅見與《營造法式》。然而在《營造法式》中，亦未對“大額”進行定義。僅從行文的形式來看，《營造法式》中的大額似乎是闌額的另一種稱呼。因其常與由額或簷額並稱。然而其材分是否較定義中的闌額更大，似乎並無依據。
+                  大額更為人熟知的定義出自張馭寰提出的元代建築中的大額式（張 1979）。張將元代木構建築中材分巨大且位於縱架的橫樑稱之為大額。元代建築的大額的位置可以位於簷下，亦或屋內。有部分學者認為元代木構簷下的大額對應了《營造法式》中的簷額，而屋內的大額則是材分較大的屋內額。然而，也有部分學者對此說持反對意見。</p>
+            </note>
+            <bibl xml:id="biblk000114-1">
+               <ptr target="https://architecturasinica.org/bibl/QC5ZS7NQ"/>
+               <citedRange unit="pp">71-106</citedRange>
+            </bibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000114" passive="building frame"/>
