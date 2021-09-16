@@ -45,7 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#TGM" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.0" who="#TGM" when="2021-09-16">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +60,7 @@
                <idno type="URI">https://architecturasinica.org/place/000048va</idno>
              <state type="existence" from="1644-01-01" to="1912-01-01">
                   <label>Date</label>
-                  <desc>ca. 1900?</desc>
+                  <desc>ca. 1900</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
@@ -77,13 +77,14 @@
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
                -->
-               <trait type="type" sub-type="building type">
+               <!-- <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">bridge</desc>
                   <desc xml:lang="zh-latn-pinyin">qiáo</desc>
                   <desc xml:lang="zh-Hant">橋</desc>
                   <desc xml:lang="zh-Hans">桥</desc>
                </trait>
+                -->
                <bibl xml:id="bibl000048va-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">198</citedRange>
