@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">減柱造</foreign> jiǎnzhùzào</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding citation(s) by</resp>
+               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000192/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#CBL" when="2021-09-116">CREATED: record and adding citations</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000192" type="architectural feature">
+            <term xml:id="term-k000192-1" xml:lang="zh-latn-pinyin-nt" type="preferred">jianzhuzao</term>
+            <term xml:id="term-k000192-2" xml:lang="zh-Hant">減柱造</term>
+            <term xml:id="term-k000192-3" xml:lang="zh-Hans">减柱造</term>
+            <term xml:id="term-k000192-4" xml:lang="zh-latn-pinyin">jiǎnzhùzào</term>
+            <term xml:id="term-k000192-5" xml:lang="zh-latn-wadegile">chien-chu-tsao</term>
+            <note xml:lang="en">
+               <p>“column-reduction construction” is not found in classical literature. Rather, the term was coined by twentieth century architectural historians who believed the use of a complete orthogonal column grid to be “standard” practice. Jianzhuzao was thus used to describe buildings where the interior was made free of columns, the number of interior columns was fewer than expected in a full grid, or where interior columns did not align with the eaves columns in a grid-like fashion.</p>
+               <p>During his field trip to Datong in the 1930s, Liang Sicheng first coined the term jianzhu (“column omission”) to describe a characteristic of buildings from the Liao, Song, Jin, and Yuan dynasties, in which columns on the interior of the building were not aligned in number or placement with the eaves columns(citation). This practice stood in marked contrast to buildings from the Ming and Qing, which employed a full column grid. Liang described jianzhu as a practice that does not "align the middle columns with the two sides of peripheral columns" (Liang 2006, 141), and compared the examples with the dipan 地盤 drawings in the Yingzao fashi (Liang 2005, 186). The scholars conducting the National Cultural Relics Survey (quan guo wenwu diaocha 全國文物調查)] in the 1950s and 1960s followed Liang's interpretation of the building plan, and went further to transform the descriptive word jianzhu (column omission) into the seemingly technical terms: jianzhuzao (column omission construction) or jianzhufa 減柱法 (column omission method) (Qi and Du 1954, 37-84; 161, 2, 5-36;Luo and Du 1953, 35-56). This viewpoint and terminology had a  significant impact on the study of  Chinese architectural history after the 1970s.</p>
+               <p>On the other hand, Liu Dunzhen, took the two timber-frame structural systems (diange 殿阁/diantang 殿堂 and tingtang 厅堂) as a reference point and drew attention to the relationship between the omission of columns and the changes of the roof frame (Liu 1984, 178). Liu’s viewpoint was further developed by Chen Mingda. Chen believed that the "standard form" of column and roof structure was not fully explained in the Yingzao fashi, and that the details of a “standard form” should be expanded upon. From his perspective, only a column grid that caused special changes in the beam frame should be considered "non-standard" (Chen 1993,4, 178-18). Fu Xinian has roughly the same views as Chen, believing that Song style tingtang type architecture has flexibility in the layout, and determining what “column elimination” is fundamental for understanding the structure of Song style tingtang type architecture (Fu 2002, 315).</p>
+               <p>The different understandings of the term jianzhuzao among scholars is the result of differing interpretations of what was, or should be, used to determine “standard practice” in timber frame architecture constructed in China during the 10th-14th centuries. These different perspectives were related to each scholars' understanding of the structural system at different times. To properly understand the practice of jianzhuzao we need to better understand the particular designs and theories of the traditional craftsmen.</p>
+            </note>
+            <note xml:lang="zh-Hant">
+               <p>“減柱造”術語不見於古代文獻，為現代建築史學者所建構，一般指中國古代建築中相對於“標準形式”省略柱子的做法。</p>
+               <p>梁思成在1930年代考察大同華嚴寺、善化寺時針對遼金宋元建築首次提出 “減柱”做法。梁以其熟知的明清建築“滿堂柱”作為參照標準，認為不符合“依正面及山面雙方之簷柱，比比排列”做法的遺構屬於“減柱”（梁2006, 141）；其後他又在《中國建築史》中將“減柱”做法歸納為宋遼金時期建築的典型特徵，並將實例與《營造法式》中的地盤分槽圖比較（梁2005, 186）。1950-60年代的全國文物調查延續了梁思成側重平面的思路，將描述性的“減柱”做法發展並固定為“減柱造”或“減柱法”（祁和杜1954, 37-84;161+2,5-36；羅和杜1953，35-56）。這一術語及相應的觀點通過1970年代以後出版的一系列著作在建築史領域內產生了廣泛的影響。</p>
+               <p>另一方面，劉敦楨则編寫的《中國古代建築史》（1980）以《營造法式》中的兩種結構體系(殿阁/殿堂与厅堂)為參照標準，關注了柱子的減少與上部梁架的關係並闡述了減柱造做法的源流（劉1984, 178）。陳明達的研究發展了這種觀點，他認為《營造法式》中并没有不完全列舉了柱梁結構的“標準形式”，後者的範疇可以擴張，因此只有引起梁架特殊變化的柱網才是“非標準形式”（陳1993，4,178-180）。傅熹年與陳明達的觀點基本相似，認為宋式廳堂建築在佈置上有靈活性，判定何為“減柱”是瞭解宋式廳堂型構架的根本特點問題（傅2002, 315）。</p>
+               <p>學者對“減柱造”做法的不同定義實質源於對“標準形式”的不同理解。然而，今天來看，只有回到不同歷史時期工匠的知識環境中，才能準確理解何為“標準形式”，何為“減柱”，為何“減柱”等等一系列問題。</p>
+            </note>
+     <!--       <bibl xml:id="biblk000140-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">196</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000140-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">391</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">67</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">364</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DU5F4FXI"/>
+                  <citedRange unit="pp">178</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000140-3">                
+               <bibl>               
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>       
+                  <citedRange unit="pp">142</citedRange>            
+               </bibl>  
+               <bibl>              
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>         
+                  <citedRange unit="pp">196</citedRange>           
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000140-4">                  
+               <bibl>              
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>         
+                  <citedRange unit="pp">?</citedRange>           
+               </bibl>
+               <bibl>              
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>         
+                  <citedRange unit="pp">31.10a-11b</citedRange>           
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000140-5">                
+               <bibl>               
+                  <ptr target="https://architecturasinica.org/bibl/KYEQYTNW"/>       
+                  <citedRange unit="pp">603</citedRange>            
+               </bibl>  
+               <bibl>              
+                  <ptr target="https://architecturasinica.org/bibl/LFHEDX3J"/>         
+                  <citedRange unit="pp">190</citedRange>           
+               </bibl>
+            </listBibl> -->
+         <!--   <idno type="URI">https://architecturasinica.org/keyword/k000192</idno>
+            <listRelation>
+               <listRelation>
+                  <listRelation>
+                  <relation ref="foaf:depicts"
+                     active="https://live.staticflickr.com/65535/51274177544_65794ef2d9_o.jpg"
+                     passive="https://architecturasinica.org/keyword/k000140" ana="featured"/> 
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000140" passive="building frame"/> -->
+                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
+                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <!--  <relation ref="https://architecturasinica.org/place/000xxx"
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
+                </listRelation>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
