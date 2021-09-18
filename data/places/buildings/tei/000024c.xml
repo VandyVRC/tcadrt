@@ -60,6 +60,7 @@
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
          <change n="2.2" when="2021-05-05" who="#HDN">Added location, site description</change>
          <change n="2.2" when="2021-07-05" who="#HDN">Added listbibl</change>
+         <change n="2.2" when="2021-07-05" who="#HDN">Added external links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -100,7 +101,13 @@
                   <desc xml:lang="zh-latn-pinyin">ge</desc>
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="zh-Hans">阁</desc>
-               </trait>              
+               </trait>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/yj33d3t7">Youtube video</ref>
+                  </p>
+               </note>
+               
                <listBibl xml:id="bibl000024c-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
