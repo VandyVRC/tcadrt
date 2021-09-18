@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">草架</foreign>cǎojià</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <editor role="content-author" xml:id="MT">MIAO Tongxi 繆彤茜</editor>              
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding notes and citations by</resp>
+               <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000183/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+            <change n="1.0" when="2021-09-17" who="#MT">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000183" type="architectural feature">
+            <term xml:id="term-k000183-1" xml:lang="zh-latn-pinyin-nt" type="preferred">caojia</term>
+            <term xml:id="term-k000183-2" xml:lang="zh-Hant">草架</term>
+            <term xml:id="term-k000183-3" xml:lang="zh-Hans">草架</term>
+            <term xml:id="term-k000183-4" xml:lang="zh-latn-pinyin">cǎojià</term>
+            <term xml:id="term-k000183-5" xml:lang="zh-latn-wadegile">ts'ao-chia</term>
+            <!--
+            <note type="Gloss">             
+               <p xml:lang="en" source="#biblk000183-1">As an architectural term, caojia (literally “draft frame,” Kroll 2015 34, 194), primarily appears in technical manuals such as the Yingzao Fashi (1103), Yuanye 園冶 (1631), and Yingzao fayuan 營造法原 (1959). It refers to the roof frame between the interior ceiling (the pingqi 平棊 in Yingzao Fashi and the xuan 軒 or juan 卷 in mansion-hall style architecture of Jiangnan area in Ming and Qing dynasties) and the roof, which is left rough (hence the term “draft”) because it is not visible to the viewer (Chen 2010, 259; Yao 1986, 116).</p>
+               <p xml:lang="zh-Hant" source="#biblk000183-1">草架作為建築術語，主要出現在《營造法式》（1103）、《園冶》（1631）及《營造法原》（1959）中。指室內天花（即《營造法式》中的藻井；明代江南廳堂中的軒（卷））與屋面之間的屋架（陳 2010，259；姚 1986，116），因不露明而加工簡略。</p>
+            </note> 
+            -->
+            <note xml:lang="en" source="#bibl00183-1">
+               <p>As an architectural term, caojia (literally “draft frame,” Kroll 2015 34, 194), primarily appears in technical manuals such as the Yingzao Fashi (1103), Yuanye 園冶 (1631), and Yingzao fayuan 營造法原 (1959). It refers to the roof frame between the interior ceiling (the pingqi 平棊 in Yingzao Fashi and the xuan 軒 or juan 卷 in mansion-hall style architecture of Jiangnan area in <term ref="/keyword/k00051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties) and the roof, which is left rough (hence the term “draft”) because it is not visible to the viewer (Chen 2010, 259; Yao 1986, 116). In addition, the term caojia zhuzi 草架柱子 in <term ref="/keyword/k000070">Qing</term> dynasty documents has a similar meaning of a “rough pillar” because, like a draft, it was not meant to exposed (Gongbu,1773,2.21a; Guan 1644-1911, 29; Li 1795, 17.6a).</p> 
+            </note> 
+            <note xml:lang="zh-Hant" source="#bibl00183-1">
+               <p>草架作為建築術語，主要出現在《營造法式》（1103）、《園冶》（1631）及《營造法原》（1959）中。指室內天花（即《營造法式》中的藻井；明代江南廳堂中的軒（卷））與屋面之間的屋架（陳 2010，259；姚 1986，116），因不露明而加工簡略。此外，清代文獻中也有類似用法，以“草架柱子”表明其為不露明構件而做工簡略（工部 1773,2.21a；官 1644-1911 ,29；李 1795，17.6a)。（Miao Tongxi 繆彤茜 Bai Ying 白穎）</p> 
+            </note>      
+            <listBibl xml:id="biblk000183-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">259</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/UWHU6CTI"/>
+                  <citedRange unit="pp">116</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/T5QHEK76"/>
+                  <citedRange unit="pp">2.21a</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/U6Z679XV"/>
+                  <citedRange unit="pp">29</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3G3JQWX4"/>
+                  <citedRange unit="pp">17.6a</citedRange> 
+               </bibl>
+            </listBibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000183</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271699104_f39300f004_o.jpg" passive="https://architecturasinica.org/keyword/k000183" ana="featured"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271831469_fd38684226_o.jpg" passive="https://architecturasinica.org/keyword/k000183" ana="featured"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
