@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Bantong Ting <foreign xml:lang="zh-Hant">伴桐亭</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>           
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" xml:id="JP">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>              
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048ja/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-9-23-13:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#JP" when="2021-9-23-13:20">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048ja" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048j-1" xml:lang="en">Bantong Ting</placeName>
+               <placeName xml:id="name000048j-2" type="building-name" xml:lang="zh-Hant">伴桐亭</placeName>
+               <placeName xml:id="name000048j-3" type="building-name" xml:lang="zh-Hans">伴桐亭</placeName>
+               <placeName xml:id="name000048j-4" type="building-name" xml:lang="zh-latn-pinyin">Bàntóngtíng</placeName>
+               <placeName xml:id="name000048j-5" type="building-name" xml:lang="zh-latn-wadegile">Pan-t'ung-t'ing</placeName>
+               <placeName xml:id="name000048j-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠呂祖閣</placeName>
+               <placeName xml:id="name000048j-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠吕祖阁</placeName>
+               <placeName xml:id="name000048j-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Ancestor Lü Ge </placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ja</idno>
+               <state type="existence" from="1548-01-01" to="1548-01-01">
+                  <label>Date</label>
+                  <desc>1548</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048j-2" from="1644-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qing 1644 - 1912</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048j-1">The present structure was built in the 38th year of Qianlong period (1773). According to the stele inscription by Yang Eryou 楊二酉 documenting that construction, the shrine was originally a one-bay wide building on the south bank of the Earl of Zhi canal. During the Yongzheng period (1723-1736) it was moved to a location on the north side of the canal. In 1763, with the completion of the pagoda in Fengshengyuan 奉聖院, a new site was divined and the building was built on previous endowed temple lands (香火地) located north of the canal (JCZ 41-43).  Originally Jin River Worthies Shrine dedicated to 5 worthies and was located in the Jinxi Academy. In the 38 year of the Qianlong reign, when the Wenchang Temple-Palace was built, the shrine was moved to the central cavern below the Wenchang  ge-pavilion and was changed to include seven worthies, they are: from the Zhou dynasty: Yu Rang 豫讓 (mid-5th century BCE); from the Tang dynasty: Li Bai 李白 (701-762) and Bai Juyi 白居易 (772-846); from the Song dynasty: Fan Zhongyan 范仲淹 (989-1052) and Ouyang Xiu 歐陽修 (1007-1072); from the Ming dynasty: Yu Qian 于謙 (1398-1457) and Wang Qiong 王瓊 (1459-1532) (JCZ 43).</p>    
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palace</desc>
+                  <desc xml:lang="zh-latn-pinyin">gōng</desc>
+                  <desc xml:lang="zh-Hant">宮</desc>
+                  <desc xml:lang="zh-Hans">宮</desc>
+               </trait>
+               <listBibl xml:id="bibl000048j-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">41-43</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">190-191</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000048j-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048j" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048j" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597328816_ac899e6a82_c.jpg"
+                  passive="https://architecturasinica.org/place/000048j" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

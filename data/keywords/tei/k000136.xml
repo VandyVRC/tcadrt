@@ -98,12 +98,12 @@
                <p xml:lang="en" source="#biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000136-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
             </note>
-            <note xml:lang="en">
+            <note type="English" xml:lang="en">
                <p source="#bibl000136-3">Literally meaning “dew terrace” or “exposed terrace” (Kroll 285; 440), lutai is a raised platform within a building complex. In the literature of the <term ref="/keyword/k000030">Han</term> and <term ref="/keyword/k000028">Tang</term> dynasties, lutai referred specifically to a structure built by Emperor Wen of the <term ref="/keyword/k000030">Han</term> dynasty. The term later appeared in a large number of <term ref="/keyword/k000074">Song</term> dynasty texts to indicate a space for the performance of theater, music, and dance in cities, private gardens, and temples, as well as the places at which sacrifices were made to the gods. There are also a few records that refer to the platform of the ramp of the city gate as lutai (Li 2009,15.3b).</p>               
                <p>In <term ref="/keyword/k000074">Song</term> dynasty literature, lutai was mainly used to describe the independent open-air platform in front of high-ranking buildings. In <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> dynasty textual sources, lutai usually indicated the platform which protrudes from the front of a building, however, based on Jin dynasty steles, such as the building plan of the Temple to the Central Peak (“大金承安重修中嶽廟圖,” Figure 1), the term lutai could still be used to describe freestanding and exposed platforms.  Extant buildings and other visual evidence from the <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> suggest that open-air platforms called lutai protruded from the fronts of buildings and were connected to the building’s foundation, either on the same level or slightly lower. In the <term ref="/keyword/k000101">Yuan</term> dynasty, lutai generally referred to the platform that protrudes from the front of the building. In the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, the meaning of lutai encompassed all open-air platforms.</p>                    
                <p> From the <term ref="/keyword/k000074">Song</term> dynasty, the term lutai was used within a large number of documents in relation to themes of deity worship. Thus, the name and structure of lutai may have continued to refer to the lutai of Emperor Wen of the  <term ref="/keyword/k000030">Han</term> dynasty at some level through at least the thirteenth century. This interpretation requires further research.</p>
             </note>
-            <note xml:lang="zh-Hant">
+            <note type="中文" xml:lang="zh-Hant">
                <p>“露臺”作為一類構築物的名稱，廣泛出現于<term ref="/keyword/k000074">宋代</term>文獻，主要指建築物前獨立的露天臺子；從<term ref="/keyword/k000047">遼</term>文獻与实物看，<term ref="/keyword/k000047">遼</term>王朝內露臺主要指建築正面向前突出的台基，<term ref="/keyword/k000036">金</term>也同樣；但<term ref="/keyword/k000036">金</term>的圖像資料（“大金承安重修中嶽廟圖”）表明此时露台仍有独立露天台子的含义。<term ref="/keyword/k000101">元代</term>承襲了正面向前突出的台基的建築形製和對應稱呼，明清時期更擴大了使用範圍，泛指露天的臺子。</p>
                <p source="#bibl000136-4"> 漢唐文獻中“露臺”均特指漢文帝時期露臺典故 (班 1962, 134；或<term ref="https://tinyurl.com/un3c38jd">《貞觀政要》</term>卷6)。“露臺”作為一類構築物的稱呼，大量出現於<term ref="/keyword/k000074">宋代</term>文獻中，主要用於城市開放場所中妓樂表演；私人宅園的樂舞表演；或祠廟中表演歌舞、擺放祭品以敬獻神靈的臺，等等。偶爾有記載將城門墁道中的平臺稱為露臺（李 2009,15.3b）。</p>
                <p> 遼金官方文獻中，宮殿建築前的“凸臺”被稱為“露臺”（脫脫 1974， 855）。<term ref="/keyword/k000028">唐</term>、<term ref="/keyword/k000026">五代</term>、<term ref="/keyword/k000074">宋代</term>、<term ref="/keyword/k000047">遼</term>、<term ref="/keyword/k000036">金</term>的現存建築中，唐、五代、北宋幾十座建築除南禪寺大殿外均無殿前凸臺，而遼、金大部分建築及一些南宋建築有露臺。說明“殿前凸臺”在遼金建築中成為較為固定的形製，並被稱為“露台”。</p>
@@ -145,7 +145,12 @@
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270917657_c04e0a3935_o.jpg" passive="https://architecturasinica.org/keyword/k000136" ana="featured"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271646746_b9359d08ee_o.jpg" passive="https://architecturasinica.org/keyword/k000136" ana="featured"/>
-               
+               <listRelation>
+                  <listRelation>
+                     <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000136" passive="building type"/>
+                     <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000136" passive="foundations"/>
+                  </listRelation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
