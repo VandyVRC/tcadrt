@@ -104,6 +104,11 @@
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
             <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51272856055_8b3d7c3cd7_o.jpg" passive="https://architecturasinica.org/keyword/k000145" ana="featured"/>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000145" passive="foundations"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>
