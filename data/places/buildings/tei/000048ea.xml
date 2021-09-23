@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Cha-yan Cavern <foreign xml:lang="zh-Hant">晉祠茶煙洞</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Caishen Shrine <foreign xml:lang="zh-Hant">晉祠財神祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -28,7 +28,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048da/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048ea/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -57,24 +57,22 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048da" type="building">
-               <placeName xml:id="name000048da-1" xml:lang="zh-Hant">茶煙洞</placeName>
-               <placeName xml:id="name000048da-2" xml:lang="zh-Hans">茶烟洞</placeName>
-               <placeName xml:id="name000048da-3" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
-               <placeName xml:id="name000048da-4" xml:lang="zh-latn-wadegile">Ch'a-yen-tung</placeName>
-               <placeName xml:id="name000048da-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines Chayandong</placeName>
-               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
-               <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>               
-               <idno type="URI">https://architecturasinica.org/place/000048</idno>
-                <state type="existence" subtype="dynasty" source="#bibl000048-2" from="1600-01-01" to="1699-12-31">
-                   <label> Date </label>
-                   <desc> 17th century </desc>
-                   <label>Dynasty</label>
-                   <desc> Ming - Qing </desc>
+            <place xml:id="place-000048ea" type="building">
+               <placeName xml:id="name000048ea-1" xml:lang="en">Caishen Shrine</placeName>
+               <placeName xml:id="name000048ea-2" xml:lang="zh-latn-pinyin">Cáishéncí</placeName>
+               <placeName xml:id="name000048ea-3" xml:lang="zh-latn-wadegile">Ts'ai-shen-tz'u</placeName>
+               <placeName xml:id="name000048ea-4" xml:lang="zh-Hant">財神祠</placeName>
+               <placeName xml:id="name000048ea-5" xml:lang="zh-Hans">财神祠</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ea</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000048ea-2" from="1600-01-01" to="1699-12-31">
+                  <label> Date </label>
+                  <desc> 17th century </desc>
+                  <label>Dynasty</label>
+                  <desc>Ming - Qing</desc>
                </state>
-               <note type="English" xml:lang="en" >
-                  <p>Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops.</p>
-               </note> 
+               <desc type="site-data" xml:lang="en">
+                  <p> There is an image of the God of Wealth within the cave. The date of initial construction is unknown.</p>
+               </desc>
                <location type="nested" source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
                   <country>China</country>
                   <region type="province">
@@ -91,29 +89,29 @@
                <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
                </location>
-               <trait type="type" sub-type="site type">
+               <trait type="type" sub-type="building type">
                   <label>Type </label>
-                  <desc xml:lang="en">cavern</desc>
+                  <desc xml:lang="en">shrine</desc>
                   <desc xml:lang="zh-latn-pinyin">cí</desc>
-                  <desc xml:lang="zh-Hant">洞</desc>
-                  <desc xml:lang="zh-Hans">洞</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
                </trait>
                <note type="English" xml:lang="en">
-                  <p>Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops.</p>
+                  <p>There is an image of the God of Wealth within the cave. The date of initial construction is unknown.</p>
                </note>
-               <!--  <bibl xml:id="bibl000048da-">
+               <!-- <bibl xml:id="bibl000048ea-1">
                   <ptr target="https://architecturasinica.org/bibl/"/>
                </bibl>
-               <bibl xml:id="bibl000048da-">
+               <bibl xml:id="bibl000048ea-2">
                   <ptr target="https://architecturasinica.org/bibl/"/>
                   <citedRange unit="pp"></citedRange>
-               </bibl>-->
+               </bibl> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048" passive="https://architecturasinica.org/keyword/k000073" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <!-- <relation ref="foaf:depicts"
+               <!--<relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg"
                   passive="https://architecturasinica.org/place/000048" ana="featured"/>
                <relation ref="foaf:depicts"
