@@ -82,7 +82,7 @@
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
                -->
-               <trait type="type" sub-type="building type">
+               <trait type="building" sub-type="Terrace">
                   <label>Type</label>
                   <desc xml:lang="en">Terrace</desc>
                   <desc xml:lang="zh-latn-pinyin">Tái</desc>
@@ -105,7 +105,7 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048j" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048j" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597328816_ac899e6a82_c.jpg"
