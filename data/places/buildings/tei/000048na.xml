@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048va/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048na/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -63,12 +63,15 @@
                   <label>Date</label>
                   <desc>1916</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1912-01-01" to="1949-01-01">
                   <label>Period</label>
                   <desc>Republic 1912 - 1949</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048va-1">Also called Double Bridge (Shuang qiao 雙橋). Original date of construction is unknown. Shown on the Qianlong painting and on Yuan Peilan's 1826 map of Jinci</p>
+                  <p source="#bibl000048va-1">"A south-facing gazebo over the water across from Tongleting. First built in
+                     the Jiajiing reign period (1522-67),repaired and expanded in Qianlong (1778) and 
+                     Daoguang (1822). Also called River Pavilion (Shuiting 水亭）
+                     or the Little Orchid Pavilion 小蘭亭"</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
