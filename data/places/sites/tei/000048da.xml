@@ -50,13 +50,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#HDN" when="2021-09-16-04:00">CREATED: place record</change>      
+         <change n="1.0" who="#HDN" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.1" when="2021-09-23" who="#HDN">Added site infomation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048da" type="site">
+            <place xml:id="place-000048da" type="building">
                <placeName xml:id="name000048da-1" type="site-name" xml:lang="zh-Hant">茶煙洞</placeName>
                <placeName xml:id="name000048da-2" type="site-name" xml:lang="zh-Hans">茶烟洞</placeName>
                <placeName xml:id="name000048da-3" type="site-name" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
