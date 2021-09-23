@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Shuizha Ting <foreign xml:lang="zh-Hant">晉祠水閘亭</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" xml:id="WBN">Beining Wang</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="#WBN">Beining Wang</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048pa/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-23-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#LS" when="2021-09-23-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048pa" type="buildings">
+               <placeName xml:id="name000048pa-1" xml:lang="en">Shuizha Ting</placeName>
+               <placeName xml:id="name000048pa-2" type="building-name" xml:lang="zh-Hant">水閘亭</placeName>
+               <placeName xml:id="name000048pa-3" type="building-name" xml:lang="zh-Hans">水闸亭</placeName>
+               <placeName xml:id="name000048pa-4" type="building-name" xml:lang="zh-latn-pinyin">Shuǐzhátíng</placeName>
+               <placeName xml:id="name000048pa-5" type="building-name" xml:lang="zh-latn-wadegile">Shui-cha-t'ing</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048p</idno>
+               <state type="existence" from="1953-01-01"
+                  <label>Date</label>
+                  <desc>1953</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048pa-2" from="1949-10-01"
+                  <label>Dynasty</label>
+                  <desc>People's Republic of China</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048pa-1">Is not discussed as a separate structure in the JCZ or found on the Qianlong or Guangxu-period maps. According to Song Naizhong, this pavilion was built in 1953 and is presently the residence of the Jinci water managers stationed at the site by the Taiyuan City Water Conservancy Bureau(Taiyuanshi shuiliju 太原市水利局).</p></desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">gazebo</desc>
+                  <desc xml:lang="zh-latn-pinyin">Tái</desc>
+                  <desc xml:lang="zh-Hant">臺</desc>
+                  <desc xml:lang="zh-Hans">台</desc>
+               </trait>
+               <bibl xml:id="bibl000048p-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">192</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048p-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048p" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048p" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597442982_66ddef9ab6_c.jpg"
+                  passive="https://architecturasinica.org/place/000048p" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
