@@ -20,8 +20,12 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations and gloss 2021 by</resp>
+               <resp>Data entry, adding links 2021 by</resp>
                <name type="person" xml:id="ZX">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -63,12 +67,19 @@
             <term xml:id="term-k000189-3" xml:lang="zh-Hans">歇山转角</term>
             <term xml:id="term-k000189-4" xml:lang="zh-latn-pinyin">xiēshān zhuǎnjiǎo</term>
             <term xml:id="term-k000189-5" xml:lang="zh-latn-wadegile">hsieh-shan chuan-chiao</term>
-            <note>
-               <p xml:lang="en" source="#biblk000189-1">It can be inferred from Wang Puzi’s book that xieshan zhuanjiao has the same meaning as xieshan and that xieshan may be short for xieshan zhuanjiao because they are used interchangeably (Wang 1995,6-10).
-                  The term xieshan zhuanjiao first appeared in the Ming dynasty in two contexts. The first is the stipulation in the official records that officials were not allowed to build their houses in this form (佚名 1573-1620，8.17b). The second  is  part of a description of the main hall of the temple or the tower above city gates (chenglou 城樓) in the local gazetteers (difangzhi 地方志) from North China(Shao 2013,108; Yu 1573-1620, 5.10a; Liu 1673, 31a; Cheng 1739, 7.4a;Yan 1760, 26.4a). However, there is no description of the form or structure of xieshan zhuanjiao in literature from the  Ming dynasty. In the Qing dynasty, both xieshan zhuanjiao and xieshan are used in official architectural records. </p>
-               <p xml:lang="zh-Hant" source="#biblk000189-1">從王璞子的論著中推論，“歇山轉角”的含義同“歇山”，“歇山”或為“歇山轉角”的簡稱。在其論著行文中，“歇山轉角”與“歇山”兩個詞通用（王 1995，6-10）。“歇山轉角”一詞最早出現在明代文獻中，其使用場合有二：一為禮制官書中對官員營造房屋不許“歇山轉角”的規定（佚名 1573-1620，8.17b）；二為地方誌（均在華北地區）中對寺觀廟宇中的主殿或城池上城樓的描述（邵 2013,108; 于 1573-1620, 5.10a; 劉 1673, 31a; 程 1739, 7.4a; 顏 1760, 26.4a）。但未見明代文獻中對其樣式有明確描述。在清代營造做法的官刊書籍中“歇山轉角”和“歇山”均有使用。（Zhou Jun 周俊 Jia Tingli 賈亭立）</p>
+            <term xml:id="term-k000189-6" xml:lang="en" source="#biblk000189-1">hip-gable roof</term>
+            <note type="English" xml:lang="en">
+               <p >It can be inferred from Wang Puzi’s book that xieshan zhuanjiao has the same meaning as xieshan and that xieshan may be short for xieshan zhuanjiao because they are used interchangeably (Wang 1995,6-10).</p>
+                <p source="#biblk000189-2"> The term xieshan zhuanjiao first appeared in the <term ref="/keyword/k000051">Ming dynasty</term> in two contexts. The first is the stipulation in the official records that officials were not allowed to build their houses in this form (佚名 1573-1620，8.17b). The second  is  part of a description of the main hall of the temple or the tower above city gates (chenglou 城樓) in the local gazetteers (difangzhi 地方志) from North China(Shao 2013,108; Yu 1573-1620, 5.10a; Liu 1673, 31a; Cheng 1739, 7.4a;Yan 1760, 26.4a). However, there is no description of the form or structure of xieshan zhuanjiao in literature from the <term ref="/keyword/k000051">Ming dynasty</term>. In the <term ref="/keyword/k000070">Qing dynasty</term>, both xieshan zhuanjiao and xieshan are used in official architectural records. </p>
             </note>
-            <listBibl xml:id="biblk000189-1">
+            <note type="中文" xml:lang="zh-Hant">
+               <p source="#biblk000189-2">從王璞子的論著中推論，“歇山轉角”的含義同“歇山”，“歇山”或為“歇山轉角”的簡稱。在其論著行文中，“歇山轉角”與“歇山”兩個詞通用（王 1995，6-10）。“歇山轉角”一詞最早出現在<term ref="/keyword/k000051">明代</term>文獻中，其使用場合有二：一為禮制官書中對官員營造房屋不許“歇山轉角”的規定（佚名 1573-1620，8.17b）；二為地方誌（均在華北地區）中對寺觀廟宇中的主殿或城池上城樓的描述（邵 2013,108; 于 1573-1620, 5.10a; 劉 1673, 31a; 程 1739, 7.4a; 顏 1760, 26.4a）。但未見<term ref="/keyword/k000051">明代</term>文獻中對其樣式有明確描述。在<term ref="/keyword/k000070">清代</term>營造做法的官刊書籍中“歇山轉角”和“歇山”均有使用。（Zhou Jun 周俊 Jia Tingli 賈亭立）</p>
+            </note>
+               <bibl xml:id="biblk000189-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">369</citedRange>
+            </bibl>           
+            <listBibl xml:id="biblk000189-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/HXE4ZES5"/>
                      <citedRange unit="pp">6-10</citedRange>
@@ -101,6 +112,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000189</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000137" passive="roof types"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
