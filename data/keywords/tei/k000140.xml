@@ -68,7 +68,7 @@
             <term xml:id="term-k000140-3" xml:lang="zh-Hans">乳栿</term>
             <term xml:id="term-k000140-4" xml:lang="zh-latn-pinyin" source="#biblk000140-1">rǔfú</term>
             <term xml:id="term-k000140-5" xml:lang="zh-latn-wadegile">ju-fu</term>
-            <term xml:id="term-k000140-6" xml:lang="en" type="literal_translation" source="#biblk000140-2">mammary, newborn (lit.)</term>
+            <term xml:id="term-k000140-6" xml:lang="en" type="literal_translation" source="#biblk000140-2">mammary, newborn; beam (lit.)</term>
             <term xml:id="term-k000140-7" xml:lang="en" source="#biblk000140-3">eavesbeam</term>
             <term xml:id="term-k000140-8" xml:lang="en" source="#biblk000140-4">a kind of two-rafter beam</term>
             <note type="Gloss">
@@ -89,10 +89,16 @@
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">196</citedRange>
             </bibl>
-            <bibl xml:id="biblk000140-2">
+            <listBibl xml:id="biblk000140-2"> 
+             <bibl>
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">N/A</citedRange>
-            </bibl>
+             </bibl>
+             <bibl>              
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>         
+               <citedRange unit="pp">N/A</citedRange>           
+             </bibl>  
+            </listBibl>
             <bibl xml:id="biblk000140-3">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">67</citedRange>
