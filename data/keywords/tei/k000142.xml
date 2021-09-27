@@ -24,7 +24,7 @@
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations and notes 2021 by</resp>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
@@ -58,6 +58,7 @@
       <revisionDesc>
          <change n="1.0" who="#CBL" when="2021-03-12">CREATED: record and adding citations</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
+         <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,12 +77,10 @@
                <term ref="/keyword/k000171">míngjiān 明間</term>
                <term ref="/keyword/k000153">dāngxīnjiān 當心間</term>
             </note>
-            <note type="English" xml:lang="en" >
-               <p source="#bibl000142-3">Meaning, literally, “heart” or “central bay” (Kroll 2015, 507; 196), according to the Yingzao fashi, xinjian (also called dangxinjian 當心間) refers to the central bay of a building, divided longitudinally by the two central front pillars (pingzhu 平柱) and covering the entire depth (YZFS 5.7a). Occasionally, it may also refer to the unit of space between these two pillars (YZFS 4.9a-b;5.4b). According to the Yingzao fashi, there should only be one xinjian in any given building. As an architectural term, xinjian was adopted only in official texts of the Song dynasty and was interchangeable with zhongjian 中間 (literally center, or central, bay). In the Republican period, alongside the study of the Yingzao fashi, scholars of the Yingzao xueshe) adopted xinjian as a basic architectural term equated  with mingjian 明間 (Liang 1932, 29).</p>
-            </note>
-            <note type="中文" xml:lang="zh-Hant" >
-               <p source="#bibl000142-4"> 心間(亦作當心间)，在《營造法式》中指位于建築中央，以前檐中心二柱（平柱）為界，包含整個進深的基本單元 (李 2009，5.7a)。也存在僅指前檐二柱之間的情況 (李 2009, 4.9a-b;5.4b)。從《營造法式》的語境看，一座建築物的“心間（當心間）”有且僅有一個。</p>
-               <p source="#bibl000142-5"> “心間”在历史文獻中僅見於宋代帶有官方性質的文献，并存在與“中間”並用的情況。在民国时期，隨著營造學社對《營造法式》的研究，“心間”被重新引入到現代建築史研究中，成為“明間”的同義词(梁 1932，29）（Guo Mian 郭勉 Zhuge Jing 諸葛淨）。</p>
+            <note type="Note (brief)">           
+               <p source="#bibl000142-3" xml:lang="en">Meaning, literally, “heart” or “central bay” (Kroll 2015, 507; 196), according to the <term ref="https://architecturasinica.org/bibl/2ZUFYQ46">Yingzao fashi</term>, xinjian (also called <term ref="/keyword/k000153">dangxinjian 當心間</term>) refers to the central bay of a building, divided longitudinally by the two central front pillars (<term ref="/keyword/k000064">pingzhu 平柱</term>) and covering the entire depth (YZFS 5.7a). Occasionally, it may also refer to the unit of space between these two pillars (YZFS 4.9a-b;5.4b). According to the <term ref="https://architecturasinica.org/bibl/2ZUFYQ46">Yingzao fashi</term>, there should only be one xinjian in any given building. As an architectural term, xinjian was adopted only in official texts of the Song dynasty and was interchangeable with zhongjian 中間 (literally center, or central, bay). In the<term ref="/keyword/k000195">Republican period</term>, alongside the study of the <term ref="https://architecturasinica.org/bibl/2ZUFYQ46">Yingzao fashi</term>, scholars of the Yingzao xueshe) adopted xinjian as a basic architectural term equated  with <term ref="/keyword/k000171">mingjian 明間</term>(Liang 1932, 29).</p>
+               <p source="#bibl000142-4" xml:lang="zh-Hant"> 心間(亦作當心间)，在<term ref="https://architecturasinica.org/bibl/2ZUFYQ46">《營造法式》</term>中指位于建築中央，以前檐中心二柱（<term ref="/keyword/k000064">平柱</term>）為界，包含整個進深的基本單元 (李 2009，5.7a)。也存在僅指前檐二柱之間的情況 (李 2009, 4.9a-b;5.4b)。從 <term ref="https://architecturasinica.org/bibl/2ZUFYQ46">《營造法式》</term>的語境看，一座建築物的“心間（<term ref="/keyword/k000153">當心間</term>）”有且僅有一個。</p>
+               <p source="#bibl000142-5" xml:lang="zh-Hant"> “心間”在历史文獻中僅見於<term ref="/keyword/k000074">宋代</term>帶有官方性質的文献，并存在與“中間”並用的情況。在<term ref="/keyword/k000195">民国时期</term>，隨著營造學社對<term ref="https://architecturasinica.org/bibl/2ZUFYQ46">《營造法式》</term>的研究，“心間”被重新引入到現代建築史研究中，成為“<term ref="/keyword/k000171">明間</term>(Liang 1932, 29)”的同義词(梁 1932，29）（Guo Mian 郭勉 Zhuge Jing 諸葛淨）。</p>
             </note>
             <bibl xml:id="biblk000142-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>

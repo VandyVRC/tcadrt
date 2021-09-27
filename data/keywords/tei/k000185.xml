@@ -12,13 +12,21 @@
                <foreign xml:lang="zh-Hant">廈兩頭</foreign>shàliǎngtóu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citation and gloss 2021 by</resp>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
                <name type="person" xml:id="HDN"> HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+            <resp>Initial research and revision by</resp>
+            <name type="person">ZHANG Xu張旭</name>
+            <name type="person">JIA Tingli 賈亭立</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -51,6 +59,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-09-15" who="#HDN">CREATED: record</change>
          <change n="1.1" when="2021-09-18" who="#HDN">Adding notes and citations</change>
+         <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,14 +74,12 @@
                <term><term ref="/keyword/k000143">歇山</term></term>
             </note>
             <note source="#bibl000185-5">  Alternative pronunciation: Shaliangtou (Chen Mingda) </note>
-            <note xml:lang="en">
-               <p source="#bibl000185-1">Shaliangtou 廈兩頭, usually understood as “with a mansion on either end” (Kroll 492, 458),  only appears as a technical term of architecture in the literature of the Tang and Song dynasties. Here it  refers to a roof form used on a tingtang 廳堂 (mansion hall) building. It is similar to the xieshan roof in the Qing dynasty, which is commonly translated as “hip-gable” or “hip-and-gable” roof, or a roof composed of four slopes and two gables in which corner beams extend at a 45 degree angle to support eaves sheltering the corner of the building. In the Tang dynasty, only officials of the fifth rank or above were allowed to use shaliangtou in their houses. The same form of roof used in diantang  殿堂 (palatial hall) buildings is called jiujidian 九脊殿 (nine-ridged hall) (Tianyige Musuem  2006, 344).</p>
-               <p source="#bibl000185-2"> Although usually treated as a single technical term, in translating the characters literally, shaliangtou might also be interpreted as a construction method for a roof structure. But even early imperial commentators were uncertain of the origin. In the context of Tang-Song literature, xialiangtou may be read as a verbal phrase, meaning either “to [add a lower] set of eaves (xia 廈 here meaning a mansion or additional building) to the sides of a building (liangtou 兩頭)” or “to make a gable on both ends of the roof ridge (xia 廈, working as a verb meaning  “to cut”; sha 廈 as homonym for sha 殺 or xia 下) the two ends of a hip roof at the roof ridge, or “to make into a Xia 夏 dynasty-style roof” (if Xia-style meant “gabled”). In this case, “Xia liangtou” would not be a technical term. Further research is necessary to confirm the viability of this interpretation. Textual sources indicate that in the eleventh century the pronunciation of the term was also variable (《廣韻》1008, juan.p#; 《集韻》1039, juan.p#). </p>
-               <p>In Song dynasty paintings one can find many images of buildings with gable roofs where shed roofs (piyan 披簷) are added to the gable ends. However, this roof form, where eaves shelter all four sides of the building without the use of corner beams to create a full hip roof sheltering the corner columns, does not appear to have been considered shaliangtou in either style or building technique.</p>
-            </note>
-            <note xml:lang="zh-Hant" source="#bibl000185-3">
-               <p source="#bibl000185-3">“廈兩頭” 僅出現在唐宋時期的文獻中,是一種用於廳堂建築的，類似於清代歇山頂的屋頂做法，即由四個坡面和兩個山面組成，四角由角梁形成轉角。在唐代，“廈兩頭”僅允許五品以上官員使用（天一閣 2006, 344）。“廈兩頭”用於殿閣建築則稱為“九脊殿”。(Li 2009, 5.6a)</p>
-               <p source="#bibl000185-4"> 廳堂若用“廈兩頭”造，則稍間用角梁形成轉角。因此“廈兩頭”不完全等同於“懸山兩側加披簷”，宋畫中多見的一種兩坡建築兩側山面加披簷，但沒有角梁轉角的屋頂形式，不應稱作“廈兩頭”。（ATTCAT 2021） （Zhang Xu 張旭 Jia Tingli 賈亭立）</p>
+            <note type="Note (brief)">
+               <p source="#bibl000185-1" xml:lang="en">Shaliangtou 廈兩頭, usually understood as “with a mansion on either end” (Kroll 492, 458),  only appears as a technical term of architecture in the literature of the <term ref="/keyword/k000028">Tang</term> and <term ref="/keyword/k000074">Song</term> dynasties. Here it  refers to a roof form used on a <term ref="/keyword/k000129">tingtang 廳堂</term> (mansion hall) building. It is similar to the <term ref="/keyword/k000143">xieshan roof</term> in the <term ref="/keyword/k000070">Qing</term> dynasty, which is commonly translated as “hip-gable” or “hip-and-gable” roof, or a roof composed of four slopes and two gables in which corner beams extend at a 45 degree angle to support eaves sheltering the corner of the building. In the <term ref="/keyword/k000028">Tang</term> dynasty, only officials of the fifth rank or above were allowed to use shaliangtou in their houses. The same form of roof used in <term ref="/keyword/k000130"> diantang  殿堂 (palatial hall)</term> buildings is called jiujidian 九脊殿 (nine-ridged hall) (Tianyige Musuem  2006, 344).</p>
+               <p source="#bibl000185-2" xml:lang="en"> Although usually treated as a single technical term, in translating the characters literally, shaliangtou might also be interpreted as a construction method for a roof structure. But even early imperial commentators were uncertain of the origin. In the context of Tang-Song literature, xialiangtou may be read as a verbal phrase, meaning either “to [add a lower] set of eaves (xia 廈 here meaning a mansion or additional building) to the sides of a building (liangtou 兩頭)” or “to make a gable on both ends of the roof ridge (xia 廈, working as a verb meaning  “to cut”; sha 廈 as homonym for sha 殺 or xia 下) the two ends of a hip roof at the roof ridge, or “to make into a Xia 夏 dynasty-style roof” (if Xia-style meant “gabled”). In this case, “Xia liangtou” would not be a technical term. Further research is necessary to confirm the viability of this interpretation. Textual sources indicate that in the eleventh century the pronunciation of the term was also variable (《廣韻》1008, juan.p#; <term ref="https://tinyurl.com/4btupcar">《集韻》</term>1039, 四庫全書本，卷八，51). </p>
+               <p xml:lang="en">In <term ref="/keyword/k000074">Song</term> dynasty paintings one can find many images of buildings with gable roofs where shed roofs (piyan 披簷) are added to the gable ends. However, this roof form, where eaves shelter all four sides of the building without the use of corner beams to create a full hip roof sheltering the corner columns, does not appear to have been considered shaliangtou in either style or building technique.</p>
+               <p source="#bibl000185-3" xml:lang="zh-Hant">“廈兩頭” 僅出現在唐宋時期的文獻中,是一種用於<term ref="/keyword/k000129">廳堂</term>建築的，類似於清代<term ref="/keyword/k000143">歇山頂</term> 的屋頂做法，即由四個坡面和兩個山面組成，四角由角梁形成轉角。在<term ref="/keyword/k000028">唐代</term>，“廈兩頭”僅允許五品以上官員使用（天一閣 2006, 344）。“廈兩頭”用於殿閣建築則稱為“九脊殿”。(Li 2009, 5.6a)</p>
+               <p source="#bibl000185-4" xml:lang="zh-Hant"> 廳堂若用“廈兩頭”造，則稍間用角梁形成轉角。因此“廈兩頭”不完全等同於“懸山兩側加披簷”，宋畫中多見的一種兩坡建築兩側山面加披簷，但沒有角梁轉角的屋頂形式，不應稱作“廈兩頭”。（ATTCAT 2021） （Zhang Xu 張旭 Jia Tingli 賈亭立）</p>
             </note>
             <listBibl xml:id="biblk000185-1">
                <bibl>
