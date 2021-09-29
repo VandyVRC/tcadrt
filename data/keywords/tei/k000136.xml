@@ -14,7 +14,8 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
+            <editor role="content-author" >JIANG Jiayuan 蔣嘉元</editor>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" xml:id="SX">SUN Xiaoqian 孫曉倩</name>
@@ -49,12 +50,16 @@
                <name type="person" xml:id="SEB">Sarah Brooker</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations and notes 2021 by</resp>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+<!--            <edition n="1.0"/>-->
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
@@ -84,6 +89,7 @@
          <change n="1.0" when="2021-03-12">CREATED: record</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
          <change n="1.2" when="2021-09-15" who="#HDN">Adding internal links</change>
+         <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -98,17 +104,15 @@
                <p xml:lang="en" source="#biblk000136-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000136-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
             </note>
-            <note type="English" xml:lang="en">
-               <p source="#bibl000136-3">Literally meaning “dew terrace” or “exposed terrace” (Kroll 285; 440), lutai is a raised platform within a building complex. In the literature of the <term ref="/keyword/k000030">Han</term> and <term ref="/keyword/k000028">Tang</term> dynasties, lutai referred specifically to a structure built by Emperor Wen of the <term ref="/keyword/k000030">Han</term> dynasty. The term later appeared in a large number of <term ref="/keyword/k000074">Song</term> dynasty texts to indicate a space for the performance of theater, music, and dance in cities, private gardens, and temples, as well as the places at which sacrifices were made to the gods. There are also a few records that refer to the platform of the ramp of the city gate as lutai (Li 2009,15.3b).</p>               
-               <p>In <term ref="/keyword/k000074">Song</term> dynasty literature, lutai was mainly used to describe the independent open-air platform in front of high-ranking buildings. In <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> dynasty textual sources, lutai usually indicated the platform which protrudes from the front of a building, however, based on Jin dynasty steles, such as the building plan of the Temple to the Central Peak (“大金承安重修中嶽廟圖,” Figure 1), the term lutai could still be used to describe freestanding and exposed platforms.  Extant buildings and other visual evidence from the <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> suggest that open-air platforms called lutai protruded from the fronts of buildings and were connected to the building’s foundation, either on the same level or slightly lower. In the <term ref="/keyword/k000101">Yuan</term> dynasty, lutai generally referred to the platform that protrudes from the front of the building. In the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, the meaning of lutai encompassed all open-air platforms.</p>                    
-               <p> From the <term ref="/keyword/k000074">Song</term> dynasty, the term lutai was used within a large number of documents in relation to themes of deity worship. Thus, the name and structure of lutai may have continued to refer to the lutai of Emperor Wen of the  <term ref="/keyword/k000030">Han</term> dynasty at some level through at least the thirteenth century. This interpretation requires further research.</p>
-            </note>
-            <note type="中文" xml:lang="zh-Hant">
-               <p>“露臺”作為一類構築物的名稱，廣泛出現于<term ref="/keyword/k000074">宋代</term>文獻，主要指建築物前獨立的露天臺子；從<term ref="/keyword/k000047">遼</term>文獻与实物看，<term ref="/keyword/k000047">遼</term>王朝內露臺主要指建築正面向前突出的台基，<term ref="/keyword/k000036">金</term>也同樣；但<term ref="/keyword/k000036">金</term>的圖像資料（“大金承安重修中嶽廟圖”）表明此时露台仍有独立露天台子的含义。<term ref="/keyword/k000101">元代</term>承襲了正面向前突出的台基的建築形製和對應稱呼，明清時期更擴大了使用範圍，泛指露天的臺子。</p>
-               <p source="#bibl000136-4"> 漢唐文獻中“露臺”均特指漢文帝時期露臺典故 (班 1962, 134；或<term ref="https://tinyurl.com/un3c38jd">《貞觀政要》</term>卷6)。“露臺”作為一類構築物的稱呼，大量出現於<term ref="/keyword/k000074">宋代</term>文獻中，主要用於城市開放場所中妓樂表演；私人宅園的樂舞表演；或祠廟中表演歌舞、擺放祭品以敬獻神靈的臺，等等。偶爾有記載將城門墁道中的平臺稱為露臺（李 2009,15.3b）。</p>
-               <p> 遼金官方文獻中，宮殿建築前的“凸臺”被稱為“露臺”（脫脫 1974， 855）。<term ref="/keyword/k000028">唐</term>、<term ref="/keyword/k000026">五代</term>、<term ref="/keyword/k000074">宋代</term>、<term ref="/keyword/k000047">遼</term>、<term ref="/keyword/k000036">金</term>的現存建築中，唐、五代、北宋幾十座建築除南禪寺大殿外均無殿前凸臺，而遼、金大部分建築及一些南宋建築有露臺。說明“殿前凸臺”在遼金建築中成為較為固定的形製，並被稱為“露台”。</p>
-               <p><term ref="/keyword/k000101">元代</term>承襲了以“露臺”指代“殿前凸臺”的用法，並成為元代以後的主要用法。但元代殿前的露臺仍繼承了宋金用來“舞樂”的功能.（<term ref="https://tinyurl.com/njsuehmk">《道園學古録》卷之二十三</term>）明清時期“露台”一詞依然用於指代“殿前凸臺”，但露臺的使用場所進一步擴大，用途也更為廣泛。</p>
-              <p>宋代開始廣泛出現的“露臺”，從其使用場合看，有一定的敬神含義，其名稱與構造方式在意向上可能與漢文帝的露臺有相通之處，但仍需進一步研究。（ATTCAT 2021）</p>
+            <note type="Note (brief)">
+               <p source="#bibl000136-3" xml:lang="en">Literally meaning “dew terrace” or “exposed terrace” (Kroll 285; 440), lutai is a raised platform within a building complex. In the literature of the <term ref="/keyword/k000030">Han</term> and <term ref="/keyword/k000082">Tang</term> dynasties, lutai referred specifically to a structure built by Emperor Wen of the <term ref="/keyword/k000030">Han</term> dynasty. The term later appeared in a large number of <term ref="/keyword/k000074">Song</term> dynasty texts to indicate a space for the performance of theater, music, and dance in cities, private gardens, and temples, as well as the places at which sacrifices were made to the gods. There are also a few records that refer to the platform of the ramp of the city gate as lutai (Li 2009,15.3b).</p>               
+               <p xml:lang="en">In <term ref="/keyword/k000074">Song</term> dynasty literature, lutai was mainly used to describe the independent open-air platform in front of high-ranking buildings. In <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> dynasty textual sources, lutai usually indicated the platform which protrudes from the front of a building, however, based on Jin dynasty steles, such as the building plan of the Temple to the Central Peak (“大金承安重修中嶽廟圖,” Figure 1), the term lutai could still be used to describe freestanding and exposed platforms.  Extant buildings and other visual evidence from the <term ref="/keyword/k000047">Liao</term> and <term ref="/keyword/k000036">Jin</term> suggest that open-air platforms called lutai protruded from the fronts of buildings and were connected to the building’s foundation, either on the same level or slightly lower. In the <term ref="/keyword/k000101">Yuan</term> dynasty, lutai generally referred to the platform that protrudes from the front of the building. In the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, the meaning of lutai encompassed all open-air platforms.</p>                    
+               <p xml:lang="en"> From the <term ref="/keyword/k000074">Song</term> dynasty, the term lutai was used within a large number of documents in relation to themes of deity worship. Thus, the name and structure of lutai may have continued to refer to the lutai of Emperor Wen of the  <term ref="/keyword/k000030">Han</term> dynasty at some level through at least the thirteenth century. This interpretation requires further research.</p>
+               <p xml:lang="zh-Hant">“露臺”作為一類構築物的名稱，廣泛出現于<term ref="/keyword/k000074">宋代</term>文獻，主要指建築物前獨立的露天臺子；從<term ref="/keyword/k000047">遼</term>文獻与实物看，<term ref="/keyword/k000047">遼</term>王朝內露臺主要指建築正面向前突出的台基，<term ref="/keyword/k000036">金</term>也同樣；但<term ref="/keyword/k000036">金</term>的圖像資料（“大金承安重修中嶽廟圖”）表明此时露台仍有独立露天台子的含义。<term ref="/keyword/k000101">元代</term>承襲了正面向前突出的台基的建築形製和對應稱呼，<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>時期更擴大了使用範圍，泛指露天的臺子。</p>
+               <p source="#bibl000136-4" xml:lang="zh-Hant"> 漢唐文獻中“露臺”均特指漢文帝時期露臺典故 (班 1962, 134；或<term ref="https://tinyurl.com/un3c38jd">《貞觀政要》</term>卷6)。“露臺”作為一類構築物的稱呼，大量出現於<term ref="/keyword/k000074">宋代</term>文獻中，主要用於城市開放場所中妓樂表演；私人宅園的樂舞表演；或祠廟中表演歌舞、擺放祭品以敬獻神靈的臺，等等。偶爾有記載將城門墁道中的平臺稱為露臺（李 2009,15.3b）。</p>
+               <p xml:lang="zh-Hant"> 遼金官方文獻中，宮殿建築前的“凸臺”被稱為“露臺”（脫脫 1974， 855）。<term ref="/keyword/k000082">唐</term>、<term ref="/keyword/k000026">五代</term>、<term ref="/keyword/k000074">宋代</term>、<term ref="/keyword/k000047">遼</term>、<term ref="/keyword/k000036">金</term>的現存建築中，<term ref="/keyword/k000082">唐</term>、<term ref="/keyword/k000026">五代</term>、<term ref="/keyword/k000055">北宋</term>幾十座建築除<term ref="/place/000214">南禪寺大殿</term>外均無殿前凸臺，而<term ref="/keyword/k000047">遼</term>、<term ref="/keyword/k000036">金</term>大部分建築及一些<term ref="/keyword/k000076">南宋</term>建築有露臺。說明“殿前凸臺”在<term ref="/keyword/k000047">遼</term><term ref="/keyword/k000036">金</term>建築中成為較為固定的形製，並被稱為“露台”。</p>
+               <p xml:lang="zh-Hant"><term ref="/keyword/k000101">元代</term>承襲了以“露臺”指代“殿前凸臺”的用法，並成為<term ref="/keyword/k000101">元代</term>以後的主要用法。但<term ref="/keyword/k000101">元代</term>殿前的露臺仍繼承了宋金用來“舞樂”的功能.（<term ref="https://tinyurl.com/njsuehmk">《道園學古録》卷之二十三</term>）<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>時期“露台”一詞依然用於指代“殿前凸臺”，但露臺的使用場所進一步擴大，用途也更為廣泛。</p>
+               <p xml:lang="zh-Hant">宋代開始廣泛出現的“露臺”，從其使用場合看，有一定的敬神含義，其名稱與構造方式在意向上可能與漢文帝的露臺有相通之處，但仍需進一步研究。（ATTCAT 2021）</p>
             </note>
             <bibl xml:id="biblk000136-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>

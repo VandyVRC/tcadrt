@@ -68,6 +68,7 @@
       </profileDesc>
       <revisionDesc>
             <change n="1.0" when="2021-09-17" who="#MT">CREATED: record</change>
+            <change n="1.1" when="2021-09-25" who="#MT">Revision:adding citations, notes and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,21 +77,36 @@
             <term xml:id="term-k000183-1" xml:lang="zh-latn-pinyin-nt" type="preferred">caojia</term>
             <term xml:id="term-k000183-2" xml:lang="zh-Hant">草架</term>
             <term xml:id="term-k000183-3" xml:lang="zh-Hans">草架</term>
-            <term xml:id="term-k000183-4" xml:lang="zh-latn-pinyin">cǎojià</term>
+            <term xml:id="term-k000183-4" xml:lang="zh-latn-pinyin" source="#biblk000183-1">cǎojià</term>
             <term xml:id="term-k000183-5" xml:lang="zh-latn-wadegile">ts'ao-chia</term>
+            <term xml:id="term-k000183-6" xml:lang="en" type="literal_translation">(lit.)Cross frame drawing</term>
+            <term xml:id="term-k000183-7" xml:lang="en" source="#biblk000183-2">rough structural frame</term>
             <!--
             <note type="Gloss">             
                <p xml:lang="en" source="#biblk000183-1">As an architectural term, caojia (literally “draft frame,” Kroll 2015 34, 194), primarily appears in technical manuals such as the Yingzao Fashi (1103), Yuanye 園冶 (1631), and Yingzao fayuan 營造法原 (1959). It refers to the roof frame between the interior ceiling (the pingqi 平棊 in Yingzao Fashi and the xuan 軒 or juan 卷 in mansion-hall style architecture of Jiangnan area in Ming and Qing dynasties) and the roof, which is left rough (hence the term “draft”) because it is not visible to the viewer (Chen 2010, 259; Yao 1986, 116).</p>
                <p xml:lang="zh-Hant" source="#biblk000183-1">草架作為建築術語，主要出現在《營造法式》（1103）、《園冶》（1631）及《營造法原》（1959）中。指室內天花（即《營造法式》中的藻井；明代江南廳堂中的軒（卷））與屋面之間的屋架（陳 2010，259；姚 1986，116），因不露明而加工簡略。</p>
             </note> 
             -->
-            <note xml:lang="en" source="#bibl00183-1">
-               <p>As an architectural term, caojia (literally “draft frame,” Kroll 2015 34, 194), primarily appears in technical manuals such as the Yingzao Fashi (1103), Yuanye 園冶 (1631), and Yingzao fayuan 營造法原 (1959). It refers to the roof frame between the interior ceiling (the pingqi 平棊 in Yingzao Fashi and the xuan 軒 or juan 卷 in mansion-hall style architecture of Jiangnan area in <term ref="/keyword/k00051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties) and the roof, which is left rough (hence the term “draft”) because it is not visible to the viewer (Chen 2010, 259; Yao 1986, 116). In addition, the term caojia zhuzi 草架柱子 in <term ref="/keyword/k000070">Qing</term> dynasty documents has a similar meaning of a “rough pillar” because, like a draft, it was not meant to exposed (Gongbu,1773,2.21a; Guan 1644-1911, 29; Li 1795, 17.6a).</p> 
+            <note xml:lang="en" type="English" >
+               <p source="#bibl00183-3" >As an architectural term, caojia (literally “draft frame,” Kroll 2015 34, 194), primarily appears in technical manuals such as the Yingzao Fashi (1103), Yuanye 園冶 (1631), and Yingzao fayuan 營造法原 (1959). It refers to the roof frame between the interior ceiling (the pingqi 平棊 in Yingzao Fashi and the xuan 軒 or juan 卷 in mansion-hall style architecture of Jiangnan area in <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties) and the roof, which is left rough (hence the term “draft”) because it is not visible to the viewer (Chen 2010, 259; Yao 1986, 116). In addition, the term caojia zhuzi 草架柱子 in <term ref="/keyword/k000070">Qing</term> dynasty documents has a similar meaning of a “rough pillar” because, like a draft, it was not meant to exposed (Gongbu,1773,2.21a; Guan 1644-1911, 29; Li 1795, 17.6a).</p> 
             </note> 
-            <note xml:lang="zh-Hant" source="#bibl00183-1">
-               <p>草架作為建築術語，主要出現在《營造法式》（1103）、《園冶》（1631）及《營造法原》（1959）中。指室內天花（即《營造法式》中的藻井；明代江南廳堂中的軒（卷））與屋面之間的屋架（陳 2010，259；姚 1986，116），因不露明而加工簡略。此外，清代文獻中也有類似用法，以“草架柱子”表明其為不露明構件而做工簡略（工部 1773,2.21a；官 1644-1911 ,29；李 1795，17.6a)。（Miao Tongxi 繆彤茜 Bai Ying 白穎）</p> 
-            </note>      
-            <listBibl xml:id="biblk000183-1">
+            <note xml:lang="zh-Hant" type="中文" >
+               <p source="#bibl00183-3" >草架作為建築術語，主要出現在《營造法式》（1103）、《園冶》（1631）及《營造法原》（1959）中。指室內天花（即《營造法式》中的藻井；明代江南廳堂中的軒（卷））與屋面之間的屋架（陳 2010，259；姚 1986，116），因不露明而加工簡略。此外，清代文獻中也有類似用法，以“草架柱子”表明其為不露明構件而做工簡略（工部 1773,2.21a；官 1644-1911 ,29；李 1795，17.6a)。（Miao Tongxi 繆彤茜 Bai Ying 白穎）</p> 
+            </note>  
+            <bibl  xml:id="biblk000183-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+            </bibl>
+            <listBibl xml:id="biblk000182-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">21</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">350</citedRange> 
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000183-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                   <citedRange unit="pp">259</citedRange> 
@@ -117,6 +133,7 @@
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271699104_f39300f004_o.jpg" passive="https://architecturasinica.org/keyword/k000183" ana="featured"/>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271831469_fd38684226_o.jpg" passive="https://architecturasinica.org/keyword/k000183" ana="featured"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000183" passive="building frame"/>
                </listRelation>
             </listRelation>
          </entryFree>
