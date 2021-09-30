@@ -4,11 +4,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Kaiyuan Cavern <foreign xml:lang="zh-Hant">晉祠開源洞</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Daifeng Xuan <foreign xml:lang="zh-Hant">晉祠待鳳軒</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048fa/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048ga/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,23 +51,23 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048fa" type="building type">
-               <placeName xml:id="name000048fa-1" xml:lang="en">Open Spring Cavern</placeName>
-               <placeName xml:id="name000048fa-2" xml:lang="zh-Hant">開源洞</placeName>
-               <placeName xml:id="name000048fa-3" xml:lang="zh-Hans">开源洞</placeName>
-               <placeName xml:id="name000048fa-4" xml:lang="zh-latn-pinyin">Kāiyuándòng</placeName>
-               <placeName xml:id="name000048fa-5" xml:lang="zh-latn-wadegile">K'ai-yüan-tung</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048fa</idno>
-             <state type="existence" from="1600-01-01" to="1700-01-01">
+            <place xml:id="place-000048ga" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048ga-1" xml:lang="en">Awaiting the Phoenix Xuan Pavilion</placeName>
+               <placeName xml:id="name000048ga-2" type="building-name" xml:lang="zh-Hant">待鳳軒</placeName>
+               <placeName xml:id="name000048ga-3" type="building-name" xml:lang="zh-Hans">待凤轩</placeName>
+               <placeName xml:id="name000048ga-4" type="building-name" xml:lang="zh-latn-pinyin">Dàifèngxuān</placeName>
+               <placeName xml:id="name000048ga-5" type="building-name" xml:lang="zh-latn-wadegile">Tai-feng-hsüan</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ga</idno>
+               <state type="existence" from="1718-01-01" to="1718-12-31">
                   <label>Date</label>
-                <desc>17th century</desc>
+                  <desc>1718</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048fa-2" from="1600-01-01" to="1700-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048g-2" from="202 BCE-01-01" to="0220-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming - Qing (1600-1700)</desc>
+                  <desc>Qing (1644-1912)</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048fa-1">There is an image of the God of Wealth within the cave. The date of initial construction is unknown.</p>
+                  <p source="#bibl000048g-1">On the north of the Chaoyang Cavern three bays. In the 30th year of the Guangxu reign (1904) an interior room of one bay was added, the door opens from the back wall of the pavilion.</p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -79,24 +79,25 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">Cavern</desc>
-                  <desc xml:lang="zh-latn-pinyin">Dong</desc>
-                  <desc xml:lang="zh-Hant">洞</desc>
-                  <desc xml:lang="zh-Hans">洞</desc>
+                  <desc xml:lang="en">Xuan-Pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">Xuan</desc>
+                  <desc xml:lang="zh-Hant">軒</desc>
+                  <desc xml:lang="zh-Hans">轩</desc>
                </trait>
-               <bibl xml:id="bibl000048fa-1">
+               <bibl xml:id="bibl000048ga-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">198</citedRange>
+                  <citedRange unit="pp">189</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048fa-2">
+               <bibl xml:id="bibl000048ga-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048fa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048fa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000048fa" passive="building type"/>
+               <relation active="https://architecturasinica.org/place/000048ga" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000030" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ga" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50588997376_6aa049f6b0_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50593599838_36eb3c9d2b_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
