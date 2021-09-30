@@ -7,7 +7,7 @@
             <title level="a" xml:lang="en">Jin Shrines, Cha-yan Cavern <foreign xml:lang="zh-Hant">晉祠茶煙洞</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
@@ -17,6 +17,10 @@
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
                <name type="person">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
