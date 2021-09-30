@@ -16,7 +16,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="LS">Liyan Shen</name>
+               <name type="person" ref="JP">Jason Pan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,13 +24,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048m/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048ma/tei</idno>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/">
-                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               <licence target="http://creativecommons.org/licenses/by/1.0/">
+                  <p>Distributed under a Creative Commons Attribution 1.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-10-23-04:00</date>
+            <date>2021-9-30-12:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,29 +46,30 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#LS" when="2020-10-23-10:00">CREATED: place record</change>
+         <change n="1.0" who="#JP" when="2021-9-30-12:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048m" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048m-1" xml:lang="en">Water Mirror Terrace</placeName>
-               <placeName xml:id="name000048m-2" type="building-name" xml:lang="zh-Hant">水鏡臺</placeName>
-               <placeName xml:id="name000048m-3" type="building-name" xml:lang="zh-Hans">水镜台</placeName>
-               <placeName xml:id="name000048m-4" type="building-name" xml:lang="zh-latn-pinyin">Shuǐjìngtái</placeName>
-               <placeName xml:id="name000048m-5" type="building-name" xml:lang="zh-latn-wadegile">Shui-ching-t`ai</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048m</idno>
-               <state type="existence" from="1500-01-01" to="1600-01-01">
+            <place xml:id="place-000048ma" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048ma-1" xml:lang="en">Ancestor Lü Ge</placeName>
+               <placeName xml:id="name000048ma-2" type="building-name" xml:lang="zh-Hant">呂祖閣</placeName>
+               <placeName xml:id="name000048ma-3" type="building-name" xml:lang="zh-Hans">吕祖阁</placeName>
+               <placeName xml:id="name000048ma-4" type="building-name" xml:lang="zh-latn-pinyin">Lǚzǔgé</placeName>
+               <placeName xml:id="name000048ma-5" type="building-name" xml:lang="zh-latn-wadegile">Lü-tsu-ko</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ma</idno>
+               <state type="existence" from="1600-01-01" to="1700-01-01">
                   <label>Date</label>
-                  <desc>1500-1600</desc>
+                  <desc>1600-1700</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048m-2" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ma-2" from="1636-01-01" to="1922-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
+                  <desc>Qing 1636 - 1922</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-               <p source="#bibl000048m-1">Original date of building unknown, it was repaired in the 24th year of the Daoguang reign period (1844).  The structure faces west and is oriented between the Sage Mother Hall and the Dressing Tower. The front portion of the building looks like a worship hall, and the back is a stage. Gao Ruxing, Taiyuan xianzhi, shows a yuelou 樂樓 stage in that location, so a stage was located here as early as 1551. The structure is considered to be Ming dynasty, with Qing dynasty restoration to the stage portion.  Tiles on the roof ridge of the Water Mirror Terrace are dated to the first year of the Wanli reign period (1573).</p></desc>
+                  <p source="#bibl000048m-1">Located on the Chaoyang Cavern peak, half way up the mountain. On the left (north) it is connected to the Reading Terrace and the Triple Terrace Ge-pavilion and on the right to the temple wall. Unknown exactly when built, this shrine was not mentioned in Gao Ruxing’s writings on Jinci. According to Liu Yongde, an Ancestor Lü Ge-pavilion was already built in the 38th year of Kangxi’s reign (1689). In an inscription dated to Qianlong 28 (1763) both Chaoyang Cavern and a Duke Lü Ge-pavilion are mentioned.
+                  </p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -79,10 +80,10 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">terrace</desc>
-                  <desc xml:lang="zh-latn-pinyin">Tái</desc>
-                  <desc xml:lang="zh-Hant">臺</desc>
-                  <desc xml:lang="zh-Hans">台</desc>
+                  <desc xml:lang="en">pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">Gé</desc>
+                  <desc xml:lang="zh-Hant">閣</desc>
+                  <desc xml:lang="zh-Hans">阁</desc>
                </trait>
                <bibl xml:id="bibl000048m-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
