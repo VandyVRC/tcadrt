@@ -66,7 +66,7 @@
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048qa-3" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048qa-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
@@ -90,20 +90,16 @@
                </trait>
                <bibl xml:id="bibl000048qa-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">161-162</citedRange>
+                  <citedRange unit="pp">198</citedRange>
                </bibl>
                <bibl xml:id="bibl000048q-2">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">192-193</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000048q-3">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048q" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048q" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048qa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048qa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>
