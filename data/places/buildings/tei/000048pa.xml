@@ -86,19 +86,19 @@
                </trait>
                <bibl xml:id="bibl000048pa-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">192</citedRange>
+                  <citedRange unit="pp">198</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048p-2">
+               <bibl xml:id="bibl000048pa-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048p" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048p" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048pa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048pa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597442982_66ddef9ab6_c.jpg"
-                  passive="https://architecturasinica.org/place/000048p" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000048pa" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
