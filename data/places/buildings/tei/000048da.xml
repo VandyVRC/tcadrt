@@ -52,6 +52,7 @@
       <revisionDesc>
          <change n="1.0" who="#HDN" when="2021-09-16-04:00">CREATED: place record</change>
          <change n="1.1" when="2021-09-23" who="#HDN">Added site information</change>
+         <change n="1.2" when="2021-09-30" who="#HDN">Added image links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -96,7 +97,7 @@
                   <desc xml:lang="zh-Hans">洞</desc>
                </trait>
                <note type="Note (brief)">
-                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195) .</p>
+                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195).</p>
                </note>
                  <bibl xml:id="bibl000048da-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
@@ -111,12 +112,18 @@
                <relation active="https://architecturasinica.org/place/000048" passive="https://architecturasinica.org/keyword/k000073" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <!-- <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg"
-                  passive="https://architecturasinica.org/place/000048" ana="featured"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
-                  passive="https://architecturasinica.org/place/000048" ana="featured"/> -->
+                  active="https://live.staticflickr.com/65535/51533228968_fcd20da340_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51533228713_5f43347865_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51533703239_de80b6e4f8_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51532983651_d55ef06cb2_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
