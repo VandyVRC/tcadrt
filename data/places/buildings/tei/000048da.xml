@@ -66,7 +66,7 @@
                <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
                <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>               
                <idno type="URI">https://architecturasinica.org/place/000048</idno>
-                <state type="existence" subtype="dynasty" source="#bibl000048-2" from="1600-01-01" to="1699-12-31">
+                <state type="existence" subtype="dynasty" from="1600-01-01" to="1699-12-31">
                    <label> Date </label>
                    <desc> 17th century </desc>
                    <label>Dynasty</label>
@@ -96,12 +96,13 @@
                   <desc xml:lang="zh-Hans">洞</desc>
                </trait>
                <note type="Note (brief)">
-                  <p xml:lang="en">Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops.</p>
+                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195) .</p>
                </note>
-               <!--  <bibl xml:id="bibl000048da-">
-                  <ptr target="https://architecturasinica.org/bibl/"/>
+                 <bibl xml:id="bibl000048da-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">195</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048da-">
+               <!-- <bibl xml:id="bibl000048da-">
                   <ptr target="https://architecturasinica.org/bibl/"/>
                   <citedRange unit="pp"></citedRange>
                </bibl>-->
