@@ -67,7 +67,7 @@
                   <desc>1563</desc>
                </state>
                 -->
-               <state type="existence" subtype="dynasty" source="#bibl000048b-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ua-1" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
@@ -75,7 +75,7 @@
                   <p>Original date of construction unknown. A bridge appears in this location on
                      Gao Ruxing's Jinci zhitu. According to Liu Dapeng, legend has it that in the
                      past, on the 14th day of the 4th month, tra:nscendents meet on this bridge.</p>
-                     <p source="#bibl000048b-1"></p>
+                     <p source="#bibl000048ua-1"></p>
                </desc>
                
                <!-- 
@@ -95,19 +95,15 @@
                </trait>
                <bibl xml:id="bibl000048ua-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">187-188</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000048ua-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
+                  <citedRange unit="pp">198</citedRange>
+               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ua" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048t\ua" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597327531_010f33fb97_c.jpg"
-                  passive="https://architecturasinica.org/place/000048b" ana="featured"/>            
+                  active="https://live.staticflickr.com/65535/51532185447_e7e201fb82_k.jpg"
+                  passive="https://architecturasinica.org/place/000048ua" ana="featured"/>            
             </listRelation>
          </listPlace>
       </body>
