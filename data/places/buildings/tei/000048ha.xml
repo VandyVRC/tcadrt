@@ -12,7 +12,6 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -67,7 +66,8 @@
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
-               <desc type="building-data" xml:lang="en"> Eastward facing, north of the Lü (Dongbin) Temple-pavilion, connected to the Reading Terrace also located to its south. Constructed at the beginning of the Guangxu reign period (1875-1909) by the abbot monk Xutan 續曇 who raised the money to have it built. According to 晉祠志, the triple-terrace represents the emperor's three terraces: a spiritual terrace (靈臺), a seasonal terrace (時臺), and a park terrace for observing birds and beasts (囿臺). The 天文志 documents the three terraces as composing of six stars in charge of destiny, official rank (nobility), and salary/earning.
+               <desc type="building-data" xml:lang="en"> 
+                  <p source="#bibl000048ha-1"> Eastward facing, north of the Lü (Dongbin) Temple-pavilion, connected to the Reading Terrace also located to its south. Constructed at the beginning of the Guangxu reign period (1875-1909) by the abbot monk Xutan 續曇 who raised the money to have it built. According to 晉祠志, the triple-terrace represents the emperor's three terraces: a spiritual terrace (靈臺), a seasonal terrace (時臺), and a park terrace for observing birds and beasts (囿臺). The 天文志 documents the three terraces as composing of six stars in charge of destiny, official rank (nobility), and salary/earning. </p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -84,24 +84,26 @@
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="zh-Hans">阁</desc>
                </trait>
-               <!--
+               
                <listBibl xml:id="bibl000048ha-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/QD4QXGDP"/>
                   <citedRange unit="pp">196</citedRange>
                </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/CBGH23VK"/>
-                  </bibl>
+                  <!--
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CBGH23VK"/>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                </bibl>
                </listBibl>
+               -->
                <bibl xml:id="bibl000048ha-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               -->
+               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ha" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>

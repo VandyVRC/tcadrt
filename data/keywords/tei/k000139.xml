@@ -14,22 +14,37 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" ref="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="WYY">WANG Yuanyuan 王媛媛</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2021</name>
             </respStmt>
             <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>    
+            <respStmt>
                <resp>Data entry and adding citation(s) by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding links by</resp>
-               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+               <resp>Adding links by</resp>
+               <name type="person" ref="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -75,13 +90,9 @@
             <term xml:id="term-k000139-6" xml:lang="en" type="literal_translation" source="#biblk000139-2">level, flat; even;roofbeam, ridgepole (lit.)</term>
             <term xml:id="term-k000139-7" xml:lang="en" source="#biblk000139-3">top beam</term>
             <term xml:id="term-k000139-8" xml:lang="en" source="#biblk000139-4">two-rafter crossbeam</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000139-5">literally: level or leveling beam, this is the top beam or upper-most beam in a roof frame (Guo 2002, 62; Zuo 2019, 177)</p>
-               <p xml:lang="zh-Hant" source="#biblk000139-5">木構梁架中最上層的梁。</p>
-            </note>
             <note type="Note (brief)">
-               <p xml:lang="en" source="#biblk000139-6">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the <term ref="https://tinyurl.com/36hnkkzs">Yingzao Fashi</term>, where it is also called pingfu 平栿. In extant architecture, shuzhu 蜀柱 and chashou 叉手 are joined into the top of the pingliang (Liang 1983, 142; Chen 2010, 114). In official Qing dynasty architectural terminology, the beam in the location of the pingliang is called sanjialiang 三架梁, meaning a beam that spans three purlins (and two rafters), or taipingliang 太平梁.</p>
-               <p xml:lang="zh-Hant" source="#biblk000139-6">平梁為《營造法式》（1103）所用術語，也稱平栿。指長兩椽，位於梁架最上一層的梁。現存實例中平梁上通常立蜀柱與叉手（梁1983, 142；陳2010，114）。在清官式的梁架及其術語體系中，屋架最上層的太平梁或三架梁與《营造法式》平梁相當。</p>
+               <p xml:lang="en" source="#biblk000139-6">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the <title ref="https://tinyurl.com/36hnkkzs">Yingzao fashi</title>, where it is also called <term>pingfu 平栿</term>. In extant architecture, <term>shuzhu 蜀柱</term> and <term>chashou 叉手</term> are joined into the top of the pingliang (Liang 1983, 142; Chen 2010, 114). In official <term subtype="dynasty" ref="https://dev.architecturasinica.org/keyword/k000070">Qing</term> dynasty architectural terminology, the beam in the location of the pingliang is called <term>sanjialiang 三架梁</term>, meaning a beam that spans three purlins (and two rafters), or <term>taipingliang 太平梁</term>.</p>
+               <p xml:lang="zh-Hant" source="#biblk000139-6">平梁為《<title ref="https://tinyurl.com/36hnkkzs">營造法式</title>》（1103）所用術語，也稱<term>平栿</term>。指長兩椽，位於梁架最上一層的梁。現存實例中平梁上通常立<term>蜀柱</term>與<term>叉手</term>（梁1983, 142；陳2010，114）。在<term subtype="dynasty" ref="https://dev.architecturasinica.org/keyword/k000070">清</term>官式的梁架及其術語體系中，屋架最上層的<term>太平梁</term>或<term>三架梁</term>與《<title ref="https://tinyurl.com/36hnkkzs">營造法式</title>》平梁相當。</p>
             </note>            
             <bibl xml:id="biblk000139-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
