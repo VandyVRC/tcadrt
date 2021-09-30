@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Laojun Shrine <foreign xml:lang="zh-Hant">晉祠老君祠</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" xml:id="ZC">Zhuo Chen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#ZC">Zhuo Chen</name>
+            </respStm
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048aa/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-9-23-01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#ZC" when="2020-10-23-01:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048aa" type="building">
+               <placeName xml:id="name000048aa-1" xml:lang="en">Laojun Shrine</placeName>
+               <placeName xml:id="name000048aa-2" type="building-name" xml:lang="zh-Hant">老君祠</placeName>
+               <placeName xml:id="name000048aa-3" type="building-name" xml:lang="zh-Hans">老君祠</placeName>
+               <placeName xml:id="name000048aa-4" type="building-name" xml:lang="zh-latn-pinyin">Lǎojūncí</placeName>
+               <placeName xml:id="name000048aa-5" type="building-name" xml:lang="zh-latn-wadegile">Lao-chün-tz`u</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048aa</idno>
+               <state type="existence" from="1600-01-01" to="1700-12-31">
+                  <label>Date</label>
+                  <desc>17th century</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048a-2" from="1368-01-01" to="1912-12-31">
+                  <label>Dynasty</label>
+                  <desc>Ming-Qing 1368-1912</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048a-1">Located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">cavern</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">洞</desc>
+                  <desc xml:lang="zh-Hans">洞</desc>
+               </trait>
+               <listBibl xml:id="bibl000048a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">16, 319</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">59-79; 187</citedRange>
+                  </bibl>
+               </listBibl> 
+               <bibl xml:id="bibl000048a-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
+                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

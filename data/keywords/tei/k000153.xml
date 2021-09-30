@@ -20,8 +20,20 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry, adding citation and gloss by</resp>
                <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding links by</resp>
+               <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -61,13 +73,21 @@
             <term xml:id="term-k000153-8" xml:lang="zh-latn-pinyin-nt" type="preferred">dangxinjian</term>
             <term xml:id="term-k000153-2" xml:lang="zh-Hant">當心間</term>
             <term xml:id="term-k000153-3" xml:lang="zh-Hans">当心间</term>
-            <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin">dāngxīnjiān</term>
+            <term xml:id="term-k000153-4" xml:lang="zh-latn-pinyin" source="#biblk000153-1">dāngxīnjiān</term>
             <term xml:id="term-k000153-5" xml:lang="zh-latn-wadegile">tang-hsin-chien</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000153-1">central bay (Chen 2010, 376; Guo 2002, 29); see <term ref="/keyword/k000142">xinjian</term>; mingjian.</p>
-               <p xml:lang="zh-Hant" source="#biblk000153-1">建築物的中心開間。參見 “<term ref="/keyword/k000142">心間</term>”; "明間”。</p>   
+            <term xml:id="term-k000153-6" xml:lang="en" source="#biblk000153-2">central bay</term>
+            <!--<note type="Gloss">
+               <p xml:lang="en" source="#biblk000153-2">central bay (Chen 2010, 376; Guo 2002, 29); see <term ref="/keyword/k000142">xinjian</term>; <term ref="/keyword/k000171">mingjian</term>.</p>
+               <p xml:lang="zh-Hant" source="#biblk000153-2">建築物的中心開間。參見 “<term ref="/keyword/k000142">心間</term>”; "<term ref="/keyword/k000171">明間</term>”。</p>   
+            </note>-->
+            <note type="Note (brief)">
+               <p xml:lang="en">Redirect to <term ref="/keyword/k000142">xinjian 心間</term>.</p>
             </note>
-            <listBibl xml:id="biblk000153-1">
+            <bibl xml:id="biblk000153-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">376</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000153-2">
             <bibl>
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">376</citedRange>
@@ -79,7 +99,7 @@
             </listBibl> 
             <idno type="URI">https://architecturasinica.org/keyword/k000153</idno>
             <listRelation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000151" passive="building frame"/>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000153" passive="building frame"/>
                <!--
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->

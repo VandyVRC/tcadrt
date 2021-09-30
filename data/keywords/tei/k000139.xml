@@ -20,11 +20,15 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry and adding citation(s) by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations and notes by</resp>
+               <resp>Data entry and adding links by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
          </titleStmt>
@@ -57,6 +61,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#CBL" when="2021-03-12">CREATED: record and adding citations</change>
+         <change n="1.1" who="#CBL" when="2021-09-24">Revision: add notes</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,21 +72,34 @@
             <term xml:id="term-k000139-3" xml:lang="zh-Hans">平梁</term>
             <term xml:id="term-k000139-4" xml:lang="zh-latn-pinyin" source="#biblk000139-1">píngliáng</term>
             <term xml:id="term-k000139-5" xml:lang="zh-latn-wadegile">p'ing-liang</term>
+            <term xml:id="term-k000139-6" xml:lang="en" type="literal_translation" source="#biblk000139-2">level, flat; even;roofbeam, ridgepole (lit.)</term>
+            <term xml:id="term-k000139-7" xml:lang="en" source="#biblk000139-3">top beam</term>
+            <term xml:id="term-k000139-8" xml:lang="en" source="#biblk000139-4">two-rafter crossbeam</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000139-2">literally: level or leveling beam, this is the top beam or upper-most beam in a roof frame (Guo 2002, 62; Zuo 2019, 177)</p>
-               <p xml:lang="zh-Hant" source="#biblk000139-2">木構梁架中最上層的梁。</p>
+               <p xml:lang="en" source="#biblk000139-5">literally: level or leveling beam, this is the top beam or upper-most beam in a roof frame (Guo 2002, 62; Zuo 2019, 177)</p>
+               <p xml:lang="zh-Hant" source="#biblk000139-5">木構梁架中最上層的梁。</p>
             </note>
-            <note xml:lang="en">
-               <p source="#biblk000139-3">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the Yingzao fashi, where it is also called pingfu 平栿. In extant architecture, shuzhu 蜀柱 and chashou 叉手 are joined into the top of the pingliang (Liang 1983, 142; Chen 2010, 114). In official Qing dynasty architectural terminology, the beam in the location of the pingliang is called sanjialiang 三架梁, meaning a beam that spans three purlins (and two rafters), or taipingliang 太平梁.</p>
-            </note>
-            <note xml:lang="zh-Hant">
-               <p source="#biblk000139-3">平梁為《營造法式》（1103）所用術語，也稱平栿。指長兩椽，位於梁架最上一層的梁。現存實例中平梁上通常立蜀柱與叉手（梁1983, 142；陳2010，114）。在清官式的梁架及其術語體系中，屋架最上層的太平梁或三架梁與《营造法式》平梁相當。</p>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000139-6">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the <term ref="https://tinyurl.com/36hnkkzs">Yingzao Fashi</term>, where it is also called pingfu 平栿. In extant architecture, shuzhu 蜀柱 and chashou 叉手 are joined into the top of the pingliang (Liang 1983, 142; Chen 2010, 114). In official Qing dynasty architectural terminology, the beam in the location of the pingliang is called sanjialiang 三架梁, meaning a beam that spans three purlins (and two rafters), or taipingliang 太平梁.</p>
+               <p xml:lang="zh-Hant" source="#biblk000139-6">平梁為《營造法式》（1103）所用術語，也稱平栿。指長兩椽，位於梁架最上一層的梁。現存實例中平梁上通常立蜀柱與叉手（梁1983, 142；陳2010，114）。在清官式的梁架及其術語體系中，屋架最上層的太平梁或三架梁與《营造法式》平梁相當。</p>
             </note>            
             <bibl xml:id="biblk000139-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">114</citedRange>
             </bibl>
-            <listBibl xml:id="biblk000139-2">              
+            <bibl xml:id="biblk000139-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">N/A</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000139-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">62</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000139-4">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">363</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000139-5">              
                <bibl>   
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>          
                   <citedRange unit="pp">62</citedRange>              
@@ -91,7 +109,7 @@
                   <citedRange unit="pp">177</citedRange>             
                </bibl>
             </listBibl>      
-            <listBibl xml:id="biblk000139-3">
+            <listBibl xml:id="biblk000139-6">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
                   <citedRange unit="pp">142</citedRange>

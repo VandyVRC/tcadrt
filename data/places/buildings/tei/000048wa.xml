@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Songshui Ting <foreign xml:lang="zh-Hant">晉祠松水亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Shuang Bridge <foreign xml:lang="zh-Hant">晉祠雙橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -12,11 +12,10 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="VJS">Vania Sih</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="VJS">Vania Sih</name>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,13 +23,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048va/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048wa/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-09-16-04:00</date>
+            <date>2021-09-23-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,30 +45,29 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="VJS" when="2021-09-16-04:00">CREATED: place record</change>
-         <change n="1.1" who="VJS" when="2021-09-30-11:35">updated: place record</change>
+         <change n="1.0" who="#YFB" when="2021-09-23-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048va" type="building">
-               <placeName xml:id="name000048va-1" xml:lang="en">Songshui Ting</placeName>
-               <placeName xml:id="name000048va-2" xml:lang="zh-Hant">松水亭</placeName>
-               <placeName xml:id="name000048va-3" xml:lang="zh-Hans">松水亭</placeName>
-               <placeName xml:id="name000048va-4" xml:lang="zh-latn-pinyin">Sōngshuǐtíng</placeName>
-               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Sung-shui-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048va</idno>
-               <state type="existence" from="1736-01-01">
+            <place xml:id="place-000048wa" type="building">
+               <placeName xml:id="name000048wa-1" xml:lang="en">Shuang Bridge</placeName>
+               <placeName xml:id="name000048wa-2" xml:lang="zh-Hant">雙橋</placeName>
+               <placeName xml:id="name000048wa-3" xml:lang="zh-Hans">双桥</placeName>
+               <placeName xml:id="name000048wa-4" xml:lang="zh-latn-pinyin">Shuāngqiáo</placeName>
+               <placeName xml:id="name000048wa-5" xml:lang="zh-latn-wadegile">Shuang-ch'iao</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048wa</idno>
+             <state type="existence" from="1796-01-01">
                   <label>Date</label>
-                  <desc>1736-95</desc>
+                  <desc>pre-1796</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048la" from="1736-01-01" to="1795-12-31">
+               <state type="existence" subtype="dynasty" source="#bibl000048wa-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Qing (1736-95)</desc>
+                  <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048la-1">Built with the timbers from the River-viewing Gazebo (Wangchuanting 望川亭) when it was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1795). Located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine. And so it is called Pine-River Gazebo. Used by locals as an offering hall during festival times.</p>
+                  <p source="#bibl000048wa-1">Also called <term ref="/place/000048va">Guaxue Bridge (Guaxueqiao 掛雪橋).</term></p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -81,24 +79,24 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">gazebo</desc>
-                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
-                  <desc xml:lang="zh-Hant">亭</desc>
-                  <desc xml:lang="zh-Hans">亭</desc>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">qiáo</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
                </trait>
-               <bibl xml:id="bibl000048va-1">
+               <bibl xml:id="bibl000048wa-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">198</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048va-2">
+               <bibl xml:id="bibl000048wa-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048va" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048va" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000048va" passive="building type"/>
+               <relation active="https://architecturasinica.org/place/000048wa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048wa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000048wa" passive="building type"/>
             </listRelation>
          </listPlace>
       </body>

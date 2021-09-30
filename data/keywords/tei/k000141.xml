@@ -20,8 +20,8 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding citation(s) by</resp>
-               <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
             <respStmt>
                <resp>Revision by</resp>
@@ -67,6 +67,7 @@
          <change n="1.0" who="#CBL" when="2021-03-12">CREATED: record and adding citations</change>
          <change n="2.0" who="#CBL" when="2021-07-03">Revision: add note</change>
          <change n="2.1" who="#TGM" when="2021-07-03">Revision: editing, adding related concepts</change>
+         <change n="2.2" who="#CBL" when="2021-09-24">Revision: add notes</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,17 +79,15 @@
             <term xml:id="term-k000141-4" xml:lang="zh-latn-pinyin" source="#biblk000141-1">zhāqiān</term>
             <term xml:id="term-k000141-5" xml:lang="zh-latn-wadegile">cha-ch'ien</term>
             <term xml:id="term-k000141-6" xml:lang="en" source="#biblk000141-2">one-rafter beam</term>
-            <term xml:id="term-k000141-8" xml:lang="en" type="literal_translation" source="#biblk000141-3">to stitch and bind</term>
+            <term xml:id="term-k000141-8" xml:lang="en" type="literal_translation" source="#biblk000141-3">to stitch and bind (lit.)</term>
             <note type="Note">                
                <p xml:lang="en" source="#biblk000141-4">Meaning literally "to stitch and bind" (Kroll 2015, 588, 359-360), in the Yingzao fashi, zhaqian refers to cross beams that span a distance of one rafter (Liang 1983，142). Zhaqian usually serves only to connect two elements, but is not load-bearing. In extant buildings in southeast China, a similar component--called shuiliang 水梁 in Zhejiang and Jiangsu, shumu 束木 in southern Fujian, and shuishu 水束 in Guangdong-- structurally combines zhaqian, chashou, and tuojiao.</p>                
                <p xml:lang="zh-Hant" source="#biblk000141-4">劄牽為《營造法式》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為水梁（江浙）、束木（閩南）、水束（廣府），等。
                </p>             
             </note>
-            <note xml:lang="en">
-               <p source="#biblk000141-4">According to the Yingzao fashi, zhaqian refers to cross beams that span one rafter (Liang 1983, 142). Zhaqian usually only serves to connect two members, but is not load-bearing. In extant buildings in southeast China, a similar component--called shuiliang 水梁 in Zhejiang and Jiangsu, shumu 束木 in southern Fujian, and shuishu 水束 in Guangdong--structurally combines zhaqian, chashou 叉手, and tuojiao 托腳.</p>
-            </note>
-            <note xml:lang="zh-Hant">
-               <p source="#biblk000141-4">劄牽為《營造法式》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為水梁（江浙）、束木（閩南）、水束（廣府），等。</p> 
+            <note type="Note (brief)" >
+               <p xml:lang="en" source="#biblk000141-4">According to the Yingzao fashi, zhaqian refers to cross beams that span one rafter (Liang 1983, 142). Zhaqian usually only serves to connect two members, but is not load-bearing. In extant buildings in southeast China, a similar component--called shuiliang 水梁 in Zhejiang and Jiangsu, shumu 束木 in southern Fujian, and shuishu 水束 in Guangdong--structurally combines zhaqian, chashou 叉手, and tuojiao 托腳.</p>
+               <p xml:lang="zh-Hant" source="#biblk000141-4">劄牽為《營造法式》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為水梁（江浙）、束木（閩南）、水束（廣府），等。</p> 
             </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000141-1" xml:lang="zh-Hant">水梁 shuǐliáng</p>
@@ -116,8 +115,7 @@
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51272659777_ef186b6d0f_k.jpg" passive="https://architecturasinica.org/keyword/k000141" rendition="featured"> </relation>
-                  <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000141" passive="building frame"/> 
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000141" passive="building frame"/> 
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>

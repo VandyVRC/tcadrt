@@ -21,6 +21,10 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2021</name>
             </respStmt>
@@ -35,7 +39,7 @@
                <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding notes and citations by</resp>
+               <resp>Data entry and links by</resp>
                <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
             </respStmt>
          </titleStmt>
@@ -78,16 +82,14 @@
             <term xml:id="term-k000194-3" xml:lang="zh-Hans">草架摆验</term>
             <term xml:id="term-k000194-4" xml:lang="zh-latn-pinyin">cǎojià bǎiyàn</term>
             <term xml:id="term-k000194-5" xml:lang="zh-latn-wadegile">ts'ao-chia-pai-yen</term>
-            <term xml:id="term-k000194-6" xml:lang="en" type="literal_translation">(lit.) rough/trial assembly</term>
+            <term xml:id="term-k000194-6" xml:lang="en" type="literal_translation">rough/trial assembly(lit.)</term>
             <!-- <note type="Gloss">             
                <p xml:lang="en">Da'e is usually used to refer to over-sized column-top tie beams often found in the timber architecture of Shanxi and Shaanxi constructed during the <term ref="/keyword/k000101">Yuan</term> period (thirteenth-fourteenth centuries).</p>
                <p xml:lang="zh-Hant">大額一般指晉陝地區元代建築中材分巨大的橫梁。</p> 
             </note> -->
-            <note xml:lang="en">
-               <p source="#biblk000194-1">Caojia baiyan is found in <term ref="/keyword/k000070">Qing</term> dynasty documents such as the  Gongcheng zuofa 工程作法 (Gongbu 1773, 62.23b), Yuanmingyuan neigong zeli 圓明園內工則例 (Guan 1644-1911, 24), and Yangzhou huafang lu 揚州畫舫彔 (Li 1795,17.7b). Literally meaning a “rough-frame verification assembly,” it refers to a trial assembly of the bracket-set construction in <term ref="/keyword/k000070">Qing</term> dynasty official-style architecture (Pan and He 2005, 105). Once the trial assembly is complete and determined to be structurally sound, the bracket-set is dismantled for refinement, after which it is reassembled as the final building frame. In some texts, caojia baiyan could be abbreviated as caoyan 草驗 (Ma 2003, 271) .</p>
-            </note> 
-            <note xml:lang="zh-Hant">
-               <p source="#biblk000194-1">“草架擺驗”指清官式建築營建中斗科的試裝。“草架擺驗”見於清代文獻《工程做法》（工部 1773,62.23b）、《圓明園內工則例》(官 1644-1911，24)及《揚州畫舫錄》（李 1795，17.7b)，為斗科工匠的任務之一。現代多出現於仿古建築工程文獻中有關斗栱的部分（江蘇省建委工程建設標準定額站和蘇州市工程建設標準定額站 1989，243；中國建設工程造價管理協會 2004，123）。潘谷西先生指出《工程做法》中“草架擺驗”是正式安裝前的地面試裝（潘和何 2005，105），作為清代建築術語的“草架擺驗”還與術語“扇架”、宋代“展拽”、江南“拼裝”相對應（潘2001，562）。此外，在一些文獻中，斗栱的試裝也被稱為“草驗”（馬 2003，271）。（Miao Tongxi 繆彤茜 Bai Ying 白穎）</p> 
+            <note type="Note (brief)">
+               <p source="#biblk000194-1" xml:lang="en">Caojia baiyan is found in <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasty documents such as the  <title ref="https://en.wikipedia.org/wiki/Qing_Structural_Regulations">Gongcheng zuofa</title> 工程做法 (Gongbu 1773, 62.23b), Yuanmingyuan neigong zeli 圓明園內工則例 (Guan 1644-1911, 24), and Yangzhou huafang lu 揚州畫舫彔 (Li 1795,17.7b). Literally meaning a “rough-frame verification assembly,” it refers to a trial assembly of the bracket-set construction in <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasty official-style architecture (Pan and He 2005, 105). Once the trial assembly is complete and determined to be structurally sound, the bracket-set is dismantled for refinement, after which it is reassembled as the final building frame. In some texts, caojia baiyan could be abbreviated as caoyan 草驗 (Ma 2003, 271) .</p>
+               <p source="#biblk000194-1" xml:lang="zh-Hant">“草架擺驗”指<term subtype="dynasty" ref="/keyword/k000070">清</term>官式建築營建中斗科的試裝。“草架擺驗”見於清代文獻《<title ref="https://tinyurl.com/yxo4t339">工程做法</title>》（工部 1773,62.23b）、《圓明園內工則例》(官 1644-1911，24)及《揚州畫舫錄》（李 1795，17.7b)，為斗科工匠的任務之一。現代多出現於仿古建築工程文獻中有關斗栱的部分（江蘇省建委工程建設標準定額站和蘇州市工程建設標準定額站 1989，243；中國建設工程造價管理協會 2004，123）。潘谷西先生指出《工程做法》中“草架擺驗”是正式安裝前的地面試裝（潘和何 2005，105），作為清代建築術語的“草架擺驗”還與術語“扇架”、宋代“展拽”、江南“拼裝”相對應（潘2001，562）。此外，在一些文獻中，斗栱的試裝也被稱為“草驗”（馬 2003，271）。（Miao Tongxi 繆彤茜 Bai Ying 白穎）</p> 
             </note>  
             <listBibl xml:id="biblk000194-1">
                <bibl>
@@ -114,6 +116,7 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000194</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000194" passive="building frame"/>
                   <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270686055_86c920e3cb_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51268846272_1f0a2808d3_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/> -->
                </listRelation>

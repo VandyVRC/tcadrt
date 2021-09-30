@@ -14,18 +14,22 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>Initial research and revision by</resp>
+               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" >Guo Mian 郭勉</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations and gloss 2021 by</resp>
+               <resp>Website coordination, data entry, adding citations and gloss 2021 by</resp>
                <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations and notes 2021 by</resp>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
                <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -58,6 +62,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-06-02" who="#YFB">CREATED: record, added citations and gloss</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
+         <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -76,13 +81,11 @@
                <p source="#biblk000171-2"><term ref="/keyword/k000142">xīnjiān 心間</term></p>
                <p source="#biblk000171-2"><term ref="/keyword/k000153">dāngxīnjiān 當心間</term></p>
             </note>
-            <note type="English" xml:lang="en" >
-               <p source="#bibl000171-3">Literally meaning  a “bright” or “open” space (Kroll 2015, 309; 196), mingjian usually refers to the central bay of a building. As an architectural term, the earliest use of mingjian was in two vernacular novels of the Ming dynasty——Plum in the Golden Vase (Jinpingmei 金瓶梅) and Marriage As Retribution, Awakening the World (Xingshi yinyuan zhuan 醒世姻缘传) (Lanlingxiaoxiaosheng 1628-1644, 15.18b, Xizhousheng, late 17th century, 9.7a). Both of these novels adopted the Shandong dialect of that time, which may be the origin of the term mingjian. In the Qing dynasty, due to the great popularity of these two novels, mingjian became a common word in both official and vernacular texts. In the twentieth century, when scholars of the Yingzao xueshe 營造學社 began to study the architecture of the Qing dynasty, mingjian was inherited as a standard term.</p>
-               <p source="#bibl000171-4">  In premodern architectural literature, mingjian is usually used for its derived meaning: the central bay of a building. The only descriptive definition of mingjian is given in the Yingzao fayuan 营造法原(1959), is a rectangular unit defined by the depth of the building and the two central columns of the facade (Yao 1986,1). The literal meaning of mingjian is usually used in novels as a functional description. This causes inconsistencies in meaning because, although the central bay is often the brightest space, there can occasionally be more than one open and light-filled room, and these rooms are not necessarily symmetrically distributed around the center (Liu early 20th century, 12.5b). (Guo Mian 郭勉, Zhuge Jing 諸葛淨）</p>
-            </note>
-            <note type="中文" xml:lang="zh-Hant" >
-               <p source="#bibl000171-3">明間本意指明亮通敞的房間，引申義為處於建築中心位置的開間。作為建築術語最早出現于具有山东方言特色的明代世情小說《金瓶梅》（蘭陵笑笑生 1628-1644，15.18b）与《醒世姻缘传》中（西周生 late 17th century, 9.7a），因此可能来源于明代的山东方言。随着白话小说在明清时期的繁荣发展，“明间”在清代成為了廣泛普及的常用語，並被引入專業建築術語體系，為官方與民間所共用。隨著營造學社對清代建築的研究，“明间”被繼承为現代研究基本術語。</p>
-               <p source="#bibl000171-4">在建築工程相關的歷史文獻中，主要使用明間的引申義——中央一间。《營造法原》（1959）给出的描述性定義為：建築平面長邊中心二柱與短邊所確定的平面單元（姚 1986,1）；而其本義常用於小說、筆記中，作功能化的描述。本義與引申義在指代對象上不完全重合，指明亮/開敞的房間時，明間可以是複數的，也不必處於建築的對稱中心（劉 early 20th century, 12.5b）。（Guo Mian 郭勉 Zhuge Jing 諸葛淨）</p>
+            <note type="Note (brief)">
+               <p source="#bibl000171-3" xml:lang="en">Literally meaning  a “bright” or “open” space (Kroll 2015, 309; 196), mingjian usually refers to the central bay of a building. As an architectural term, the earliest use of mingjian was in two vernacular novels of <term ref="/keyword/k000051">the Ming dynasty</term> —— <term ref="https://architecturasinica.org/bibl/LTR9GIYT">Plum in the Golden Vase (Jinpingmei 金瓶梅) </term> and <term ref="https://architecturasinica.org/bibl/ZLT7XB6R"> Marriage As Retribution, Awakening the World (Xingshi yinyuan zhuan 醒世姻缘传) </term> (Lanlingxiaoxiaosheng 1628-1644, 15.18b, Xizhousheng, late 17th century, 9.7a). Both of these novels adopted the Shandong dialect of that time, which may be the origin of the term mingjian. In the <term ref="/keyword/k000070">Qing dynasty</term>, due to the great popularity of these two novels, mingjian became a common word in both official and vernacular texts. In the twentieth century, when scholars of the Yingzao xueshe 營造學社 began to study the architecture of the <term ref="/keyword/k000070">Qing dynasty</term>, mingjian was inherited as a standard term.</p>
+               <p source="#bibl000171-4" xml:lang="en">  In premodern architectural literature, mingjian is usually used for its derived meaning: the central bay of a building. The only descriptive definition of mingjian is given in the Yingzao fayuan 营造法原(1959), is a rectangular unit defined by the depth of the building and the two central columns of the facade (Yao 1986,1). The literal meaning of mingjian is usually used in novels as a functional description. This causes inconsistencies in meaning because, although the central bay is often the brightest space, there can occasionally be more than one open and light-filled room, and these rooms are not necessarily symmetrically distributed around the center (Liu early 20th century, 12.5b). (Guo Mian 郭勉, Zhuge Jing 諸葛淨）</p>
+               <p source="#bibl000171-3"  xml:lang="zh-Hant">明間本意指明亮通敞的房間，引申義為處於建築中心位置的開間。作為建築術語最早出現于具有山东方言特色的明代世情小說<term ref="https://architecturasinica.org/bibl/LTR9GIYT"> 《金瓶梅》</term>（蘭陵笑笑生 1628-1644，15.18b）与<term ref="https://architecturasinica.org/bibl/ZLT7XB6R">《醒世姻缘传》</term>中（西周生 十七世紀末, 9.7a），因此可能来源于明代的山东方言。随着白话小说在明清时期的繁荣发展，“明间”在<term ref="/keyword/k000070">清代</term>成為了廣泛普及的常用語，並被引入專業建築術語體系，為官方與民間所共用。隨著營造學社對<term ref="/keyword/k000070">清代</term>建築的研究，“明间”被繼承为現代研究基本術語。</p>
+               <p source="#bibl000171-4"  xml:lang="zh-Hant">在建築工程相關的歷史文獻中，主要使用明間的引申義——中央一间。<term ref="https://architecturasinica.org/bibl/UWHU6CTI">《營造法原》</term>（1959）给出的描述性定義為：建築平面長邊中心二柱與短邊所確定的平面單元（姚 1986,1）；而其本義常用於小說、筆記中，作功能化的描述。本義與引申義在指代對象上不完全重合，指明亮/開敞的房間時，明間可以是複數的，也不必處於建築的對稱中心（劉 二十世紀初, 12.5b）。（Guo Mian 郭勉 Zhuge Jing 諸葛淨）</p>
             </note> 
             <listBibl xml:id="biblk000171-1">
                <bibl>
