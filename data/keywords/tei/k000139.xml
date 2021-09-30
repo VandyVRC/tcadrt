@@ -14,21 +14,36 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" ref="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="WYY">WANG Yuanyuan 王媛媛</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2021</name>
             </respStmt>
             <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>    
+            <respStmt>
                <resp>Data entry and adding citation(s) by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding links by</resp>
+               <resp>Adding links by</resp>
                <name type="person" xml:id="CBL">CHEN Baolong 陈宝龙</name>
             </respStmt>
          </titleStmt>
