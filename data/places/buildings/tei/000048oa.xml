@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Baihe Ting <foreign xml:lang="zh-Hant">白鶴亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Zhenqu Ting <foreign xml:lang="zh-Hant">真趣亭</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -24,13 +24,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048na/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048oa/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-09-23-13:50</date>
+            <date>2021-09-30-13:50</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,33 +46,34 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#KTT" when="2021-09-23-04:00">CREATED: place record</change>
-         <change n="1.1" who="#KTT" when="2021-09-30-04:00">UPDATED: place record</change>
+         <change n="1.0" who="#KTT" when="2021-09-30-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000048na" type="building">
-               <placeName xml:id="name000048na-1" xml:lang="en">Baihe Ting</placeName>
-               <placeName xml:id="name000048na-2" xml:lang="zh-Hant">白鶴亭</placeName>
-               <placeName xml:id="name000048na-3" xml:lang="zh-Hans">白鹤亭</placeName>
-               <placeName xml:id="name000048na-4" xml:lang="zh-latn-pinyin">Báihètíng</placeName>
-               <placeName xml:id="name000048na-5" xml:lang="zh-latn-wadegile">Pai-ho-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048na</idno>
-             <state type="existence" from="1912-01-01" to="1949-10-01">
+               <placeName xml:id="name000048oa-1" xml:lang="en">Zhenqu Ting</placeName>
+               <placeName xml:id="name000048oa-2" xml:lang="zh-Hant">真趣亭</placeName>
+               <placeName xml:id="name000048oa-3" xml:lang="zh-Hans">真趣亭</placeName>
+               <placeName xml:id="name000048oa-4" xml:lang="zh-latn-pinyin">Zhēnqùtíng</placeName>
+               <placeName xml:id="name000048oa-5" xml:lang="zh-latn-wadegile">Chen-ch'v-t'ing</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048oa</idno>
+               <state type="existence" from="1912-01-01" to="1949-10-01">
                   <label>Date</label>
-                <desc>16th - 19th century</desc>
+                  <desc>1916</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1522-01-01" to="1567-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1912-01-01" to="1949-01-01">
                   <label>Period</label>
-                  <desc>Jiajing reign period</desc>
+                  <desc>Republic 1912 - 1949</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048na-1">"A south-facing gazebo over the water across from Tongleting. First built in
-                     the Jiajing reign period (1522-67),repaired and expanded in Qianlong (1778) and 
-                     Daoguang (1822). Also called River Pavilion (Shuiting 水亭）
-                     or the Little Orchid Pavilion 小蘭亭"</p>
+                  <p source="#bibl000048oa-1">Construction began in autumn of 1916 and finished in autumn of 1917.
+                     Built by the KMT Brigade Commander Huang Guoliang 黄國梁 after a discussion 
+                     about the site of Jinci with Liu Dapeng. It was named according to
+                     Huang Guoliang's thought that Jinci was genuinely wonderful（真趣） and
+                     that the most genuine and wonderful place in the complex was the stairway
+                     to the stone tank leading from the Eternal Youth Spring</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
