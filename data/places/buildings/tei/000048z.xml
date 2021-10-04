@@ -17,7 +17,7 @@
             <respStmt>
                <resp>Data entry</resp>
                <name type="person" ref="#ZC">Zhuo Chen</name>
-            </respStm
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -61,14 +61,14 @@
                <idno type="URI">https://architecturasinica.org/place/000048z</idno>
                <state type="existence" from="1600-01-01" to="1700-12-31">
                   <label>Date</label>
-                  <desc>17th century</desc>
+                  <desc>pre-17th century</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048a-2" from="1368-01-01" to="1912-12-31">
+               <state type="existence" subtype="dynasty" source="#bibl000048z-2" from="1368-01-01" to="1912-12-31">
                   <label>Dynasty</label>
-                  <desc>Ming-Qing 1368-1912</desc>
+                  <desc>Ming-Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048a-1">Located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
+                  <p source="#bibl000048z-1">Located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -85,30 +85,27 @@
                   <desc xml:lang="zh-Hant">洞</desc>
                   <desc xml:lang="zh-Hans">洞</desc>
                </trait>
-               <listBibl xml:id="bibl000048a-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">16, 319</citedRange>
-                  </bibl>
-                  <bibl>
+               <bibl xml:id="bibl000048z-1">
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                     <citedRange unit="pp">59-79; 187</citedRange>
-                  </bibl>
-               </listBibl> 
-               <bibl xml:id="bibl000048a-2">
+                     <citedRange unit="pp">195</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048z-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048aa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048z" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048z" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <!--
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
                   passive="https://architecturasinica.org/place/000048a" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
                   passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+            -->
             </listRelation>
          </listPlace>
       </body>
