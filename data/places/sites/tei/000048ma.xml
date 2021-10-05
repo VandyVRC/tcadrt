@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048va/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048ma/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -53,13 +53,13 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048va" type="building">
-               <placeName xml:id="name000048va-1" xml:lang="en">Qinghua Pavilion</placeName>
-               <placeName xml:id="name000048va-2" xml:lang="zh-Hant">清華堂</placeName>
-               <placeName xml:id="name000048va-3" xml:lang="zh-Hans">清华堂</placeName>
-               <placeName xml:id="name000048va-4" xml:lang="zh-latn-pinyin">Qīnghuátáng</placeName>
-               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Ch'ing-hua-t'ang</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048va</idno>
+            <place xml:id="place-000048ma" type="building">
+               <placeName xml:id="name000048ma-1" xml:lang="en">Qinghua Pavilion</placeName>
+               <placeName xml:id="name000048ma-2" xml:lang="zh-Hant">清華堂</placeName>
+               <placeName xml:id="name000048ma-3" xml:lang="zh-Hans">清华堂</placeName>
+               <placeName xml:id="name000048ma-4" xml:lang="zh-latn-pinyin">Qīnghuátáng</placeName>
+               <placeName xml:id="name000048ma-5" xml:lang="zh-latn-wadegile">Ch'ing-hua-t'ang</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ma</idno>
                <state type="existence" from="550-60">
                   <label>Date</label>
                   <desc>550-60</desc>
@@ -69,7 +69,7 @@
                   <desc>Northern Qi- Tianbao period 550-60</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ma">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant.</p>
+                  <p source="#bibl000048ma-1">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">

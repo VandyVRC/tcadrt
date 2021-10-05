@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048va/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048la/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -53,20 +53,20 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048va" type="building">
-               <placeName xml:id="name000048va-1" xml:lang="en">Songshui Ting</placeName>
-               <placeName xml:id="name000048va-2" xml:lang="zh-Hant">松水亭</placeName>
-               <placeName xml:id="name000048va-3" xml:lang="zh-Hans">松水亭</placeName>
-               <placeName xml:id="name000048va-4" xml:lang="zh-latn-pinyin">Sōngshuǐtíng</placeName>
-               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Sung-shui-t'ing</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048va</idno>
+            <place xml:id="place-000048la" type="building">
+               <placeName xml:id="name000048la-1" xml:lang="en">Songshui Ting</placeName>
+               <placeName xml:id="name000048la-2" xml:lang="zh-Hant">松水亭</placeName>
+               <placeName xml:id="name000048la-3" xml:lang="zh-Hans">松水亭</placeName>
+               <placeName xml:id="name000048la-4" xml:lang="zh-latn-pinyin">Sōngshuǐtíng</placeName>
+               <placeName xml:id="name000048la-5" xml:lang="zh-latn-wadegile">Sung-shui-t'ing</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048la</idno>
                <state type="existence" from="1736-01-01">
                   <label>Date</label>
                   <desc>1736-95</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048la" from="1736-01-01" to="1795-12-31">
+               <state type="existence" subtype="dynasty" source="#bibl000048la-1" from="1736-01-01" to="1795-12-31">
                   <label>Dynasty</label>
-                  <desc>Qing (1736-95)</desc>
+                  <desc>Qing 1736-95</desc>
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048la-1">Built with the timbers from the River-viewing Gazebo (Wangchuanting 望川亭) when it was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1795). Located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine. And so it is called Pine-River Gazebo. Used by locals as an offering hall during festival times.</p>
