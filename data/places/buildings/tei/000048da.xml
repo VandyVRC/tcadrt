@@ -107,10 +107,6 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <bibl xml:id="bibl000048da-">
-                  <ptr target="https://architecturasinica.org/bibl/"/>
-                  <citedRange unit="pp"></citedRange>
-               </bibl>-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048da" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
@@ -122,6 +118,7 @@
                   active="https://live.staticflickr.com/65535/51533703239_de80b6e4f8_h.jpg"
                   passive="https://architecturasinica.org/place/000048da" ana="featured"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048da" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               
             </listRelation>
          </listPlace>
       </body>
