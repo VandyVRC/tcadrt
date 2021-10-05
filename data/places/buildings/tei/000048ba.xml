@@ -8,8 +8,8 @@ xml version="1.0" encoding="UTF-8"?>
                 <title level="a" xml:lang="en">Jin Shrines, Chaoyang Cavern <foreign xml:lang="zh-Hant">朝陽洞</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal>Tracy Miller</principal>
-                <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="creator" ref="#TGM">Tracy Miller</editor>
                 <respStmt>
                     <resp>Editing and proof correction</resp>
                     <name type="person" ref="#TGM">Tracy Miller</name>
@@ -96,7 +96,8 @@ xml version="1.0" encoding="UTF-8"?>
                     </bibl>
                 </place>
                 <listRelation>
-                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                     <relation ana="contained" active="https://architecturasinica.org/place/000048ba" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                     <relation ref="foaf:depicts"
                         active="https://live.staticflickr.com/65535/50596578378_7bae281b45_c.jpg"
