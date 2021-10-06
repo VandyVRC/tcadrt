@@ -12,6 +12,7 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+               <name xml:id="SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -57,17 +58,21 @@
                <placeName xml:id="name000048ha-3" type="building-name" xml:lang="zh-Hans">三台阁</placeName>
                <placeName xml:id="name000048ha-4" type="building-name" xml:lang="zh-latn-pinyin">Sāntáigé</placeName>
                <placeName xml:id="name000048ha-5" type="building-name" xml:lang="zh-latn-wadegile">San-t'ai-ko</placeName>
+               <placeName xml:id="name000048ha-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠三臺閣</placeName>
+               <placeName xml:id="name000048ha-7" type ="alternate" subtype ="building-name" xml:lang="en">Jinci santaige</placeName>
+               <placeName xml:id="name000048ha-8" type ="alternate" subtype ="building-name" xml:lang="en">Jin Shrines Triple-Terrace Ge Pavilion</placeName>
+               
                <idno type="URI">https://architecturasinica.org/place/000048ha</idno>
                <state type="existence" from="1875-01-01" to="1909-12-31">
                   <label>Date</label>
-                  <desc>Qing Guangxu reign period 1875 - 1909</desc>
+                  <desc>1875 - 1909</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ha-2" from="1644-01-01" to="1912-12-31">
                   <label>Dynasty</label>
-                  <desc>Qing 1644 - 1912</desc>
+                  <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en"> 
-                  <p source="#bibl000048ha-1"> Eastward facing, north of the Lü (Dongbin) Temple-pavilion, connected to the Reading Terrace also located to its south. Constructed at the beginning of the <term subtype="dynasty" ref="/keyword/k000070">Guangxu reign period (1875-1909) </term> by the abbot monk Xutan 續曇 who raised the money to have it built. According to 晉祠志, the triple-terrace represents the emperor's three terraces: a spiritual terrace (靈臺), a seasonal terrace (時臺), and a park terrace for observing birds and beasts (囿臺). The 天文志 documents the three terraces as composing of six stars in charge of destiny, official rank (nobility), and salary/earning. </p>
+                  <p source="#bibl000048ha-1"> Eastward facing, north of the Lü (Dongbin) Temple-pavilion, connected to the Reading Terrace also located to its south. Constructed at the beginning of the <term subtype="dynasty" ref="/keyword/k000070">Guangxu reign period (1875-1909) </term> by the abbot monk Xutan 續曇 who raised the money to have it built. According to 晉祠志, the triple-terrace represents the emperor's three terraces: a spiritual terrace (靈臺), a seasonal terrace (時臺), and a park terrace for observing birds and beasts (囿臺). The<title ref="https://ctext.org/han-shu/tian-wen-zhi"> 天文志 </title>documents the three terraces as composing of six stars in charge of destiny, official rank (nobility), and salary/earning. </p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
