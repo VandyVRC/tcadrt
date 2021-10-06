@@ -84,26 +84,14 @@
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="zh-Hans">阁</desc>
                </trait>
-               
-               <listBibl xml:id="bibl000048ha-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/QD4QXGDP"/>
+                  <bibl xml:id="bibl000048ha-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">196</citedRange>
                </bibl>
-                  <!--
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/CBGH23VK"/>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-               </bibl>
-               </listBibl>
-               -->
                <bibl xml:id="bibl000048ha-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
-               
+               </bibl>               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ha" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
