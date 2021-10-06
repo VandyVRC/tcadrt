@@ -54,14 +54,14 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ja" type="building">
-               <placeName xml:id="name000048j-1" xml:lang="en">Bantong Ting</placeName>
-               <placeName xml:id="name000048j-2" type="building-name" xml:lang="zh-Hant">伴桐亭</placeName>
-               <placeName xml:id="name000048j-3" type="building-name" xml:lang="zh-Hans">伴桐亭</placeName>
-               <placeName xml:id="name000048j-4" type="building-name" xml:lang="zh-latn-pinyin">Bàntóngtíng</placeName>
-               <placeName xml:id="name000048j-5" type="building-name" xml:lang="zh-latn-wadegile">Pan-t'ung-t'ing</placeName>
-               <placeName xml:id="name000048j-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
-               <placeName xml:id="name000048j-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
-               <placeName xml:id="name000048j-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Reading Terrace </placeName>
+               <placeName xml:id="name000048ja-1" xml:lang="en">Bantong Ting</placeName>
+               <placeName xml:id="name000048ja-2" type="building-name" xml:lang="zh-Hant">伴桐亭</placeName>
+               <placeName xml:id="name000048ja-3" type="building-name" xml:lang="zh-Hans">伴桐亭</placeName>
+               <placeName xml:id="name000048ja-4" type="building-name" xml:lang="zh-latn-pinyin">Bàntóngtíng</placeName>
+               <placeName xml:id="name000048ja-5" type="building-name" xml:lang="zh-latn-wadegile">Pan-t'ung-t'ing</placeName>
+               <placeName xml:id="name000048ja-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
+               <placeName xml:id="name000048ja-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
+               <placeName xml:id="name000048ja-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Reading Terrace </placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ja</idno>
                <state type="existence" from="1548-01-01" to="1567-12-31">
                   <label>Date</label>
@@ -105,8 +105,8 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048j" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ja" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597328816_ac899e6a82_c.jpg"
                   passive="https://architecturasinica.org/place/000048j" ana="featured"/>
