@@ -82,12 +82,12 @@
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
                -->
-               <trait type="building" sub-type="Terrace">
+               <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">Terrace</desc>
-                  <desc xml:lang="zh-latn-pinyin">Tái</desc>
-                  <desc xml:lang="zh-Hant">台</desc>
-                  <desc xml:lang="zh-Hans">台</desc>
+                  <desc xml:lang="en">pavilion</desc>
+                  <desc xml:lang="zh-latn-pinyin">ting</desc>
+                  <desc xml:lang="zh-Hant">亭</desc>
+                  <desc xml:lang="zh-Hans">亭</desc>
                </trait>
                <listBibl xml:id="bibl000048j-1">
                   <bibl>
@@ -110,6 +110,7 @@
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597328816_ac899e6a82_c.jpg"
                   passive="https://architecturasinica.org/place/000048j" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ja" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
       </body>
