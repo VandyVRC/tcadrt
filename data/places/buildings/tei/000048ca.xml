@@ -7,8 +7,8 @@
                 <title level="a" xml:lang="en">Jin Shrines, Lingguan Hall <foreign xml:lang="zh-Hant">晉祠靈官殿</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal>Tracy Miller</principal>
-                <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+                <principal  xml:id="TGM">Tracy Miller</principal>
+                <editor role="creator" ref="#TGM">Tracy Miller</editor>
                 <respStmt>
                     <resp>Editing and proof correction</resp>
                     <name type="person" ref="#TGM">Tracy Miller</name>
@@ -98,12 +98,9 @@
                     <relation active="https://architecturasinica.org/place/000048ca" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                     <relation active="https://architecturasinica.org/place/000048ca" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                     <relation active="https://architecturasinica.org/place/000048ca" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-                    <relation ana="contained" active="https://architecturasinica.org/place/000048ca" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                    
+                    <relation ana="contained" active="https://architecturasinica.org/place/000048ca" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>                    
                 </listRelation>
             </listPlace>
         </body>
     </text>
 </TEI>
-
-
