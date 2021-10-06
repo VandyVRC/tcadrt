@@ -46,7 +46,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+            <change n="1.0" who="#EYC" when="2021-09-20-04:00">CREATED: place record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -65,7 +65,7 @@
                     </state>
                     <state type="existence" subtype="dynasty" source="#bibl000048ba-2" from="1600-01-01" to="1700-01-01">
                         <label>Dynasty</label>
-                        <desc>Ming - Qing 1600 - 1700</desc>
+                        <desc>Ming - Qing</desc>
                     </state>
                     <desc type="building-data" xml:lang="en">
                         <p source="#bibl000048ba-1">The cavern is named because it is located on the east side of Xuanweng mountain and the east sides of mountains are called chaoyang (west sides of mountains called xiyang 夕陽). The Chaoyang Cavern, along with the <placeName ref="/place/000048ka">Ancestor Lü Ge-pavilion</placeName> (see 32 below) is mentioned in an inscription dated to Qianlong 28 (1763). Peng Hai lists the Chaoyang Cavern Pavilion (Chaoyangdongting 朝陽洞亭) as being built in 1785. The whole complex is depicted on the <term subtype="dynasty" ref="/keyword/k000070">Qianlong period</term> painting of the site.</p>
@@ -96,6 +96,7 @@
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                     <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                     <relation ana="contained" active="https://architecturasinica.org/place/000048ba" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                 </listRelation>

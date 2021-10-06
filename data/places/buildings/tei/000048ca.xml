@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:lang="en">Jin Shrines, Chaoyang Cavern <foreign xml:lang="zh-Hant">朝陽洞</foreign>
+                <title level="a" xml:lang="en">JJin Shrines, Lingguan Hall 靈官殿<foreign xml:lang="zh-Hant">靈官殿</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
                 <principal>Tracy Miller</principal>
@@ -47,7 +46,7 @@ xml version="1.0" encoding="UTF-8"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+            <change n="1.0" who="#EYC" when="2021-10-06-04:00">CREATED: place record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -66,7 +65,7 @@ xml version="1.0" encoding="UTF-8"?>
                     </state>
                     <state type="existence" subtype="dynasty" source="#bibl000048ca-2" from="1600-01-01" to="1700-01-01">
                         <label>Dynasty</label>
-                        <desc>Ming - Qing 1600 - 1700</desc>
+                        <desc>Ming - Qing</desc>
                     </state>
                     <desc type="building-data" xml:lang="en">
                         <p source="#bibl000048ca-1">No date of excavation or first establishment, one of two caves located north of the Fangzhang cavern. A timber-frame façade is attached to the front which is called the Lingguan Shrine or Lingguan Hall 靈官殿. Within this structure is an image of Lingguanshen 靈官神.</p>    
@@ -88,7 +87,7 @@ xml version="1.0" encoding="UTF-8"?>
                     </trait>
                     <bibl xml:id="bibl000048ca-1">
                         <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                        <citedRange unit="pp">189</citedRange>
+                        <citedRange unit="pp">195</citedRange>
                     </bibl>
                     <bibl xml:id="bibl000048ba-2">
                         <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
@@ -97,10 +96,10 @@ xml version="1.0" encoding="UTF-8"?>
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000048ca" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ca" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ca" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                     <relation ana="contained" active="https://architecturasinica.org/place/000048ca" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                    <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/50596578378_7bae281b45_c.jpg"
-                        passive="https://architecturasinica.org/place/000048ca" ana="featured"/>
+                    
                 </listRelation>
             </listPlace>
         </body>
