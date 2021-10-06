@@ -67,12 +67,12 @@
                   <label>Date</label>
                   <desc>1548</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048j-2" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ja-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ja-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the Ming Jiajing period (1548). Located between the Ancestor Lü Ge-Pavilion on its south and the Triple Terrace Ge-Pavilion on its north.</p>
+                  <p source="#bibl000048ja-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. Located between the <placeName ref="/placeName/000048ka">Ancestor Lü Ge-Pavilion</placeName>on its south and the Triple Terrace Ge-Pavilion on its north.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -89,17 +89,11 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <listBibl xml:id="bibl000048j-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">41-43</citedRange>
-                  </bibl>
-                  <bibl>
+              <bibl xml:id="bibl000048ja-1">
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                     <citedRange unit="pp">190-191</citedRange>
+                     <citedRange unit="pp">196</citedRange>
                   </bibl>
-               </listBibl>
-               <bibl xml:id="bibl000048j-2">
+               <bibl xml:id="bibl000048ja-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -108,8 +102,11 @@
                <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ja" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597328816_ac899e6a82_c.jpg"
-                  passive="https://architecturasinica.org/place/000048j" ana="featured"/>
+                  active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
                <relation active="https://architecturasinica.org/place/000048ja" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
