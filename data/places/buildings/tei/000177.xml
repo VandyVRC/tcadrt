@@ -9,7 +9,6 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
-            <editor role="page creator">TEST</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -82,7 +81,7 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <desc>Main hall dated to the Tang dynasty.</desc>
+               <desc>Main hall dated to the Tang dynasty. Although a spring was originally located in front of the site, it did not show any flow during my 1997 visit.</desc>
                <!--note type="field-notes">located with Cui Jinze photo</note-->
                <bibl xml:id="bibl000177-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
@@ -95,6 +94,7 @@
                <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000177" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000177" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000036"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51555015683_e113d8a41d_b.jpg" passive="https://architecturasinica.org/place/000177" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
