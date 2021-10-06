@@ -68,7 +68,7 @@
                         <desc>Ming - Qing 1600 - 1700</desc>
                     </state>
                     <desc type="building-data" xml:lang="en">
-                        <p source="#bibl000048ba-1">The cavern is named because it is located on the east side of Xuanweng mountain and the east sides of mountains are called chaoyang (west sides of mountains called xiyang 夕陽). The Chaoyang Cavern, along with the Ancestor Lü Ge-pavilion (see 32 below) is mentioned in an inscription dated to Qianlong 28 (1763). Peng Hai lists the Chaoyang Cavern Pavilion (Chaoyangdongting 朝陽洞亭) as being built in 1785. The whole complex is depicted on the Qianlong period painting of the site.</p>
+                        <p source="#bibl000048ba-1">The cavern is named because it is located on the east side of Xuanweng mountain and the east sides of mountains are called chaoyang (west sides of mountains called xiyang 夕陽). The Chaoyang Cavern, along with the <placeName ref="/place/000048ka">Ancestor Lü Ge-pavilion</placeName> (see 32 below) is mentioned in an inscription dated to Qianlong 28 (1763). Peng Hai lists the Chaoyang Cavern Pavilion (Chaoyangdongting 朝陽洞亭) as being built in 1785. The whole complex is depicted on the <term subtype="dynasty" ref="/keyword/k000070">Qianlong period</term> painting of the site.</p>
                     </desc>
                     <!-- 
                   <location type="gps" subtype="preferred">
@@ -87,7 +87,7 @@
                     </trait>
                     <bibl xml:id="bibl000048ba-1">
                         <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                        <citedRange unit="pp">189</citedRange>
+                        <citedRange unit="pp">195</citedRange>
                     </bibl>
                     <bibl xml:id="bibl000048ba-2">
                         <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
@@ -95,12 +95,9 @@
                     </bibl>
                 </place>
                 <listRelation>
-                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                     <relation active="https://architecturasinica.org/place/000048ba" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                     <relation ana="contained" active="https://architecturasinica.org/place/000048ba" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                    <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/50596578378_7bae281b45_c.jpg"
-                        passive="https://architecturasinica.org/place/000048ba" ana="featured"/>
                 </listRelation>
             </listPlace>
         </body>
