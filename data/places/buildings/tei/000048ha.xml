@@ -4,11 +4,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Santai Ge<foreign xml:lang="zh-Hant">晉祠三臺閣</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Santai Ge <foreign xml:lang="zh-Hant">晉祠三臺閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -84,7 +84,7 @@
                   <desc xml:lang="zh-Hant">閣</desc>
                   <desc xml:lang="zh-Hans">阁</desc>
                </trait>
-                  <bibl xml:id="bibl000048ha-1">
+                <bibl xml:id="bibl000048ha-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">196</citedRange>
                </bibl>
@@ -96,6 +96,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ha" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ha" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048ha" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
       </body>
