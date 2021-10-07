@@ -12,11 +12,11 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="VJS">Vania Sih</name>
+               <name type="person" xml:id="#VJS">Vania Sih</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="VJS">Vania Sih</name>
+               <name type="person" ref="#VJS">Vania Sih</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +46,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="VJS" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.0" who="#VJS" when="2021-09-16-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
