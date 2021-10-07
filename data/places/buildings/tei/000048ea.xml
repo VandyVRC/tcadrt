@@ -7,20 +7,21 @@
             <title level="a" xml:lang="en">Jin Shrines, Caishen Shrine <foreign xml:lang="zh-Hant">晉祠財神祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="HDN">HUANG Danni 黄聃婗</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">HUANG Danni 黄聃婗</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person">HUANG Danni 黄聃婗</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>Data entry</resp>
+               <name type="person" ref="#HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
