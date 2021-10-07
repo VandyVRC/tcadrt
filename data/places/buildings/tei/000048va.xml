@@ -7,16 +7,18 @@
             <title level="a" xml:lang="en">Jin Shrines, Guaxue Bridge <foreign xml:lang="zh-Hant">晉祠掛雪橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <author xml:id="TGM">Tracy Miller</author>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="TTR">Totoro</name>
+               <persName ref="#TGM"></persName>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
-               <name type="person" ref="#TTR">Totoro</name>
+               <resp>Ceating page, data entry, adding images and citations </resp>
+               <persName xml:id="YFB">Yuh-Fen Benda</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <persName ref="#YFB">Yuh-Fen Benda</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
