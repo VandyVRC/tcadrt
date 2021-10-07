@@ -4,18 +4,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Bilan Bridge <foreign xml:lang="zh-Hant">晉祠碧瀾橋</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Bilan Bridge <foreign xml:lang="zh-Hant">晉祠碧瀾橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZYY">ZOU Yuyang</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" ref="#ZYY">ZOU Yuyang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>

@@ -7,15 +7,21 @@
             <title level="a" xml:lang="en">Jin Shrines, Daifeng Xuan <foreign xml:lang="zh-Hant">晉祠待鳳軒</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
