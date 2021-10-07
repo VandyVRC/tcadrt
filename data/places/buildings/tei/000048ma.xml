@@ -4,15 +4,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Qinghua Pavilion<foreign xml:lang="zh-Hant"> 晉祠清華堂</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Sansheng Shrine <foreign xml:lang="zh-Hant">晉祠三聖祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="#VJS">Vania Sih</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="#VJS">Vania Sih</name>
+               
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
