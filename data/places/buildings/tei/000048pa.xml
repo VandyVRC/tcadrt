@@ -16,7 +16,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="#WBN">Beining Wang</name>
+               <name type="person" ref="#WBN">Beining Wang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,11 +59,11 @@
                <placeName xml:id="name000048pa-4" type="building-name" xml:lang="zh-latn-pinyin">Shuǐzhátíng</placeName>
                <placeName xml:id="name000048pa-5" type="building-name" xml:lang="zh-latn-wadegile">Shui-cha-t'ing</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048pa</idno>
-               <state type="existence" from="1953-01-01"
+               <state type="existence" from="1953-01-01">
                   <label>Date</label>
                   <desc>1953</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048pa-2" from="1949-10-01"
+               <state type="existence" subtype="dynasty" source="#bibl000048pa-2" from="1949-10-01">
                   <label>Dynasty</label>
                   <desc>People's Republic of China</desc>
                </state>
@@ -89,8 +89,8 @@
                   <citedRange unit="pp">198</citedRange>
                </bibl>
                <bibl xml:id="bibl000048pa-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/F5EGNLL3"/>
+                  <citedRange unit="pp">383</citedRange>
                </bibl>
             </place>
             <listRelation>
