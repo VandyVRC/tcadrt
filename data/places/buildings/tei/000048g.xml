@@ -4,18 +4,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Earl of Zhi Canal <foreign xml:lang="zh-Hant">知伯渠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Earl of Zhi Canal <foreign xml:lang="zh-Hant">晉祠知伯渠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="WO">Waka Ogihara</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="WO">Waka Ogihara</name>
+               <name type="person" ref="#WO">Waka Ogihara</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
