@@ -4,15 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Suohong Bridge <foreign xml:lang="zh-Hant">晉祠鎖虹橋</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Suohong Bridge <foreign xml:lang="zh-Hant">晉祠鎖虹橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="WBN">Beining Wang</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-               <name type="person" xml:id="WBN">Beining Wang</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
