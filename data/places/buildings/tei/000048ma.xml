@@ -4,15 +4,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Qinghua Pavilion<foreign xml:lang="zh-Hant"> 晉祠清華堂</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Qinghua Pavilion <foreign xml:lang="zh-Hant">晉祠清华堂</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="#VJS">Vania Sih</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="#VJS">Vania Sih</name>
+               
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -68,7 +74,7 @@
                   <desc>Northern Qi</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ma-1">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant.</p>
+                  <p source="#bibl000048ma-1">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant. This structure is number 31 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -98,6 +104,7 @@
                <relation active="https://architecturasinica.org/place/000048ma" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000054" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ma" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation active="https://architecturasinica.org/place/000048ma" passive="https://architecturasinica.org/keyword/k000049" ref="dcterms:subject" ana="building-type"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
