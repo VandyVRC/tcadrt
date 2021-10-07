@@ -4,19 +4,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Ancestor Lü Ge <foreign xml:lang="zh-Hant">晉祠呂祖閣</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Bantong Ting <foreign xml:lang="zh-Hant">晉祠呂祖閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>           
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="JP">Jason Pan</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="JP">Jason Pan</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="JP">Jason Pan</name>
+               <name type="person" ref="#JP">Jason Pan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -30,7 +35,7 @@
                   <p>Distributed under a Creative Commons Attribution 1.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-9-30-12:00</date>
+            <date>2021-10-7-13:07</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,7 +51,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#JP" when="2021-9-30-12:00">CREATED: place record</change>
+         <change n="1.0" who="#JP" when="2021-10-7-13:07">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,12 +68,12 @@
                   <label>Date</label>
                   <desc>1600-1700</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ka-2" from="1636-01-01" to="1922-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ka-1" from="1636-01-01" to="1922-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1636 - 1922</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048m-1">Located on the Chaoyang Cavern peak, half way up the mountain. On the left (north) it is connected to the Reading Terrace and the Triple Terrace Ge-pavilion and on the right to the temple wall. Unknown exactly when built, this shrine was not mentioned in Gao Ruxing’s writings on Jinci. According to Liu Yongde, an Ancestor Lü Ge-pavilion was already built in the 38th year of Kangxi’s reign (1689). In an inscription dated to Qianlong 28 (1763) both Chaoyang Cavern and a Duke Lü Ge-pavilion are mentioned.
+                  <p source="#bibl000048m-1">Located on the Chaoyang Cavern peak, half way up the mountain. On the left (north) it is connected to the <placeName ref="/place/000048ja">Reading Terrace</placeName> and the <placeName ref="/place/000048ha">Triple Terrace Ge-pavilion</placeName> and on the right to the temple wall. Unknown exactly when built, this shrine was not mentioned in Gao Ruxing’s writings on Jinci. According to Liu Yongde, an Ancestor Lü Ge-pavilion was already built in the 38th year of Kangxi’s reign (1689). In an inscription dated to Qianlong 28 (1763) both Chaoyang Cavern and a Duke Lü Ge-pavilion are mentioned.
                   </p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
