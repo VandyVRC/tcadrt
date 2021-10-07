@@ -68,12 +68,12 @@
                   <label>Date</label>
                   <desc>1600-1700</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ka-1" from="1636-01-01" to="1922-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ka-2" from="1600-01-01" to="1700-01-01">
                   <label>Dynasty</label>
-                  <desc>Qing 1636 - 1922</desc>
+                  <desc>Ming - Qing(1600-1700)</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048m-1">Located on the Chaoyang Cavern peak, half way up the mountain. On the left (north) it is connected to the <placeName ref="/place/000048ja">Reading Terrace</placeName> and the <placeName ref="/place/000048ha">Triple Terrace Ge-pavilion</placeName> and on the right to the temple wall. Unknown exactly when built, this shrine was not mentioned in Gao Ruxing’s writings on Jinci. According to Liu Yongde, an Ancestor Lü Ge-pavilion was already built in the 38th year of <term subtype="dynasty" ref="/keyword/k000070">Kangxi’s reign (1689)</term>. In an inscription dated to <term subtype="dynasty" ref="/keyword/k000070">Qianlong 28 (1763)</term> both Chaoyang Cavern and a Duke Lü Ge-pavilion are mentioned.
+                  <p source="#bibl000048ka-1">Located on the Chaoyang Cavern peak, half way up the mountain. On the left (north) it is connected to the <placeName ref="/place/000048ja">Reading Terrace</placeName> and the <placeName ref="/place/000048ha">Triple Terrace Ge-pavilion</placeName> and on the right to the temple wall. Unknown exactly when built, this shrine was not mentioned in Gao Ruxing’s writings on Jinci. According to Liu Yongde, an Ancestor Lü Ge-pavilion was already built in the 38th year of <term subtype="dynasty" ref="/keyword/k000070">Kangxi’s reign (1689)</term>. In an inscription dated to <term subtype="dynasty" ref="/keyword/k000070">Qianlong 28 (1763)</term> both Chaoyang Cavern and a Duke Lü Ge-pavilion are mentioned.
                   </p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -101,14 +101,15 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ka" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ka" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ka" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
-                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000048ka" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
-                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
-               <relation active="https://architecturasinica.org/place/000048ka" passive="https://architecturasinica.org/keyword/k0000164" ref="dcterms:subject" ana="building-type"/>
+                  passive="https://architecturasinica.org/place/000048ka" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ka" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
       </body>
