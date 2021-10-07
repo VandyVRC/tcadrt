@@ -4,12 +4,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Qinghua Pavilion <foreign xml:lang="zh-Hant">晉祠清华堂</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Wenchang Stone Bridge <foreign xml:lang="zh-Hant">晉祠文昌石橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="#VJS">Vania Sih</editor>
+            <editor role="page-creator" xml:id="CX">Chuyuan XU</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -17,26 +17,24 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               
-               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#VJS">Vania Sih</name>
+               <name type="person" ref="#CX">Chuyuan XU</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
          </editionStmt>
-         <publicationStmt>v
+         <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048ma/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048ra/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-09-30-04:00</date>
+            <date>2021-09-23-13:40</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -52,30 +50,31 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#VJS" when="2021-09-30-04:00">CREATED: place record</change>
+         <change n="1.0" who="#CY" when="2021-09-23-13:40">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048ma" type="building">
-               <placeName xml:id="name000048ma-1" xml:lang="en">Qinghua Pavilion</placeName>
-               <placeName xml:id="name000048ma-2" xml:lang="zh-Hant">清華堂</placeName>
-               <placeName xml:id="name000048ma-3" xml:lang="zh-Hans">清华堂</placeName>
-               <placeName xml:id="name000048ma-4" xml:lang="zh-latn-pinyin">Qīnghuátáng</placeName>
-               <placeName xml:id="name000048ma-5" xml:lang="zh-latn-wadegile">Ch'ing-hua-t'ang</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048ma</idno>
-               <state type="existence" from="550-560">
+            <place xml:id="place-000048ra" type="building">
+               <placeName xml:id="name000048ra-1" type="building-name" xml:lang="en">Wenchang Stone Bridge</placeName>
+               <placeName xml:id="name000048ra-2" type="building-name" xml:lang="zh-Hant">文昌石橋</placeName>
+               <placeName xml:id="name000048ra-3" type="building-name" xml:lang="zh-Hans">文昌石桥</placeName>
+               <placeName xml:id="name000048ra-4" type="building-name" xml:lang="zh-latn-pinyin">Wénchāngshíqiáo</placeName>
+               <placeName xml:id="name000048ra-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-ch'ang-shih-ch'iao</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ra/tei>
+               <state type="existence" from="prior to 1342" to="now">
                   <label>Date</label>
-                  <desc>550-560</desc>
+                  <desc> prior to 1342 to 1912</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ma-2" from="550-01-01" to="560-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ra-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
-                  <desc>Northern Qi</desc>
+                  <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ma-1">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant. This structure is number 31 on our plan of the site.</p>
-               </desc>
+                  <p source="#bibl000048ra-1">Built after construction of the new, relocated Wenchang temple-palace. 
+                     According to Yang Eryou’s stele inscription of the construction, stone was used to prevent the need for replacement 
+                     due to rot common in wooden bridges.</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -86,25 +85,23 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">tang</desc>
-                  <desc xml:lang="zh-latn-pinyin">tang</desc>
-                  <desc xml:lang="zh-Hant"></desc>
-                  <desc xml:lang="zh-Hans"></desc>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">qíao</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
                </trait>
-               <bibl xml:id="bibl000048ma-1">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">198</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000048ma-2">
+               <bibl xml:id="bibl000048ra-1">
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">193</citedRange>
+                  </bibl>
+               <bibl xml:id="bibl000048ra-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048ma" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000054" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ma" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation active="https://architecturasinica.org/place/000048ma" passive="https://architecturasinica.org/keyword/k000049" ref="dcterms:subject" ana="building-type"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ra" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ra" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             </listRelation>
          </listPlace>
       </body>

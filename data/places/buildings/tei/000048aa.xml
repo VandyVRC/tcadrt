@@ -8,15 +8,19 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZC">Zhuo Chen 陈卓</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="ZC">Zhuo Chen</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZC">Zhuo Chen</name>
+               <name type="person" ref="#ZC">Zhuo Chen 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
