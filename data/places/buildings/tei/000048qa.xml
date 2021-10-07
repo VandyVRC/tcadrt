@@ -66,7 +66,7 @@
                <placeName xml:id="name000048qa-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">文昌石橋</placeName>
                <placeName xml:id="name000048qa-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">文昌石桥</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048qa</idno>
-               <state type="existence" from="1773-01-01">
+               <state type="existence" from="1773-01-01" to="1774-01-01">
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
@@ -75,7 +75,7 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048qa-1">  Built after construction of the new, relocated Wenchang temple-palace. According to Yang Eryou’s stele inscription of the construction, stone was used to prevent the need for replacement due to rot common in wooden bridges.</p>                  
+                  <p source="#bibl000048qa-1">  Built after construction of the new, relocated Wenchang temple-palace. According to Yang Eryou’s stele inscription of the construction, stone was used to prevent the need for replacement due to rot common in wooden bridges. This structure is number 38 on our plan of the site.</p>                  
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -104,6 +104,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048qa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048qa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
