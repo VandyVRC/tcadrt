@@ -16,7 +16,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="#WBN">Beining Wang</name>
+               <name type="person" ref="#WBN">Beining Wang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,7 +62,7 @@
                <placeName xml:id="name000048qa-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">文昌石橋</placeName>
                <placeName xml:id="name000048qa-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">文昌石桥</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048qa</idno>
-               <state type="existence" from="1773-01-01"
+               <state type="existence" from="1773-01-01">
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
@@ -92,7 +92,7 @@
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">198</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048q-2">
+               <bibl xml:id="bibl000048qa-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>

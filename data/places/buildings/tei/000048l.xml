@@ -4,18 +4,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Three Sages Shrine Complex <foreign xml:lang="zh-Hant">三聖祠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Sansheng Shrine <foreign xml:lang="zh-Hant">晉祠三聖祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="WO">Waka Ogihara</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="WO">Waka Ogihara</name>
+               <name type="person" ref="WO">Waka Ogihara</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,28 +51,29 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2021-10-07-04:00">ADDED: images, reference to plan </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000048l" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048l-1" xml:lang="en">Three Sages Shrine Complex</placeName>
+               <placeName xml:id="name000048l-1" xml:lang="en">Three Sages Shrine</placeName>
                <placeName xml:id="name000048l-2" type="building-name" xml:lang="zh-Hant">三聖祠</placeName>
                <placeName xml:id="name000048l-3" type="building-name" xml:lang="zh-Hans">三圣祠</placeName>
                <placeName xml:id="name000048l-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí</placeName>
                <placeName xml:id="name000048l-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048l</idno>
-               <state type="existence" from="1737-01-01" to="1737-01-01">
+               <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
                   <desc>1737</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048l-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
-               </state>ter the
+               </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l-1">Originally two temples dedicated to the Medicine King (Yaowang 藥王) and the True Lord  (Zhenjun 真君). In the second year of the Qianlong period (1737) they were combined into one temple and, with the addition of the Dragon King (Longwang 龍王) it was called the Shrine of the Three Kings 三王祠 which was later changed to the Shrine of the Three Sages. The Medicine King is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Black Dragon King at right. A short wall surrounds the building, and there is an entrance is through a fang 坊 gateway which serves as the front gate to the complex (JCZ 32-33).</p>
+                  <p source="#bibl000048l-1">Originally two temples dedicated to the Medicine King (Yaowang 藥王) and the True Lord  (Zhenjun 真君). In the second year of the Qianlong period (1737) they were combined into one temple and, with the addition of the Dragon King (Longwang 龍王) it was called the Shrine of the Three Kings 三王祠 which was later changed to the Shrine of the Three Sages. The Medicine King is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Black Dragon King at right. A short wall surrounds the building, and there is an entrance is through a fang 坊 gateway which serves as the front gate to the complex (Liu 1986, 32-33). This structure is number 13 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -102,6 +108,8 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048l" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51532184582_26182559ab_k.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
