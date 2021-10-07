@@ -68,7 +68,7 @@
                   <label>Date</label>
                   <desc>1600-1700</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ka-1" from="1636-01-01" to="1922-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ka-2" from="1636-01-01" to="1922-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1636 - 1922</desc>
                </state>
@@ -104,10 +104,10 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000048ka" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
-                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000048ka" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
-                  passive="https://architecturasinica.org/place/000048ja" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000048ka" ana="featured"/>
                <relation active="https://architecturasinica.org/place/000048ka" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
