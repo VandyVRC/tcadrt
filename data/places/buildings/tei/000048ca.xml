@@ -7,12 +7,17 @@
                 <title level="a" xml:lang="en">Jin Shrines, Lingguan Hall <foreign xml:lang="zh-Hant">晉祠靈官殿</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal  xml:id="TGM">Tracy Miller</principal>
-                <editor role="creator" ref="#TGM">Tracy Miller</editor>
+                <principal>Tracy Miller</principal>
+                <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+                <editor role="page-creator" xml:id="EYC">Yue Chen</editor>
+                <respStmt>
+                    <resp>Website coordination by</resp>
+                    <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+                </respStmt>
                 <respStmt>
                     <resp>Editing and proof correction</resp>
                     <name type="person" ref="#TGM">Tracy Miller</name>
-                    <name type="person" xml:id="EYC">Yue Chen</name>
+                    <name type="person" ref="#YFB">Yuh-Fen Benda</name>
                 </respStmt>
                 <respStmt>
                     <resp>Data entry</resp>
