@@ -4,15 +4,20 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:lang="en">Jin Shrines, Chaoyang Cavern <foreign xml:lang="zh-Hant">晉祠朝陽洞</foreign>
+                <title level="a" xml:lang="en">Jin Shrines, Chaoyang Cavern <foreign xml:lang="zh-Hant">晉祠朝陽洞</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal xml:id="TGM">Tracy Miller</principal>
-                <editor role="creator" ref="#TGM">Tracy Miller</editor>
+                <principal>Tracy Miller</principal>
+                <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+                <editor role="page-creator" xml:id="EYC">Yue Chen</editor>
+                <respStmt>
+                    <resp>Website coordination by</resp>
+                    <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+                </respStmt>
                 <respStmt>
                     <resp>Editing and proof correction</resp>
                     <name type="person" ref="#TGM">Tracy Miller</name>
-                    <name type="person" xml:id="EYC">Yue Chen</name>
+                    <name type="person" ref="#YFB">Yuh-Fen Benda</name>
                 </respStmt>
                 <respStmt>
                     <resp>Data entry</resp>
@@ -71,7 +76,7 @@
                         <desc>Ming - Qing</desc>
                     </state>
                     <desc type="building-data" xml:lang="en">
-                        <p source="#bibl000048ba-1">The cavern is named because it is located on the east side of Xuanweng mountain and the east sides of mountains are called chaoyang (west sides of mountains called xiyang 夕陽). The Chaoyang Cavern, along with the <placeName ref="/place/000048ka">Ancestor Lü Ge-pavilion</placeName> (see 32 below) is mentioned in an inscription dated to <term subtype="dynasty" ref="/keyword/k000070">Qianlong</term> 28 (1763). Peng Hai lists the Chaoyang Cavern Pavilion (Chaoyangdongting 朝陽洞亭) as being built in 1785. The whole complex is depicted on the <term subtype="dynasty" ref="/keyword/k000070">Qianlong period</term> painting of the site.</p>
+                        <p source="#bibl000048ba-1">The cavern is named because it is located on the east side of Xuanweng mountain and the east sides of mountains are called chaoyang (west sides of mountains called xiyang 夕陽). The Chaoyang Cavern, along with the <placeName ref="/place/000048ka">Ancestor Lü Ge-pavilion</placeName> (see 32 below) is mentioned in an inscription dated to <term subtype="dynasty" ref="/keyword/k000070">Qianlong</term> 28 (1763). Peng Hai lists the Chaoyang Cavern Pavilion (Chaoyangdongting 朝陽洞亭) as being built in 1785. The whole complex is depicted on the <term subtype="dynasty" ref="/keyword/k000070">Qianlong period</term> painting of the site. This structure is number 27 on our site.</p>
                     </desc>
                     <!-- 
                   <location type="gps" subtype="preferred">
