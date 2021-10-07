@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Baihe Ting <foreign xml:lang="zh-Hant">白鶴亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Baihe Ting <foreign xml:lang="zh-Hant">晉祠白鶴亭</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -64,18 +64,21 @@
                <placeName xml:id="name000048na-3" xml:lang="zh-Hans">白鹤亭</placeName>
                <placeName xml:id="name000048na-4" xml:lang="zh-latn-pinyin">Báihètíng</placeName>
                <placeName xml:id="name000048na-5" xml:lang="zh-latn-wadegile">Pai-ho-t'ing</placeName>
+               <placeName xml:id="name000048na-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
+               <placeName xml:id="name000048na-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
+               <placeName xml:id="name000048na-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Reading Terrace </placeName>
                <idno type="URI">https://architecturasinica.org/place/000048na</idno>
-             <state type="existence" from="1952-01-01" to="1967-12-01">
+             <state type="existence" from="1500-01-01" to="1822-12-31">
                   <label>Date</label>
                 <desc>16th - 19th century</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1522-01-01" to="1567-01-01">
-                  <label>Period</label>
-                  <desc>Jiajing reign period</desc>
+               <state type="existence" subtype="dynasty" source="#bibl000048na-2" from="1644-01-01" to="1912-01-31">
+                  <label>Dynasty</label>
+                  <desc>Ming-Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048na-1">"A south-facing gazebo over the water across from Tongleting. First built in
-                     the Jiajing reign period (1522-67),repaired and expanded in Qianlong (1778) and 
+                  <p source="#bibl000048na-1">"A south-facing gazebo over the water across from <placeName ref="place/000048o">Tongleting</placeName>. First built in
+                     the <term subtype="dynasty" ref="/keyword/k000051">Jiajing reign period (1522-67)</term>,repaired and expanded in Qianlong (1778) and 
                      Daoguang (1822). Also called River Pavilion (Shuiting 水亭）
                      or the Little Orchid Pavilion 小蘭亭"</p>
                </desc>
@@ -94,19 +97,27 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <bibl xml:id="bibl000048va-1">
+               <bibl xml:id="bibl000048na-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">198</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048va-2">
+               <bibl xml:id="bibl000048na-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048va" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048va" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000048va" passive="building type"/>
+               <relation active="https://architecturasinica.org/place/000048na" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048na" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation active="https://architecturasinica.org/place/000048na" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048na" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
+                  passive="https://architecturasinica.org/place/000048na" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048na" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048na" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
             </listRelation>
          </listPlace>
       </body>
