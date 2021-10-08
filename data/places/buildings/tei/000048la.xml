@@ -4,19 +4,25 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Songshui Ting <foreign xml:lang="zh-Hant"> 晉祠松水亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Songshui Ting <foreign xml:lang="zh-Hant">晉祠松水亭</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="#VJS">Vania Sih</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="VJS">Vania Sih</name>
+               
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="VJS">Vania Sih</name>
+               <name type="person" ref="#VJS">Vania Sih</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="VJS" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.0" who="#VJS" when="2021-09-16-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +74,7 @@
                   <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048la-1">Built with the timbers from the River-viewing Gazebo (Wangchuanting 望川亭) when it was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1795). Located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine. And so it is called Pine-River Gazebo. Used by locals as an offering hall during festival times.</p>
+                  <p source="#bibl000048la-1">Built with the timbers from the River-viewing Gazebo (Wangchuanting 望川亭) when it was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1795). Located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine. And so it is called Pine-River Gazebo. Used by locals as an offering hall during festival times. This structure is number 39 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -96,8 +102,9 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048la" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048va" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048la" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation active="https://architecturasinica.org/place/000048la" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

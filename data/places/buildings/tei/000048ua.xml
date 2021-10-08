@@ -4,18 +4,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Huixian Bridge <foreign xml:lang="zh-Hant">晉祠會仙橋</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Huixian Bridge <foreign xml:lang="zh-Hant">晉祠會仙橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZYY">ZOU Yuyang</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" ref="#ZYY">ZOU Yuyang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -74,7 +80,7 @@
                <desc type="building-data" xml:lang="en">
                   <p>Original date of construction unknown. A bridge appears in this location on
                      Gao Ruxing's Jinci zhitu. According to Liu Dapeng, legend has it that in the
-                     past, on the 14th day of the 4th month, tra:nscendents meet on this bridge.</p>
+                     past, on the 14th day of the 4th month, tra:nscendents meet on this bridge. This structure is number 40 on our plan of the site.</p>
                      <p source="#bibl000048ua-1"></p>
                </desc>
                

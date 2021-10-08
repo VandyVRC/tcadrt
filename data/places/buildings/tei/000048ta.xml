@@ -4,18 +4,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Bilan Bridge <foreign xml:lang="zh-Hant">晉祠碧瀾橋</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Bilan Bridge <foreign xml:lang="zh-Hant">晉祠碧瀾橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZYY">ZOU Yuyang</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" ref="#ZYY">ZOU Yuyang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -76,7 +82,7 @@
                </state>
                
                <desc type="building-data" xml:lang="en">
-                  <p>Emerald Wave Bridge, also called Mt. Tai Bridge. Original date of construction unknown. A bridge appears in this location on Gao Ruxing's Jinci zhitu and may have been built at the same time as the Taishan Temple, prior to 1342. It is labeled Taishan Bridge on the Qian-long painting of the site.</p>
+                  <p>Emerald Wave Bridge, also called Mt. Tai Bridge. Original date of construction unknown. A bridge appears in this location on Gao Ruxing's Jinci zhitu and may have been built at the same time as the Taishan Temple, prior to 1342. It is labeled Taishan Bridge on the Qian-long painting of the site. This structure is number 39 on our plan of the site.</p>
                      <p source="#bibl000048ta-1"></p>
                </desc>
                

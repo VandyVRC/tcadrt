@@ -8,15 +8,19 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZC">Zhuo Chen 陈卓</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="ZC">Zhuo Chen</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZC">Zhuo Chen</name>
+               <name type="person" ref="#ZC">Zhuo Chen 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -68,7 +72,7 @@
                   <desc>Ming-Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048aa-1">Located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
+                  <p source="#bibl000048aa-1">Laojun Shrine, also known as <placeName ref="/place/000048z">Fangzhang Cavern 方丈洞</placeName>, is located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
