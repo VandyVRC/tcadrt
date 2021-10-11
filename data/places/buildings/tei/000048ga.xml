@@ -58,7 +58,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ga" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048ga-1" xml:lang="en">Awaiting the Phoenix Xuan Pavilion</placeName>
+               <placeName xml:id="name000048ga-1" xml:lang="en">Daifeng Xuan</placeName>
                <placeName xml:id="name000048ga-2" type="building-name" xml:lang="zh-Hant">待鳳軒</placeName>
                <placeName xml:id="name000048ga-3" type="building-name" xml:lang="zh-Hans">待凤轩</placeName>
                <placeName xml:id="name000048ga-4" type="building-name" xml:lang="zh-latn-pinyin">Dàifèngxuān</placeName>
@@ -73,7 +73,7 @@
                   <desc>Qing (1644-1912)</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048g-1">On the north of the Chaoyang Cavern three bays. In the 30th year of the Guangxu reign (1904) an interior room of one bay was added, the door opens from the back wall of the pavilion.</p>    
+                  <p source="#bibl000048g-1">According to Liu Dapeng, the Daifeng Xuan was a three-bay wide pavilion located to the north of the Chaoyang Cavern. In the 30th year of the Guangxu reign period (1904) an interior room of one bay was added, and the door opened from the back wall of the pavilion. This structure is number 29B on our plan of the site.</p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -85,8 +85,8 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">Xuan-Pavilion</desc>
-                  <desc xml:lang="zh-latn-pinyin">Xuan</desc>
+                  <desc xml:lang="en">xuan</desc>
+                  <desc xml:lang="zh-latn-pinyin">xuān</desc>
                   <desc xml:lang="zh-Hant">軒</desc>
                   <desc xml:lang="zh-Hans">轩</desc>
                </trait>
@@ -102,8 +102,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ga" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000030" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ga" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50588997376_6aa049f6b0_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50593599838_36eb3c9d2b_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

@@ -9,7 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="WBN">Beining Wang</editor>
+            <editor role="page-creator" xml:id="WBN">Wang Beining 王贝宁</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#WBN">Beining Wang</name>
+               <name type="person" ref="#WBN">Wang Beining 王贝宁</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,24 +62,26 @@
                <placeName xml:id="name000048qa-3" type="building-name" xml:lang="zh-Hans">锁虹桥</placeName>
                <placeName xml:id="name000048qa-4" type="building-name" xml:lang="zh-latn-pinyin">Suǒhóngqiáo</placeName>
                <placeName xml:id="name000048qa-5" type="building-name" xml:lang="zh-latn-wadegile">So-hung-ch'iao</placeName>
-               <placeName xml:id="name000048qa-6" type="alternate" subtype="building-name" xml:lang="en">Wenchang Stone Bridge</placeName>
-               <placeName xml:id="name000048qa-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">文昌石橋</placeName>
-               <placeName xml:id="name000048qa-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">文昌石桥</placeName>
+               <placeName xml:id="name000048qa-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Wenchang Stone Bridge</placeName>
+               <placeName xml:id="name000048qa-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">文昌石橋</placeName>
+               <placeName xml:id="name000048qa-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">文昌石桥</placeName>
+               <placeName xml:id="name000048qa-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrine, Suohong Bridge</placeName>
+               <placeName xml:id="name000048qa-10" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠鎖虹橋</placeName>
+               <placeName xml:id="name000048qa-11" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠锁虹桥</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048qa</idno>
-               <state type="existence" from="1773-01-01" to="1774-01-01">
+               <state type="existence" from="1773-01-01" to="1773-12-31">
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048qa-2" from="1644-01-01" to="1912-02-12">
                   <label>Dynasty</label>
-                  <desc>Qing 1644 - 1912</desc>
+                  <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048qa-1">  Lock Rainbow Bridge 鎖虹橋 (also called <placeName ref="/place/000048ra">Wenchang Stone Bridge (文昌石橋)</placeName>) 
                      was built after construction of the new, relocated <placeName ref="/place/000048j">Wenchang temple-palace</placeName>. 
-                     According to Yang Eryou’s stele inscription of the construction, stone was used to prevent the need for replacement due to rot common in wooden bridges. 
-                     This structure is number 38 on our plan of the site.</p>                  
-               </desc>
+                     According to Yang Eryou’s stele inscription of the construction, stone was used to prevent the need for replacement due to rot common in wooden bridges.
+                  </p> </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -90,7 +92,7 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">Bridge</desc>
+                  <desc xml:lang="en">bridge</desc>
                   <desc xml:lang="zh-latn-pinyin">qiáo</desc>
                   <desc xml:lang="zh-Hant">橋</desc>
                   <desc xml:lang="zh-Hans">桥</desc>
@@ -105,9 +107,14 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048qa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048qa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048qa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
+                  passive="https://architecturasinica.org/place/000048qa" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048qa" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

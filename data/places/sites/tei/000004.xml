@@ -67,7 +67,7 @@
                <placeName xml:id="name000004-5" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000004</idno>
                <state type="existence" subtype="dynasty" source="#bibl000004-1" from="0025-01-01"
-                  to="01912-01-01">
+                  to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Eastern Han to Qing 25-1912</desc>
                </state>
@@ -131,7 +131,7 @@
                <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000020" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000004" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/Republic-of-China" ana="dynasty"/>
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49695142941_5bcccac0ba_h.jpg"
                   passive="https://architecturasinica.org/place/000004" ana="featured"/>
