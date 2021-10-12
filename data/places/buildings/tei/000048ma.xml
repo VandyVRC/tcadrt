@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Qinghua Pavilion <foreign xml:lang="zh-Hant">晉祠清华堂</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Qinghua Tang <foreign xml:lang="zh-Hant">晉祠清華堂</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -59,13 +59,13 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ma" type="building">
-               <placeName xml:id="name000048ma-1" xml:lang="en">Qinghua Pavilion</placeName>
+               <placeName xml:id="name000048ma-1" xml:lang="en">Qinghua Tang</placeName>
                <placeName xml:id="name000048ma-2" xml:lang="zh-Hant">清華堂</placeName>
                <placeName xml:id="name000048ma-3" xml:lang="zh-Hans">清华堂</placeName>
                <placeName xml:id="name000048ma-4" xml:lang="zh-latn-pinyin">Qīnghuátáng</placeName>
                <placeName xml:id="name000048ma-5" xml:lang="zh-latn-wadegile">Ch'ing-hua-t'ang</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ma</idno>
-               <state type="existence" from="550-560">
+               <state type="existence" from=>
                   <label>Date</label>
                   <desc>550-560</desc>
                </state>
@@ -74,7 +74,7 @@
                   <desc>Northern Qi</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ma-1">First built in the Tianbao period of the Northern Qi (550-560), unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace (Iron Man Terrace) in the Daoguang period (1821-1851) and given the same name. No longer exant. This structure is number 31 on our plan of the site.</p>
+                  <p source="#bibl000048ma-1">A building by this name at Jinci was first documented from the Tianbao reign period of the <term type="dynasty">Northern Qi</term>, unknown when destroyed or where originally located. A five-bay hall was rebuilt north of the Lotus Terrace in the Daoguang period (1821-1851) and given the same name. No longer exant. This structure is number 31 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -87,9 +87,9 @@
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">tang</desc>
-                  <desc xml:lang="zh-latn-pinyin">tang</desc>
-                  <desc xml:lang="zh-Hant"></desc>
-                  <desc xml:lang="zh-Hans"></desc>
+                  <desc xml:lang="zh-latn-pinyin">Type tang hall</desc>
+                  <desc xml:lang="zh-Hant">堂</desc>
+                  <desc xml:lang="zh-Hans">堂</desc>
                </trait>
                <bibl xml:id="bibl000048ma-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
