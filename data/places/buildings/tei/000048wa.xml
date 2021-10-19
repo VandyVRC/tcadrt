@@ -29,11 +29,11 @@
          <publicationStmt>
             <authority>Architectura Sinica</authority>
             <idno type="URI">https://architecturasinica.org/place/000048wa/tei</idno>
-            <awailability>
+            <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
-            </awailability>
+            </availability>
             <date>2021-09-23-04:00</date>
          </publicationStmt>
          <sourceDesc>
@@ -79,14 +79,6 @@
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048wa-1">Also called <placeName ref="/place/000048va">Guaxue Bridge (Guaxueqiao 掛雪橋)</placeName>. This structure is number 41 on the plan located on the <placeName ref="/place/000048">Jinci </placeName>main page.</p>
                </desc>
-               <!-- 
-                  <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
-               </location>
-               <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
-               </location>
-               -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">bridge</desc>
