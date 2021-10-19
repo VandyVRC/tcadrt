@@ -8,7 +8,7 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="content-author">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <editor role="page-creator" xml:id="YFB">Yuh-Fen Benda</editor>
             <respStmt>
                <resp>Website coordination by</resp>
