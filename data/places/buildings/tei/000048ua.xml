@@ -62,7 +62,7 @@
                <placeName xml:id="name000048ua-2" type="building-name" xml:lang="zh-Hant">會仙橋</placeName>
                <placeName xml:id="name000048ua-3" type="building-name" xml:lang="zh-Hans">会仙桥</placeName>
                <placeName xml:id="name000048ua-4" type="building-name" xml:lang="zh-latn-pinyin">Huìxiānqiáo</placeName>
-               <placeName xml:id="name000048ua-5" type="building-name" xml:lang="zh-latn-wadegile">hui-hsien-ch'iao</placeName>
+               <placeName xml:id="name000048ua-5" type="building-name" xml:lang="zh-latn-wadegile">Hui-hsien-ch'iao</placeName>
                <placeName xml:id="name000048ua-8" type="alternate" subtype="building-name" xml:lang="en">Meeting Transcendents Bridge</placeName>
                <placeName xml:id="name000048ua-11" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Huixian Bridge</placeName>
                <placeName xml:id="name000048ua-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠會仙橋</placeName>
@@ -80,7 +80,7 @@
                <desc type="building-data" xml:lang="en">
                   <p>Original date of construction unknown. A bridge appears in this location on
                      Gao Ruxing's Jinci zhitu. According to Liu Dapeng, legend has it that in the
-                     past, on the 14th day of the 4th month, tra:nscendents meet on this bridge.</p>
+                     past, on the 14th day of the 4th month, tra:nscendents meet on this bridge. This structure is number 40 on our plan of the site.</p>
                      <p source="#bibl000048ua-1"></p>
                </desc>
                
@@ -109,7 +109,8 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000048t\ua" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51532185447_e7e201fb82_k.jpg"
-                  passive="https://architecturasinica.org/place/000048ua" ana="featured"/>            
+                  passive="https://architecturasinica.org/place/000048ua" ana="featured"/>  
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_84f5616ea7_b.jpg" passive="https://architecturasinica.org/place/000048ua" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>

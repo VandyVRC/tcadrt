@@ -67,14 +67,14 @@
                <idno type="URI">https://architecturasinica.org/place/000048la</idno>
                <state type="existence" from="1736-1795">
                   <label>Date</label>
-                  <desc>1736-1795</desc>
+                  <desc>1736-1796</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048la-2" from="1736-01-01" to="1795-12-31">
+               <state type="existence" subtype="dynasty" source="#bibl000048la-2" from="1736-01-01" to="1796-12-31">
                   <label>Dynasty</label>
                   <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048la-1">Built with the timbers from the River-viewing Gazebo (Wangchuanting 望川亭) when it was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1795). Located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine. And so it is called Pine-River Gazebo. Used by locals as an offering hall during festival times.</p>
+                  <p source="#bibl000048la-1">Because it is located between the Descendents’ Hall, Octagonal Pool, Perfect Benefit Spring, and the Longevity Pine, it is called Songshui Ting (Pine-River or Water Gazebo). Used by locals as an offering hall during festival times.  Built with the timbers from the Wangchuanting 望川亭 (River-viewing Gazebo) after that structure was dismantled due to the frequent suicides which took place there after dark at the end of the Qianlong period (1736-1796). This structure is number 39 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -104,6 +104,8 @@
                <relation active="https://architecturasinica.org/place/000048la" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048la" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation active="https://architecturasinica.org/place/000048la" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51578012732_a4f15200a2_h.jpg"passive="https://architecturasinica.org/place/000048la" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

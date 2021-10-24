@@ -62,14 +62,16 @@
                <placeName xml:id="name000048ta-2" type="building-name" xml:lang="zh-Hant">碧瀾橋</placeName>
                <placeName xml:id="name000048ta-3" type="building-name" xml:lang="zh-Hans">碧澜桥</placeName>
                <placeName xml:id="name000048ta-4" type="building-name" xml:lang="zh-latn-pinyin">Bìlánqiáo</placeName>
-               <placeName xml:id="name000048ta-5" type="building-name" xml:lang="zh-latn-wadegile">pi-lan-ch`iao</placeName
-               <placeName xml:id="name000048ta-8" type="alternate" subtype="building-name" xml:lang="en">Emerald Wave Bridge</placeName>
-               <placeName xml:id="name000048ta-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">泰山橋</placeName>
-               <placeName xml:id="name000048ta-10" type="alternate" subtype="building-name" xml:lang="zh-Hans">泰山桥</placeName>
-               <placeName xml:id="name000048ta-11" type="alternate" subtype="building-name" xml:lang="en">Mt. Tai Bridge</placeName>
-               <placeName xml:id="name000048ta-12" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Bilan Bridge</placeName>
-               <placeName xml:id="name000048ta-13" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠碧瀾橋</placeName>
-               <placeName xml:id="name000048ta-14" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠碧澜桥</placeName>
+               <placeName xml:id="name000048ta-5" type="building-name" xml:lang="zh-latn-wadegile">Pi-lan-ch`iao</placeName>
+               <placeName xml:id="name000048ta-6" type="alternate" subtype="building-name" xml:lang="en">Emerald Wave Bridge</placeName>
+               <placeName xml:id="name000048ta-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠碧瀾橋</placeName>
+               <placeName xml:id="name000048ta-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠碧澜桥</placeName>
+               <placeName xml:id="name000048ta-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Bilan Bridge</placeName>
+               <placeName xml:id="name000048ta-10" type="alternate" subtype="building-name" xml:lang="zh-Hant">泰山橋</placeName>
+               <placeName xml:id="name000048ta-11" type="alternate" subtype="building-name" xml:lang="zh-Hans">泰山桥</placeName>
+               <placeName xml:id="name000048ta-12" type="alternate" subtype="building-name" xml:lang="zh-latn-pinyin">Tàishānqiáo</placeName>
+               <placeName xml:id="name000048ta-13" type="alternate" subtype="building-name" xml:lang="en">Mt. Tai Bridge</placeName>
+
                <idno type="URI">https://architecturasinica.org/place/000048ta</idno>
                <!-- <state type="existence" from="1342-01-01" to="1563-01-01">
                   <label>Date</label>
@@ -82,7 +84,7 @@
                </state>
                
                <desc type="building-data" xml:lang="en">
-                  <p>Emerald Wave Bridge, also called Mt. Tai Bridge. Original date of construction unknown. A bridge appears in this location on Gao Ruxing's Jinci zhitu and may have been built at the same time as the Taishan Temple, prior to 1342. It is labeled Taishan Bridge on the Qian-long painting of the site.</p>
+                  <p>Emerald Wave Bridge, also called Mt. Tai Bridge. Original date of construction unknown. A bridge appears in this location on Gao Ruxing's Jinci zhitu and may have been built at the same time as the Taishan Temple, prior to 1342. It is labeled Taishan Bridge on the Qian-long painting of the site. This structure is number 39 on our plan of the site.</p>
                      <p source="#bibl000048ta-1"></p>
                </desc>
                
@@ -112,7 +114,8 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000048ta" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597327531_010f33fb97_c.jpg"
-                  passive="https://architecturasinica.org/place/000048ta" ana="featured"/>            
+                  passive="https://architecturasinica.org/place/000048ta" ana="featured"/>      
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_84f5616ea7_b.jpg" passive="https://architecturasinica.org/place/000048ta" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>
