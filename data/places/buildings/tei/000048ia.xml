@@ -63,9 +63,9 @@
                <placeName xml:id="name000048ia-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
                <placeName xml:id="name000048ia-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
                <placeName xml:id="name000048ia-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Dushutai</placeName>
-               <placeName xml:id="name000048ia-9" xml:lang="en">Bantong Ting</placeName>
-               <placeName xml:id="name000048ia-10" type="building-name" xml:lang="zh-Hant">晉祠伴桐亭</placeName>
-               <placeName xml:id="name000048ia-11" type="building-name" xml:lang="zh-Hans">晋祠伴桐亭</placeName>
+               <placeName xml:id="name000048ia-9" xml:lang="en" ref="/place/000048ja">Bantong Ting</placeName>
+               <placeName xml:id="name000048ia-10" type="building-name" xml:lang="zh-Hant" ref="/place/000048ja">晉祠伴桐亭</placeName>
+               <placeName xml:id="name000048ia-11" type="building-name" xml:lang="zh-Hans" ref="/place/000048ja">晋祠伴桐亭</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ia</idno>
                <state type="existence" from="1548-01-01" to="1567-12-31">
                   <label>Date</label>
@@ -76,7 +76,7 @@
                   <desc>Ming 1368-1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called Bantong Ting, this structure is number ? on our plan of the site.</p>
+                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to <title ref="https://architecturasinica.org/bibl/EJU6M88F">Liu Dapeng</title>, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called Bantong Ting, this structure is number ? on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -94,12 +94,15 @@
                   <desc xml:lang="zh-Hans">台</desc>
                </trait>
               <bibl xml:id="bibl000048ia-1">
-                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                     <citedRange unit="pp">196</citedRange>
-                  </bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
                <bibl xml:id="bibl000048ia-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ia-3">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F" />                  
                </bibl>
             </place>
             <listRelation>
