@@ -9,15 +9,16 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>           
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="SL">Sophia Liu</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="JP">Jason Pan</name>
+               <name type="person" ref="#SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>              
-               <name type="person" xml:id="SL">Sophia Liu</name>
+               <name type="person" ref="#SL">Sophia Liu</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,9 +60,12 @@
                <placeName xml:id="name000048ia-3" type="building-name" xml:lang="zh-Hans">读书台</placeName>
                <placeName xml:id="name000048ia-4" type="building-name" xml:lang="zh-latn-pinyin">Dúshūtái</placeName>
                <placeName xml:id="name000048ia-5" type="building-name" xml:lang="zh-latn-wadegile">Tu-shu-t'ai</placeName>
-               <placeName xml:id="name000048ia-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠伴桐亭</placeName>
-               <placeName xml:id="name000048ia-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠伴桐亭</placeName>
-               <placeName xml:id="name000048ia-8" type="alternate" subtype="building-name" xml:lang="en">Jinci bantongting</placeName>
+               <placeName xml:id="name000048ia-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
+               <placeName xml:id="name000048ia-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
+               <placeName xml:id="name000048ia-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Dushutai</placeName>
+               <placeName xml:id="name000048ia-9" xml:lang="en">Bantong Ting</placeName>
+               <placeName xml:id="name000048ia-10" type="building-name" xml:lang="zh-Hant">晉祠伴桐亭</placeName>
+               <placeName xml:id="name000048ia-11" type="building-name" xml:lang="zh-Hans">晋祠伴桐亭</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ia</idno>
                <state type="existence" from="1548-01-01" to="1567-12-31">
                   <label>Date</label>
@@ -69,10 +73,10 @@
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ia-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming</desc>
+                  <desc>Ming 1368-1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. Located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the Triple Terrace Ge-Pavilion on its north.</p>
+                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called Bantong Ting, this structure is number ? on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
