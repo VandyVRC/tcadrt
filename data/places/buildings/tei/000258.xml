@@ -55,6 +55,7 @@
          <change n="2.0" who="#SZ" when="2020-03-26-04:00">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="#TGM" when="2021-10-27-04:00">adding links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +75,7 @@
                   <label>Date</label>
                   <desc>960-1125</desc>
                </state>
-               <desc type="building-data" source="#bibl000258-1">main hall (大殿). [The main hall] has a brick platform of 1.85 meters high, a front façade of 5 bays, with a depth of 6 rafters, and a single eave hip/gable roof. Internal beam structure is supported by four columns, with a 4-rafter beam connected to both the front and back column grid by a single-rafter beam (搭牵; 劄牵?). 4 puzuo bracket sets with a single huagong (杪), original restoration no longer exists.</desc>
+               <desc type="building-data" source="#bibl000258-1">The main hall is located on a brick platform 1.85 meters high. It is five bays across the front façade with a depth of 6 rafters, and is crowned with a single eaves hip-gable roof (<term ref="/keyword/k000143">xieshan歇山</term>). Internal beam structure is supported by four columns, with a 4-rafter beam connected to both the front and back column grid by a single-rafter beam (<term ref="keyword/k000141">zhaqian 剳牵</term>. Columns support 4 puzuo bracket sets with a single <term ref="/keyword/k000172">huagong 華栱</term> (<term>miaogong 杪栱</term>).</desc>
                <!--  Translated by Lydia Ohl; revised by T Miller, 02-2017 -->
                <idno type="URI">https://architecturasinica.org/place/000258</idno>
                <state type="existence" subtype="dynasty" source="#bibl000258-2" from="960-01-01" to="1127-01-01">
@@ -105,7 +106,7 @@
                <relation active="https://architecturasinica.org/place/000258" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000258" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ref="foaf:depicts" active="farm5.staticflickr.com/4110/4836625486_fe25f6b97d_" passive="https://architecturasinica.org/place/000258">
-                  <desc>Xingfansi   正殿 Main Hall</desc>
+                  <desc>Xingfansi   大殿 great hall</desc>
                </relation>
                <relation ana="contained" active="https://architecturasinica.org/place/000258" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000103"/>
             </listRelation>
