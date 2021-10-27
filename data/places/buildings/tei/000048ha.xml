@@ -69,10 +69,10 @@
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ha-2" from="1644-01-01" to="1912-12-31">
                   <label>Dynasty</label>
-                  <desc>Qing</desc>
+                  <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en"> 
-                  <p source="#bibl000048ha-1"> Constructed at the beginning of the <term subtype="dynasty" ref="/keyword/k000070">Guangxu reign period (1875-1909) </term> by the abbot monk Xutan 續曇 who raised the money to have it built, the Santaige is located north of the Lü (Dongbin) Temple-pavilion and faces eastward. According to Liu Dapeng's <title>Jincizhi 晉祠志</title>, because the three elevated structures were of similar size, they were called Santai (Three Terraces). The name Santai in turn refers to the emperor's three terraces: the Lingtai or Numinous terrace (靈臺) for observing constellations, the Shitai or Seasonal Terrace (時臺) for observing the four seasons, and the Youtai or Menagerie Terrace (囿臺) for observing birds and beasts. Another possibility for the meaning comes from astronomical treatises <title ref="https://ctext.org/han-shu/tian-wen-zhi">天文志</title>, 
+                  <p source="#bibl000048ha-1"> Constructed at the beginning of the <term subtype="dynasty" ref="/keyword/k000070">Guangxu reign period (1875-1909) </term> by the abbot monk Xutan 續曇 who raised the money to have it built, the Santaige is located north of the Lü (Dongbin) Temple-pavilion and faces eastward. According to Liu Dapeng's <title ref="https://architecturasinica.org/bibl/EJU6M88F">Jincizhi 晉祠志</title>, because the three elevated structures were of similar size, they were called Santai (Three Terraces). The name Santai in turn refers to the emperor's three terraces: the Lingtai or Numinous terrace (靈臺) for observing constellations, the Shitai or Seasonal Terrace (時臺) for observing the four seasons, and the Youtai or Menagerie Terrace (囿臺) for observing birds and beasts. Another possibility for the meaning comes from astronomical treatises <title ref="https://ctext.org/han-shu/tian-wen-zhi">天文志</title>, 
                      which describes the Santai as a constellation of six stars in three pairs: Shangtai 上台, Zhongtai 中台, and Xiatai 下台. Because the three pavilions were located high on the mountain slope, they may have been considered in resonance with this constellation. For more details see Liu 1986, 88-89. This structure is number ? on the plan located on our plan of the site.</p>
                </desc>
                <!-- 
@@ -97,6 +97,9 @@
                <bibl xml:id="bibl000048ha-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ha-3">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F" />                  
                </bibl>               
             </place>
             <listRelation>
