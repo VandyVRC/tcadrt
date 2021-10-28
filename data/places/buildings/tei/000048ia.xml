@@ -7,17 +7,19 @@
             <title level="a" xml:lang="en">Jin Shrines, Dushu Terrace <foreign xml:lang="zh-Hant">讀書臺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>           
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <editor role="page-creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" ref="#SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>              
                <name type="person" ref="#SL">Sophia Liu</name>
             </respStmt>
          </titleStmt>
@@ -55,7 +57,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ia" type="building">
-               <placeName xml:id="name000048ia-1" xml:lang="en">Bantong Ting</placeName>
+               <placeName xml:id="name000048ia-1" xml:lang="en">Dushu Terrace</placeName>
                <placeName xml:id="name000048ia-2" type="building-name" xml:lang="zh-Hant">讀書臺</placeName>
                <placeName xml:id="name000048ia-3" type="building-name" xml:lang="zh-Hans">读书台</placeName>
                <placeName xml:id="name000048ia-4" type="building-name" xml:lang="zh-latn-pinyin">Dúshūtái</placeName>
@@ -76,7 +78,7 @@
                   <desc>Ming 1368-1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to <title ref="https://architecturasinica.org/bibl/EJU6M88F">Liu Dapeng</title>, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called Bantong Ting, this structure is number 31 on our plan of the site.</p>
+                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to <title ref="https://architecturasinica.org/bibl/EJU6M88F">Liu Dapeng</title>, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called <placeName ref="/place/000048ja">Bantong Ting</placeName>, this structure is number 31 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
