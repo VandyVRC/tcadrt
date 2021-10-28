@@ -73,12 +73,13 @@
                   <desc>1563</desc>
                </state>
                 -->
-               <state type="existence" subtype="dynasty" source="#bibl000048ua-1" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ua-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
+               
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ua-1"Original date of construction unknown. A bridge appears in this location on
+                  <p source="#bibl000048ua-1"> Original date of construction unknown. A bridge appears in this location on
                      Gao Ruxing's Jinci zhitu. According to Liu Dapeng, legend has it that in the
                      past, on the 14th day of the 4th month, tra:nscendents meet on this bridge. This structure is number 40 on our plan of the site.</p>
                     
@@ -102,7 +103,12 @@
                <bibl xml:id="bibl000048ua-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">198</citedRange>
-               
+               </bibl>
+               <bibl xml:id="bibl000048ua-2">
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">198</citedRange>
+               </bibl>
+            
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ua" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
