@@ -14,10 +14,13 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
             </respStmt>
             <respStmt>
                <resp>Data entry, adding links 2021 by</resp>
@@ -61,15 +64,30 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000188" type="architectural feature">
-            <term xml:id="term-k000188-1" xml:lang="zh-latn-pinyin-nt" type="preferred">bu shaliangtou</term>
-            <term xml:id="term-k000188-2" xml:lang="zh-Hant">不廈兩頭</term>
-            <term xml:id="term-k000188-3" xml:lang="zh-Hans">不厦两头</term>
-            <term xml:id="term-k000188-4" xml:lang="zh-latn-pinyin">bù shàliǎngtóu</term>
-            <term xml:id="term-k000188-5" xml:lang="zh-latn-wadegile">pu sha-liang-t'ou</term>
+         <entryFree xml:id="k000186" type="architectural feature">
+            <term xml:id="term-k000186-1" xml:lang="zh-latn-pinyin-nt" type="preferred">bu shaliangtou</term>
+            <term xml:id="term-k000186-2" xml:lang="zh-Hant">不廈兩頭</term>
+            <term xml:id="term-k000186-3" xml:lang="zh-Hans">不厦两头</term>
+            <term xml:id="term-k000186-4" xml:lang="zh-latn-pinyin">bù shàliǎngtóu</term>
+            <term xml:id="term-k000186-5" xml:lang="zh-latn-wadegile">pu sha-liang-t'ou</term>
+            <term xml:id="term-k000186-6" xml:lang="en" source="#biblk000186-1">overhanging gable roof</term>
             <note type="Note (brief)">
                   See <term ref="/keyword/k000185">shaliangtou 廈兩頭</term>
             </note>
+            <listBibl xml:id="biblk000186-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">349</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">21</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+                  <citedRange unit="pp">11</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000186</idno>
             <listRelation>
                <listRelation>

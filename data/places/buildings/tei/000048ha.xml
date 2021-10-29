@@ -8,11 +8,15 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name xml:id="SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -58,10 +62,9 @@
                <placeName xml:id="name000048ha-3" type="building-name" xml:lang="zh-Hans">三台阁</placeName>
                <placeName xml:id="name000048ha-4" type="building-name" xml:lang="zh-latn-pinyin">Sāntáigé</placeName>
                <placeName xml:id="name000048ha-5" type="building-name" xml:lang="zh-latn-wadegile">San-t'ai-ko</placeName>
-               <placeName xml:id="name000048ha-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠三臺閣</placeName>
-               <placeName xml:id="name000048ha-7" type ="alternate" subtype ="building-name" xml:lang="en">Jinci santaige</placeName>
-               <placeName xml:id="name000048ha-8" type ="alternate" subtype ="building-name" xml:lang="en">Jin Shrines Triple-Terrace Ge Pavilion</placeName>
-               
+               <placeName xml:id="name000048ha-6" type ="alternate" subtype ="building-name" xml:lang="en">Jinci Santaige</placeName>
+               <placeName xml:id="name000048ha-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠三臺閣</placeName>
+               <placeName xml:id="name000048ha-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠三台阁</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ha</idno>
                <state type="existence" from="1875-01-01" to="1909-12-31">
                   <label>Date</label>
@@ -69,10 +72,10 @@
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ha-2" from="1644-01-01" to="1912-12-31">
                   <label>Dynasty</label>
-                  <desc>Qing</desc>
+                  <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en"> 
-                  <p source="#bibl000048ha-1"> Eastward facing, north of the Lü (Dongbin) Temple-pavilion, connected to the Reading Terrace also located to its south. Constructed at the beginning of the <term subtype="dynasty" ref="/keyword/k000070">Guangxu reign period (1875-1909) </term> by the abbot monk Xutan 續曇 who raised the money to have it built. According to 晉祠志, the triple-terrace represents the emperor's three terraces: a spiritual terrace (靈臺), a seasonal terrace (時臺), and a park terrace for observing birds and beasts (囿臺). The<title ref="https://ctext.org/han-shu/tian-wen-zhi"> 天文志 </title>documents the three terraces as composing of six stars in charge of destiny, official rank (nobility), and salary/earning. </p>
+                  <p source="#bibl000048ha-1"> Constructed at the beginning of the Guangxu reign period (1875-1909) by the abbot monk Xutan 續曇 who raised the money to have it built, the Santaige is located north of the Lü (Dongbin) Temple-pavilion and faces eastward. According to Liu Dapeng's <title ref="https://architecturasinica.org/bibl/EJU6M88F">Jincizhi 晉祠志</title>, because the three elevated structures were of similar size, they were called Santai (Three Terraces). The name Santai in turn refers to the emperor's three terraces: the Lingtai or Numinous terrace (靈臺) for observing constellations, the Shitai or Seasonal Terrace (時臺) for observing the four seasons, and the Youtai or Menagerie Terrace (囿臺) for observing birds and beasts. Another possibility for the meaning comes from astronomical treatises <title ref="https://ctext.org/han-shu/tian-wen-zhi">天文志</title>, which describes the Santai as a constellation of six stars in three pairs: Shangtai 上台, Zhongtai 中台, and Xiatai 下台. Because the three pavilions were located high on the mountain slope, they may have been considered in resonance with this constellation. For more details see Liu 1986, 88-89. This structure is number 30 on the plan located on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -96,13 +99,17 @@
                <bibl xml:id="bibl000048ha-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ha-3">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                  <citedRange unit="pp">88-89</citedRange>                  
                </bibl>               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ha" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ha" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597420992_e7cf898761_b.jpg"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
                   passive="https://architecturasinica.org/place/000048ha" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"

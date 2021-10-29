@@ -7,14 +7,11 @@
             <title level="a" xml:lang="en">Jin Shrines, Guaxue Bridge <foreign xml:lang="zh-Hant">晉祠掛雪橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <author xml:id="TGM">Tracy Miller</author>
+            <principal xml:id="TGM">Tracy Miller</principal>           
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <persName ref="#TGM"></persName>
-            </respStmt>
-            <respStmt>
-               <resp>Ceating page, data entry, adding images and citations </resp>
-               <persName xml:id="YFB">Yuh-Fen Benda</persName>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -60,15 +57,20 @@
                <placeName xml:id="name000048va-2" xml:lang="zh-Hant">掛雪橋</placeName>
                <placeName xml:id="name000048va-3" xml:lang="zh-Hans">挂雪桥</placeName>
                <placeName xml:id="name000048va-4" xml:lang="zh-latn-pinyin">Guàxuěqiáo</placeName>
-               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Kua-hsueh-ch'iao</placeName>
+               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Kua-hsueh-ch'iao</placeName>               
+               <placeName xml:id="name000048va-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠掛雪橋</placeName>
+               <placeName xml:id="name000048va-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠挂雪桥</placeName>
+               <placeName xml:id="name000048va-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Guaxue Bridge</placeName>               
+               <placeName xml:id="name000048va-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠雙橋</placeName>
+               <placeName xml:id="name000048va-10" type="alternate" subtype="building-name" xml:lang="en">Jinci Shuang Bridge</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048va</idno>
-             <state type="existence" from="1796-01-01">
+             <state type="existence" from="1795-01-01">
                   <label>Date</label>
-                  <desc>pre-1796</desc>
+                  <desc>pre-1795</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1644-01-01" to="1912-12-31">
                   <label>Dynasty</label>
-                  <desc>Qing 1644-1912</desc>
+                  <desc>Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048va-1">Also called <placeName ref="/place/000048wa">Double Bridge (Shuang qiao 雙橋)</placeName>. Original date of construction is unknown. Shown on a Qianlong-period painting of the site (property Jinci Museum (?)) and the map of Jinci found in Yuan Peilan 員佩蘭 and Yang Guotai 陽國泰 <title>Taiyuan xianzhi 太原縣志</title> (1826). This structure is number 41 on the plan located on the <placeName ref="/place/000048">Jinci </placeName>main page.</p>

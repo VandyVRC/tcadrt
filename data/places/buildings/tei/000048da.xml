@@ -44,9 +44,9 @@
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
@@ -60,13 +60,17 @@
       <body>
          <listPlace>
             <place xml:id="place-000048da" type="building">
-               <placeName xml:id="name000048da-1" xml:lang="zh-Hant">茶煙洞</placeName>
-               <placeName xml:id="name000048da-2" xml:lang="zh-Hans">茶烟洞</placeName>
-               <placeName xml:id="name000048da-3" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
-               <placeName xml:id="name000048da-4" xml:lang="zh-latn-wadegile">Ch'a-yen-tung</placeName>
-               <placeName xml:id="name000048da-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines Chayandong</placeName>
-               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
-               <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>               
+               <placeName xml:id="name000048da-1" type="building-name" xml:lang="en">Cha-yan Cavern</placeName>               
+               <placeName xml:id="name000048da-2" type="building-name" xml:lang="zh-Hant">茶煙洞</placeName>
+               <placeName xml:id="name000048da-3" type="building-name" xml:lang="zh-Hans">茶烟洞</placeName>
+               <placeName xml:id="name000048da-4" type="building-name" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
+               <placeName xml:id="name000048da-5" type="building-name" xml:lang="zh-latn-wadegile">Ch'a-yen-tung</placeName>
+               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines Cha-yan Cavern</placeName>
+               <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
+               <placeName xml:id="name000048da-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>
+               <placeName xml:id="name000048da-9" type="alternate" xml:lang="zh-Hant">雲陶洞</placeName>
+               <placeName xml:id="name000048da-10" type="alternate" xml:lang="zh-Hans">云陶洞</placeName>
+               <placeName xml:id="name000048da-11" type="alternate" xml:lang="zh-latn-pinyin">Yuntaodong</placeName> 
                <idno type="URI">https://architecturasinica.org/place/000048da</idno>
                <state type="existence" subtype="dynasty" source="#bibl000048da-2" from="1600-01-01" to="1699-12-31">
                    <label> Date </label>
@@ -98,7 +102,7 @@
                   <desc xml:lang="zh-Hans">洞</desc>
                </trait>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of Chaoyang Cavern, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195).</p>
+                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of <term ref="/place/000048ba">Chaoyang Cavern</term>, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than <term ref="/place/000048ba">Chaoyang Cavern</term>. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195). This structure is number 28 on our <term ref="https://architecturasinica.org/place/000048">plan</term> of the site.</p> 
                </desc>
                  <bibl xml:id="bibl000048da-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
