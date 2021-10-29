@@ -9,7 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="CX">Chuyuan XU</editor>
+            <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#CX">Chuyuan XU</name>
+               <name type="person" ref="#CX">XU Chuyuan 徐楚原</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -64,19 +64,19 @@
                <placeName xml:id="name000048ra-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-ch'ang-shih-ch'iao</placeName>
                <placeName xml:id="name000048ra-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠文昌石橋</placeName>
                <placeName xml:id="name000048ra-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠文昌石桥</placeName>
-               <placeName xml:id="name000048ra-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Wenchang Stone Bridge</placeName>
+               <placeName xml:id="name000048ra-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Wenchang Shiqiao</placeName>
                <placeName xml:id="name000048ra-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠鎖虹橋</placeName>
-               <placeName xml:id="name000048ra-10" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Lock Rainbow Bridge</placeName>
+               <placeName xml:id="name000048ra-10" type="alternate" subtype="building-name" xml:lang="en">Jinci Suohongqiao</placeName>
                <state type="existence" from="1773-01-01" to="1773-01-01">
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ra-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Qing</desc>
+                  <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ra-1"> Wenchang Stone Bridge 文昌石橋 (also called <placeName ref="/place/000048qa">Lock Rainbow Bridge 鎖虹橋</placeName>) 
+                  <p source="#bibl000048ra-1"> Wenchang Stone Bridge 文昌石橋 (also called <placeName ref="/place/000048qa">Suohongqiao 鎖虹橋</placeName>) 
                      was built after construction of the new, relocated <placeName ref="/place/000048j">Wenchang temple-palace</placeName>. 
                      According to Yang Eryou’s (楊二酉) stele inscription of the construction, stone was used to prevent the need for replacement 
                      due to rot common in wooden bridges.
