@@ -9,7 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="ZC">Zhuo Chen</editor>
+            <editor role="page-creator" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZC">Zhuo Chen</name>
+               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -57,11 +57,17 @@
       <body>
          <listPlace>
             <place xml:id="place-000048z" type="building">
-               <placeName xml:id="name000048z-1" xml:lang="en">Jinci Fangzhang Cavern</placeName>
-               <placeName xml:id="name000048z-2" type="building-name" xml:lang="zh-Hant">晉祠方丈洞</placeName>
-               <placeName xml:id="name000048z-3" type="building-name" xml:lang="zh-Hans">晋祠方丈洞</placeName>
+               <placeName xml:id="name000048z-1" xml:lang="en">Fangzhang Cavern</placeName>
+               <placeName xml:id="name000048z-2" type="building-name" xml:lang="zh-Hant">方丈洞</placeName>
+               <placeName xml:id="name000048z-3" type="building-name" xml:lang="zh-Hans">方丈洞</placeName>
                <placeName xml:id="name000048z-4" type="building-name" xml:lang="zh-latn-pinyin">Fāngzhàngdòng</placeName>
                <placeName xml:id="name000048z-5" type="building-name" xml:lang="zh-latn-wadegile">Fang-chang-tung</placeName>
+               <placeName xml:id="name000048fa-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fangzhang Cavern</placeName>
+               <placeName xml:id="name000048fa-10" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠方丈洞</placeName>
+               <placeName xml:id="name000048fa-11" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠方丈洞</placeName>
+               <placeName xml:id="name000048fa-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Laojun Shrine</placeName>
+               <placeName xml:id="name000048fa-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠老君祠</placeName>
+               <placeName xml:id="name000048fa-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠老君祠</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048z</idno>
                <state type="existence" from="1600-01-01" to="1700-12-31">
                   <label>Date</label>
