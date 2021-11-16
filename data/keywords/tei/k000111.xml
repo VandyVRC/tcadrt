@@ -61,6 +61,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-24">CREATED: record</change>
          <change n="1.0" who="#TGM" when="2020-09-20">Adding ZJ and YB credit lines; adding rough English and citation</change>
+         <change n="1.1" who="#TGM" when="2021-11-16">editing English and citation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -95,12 +96,18 @@
             <bibl xml:id="biblk000111-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">437</citedRange>
-            </bibl>  
+            </bibl> 
             
-            <bibl xml:id="biblk000111-3">
+            <listBibl xml:id="biblk000111-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">437</citedRange>
+               </bibl>  
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">88</citedRange>
-            </bibl>  
+            </bibl>
+            </listBibl>
             
             <idno type="URI">https://architecturasinica.org/keyword/k000111</idno>
             <listRelation>
