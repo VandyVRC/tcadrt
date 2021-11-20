@@ -78,6 +78,7 @@
          <change n="1.0" when="2021-03-12">CREATED: record</change>
          <change n="1.1" when="2021-09-18" who="#XQ">Adding citations and notes</change>
          <change n="2.0" when="2021-11-08" who="#CBL">final revision</change>
+         <change n="2.1" when="2021-11-19" who="#TGM">adding alternates</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,10 +89,12 @@
             <term xml:id="term-k000143-3" xml:lang="zh-Hans">歇山</term>
             <term xml:id="term-k000143-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">xiēshān</term>
             <term xml:id="term-k000143-5" xml:lang="zh-latn-wadegile">hsieh-shan</term>
-            <term xml:id="term-k000143-6" xml:lang="en" type="literal_translation" source="#biblk000143-2">interrupted or halted mountain (peak)(lit.)</term>
-            <term xml:id="term-k000143-7" xml:lang="en" source="#biblk000143-3">hip-gable (combination) roof</term>
-            <term xml:id="term-k000143-8" xml:lang="en" source="#biblk000143-4">gable and hip roof</term>
-            <term xml:id="term-k000143-9" xml:lang="en" source="#biblk000143-5">gable-on-hip roof</term>
+            <term xml:id="term-k000143-6" xml:lang="zh-Hant" type="alternate" source="#biblk000143-3">歇山頂</term>
+            <term xml:id="term-k000143-7" xml:lang="zh-latn-pinyin" type="alternate" source="#biblk000143-3">xiēshāndǐng</term>
+            <term xml:id="term-k000143-8" xml:lang="en" type="literal_translation" source="#biblk000143-2">interrupted or halted mountain (peak) (lit.)</term>
+            <term xml:id="term-k000143-9" xml:lang="en" source="#biblk000143-3" type="ATTCAT_preferred_translation">hip-gable (roof) (ATTCAT preferred translation)</term>
+            <term xml:id="term-k000143-10" xml:lang="en" source="#biblk000143-4">gable and hip roof</term>
+            <term xml:id="term-k000143-11" xml:lang="en" source="#biblk000143-5">gable-on-hip roof</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000143</idno>
             <state type="existence" from="1644-01-01" to="1912-02-12">
                <label>Date</label>
@@ -126,7 +129,7 @@
             </bibl>
             <bibl xml:id="biblk000143-3">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">305,311,380</citedRange>
+               <citedRange unit="pp">305, 311, 380</citedRange>
             </bibl>
             <bibl xml:id="biblk000143-4">
                <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
@@ -139,7 +142,7 @@
             </bibl>
             <bibl>
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">305, 311, 380</citedRange>
+               <citedRange unit="pp">305, 311, 369</citedRange>
             </bibl>
             </listBibl>
             <listBibl xml:id="biblk000143-6">
