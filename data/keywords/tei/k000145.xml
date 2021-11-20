@@ -74,6 +74,7 @@
          <change n="1.0" when="2021-03-24" who="#ZJ">CREATED: record</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
          <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
+         <change n="1.2" when="2021-11-20" who="#TGM">Editing; adding related terms</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,21 +85,24 @@
             <term xml:id="term-k000145-3" xml:lang="zh-Hans">丹墀</term>
             <term xml:id="term-k000145-4" type="ATTCAT_preferred" xml:lang="zh-latn-pinyin">dānchí</term>
             <term xml:id="term-k000145-5" xml:lang="zh-latn-wadegile">tan-ch'ih</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
             <!--  <note type="Gloss">
                <p xml:lan="en" source="biblk000145-1">lit. "cinnabar  stairway" (Kroll 2015, 50, 74); usually refers to the platform supporting the primary buildings in a palatial compound. Sui dynasty usage differs, however, suggesting that this term referred to different locations over time.</p>
                <p xml:lang="zh-Hant" source="#biblk000145-1">指處於建築中心位置的開間。</p>   
             </note> -->
-            <note type="Related Concepts">
-               <p><term>Lóngchí龍墀</term></p>
-               <p><term>shāchí沙墀</term></p>
-               <p><term>sānchí三墀</term></p>
-            </note>
             <note type="Note (full)">
                <note type="getty:scopeNote" xml:lang="en">
-                  <p source="#biblk000145-1" xml:lang="en">Danchi, meaning literally “cinnabar staircase or courtyard” (Kroll 2015, 74-75; 50-51), generally refers to the surface of the platform extending in front of the main hall of the palace or the surface  of the courtyards in the palace, and is one of the main areas where ceremonies were held. It originated from the practice of painting the steps with cinnabar in the <term ref="/keyword/k000030">Han dynasty</term>, which may have been inherited from the Zhou dynasty (Yang 2001,163,214). During the <term ref="/keyword/k000030">Han dynasty</term> danchi usually referred to the ground or floor inside a hall. After the <term ref="/keyword/k000082">Tang</term> and <term ref="/keyword/k000074">Song</term> dynasties, danchi was usually associated with the platform in front of a hall. Over time, the locations of danchi changed. In <term ref="/keyword/k000055">the Northern Song</term>, it referred to the ground of the topmost platform in front of a palace building, and, together with longchi 龍墀 and shachi 沙墀, it constituted the sanchi 三墀 system. In the <term ref="/keyword/k000047">Liao dynasty</term> and during the Ming and Qing dynasties it referred to the ground below the platform, which is on the same level as the courtyard ground. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, danchi also referred to the ground below the platform of the main hall in the Confucian temples, government offices, and other types of buildings.</p></note>
+                  <p source="#biblk000145-1" xml:lang="en">Danchi, meaning literally “cinnabar staircase or courtyard” (Kroll 2015, 74-75; 50-51), generally refers to the surface of the platform extending in front of the main hall of a palace or the surface  of the courtyards in a palace, and is one of the main areas where ceremonies were held. It originated from the practice of painting the steps with cinnabar in the <term ref="/keyword/k000030">Han dynasty</term>, which may have been inherited from the Zhou dynasty (Yang 2001,163, 214). Over time, the locations of danchi changed. During the <term ref="/keyword/k000030">Han dynasty</term> danchi usually referred to the ground or floor inside a hall. After the <term ref="/keyword/k000082">Tang</term> and <term ref="/keyword/k000074">Song</term> dynasties, danchi was usually associated with the platform in front of a hall. In <term ref="/keyword/k000055">the Northern Song</term>, it referred to the ground of the topmost platform in front of a palace building, and, together with <term>longchi 龍墀</term> and <term>shachi 沙墀</term>, it constituted the <term>sanchi 三墀</term> system. In the <term ref="/keyword/k000047">Liao dynasty</term> and during the Ming and Qing dynasties it referred to the ground below the platform, which is on the same level as the courtyard ground. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, danchi also referred to the ground below the platform of the main hall in Confucian temples, government offices, and other types of buildings.</p></note>
                <note type="getty:scopeNote" xml:lang="zh-Hant">
                <p source="#biblk000145-2" xml:lang="zh-Hant">丹墀，一般指宮殿建築群中主要建築露臺（月台）或庭院中的地面，是殿庭中舉行儀式的區域之一。源於<term ref="/keyword/k000030">漢代</term>宮殿用丹砂塗飾地面的做法（这种做法可能继承自周代（楊 2001,163,214））。<term ref="/keyword/k000030">漢代</term>主要指“殿內地面”。<term ref="/keyword/k000082">唐</term><term ref="/keyword/k000074">宋</term>以後丹墀通常與殿前露臺（月台）相關，並隨時間發展，指代的位置有所變化：<term ref="/keyword/k000055">北宋</term>指殿外台基上層地面，與龍墀、沙墀組成三墀體系；<term ref="/keyword/k000047">遼</term>及以後指殿外露臺（月台）下地面，與庭院地面相平。</p>
                <p source="#biblk000145-3" xml:lang="zh-Hant">丹墀一詞的使用演化到明清時期，也指文廟、衙署等建築群中主要建築台基下的地面。（ATTCAT2021）</p>
+               </note>
+               <note type="Related Concepts">
+                  <p><term>lóngchí 龍墀</term></p>
+                  <p><term>shāchí 沙墀</term></p>
+                  <p><term>sānchí 三墀</term></p>
+                  <p><term ref="/keyword/k000136">lùtái 露台</term></p>
+                  <p><term ref="/keyword/k000123">yuètái 月臺</term></p>
                </note>
             </note>
                <!-- <bibl xml:id="biblk000145-1">
@@ -123,7 +127,6 @@
                <ptr target="https://architecturasinica.org/bibl/YTIAFBLI"/>
                <citedRange unit="pp">accessed 2021</citedRange>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
             <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51272856055_8b3d7c3cd7_o.jpg" passive="https://architecturasinica.org/keyword/k000145" ana="featured"/>
             <listRelation>
                <listRelation>
