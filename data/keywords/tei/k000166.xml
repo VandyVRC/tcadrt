@@ -77,6 +77,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-03-16">CREATED: record</change>
          <change n="2.0" when="2021-11-10" who="#HDN">final revision</change>
+         <change n="2.1" when="2021-11-21" who="#TGM">copy edit</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -87,9 +88,10 @@
             <term xml:id="term-k000166-3" xml:lang="zh-Hans">假昂</term>
             <term xml:id="term-k000166-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">jiǎ’áng</term>
             <term xml:id="term-k000166-5" xml:lang="zh-latn-wadegile">chia-ang</term>
-            <term xml:id="term-k000166-6" xml:lang="en" type="literal_translation" source="#biblk000166-1">"simulated" ang (lit.)</term>
+            <term xml:id="term-k000166-6" xml:lang="en" type="literal_translation" source="#biblk000166-1">simulated ang (lit.)</term>
             <term xml:id="term-k000166-7" xml:lang="en" source="#biblk000166-2">pseudo-cantilever</term>
             <term xml:id="term-k000166-8" xml:lang="en" source="#biblk000166-3">false ang</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000166</idno>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="biblk000166-1">literally:  "simulated"  (Kroll 2015, 193) ang; pseudo-cantilever (Zuo, 2019, 175); false ang (Guo 45)</p> 
                <p xml:lang="zh-Hant" source="#biblk000166-1"></p> 
@@ -101,7 +103,7 @@
                <p source="#biblk000166-5" xml:lang="en">Based on extant timber frame structures, such as <term ref="/place/000048x">the Sage Mother Hall</term> (mid 11th century) in <term ref="/place/000048">Jinci</term>, we know that jia’ang were already being used in the <term ref="/keyword/k000055">Northern Song dynasty</term>. It can be traced back even further, to the <term ref="/keyword/k000077">Southern Tang</term> through a wooden building model discovered in a coffin in Baoying 寶應, Jiangsu (Zhou 2020, Li 1965). Jia’ang became popular in architecture after the <term ref="/keyword/k000076">Southern Song</term> and became a standard form in the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties. The ang mentioned in architectural literature from <term ref="/keyword/k000070"> the Qing dynasty</term> are all jia’ang (Liang 1981, 21-22).</p>
                <p source="#biblk000166-6" xml:lang="en">Some scholars extend the meaning of jia’ang to elements such as cha’ang 插昂 mentioned in the <title ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</title> (Wang and Niu 1992, Cheng 1997, Li 2000, which is a small timber in the shape of an ang mouth, but which does not function as a lever arm. This view is not universally accepted (Su 1994, Feng 1995). Recently, a more generally accepted opinion is that cha’ang was a transitional form, which was used before jia’ang became standard (Wen 2013, Yu 2017).</p>
                <note type="getty:scopeNote" xml:lang="zh-Hant">
-               <p source="#biblk000166-4">“假昂”為1930年代以後建築史學家所使用（梁 1933，26），通常用於指外簷鬥栱中外挑斫成昂嘴形的華栱，大部分案例中昂嘴下還帶有刻出的華頭子。本質上”假昂“作為一種現象，是指在形態上通過昂尖（昂嘴）的形式追求視覺上的下昂意向，但在構件整體形式與所起作用上已不具備下昂基本特點的構件。</p>
+               <p source="#biblk000166-4">“假昂”為1930年代以後建築史學家所使用（梁 1933, 26），通常用於指外簷鬥栱中外挑斫成昂嘴形的華栱，大部分案例中昂嘴下還帶有刻出的華頭子。本質上”假昂“作為一種現象，是指在形態上通過昂尖（昂嘴）的形式追求視覺上的下昂意向，但在構件整體形式與所起作用上已不具備下昂基本特點的構件。</p>
                </note>
                <p source="#biblk000166-5" xml:lang="zh-Hant">假昂在現存木構建築實例中出現於<term ref="/keyword/k000055">北宋</term>（<term ref="/place/000048x">晉祠聖母殿</term>，11世紀中期），但在墓葬中最早可見出土于寶應的<term ref="/keyword/k000077">南唐</term>木屋（周 2020，黎 1965）；<term ref="/keyword/k000076">南宋</term>以後假昂在木構建築中逐漸普遍。此類做法在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>建築中成為標準做法，<term ref="/keyword/k000070">清代</term>營造文獻中的“<term ref="/keyword/k000103">昂</term>”均指此類構件 (梁 1981，21-22)。</p>
                <p source="#biblk000166-6" xml:lang="zh-Hant">部分學者將“假昂”延伸為具有昂（尖）的形態，但不符合昂的杠杆原理的構件，如<title ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">《營造法式》</title>中的插昂（王 和 牛 1992，程 1997，李 2007），但這一觀點有爭議（宿 1994，冯 1995）。近來較為普遍的看法是：插昂是假昂定型前的過渡形態（温 2013，喻 2017）。</p>
@@ -158,7 +160,6 @@
                   <ptr target="https://architecturasinica.org/bibl/DLZWECR5"/>
                </bibl>
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000166</idno>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51273062306_b27c0c1be6_o.jpg" passive="https://architecturasinica.org/keyword/k000166" rendition="featured"> </relation>
