@@ -14,7 +14,7 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">ZHANG Xu張旭</editor>
+            <editor role="content-author">ZHANG Xu 張旭</editor>
             <editor role="content-author">JIA Tingli 賈亭立</editor>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -78,21 +78,27 @@
       <revisionDesc>
          <change n="1.0" when="2021-09-15">CREATED: record</change>
          <change n="2.0" when="2021-11-10" who="#HDN">final revision</change>
+         <change n="2.0" when="2021-11-25" who="#TGM">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000186" type="architectural feature">
             <term xml:id="term-k000186-1" xml:lang="zh-latn-pinyin-nt">bu shaliangtou</term>
-            <term xml:id="term-k000186-2" xml:lang="zh-Hant">不厦兩頭</term>
+            <term xml:id="term-k000186-2" xml:lang="zh-Hant" source="#biblk000186-1">不厦兩頭</term>
             <term xml:id="term-k000186-3" xml:lang="zh-Hans">不厦两头</term>
             <term xml:id="term-k000186-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">bù shàliǎngtóu</term>
             <term xml:id="term-k000186-5" xml:lang="zh-latn-wadegile">pu sha-liang-t'ou</term>
-            <term xml:id="term-k000186-6" xml:lang="en" source="#biblk000186-1">overhanging gable roof</term>
+            <term xml:id="term-k000186-6" xml:lang="en" source="#biblk000186-2">overhanging gable roof</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000186</idno>
             <note type="Note (full)">
-               See <term ref="/keyword/k000185">shaliangtou 厦兩頭</term>
+              Meaning, literally, "without shaliangtou." See <term ref="/keyword/k000185">shaliangtou 厦兩頭</term>
             </note>
-            <listBibl xml:id="biblk000186-1">
+            <bibl xml:id="biblk000186-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">196</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000186-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">349</citedRange>
@@ -106,7 +112,6 @@
                   <citedRange unit="pp">11</citedRange>
                </bibl>
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000186</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000186" passive="roof types"/>
