@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+     <fileDesc>
+      <titleStmt>
+         <title level="a" xml:lang="en">Jin Shrines, Mount Tai Bridge <foreign xml:lang="zh-Hant">晉祠泰山橋</foreign>
+         </title>
+         <title level="m">Architectura Sinica</title>
+         <principal>Tracy Miller</principal>
+         <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+         <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
+         <respStmt>
+            <resp>Website coordination by</resp>
+            <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+         </respStmt>
+         <respStmt>
+            <resp>Editing and proof correction</resp>
+            <name type="person" ref="#TGM">Tracy Miller</name>
+         </respStmt>
+         <respStmt>
+            <resp>Data entry</resp>
+            <name type="person" ref="#CX">XU Chuyuan 徐楚原</name>
+         </respStmt>
+      </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048sa/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-10-23-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+       </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048sa" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048sa-1" xml:lang="en">Mount Tai Bridge</placeName>
+               <placeName xml:id="name000048sa-2" type="building-name" xml:lang="zh-Hant">泰山橋</placeName>
+               <placeName xml:id="name000048sa-3" type="building-name" xml:lang="zh-Hans">泰山桥</placeName>
+               <placeName xml:id="name000048sa-4" type="building-name" xml:lang="zh-latn-pinyin">Tàishānqiáo</placeName>
+               <placeName xml:id="name000048sa-5" type="building-name" xml:lang="zh-latn-wadegile">T'ai-shan-ch'iao</placeName>
+               <placeName xml:id="name000048sa-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠泰山橋</placeName>
+               <placeName xml:id="name000048sa-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠泰山桥</placeName>
+               <placeName xml:id="name000048sa-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Taishan Qiao</placeName>
+               <placeName xml:id="name000048sa-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠碧瀾橋</placeName>
+               <placeName xml:id="name000048sa-10" type="alternate" subtype="building-name" xml:lang="en">Jinci Bilanqiao</placeName>
+               <state type="existence" from="prior to 1342" to="1342">
+                  <label>Date</label>
+                  <desc>prior to 1342</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048sa-2" from="1279-01-01" to="1368-01-01">
+                  <label>Dynasty</label>
+                  <desc>Yuan 1271-1368</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048sa-1"> Also known as the <placeName ref="/place/000048ta">Emerald Wave Bridge (碧瀾橋)</placeName>. 
+                     Original date of construction unknown. 
+                     A bridge appears in this location on Gao Ruxing's Jinci zhitu 
+                     and may have been built at the same time as the Taishan Temple, prior to 1342. 
+                     It is labeled Taishan Bridge on the Qianlong painting of the site.
+                     This is number 28.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">Bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">Qiáo</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
+               </trait>
+               <listBibl xml:id="bibl000048sa-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">198</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="biblk000048sa-2">
+                     <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                     <citedRange unit="pp">12</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VEW6L2RT"/>
+                     <citedRange unit="pp">3-5</citedRange>
+                  </bibl>
+               </listBibl>
+            </place>
+            <listRelation>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048sa" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048sa" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048sa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048sa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

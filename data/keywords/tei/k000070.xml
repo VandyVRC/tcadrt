@@ -67,12 +67,19 @@
             <state type="existence" source="#biblk000070-1" from="1644" to="1912">
                <desc>1644 - 1912</desc>
             </state>
+            <note source="#biblk000070-2">
+               Revolutionary organizations were successful in their opposition to the Qing dynasty over the course of 1911. The last Qing emperor officially abdicated in 12 February, 1912. 
+            </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000070</idno>
          </entryFree>
          <bibl xml:id="biblk000070-1">
             <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
             <citedRange unit="pp">12</citedRange>
          </bibl>
+         <bibl xml:id="biblk000070-2">
+            <ptr target="https://architecturasinica.org/bibl/LJCMYA86"/>
+               <citedRange unit="pp">514-533</citedRange>
+            </bibl>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Cha-yan Cavern <foreign xml:lang="zh-Hant">晉祠茶煙洞</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>               
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048da/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-16-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#HDN" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.1" when="2021-09-23" who="#HDN">Added site information</change>
+         <change n="1.2" when="2021-09-30" who="#HDN">Added image links</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048da" type="building">
+               <placeName xml:id="name000048da-1" type="building-name" xml:lang="en">Cha-yan Cavern</placeName>               
+               <placeName xml:id="name000048da-2" type="building-name" xml:lang="zh-Hant">茶煙洞</placeName>
+               <placeName xml:id="name000048da-3" type="building-name" xml:lang="zh-Hans">茶烟洞</placeName>
+               <placeName xml:id="name000048da-4" type="building-name" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
+               <placeName xml:id="name000048da-5" type="building-name" xml:lang="zh-latn-wadegile">Ch'a-yen-tung</placeName>
+               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines Cha-yan Cavern</placeName>
+               <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
+               <placeName xml:id="name000048da-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>
+               <placeName xml:id="name000048da-9" type="alternate" xml:lang="zh-Hant">雲陶洞</placeName>
+               <placeName xml:id="name000048da-10" type="alternate" xml:lang="zh-Hans">云陶洞</placeName>
+               <placeName xml:id="name000048da-11" type="alternate" xml:lang="zh-latn-pinyin">Yuntaodong</placeName> 
+               <idno type="URI">https://architecturasinica.org/place/000048da</idno>
+               <state type="existence" subtype="dynasty" source="#bibl000048da-2" from="1600-01-01" to="1699-12-31">
+                   <label> Date </label>
+                   <desc> 17th century </desc>
+                   <label>Dynasty</label>
+                   <desc> Ming - Qing </desc>
+               </state>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="en">Shanxi Province</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Shānxī shěng</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="en">Taiyuan Municipality</placeName>
+                     <placeName xml:lang="zh-Hans">太原市</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Tàiyuán shì</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">cavern</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">洞</desc>
+                  <desc xml:lang="zh-Hans">洞</desc>
+               </trait>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of <term ref="/place/000048ba">Chaoyang Cavern</term>, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than <term ref="/place/000048ba">Chaoyang Cavern</term>. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195). This structure is number 28 on our <term ref="https://architecturasinica.org/place/000048">plan</term> of the site.</p> 
+               </desc>
+                 <bibl xml:id="bibl000048da-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">195</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048da-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048da" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048da" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51533228713_5f43347865_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51533703239_de80b6e4f8_h.jpg"
+                  passive="https://architecturasinica.org/place/000048da" ana="featured"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048da" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

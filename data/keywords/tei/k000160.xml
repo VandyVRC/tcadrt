@@ -10,14 +10,37 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
              <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
-               <respStmt>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <editor role="content-author">ZHANG Jin 張靖</editor>
+            <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" xml:id="FSY">FU Shiyi 付詩怡</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citations and notes by</resp>
+               <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,21 +72,62 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-04-02-04:00">CREATED: record</change>
+         <change n="1.1" when="2021-09-14" who="#MT">Adding citations and notes</change>
+         <change n="1.2" when="2021-09-25" who="#MT">Adding citations</change>
+         <change n="1.3" when="2021-09-30" who="#MT">Revision:notes and links</change>
+         <change n="1.4" when="2021-11-03" who="#MT">Revision:adding citations</change>
+         <change n="2.0" when="2021-11-11" who="#XQ">final revision</change>
+         <change n="2.0" when="2021-11-19" who="#TGM">tagging preferred</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000159" type="architectural feature">
-            <term xml:id="term-k000160-1" xml:lang="zh-latn-pinyin-nt" type="preferred">ganlan</term>
-            <term xml:id="term-k000160-2" xml:lang="zh-Hant">干欄</term>
+         <entryFree xml:id="k000160" type="architectural feature">
+            <term xml:id="term-k000160-1" xml:lang="zh-latn-pinyin-nt">ganlan</term>
+            <term xml:id="term-k000160-2" xml:lang="zh-Hant" source="#biblk000160-1">干闌</term>
+            <term xml:id="term-k000160-7" xml:lang="zh-Hant" source="#biblk000160-2">干欄</term>
             <term xml:id="term-k000160-3" xml:lang="zh-Hans">干栏</term>
-            <term xml:id="term-k000160-4" xml:lang="zh-latn-pinyin">gānlán</term>
-            <term xml:id="term-k000160-5" xml:lang="zh-latn-wadegile">kan-lan</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000160-1">dwelling or building elevated on high piles to avoid moisture (Guo 2002, 38; Fu 2017, 355); (幹欄) literally  supporting pile or balustrade (Kroll 2015, 128, 252)</p>
-               <p xml:lang="zh-Hant" source="#biblk000160-1">一種底層使用木或竹柱架空的建築形式，以防止潮氣。</p>
+            <term xml:id="term-k000160-4" xml:lang="zh-latn-pinyin" source="#biblk000160-3" type="ATTCAT_preferred">gānlán</term>
+            <term xml:id="term-k000160-5" xml:lang="zh-latn-wadegile">kan-lan</term>             
+            <term xml:id="term-k000160-6" xml:lang="en" type="ATTCAT_preferred_translation">Pile structures or dwellings (ATTCAT preferred translation) </term>
+            <term xml:id="term-k000160-8" xml:lang="en" source="#biblk000160-4">Pile-dwelling</term>
+            <term xml:id="term-k000160-9" xml:lang="en" source="#biblk000160-5">Stilt house</term>
+            <term xml:id="term-k000160-10" xml:lang="en" type="literal_translation" source="#biblk000160-8">(raised) pile balustrade (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
+            <note type="Note (full)">
+               <note type="getty:scopeNote" xml:lang="en">
+                  <p source="#biblk000160-6">Ganlan is a type of wooden or bamboo building raised above the ground on piles. The first known occurrence of the term is in the <title ref="https://tinyurl.com/r859rwaa">Liao zhuan 獠傳 (Biography of Liao)</title> in the <title>Wei shu (Book of Wei)</title> (Wei 1974, 2248). In this text, the term ganlan was considered to be a transliteration of a Southern Man (Nanman 南蠻) term for a house into Chinese characters. The house type was characterized by an elevated platform (Dai 1948, 7).</p>  
+               </note>
+               <p xml:lang="en">In the modern Chinese academic context, ganlan is a generic term for raised-floor buildings of the type found in southwest China and Southeast Asia. The structure and details of ganlan vary from era to era and region to region.</p>   
+               <p xml:lang="en">Ganlan architecture is still widely used in Southwest China and Southeast Asia because its upper raised structure can better handle the humid weather and diverse terrain. The shady space under the structure is usually used for keeping livestock.</p>     
+               <p source="#bibl00060-7" xml:lang="en">Archaeological research has shown that ganlan buildings were used during the Neolithic Period, and into the Shang, Zhou, <term subtype="dynasty" ref="/keyword/k000030">Han</term> dynasties, with a regional distribution across not only Southern China (An 1963, 85) but also, by the Shang dynasty (Yang 2001, 52), into the Central Plains. The use of ganlan structures during this period was not restricted to dwellings but also included granaries, a technique seen across East and Southeast Asia.</p> 
+               <p>The English terms most closely corresponding to ganlan are "pile-dwelling" and "stilt-house." But strictly speaking, stilt refers to a structure elevated above the ground on posts resting on bases, while pile usually refers to an elevated structure where the posts are sunk directly into the ground. In the modern context, pile may also refer to both situations in general. Therefore, "pile" is probably the most appropriate English translation of ganlan.</p> 
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+               <p source="#biblk000160-6">干闌（干欄）是一種底層使用木或竹柱架空的建築形式。最早記載于《<title ref="https://tinyurl.com/r859rwaa">魏書·獠傳</title>》(魏 1974，2248)，寫作“干蘭”。在漢語古籍中多有提及，是對古代“南蠻”部分民族所居住房屋的音譯（戴 1948，7）,通常具有“樓居”的特徵。也常寫作 “干闌”或“干欄”。</p>
+               </note>
+               <p xml:lang="zh-Hant">“干闌”在中文的學術語境中，是對廣泛存在於中國西南和東南亞的、以及在中國境內漫長的歷史過程中出現過的架空建築形式的泛稱，其結構和構造類型因時代、地域而異。</p> 
+               <p xml:lang="zh-Hant">干闌建築因能較好地應對坡地、濕地和濕熱氣候，現今在中國西南地區、東南亞仍具有廣泛的分佈範圍。底層架空的部分常常用來圈養牲口。</p>
+               <p source="#bibl00060-7" xml:lang="zh-Hant">在中國，干闌建築的使用具有悠久的歷史。考古研究顯示干闌建築也曾廣泛使用於新石器時期的南方地區、商周時期都城（楊 2001，52）以及<term subtype="dynasty" ref="/keyword/k000030">漢</term>代的長江流域及其以南地區。干闌建築在中國古代及東亞、東南亞地區中不僅見於居住建築，也常見於穀倉等（安 1963，85）。</p>   
+               <p xml:lang="zh-Hant">在英文寫作中，對應干闌常用pile-dwelling或stilt-house，但嚴格說來，stilt所指的抬起的房屋的下部結構僅指放置於地上，而不是柱底埋入地下；相應的pile則主要指柱底埋入地下的結構方式。如今在使用中，pile有時候也可以泛指兩種情況。因此，對應中文語境的干闌，使用pile更為合適。</p>
             </note>
-            <listBibl xml:id="biblk000160-1">
+            <bibl  xml:id="biblk000160-1">
+               <ptr target="https://architecturasinica.org/bibl/NUM9QBJW"/>
+            </bibl>
+            <bibl  xml:id="biblk000160-2">
+               <ptr target="https://architecturasinica.org/bibl/WU25GH7V"/>
+            </bibl>
+            <bibl  xml:id="biblk000160-3">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+            </bibl>
+            <bibl  xml:id="biblk000160-4">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">38</citedRange>
+            </bibl>
+            <bibl  xml:id="biblk000160-5">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">355</citedRange>
+            </bibl>
+            <!-- <listBibl xml:id="biblk000160-6">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">38</citedRange>
@@ -74,10 +138,34 @@
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">128, 252</citedRange>
+                  <citedRange unit="pp">127-128, 252-253</citedRange>
                </bibl>
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000160</idno>
+  -->            
+            <listBibl xml:id="biblk000160-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/ULTGYV42"/>
+                  <citedRange unit="pp">2248</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/79Y3R2ED"/>
+                  <citedRange unit="pp">7</citedRange>
+               </bibl>    
+            </listBibl>
+            <listBibl xml:id="biblk000160-7">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SQ9V9Q8B"/>
+                  <citedRange unit="pp">85</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2GWZKZ2K"/>
+                  <citedRange unit="pp">52</citedRange>
+               </bibl>    
+            </listBibl>
+            <bibl xml:id="biblk000160-8">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">127-128, 252-253</citedRange>
+            </bibl>
              <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch"
