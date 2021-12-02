@@ -78,17 +78,18 @@
          <change n="1.0" who="#CBL" when="2021-03-12">CREATED: record and adding citations</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
          <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
+         <change n="1.2" when="2021-11-19" who="#TGM">Adding preferred translation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000142" type="architectural feature">
-            <term xml:id="term-k000142-1" xml:lang="zh-latn-pinyin-nt" type="preferred">xinjian</term>
+            <term xml:id="term-k000142-1" xml:lang="zh-latn-pinyin-nt">xinjian</term>
             <term xml:id="term-k000142-2" xml:lang="zh-Hant">心間</term>
             <term xml:id="term-k000142-3" xml:lang="zh-Hans">心间</term>
-            <term xml:id="term-k000142-4" xml:lang="zh-latn-pinyin" source="#biblk000142-1">xīnjiān</term>
+            <term xml:id="term-k000142-4" type="ATTCAT_preferred" xml:lang="zh-latn-pinyin" source="#biblk000142-1">xīnjiān</term>
             <term xml:id="term-k000142-5" xml:lang="zh-latn-wadegile">hsin-chien</term>
-            <term xml:id="term-k000142-6" xml:lang="en" source="#biblk000142-2">central bay</term>
+            <term xml:id="term-k000142-6" xml:lang="en" source="#biblk000142-2" type="ATTCAT_preferred_translation">central bay (ATTCAT preferred translation)</term>
             <!--  <note type="Gloss">                
                <p xml:lang="en" source="#biblk000142-2">central bay (Steinhardt 1991, 27-50); literally: heart/central space between two columns (Kroll 2015, 196, 507)</p>                
                <p xml:lang="zh-Hant" source="#biblk000142-2">指處於建築中心位置的開間。</p>             

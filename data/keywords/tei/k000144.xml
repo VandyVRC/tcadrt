@@ -79,17 +79,19 @@
          <change n="1.0" when="2021-03-24" who="#ZJ">CREATED: record</change>
          <change n="1.1" when="2021-09-13" who="#HDN">Adding notes and citations</change>
          <change n="1.2" when="2021-09-27" who="#HDN">Adding notes, citations and links</change>
+         <change n="1.2" when="2021-11-17" who="#TGM">Adding English, editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000144" type="architectural feature">
-            <term xml:id="term-k000144-1" xml:lang="zh-latn-pinyin-nt" type="preferred">danbi</term>
+            <term xml:id="term-k000144-1" xml:lang="zh-latn-pinyin-nt">danbi</term>
             <term xml:id="term-k000144-2" xml:lang="zh-Hant">丹陛</term>
             <term xml:id="term-k000144-3" xml:lang="zh-Hans">丹陛</term>
-            <term xml:id="term-k000144-4" xml:lang="zh-latn-pinyin">dānbì</term>
+            <term xml:id="term-k000144-4" type="ATTCAT_preferred" xml:lang="zh-latn-pinyin">dānbì</term>
             <term xml:id="term-k000144-5" xml:lang="zh-latn-wadegile">tan-pi</term>
-           
+            <term xml:id="term-k000144-6" xml:lang="en" type="literal_translation" source="#biblk000144-1">cinnabar steps or platforms (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
             <!--  <note type="Gloss">
                <p xml:lan="en" source="#biblk000144-1">lit. "cinnabar steps" or "cinnabar terrace" (Kroll 2015, 20, 74); usually refers to steps leading up the raised platform of a palatial hall; in some cases this term is also used to refer to the "moon terrace" <term ref="/keyword/k000123">(yuetai 月臺) </term>in front of a palatial hall</p>
                <p xml:lang="zh-Hant" source="#biblk000144-1">指處於建築中心位置的開間。</p>   
@@ -99,11 +101,14 @@
                <note type="getty:scopeNote" xml:lang="en">
                <p source="#biblk000144-1" xml:lang="en">Danbi, literally meaning “cinnabar steps” or “cinnabar platform” (Kroll 2015, 74-75; 20), generally refers to the steps of palace buildings, and in some contexts, to the open platform in front of a main palace hall.</p> 
                </note>
-               <p xml:lang="en"> The term danbi originated from the practice of painting the steps of palace buildings with cinnabar. The earliest evidence of the use of danbi comes from the Lingqijing, which is traditionally dated to the <term ref="/keyword/k000090"> Western Han</term>. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing dynasty</term> dynasties, danbi became part of mainstream architectural nomenclature and was used in conjunction with <term ref="/keyword/k000145">danchi 丹墀</term>, where danbi referred to the platform (yuetai 月台) outside the hall, and danchi referred to the ground in front of the danbi. However, danbi is also commonly translated as "steps." In literature before the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, danbi was not used for buildings other than palace buildings, while in the Ming and <term ref="/keyword/k000070">Qing dynasty</term> dynasties, the scope of reference broadened to include Confucian temples, government offices, and other types of buildings.</p>
+               <p xml:lang="en"> The term danbi originated from the practice of painting the steps of palace buildings with cinnabar. The earliest evidence of the use of danbi comes from the Lingqijing, which is traditionally dated to the <term ref="/keyword/k000090"> Western Han</term>. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing dynasty</term> dynasties, danbi became part of mainstream architectural nomenclature and was used in conjunction with <term ref="/keyword/k000145">danchi 丹墀</term>, where danbi referred to the platform (yuetai 月台) outside the hall, and danchi referred to the ground in front of the danbi. However, danbi is also commonly translated as "steps." In literature before the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, danbi was not used for buildings other than palace buildings, while in the Ming and Qing dynasties, the scope of reference broadened to include Confucian temples, government offices, and other types of buildings.</p>
                <note type="getty:scopeNote" xml:lang="zh-Hant">
                <p xml:lang="zh-Hant">丹陛，一般指宮殿建築的臺階，有時也指宮殿建築前的露臺（月臺）。</p>
                </note>   
-               <p source="#biblk000144-2" xml:lang="zh-Hant">丹陛源於<term ref="/keyword/k000030">漢代</term>宮殿建築用丹砂塗飾臺階的做法。現存文獻中最早見於相傳為張良（250或以前-186BCE）或東方朔（154-93BCE）所作的《靈棋經》。在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>時期，丹陛發展出一種指代露臺（月臺）的主流說法，並與“<term ref="/keyword/k000145">丹墀</term>”產生關聯：即殿外月臺為丹陛，丹陛以南、台下廣庭為丹墀。但“臺階”的含義一直存在，並延續到當代。丹陛在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>以前文獻中未見指代宮殿建築以外的情況，但在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>兩朝用於文廟、衙署等建築中，呈現所指範圍泛化的趨勢。（ATTCAT 2021）</p>
+               <p source="#biblk000144-2" xml:lang="zh-Hant">丹陛源於<term ref="/keyword/k000030">漢代</term>宮殿建築用丹砂塗飾臺階的做法。現存文獻中最早見於相傳為張良（250或以前-186BCE）或東方朔（154-93BCE）所作的《靈棋經》。在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>時期，丹陛發展出一種指代露臺（月臺）的主流說法，並與“<term ref="/keyword/k000145">丹墀</term>”產生關聯：即殿外月臺為丹陛，丹陛以南、台下廣庭為丹墀。但“臺階”的含義一直存在，並延續到當代。丹陛在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>以前文獻中未見指代宮殿建築以外的情況，但在<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>兩朝用於文廟、衙署等建築中，呈現所指範圍泛化的趨勢。</p>
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000144-1" xml:lang="zh-Hant" ref="/keyword/k000145">dānchí 丹墀</p>
             </note>
                <!-- <bibl xml:id="biblk000144-1">
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
@@ -117,7 +122,6 @@
                <ptr target="https://architecturasinica.org/bibl/YTIAFBLI"/>
                <citedRange unit="pp">accessed 2021</citedRange>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000144</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000144" passive="foundations"/>

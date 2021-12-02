@@ -14,8 +14,6 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" xml:id="CLX">CHEN Luxi 陳麓西</editor>
             <editor role="content-author" xml:id="ZLL">ZUO Lala 左拉拉</editor>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -23,19 +21,18 @@
             </respStmt>
             <respStmt>
                <resp>Initial research by</resp>
-               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
-               <name type="person" ref="#CLX">CHEN Luxi 陳麓西</name>
+               <name type="person" ref="#ZJ">ZUO Lala 左拉拉</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
-               <name type="team">ATTCAT 2018</name>
+               <name type="team">ATTCAT 2021</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry and adding citations by</resp>
+               <resp>Initial page creation by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
             </respStmt>
             <respStmt>
@@ -73,33 +70,53 @@
       <revisionDesc>
          <change n="1.0" when="2020-05-07">CREATED: record</change>
          <change n="2.0" when="2021-11-11" who="#MT">final revision</change>
+         <change n="2.0" when="2021-11-28" who="#TGM">adding related concepts; editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000114" type="architectural feature">
-            <term xml:id="term-k000114-7" xml:lang="zh-latn-pinyin-nt" type="preferred">e</term>          
+            <term xml:id="term-k000114-7" xml:lang="zh-latn-pinyin-nt">e</term>          
             <term xml:id="term-k000114-2" xml:lang="zh-Hant">額</term>
             <term xml:id="term-k000114-3" xml:lang="zh-Hans">额</term>
-            <term xml:id="term-k000114-4" xml:lang="zh-latn-pinyin">é</term>
+            <term xml:id="term-k000114-4" xml:lang="zh-latn-pinyin"  type="ATTCAT_preferred">é</term>
             <term xml:id="term-k000114-5" xml:lang="zh-latn-wadegile">o</term>
             <term xml:id="term-k000114-6" xml:lang="en" type="literal_translation" source="#biblk000114-1">forehead (lit.)</term> 
-            <term xml:id="term-k000114-1" xml:lang="en">forehead tie beams</term>             
+            <term xml:id="term-k000114-1" xml:lang="en" type="ATTCAT_preferred_translation">forehead tie beams (ATTCAT preferred translation)</term>
+            <term xml:id="term-k000114-7" xml:lang="en" source="#biblk000114-2">architrave</term>
+            <term xml:id="term-k000114-8" xml:lang="en" source="#biblk000114-3">column-top-tie</term>
+            <term xml:id="term-k000114-9" xml:lang="en" source="#biblk000114-3">header</term>
+            
+            <idno type="URI">https://architecturasinica.org/keyword/k000114</idno>
             <note type="Note (full)">
                <note type="getty:scopeNote" xml:lang="en">
-                  <p>E is a general term for all horizontal members that connect the columns and are positioned above windows and doors.</p>
-               </note>
-               <p xml:lang="en">Based on its usage in the <title ref="https://tinyurl.com/3tbxwukj">Yingzao fashi</title>, we can interpret the term e in the following two ways. First, in carpentry work (damuzuo 大木作), e is a general term that refers to all horizontal elements belonging to the longitudinal frame parallel to the roof ridge (zongjia 縱架) and which join through the top or upper part of columns. According to the <title ref="https://tinyurl.com/25w79um9">Yingzao fashi</title>, e include <term ref="/keyword/k000038">lan’e 闌額</term>, <term>yan’e 簷額</term>, <term>you’e 由額</term>, and <term>wunei’e 屋內額</term>. The term e was replaced by efang in <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">Qing</term> dynasty architecture terminology, and more elements were included in the <term ref="/keyword/k000115">efang 額枋</term> category. The second meaning of e in the Yingzao fashi is used in joinery work (xiaomuzuo 小木作). According to the <title ref="https://tinyurl.com/25w79um9">Yingzao fashi</title>, e refers to the top horizontal element in the framework of doors and windows. It can also be called <term>chuang’e 窗額 (window header)</term> or <term>men’e 門額 (door header)</term>, depending on the position of the e.</p>
+                  <p>E is a general term for all horizontal members that connect the columns and are positioned above windows and doors.</p>                 </note>
+               <p xml:lang="en">Based on its usage in the <title ref="https://tinyurl.com/3tbxwukj">Yingzao fashi</title>, we can interpret the term e in the following two ways. First, in carpentry work (damuzuo 大木作), e is a general term that refers to all horizontal elements belonging to the longitudinal frame parallel to the roof ridge (zongjia 縱架) and which join through the top or upper part of columns. According to the <title ref="https://tinyurl.com/25w79um9">Yingzao fashi</title>, e include <term ref="/keyword/k000038">lan’e 闌額</term>, <term ref="/keyword/k000097">yan’e 檐額</term>, <term>you’e 由額</term>, and <term>wunei’e 屋內額</term>. The term e was replaced by <term ref="/keyword/k000115">efang 額枋</term> in <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">Qing</term> dynasty architecture terminology, and more elements were included in the efang category. The second meaning of e in the Yingzao fashi is used in joinery work (xiaomuzuo 小木作). According to the <title ref="https://tinyurl.com/25w79um9">Yingzao fashi</title>, e refers to the top horizontal element in the framework of doors and windows. It can also be called <term>chuang’e 窗額 (window header)</term> or <term>men’e 門額 (door header)</term>, depending on the position of the e.</p>
                <note type="getty:scopeNote" xml:lang="zh-Hant">
                   <p>額是位於門窗之上固定於兩柱頭之間的水平連結構件。</p>  
                </note>
-               <p xml:lang="zh-Hant">額作為建築構件的名稱有兩種解釋。在大木作中，額是位於縱架且連接相鄰兩柱的水平構建的總稱，並且額一般位於柱子的上部。在《<title ref="https://tinyurl.com/3tbxwukj">營造法式</title>》大木作部分中，額一般包括<term ref="/keyword/k000038">闌額</term>、<term>簷額</term>、<term>由額</term>與<term>屋內額</term>。因為<term ref="/keyword/k000038">闌額</term>是較常見的一種額，所以在大木作中，額亦被視為<term ref="/keyword/k000038">闌額</term>的簡稱。至<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">清</term>代，額這一類別的名稱由“<term ref="/keyword/k000115">額枋</term>”所取代，並且種類較<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000074">宋</term>時更多。在《<title ref="https://tinyurl.com/25w79um9">營造法式</title>》的小木作部分中，額被認為是門窗框架中的頂頭橫木，又有<term>門額</term>與<term>窗額</term>之分。</p> 
+               <p xml:lang="zh-Hant">額作為建築構件的名稱有兩種解釋。在大木作中，額是位於縱架且連接相鄰兩柱的水平構建的總稱，並且額一般位於柱子的上部。在《<title ref="https://tinyurl.com/3tbxwukj">營造法式</title>》大木作部分中，額一般包括<term ref="/keyword/k000038">闌額</term>、<term ref="/keyword/k000097">檐額</term>、<term>由額</term>與<term>屋內額</term>。因為<term ref="/keyword/k000038">闌額</term>是較常見的一種額，所以在大木作中，額亦被視為<term ref="/keyword/k000038">闌額</term>的簡稱。至<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">清</term>代，額這一類別的名稱由“<term ref="/keyword/k000115">額枋</term>”所取代，並且種類較<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000074">宋</term>時更多。在《<title ref="https://tinyurl.com/25w79um9">營造法式</title>》的小木作部分中，額被認為是門窗框架中的頂頭橫木，又有<term>門額</term>與<term>窗額</term>之分。</p> 
+            </note>
+            <note type="related concepts">
+               <p><term xml:id="related-concept-k000114-1" ref="/keyword/k000190" xml:lang="zh-Hant">大額 dà'é</term></p>
+               <p> <term xml:id="related-concept-k000114-2" ref="/keyword/k000038" xml:lang="zh-Hant">闌額 lān'é</term></p>
+               <p><term xml:id="related-concept-k000114-3" ref="/keyword/k000097" xml:lang="zh-Hant">檐額 yán'é</term></p>
+               <p><term xml:id="related-concept-k000114-4" ref="/keyword/k000115" xml:lang="zh-Hant">額枋 éfāng</term></p>
+               <p><term xml:id="related-concept-k000114-5" xml:lang="zh-Hant">楣 méi</term></p>
+               <p><term xml:id="related-concept-k000114-6" xml:lang="zh-Hant">橫楣 héngméi</term></p>
             </note>
             <bibl xml:id="biblk000114-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">N/A</citedRange>
+               <citedRange>digital edition</citedRange>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000114</idno>
+            <bibl xml:id="biblk000114-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">354</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000114-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">35</citedRange>
+            </bibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000114" passive="building frame"/>
