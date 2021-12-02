@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">欞星門</foreign> língxīngmén</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
+            <editor role="content-author" xml:id="ZY">ZHAO Yuqian 趙與謙</editor>   
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding notes and citations by</resp>
+               <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000182/tei</idno>  
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+            <change n="1.0" when="2021-09-17" who="#MT">CREATED: record</change>
+            <change n="1.1" when="2021-09-25" who="#MT">Revision:adding citations, notes and links</change>
+            <change n="1.2" when="2021-09-30" who="#MT">Revision:notes and links</change>
+            <change n="2.0" when="2021-11-11" who="#XQ">final revision</change>
+            <change n="2.1" when="2021-11-23" who="#TGM">copyediting</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>   
+         <entryFree xml:id="k000182" type="architectural feature">
+            <term xml:id="term-k000182-1" xml:lang="zh-latn-pinyin-nt">lingxingmen</term>
+            <term xml:id="term-k000182-2" xml:lang="zh-Hant">欞星門（靈星門）</term>
+            <term xml:id="term-k000182-3" xml:lang="zh-Hans">棂星门（灵星门）</term>
+            <term xml:id="term-k000182-4" xml:lang="zh-latn-pinyin"  source="#biblk000182-1" type="ATTCAT_preferred">língxīngmén</term>
+            <term xml:id="term-k000182-5" xml:lang="zh-latn-wadegile">ling-hsing-men</term>  
+            <idno type="URI">https://architecturasinica.org/keyword/k000182</idno>
+           
+            <note type="Note (full)">
+               <note type="getty:scopeNote" xml:lang="zh-en">
+               <p xml:lang="en">Lingxingmen is an elaborate gateway with a form similar to <term ref="/keyword/k000181">wutoumen 烏頭門</term>. Usually, a lingxingmen is used at the entrance of ritual architectural complexes, such as the Wenmiao (Temple of Literature), sacrificial altars to the spirits of Heaven and Earth, and other religious complexes. The term lingxingmen was used beginning in the <term subtype="dynasty" ref="/keyword/k000055">Northern Song</term> dynasty.</p>
+               </note>
+               <p source="#biblk000182-2" xml:lang="en">The earliest known reference for lingxingmen is in the <title ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</title>, where it is described as a common term for wutoumen (Li 2009, 6.2a). Here the Chinese character ling 欞, with a wood radical, was used. Other documents from the same period use the character ling 靈, without the wood radical (Lou 1985, 110.27a). Although premodern sources from the <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasty use both terms, from the <term subtype="dynasty" ref="/keyword/k00051">Ming</term> dynasty onward, the wood-radical lingxingmen 欞星門 gradually became the most common.</p> 
+               <p source="#biblk000182-3" xml:lang="en">The term lingxingmen appears to have originated from the traditional ritual of offering sacrifices to the star Lingxing 靈星 in the pre-<term subtype="dynasty" ref="/keyword/k000069">Qin</term> period (<title ref="https://tinyurl.com/dr96569z">Pu 2.26b</title>). In the <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasty, according to the location of Lingxing in the constellation Purple Tenuity Enclosure (Ziweihuan 紫微垣), a Lingxingmen was constructed in its corresponding earthly location within the Southern Suburban Altar (Nanjiaotan 南郊壇), and the wutoumen form was used for it. After the Song dynasty, with the development of the style and materials used for the gate, as well as the expansion of the occasions for which its use was considered appropriate, lingxingmen came to have different connotations. From the <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasty onwards, many people have believed that lingxingmen was related to lingzi 欞子, a portion of the latticework on a door leaf. However, scholars in the <term subtype="dynasty" ref="/keyword/k000101">Yuan</term> and <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasties demonstrated that lingxingmen should be written as Lingxingmen 靈星門, without the wood radical, because it originated with the early Lingxing sacrifice. Subsequently, Lingxingmen were used as the outer gate of Wenmiao as a symbol of the Confucian) respect for farming (<title ref="https://tinyurl.com/f83742dc">Liu, 27.8a-9a</title>). After the <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasty, due to the differentiation of types, new terms like longfengmen 龍鳳門 (dragon-phoenix gate) and erzhumen 二柱門 (two pillar gate) were created, based largely on their varying formal characteristics.</p> 
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+                  <p xml:lang="zh-Hant">櫺星門（靈星門），形式與烏頭門相近，多用於文廟、壇廟等祭祀或禮制建築群的入口處。該詞主要使用于<term subtype="dynasty" ref="/keyword/k000055">北宋</term>（960-1127）及以後。</p> 
+               </note>
+               <p source="#biblk000182-2" xml:lang="zh-Hant">櫺星門最早見於《<title>營造法式</title>》（1103）， 作為烏頭門的俗稱，採用了帶有木字旁的“欞”（李 2009，6.2a）。同時期其它文獻中也有“靈星門”（樓 1985，110.27a）。在宋及以後的古代文獻中兩種寫法一直並存，但到明代以後，“欞星門”的寫法逐漸成為主流。</p> 
+               <p source="#biblk000182-3" xml:lang="zh-Hant">欞星門起源於先秦祭祀“靈星”的傳統（<title ref="https://tinyurl.com/dr96569z">卜，2.26b</title>）。宋代或根據靈星於整體星宿中的位置：即靈星位於紫微垣的東南，對應地在南郊壇中設置靈星門，並采用烏頭門作為其形式。宋以後隨着欞星門材料、形式的發展，使用場合的擴大，文獻中欞星門的含義出現了不同的理解。宋代起便有不少人認為欞星門同門上的櫺子相關，但<term subtype="dynasty" ref="/keyword/k000101">元</term>代和<term subtype="dynasty" ref="/keyword/k000070">清</term>代均有學者考證出欞星門當作“靈星門”，源於早期靈星祭祀，後在儒家敬重農事的背景下立於儒學門口並作為標誌（<title ref="https://tinyurl.com/f83742dc">劉，27.8a-9a</title>)。清以後則由於類型分化，根據形象演變出龍鳳門、二柱門等其他稱呼。</p>
+            </note>  
+            <note type="related concepts">
+               <p xml:id="related-concept-k000182-1" xml:lang="zh-Hant">牌樓 páilóu</p>
+               <p xml:id="related-concept-k000182-2" xml:lang="zh-Hant">牌坊 páifāng</p>           
+            </note>            
+            <bibl  xml:id="biblk000182-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+            </bibl>            
+            <listBibl xml:id="biblk000182-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.2a</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/L4ME2TFP"/>
+                  <citedRange unit="pp">110.27a</citedRange> 
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000182-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/JZ3BBR48"/>
+                  <citedRange unit="pp">2.26b</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/AQA2KAT3"/>
+                  <citedRange unit="pp">27.8a-9a</citedRange> 
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270686055_86c920e3cb_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51268846272_1f0a2808d3_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000182" passive="building type"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

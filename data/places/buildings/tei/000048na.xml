@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Baihe Ting <foreign xml:lang="zh-Hant">晉祠白鶴亭</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="KTT">Kymbria Thomas</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#KTT">Kymbria Thomas</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048na/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-23-13:50</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#KTT" when="2021-09-23-04:00">CREATED: place record</change>
+         <change n="1.1" who="#KTT" when="2021-09-30-04:00">UPDATED: place record</change>
+         <change n="1.1" who="#KTT" when="2021-11-01-04:00">UPDATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048na" type="building">
+               <placeName xml:id="name000048na-1" xml:lang="en">Baihe Ting</placeName>
+               <placeName xml:id="name000048na-2" xml:lang="zh-Hant">白鶴亭</placeName>
+               <placeName xml:id="name000048na-3" xml:lang="zh-Hans">白鹤亭</placeName>
+               <placeName xml:id="name000048na-4" xml:lang="zh-latn-pinyin">Báihètíng</placeName>
+               <placeName xml:id="name000048na-5" xml:lang="zh-latn-wadegile">Pai-ho-t'ing</placeName>
+               <placeName xml:id="name000048na-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠白鶴亭</placeName>
+               <placeName xml:id="name000048na-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠白鹤亭</placeName>
+               <placeName xml:id="name000048na-8" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines White Crane Gazebo </placeName>
+               <placeName xml:id="name000048na-9" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines River Pavilion </placeName>
+               <placeName xml:id="name000048na-10" type="alternate" subtype="building-name" xml:lang="en">Jin Shrines Little Orchard Pavilion </placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048na</idno>
+             <state type="existence" from="1522-01-01" to="1822-12-31">
+                  <label>Date</label>
+                <desc>16th - 19th century</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048na-2" from="1368-01-01" to="1912-01-31">
+                  <label>Dynasty</label>
+                  <desc>Ming-Qing</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048na-1">"A south-facing gazebo over the water across from <placeName ref="/place/000048o">Tongleting</placeName>. First built in the Jiajing reign period (1522-67),repaired and expanded in Qianlong (1778) and 
+                     Daoguang (1822). Also called River Pavilion (Shuiting 水亭）
+                     or the Little Orchid Pavilion 小蘭亭" This structure is number 35 on our site.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">gazebo</desc>
+                  <desc xml:lang="zh-latn-pinyin">ting</desc>
+                  <desc xml:lang="zh-Hant">亭</desc>
+                  <desc xml:lang="zh-Hans">亭</desc>
+               </trait>
+               <bibl xml:id="bibl000048na-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">198</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048na-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048na" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048na" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048na" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048na" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51579748910_5f450d5932_b.jpg"
+                  passive="https://architecturasinica.org/place/000048na" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048na" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

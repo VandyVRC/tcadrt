@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Daifeng Xuan <foreign xml:lang="zh-Hant">晉祠待鳳軒</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048ga/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-29-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#ZAL" when="2021-09-29-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048ga" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048ga-1" xml:lang="en">Daifeng Xuan</placeName>
+               <placeName xml:id="name000048ga-2" type="building-name" xml:lang="zh-Hant">待鳳軒</placeName>
+               <placeName xml:id="name000048ga-3" type="building-name" xml:lang="zh-Hans">待凤轩</placeName>
+               <placeName xml:id="name000048ga-4" type="building-name" xml:lang="zh-latn-pinyin">Dàifèngxuān</placeName>
+               <placeName xml:id="name000048ga-5" type="building-name" xml:lang="zh-latn-wadegile">Tai-feng-hsüan</placeName>
+               <placeName xml:id="name000048ga-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Daifengxuan</placeName>
+               <placeName xml:id="name000048ga-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠待鳳軒</placeName>
+               <placeName xml:id="name000048ga-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠待凤轩</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ga</idno>
+               <state type="existence" from="1718-01-01" to="1718-12-31">
+                  <label>Date</label>
+                  <desc>1718</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048g-2" from="202 BCE-01-01" to="0220-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qing (1644-1912)</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048g-1">According to Liu Dapeng, the Daifeng Xuan was a three-bay wide pavilion located to the north of the Chaoyang Cavern. In the 30th year of the Guangxu reign period (1904) an interior room of one bay was added, and the door opened from the back wall of the pavilion. This structure is number 29B on our plan of the site.</p>    
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">xuan</desc>
+                  <desc xml:lang="zh-latn-pinyin">xuān</desc>
+                  <desc xml:lang="zh-Hant">軒</desc>
+                  <desc xml:lang="zh-Hans">轩</desc>
+               </trait>
+               <bibl xml:id="bibl000048ga-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ga-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048ga" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000030" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ga" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg" passive="https://architecturasinica.org/place/000048ga" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

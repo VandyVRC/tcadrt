@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Guaxue Bridge <foreign xml:lang="zh-Hant">晉祠掛雪橋</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>           
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <persName ref="#TGM"></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <persName ref="#YFB">Yuh-Fen Benda</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048va/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-16-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2021-09-16-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2021-09-23-11:35">updated: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048va" type="building">
+               <placeName xml:id="name000048va-1" xml:lang="en">Guaxue Bridge</placeName>
+               <placeName xml:id="name000048va-2" xml:lang="zh-Hant">掛雪橋</placeName>
+               <placeName xml:id="name000048va-3" xml:lang="zh-Hans">挂雪桥</placeName>
+               <placeName xml:id="name000048va-4" xml:lang="zh-latn-pinyin">Guàxuěqiáo</placeName>
+               <placeName xml:id="name000048va-5" xml:lang="zh-latn-wadegile">Kua-hsueh-ch'iao</placeName>               
+               <placeName xml:id="name000048va-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠掛雪橋</placeName>
+               <placeName xml:id="name000048va-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠挂雪桥</placeName>
+               <placeName xml:id="name000048va-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Guaxue Bridge</placeName>               
+               <placeName xml:id="name000048va-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠雙橋</placeName>
+               <placeName xml:id="name000048va-10" type="alternate" subtype="building-name" xml:lang="en">Jinci Shuang Bridge</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048va</idno>
+             <state type="existence" from="1795-01-01">
+                  <label>Date</label>
+                  <desc>pre-1795</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048va-2" from="1644-01-01" to="1912-12-31">
+                  <label>Dynasty</label>
+                  <desc>Qing</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048va-1">Also called <placeName ref="/place/000048wa">Double Bridge (Shuang qiao 雙橋)</placeName>. Original date of construction is unknown. Shown on a Qianlong-period painting of the site (property Jinci Museum (?)) and the map of Jinci found in Yuan Peilan 員佩蘭 and Yang Guotai 陽國泰 <title>Taiyuan xianzhi 太原縣志</title> (1826). This structure is number 41 on the plan located on the <placeName ref="/place/000048">Jinci </placeName>main page.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">qiáo</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
+               </trait>
+               <bibl xml:id="bibl000048va-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">198</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048va-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048va" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048va" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51560081574_b783b94097_b.jpg" passive="https://architecturasinica.org/place/000048va" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

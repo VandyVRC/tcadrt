@@ -14,14 +14,37 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
+            <editor role="content-author" xml:id="ZJU">ZHOU Jun 周俊</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry, adding citations by</resp>
                <name type="person" xml:id="ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding links by</resp>
+               <name type="person" xml:id="XQ">XIE Qizheng 謝祺錚</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,38 +76,85 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-12">CREATED: record</change>
+         <change n="1.1" when="2021-09-18" who="#XQ">Adding citations and notes</change>
+         <change n="2.0" when="2021-11-08" who="#CBL">final revision</change>
+         <change n="2.1" when="2021-11-19" who="#TGM">adding alternates</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000143" type="architectural feature">
-            <term xml:id="term-k000143-1" xml:lang="zh-latn-pinyin-nt" type="preferred">xieshan</term>
-            <term xml:id="term-k000143-2" xml:lang="zh-Hant">歇山</term>
+            <term xml:id="term-k000143-1" xml:lang="zh-latn-pinyin-nt">xieshan</term>
+            <term xml:id="term-k000143-2" xml:lang="zh-Hant" source="#biblk000143-1">歇山</term>
             <term xml:id="term-k000143-3" xml:lang="zh-Hans">歇山</term>
-            <term xml:id="term-k000143-4" xml:lang="zh-latn-pinyin">xiēshān</term>
-            <term xml:id="term-k000143-5" xml:lang="zh-latn-wadegile">hsieh-shan</term>           
+            <term xml:id="term-k000143-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">xiēshān</term>
+            <term xml:id="term-k000143-5" xml:lang="zh-latn-wadegile">hsieh-shan</term>
+            <term xml:id="term-k000143-6" xml:lang="zh-Hant" type="alternate" source="#biblk000143-3">歇山頂</term>
+            <term xml:id="term-k000143-7" xml:lang="zh-latn-pinyin" type="alternate" source="#biblk000143-3">xiēshāndǐng</term>
+            <term xml:id="term-k000143-8" xml:lang="en" type="literal_translation" source="#biblk000143-2">interrupted or halted mountain (peak) (lit.)</term>
+            <term xml:id="term-k000143-9" xml:lang="en" source="#biblk000143-3" type="ATTCAT_preferred_translation">hip-gable (roof) (ATTCAT preferred translation)</term>
+            <term xml:id="term-k000143-10" xml:lang="en" source="#biblk000143-4">gable and hip roof</term>
+            <term xml:id="term-k000143-11" xml:lang="en" source="#biblk000143-5">gable-on-hip roof</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000143</idno>
-            <state type="existence" from="1644-01-01" to="1912-02-12">
-               <label>Date</label>
-               <desc>1644-1912</desc>
-            </state>
-            <state type="existence" subtype="dynasty" source="#bibl000138-1" from="1644-01-01" to="1912-02-12">
+            <!-- <note type="Gloss">                
+               <p xml:lang="en" source="#biblk000143-4">hip-gable roof (Fu 2017, 369); literally: interrupted or halted mountain (peak) (Kroll 2015, 503, 399)</p>                
+               <p xml:lang="zh-Hant" source="#biblk000143-4">指處於建築中心位置的開間。</p>             
+            </note>-->
+            <state type="existence" subtype="dynasty" from="1644-01-01" to="1912-02-12">
                <label>Dynasty</label>
-               <desc>Qing</desc>
+               <desc>Qing (1644-1912)</desc>
             </state>
-            <note type="Gloss">                
-               <p xml:lang="en" source="#biblk000143-1">hip-gable roof (Fu 2017, 369); literally: interrupted or halted mountain (peak) (Kroll 2015, 503, 399)</p>                
-               <p xml:lang="zh-Hant" source="#biblk000143-1">指處於建築中心位置的開間。</p>             
+            <note type="Note (full)">   
+               <note type="getty:scopeNote" xml:lang="en">
+                  <p source="#biblk000143-6">Meaning literally interrupted or halted mountain (peak) (Kroll 2015, 503, 399), in an architectural context xieshan 歇山 is a form of traditional Chinese gabled roof with four ridges (two per side) framing the gable, above a lower hip roof with an additional four ridges above four corner beams supporting the hip (Qing gongbu 1773, 54.1b). Sometimes it is written as xieshan ding 歇山頂 (anonymous 1644-1911, 29a). The term is first seen in <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasty texts and was only used for palace or other large-scale buildings. In modern research, xieshan also describes a roof form without obvious ridges but with four slopes and two gables in vernacular architecture (Wang, 1991). See also: <term ref="/keyword/k000185">shaliangtou</term></p> 
+               </note>
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+               <p source="#biblk000143-6">“歇山”為中國古代建築屋頂形式的一種，最早出現在<term subtype="dynasty" ref="/keyword/k000070">清</term>代文獻中，用於描述殿閣大式建築，基本特征是由四個坡面和兩個山面組成的屋頂形式 (清工部 1773，54.1b)；通常有一道正脊、四條垂脊、四條戧脊；但若為卷棚式歇山則無明顯正脊。有時也寫作歇山頂（佚名 1644-1911, 29a）。現代研究中也將民居中使用的，不設屋脊，但具有四個坡面和兩個山面的屋頂形式稱為歇山（王 1991）。歇山的概念從殿閣大式建築擴展到民間建築。（可參見“<term ref="/keyword/k000185">厦兩頭</term>”）</p>
+               </note>
             </note>
-            <listBibl xml:id="biblk000143-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">369</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">399, 503</citedRange>
-               </bibl>                    
+            <note type="related concepts">
+               <p xml:id="related-concept-k000143-1" xml:lang="zh-Hant" ref="/keyword/k000185">shàliǎngtóu 厦兩頭</p>
+               <p xml:id="related-concept-k000143-2" xml:lang="zh-Hant">juǎnpéng 卷棚</p>
+            </note>
+            <bibl xml:id="biblk000143-1">
+               <ptr target="https://architecturasinica.org/bibl/T5QHEK76"/>
+               <citedRange unit="pp">42.1a</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000143-2">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">503, 399</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000143-3">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">305, 311, 380</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000143-4">
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+               <citedRange unit="pp">190</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000143-5">
+            <bibl>
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">83</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">305, 311, 369</citedRange>
+            </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000143-6">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/T5QHEK76"/>
+                     <citedRange unit="pp">54.1b</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/LANHJ9LN"/>
+                     <citedRange unit="pp">29a</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/85WGDSBH"/>
+                     <citedRange unit="pp">29-32, 64</citedRange>
+                  </bibl>  
             </listBibl>
             <listRelation>
                <listRelation>
@@ -92,7 +162,7 @@
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
                      passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <relation ref="skos:broadMatch"
-                     active="https://architecturasinica.org/keyword/k000143" passive="building frame"/>
+                     active="https://architecturasinica.org/keyword/k000143" passive="roof type"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>

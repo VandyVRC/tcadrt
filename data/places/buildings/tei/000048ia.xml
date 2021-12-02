@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Dushu Terrace <foreign xml:lang="zh-Hant">讀書臺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#SL">Sophia Liu</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048ia/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-10-06-16:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SL" when="2021-10-06">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048ia" type="building">
+               <placeName xml:id="name000048ia-1" xml:lang="en">Dushu Terrace</placeName>
+               <placeName xml:id="name000048ia-2" type="building-name" xml:lang="zh-Hant">讀書臺</placeName>
+               <placeName xml:id="name000048ia-3" type="building-name" xml:lang="zh-Hans">读书台</placeName>
+               <placeName xml:id="name000048ia-4" type="building-name" xml:lang="zh-latn-pinyin">Dúshūtái</placeName>
+               <placeName xml:id="name000048ia-5" type="building-name" xml:lang="zh-latn-wadegile">Tu-shu-t'ai</placeName>
+               <placeName xml:id="name000048ia-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠讀書臺</placeName>
+               <placeName xml:id="name000048ia-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠读书台</placeName>
+               <placeName xml:id="name000048ia-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Dushutai</placeName>
+               <placeName xml:id="name000048ia-9" xml:lang="en" ref="/place/000048ja">Bantong Ting</placeName>
+               <placeName xml:id="name000048ia-10" type="building-name" xml:lang="zh-Hant" ref="/place/000048ja">晉祠伴桐亭</placeName>
+               <placeName xml:id="name000048ia-11" type="building-name" xml:lang="zh-Hans" ref="/place/000048ja">晋祠伴桐亭</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ia</idno>
+               <state type="existence" from="1548-01-01" to="1567-12-31">
+                  <label>Date</label>
+                  <desc>1548</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048ia-2" from="1368-01-01" to="1644-01-01">
+                  <label>Dynasty</label>
+                  <desc>Ming 1368-1644</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048ia-1">The first Reading Terrace is said to have been built further up the Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to <title ref="https://architecturasinica.org/bibl/EJU6M88F">Liu Dapeng</title>, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. It is located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north. Also called <placeName ref="/place/000048ja">Bantong Ting</placeName>, this structure is number 31 on our plan of the site.</p>
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">tai</desc>
+                  <desc xml:lang="zh-latn-pinyin">tai</desc>
+                  <desc xml:lang="zh-Hant">臺</desc>
+                  <desc xml:lang="zh-Hans">台</desc>
+               </trait>
+              <bibl xml:id="bibl000048ia-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">196</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ia-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ia-3">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F" />                  
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048ia" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ia" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048ia" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ia" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ia" passive="https://architecturasinica.org/keyword/k000164" ref="dcterms:subject" ana="building-type"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

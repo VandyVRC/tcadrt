@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Shuizha Ting <foreign xml:lang="zh-Hant">晉祠水閘亭</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="WBN">WANG Beining 王贝宁</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#WBN">WANG Beining 王贝宁</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048pa/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-23-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#LS" when="2021-09-23-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048pa" type="buildings">
+               <placeName xml:id="name000048pa-1" xml:lang="en">Shuizha Ting</placeName>
+               <placeName xml:id="name000048pa-2" type="building-name" xml:lang="zh-Hant">水閘亭</placeName>
+               <placeName xml:id="name000048pa-3" type="building-name" xml:lang="zh-Hans">水闸亭</placeName>
+               <placeName xml:id="name000048pa-4" type="building-name" xml:lang="zh-latn-pinyin">Shuǐzhátíng</placeName>
+               <placeName xml:id="name000048pa-5" type="building-name" xml:lang="zh-latn-wadegile">Shui-cha-t'ing</placeName>
+               <placeName xml:id="name000048pa-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Shuizhating</placeName>
+               <placeName xml:id="name000048pa-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠水閘亭</placeName>
+               <placeName xml:id="name000048pa-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠水闸亭</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048pa</idno>
+               <state type="existence" from="1953-01-01" to="1953-12-31">
+                  <label>Date</label>
+                  <desc>1953</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048pa-2" from="1949-10-01">
+                  <label>Dynasty</label>
+                  <desc>People's Republic of China</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048pa-1">The Shuizha Ting is not discussed as a separate structure in the JCZ or found on the Qianlong (1736-1796) or Guangxu (1875-1909) period maps. According to Song Naizhong, this pavilion was built in 1953 and is presently the residence of the Jinci water managers stationed at the site by the Taiyuan City Water Conservancy Bureau (Taiyuanshi shuiliju 太原市水利局). This structure is number 37 on our plan of the site.</p></desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">gazebo</desc>
+                  <desc xml:lang="zh-latn-pinyin">tíng</desc>
+                  <desc xml:lang="zh-Hant">亭</desc>
+                  <desc xml:lang="zh-Hans">亭</desc>
+               </trait>
+               <bibl xml:id="bibl000048pa-1">
+                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                  <citedRange unit="pp">198</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048pa-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">1;12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048pa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000202" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048pa" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048pa" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                  passive="https://architecturasinica.org/place/000048pa" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048pa" passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject" ana="building-type"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

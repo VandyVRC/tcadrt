@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Guangrenwang Temple, main hall <foreign xml:lang="zh-Hant">廣仁王廟正殿</foreign>
+            <title level="a" xml:lang="en">Guangrenwang Temple, main hall <foreign
+                  xml:lang="zh-Hant">廣仁王廟正殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -52,19 +56,27 @@
       <body>
          <listPlace>
             <place xml:id="place-000177" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000177-1" xml:lang="en">King of Broad Benevolence main hall</placeName>
-               <placeName xml:id="name000177-3" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">廣仁王廟正殿</placeName>
-               <placeName xml:id="name000177-4" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">广仁王庙正殿</placeName>
-               <placeName xml:id="name000177-5" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Guangrenwangmiao zhengdian</placeName>
-               <placeName xml:id="name000177-6" type="alternate" subtype="site-name" xml:lang="zh-Hant">五龍廟正殿</placeName>
-               <placeName xml:id="name000177-7" type="alternate" subtype="site-name" xml:lang="zh-Hans">五龙庙正殿</placeName>
-               <placeName xml:id="name000177-8" type="alternate" subtype="site-name" xml:lang="zh-latn-pinyin">Wulongmiao</placeName>
+               <placeName xml:id="name000177-1" xml:lang="en">King of Broad Benevolence main
+                  hall</placeName>
+               <placeName xml:id="name000177-3" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">廣仁王廟正殿</placeName>
+               <placeName xml:id="name000177-4" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">广仁王庙正殿</placeName>
+               <placeName xml:id="name000177-5" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-latn-pinyin">Guangrenwangmiao zhengdian</placeName>
+               <placeName xml:id="name000177-6" type="alternate" subtype="site-name"
+                  xml:lang="zh-Hant">五龍廟正殿</placeName>
+               <placeName xml:id="name000177-7" type="alternate" subtype="site-name"
+                  xml:lang="zh-Hans">五龙庙正殿</placeName>
+               <placeName xml:id="name000177-8" type="alternate" subtype="site-name"
+                  xml:lang="zh-latn-pinyin">Wulongmiao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000177</idno>
                <state type="existence" from="0831-01-01" to="0831-01-01">
                   <label>Date</label>
                   <desc>831</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000177-1" from="0618-01-01" to="0907-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000177-1" from="0618-01-01"
+                  to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
@@ -81,18 +93,48 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
+               <desc>Main hall dated to the Tang dynasty. Although a spring was originally located
+                  in front of the site, it did not show any flow during my 1997 visit.</desc>
+               <!--note type="field-notes">located with Cui Jinze photo</note-->
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000177-1">The main hall was built in the fifth year of Tang Dahe
+                     (831). The brick foundation of the hall is 1.5 meters high, five bays across
+                     the front facade, depth of four rafters deep, and has a single eaves hip gable
+                     roof. With a <term ref="/keyword/k000129">tingtang (廳堂)</term> style structure, the structural frame is four
+                     rafters in depth using a 4-rafter-beam which connects to the two eaves pillars,
+                     which are round, straight pillars. The corner pillars are clearly taller than
+                     the central pillars and have an inward incline (shengqi 生起 and <term ref="/keyword/k000006">cejiao 側腳</term>).
+                     Between the columns there are lan'e (阑额). There is no pupaifang (普拍枋). The
+                     pillar top bracket sets have two steps of <term ref="/keyword/k000172">huagong(華栱)</term> that are <term ref="keyword/k000024">touxinzao (偷心造)</term>.
+                     There is a panel door in the central bay of the front facade. The two
+                     subsidiary bays have prism-lattice windows—straight lattice whose slats are
+                     triangular in cross-section pozi lingchuang (破子棂窗). There are two Tang dynasty
+                     and two Qing Dynasty inscribed plaques <term ref="/keyword/k000117">fang (枋)</term> set into the walls of the front
+                     facade.</p>
+               </desc>
                <bibl xml:id="bibl000177-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!--note type="field-notes">identified with Cui Jinze photo</note-->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000177" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000177" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000177" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000036"/>
+               <relation active="https://architecturasinica.org/place/000177"
+                  passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject"
+                  ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000177"
+                  passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000177"
+                  passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000177" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000177"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000036"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51555015683_e113d8a41d_b.jpg"
+                  passive="https://architecturasinica.org/place/000177" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Wenchang Stone Bridge <foreign xml:lang="zh-Hant">晉祠文昌石橋</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#CX">XU Chuyuan 徐楚原</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048ra/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-09-23-13:40</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#CX" when="2021-09-23-13:40">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048ra" type="building">
+               <placeName xml:id="name000048ra-1" type="building-name" xml:lang="en">Wenchang Stone Bridge</placeName>
+               <placeName xml:id="name000048ra-2" type="building-name" xml:lang="zh-Hant">文昌石橋</placeName>
+               <placeName xml:id="name000048ra-3" type="building-name" xml:lang="zh-Hans">文昌石桥</placeName>
+               <placeName xml:id="name000048ra-4" type="building-name" xml:lang="zh-latn-pinyin">Wénchāngshíqiáo</placeName>
+               <placeName xml:id="name000048ra-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-ch'ang-shih-ch'iao</placeName>
+               <placeName xml:id="name000048ra-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠文昌石橋</placeName>
+               <placeName xml:id="name000048ra-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋祠文昌石桥</placeName>
+               <placeName xml:id="name000048ra-8" type="alternate" subtype="building-name" xml:lang="en">Jinci Wenchang Shiqiao</placeName>
+               <placeName xml:id="name000048ra-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉祠鎖虹橋</placeName>
+               <placeName xml:id="name000048ra-10" type="alternate" subtype="building-name" xml:lang="en">Jinci Suohongqiao</placeName>
+               <state type="existence" from="1773-01-01" to="1773-01-01">
+                  <label>Date</label>
+                  <desc>1773</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048ra-2" from="1644-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Qing 1644-1912</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048ra-1"> Wenchang Stone Bridge 文昌石橋 (also called <placeName ref="/place/000048qa">Suohongqiao 鎖虹橋</placeName>) 
+                     was built after construction of the new, relocated <placeName ref="/place/000048j">Wenchang temple-palace</placeName>. 
+                     According to Yang Eryou’s (楊二酉) stele inscription of the construction, stone was used to prevent the need for replacement 
+                     due to rot common in wooden bridges.
+                     This is number 48.</p></desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">qíao</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
+               </trait>
+               <bibl xml:id="bibl000048ra-1">
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">198</citedRange>
+                  </bibl>
+               <bibl xml:id="bibl000048ra-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>               
+            <listRelation>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51532184922_4278642a14_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ra" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                  passive="https://architecturasinica.org/place/000048ra" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ra" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ra" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

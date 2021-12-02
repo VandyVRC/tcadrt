@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">烏頭門</foreign> wūtóumén</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
+            <editor role="content-author" xml:id="ZY">ZHAO Yuqian 趙與謙</editor>           
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding notes and citations by</resp>
+               <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000181/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-04-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+            <change n="1.0" when="2021-09-16" who="#MT">CREATED: record</change>
+            <change n="1.1" when="2021-09-25" who="#MT">Revision:adding citations, notes and links</change>
+            <change n="1.2" when="2021-09-30" who="#MT">Revision:notes and links</change>
+            <change n="1.3" when="2021-11-03" who="#MT">Revision:adding citations</change>
+            <change n="2.0" when="2021-11-11" who="#XQ">final revision</change>
+         <change n="2.1" when="2021-11-23" who="#TGM">copyediting</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000181" type="architectural feature">
+            <term xml:id="term-k000181-1" xml:lang="zh-latn-pinyin-nt">wutoumen</term>
+            <term xml:id="term-k000181-2" xml:lang="zh-Hant">烏頭門</term>
+            <term xml:id="term-k000181-3" xml:lang="zh-Hans">乌头门</term>
+            <term xml:id="term-k000181-4" xml:lang="zh-latn-pinyin" source="#biblk000181-1" type="ATTCAT_preferred">wūtóumén</term>
+            <term xml:id="term-k000181-5" xml:lang="zh-latn-wadegile">wu-t'ou-men</term>
+            <term xml:id="term-k000181-6" xml:lang="en" type="literal_translation" source="#biblk000181-2">raven-black head gate (lit.)</term>
+            <note type="Note (full)">           
+               <note type="getty:scopeNote" xml:lang="en">
+                  <p source="#biblk000181-3" xml:lang="en">Wutoumen refers to a type of elaborate gateway used in high ranking buildings through the <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasty, after which it declines in use. As we can tell from paintings and extant examples, the shape, size, and structure of wutoumen vary considerably. However, all wutoumen employ tall pillars flanking the gate. The name is likely derived from the raven-black ceramic tube-shaped finials on the top of these tall gate posts <title ref="https://tinyurl.com/7jsrtxry">Cefu yuangui</title> (Wang Qinruo (962-1025) 61.687). Detailed records of wutoumen exist in the <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasty <title ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</title> (Li Jie 2009, 6.2a-4a). </p> 
+               </note>
+               <p source="#biblk000181-4" xml:lang="en">The earliest known reference for the term wutoumen is in the <title ref="https://tinyurl.com/y4wf5nlm">Luoyang qielanji</title> (547 CE) by Yang Xuanzhi (Zhou and Yang 2010, 8) and the term can be found in documents and images through the <term subtype="dynasty" ref="/keyword/k000082">Tang</term> and <term subtype="dynasty" ref="/keyword/k000074">Song</term> dynasties. There are several other names for wutoumen, including <term>wutou damen 烏頭大門</term>, <term>biaojie 表楬</term>, <term>fayue 閥閱</term>, and <term ref="/keyword/k000182">lingxingmen 欞星門</term> (see YZFS 2009, 6.13a, see also the illustrations and related concepts, below).</p> 
+               <p source="#biblk000181-5" xml:lang="en">During the Tang and Song dynasties wutoumen were usually used alone as the main gateway into the houses of officials of the fifth and sixth ranks (Tianyige bowuguan 2006, 344). They were also used in combinations of three, particularly as gateways leading to altars, temples, and palaces. In this case, the middle gate was larger than those on the two sides. Sometimes, wutoumen were used for side gates of administrative offices or in city fortifications.</p>                          
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+                  <p source="#biblk000181-6" xml:lang="zh-Hant">烏頭門是<term subtype="dynasty" ref="/keyword/k000074">宋</term>及以前主要使用於高等級建築的大門，其稱謂取自門柱上端套以黑色瓦筒的表征<title ref="https://tinyurl.com/7jsrtxry">《冊府元龜</title>》(王欽若（962-1025) 61.687)。宋以後“烏頭門”一詞使用較少見。烏頭門的形式在《<title>營造法式</title>》（1103）中有明確記載（李 2009，6.2a-4a）。實際在圖像資料中，烏頭門的尺寸、部件等做法均有所不同。但門柱形象的標誌性始終是其鮮明特征。</p>
+               </note>
+                  <p source="#biblk000181-6" xml:lang="zh-Hant">烏頭門可一座單用，如建於五品或六品以上官員住宅前（天一阁 2006，344）；也可三座并用或與闕相結合使用，如建於壇廟、宮苑中等。</p> 
+               <p source="#biblk000181-4" xml:lang="zh-Hant">烏頭門最早見於楊衒之的<title ref="https://tinyurl.com/y4wf5nlm">洛陽伽藍記</title>（547 CE）(周 和 杨 2010，8），<term subtype="dynasty" ref="/keyword/k000082">唐</term>宋時期的文獻和圖像多有涉及，宋時烏頭門也稱烏頭大門、表楬、閥閱，亦俗稱欞星門（李 2009，6.13a)，此外烏頭正門、綽楔、烏頭綽楔（門）也是和其有著緊密關聯的名稱。但宋以後上述名詞詞義多有變化，不能與烏頭門等同。</p> 
+            </note>    
+            <note type="related concepts">
+               <p xml:id="related-concept-k000181-1" xml:lang="zh-Hant" ref="/keyword/k000182">欞星門 língxīngmén</p>
+               <p xml:id="related-concept-k000181-2" xml:lang="zh-Hant" ref="/keyword/k000182">靈星門 língxīngmén</p>
+               <p xml:id="related-concept-k000181-3" xml:lang="zh-Hant">烏頭大門 wūtóudàmén</p>
+               <p xml:id="related-concept-k000181-4" xml:lang="zh-Hant">表楬 biǎojié</p>
+               <p xml:id="related-concept-k000181-5" xml:lang="zh-Hant">閥閱 fáyuè</p>
+               <p xml:id="related-concept-k000181-6" xml:lang="zh-Hant">烏頭正門 wūtóuzhèngmén</p>
+               <p xml:id="related-concept-k000181-7" xml:lang="zh-Hant">綽楔 chuòxiē</p>
+               <p xml:id="related-concept-k000181-8" xml:lang="zh-Hant">烏頭綽楔（門） wūtóuchuòxiē（mén）</p>       
+            </note>
+            <bibl  xml:id="biblk000181-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+            </bibl>
+            <bibl  xml:id="biblk000181-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">83</citedRange> 
+            </bibl>
+               <bibl  xml:id="biblk000181-3">
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.2a-4a</citedRange> 
+               </bibl>
+            <listBibl xml:id="biblk000181-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/R7EIN3X6"/>
+                  <citedRange unit="pp">8</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.13a</citedRange> 
+               </bibl>
+            </listBibl>     
+            <bibl  xml:id="biblk000181-5">
+               <ptr target="https://architecturasinica.org/bibl/H7BK9JQF"/>
+               <citedRange unit="pp">344</citedRange> 
+            </bibl>
+            <listBibl xml:id="biblk000181-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.2a-4a</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/H7BK9JQF"/>
+                  <citedRange unit="pp">344</citedRange> 
+               </bibl>
+            </listBibl> 
+            <idno type="URI">https://architecturasinica.org/keyword/k000181</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270633319_8d6fe974f9_o.jpg" passive="https://architecturasinica.org/keyword/k000181" ana="featured"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270326294_b726af63e0_o.jpg" passive="https://architecturasinica.org/keyword/k000181" ana="featured"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000181" passive="building type"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
