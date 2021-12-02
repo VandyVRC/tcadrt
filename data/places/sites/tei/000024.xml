@@ -7,21 +7,22 @@
             <title level="a" xml:lang="en">Dule Monastery <foreign xml:lang="zh-Hant">獨樂寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
-            <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>Initial site research and adding site information 2021 by</resp>
-               <name type="person" ref="#HDN">HUANG Danni 黄聃婗</name>
-            </respStmt>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <editor role="page-creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
+               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+         </titleStmt>
             <respStmt>
                <resp>adding external links 2020 by</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
