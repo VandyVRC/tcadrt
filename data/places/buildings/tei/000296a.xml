@@ -6,19 +6,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Lingyin Monastery, East Stone Pagoda <foreign xml:lang="zh-Hant">靈隱寺東石塔</foreign>
+            <title level="a" xml:lang="en">Jianfu Monastery, Small Wild Goose Pagoda <foreign xml:lang="zh-Hant">薦福寺小雁塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="SQ">Song Qisen</editor>
+            <editor role="creator" xml:id="JP">Jason Pan</editor>
             <respStmt>
-               <resp>Initial research 2020 by</resp>
-               <name type="person" ref="#SQ">Song Qisen</name>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#JP">Jason Pan</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#JP">Jason Pan</name>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -36,7 +36,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2020-04-30</date>
+            <date>2021-12-04-15:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -52,81 +52,71 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#SQ" when="2020-04-30">CREATED: place record</change>
-         <change when="2020-10-02">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="1.0" who="#JP" when="2021-12-04">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000296a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000296a-1" type="building-name" xml:lang="en">East Stone Pagoda</placeName>
-               <placeName xml:id="name000296a-2" type="building-name" xml:lang="zh-latn-pinyin">Dōng Shítǎ</placeName>
-               <placeName xml:id="name000296a-3" type="site-name" xml:lang="zh-latn-wadegile">Tung shih-t`a</placeName>
-               <placeName xml:id="name000296a-4" type="building-name" xml:lang="zh-Hant">東石塔</placeName>
-               <placeName xml:id="name000296a-5" type="building-name" xml:lang="zh-Hans">东石塔</placeName>
-               <placeName xml:id="name000296a-6" type="alternate" xml:lang="en">Lingyin Monastery Twin Pagodas</placeName>
-               <placeName xml:id="name000296a-7" type="alternate" xml:lang="zh-latn-pinyin">lingyinsi liangshita</placeName>
-               <placeName xml:id="name000296a-8" type="alternate" xml:lang="zh-Hant">靈隱寺兩石塔</placeName>
-               <placeName xml:id="name000296a-9" type="alternate" xml:lang="zh-Hans">灵隐寺两石塔</placeName>
-               <placeName xml:id="name000296a-10" type="alternate" xml:lang="en">Twin Pagodas</placeName>
-               <placeName xml:id="name000296a-11" type="alternate" xml:lang="zh-latn-pinyin">Shuangshita</placeName>
-               <placeName xml:id="name000296a-12" type="alternate" xml:lang="zh-Hant">雙石塔</placeName>
-               <placeName xml:id="name000296a-13" type="alternate" xml:lang="zh-Hans">双石塔</placeName>
+               <placeName xml:id="name000296a-1" type="building-name" xml:lang="en">Small Wild Goose Pagoda</placeName>
+               <placeName xml:id="name000296a-2" type="building-name" xml:lang="zh-latn-pinyin">Xiǎoyàn Tǎ</placeName>
+               <placeName xml:id="name000296a-3" type="site-name" xml:lang="zh-latn-wadegile">Hsiao-yen-t'a</placeName>
+               <placeName xml:id="name000296a-4" type="building-name" xml:lang="zh-Hant">小雁塔</placeName>
+               <placeName xml:id="name000296a-5" type="building-name" xml:lang="zh-Hans">小雁塔</placeName>
+               <placeName xml:id="name000296a-6" type="alternate" xml:lang="en">Jianfu Monastery small wild goose pagoda</placeName>
+               <placeName xml:id="name000296a-7" type="alternate" xml:lang="zh-latn-pinyin">jianfusi xiaoyanta</placeName>
+               <placeName xml:id="name000296a-8" type="alternate" xml:lang="zh-Hant">薦福寺小雁塔</placeName>
+               <placeName xml:id="name000296a-9" type="alternate" xml:lang="zh-Hans">荐福寺小雁塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000296a</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000296a-2" from="0902-01-01"
-                  to="0979-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000296a-1" from="0618-01-01" to="2021-12-31">
                   <label>Dynasty</label>
-                  <desc>The Five Dynasties and Ten Kingdoms 902 - 979</desc>
+                  <desc>Tang - Modern</desc>
                </state>
-               <desc type="site-data" xml:lang="en">
-                  <p>The Twin Stone Pagodas in Lingyin Monastery are positioned individually on the East and West side of the terrace in front of the Daxiongbao Hall, 42 meters apart. During the early restoration of the monastery under the reign of Qian Hongchu (錢弘俶), King of Wuyue Kingdom (吳越國), a set of four stone pagodas were established in 960, but only two survive until the present day, and they are lacking their original finials.</p>   
-                  <p source="#bibl000296a-1">The twin pagodas are almost identical in structure, size, and style (Xia and Tang, 2016, 88-92). At the height of 11 meters and with a total of nine layers, these pagodas were both constructed meticulously following the architectural style of octagonal wooden pagodas. The pagoda sits on a Mount Sumeru platform or dais (xumizuo 须弥座), and the platform is inscribed with the Uṣṇīṣa Vijaya Dhāraṇī Sūtra (<emph rend="italics">Dafoding tuoluonijing</emph> 大佛頂陀羅尼經) in legible regular script of calligraphy for visitors to read. The large stone pedestal (panshi 磐石) under the Mount Sumeru platform is carved in the “Nine Seas and Eight Mountains” (jiushan bahai 九山八海) pattern. This prevailing visual motif in Buddhist art refers to the cosmological belief that the world is formed with nine sacred mountain ranges with Mount Sumeru at the celestial center and eight oceans separating them (Zhao and Mao, 2017, 92-98). Each layer of the pagoda consists of a balcony substructure (pingzuo 平坐), main structure (zhengshen 正身), and waist eaves (yaoyan 腰檐). The balcony substructure and the main structure are both supported with single huagong bracket arm (miao 杪) and single descending cantilever (xia’ang 下昂) following the stolen-heart technique (<term ref="https://architecturasinica.org/keyword/k000024">touxinzao 偷心造</term>). The main structure of each story is embellished with the a cusped gable doorway (kunmen 壼门) on all four sides (Zhongguo wenwuju, 2010, 26).</p>
-               </desc>
+               <p source="#bibl000296a-1">Little Wild Goose Pagoda [Tang Dynasty Major Historical and Cultural Sites Protected at the National Level] The square 15-storey multi-eaved and hollow brick tower, also known as Jianfusi Pogada, is a representative of the early multi-eaved pagoda. Together with the Giant Wild Goose Pagoda, it is an important symbol preserved from Chang 'an City of Tang Dynasty. The Small Wild Goose Pagoda was built during the Tang dynasty under Emperor Zhongzong of Tang (r 705–710). The earthquakes in 1487 and 1556 shook the pagoda and damaged it so that it now stands at a height of 43.94 m with thirteen storeys and a base length of 11.38m. The base of the pagoda is made from square  Sanskrit bricks, measuring 23.38 m long and 3.2 m high. The tower is hollow with a single wall. The ground storey has the greatest height and the sideline length of every storey decrease progressively. Like a rectangular pyramid, the higher the storey is, the smaller the space becomes. Its overall outline is a naturally relaxed shuttle curve, with eaves between every two storeys and two rows of water chestnut-shaped stones. The ground storey has two doors facing south and north respectively and other storeys have exquisite windows. The bluestone bolt and doorframe on the ground storey are carved with patterns of God taking care of the virtuous man and Coriandrum sativum. Exquisite windows on the 5th to 11th storey are decorated with two square towers on each side. Inside the pagoda, a narrow wooden stairway, as well as a brick stairway, winds its way to the top, with several inscriptions of Tang to Qing Dynasty on the wall. According to the line carving stone in 1449, the original tower top was made up of a round base, two-tier middle and top decorated with a pearl. In 1964~1965, the pagoda underwent extensive repairs and the tower base was discovered. During the repair, the part over fourteen storeys remained unchanged like that in the past 500 years. (Reference: Famous and Ancient Temple in Xi’an )</p>
+               <p source="#bibl000296-2">The "morning bell" of the Small Wild Goose Pagoda is an iron bell of the Jin Dynasty washed away by the Weihe River in the worshiping buddhist temple in wugong village. it brings convenience to the production and life of the citizens of Xi'an City, because the monks of Jianfu Temple ring the clock every day. The Bell forms the well-known "morning bell of the wild goose pagoda" scenery in Guanzhong area. At present, this record was first seen in the collection of liuxipo by Liu Chuxiu of the Ming Dynasty. During the Ming and Qing dynasties, the military examination graduates in Shaanxi and Gansu followed the example of the Tang people and named the little wild goose pagoda, which further enriched the connotation of the little wild goose pagoda as a local scenic spot. There is existing 18 famous steles of imperial examination on military in the provincial level, which is an important material for studying the military imperial examination of the Ming and Qing dynasties. On the lintel of the stone north gate of the little wild goose pagoda, there is the miracle of the separation and combination of the little wild goose pagoda due to the earthquake recorded by Wang He in the year of Jiajing of the Ming Dynasty (1551), which increases the preference to this pagoda from local people. There are also more than 20 inscriptions of Jianfu Temple repaired in the courtyard of Small Wild Goose Pagoda from the Song dynasty to the Ming and Qing dynasties, which is the direct material evidence of the ancient people's protection of historical relics and local scenic spots.</p>
                <desc xml:lang="zh-Hant">
-<p>靈隱寺兩石塔置於大雄寶殿前平臺上，東西相望，相距42米。960年，吳越國君錢弘俶重修寺院，共立壹組四尊石塔，至今僅兩尊尚存，塔剎皆毀。</p>
-<p>兩尊石塔形制、尺寸、風格幾乎壹致，高11米，均為八面九層，細仿木質構造式佛塔。石塔立於須彌座之上，座上滿刻楷體《大佛頂陀羅尼經》供香客參拜。須彌座之下另有磐石狀塔基，雕飾有九山八海紋。九山八海紋常見於佛教藝術建築中，意指九座神山以須彌山為中心、以八海相隔而構建的空間世界觀。石塔每層都以平坐、正身、腰檐構成。平坐與正身俱以壹跳花拱單杪單下昂偷心造的鋪作承托。每層正身四向亦都裝辟有壹壸門。</p>
-               <p>Related Site: <term ref="https://architecturasinica.org/place/000285b">Lingyin Monastery West Stone Pagoda 靈隱寺西石塔</term></p>
+                  <p>小雁塔［唐代·全国重点文物保护单位］方形十五级密檐式空心砖塔。又名荐福寺塔，是早期密橹式塔的代表作，与大雁塔同为唐长安城保留至今的重要标志。始建于唐景龙年间，明成化二十三年Cl 487) 和嘉靖三十四年十二月(l556) 地震使塔顶坠毁，塔身中裂。现残存十三级，残高43.94 米，底层边长11. 38 米＾塔座为梵砖方台，底边长23.38 米，高3. 2 米。塔身单壁中空、底层较高，二层以上高度逐层递减．愈上愈促．整体轮廓呈自然缓和的梭形曲线。层间叠涩出檐，砌两排菱角牙子。底层南北辟券门、以上各层南北均开券窗：底层青石门梢、门框上线刻天人供养图案及荽草纹饰、第五至第十一层南券窗两侧饰有方形小塔各一。塔内设木构楼层及砖砌登道，塔壁有唐至清代题刻多处。据明正统十四年（1449）荐寺殿堂线刻石．原塔刹当由圆形刹座、两层相轮和宝珠刹尖组成。1964~1965 年修整加固并发掘了塔基；维修时，保持了五百年来无十四层以上的现状（参见《西安的名刹古寺门》）</p>
+                  <p>小雁塔的“晨钟”系武功崇教寺被渭河冲走的金代铁钟，因荐福寺僧人每日敲此钟报时，给西安城的市民生产、生活带来便利，遂形成关中地区所熟知的“雁塔晨钟”一景。目前，这一记载最早见于明人刘储秀的《刘西陂集》。明清时期，陕甘两地的武举人效法唐人，题名小雁塔，更加丰富了小雁塔作为地方名胜的内涵。塔下现存武举乡试题名碑18 通 \是研究明清武举考试的重要资料。小雁塔石质北门楣上，留有明嘉靖辛亥年( 1551) 王鹤所记小雁塔因地震分而又合的奇事，更是增添了当地民众对此古迹的喜爱。小雁塔院内还存有20 余通自宋至明清历朝对荐福寺修缮的碑刻，是古人对历史遗物和地方名胜进行保护的直接物证。</p>
                </desc>
                <note type="External Links">
                   <p>
-                     <ref target="https://tinyurl.com/udfzfdm">Wikipedia (in English)</ref>
+                     <ref target="https://tinyurl.com/43pebcyp">Wikipedia (in Chinese)</ref>
                   </p>
                   <p>
-                     <ref target="https://tinyurl.com/sb27jha">Wikipedia (in Chinese)</ref>
+                     <ref target="https://tinyurl.com/yfhhv39v">Wikipedia (in English)</ref>
                   </p>
                   <p>
-                     <ref target="https://tinyurl.com/resfcl9">百度百科</ref>
-                  </p>
-                  <p>
-                     <ref target="https://tinyurl.com/ug83pjp">Official website</ref>
+                     <ref target="https://tinyurl.com/hksuwccm">百度百科</ref>
                   </p>
                </note>
-               <!--<location type="nested" source="http://vocab.getty.edu/tgn/8570104">
-                  <placeName>江蘇省蘇州市</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Jiangsu, Suzhou</placeName>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/7002084 http://vocab.getty.edu/tgn/8190462">
+                  <placeName>陕西省西安市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shaanxi Xi'an</placeName>
                   <country>China</country>
                   <region type="province">
-                     <placeName xml:lang="zh-latn-pinyin">Jiangsu</placeName>
-                     <placeName xml:lang="zh-Hant">江蘇省</placeName>
-                     <placeName xml:lang="zh-Hans">江苏省</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                     <placeName xml:lang="zh-Hant">陝西省</placeName>
+                     <placeName xml:lang="zh-Hans">陕西省</placeName>
                   </region>
                   <region type="county-city">
-                     <placeName xml:lang="zh-latn-pinyin">Suzhou</placeName>
-                     <placeName xml:lang="zh-Hant">蘇州</placeName>
-                     <placeName xml:lang="zh-Hans">苏州</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Xi'an</placeName>
+                     <placeName xml:lang="zh-Hant">西安</placeName>
+                     <placeName xml:lang="zh-Hans">西安</placeName>
                   </region>
                   <region type="political-subdivision">
                      <placeName xml:lang="zh-Hans">市</placeName>
                      <placeName xml:lang="en">City</placeName>
                   </region>
                   <region type="locality">
-                     <placeName xml:lang="zh-latn-pinyin">Suzhou shi</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Beilinqu</placeName>
+                     <placeName xml:lang="zh-Hant">碑林區</placeName>
+                     <placeName xml:lang="zh-Hans">碑林区</placeName>
                   </region>
-               </location>-->
+               </location>
                <location type="gps" subtype="preferred">
-                  <geo>30.242860 120.096977</geo>
+                  <geo>34.23979, 108.941747</geo>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -139,7 +129,7 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000296a-2">
+              <!-- <bibl xml:id="bibl000296a-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -156,23 +146,17 @@
                      <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
                      <citedRange unit="pp">26</citedRange>
                   </bibl>
-               </listBibl>
+               </listBibl>--><!-- Edit after proving -->
             </place>
             <listRelation>
                  <relation active="https://architecturasinica.org/place/000296a"
                   passive="https://architecturasinica.org/keyword/k000060"
                   ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000296a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000285"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49728697871_e8287e68f0.jpg"
-                  passive="https://architecturasinica.org/place/000296a" ana="featured"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/49782525677_b7a298c18c.jpg"
-                  passive="https://architecturasinica.org/place/000296a" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/0000" ref="dcterms:temporal" passive="https://dev.architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/0000" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000296a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000196"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683460409_b08507e5e8_4k.jpg" passive="https://architecturasinica.org/place/0000" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683053593_6d36cf15db_4k.jpg" passive="https://architecturasinica.org/place/0000" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
