@@ -61,7 +61,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000024c" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000024d-1" xml:lang="en">Guanyin Pavilion</placeName>
+               <placeName xml:id="name000024d-1" xml:lang="en">White Pagoda</placeName>
                <placeName xml:id="name000024d-2" type="building-name" xml:lang="zh-Hant">白塔</placeName>
                <placeName xml:id="name000024d-3" type="building-name" xml:lang="zh-Hans">白塔</placeName>
                <placeName xml:id="name000024d-4" type="building-name" xml:lang="zh-latn-pinyin">Bái tǎ</placeName>
@@ -98,10 +98,10 @@
                </trait>
                <note type="External Links">
                   <p>
-                     <ref target="https://youtu.be/wQZrhL0N9_I">Video: 天津薊縣白塔寺白塔 Baita at Tianjin Ji County Baita Monastery (sounds on!) The rhythm of the wind, bells, and birds singing. By Danni Huang.</ref>
+                     <ref target="https://youtu.be/wQZrhL0N9_I">Video: 天津薊縣獨樂寺白塔 The White Pagoda (Baita), Dule Monastery, Tianjin, Ji County (sounds on!) The rhythm of the wind, bells, and birds singing. By Danni Huang.</ref>
                   </p>  
                   <p>
-                     <ref target="https://tinyurl.com/yr6jz2nt">白塔寺白塔</ref>
+                     <ref target="https://tinyurl.com/yr6jz2nt">百度百科</ref>
                   </p>
                </note>
                <listBibl xml:id="bibl000024d-1">
@@ -156,7 +156,7 @@
                 -->
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
                <relation ref="https://live.staticflickr.com/65535/51160710931_393b13f3aa_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000024" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024d"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000024d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
             </listRelation>
          </listPlace>
       </body>
