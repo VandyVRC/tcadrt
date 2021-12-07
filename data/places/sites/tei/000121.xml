@@ -9,7 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="WBN">WANG Beining 王贝宁</editor>
+            <editor role="creator" xml:id="SQ">Song Qisen</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -17,6 +17,10 @@
             <respStmt>
                <resp>Initial research 2021 by</resp>
                <name type="person">WANG Beining 王贝宁</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links</resp>
+               <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -34,7 +38,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-12-07-04:00</date>
+            <date>2018-03-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -50,7 +54,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-12-07" who="#SQ">CREATED: place record</change>
+         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="2.0" who="#SQ" when="2020-03-20-04:00">adding external links</change>
+         <change when="2020-09-17">
+            Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="OW">OGIHARA Waka</name>
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
