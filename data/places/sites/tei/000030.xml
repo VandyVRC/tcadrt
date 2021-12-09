@@ -17,6 +17,10 @@
                <resp>adding external links</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#KTT">Kymbria Thomas</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -49,6 +53,7 @@
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="#KTT" when="2021-12-08-04:00">UPDATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +70,10 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000030-1">"Fotousi, or Buddha’s Head Monastery is located in Chedang Village, Yanggao Town. It contains artifacts from the Song, and Jin Dynasties and is __ under the  Provincial Cultural Relics Protection Unit. 
+                     The date of its founding is unknown. Sitting in the north and facing south, only the <placeName ref="/place/000171">main hall</placeName> is extant. There are three Qing dynasty steles documenting restorations in the monastery.</p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/tv85th7">Wikipedia (in Chinese)</ref>
@@ -111,6 +120,9 @@
                <relation active="https://architecturasinica.org/place/000030" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000030" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4102/4821604417_2720cb6dfb_z.jpg" passive="https://architecturasinica.org/place/000030" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51724815639_c3b370ba29_4k.jpg"
+                  passive="https://architecturasinica.org/place/000030" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
