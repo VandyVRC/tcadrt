@@ -114,7 +114,7 @@
                   <note>39˚ 33.901' N (Garmin) 113˚ 10.902 E</note>
                </location>
                <trait type="type" sub-type="building type">
-                  <label>Type</label>
+                   <label>Type</label>
                   <desc xml:lang="en">pagoda</desc>
                   <desc xml:lang="zh-latn-pinyin">ta</desc>
                   <desc xml:lang="zh-Hant">塔</desc>
@@ -124,7 +124,11 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000168-1">
+               <bibl xml:id="bibl000028-1">
+                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  <citedRange unit="pp">13-14</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000028-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
