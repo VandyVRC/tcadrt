@@ -68,8 +68,7 @@
                <placeName xml:id="name000285-6" type="alternate" xml:lang="zh-Hant">大獻福寺</placeName>
                <placeName xml:id="name000285-7" type="alternate" xml:lang="zh-Hans">大献福寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000296</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000296-1" from="0684-01-01"
-                  >
+               <state type="existence" subtype="dynasty" source="#bibl000296a-1" from="0618-01-01" to="1999-12-31">
                   <label>Dynasty</label>
                   <desc>Tang - Post Qing</desc>
                </state>
@@ -129,68 +128,15 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-            <!--<bibl xml:id="bibl000296-4">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">11</citedRange>
-               </bibl>
-               <listBibl xml:id="bibl000296-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                     <citedRange unit="pp">368</citedRange>
+               <bibl xml:id="bibl000296-1">
+                     <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                     <citedRange unit="pp">21</citedRange>
                   </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/W8UD2B9E"/>
-                     <citedRange unit="pp">1</citedRange>
+                  <bibl xml:id="bibl000296-2">
+                        <ptr target="https://architecturasinica.org/bibl/RJJJ6V4B"/>
+                        <citedRange unit="pp">2</citedRange>
                   </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                     <citedRange unit="pp">26</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/QT5K96MP"/>
-                     <citedRange unit="pp">194</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/QM3MFV8M"/>
-                     <citedRange unit="pp">24-27</citedRange>
-                  </bibl>
-               </listBibl>
-                  <listBibl xml:id="bibl000296-2">
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/W8UD2B9E"/>
-                        <citedRange unit="pp">3, 14</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/GDES9C5J"/>
-                        <citedRange unit="pp">57-58</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/DV6IFCIU"/>
-                        <citedRange unit="pp">1-25</citedRange>
-                     </bibl>
-               </listBibl>
-               <listBibl xml:id="bibl000296-3">
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/GRKVQMTC"/>
-                        <citedRange unit="pp">386-387</citedRange>
-                     </bibl>
-                     <bibl>
-                        <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
-                        <citedRange unit="pp">172</citedRange>
-                     </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/E6PAI25I"/>
-                     <citedRange unit="pp">27-30</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/M5WSTWDJ"/>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                     <citedRange unit="pp">26</citedRange>
-                  </bibl>
-                  </listBibl> --> <!-- Edit after the prove in Zotero -->
-            </place>
+             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000296"
                   passive="https://architecturasinica.org/keyword/k000052"
