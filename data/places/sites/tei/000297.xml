@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syria#ca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Tianning Monastery <foreign xml:lang="zh-Hant">天寧寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#SL">Sophia Liu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000297/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-09-04:00" who="#SL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000297" type="site">
+               <placeName xml:id="name000294-1" type="site-name" xml:lang="en">Tianning Monastery</placeName>
+               <placeName xml:id="name000294-2" type="site-name" xml:lang="zh-Hant">天寧寺</placeName>
+               <placeName xml:id="name000294-3" type="site-name" xml:lang="zh-Hans">天宁寺</placeName>
+               <placeName xml:id="name000294-4" type="site-name" xml:lang="zh-latn-pinyin">Tiānníngsì</placeName>
+               <placeName xml:id="name000294-5" type="site-name" xml:lang="zh-latn-wadegile">T’ien-ning-ssu</placeName>
+               <placeName xml:id="name000294-1" type="site-name" xml:lang="en">Tianwang Monastery</placeName>
+               <placeName xml:id="name000294-2" type="site-name" xml:lang="zh-Hant">天王寺</placeName>
+               <placeName xml:id="name000294-3" type="site-name" xml:lang="zh-Hans">天王寺</placeName>
+               
+               <idno type="URI">https://architecturasinica.org/place/000297</idno>
+                   <state type="existence" subtype="dynasty" source="#bibl000297-2" from="618-01-01" to="907-12-31">
+                   <label>Dynasty</label>
+                   <desc>Tang 618-907</desc>
+                  </state>
+               <desc type="site-data">Although historical records tend to date the Tianning monastery to the Northern Wei period, 
+                  the contemporary scholar Shiren Wang writes that the monastery was built in the Tang dynasty (618-907) 
+                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (Wang 9). The octagonal pagoda still 
+                  extant today was constructed during the Tianqing reign of the Liao dynasty (916-1125; Wang and Wang 80). 
+                  Later records show that the monastery was destroyed at the end of the Liao dynasty and rebuilt by Emperor 
+                  Yongle (r. 1402 - 1424) of the Ming (1368 - 1644) dynasty while he was the Prince of Yan. The monastery was 
+                  renamed Tianningsi in the tenth year of the Xuande reign (1435) of the Ming dynasty (1368 - 1644). 
+                  The buildings standing today date to another reconstruction in the twenty-first year of Qianlong of 
+                  Qing (1756) with additional renovations from 1938 (Wang 12).
+               </desc>
+               <note type="External Links">
+                  <p><ref target="https://tinyurl.com/rhgeomm">Wikipedia (in Chinese)</ref></p>
+                  <p><ref target="https://tinyurl.com/sfff28r">百度百科</ref></p>
+               </note>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8675152 http://vocab.getty.edu/aat/300387198">
+                  <placeName>山西省新绛县</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Xinjiang</placeName>
+                     <placeName xml:lang="zh-Hans">新绛</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">县</placeName>
+                     <placeName xml:lang="en">County</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>35.66366667 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.66345 111.0694</geo>
+               </location>
+               <location type="gps">
+                  <geo>35.663933 111.06937</geo>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000002-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">III:1099,126–C1-3</citedRange>
+               </bibl>
+                     <bibl xml:id="bibl000002-2">
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
+                     </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000002"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000002" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000002" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://farm5.staticflickr.com/4073/4831069771_14fcd97cc0_z.jpg"
+                  passive="https://architecturasinica.org/place/000002" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
