@@ -61,6 +61,9 @@
                <placeName xml:id="name000101-4" type="site-name" xml:lang="zh-Hant">西李門二仙廟</placeName>
                <placeName xml:id="name000101-5" type="site-name" xml:lang="zh-Hans">西李门二仙庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000101</idno>
+               <desc type= "site-data" xml:lang="en">
+                  
+               </desc>
                <state type="existence" subtype="dynasty" source="#bibl000101-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
@@ -113,6 +116,8 @@
                <relation active="https://architecturasinica.org/place/000101" passive="https://architecturasinica.org/keyword/k000083" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000101" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000101" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51734200620_169579ce11_4k.jpg" passive="https://architecturasinica.org/place/000293" ana="featured"/> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51734200205_ccf98bbee3_h.jpg" passive="https://architecturasinica.org/place/000293" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>
