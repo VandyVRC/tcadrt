@@ -7,11 +7,11 @@
             <title level="a" xml:lang="en">Jiutian Sage Mother Temple <foreign xml:lang="zh-Hant">九天聖母廟</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#GM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -47,8 +47,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
-         <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change when="2020-09-21" who="#SLY">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,10 +55,9 @@
          <listPlace>
             <place xml:id="place-000052" type="site">
                <placeName xml:id="name000052-1" type="site-name" xml:lang="en">Jiutian Sage Mother Temple</placeName>
-               <placeName xml:id="name000052-2" type="site-name" xml:lang="zh-latn-pinyin">Jiǔtiānshèngmǔmiào</placeName>
-               <placeName xml:id="name000052-3" type="site-name" xml:lang="zh-latn-wadegile">Chiu-t`ien-sheng-mu-miao</placeName>
                <placeName xml:id="name000052-4" type="site-name" xml:lang="zh-Hant">九天聖母廟</placeName>
                <placeName xml:id="name000052-5" type="site-name" xml:lang="zh-Hans">九天圣母庙</placeName>
+               <placeName xml:id="name000052-2" type="site-name" xml:lang="zh-latn-pinyin">Jiǔtiānshèngmǔmiào</placeName>               <placeName xml:id="name000052-3" type="site-name"  xml:lang="zh-latn-wadegile">Chiu-t`ien-sheng-mu-miao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000052</idno>
                <state type="existence" subtype="dynasty" source="#bibl000052-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
