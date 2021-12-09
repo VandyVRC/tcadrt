@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,6 +11,7 @@
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" xml:id="ZAL">Li Zhixian 李知賢</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -48,7 +48,8 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
          <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+            <name type="person" xml:id="SLY">SHEN Liyan</name>
+            </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +66,11 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000052-2">
+                     According to a stele inscription within the complex, the Temple of Jiutian Shengmu was originally built in the Sui Dynasty, with renovations in the Tang, Song, Yuan, Ming, and Qing dynasties. The temple occupies 2,526 m2 and faces southwards. It consists of a single courtyard. The Mountain Gate, offering hall, and main hall are on its central axis, while side halls, galleries, and attached towers are located on the two sides. There is a dressing tower on the east side of the temple complex. The courtyard of the temple complex contains three steles, dating to the Song, Yuan, and Ming dynasties. It also contains four tablets (jie) from the Ming dynasty, twelve steles from the Qing Dynasty, ten tablets (jie) from the Qing dynasty, and three steles from the Republican Period.  
+                  </p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/r9nj4nl">Wikipedia (in Chinese)</ref>
@@ -104,6 +110,10 @@
                <bibl xml:id="bibl000052-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000052-2">
+                  <ptr target="https://architecturasinica.org/bibl/XETXHXWJ"/>
+                  <citedRange unit="pp">305-6</citedRange>
                </bibl>
             </place>
             <listRelation>
