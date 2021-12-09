@@ -17,6 +17,10 @@
                <resp>adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="KTT">Kymbria Thomas</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -49,6 +53,7 @@
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.1" who="#KTT" when="2021-12-08-04:00">UPDATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,6 +77,11 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000171-1">"This structure was built during the Song-Jin period. Placed on a stone foundation platform 0.31 meters high. The hall is three bays wide, four rafters deep, with a single eave hip-gable roof.
+                     In the hall, the four-rafter deep frame is configured using a three rafter beam joined to a zha-qian tie beam supported by three pillars.
+                     There are solid doors at the central bay of the front and back eaves and straight lattice windows in each of the side bays.</p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>36.3581667 113.5761333</geo>
                </location>
