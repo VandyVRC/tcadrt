@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Fogong Monastery <foreign xml:lang="zh-Hant">佛宮寺</foreign>
+            <title level="a" xml:lang="en">Fogong Monastery <foreign xml:lang="zh-Hant"
+                  >佛宮寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -47,17 +50,20 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="SLY">SHEN Liyan</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000028" type="site">
-               <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong Monastery</placeName>
-               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fógōngsì</placeName>
-               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-latn-wadegile">Fo-kung-ssu</placeName>
+               <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong
+                  Monastery</placeName>
+               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Fógōngsì</placeName>
+               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Fo-kung-ssu</placeName>
                <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
                <placeName xml:id="name000028-5" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000028</idno>
@@ -65,6 +71,28 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000028-1">The architectural site, Fogongsi (佛宮寺) was located in
+                     the Yingxian County of Shanxi Province of North China. According to the Wanli
+                     reign period (1573-1620) Yingzhouzhi (應州志), it was begun in the second year of
+                     the Liao Qingning period (1056) (Steinhardt 1994, 13). The site has been
+                     renovated many times. Although initially named Baogong Monastery (寶宮禪寺), due to
+                     an imperial taboo for the character bao (寶) in 1315, the site’s name was
+                     changed to Fogongsi (Steinhardt 1994, 13). Covering an area of ​​24,000 square
+                     meters the buildings are oriented north-south. In the Liao period, the
+                     monastery was just northwest of the intersection between the major north­-south
+                     and east-­west city thoroughfares, putting the monastery in a central position
+                     in Yingzhou (Steinhardt 1994, 14). The Sakyamuni Pagoda is oriented two degrees
+                     west of due south and stands on the central axis, behind the Shanmen (山門) and
+                     in front of the Mahavira Treasure Hall (Daxiongbaodian 大雄宝殿). Of the existing
+                     buildings at the site, only the Sakyamuni Pagoda is a relic of the Liao
+                     Dynasty. The bell tower (钟楼) and the drum tower (鼓楼) were built in the Ming
+                     Dynasty, and the Mahavira Treasure Hall (Daxiongbaodian 大雄宝殿), appended
+                     buildings (jiawu 夹屋), and the subsidiary halls (peidian 配殿) are all buildings
+                     from the Qing Dynasty. From the mid 20th century there were two courtyards, one
+                     with the gatehouse, bell and drum towers and the pagoda, and the back with
+                     abbots' quarters and the Daxiongbaodian (国家文物局 2017, 176). </p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/w76mrgg">Wikipedia (in Chinese)</ref>
@@ -110,9 +138,13 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000028" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000028"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/3516/3827738378_2a530bff75_h.jpg"
                   passive="https://architecturasinica.org/place/000028" ana="featured"/>
