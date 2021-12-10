@@ -69,47 +69,37 @@
                    <label>Dynasty</label>
                    <desc>Tang 618-907</desc>
                   </state>
-               <desc type="site-data">Although historical records tend to date the Tianning monastery to the Northern Wei period, 
-                  the contemporary scholar Shiren Wang writes that the monastery was built in the Tang dynasty (618-907) 
-                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (Wang 9). The octagonal pagoda still 
-                  extant today was constructed during the Tianqing reign of the Liao dynasty (916-1125; Wang and Wang 80). 
+               <desc type="site-data">
+                  <p xml:lang="en" source = "#bibl000297-1">The Tianning Monastery is a Buddhist monastery complex located in Xicheng district, Beijing.
+                     Although historical records usually date the Tianning Monastery to the <term ref="/keyword/k000056">Northern Wei</term> period, 
+                     the contemporary scholar Wang Shiren writes that the monastery was first built in the <term ref="/keyword/k000082">Tang dynasty</term>
+                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (Wang, 9). The octagonal pagoda still 
+                  extant today was constructed during the Tianqing reign of the <term ref="/keyword/k000047">Liao dynasty</term> in 1120 (Wang and Wang, 80). 
                   Later records show that the monastery was destroyed at the end of the Liao dynasty and rebuilt by Emperor 
-                  Yongle (r. 1402 - 1424) of the Ming (1368 - 1644) dynasty while he was the Prince of Yan. The monastery was 
-                  renamed Tianningsi in the tenth year of the Xuande reign (1435) of the Ming dynasty (1368 - 1644). 
-                  The buildings standing today date to another reconstruction in the twenty-first year of Qianlong of 
-                  Qing (1756) with additional renovations from 1938 (Wang 12).
+                  Yongle (r. 1402 - 1424) of the <term ref="/keyword/k000051">Ming dynasty</term> while he was the Prince of Yan. The monastery was 
+                  renamed Tianningsi in the tenth year of the Xuande reign (1435) of the Ming dynasty. 
+                  The buildings standing today date to another reconstruction in the twenty-first year of Qianlong (1756) of 
+                     <term ref="/keyword/k000070">Qing</term> with additional renovations from 1938 (Wang, 12).
+                  </p>
                </desc>
                <note type="External Links">
-                  <p><ref target="https://tinyurl.com/rhgeomm">Wikipedia (in Chinese)</ref></p>
-                  <p><ref target="https://tinyurl.com/sfff28r">百度百科</ref></p>
+                  <p><ref target="https://tinyurl.com/2p8wnpcu">Wikipedia (in Chinese)</ref></p>
+                  <p><ref target="https://en.wikipedia.org/wiki/Tianning_Temple_(Beijing)">Wikipedia (in English)</ref></p>
+                  <p><ref target="https://tinyurl.com/2p8394x3">百度百科</ref></p>
                </note>
                <location type="nested"
-                  source="http://vocab.getty.edu/tgn/8675152 http://vocab.getty.edu/aat/300387198">
-                  <placeName>山西省新绛县</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
                   <country>China</country>
-                  <region type="province">
-                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
-                     <placeName xml:lang="zh-Hant">山西省</placeName>
-                     <placeName xml:lang="zh-Hans">山西省</placeName>
-                  </region>
                   <region type="county-city">
-                     <placeName xml:lang="zh-latn-pinyin">Xinjiang</placeName>
-                     <placeName xml:lang="zh-Hans">新绛</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Beijing</placeName>
+                     <placeName xml:lang="zh-Hant">北京市</placeName>
                   </region>
                   <region type="political-subdivision">
-                     <placeName xml:lang="zh-Hans">县</placeName>
-                     <placeName xml:lang="en">County</placeName>
+                     <placeName xml:lang="zh-Hant">西城區</placeName>
+                     <placeName xml:lang="en">Xicheng Distric</placeName>
                   </region>
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>35.66366667 111.0694</geo>
-               </location>
-               <location type="gps">
-                  <geo>35.66345 111.0694</geo>
-               </location>
-               <location type="gps">
-                  <geo>35.663933 111.06937</geo>
+                  <geo>39.894167 116.346111</geo>
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type </label>
@@ -118,26 +108,25 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <bibl xml:id="bibl000002-1">
+               <bibl xml:id="bibl000297-1">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">III:1099,126–C1-3</citedRange>
                </bibl>
-                     <bibl xml:id="bibl000002-2">
+                     <bibl xml:id="bibl000297-2">
                         <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                         <citedRange unit="pp">12</citedRange>
                      </bibl>
             </place>
-            <listRelation>
-               <relation active="https://architecturasinica.org/place/000002"
-                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
-                  ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000002" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000002" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ref="foaf:depicts"
-                  active="https://farm5.staticflickr.com/4073/4831069771_14fcd97cc0_z.jpg"
-                  passive="https://architecturasinica.org/place/000002" ana="featured"/>
+            
+            <relation active="https://architecturasinica.org/place/000297" 
+               passive="https://architecturasinica.org/keyword/k000052" 
+               ref="dcterms:subject" ana="site-type"/>
+            <relation active="https://architecturasinica.org/place/000297" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+
+            <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/51721696542_322c2a64b1_k.jpg"
+                  passive="https://architecturasinica.org/place/000297" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
