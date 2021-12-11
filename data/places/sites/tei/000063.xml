@@ -9,11 +9,10 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
+               <name type="person" xml:id="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
@@ -31,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2021-12-11-04:00</date>
+            <date>2018-03-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
