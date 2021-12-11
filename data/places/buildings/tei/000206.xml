@@ -12,6 +12,7 @@
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" xml:id="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
@@ -94,6 +95,21 @@
                <bibl xml:id="bibl000206-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000063-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">304-305</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000063-3">
+                  <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
+                  <citeRange unit="pp">179-184</citeRange>
+               </bibl>
+               <bibl xml:id="bibl000063-4">
+                  <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+               </bibl>
+               <bibl xml:id="bibl000063-5">
+                  <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
+                  <citedRange unit="pp">52-57</citedRange>
                </bibl>
                <!-- <note type="field-notes">Jin dynasty with fan brackets</note> -->
             </place>
