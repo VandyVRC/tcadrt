@@ -123,10 +123,12 @@
                <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000056" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51720875997_4c9aadfcb2_4k.jpg"
-passive="https://architecturasinica.org/place/000298" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721941123_fda004b3e2_4k.jpg"
-passive="https://architecturasinica.org/place/000298" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51720875997_4c9aadfcb2_4k.jpg"
+                  passive="https://architecturasinica.org/place/000298" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51721941123_fda004b3e2_4k.jpg"
+                  passive="https://architecturasinica.org/place/000298" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
