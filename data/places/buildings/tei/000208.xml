@@ -9,11 +9,11 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
-            <editor role="data entry">CHEN Zhuo 陈卓</editor>
+            <editor role="data entry" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Editing, proof correction, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" xml:id="ZC">CHEN Zhuo 陈卓</name>
+               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
