@@ -6,18 +6,21 @@
             <title level="a" xml:lang="en">Xuankongsi <foreign xml:lang="zh-Hant">懸空寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp when="2021-12-12">Writeup in 2021 by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
+               <respStmt>
+                  <resp>Initial research, data entry by</resp>
+                  <name type="person" when="2021-12-12" ref="#ZAL">LI Zhixian 李知賢</name>
+               </respStmt>
                <resp>adding external links</resp>
                <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
             </respStmt>
@@ -49,7 +52,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-12-12-04:00">CREATED: place record</change>
+         <change n="1.0" when="2021-12-12-04:00" >CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
