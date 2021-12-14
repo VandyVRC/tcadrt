@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Daci'en Monastery<foreign xml:lang="zh-Hant">大慈恩寺</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal>Tracy Miller</principal>
+                <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+                <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
+                <respStmt>
+                    <resp>Website coordination by</resp>
+                    <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editing and proof correction</resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Data entry</resp>
+                    <name type="person" ref="#CX">XU Chuyuan 徐楚原</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000295/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2021-12-08-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000295" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000295-1" xml:lang="en">Daci'en Monastery</placeName>
+                    <placeName xml:id="name000295-2" type="building-name" xml:lang="zh-Hant">大慈恩寺</placeName>
+                    <placeName xml:id="name000295-3" type="building-name" xml:lang="zh-Hans">大慈恩寺</placeName>
+                    <placeName xml:id="name000295-4" type="building-name" xml:lang="zh-latn-pinyin">Dàcíēnsì</placeName>
+                    <placeName xml:id="name000295-5" type="building-name" xml:lang="zh-latn-wadegile">Ta-tz’u-en-szu</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000295</idno>
+                    <state type="existence" from="0648-01-01" to="0648-01-01">
+                        <label>Date</label>
+                        <desc>648</desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" source="#bibl000295-2" from="0618-01-01" to="0907-01-01">
+                        <label>Dynasty</label>
+                        <desc>Tang</desc>
+                    </state>
+                    <desc type="building-data" xml:lang="en">
+                        <p source="#bibl000295-2"> Daci’en Monastrary, also known as Ci’ensi or Daci’ensi, is the ancestral court of Buddhism Faxiangzong (also known as Weishizong). In the 22nd year of Tang Zhenguan (648), Prince Li Zhi built Ci’en Monastery in Jinchangfang, Chang'an City of Tang Dynasty, in memory of his deceased mother, Empress Wende, and then invited Xuanzang to move to this newly completed Monastery. In its heyday, there were more than 10 courtyards and 1,897 halls. The eminent monk Xuanzang was the prime minister of temple affairs, and he set up the temple as an unprecedented scale of Buddhist scripture translation field, presided over the translation of 74 scriptures in 1335 volumes. 
+                            
+                        <p source="#bibl000295-1"> In order to store the Buddhist scriptures brought back from India, Xuanzang presided over the construction of a brick tower in the west courtyard of the temple in the third year of Yonghui (652). When Wu Zong Huichang five years (845) destroyed the Buddhist temple, he expressly ordered the protection of Ci'en Monastery. At the end of the Tang Dynasty, the temple was destroyed by military fire, and since the Song Dynasty, it has been repeatedly repaired, but the scale of the temple is only limited to the area around the tower. Except for the tower, the existing buildings were built in the Qing Dynasty and modern times, covering an area of about 62,000 square meters and facing the south. 
+                        
+                        <p source="#bibl000295-1"> From the south of the central axis, there are Mountain Gate, Mahāvīra Treasure Hall, Dharma Hall, Big Wild Goose Pagoda, on both sides there are bell towers, drum towers, east and west halls and wing rooms. The stupa forest is located on the east side of the monastery. There are 198 inscriptions of Tang, Ming, Qing, and Republic of China, as well as scripture towers, iron bells, bronze statues of Buddha, clay statues, and architectural components. Daci’en Monastery was further repaired in 1963.    
+                        </p>
+                    </desc>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">Monastery</desc>
+                        <desc xml:lang="zh-latn-pinyin">Sì</desc>
+                        <desc xml:lang="zh-Hant">寺</desc>
+                        <desc xml:lang="zh-Hans">寺</desc>
+                    </trait>
+                    <listBibl xml:id="bibl000295-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                            <citedRange unit="pp">198</citedRange> /记得改页数/
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="biblk000295-2">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/SJTJC8M3"/>
+                            <citedRange unit="pp">12</citedRange> /记得改页数/
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/VEW6L2RT"/>
+                            <citedRange unit="pp">3-5</citedRange>
+                        </bibl>
+                    </listBibl>
+                </place>
+                <listRelation>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                        passive="https://architecturasinica.org/place/000295" ana="featured"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                        passive="https://architecturasinica.org/place/000295" ana="featured"/>
+                    <relation active="https://architecturasinica.org/place/000295" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000295" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
+
