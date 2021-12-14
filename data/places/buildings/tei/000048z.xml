@@ -9,7 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="ZC">Zhuo Chen 陈卓</editor>
+            <editor role="page-creator" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#ZC">Zhuo Chen 陈卓</name>
+               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,6 +62,12 @@
                <placeName xml:id="name000048z-3" type="building-name" xml:lang="zh-Hans">方丈洞</placeName>
                <placeName xml:id="name000048z-4" type="building-name" xml:lang="zh-latn-pinyin">Fāngzhàngdòng</placeName>
                <placeName xml:id="name000048z-5" type="building-name" xml:lang="zh-latn-wadegile">Fang-chang-tung</placeName>
+               <placeName xml:id="name000048fa-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fangzhang Cavern</placeName>
+               <placeName xml:id="name000048fa-10" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠方丈洞</placeName>
+               <placeName xml:id="name000048fa-11" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠方丈洞</placeName>
+               <placeName xml:id="name000048fa-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Laojun Shrine</placeName>
+               <placeName xml:id="name000048fa-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠老君祠</placeName>
+               <placeName xml:id="name000048fa-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠老君祠</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048z</idno>
                <state type="existence" from="1600-01-01" to="1700-12-31">
                   <label>Date</label>
@@ -72,7 +78,7 @@
                   <desc>Ming-Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048z-1">Fangzhang Cavern, also known as <placeName ref="/place/000048aa">Laojun Shrine 老君祠</placeName>, is located to the south of Chaoyang Cavern. Three caves, originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently named ‘abbot’s quarters.’ None of the caverns along this portion of the mountain (numbers 26-32) are shown on Gao Ruxing’s Jinci zhitu.</p>
+                  <p source="#bibl000048z-1">Fangzhang Cavern, also known as <placeName ref="/place/000048aa">Laojun Shrine 老君祠</placeName>, is located to the south of Chaoyang Cavern, and its single entrance leads to three caverns. According to Liu Dapeng, this was originally the residence of Daoist priests who placed an images of Laozi and guardian warriors in the shrine. Then the Daoist priests were replaced with Buddhist monks, and this was consequently renamed ‘abbot’s quarters' (fangzhang). None of the caverns along this portion of the mountain (numbers 26-32 on our plan of the site) are shown on Gao Ruxing’s (jinshi 1521) Jinci zhitu 晉祠之圖 (1551).</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -102,6 +108,7 @@
                <relation active="https://architecturasinica.org/place/000048aa" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000048z" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048z" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
                <!--
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"

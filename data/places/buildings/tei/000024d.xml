@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, White Pagoda<foreign xml:lang="zh-Hant">獨樂寺白塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <editor role="page-creator" ref="HDN">HUANG Danni 黄聃婗</editor>
+            <respStmt>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding external links 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024d/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-02-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000024c" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024d-1" xml:lang="en">White Pagoda</placeName>
+               <placeName xml:id="name000024d-2" type="building-name" xml:lang="zh-Hant">白塔</placeName>
+               <placeName xml:id="name000024d-3" type="building-name" xml:lang="zh-Hans">白塔</placeName>
+               <placeName xml:id="name000024d-4" type="building-name" xml:lang="zh-latn-pinyin">Bái tǎ</placeName>
+               <placeName xml:id="name000024d-5" type="building-name" xml:lang="zh-latn-wadegile">Pai-t'a</placeName>
+               <placeName xml:id="name000024d-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Baita</placeName>
+               <placeName xml:id="name000024d-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺白塔</placeName>
+               <placeName xml:id="name000024d-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">独乐寺白塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024d</idno>
+               <state type="existence" from="0984-01-01" to="0984-01-01">
+                  <label>Date</label>
+                  <desc>unknown</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000024c-4" from="0916-01-01" to="1125-01-01">
+                  <label>Dynasty</label>
+                  <desc>Reconstructed in Liao 916 - 1125</desc>
+               </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024d-1"> </p>
+                  <p xml:lang="en" source="#bibl000024d-2"></p>
+                  <p xml:lang="en" source="#bibl000024d-3"></p>         
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>40.042022 117.403283</geo>
+               </location>
+               <location type="verbatim">
+                  <note>(Google Earth)</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://youtu.be/wQZrhL0N9_I">Video: 天津薊縣獨樂寺白塔 The White Pagoda (Baita), Dule Monastery, Tianjin, Ji County (sounds on!) The rhythm of the wind, bells, and birds singing. By Danni Huang.</ref>
+                  </p>  
+                  <p>
+                     <ref target="https://tinyurl.com/yr6jz2nt">百度百科</ref>
+                  </p>
+               </note>
+               <listBibl xml:id="bibl000024d-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">2</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000024d-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">48</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  </bibl>
+               </listBibl>
+                  <bibl xml:id="bibl000024d-3">
+                     <ptr target="https://architecturasinica.org/bibl/V9EC66BW"/>
+                     <citedRange unit="pp">11</citedRange>
+                  </bibl> 
+               <bibl xml:id="bibl000024d-4">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <!-- 
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000024c">
+                  <desc>Guanyinge, Front view from Shanmen</desc>
+               </relation>
+                -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51733142231_6b1e31610c_6k.jpg" passive="https://architecturasinica.org/place/000024d" ana="featured"/>     
+               <relation ana="contained" active="https://architecturasinica.org/place/000024d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

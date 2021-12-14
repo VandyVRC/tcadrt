@@ -78,13 +78,13 @@
          <change n="1.0" when="2018-12-03">CREATED: record</change>
          <change n="2.0" when="2020-06-11">Modified: editorial roles</change>
          <change n="2.1" when="2021-01-19" who="#TGM">added pinyin without tones</change>
-    
+         <change n="2.2" when="2021-11-08" who="#TGM">added citations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000005" type="architectural feature">
-            <term xml:id="term-k000005-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000005-1" type="preferred">cao</term>
+            <term xml:id="term-k000005-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000005-1">cao</term>
             <term xml:id="term-k000005-2" xml:lang="zh-Hant">槽</term>
             <term xml:id="term-k000005-3" xml:lang="zh-Hans">槽</term>
             <term xml:id="term-k000005-1" xml:lang="zh-latn-pinyin" source="#biblk000005-2">cáo</term>
@@ -134,6 +134,14 @@
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">405</citedRange>
             </bibl>
+            <bibl xml:id="biblk000005-3">
+               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+               <citedRange unit="pp">199</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000005-4">
+               <ptr target="https://architecturasinica.org/bibl/2A3XPIY5"/>
+               <citedRange unit="pp">368-375</citedRange>
+            </bibl>
             <listBibl xml:id="biblk000005-5">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
@@ -172,15 +180,13 @@
                   <ptr target="https://architecturasinica.org/bibl/8UHM6VJV"/>
                   <citedRange unit="pp">41-43</citedRange>
                </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/X76NQT7M"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2A3XPIY5"/>
+               </bibl>
             </listBibl>
-            <bibl xml:id="biblk000005-3">
-               <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-               <citedRange unit="pp">199</citedRange>
-            </bibl>
-            <bibl xml:id="biblk000005-4">
-               <ptr target="https://architecturasinica.org/bibl/2A3XPIY5"/>
-               <citedRange unit="pp">368-375</citedRange>
-            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000005</idno>
             <listRelation>
                <listRelation>

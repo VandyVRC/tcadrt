@@ -75,23 +75,28 @@
          <change n="2.0" who="#CBL" when="2021-07-03">Revision: add note</change>
          <change n="2.1" who="#TGM" when="2021-07-03">Revision: editing, adding related concepts</change>
          <change n="2.2" who="#CBL" when="2021-09-24">Revision: add notes</change>
+         <change n="3.0" when="2021-11-11" who="#MT">final revision</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000141" type="architectural feature">
-            <term xml:id="term-k000141-1" xml:lang="zh-latn-pinyin-nt" type="preferred">zhaqian</term>
+            <term xml:id="term-k000141-1" xml:lang="zh-latn-pinyin-nt">zhaqian</term>
             <term xml:id="term-k000141-2" xml:lang="zh-Hant">剳牵</term>
             <term xml:id="term-k000141-3" xml:lang="zh-Hans">剳牵</term>
-            <term xml:id="term-k000141-4" xml:lang="zh-latn-pinyin" source="#biblk000141-1">zhāqiān</term>
+            <term xml:id="term-k000141-4" xml:lang="zh-latn-pinyin"  type="ATTCAT_preferred" source="#biblk000141-1">zhāqiān</term>
             <term xml:id="term-k000141-5" xml:lang="zh-latn-wadegile">cha-ch'ien</term>
             <term xml:id="term-k000141-6" xml:lang="en" type="literal_translation" source="#biblk000141-2">to stitch and bind (lit.)</term>
-            <term xml:id="term-k000141-7" xml:lang="en" type="ATTCAT_preferred" source="#biblk000141-3">pinpricking connector (ATTCAT preferred)</term>
+            <term xml:id="term-k000141-7" xml:lang="en" type="ATTCAT_preferred_translation" source="#biblk000141-3">pinpricking connector (ATTCAT preferred translation)</term>
             <term xml:id="term-k000141-8" xml:lang="en" source="#biblk000141-4">one-rafter beam</term>
             <term xml:id="term-k000141-9" xml:lang="en" source="#biblk000141-5">tie beam</term>
-            <note type="Note (brief)" >
-               <p xml:lang="en" source="#biblk000141-6">According to the <title ref="https://tinyurl.com/ytp5by78">Yingzao fashi</title>, zhaqian refers to cross beams that span one rafter (Liang 1983, 142). Zhaqian usually only serves to connect two members, but is not load-bearing. In extant buildings in southeast China, a similar component--called shuiliang 水梁 in Zhejiang and Jiangsu, shumu 束木 in southern Fujian, and shuishu 水束 in Guangdong--structurally combines zhaqian, chashou 叉手, and tuojiao 托腳.</p>
-               <p xml:lang="zh-Hant" source="#biblk000141-6">劄牽為《<title ref="https://tinyurl.com/ytp5by78">營造法式</title>》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為水梁（江浙）、束木（閩南）、水束（廣府），等。</p> 
+            <note type="Note (full)">
+               <note type="getty:scopeNote" xml:lang="en">
+                  <p source="#biblk000141-6">According to the <title ref="https://tinyurl.com/ytp5by78">Yingzao fashi</title>, zhaqian refers to cross beams that span one rafter (Liang 1983, 142). Zhaqian usually only serves to connect two members, but is not load-bearing. In extant buildings in southeast China, a similar component--called <term>shuiliang 水梁</term> in Zhejiang and Jiangsu, <term>shumu 束木</term> in southern Fujian, and <term>shuishu 水束</term> in Guangdong--structurally combines zhaqian, <term>chashou 叉手</term>, and <term>tuojiao 托腳</term>.</p>
+               </note>
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+                  <p source="#biblk000141-6">劄牽為《<title ref="https://tinyurl.com/ytp5by78">營造法式</title>》（1103）中的建築術語，指長一椽的梁，通常僅起聯繫作用而不荷重（梁 1983，142）。在中國東南地區的建筑实例中，也有类似的，結合劄牽、叉手與托腳結構作用的構件，稱為<term>水梁</term>（江浙）、<term>束木</term>（閩南）、<term>水束</term>（廣府）等。</p> 
+               </note>
             </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000141-1" xml:lang="zh-Hant">水梁 shuǐliáng</p>

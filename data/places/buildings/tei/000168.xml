@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Fogong Monastery, Śākyamuni Pagoda <foreign xml:lang="zh-Hant">佛宮寺釋迦塔</foreign>
+            <title level="a" xml:lang="en">Fogong Monastery, Śākyamuni Pagoda <foreign
+                  xml:lang="zh-Hant">佛宮寺釋迦塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -47,8 +51,8 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
-         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,24 +60,52 @@
          <listPlace>
             <place xml:id="place-000168" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000168-1" xml:lang="en">Śākyamuni Pagoda</placeName>
-               <placeName xml:id="name000168-2" type="building-name" xml:lang="zh-Hant">釋迦塔</placeName>
+               <placeName xml:id="name000168-2" type="building-name" xml:lang="zh-Hant"
+                  >釋迦塔</placeName>
                <placeName xml:id="name000168-3" type="building-name" xml:lang="zh-Hans">释迦塔 </placeName>
-               <placeName xml:id="name000168-4" type="building-name" xml:lang="zh-latn-pinyin">Shìjiātǎ</placeName>
-               <placeName xml:id="name000168-5" type="building-name" xml:lang="zh-latn-wadegile">Shih-chia-t'a</placeName>
-               <placeName xml:id="name000168-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Fogongsi Shijiata</placeName>
-               <placeName xml:id="name000168-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">佛宫寺釋迦塔</placeName>
-               <placeName xml:id="name000168-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">佛宫寺释迦塔</placeName>
-               <placeName xml:id="name000168-9" type="alternate" subtype="site-name" xml:lang="zh-Hant">應縣木塔</placeName>
+               <placeName xml:id="name000168-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Shìjiātǎ</placeName>
+               <placeName xml:id="name000168-5" type="building-name" xml:lang="zh-latn-wadegile"
+                  >Shih-chia-t'a</placeName>
+               <placeName xml:id="name000168-6" type="alternate" subtype="building-name-in-site"
+                  xml:lang="en">Fogongsi Shijiata</placeName>
+               <placeName xml:id="name000168-7" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">佛宫寺釋迦塔</placeName>
+               <placeName xml:id="name000168-8" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">佛宫寺释迦塔</placeName>
+               <placeName xml:id="name000168-9" type="alternate" subtype="site-name"
+                  xml:lang="zh-Hant">應縣木塔</placeName>
                <placeName xml:id="name000168-11" type="alternate">Yingxian muta</placeName>
                <idno type="URI">https://architecturasinica.org/place/000168</idno>
                <state type="existence" from="1056-01-01" to="1095-01-01">
                   <label>Date</label>
                   <desc>1056-1095</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000168-1" from="0916-01-01" to="1125-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000168-1" from="0916-01-01"
+                  to="1125-01-01">
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000168-1">The Fogongsi Pagoda (佛宮寺塔) is also known as the
+                     Sakyamuni pagoda (Shijiata 釋迦塔) or the Yingxian timber pagoda (应县木塔) and was
+                     begun by Emperor Daozong of Liao in the second year of the Qingning reign
+                     (1056) at the location of his grandmother’s ancestral home. It is located in
+                     Yingxian, northern Shanxi Province, and was placed under the National key
+                     cultural relics protection unit. The pagoda is the oldest wooden pagoda still
+                     standing in China, resisting a multitude of earthquakes and wars. The pagoda
+                     structure stands on a 4 meter tall, 2-tiered stone, octagonal platform. The
+                     pagoda has a 10 meter tall steeple, and reaches a total height of 67.31 meters
+                     tall, towering above its town today. Created by five octagonal shaped stories
+                     in <term ref="/keyword/k000130">diantang style (殿堂)</term>, the pagoda has a mezzanine level every two levels that
+                     acts as porch-like timber balconies (pingzuo 平座) (Lin 2016, 121). Each floor is
+                     created with two rings of columns connected by beams that create an inner and
+                     outer aisle (Lin 2016, 121). With the greatest variety of bracketing in Liao
+                     dynasty buildings, the timber pagoda has fifty-four types of bracketing
+                     (Steinhardt 1994, 13). Prominent features and artifacts in the pagoda include
+                     the Sakyamuni Buddha, the Buddhas of the Four Directions, and the Vairocana and
+                     eight attendant Bodhisattvas (Shen 2001, 23).</p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>39.5650166 113.1817</geo>
                </location>
@@ -91,36 +123,72 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000168-1">
+               <bibl xml:id="bibl000028-1">
+                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  <citedRange unit="pp">13-14</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000028-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
                <!--note type="field-notes">northern pagodas and development of xiegong;pingzuo bracket sets jixin on first step, eaves touxin </note-->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000015" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject"
+                  ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000015" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject"
+                  ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject"
+                  ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000168" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000168" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000168" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000028"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/4015/4646535998_036a97a66c_h.jpg" passive="https://architecturasinica.org/place/000168" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000168"
+                  passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000168" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000168"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000028"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/4015/4646535998_036a97a66c_h.jpg"
+                  passive="https://architecturasinica.org/place/000168" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/4039/4646534468_86dc709d7e_h.jpg"
+                  passive="https://architecturasinica.org/place/000168" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

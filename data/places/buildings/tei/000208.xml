@@ -8,10 +8,12 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="data entry" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Editing, proof correction, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
@@ -59,7 +61,7 @@
                <placeName xml:id="name000208-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
                <placeName xml:id="name000208-3" type="building-name" xml:lang="zh-Hans">大雄宝殿</placeName>
                <placeName xml:id="name000208-4" type="building-name" xml:lang="zh-latn-pinyin">Dàxióngbǎodiàn</placeName>
-               <placeName xml:id="name000208-5" type="site-name" xml:lang="zh-latn-wadegile">Ta-hsiung-pao-tien</placeName>
+               <placeName xml:id="name000208-5" type="building-name" xml:lang="zh-latn-wadegile">Ta-hsiung-pao-tien</placeName>
                <placeName xml:id="name000208-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longmensi Daxiongbaodian</placeName>
                <placeName xml:id="name000208-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">龍門寺大雄宝殿</placeName>
                <placeName xml:id="name000208-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">龙门寺大雄宝殿</placeName>
@@ -73,6 +75,11 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000063-2">
+                     According to inscriptions on the eave column in front of the hall, Mahavira Hall was rebuilt in the fifth year of Shaosheng reign period (1098), and had major renovations in the fifth to twelfth years of Wanli reign period (1577-1584), the ninth to tenth years of Shunzhi reign period(1652-1653), and the third year of Tongzhi reign period (1864). The base of the hall is made of bricks. The main hall is a three-by-three <term ref="/keyword/k000149">bay</term> hall. Although its size is relatively small compared to other buildings, it is still within the range for image halls of smaller monasteries in this area (Miller 2011, 182). The main hall has a square plan and a single-eaves <term ref="/keyword/k000143">hip-gable roof (xieshanding 歇山顶)</term>. The roof-figures are made of yellow and green glaze, and their shapes and technique are all in Ming-style (Guojia wenwuju 2006, 305). Inside of the main hall, there are six purlins (liangjia 梁架) and four <term ref="/keyword/k000107">rafters (chuanfu 椽栿)</term>, and three columns are used to support the two-rafter eaves beam <term ref="/keyword/k000140">(rufu 乳栿) </term>near the entrance. On top of the three columns, there are 5-<term ref="/keyword/k000013">puzuo (铺作)</term> <term ref="/keyword/k000019">bracket sets (dougong 斗拱)</term> with single <term ref="/keyword/k000103">cantilever (ang 昂)</term> and single perpendicular bracket arm (chaogong 抄栱). There are also decorative bracket sets (yinke dougong 隐刻斗拱) between columns. Four six-panel partition doors (geshanmen 隔扇门) are hung on the central bay under the front and back eaves, and two secondary bays both have windows. There are 34.10 square meters of meticulous and heavily colored Buddhist story murals on the back wall and two gables in the hall. Based on the stele inscription and the art style of the frescos, the mural on the west gable should be painted in Wanli reign period, and the mural on the east gable might be painted during the renovation in the tenth years of Shunzhi reign (1653) (Song Wenqiang 2010, 55). 
+                  </p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>36.38750833 113.620255</geo>
                </location>
@@ -90,6 +97,21 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000063-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">304-305</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000063-3">
+                  <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
+                  <citeRange unit="pp">179-184</citeRange>
+               </bibl>
+               <bibl xml:id="bibl000063-4">
+                  <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+               </bibl>
+               <bibl xml:id="bibl000063-5">
+                  <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
+                  <citedRange unit="pp">52-57</citedRange>
+               </bibl>
                <note type="field-notes">Song dynasty--eleventh century typical of Shangdang</note>
             </place>
             <listRelation>
@@ -98,6 +120,8 @@
                <relation active="https://architecturasinica.org/place/000208" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000208" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000208" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721474134_aed92cb0cb_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721471569_63ace46862_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>
                   <desc>
                      <num>1</num>
                   </desc>

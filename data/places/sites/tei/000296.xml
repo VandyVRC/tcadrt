@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jianfu Monastery <foreign xml:lang="zh-Hant">薦福寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="JP">Jason Pan</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000296/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-04-15:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-04" who="#JP">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000296" type="site">
+               <placeName xml:id="name000296-1" type="site-name" xml:lang="en">Jianfu Monastery</placeName>
+               <placeName xml:id="name000296-2" type="site-name" xml:lang="zh-latn-pinyin">Jianfusi</placeName>
+               <placeName xml:id="name000296-3" type="site-name" xml:lang="zh-Hant">薦福寺</placeName>
+               <placeName xml:id="name000296-4" type="site-name" xml:lang="zh-Hans">荐福寺</placeName> 
+               <placeName xml:id="name0000-3" type="site-name" xml:lang="zh-latn-wadegile">Chien-fu-ssu</placeName>
+               <placeName xml:id="name000285-5" type="alternate" xml:lang="zh-latn-pinyin">Daxianfu Monastery</placeName>
+               <placeName xml:id="name000285-6" type="alternate" xml:lang="zh-Hant">大獻福寺</placeName>
+               <placeName xml:id="name000285-7" type="alternate" xml:lang="zh-Hans">大献福寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000296</idno>
+               <state type="existence" from="0684-01-01" >
+                  <label>Date</label>
+                  <desc>684</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000195-1" from="0618-01-01" to="0907-01-01">
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000296-1"> Jianfu Monastery [South side of the east section of West Youyi Road, Beilin District. Tang, Ming, Qing] Jianfu Monastery was built in the first year of Wenming (684) and was named Daxianfu Monastery. It was placed at the Kaihuafang in the Chang'an City of the Tang Dynasty. In the first year of Tianshou (690), it was renamed Jianfu Monastery. During the Jinglong period, another pagoda courtyard, in the south of the monastery, was established in the Anren subdivision, and the Jianfu pagoda (the small wild goose pagoda) was built. At the end of the Tang Dynasty, the monastery was destroyed by wars, but the tower remained. In the <term subtype="dynasty" ref="/keyword/k000074">Song</term> Dynasty, the pagoda was renamed Shengrongyuan. During  <term subtype="dynasty" ref="/keyword/k000051">Ming</term> and <term subtype="dynasty" ref="/keyword/k000070"></term>Qing, the pagoda courtyard was regarded as Jianfu Monastery until the present. The contemporary Monastery covers an area of about 35,300 square meters, sitting north facing south. Except for the Small Wild Goose Pagoda that remained from the Tang Dynasty, other buildings were built all in Ming and Qing Dynasties or in modern times. Temples are concentrated on the central axis of the mountain gate facing  <placeName ref="/place/0000296a">Small Wild Goose Pagoda</placeName>the small wild goose pagoda.The layout was maintained mostly as its repairing during the Zhengtong period in Ming Dynasty. Behind the South Ren Mountain Gate, there are the ruins of Tianwang Palace, three Cishi Pavilions (two floors), five Daxiong Halls, five Buddhist scripture buildings (two floors), the small goose pagoda, and three Baiyi Pavilions (two floors). On both sides, there is a bell tower, a drum tower, an auxiliary hall, a stele pavilion, and new corridors. The remains included the "Daijianfu Temple Renovated Tower Stele" in the sixth year of the Zhenghe period in the Northern Song Dynasty (1116), the Iron Bell in the third year of the Mingchang period in Jin Dynasty(1192), the “Picture of the Temple Hall of Jianfu Monastery Engraved by Bluestone Lines” drawn at the fourteenth year of the Ming Zhengtong period(1449), the “Refurbishment of the Pagoda Stele of Jianfu Monastery” engraved at the twenty-ninth of Kangxi period in Qing Dynasty(1690), and "The Stele of the Source of Jianfu Monastery" made in the twelfth of Yongzheng period in Qing Dynasty(1734). Among these historical remains, the Jin Dynasty Iron Bell is 3.5 meters high and 2.5 meters in diameter with a weight of more than 10,000 kilograms. The bell was known as the "Morning Bell of the Wild Goose Pagoda" with its magnificent and bright sound quality, which is one of the eight scenic spots in the Guanzhong area. Since 1965, there were relics unearthed such as a statue of a Bodhisattva carved with bluestone of Tang Dynasty in Jianfu Monastery. The repairing and furnishing was continuing in recent sixty years. (See "Wenbo" 1985 Issue 2)</p>
+                  <p source="#bibl000296-2">During the Emperor Zhongzong in the Tang dynasty, he made an edict to set the translation institution of scriptures in the Jianfu Monastery. Since Yijing monk was the chief editor of those translations, it was also called “the Yijing Translation Institution”. This institution was the one of the major translation institutions of Buddhism scriptures during the flourishing Tang dynasty, which was famous around the world with the Cien Monastery Translation Institution directed by Xuanzang and Daxingshan Monastery Translation Institution directed by Bukong monk as the biggest three translation institution in Chang ‘an in the history. The size and level of the Jianfu Monastery Translation Institution were higher than before, with eminent monks and scholars from seven countries assisting the translation. The translation institution was supervised by the left and right prime ministers from the Tang court, which was  quite grand scale in the history. The organization structure was formal and rigorous, and the setting of translation institution, composition of personnel and division of labor are mature and orderly. Many of the classics that came out of Yijing Translation Institution later became an important part of the Tripitaka.
+                  </p>
+               </desc>
+               <desc xml:lang="zh-Hant">
+                  <p>荐福寺［碑林区友谊西路东段南侧．唐、明～清］ 始建于文明元年(684), 名大献福寺，位于唐长安城开化坊。天授元年(690) 易名荐福寺。景龙年间在寺南安仁坊另辟塔院，建造荐福寺塔（即小雁塔）。唐末寺院毁于兵火，惟塔存。宋时，塔院名圣容院；明清时，以塔为荐福寺延至今。现寺院占地面积约3. 53 万平方米，坐北朝南。寺内建筑除唐代小雁塔外，均为明清及近代所建。殿宇集中在山门直对小雁塔的中轴线上，大体保持着明正统年间重修时的布局。南人山门后，依次有天王殿遗址、慈氏阁（二层）三间、大雄宝殿五间、藏经楼（二层）五间、小雁塔、白衣阁（二层）三间，两侧有钟楼、鼓楼、配殿、碑亭和新建长廊等。现存北宋政和六年(1116)“ 大荐福寺修塔碑”、金明昌三年(1192) 铁钟、明正统十四年(1449) 青石线刻荐福寺殿堂图，清康熙二十九年(1 690) “补修荐福寺宝塔碑＂、雍正十二年(1734) "荐福寺来源碑”等。其中金代铁钟高3. 5 米，口径2. 5 米，重万余公斤，以其音质宏亮，誉为＂雁塔晨钟＂，列关中八景之一。1965 年出土有唐代青石线刻菩萨像等遗物。60 年代以来历有修菁。（参见《文博》 1985 年2 期）</p>
+                  <p>唐中宗时，敕令在荐福寺专设“翻经院”，是为荐福寺译场，因由义净担任译主，故亦称“义净译场”。“义净译场”是盛唐时期最主要的佛经译场之一，与玄奘主持的慈恩寺译场、不空主持的大兴善寺译场被称为中国佛经翻译史上著名的“长安三大译场”，闻名海内外。
+荐福寺译场的规格和水平均高于以往，助译人员有来自七个国家的高僧和学者，译场的监译则由朝中左、右丞相担任，规模相当庞大。组织结构正规严谨，译场的设置、人员的组成和分工成熟有序。当年出自“义净译场”的许多经典后来都成为了《大藏经》的重要组成部分。</p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/ux8m6tj8">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/5wppntvr">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/5yt6cbzs">百度百科</ref>
+                  </p>  
+               </note>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/7002084 http://vocab.getty.edu/tgn/8190462">
+                  <placeName>陕西省西安市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shaanxi Xi'an</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                     <placeName xml:lang="zh-Hant">陝西省</placeName>
+                     <placeName xml:lang="zh-Hans">陕西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Xi'an</placeName>
+                     <placeName xml:lang="zh-Hant">西安</placeName>
+                     <placeName xml:lang="zh-Hans">西安</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">市</placeName>
+                     <placeName xml:lang="en">City</placeName>
+                  </region>
+                  <region type="locality">
+                     <placeName xml:lang="zh-latn-pinyin">Beilinqu</placeName>
+                     <placeName xml:lang="zh-Hant">碑林區</placeName>
+                     <placeName xml:lang="zh-Hans">碑林区</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>34.2401 108.9373</geo>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type </label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <bibl xml:id="bibl000296-1">
+                     <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                     <citedRange unit="pp">21</citedRange>
+                  </bibl>
+                  <bibl xml:id="bibl000296-2">
+                        <ptr target="https://architecturasinica.org/bibl/RJJJ6V4B"/>
+                        <citedRange unit="pp">2</citedRange>
+                  </bibl>
+             </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000296"
+                  passive="https://architecturasinica.org/keyword/k000052"
+                  ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000296" ref="dcterms:temporal"
+                  passive="https://dev.architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000296" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51683437094_f84c31b616_4k.jpg"
+                  passive="https://architecturasinica.org/place/000296" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

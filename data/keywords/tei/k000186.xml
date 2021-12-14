@@ -9,22 +9,39 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">不廈兩頭</foreign> bù shàliǎngtóu</title>
+               <foreign xml:lang="zh-Hant">不厦兩頭</foreign> bù shàliǎngtóu</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author">ZHANG Xu 張旭</editor>
+            <editor role="content-author">JIA Tingli 賈亭立</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person">ZHANG Xu張旭</name>
+               <name type="person">JIA Tingli 賈亭立</name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research</resp>
                <name type="team">CMW 2021</name>
             </respStmt>
             <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt> 
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry, adding links 2021 by</resp>
-               <name type="person" xml:id="ZX">ZHANG Xuliang 張序亮</name>
+               <name type="person" xml:id="ZXL">ZHANG Xuliang 張序亮</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -60,21 +77,32 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-09-15">CREATED: record</change>
+         <change n="2.0" when="2021-11-10" who="#HDN">final revision</change>
+         <change n="2.0" when="2021-11-25" who="#TGM">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000186" type="architectural feature">
-            <term xml:id="term-k000186-1" xml:lang="zh-latn-pinyin-nt" type="preferred">bu shaliangtou</term>
-            <term xml:id="term-k000186-2" xml:lang="zh-Hant">不廈兩頭</term>
+            <term xml:id="term-k000186-1" xml:lang="zh-latn-pinyin-nt">bu shaliangtou</term>
+            <term xml:id="term-k000186-2" xml:lang="zh-Hant" source="#biblk000186-1">不厦兩頭</term>
             <term xml:id="term-k000186-3" xml:lang="zh-Hans">不厦两头</term>
-            <term xml:id="term-k000186-4" xml:lang="zh-latn-pinyin">bù shàliǎngtóu</term>
+            <term xml:id="term-k000186-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">bù shàliǎngtóu</term>
             <term xml:id="term-k000186-5" xml:lang="zh-latn-wadegile">pu sha-liang-t'ou</term>
-            <term xml:id="term-k000186-6" xml:lang="en" source="#biblk000186-1">overhanging gable roof</term>
-            <note type="Note (brief)">
-                  See <term ref="/keyword/k000185">shaliangtou 廈兩頭</term>
+            <term xml:id="term-k000186-6" xml:lang="en" source="#biblk000186-2">overhanging gable roof</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000186</idno>
+            
+            <note type="Note (full)">
+              Meaning, literally, "without shaliangtou." See <term ref="/keyword/k000185">shaliangtou 厦兩頭</term>
             </note>
-            <listBibl xml:id="biblk000186-1">
+            <note type="related concepts">
+               <p xml:id="related-concept-k000186-1" xml:lang="zh-Hant" ref="/keyword/k000146">懸山 xúanshān</p>
+            </note>
+            <bibl xml:id="biblk000186-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">91</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000186-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">349</citedRange>
@@ -88,7 +116,6 @@
                   <citedRange unit="pp">11</citedRange>
                </bibl>
             </listBibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000186</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000186" passive="roof types"/>

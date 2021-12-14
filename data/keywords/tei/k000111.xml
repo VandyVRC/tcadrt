@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
-               <name type="team">ATTCAT 2021</name>
+               <name type="team">ATTCAT 2018</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading and revision by</resp>
@@ -61,29 +61,31 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-24">CREATED: record</change>
          <change n="1.0" who="#TGM" when="2020-09-20">Adding ZJ and YB credit lines; adding rough English and citation</change>
+         <change n="1.1" who="#TGM" when="2021-11-16">editing English and citation</change>
+         <change n="1.1" who="#TGM" when="2021-11-16">adding Chinese and tags</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000111" type="architectural feature">
-            <term xml:id="term-k000111-7" xml:lang="zh-latn-pinyin-nt" type="preferred">yanzhu</term>         
+            <term xml:id="term-k000111-7" xml:lang="zh-latn-pinyin-nt">yanzhu</term>         
             <term xml:id="term-k000111-2" xml:lang="zh-Hant">檐柱</term>
             <term xml:id="term-k000111-3" xml:lang="zh-Hans">檐柱</term>
-            <term xml:id="term-k000111-4" xml:lang="zh-latn-pinyin" source="#biblk000111-2">yánzhù</term>
+            <term xml:id="term-k000111-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred" source="#biblk000111-2">yánzhù</term>
             <term xml:id="term-k000111-5" xml:lang="zh-latn-wadegile">yan-chu</term>
             <term xml:id="term-k000111-6" xml:lang="en" type="literal_translation">eaves pillars (lit.)</term>
-            <term xml:id="term-k000111-1" xml:lang="en" type="ATTCAT_preferred" source="#biblk000111-1">eaves pillars (ATTCAT preferred)</term>
-            <note type="Note (brief)">
-               <p xml:lang="en" source="#biblk000111-3">Pillars used to support the eaves, pillars in the outer perimeter of a structure.</p>
+            <term xml:id="term-k000111-1" xml:lang="en" type="ATTCAT_preferred_translation" source="#biblk000111-1">eaves pillars (ATTCAT preferred  translation)</term>
+            <note type="Note (full)">
+               <note type="getty:scopeNote" xml:lang="zh-Hant">
+               <p xml:lang="en" source="#biblk000111-3">Pillars used to support the eaves, usually placed around the outer perimeter of a structure.</p>
                <p xml:lang="en">See <term ref="/keyword/k000102">柱 zhù</term></p>
             </note>
-        
-            <note type="related concepts">
-               <p>
-                  <term ref="/keyword/k000064"> 平柱 píngzhù;</term>
-                  <term ref="/keyword/k000035"> 角柱 jiǎozhù</term>
+            <note type="getty:scopeNote" xml:lang="zh-Hant">
+               <p source="#biblk000111-3">用於支撐外檐的柱子，通常指柱网最外一圈的柱子放置在結構的周圍。
                </p>
+               <p xml:lang="zh-Hant">参见 <term ref="/keyword/k000102">柱 zhù</term></p>
             </note>
+            </note>  
             <note type="related concepts">
                <p xml:id="related-concept-k000111-1" xml:lang="zh-Hant" ref="/keyword/k000064">平柱 píngzhù</p>
                <p xml:id="related-concept-k000111-2" xml:lang="zh-Hant" ref="/keyword/k000035">角柱 jiǎozhù</p>
@@ -95,12 +97,18 @@
             <bibl xml:id="biblk000111-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">437</citedRange>
-            </bibl>  
+            </bibl> 
             
-            <bibl xml:id="biblk000111-3">
+            <listBibl xml:id="biblk000111-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">437</citedRange>
+               </bibl>  
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">88</citedRange>
-            </bibl>  
+            </bibl>
+            </listBibl>
             
             <idno type="URI">https://architecturasinica.org/keyword/k000111</idno>
             <listRelation>

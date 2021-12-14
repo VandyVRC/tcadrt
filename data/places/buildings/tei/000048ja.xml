@@ -76,7 +76,7 @@
                   <desc>Ming 1368 - 1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ja-1">Bantong Ting is also called the Dushu Tai or Reading Terrace.The first Reading Terrace is said to have been built further up Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the <term subtype="dynasty" ref="/keyword/k000051">Ming Jiajing period (1548)</term>. Located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north.This structure is number ja on our plan of the site.</p>
+                  <p source="#bibl000048ja-1">Bantong Ting is also called the Dushu Tai or Reading Terrace.The first Reading Terrace is said to have been built further up Xuanweng Mountain on Huanxi Peak 歡喜岭 at the place where <persName ref="https://tinyurl.com/3ba47nfd">Yang Yin 楊愔</persName> of the  <term subtype="dynasty" ref="/keyword/k000054">Northern Qi</term> (550-577) read. According to Liu Dapeng, the Reading Terrace was originally built in the 27th year of the Ming Jiajing period (1548). Located between the <placeName ref="/place/000048ka">Ancestor Lü Ge-Pavilion</placeName> on its south and the <placeName ref="/place/000048ha">Triple Terrace Ge-Pavilion</placeName> on its north.This structure is number ja on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -103,7 +103,7 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                <relation active="https://architecturasinica.org/place/000048ja" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/> 
                <relation ana="contained" active="https://architecturasinica.org/place/000048ja" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
