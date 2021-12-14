@@ -57,7 +57,7 @@
                <placeName xml:id="name000298-4" type="site-name" xml:lang="zh-Hant">懸空寺</placeName>
                <placeName xml:id="name000298-5" type="site-name" xml:lang="zh-Hans">悬空寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000298</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000298-1" from="0386-01-01" to="0534-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000298-3" from="0386-01-01" to="0534-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Wei 386 - 534</desc>
                </state>
@@ -111,6 +111,10 @@
                <bibl xml:id="bibl000298-2">
                   <ptr target="https://architecturasinica.org/bibl/6AXFXE8X"/>
                   <citedRange unit="pp">114</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000298-3">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
