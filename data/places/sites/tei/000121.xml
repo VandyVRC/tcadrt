@@ -20,7 +20,7 @@
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <name type="person" ref="#SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -140,6 +140,9 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000121" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000121" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000026" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51733215335_c6e4b26df9.jpg"
+                  passive="https://architecturasinica.org/place/000121" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
