@@ -9,6 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +17,10 @@
             <respStmt>
                <resp>adding citation</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +54,7 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="3.0" who="#ZYY" when="2021-12-15">Adding descriptions</change>
       </revisionDesc>
    </teiHeader>
    <text>
