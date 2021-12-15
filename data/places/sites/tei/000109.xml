@@ -122,6 +122,9 @@
                <relation active="https://architecturasinica.org/place/000109" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000109" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000109" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51725194696_5941382233.jpg"
+                  passive="https://architecturasinica.org/place/000109" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
