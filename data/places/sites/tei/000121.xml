@@ -16,11 +16,11 @@
             </respStmt>
             <respStmt>
                <resp>Initial research 2021 by</resp>
-               <name type="person">WANG Beining 王贝宁</name>
+               <name type="person" xml:id="WBN">WANG Beining 王贝宁</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <name type="person" ref="#SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
                <resp>Editing and proof correction by</resp>
@@ -60,6 +60,7 @@
             Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name>
          </change>
+         <change n="3.0" who="#WBN" when="2021-12-15-04:00">adding site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -79,6 +80,11 @@
                   <label>Dynasty</label>
                   <desc>Five Dynasties 907 - 960</desc>
                </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000121-2">Zhenguo Monastery is located at Haodong village, Xianghuan township, 14 km northeast of Pingyao, Shanxi. It was originally named Jingcheng Monastery (京城寺), built in the seventh year of Northern Han’s Tianhui Reign period (963), and partially repaired in the third year of the Jin Dynasty’s Tiande Period (1151). The Celestial Kings Hall (Tianwangdian 天王殿) and Three Buddhas Tower (Sanfodian 三佛樓) were rebuilt in the Yuan and Ming periods and received some repairs during the Yongzheng, Qianlong, and Jiaqing periods (1723-1821) of the Qing Dynasty. The monastery received  its current name in the nineteenth year of the Ming Dynasty’s Jiajing Period.</p>
+                  <p source="#bibl000121-3">It has a north-south orientation with the entry facing south and a two courtyard arrangement. The Celestial Kings Hall, Ten-thousand Buddhas Hall and Three Buddhas Tower sit on the central axis. Bell tower, drum tower, Guanyin Hall (Guanyindian 觀音殿), and Dizang Hall (地藏殿) were built on the sides, in addition to monastic complexes located west of the temple.</p>
+                  <p source="#bibl000121-2">Among the extant buildings, only the Ten-thousand Buddhas Hall was built during the Five Dynasties period. The rest of the buildings are dated to the Ming and Qing periods. There are eleven Five Dynasty period sculptures, eleven Ming and Qing period sculptures, 150 square meters of Ming and Qing wall paintings, one iron bell from the fifth year of Jin Dynasty’s Huangtong period (1145), twelve Ming and Qing period steles, and 6 stone tablets. Among them, “the Half Stele” (Banjiebei, 半截碑) can be dated to the Northern Han of the Five Dynasties period.</p>
+               </desc>
                <note type="External Links">      
                   <p>
                      <ref target="https://en.wikipedia.org/wiki/Zhenguo_Temple">Wikipedia (in English)</ref>
@@ -122,10 +128,21 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11</citedRange>
                </bibl>
+               <bibl xml:id="bibl000121-2">
+                  <ptr target="https://architecturasinica.org/bibl/XETXHXWJ"/>
+                  <citedRange unit="pp">788-789</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000121-3">
+                  <ptr target="https://architecturasinica.org/bibl/XWWSZLNT"/>
+                  <citedRange unit="pp">101-103</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000121" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000121" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000026" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51733215335_c6e4b26df9.jpg"
+                  passive="https://architecturasinica.org/place/000121" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
