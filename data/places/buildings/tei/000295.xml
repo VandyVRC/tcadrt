@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <teiHeader>
         <fileDesc>
@@ -62,22 +62,20 @@
                     <placeName xml:id="name000295-3" type="building-name" xml:lang="zh-Hans">大慈恩寺</placeName>
                     <placeName xml:id="name000295-4" type="building-name" xml:lang="zh-latn-pinyin">Dàcíēnsì</placeName>
                     <placeName xml:id="name000295-5" type="building-name" xml:lang="zh-latn-wadegile">Ta-tz’u-en-szu</placeName>
-                    <idno type="URI">https://architecturasinica.org/place/000295</idno>
+                    <placeName xml:id="name000295-6" xml:lang="en">Ci'ensi</placeName>
+                    <placeName xml:id="name000295-7" type="building-name" xml:lang="zh-Hant">慈恩寺</placeName>
                     <state type="existence" from="0648-01-01" to="0648-01-01">
                         <label>Date</label>
                         <desc>648</desc>
                     </state>
-                    <state type="existence" subtype="dynasty" source="#bibl000295-2" from="0618-01-01" to="0907-01-01">
+                    <state type="existence" subtype="dynasty" source="#bibl000295-4" from="0618-01-01" to="0907-01-01">
                         <label>Dynasty</label>
                         <desc>Tang</desc>
                     </state>
                     <desc type="building-data" xml:lang="en">
-                        <p source="#bibl000295-2"> Daci’en Monastrary, also known as Ci’ensi or Daci’ensi, is the ancestral court of Buddhism Faxiangzong (also known as Weishizong). In the 22nd year of Tang Zhenguan (648), Prince Li Zhi built Ci’en Monastery in Jinchangfang, Chang'an City of Tang Dynasty, in memory of his deceased mother, Empress Wende, and then invited Xuanzang to move to this newly completed Monastery. In its heyday, there were more than 10 courtyards and 1,897 halls. The eminent monk Xuanzang was the prime minister of temple affairs, and he set up the temple as an unprecedented scale of Buddhist scripture translation field, presided over the translation of 74 scriptures in 1335 volumes. 
-                            
-                        <p source="#bibl000295-1"> In order to store the Buddhist scriptures brought back from India, Xuanzang presided over the construction of a brick tower in the west courtyard of the temple in the third year of Yonghui (652). When Wu Zong Huichang five years (845) destroyed the Buddhist temple, he expressly ordered the protection of Ci'en Monastery. At the end of the Tang Dynasty, the temple was destroyed by military fire, and since the Song Dynasty, it has been repeatedly repaired, but the scale of the temple is only limited to the area around the tower. Except for the tower, the existing buildings were built in the Qing Dynasty and modern times, covering an area of about 62,000 square meters and facing the south. 
-                        
-                        <p source="#bibl000295-1"> From the south of the central axis, there are Mountain Gate, Mahāvīra Treasure Hall, Dharma Hall, Big Wild Goose Pagoda, on both sides there are bell towers, drum towers, east and west halls and wing rooms. The stupa forest is located on the east side of the monastery. There are 198 inscriptions of Tang, Ming, Qing, and Republic of China, as well as scripture towers, iron bells, bronze statues of Buddha, clay statues, and architectural components. Daci’en Monastery was further repaired in 1963.    
-                        </p>
+                        <p source="#bibl000295-1"> In the 22nd year of the Tang Zhenguan reign period (648), crown prince and later Gaozong Li Zhi (649-683) built Daci’en Monastery, also known as Ci’ensi or Daci’ensi, in Jinchangfang, Chang'an, the capital of the Tang Dynasty. Although built in memory of his deceased mother, Empress Wende (601-636), after its completion he invited the eminent monk Xuanzang (602–664) to establish a translation center there(Wong Dorothy 2018 p#10). In its heyday, there were more than 10 courtyards and 1,897 halls. Xuanzang was the prime minister of temple affairs, and he set up the temple at an unprecedented scale, presiding over the translation of 74 scriptures in 1335 volumes. Because of Xuanzang’s association with this monastery, it is considered to be the ancestral cloister of Faxiang (also known as Weishi) Buddhism(Chang,Yao 1988 p#36-79).</p>
+                       <p source="#bibl000295-2"> In order to store the Buddhist scriptures brought back from India, Xuanzang presided over the construction of a brick tower in the west courtyard of the temple in the third year of the Yonghui reign period (652). Although Wuzong (814-846) ordered the suppression of Buddhism in the fifth year of the Huichang reign period (845), he expressly ordered the protection of Ci'en Monastery. The temple was destroyed in the battles at the end of the Tang Dynasty, and since the Song Dynasty, it has been repeatedly repaired, but the scale of the temple today is limited to the area around the tower. Except for the pagoda, the extant buildings were built in the Qing Dynasty and modern times, covering an area of about 62,000 square meters and oriented facing the south.</p>
+                       <p source="#bibl000295-3">On the central axis, from the south to north, there are the Mountain Gate, Mahāvīra Treasure Hall, Dharma Hall, and Great Wild Goose Pagoda. Framing the courtyards on either side are bell towers, drum towers, east and west halls and wing rooms. A pagoda forest (talin 塔林) is located on the east side of the monastery. There are 198 inscriptions from the Tang, Ming, Qing, and Republican Period as well as scripture towers, iron bells, bronze Buddhist statues, clay statues, and architectural components. Daci’en Monastery was further repaired in 1963.</p>
                     </desc>
                     <trait type="type" sub-type="building type">
                         <label>Type</label>
@@ -89,29 +87,60 @@
                     <listBibl xml:id="bibl000295-1">
                         <bibl>
                             <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
-                            <citedRange unit="pp">198</citedRange> /记得改页数/
+                            <citedRange unit="pp">45</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/SJTJC8M3"/>
+                            <citedRange unit="pp">10</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/SJTJC8M3"/>
+                            <citedRange unit="pp">22-48</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/THQMV45S"/>
+                            <citedRange unit="pp">36-79</citedRange>                            
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/IHT4K5KA"/>
+                            <citedRange unit="pp">82-120</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/THQMV45S"/>
+                            <citedRange unit="pp">36-79</citedRange>
                         </bibl>
                     </listBibl>
                     <listBibl xml:id="biblk000295-2">
                         <bibl>
-                            <ptr target="https://architecturasinica.org/bibl/SJTJC8M3"/>
-                            <citedRange unit="pp">12</citedRange> /记得改页数/
+                            <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                            <citedRange unit="pp">45</citedRange>
                         </bibl>
                         <bibl>
-                            <ptr target="https://architecturasinica.org/bibl/VEW6L2RT"/>
-                            <citedRange unit="pp">3-5</citedRange>
+                            <ptr target="https://architecturasinica.org/bibl/SJTJC8M3"/>
+                            <citedRange unit="pp">22-48</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="biblk000295-3">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                            <citedRange unit="pp">45</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="biblk000295-4">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                            <citedRange unit="pp">12</citedRange>
                         </bibl>
                     </listBibl>
                 </place>
                 <listRelation>
                     <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
+                        active="https://www.flickr.com/photos/oowen1985/7565448924/"
                         passive="https://architecturasinica.org/place/000295" ana="featured"/>
                     <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/50597499127_95e9008019_b.jpg"
+                        active="https://www.flickr.com/photos/dcpetit/37408332314/"
                         passive="https://architecturasinica.org/place/000295" ana="featured"/>
-                    <relation active="https://architecturasinica.org/place/000295" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
-                    <relation ana="contained" active="https://architecturasinica.org/place/000295" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+                    <relation active="https://architecturasinica.org/place/000295" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                 </listRelation>
             </listPlace>
         </body>
