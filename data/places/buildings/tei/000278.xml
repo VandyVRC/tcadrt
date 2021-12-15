@@ -79,7 +79,11 @@
                   <desc>Later Han 947 - 950</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="bibl000278-4">Ten-thousand Buddhas Hall (Wanfodian)is the main hall of Zhenguo Monastery. It is  one of China’s three remaining wooden structures from the Five Dynasties Period. The building is three-bays wide and six-rafters deep with a single eaves hip-gable roof. The hall layout is approximately square measuring 11.57 by 10.77 meters at the base, supported by 12 columns with no interior columns.</p><p source="bibl000278-3">The roof is supported by both column-top and intercolumnar bracket sets. The intercolumnar sets extend out of the wall plane as far as the luohanfang. The outer eaves bracket sets have a total height of 1.85 meters.</p><p source="bibl000278-2">The column-top bracket sets have seven layers with two perpendicular bracket arms (huagong 華栱) and two descending ang  (xia’ang 下昂). The intercolumnar bracket sets have five layers and two perpendicular bracket arms with touxinzao.</p><p source="bibl000278-3">The columns slope slightly towards the center of the building (cejiao 側角) and have smaller diameters close to the top (juansha 卷殺) with a height and diameter ratio of 7.5:1.</p><p source="bibl000278-3">The roof of the hall adopts an open frame structure. The lowest tie beam is a six-rafter beam joined by a rough-finished six-rafter beam on top. On top of the rough-finished six-rafter beam is a four-rafter beam supported by lingong. Directly above the linggong, the pingliang  is supported by the camel’s hump braces. A short post (shuzhu 蜀柱) in the middle of the pingliang supports the roof pole. The shuzhu is stabilized with an inverted V-shape chashou 叉手, and the beams are supported by other side braces.</p>
+                  <p source="bibl000278-4">Ten-thousand Buddhas Hall (Wanfodian)is the main hall of Zhenguo Monastery. It is  one of China’s three remaining wooden structures from the Five Dynasties Period. The building is three-bays wide and six-rafters deep with a single eaves hip-gable roof. The hall layout is approximately square measuring 11.57 by 10.77 meters at the base, supported by 12 columns with no interior columns.</p>
+                  <p source="bibl000278-3">The roof is supported by both column-top and intercolumnar bracket sets. The intercolumnar sets extend out of the wall plane as far as the luohanfang. The outer eaves bracket sets have a total height of 1.85 meters.</p>
+                  <p source="bibl000278-2">The column-top bracket sets have seven layers with two perpendicular bracket arms (<term subtype="architectural-feature" ref="/keyword/k000172>huagong 華栱</term>) and two descending ang  (xia’ang 下昂). The intercolumnar bracket sets have five layers and two perpendicular bracket arms with touxinzao.</p>
+                  <p source="bibl000278-3">The columns slope slightly towards the center of the building (cejiao 側角) and have smaller diameters close to the top (juansha 卷殺) with a height and diameter ratio of 7.5:1.</p>
+                  <p source="bibl000278-3">The roof of the hall adopts an open frame structure. The lowest tie beam is a six-rafter beam joined by a rough-finished six-rafter beam on top. On top of the rough-finished six-rafter beam is a four-rafter beam supported by lingong. Directly above the linggong, the pingliang  is supported by the camel’s hump braces. A short post (shuzhu 蜀柱) in the middle of the pingliang supports the roof pole. The shuzhu is stabilized with an inverted V-shape chashou 叉手, and the beams are supported by other side braces.</p>
                   <p source="bibl000278-2">The altar occupies half of the area of the hall with a “凹” shape on the floor plan. There are eleven sculptures on the altar, all dated to the Northern Han’s Tianhui Period (957-973). Shakyamuni Buddha sits with Padmasana on a Sumeru-shaped platform  in the center, his hands in the dharmachakra-mudrā. The face is plump with trimmed eyebrows and thin eyes. The two disciples Ananda and Mahakasyapa and the four bodhisattvas stand on the two sides of the Buddha. All the sculptures are painted with life-like color and their clothing is  reminiscent of Tang style.</p>
                </desc>
                <location type="gps" subtype="preferred">
@@ -133,8 +137,16 @@
                   </desc>
                </relation>
                <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/k000172" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000278" passive="https://architecturasinica.org/keyword/k000139" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000278" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/Later-Han" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000278" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000121"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51732316696_f408e08391.jpg"
+                  passive="https://architecturasinica.org/place/000278" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51732308276_4029cd43c8.jpg"
+                  passive="https://architecturasinica.org/place/000121" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
