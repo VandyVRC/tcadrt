@@ -6,20 +6,15 @@
             <title level="a" xml:lang="en">Xuankongsi <foreign xml:lang="zh-Hant">懸空寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <respStmt>
-               <resp when="2021-12-12">Writeup in 2021 by</resp>
-               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
-            </respStmt>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" xml:id="ZAL">LI Zhixian 李知賢</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
-               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+               <resp>Initial research, data entry, and adding external links by</resp>
+               <name type="person" when="2021-12-12" ref="#ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,7 +44,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2021-12-12-04:00">CREATED: place record</change>
+         <change n="1.0" when="2021-12-12-04:00" who="#ZAL">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,22 +57,23 @@
                <placeName xml:id="name000298-4" type="site-name" xml:lang="zh-Hant">懸空寺</placeName>
                <placeName xml:id="name000298-5" type="site-name" xml:lang="zh-Hans">悬空寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000298</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000298-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000298-3" from="0386-01-01" to="0534-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Wei 386 - 534</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000298-1">Occupying a total area of 30 square meters and oriented facing eastward , Xuankongsi (懸空寺) is an icon of the Mount Heng (恆山) area. Its name derived from its location on a cliff that stands between Mount Heng and Cuiping Peak (翠屏峰). The earliest construction of Xuankongsi dates back to the Northern Wei (北魏) dynasty. The site underwent significant renovations and additions during the Ming and Qing dynasties, whereby it assumed its current form. With forty bays of pavilions, palaces, and halls organized into a rectangular courtyard complex ten meters in length and three meters in width, the Xuankongsi complex can be divided into three sections – the monastery cloister (siyuan 寺院)the southern tower (nanlou南樓), and the northern tower (beilou北樓), all of which assume a different height from the ground level to conform to the overall geographical shape of the cliff. </p>
+                  <p source="#bibl000298-1">Occupying a total area of 30 square meters and oriented facing eastward , Xuankongsi (懸空寺) is an icon of the Mount Heng (恆山) area. Its name derived from its location on a cliff that stands between Mount Heng and Cuiping Peak (翠屏峰). The earliest construction of Xuankongsi dates back to the <term ref="/keyword/k000056">Northern Wei (北魏)</term> dynasty. The site underwent significant renovations and additions during the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, whereby it assumed its current form. With forty bays of pavilions, palaces, and halls organized into a rectangular courtyard complex ten meters in length and three meters in width, the Xuankongsi complex can be divided into three sections – the monastery cloister (siyuan 寺院)the southern tower (nanlou 南樓), and the northern tower (beilou 北樓), all of which assume a different height from the ground level to conform to the overall geographical shape of the cliff. </p>
                   <p source="#bibl000298-2">The support structure of the Xuankongsi complex involves dozens of wooden beams underneath it. Soaked in tung oil (桐油) to prevent corrosion and worms, the beams were joined into mortise holes, whose depths are roughly half of the length of the beams, that are chiseled into the cliffside. The use of this timber joinery system not only supports the weight of the Xuankongsi complex, it is also believed to counteract the damage of natural disasters, such as earthquakes. </p>
                </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://en.wikipedia.org/wiki/Hanging_Temple">Wikipedia (in English)</ref>
-                  <p>
-                     <ref target="https://zh.wikipedia.org/wiki/%E6%82%AC%E7%A9%BA%E5%AF%BA">Wikipedia (in Chinese)</ref>
                   </p>
                   <p>
-                     <ref target="https://baike.baidu.com/item/%E6%82%AC%E7%A9%BA%E5%AF%BA/11323">百度百科</ref>
+                     <ref target="https://tinyurl.com/2r82kfvp">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/ycy4m8e7">百度百科</ref>
                   </p>
                </note>
                <location type="nested" source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
@@ -100,7 +96,6 @@
                </location>
                <location type="gps" subtype="preferred">
                   <geo>39.659831 113.708298</geo>
-                  The location comes from GoogleEarth.
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type </label>
@@ -116,6 +111,10 @@
                <bibl xml:id="bibl000298-2">
                   <ptr target="https://architecturasinica.org/bibl/6AXFXE8X"/>
                   <citedRange unit="pp">114</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000298-3">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                </bibl>
             </place>
             <listRelation>
