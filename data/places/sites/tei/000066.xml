@@ -9,6 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +17,10 @@
             <respStmt>
                <resp>adding external links</resp>
                <name type="person" xml:id="SZ"> SUN Zheng </name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +54,7 @@
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
          <change when="2020-09-10">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" who="#ZYY" when="2021-12-15">Adding descriptions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,6 +67,10 @@
                <placeName xml:id="name000066-4" type="site-name" xml:lang="zh-Hant">南禪寺</placeName>
                <placeName xml:id="name000066-5" type="site-name" xml:lang="zh-Hans">南禅寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000066</idno>
+               <desc type= "site-data" xml:lang="en">
+                  <p source="#bibl000066-2">Located in Wutai County of Shanxi province, China, Nanchan Monastery 南禪寺 was established as a Buddhist monastery in the <term ref="/keyword/k000082">Tang dynasty</term>. (Guojiawenwuju 2006, 578). This small monastery was relatively unimportant for worship in the past, so its construction history was rarely mentioned in literature. Nevertheless, its initial establishment is reliably dated by the inscriptions on two interior pillars in the great hall to the Tang Dynasty, with restorations documented in the stone steles inscriptions from the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties located at the site (Qi and Chai 1980, 61). Still freestanding today, Nanchan Monastery’s obscurity and remoteness actually prevented it from being destroyed in the largest ever purge of Buddhism in China in 845 under the Tang Emperor Wuzong (Qi and Chai 1980, 61). The <term ref="/place/000214">great hall 大殿 </term>in the monastery is dated to the third year of Tang Jianzhong reign period (唐建中三年, 782) and is the oldest extant timber-frame structure in China (Chai 1999A, 353).</p>
+                  <p source="#bibl000066-3">Nanchan Monastery is north-south oriented and divided into east and west areas (Gao 2001, 16). There are six extant buildings in the current building complex among which only the great hall was constructed in Tang dynasty, and the rest are reconstructed structures from Ming and Qing dynasties (Chai 1999A, 353). The building complex is very small in scale, 51.3 meters from front to back, 60 meters across, covering an area of 3078 square meters (Guojiawenwuju 2006, 578). The primary west section is a single <term ref="/keyword/k000012">courtyard</term> whose central axis passes through the Guanyin Hall (Mountain Gate) 觀音殿(山門), and then the great hall 大殿 consecutively (Guojiawenwuju 2006, 578). The Bodhisattva Hall 菩薩殿 and the Longwang Hall 龍王殿 from Ming dynasty respectively lie on the two sides of the courtyard (Guojiawenwuju 2006, 578). The monastery’s east section includes Luohan Hall 羅漢殿, Vihāra Hall 伽藍殿, three Yanwang Halls 閻王殿, and six residence cells on the left-most side (Chai 1999A, 353). The great hall houses seventeen polychrome statues and wall paintings for worship uses and one small stone pagoda which are all made in the Tang dynasty (Guojiawenwuju 2006, 578).</p>
+               </desc> 
                <state type="existence" subtype="dynasty" source="#bibl000066-1" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
@@ -108,11 +118,42 @@
                      <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                      <citedRange unit="pp">12</citedRange>
                   </bibl>
+               <listBibl xml:id="bibl000066-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/2KPHKIIW"/>
+                     <citedRange unit="pp">578</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/ZFI98EVV"/>
+                     <citedRange unit="pp">61</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/B26FJRIY"/>
+                     <citedRange unit="pp">353</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000066-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EBJ8GF4F"/>
+                     <citedRange unit="pp">16</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/B26FJRIY"/>
+                     <citedRange unit="pp">353</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/2KPHKIIW"/>
+                     <citedRange unit="pp">578</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000066" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000066" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000066" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51745333348_c4fb137e8f_h.jpg"
+                  passive="https://architecturasinica.org/place/000066" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
