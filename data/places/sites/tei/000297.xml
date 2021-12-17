@@ -69,16 +69,16 @@
                    <desc>Tang 618-907</desc>
                   </state>
                <desc type="site-data">
-                  <p xml:lang="en" source = "#bibl000297-1">The Tianning Monastery is a Buddhist monastery complex located in Xicheng district, Beijing.
+                  <p xml:lang="en" source = "#bibl000297-1"> The Tianning Monastery is a Buddhist monastery complex located in Xicheng district, Beijing.
                      Although historical records usually date the Tianning Monastery to the <term ref="/keyword/k000056">Northern Wei</term> period, 
                      the contemporary scholar Wang Shiren writes that the monastery was first built in the <term ref="/keyword/k000082">Tang dynasty</term>
-                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (Wang, 9). The octagonal pagoda still 
-                  extant today was constructed during the Tianqing reign of the <term ref="/keyword/k000047">Liao dynasty</term> in 1120 (Wang and Wang, 80). 
+                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (1996, 9). The octagonal pagoda still 
+                  extant today was constructed during the Tianqing reign of the <term ref="/keyword/k000047">Liao dynasty</term> in 1120 (Wang and Wang 2011, 80). 
                   Later records show that the monastery was destroyed at the end of the Liao dynasty and rebuilt by Emperor 
                   Yongle (r. 1402 - 1424) of the <term ref="/keyword/k000051">Ming dynasty</term> while he was the Prince of Yan. The monastery was 
                   renamed Tianningsi in the tenth year of the Xuande reign (1435) of the Ming dynasty. 
                   The buildings standing today date to another reconstruction in the twenty-first year of Qianlong (1756) of 
-                     <term ref="/keyword/k000070">Qing</term> with additional renovations from 1938 (Wang, 12).
+                     <term ref="/keyword/k000070">Qing</term> with additional renovations from 1938 (Wang 1996, 12).
                   </p>
                </desc>
                <note type="External Links">
@@ -107,22 +107,20 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <bibl xml:id="bibl000297-1">
+               <listbibl xml:id="bibl000297-1">
                   <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                   <citedRange unit="pp">III:1099,126–C1-3</citedRange>
-               </bibl>
+               </listbibl>
                      <bibl xml:id="bibl000297-2">
                         <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                         <citedRange unit="pp">12</citedRange>
                      </bibl>
             </place>
-            
             <relation active="https://architecturasinica.org/place/000297" 
                passive="https://architecturasinica.org/keyword/k000052" 
                ref="dcterms:subject" ana="site-type"/>
             <relation active="https://architecturasinica.org/place/000297" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-
             <relation ref="foaf:depicts"
                active="https://live.staticflickr.com/65535/51721696542_322c2a64b1_k.jpg"
                   passive="https://architecturasinica.org/place/000297" ana="featured"/>
