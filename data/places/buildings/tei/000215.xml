@@ -8,7 +8,8 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <editor role="page-creator">Tracy Miller</editor> 
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -49,6 +50,7 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="3.0" when="2021-12-16" who="#HDN">Added site information</change>
       </revisionDesc>
    </teiHeader>
    <text>
