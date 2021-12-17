@@ -61,10 +61,13 @@
                <placeName xml:id="name000297a-4" type="building-name" xml:lang="zh-latn-pinyin">Tiānníngsì tǎ</placeName>
                <placeName xml:id="name000297a-5" type="building-name" xml:lang="zh-latn-wadegile">T’ien-ning-ssu-t’a</placeName>
                <idno type="URI">https://architecturasinica.org/place/000297a</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000297a-3" from="1119-01-01"
-                  to="1120-01-01">
+               <state type="existence" from="1119-01-01" to="1120-12-31">
+                  <label>Date</label>
+                  <desc>1119 - 1129</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000297a-3" from="916-01-01" to="1125-12-31">
                   <label>Dynasty</label>
-                  <desc>Liao 916 - 1125</desc>
+                  <desc>Liao 916-1125</desc>
                </state>
                <desc type="building-data">
                   <p xml:lang="en" source="#bibl000297a-1">The Tianning Monastery Pagoda is an octagonal stone and brick pagoda 
@@ -72,9 +75,8 @@
                      in the <term ref = "/keyword/k000047">Liao dynasty</term>. A Liao stele found at the top of the pagoda
                      documents its construction in 1119 supervised by prince Chun, 
                      a military general of the Liao military, under the decree of Emperor Tianzuo, and the 
-                     construction was completed in 1120 (Wang and Wang 80). The finial (baoding) of the pagoda 
-                     was a <term ref = "/keyword/k000070">Qing dynasty</term> reconstruction. 
-                     The Tianningsi Pagoda is an octagonal stone and brick pagoda with thirteen eaves constructed in the miyan (密檐, meaning “closely-piled eaves” (Lin 2016, 111) style in the Liao dynasty (916-1125) . A Liao stele found at the top of the Tianningsi Pagoda documents its construction in 1119 (天祚十年) supervised by prince Chun, a military general of the Liao military, under the decree of Emperor Tianzuo, and the construction was completed in 1120 (Wang and Wang 2011, 80). The finial (baoding) of the pagoda was a Qing dynasty reconstruction. 
+                     construction was completed in 1120 (Wang and Wang 2011, 80). The finial (baoding) of the pagoda 
+                     was a <term ref = "/keyword/k000070">Qing dynasty</term> reconstruction (Wang 1996, 10. 
                   </p>
                   <p xml:lang="en" source="#bibl000297a-2">
                      Although the center is now offset due to later renovations, 
@@ -92,9 +94,7 @@
                      with two steps of huagong (五铺作双抄) (Wang 1996, 13). The forty-five degree angle bracket arms (huagong) at the 
                      corners are also characteristic of late Liao wooden structures. The eaves are topped with glazed tiles (liuliwa) 
                      dating to distinct periods, and plate tiles (banwa) were also found dating to the Liao dynasty (Wang 1996, 12).
-                     
                   </p>
-                  
                </desc>   
                <location type="gps" subtype="preferred">
                   <geo>39.894167 116.346111</geo>
@@ -108,16 +108,16 @@
                </trait>
                <listBibl xml:id="bibl000297a-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/VZ3BCZ76"/>
-                     <citedRange unit="pp">40</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/EGGYVYY5"/>
+                     <citedRange unit="pp">111</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/ZXZBG7W5"/>
-                     <citedRange unit="pp">accessed March 28, 2021</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/QNU7AKR9"/>
+                     <citedRange unit="pp">80</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/XJRT73BY"/>
-                     <citedRange unit="pp">83</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/VVFZG6KV"/>
+                     <citedRange unit="pp">12</citedRange>
                   </bibl>
                </listBibl>
                <listBibl xml:id="bibl000297a-2">
