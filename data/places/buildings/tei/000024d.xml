@@ -74,7 +74,7 @@
                   <label>Date</label>
                   <desc>unknown</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000024c-4" from="0916-01-01" to="1125-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000024d-6" from="0916-01-01" to="1125-01-01">
                   <label>Dynasty</label>
                   <desc>Reconstructed in Liao 916 - 1125</desc>
                </state>
@@ -149,6 +149,10 @@
                   <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                   <citedRange unit="pp">54, 55</citedRange>
                </bibl>
+               <bibl xml:id="bibl000024d-6">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl> 
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
