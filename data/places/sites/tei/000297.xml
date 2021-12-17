@@ -108,13 +108,19 @@
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
                <listbibl xml:id="bibl000297-1">
-                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">III:1099,126–C1-3</citedRange>
+                  <bibl>                  
+                     <ptr target="https://architecturasinica.org/bibl/VVFZG6KV"/>
+                     <citedRange unit="pp">9-12</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/QNU7AKR9"/>
+                     <citedRange unit="pp">80</citedRange>
+                  </bibl>
                </listbibl>
-                     <bibl xml:id="bibl000297-2">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                     </bibl>
+                <bibl xml:id="bibl000297-2">
+                 <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
             </place>
             <listRelation>
             <relation active="https://architecturasinica.org/place/000297" 
