@@ -11,13 +11,16 @@
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <editor role="data entry" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <respStmt>
-               <resp>Editing, proof correction, data entry and revision by</resp>
+               <resp>proof correction and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
-               <name type="person" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, data entry, adding images, and adding citations</resp>
+               <name type="person" when="2021-12-14" ref="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,13 +65,13 @@
                <placeName xml:id="name000207-3" type="building-name" xml:lang="zh-Hans">西配殿</placeName>
                <placeName xml:id="name000207-4" type="building-name" xml:lang="zh-latn-pinyin">xī pèidiàn</placeName>
                <placeName xml:id="name000207-5" type="site-name" xml:lang="zh-latn-wadegile">hsi p`ei-tien</placeName>
-               <placeName xml:id="name000207-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longmensi Xipeidian</placeName>
+               <placeName xml:id="name000207-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longmensi west side hall</placeName>
                <placeName xml:id="name000207-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">龍門寺西配殿</placeName>
                <placeName xml:id="name000207-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">龙门寺西配殿</placeName>
-               <placeName xml:id="name000207-11" type="alternate">Xipeidian</placeName>
-               <placeName xml:id="name000207-12" type="alternate" xml:lang="en">Fahua Monastery</placeName>
-               <placeName xml:id="name000207-13" type="alternate" subtype="site-name" xml:lang="zh-Hant">法華寺</placeName>
-               <placeName xml:id="name000207-14" type="alternate" subtype="site-name" xml:lang="zh-Hans">法华寺</placeName>
+               <placeName xml:id="name000207-11" type="alternate">Longmensi xī pèidiàn</placeName>
+               <placeName xml:id="name000207-12" type="alternate" xml:lang="en">Guanyin Tang</placeName>
+               <placeName xml:id="name000207-13" type="alternate" subtype="site-name" xml:lang="zh-Hant">觀音堂</placeName>
+               <placeName xml:id="name000207-14" type="alternate" subtype="site-name" xml:lang="zh-Hans">观音堂</placeName>
                <idno type="URI">https://architecturasinica.org/place/000207</idno>
                <state type="existence" from="0925-01-01" to="0925-01-01">
                   <label>Date</label>
@@ -77,12 +80,12 @@
                <state type="existence" subtype="dynasty" source="#bibl000207-1" from="0923-01-01" to="0936-01-01">
                   <label>Dynasty</label>
                   <desc>Later Tang 923 - 936</desc>
-                  <desc type="building-data" xml:lang="en">
-                     <p source="#bibl000063-2">
-                        West Side Hall, also known as Guanyin Hall, is the oldest structure with an <term ref="/keyword/k000146">overhanging-gable roof (xuanshan 悬山顶)</term> as well as the earliest side hall extant in China (Miller 2011, 179). According to both the early structural characteristics and inscriptions, it was constructed in the third year of Tongguang reign period in the Later Tang Dynasty (925) (Miller 2011, 179). The base of the hall is made of stone with a height of 0.20 meters. The hall is three <term ref="/keyword/k000149">bays</term> wide and four rafters deep — 9.87 meters across the front facade and 6.8 meters across the side facade — with a single-eave overhanging-gable roof (xuanshan 悬山顶) (Miller 2011, 179). Inside of the hall, the four <term ref="/keyword/k000107">rafters (chuanfu 椽栿)</term> connect the front and back eaves. On top of the rafters, there are <term ref="/keyword/k000133">camel's-hump-shaped braces (tuofeng 驼峰)</term> and large <term ref="/keyword/k000157">bearing block</term> (dadou 大斗) to support the <term ref="/keyword/k000139">level cross beam (pingliang 平梁)</term>. The front <term ref="/keyword/k000111">eaves pillars (yanzhu 檐柱)</term> are built into the front wall. The tops of the columns are rounded with a gentle narrowing. The tie beam through the top of the columns (<term ref="/keyword/k000038">Lan’e 阑额 </term>) is placed between the pillars with no tie beam on top of the columns (<term ref="/keyword/k000067">Pupaifang 普拍枋</term>). The Lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars without <term ref="/keyword/k000105">intercolumnar bracketing (bujian puzuo 补间铺作)</term>. The central bay under the front eaves has a single-panel door (banmen 板门) and the secondary bay has a window. Both the door and the window are slightly smaller than later generations (Guojia wenwuju 2006, 304). 
+               </state>
+                  <desc type="building-data" xml:lang="en"> 
+                     <p source="#bibl000063-1">
+                        West Side Hall, also known as Guanyin Hall (Guanyin tang 觀音堂), is the oldest structure with an <term ref="/keyword/k000146">overhanging-gable roof (xuanshan 懸山頂)</term> as well as the earliest side hall extant in China (Miller 2011, 179). According to both the early structural characteristics and inscriptions, it was constructed in the third year of Tongguang reign period in the Later Tang Dynasty (925) (Miller 2011, 179). The base of the hall is made of stone with a height of 0.20 meters. The hall is three <term ref="/keyword/k000149">bays</term> wide and four rafters deep — 9.87 meters across the front facade and 6.8 meters across the side facade — with a single-eaves overhanging-gable roof (xuanshan 懸山頂) (Miller 2011, 179). Inside of the hall, the four-<term ref="/keyword/k000107">rafter</term> beams (sichuanfu 四椽栿) connect the front and back eaves. On top of the rafters, there are <term ref="/keyword/k000133">camel's-hump-shaped braces (tuofeng 駝峰)</term> and large <term ref="/keyword/k000157">bearing blocks</term> (dadou 大斗) to support the <term ref="/keyword/k000139">level cross beam (pingliang 平梁)</term>. The front <term ref="/keyword/k000111">eaves pillars (yanzhu 簷柱)</term> are built into the front wall. The tops of the columns are rounded with a gentle narrowing (juansha 卷殺). The tie beam through the top of the columns (<term ref="/keyword/k000038">lan’e 闌額</term>) is placed between the pillars with no tie beam on top of the columns (<term ref="/keyword/k000067">Pupaifang 普拍枋</term>). The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars without <term ref="/keyword/k000105">intercolumnar bracketing (bujian puzuo 补间铺作)</term>. The central bay under the front eaves has a single-panel door (banmen 板门) and the secondary bay has a window. Both the door and the windows are slightly smaller than in later periods (Guojia wenwuju 2006, 304). 
                      </p>
                   </desc>  
-               </state>
                <location type="gps" subtype="preferred">
                   <geo>36.387495 113.6201617</geo>
                </location>
@@ -96,24 +99,26 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000207-1">
+               <listBibl xml:id="bibl000063-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">304-305</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
+                     <citedRange unit="pp">179-184</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
+                     <citedRange unit="pp">52-57</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000063-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000063-2">
-                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">304-305</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000063-3">
-                  <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
-                  <citeRange unit="pp">179-184</citeRange>
-               </bibl>
-               <bibl xml:id="bibl000063-4">
-                  <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
-               </bibl>
-               <bibl xml:id="bibl000063-5">
-                  <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
-                  <citedRange unit="pp">52-57</citedRange>
                </bibl>
                <!-- <note type="field-notes">925: earliest subsidiary building</note> -->
             </place>
