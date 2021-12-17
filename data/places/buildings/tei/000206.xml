@@ -19,7 +19,7 @@
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>adding content</resp>
+               <resp>Editing, data entry</resp>
                <name type="person" when="2021-12-14" ref="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -79,8 +79,8 @@
                   <desc>Jin 1115 - 1234</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000063-2">
-                     [Jin Dynasty] The base of the hall is made of stone with a height of 1.5 meters. The hall is three bays wide and four rafters deep with a single-eave <term ref="/keyword/k000146">overhanging-gable roof (xuanshan 悬山顶)</term>.  Inside of the hall, there are four <term ref="/keyword/k000107">rafters (chuanfu 椽栿)</term> and the space are equally divided into two parts by three columns (fenxincao 分心槽). The tops of the <term ref="/keyword/k000111">eaves pillars (yanzhu 檐柱)</term> are rounded with a sharp narrowing. On top of the front eaves pillar, there are 5-<term ref="/keyword/k000013">puzuo (铺作)</term><term ref="/keyword/k000019"> bracket sets (dougong 斗拱)</term> with double <term ref="/keyword/k000178">descending cantilever (xia ang 下昂)</term>. On the other hand, the back eaves pillar only has single <term ref="/keyword/k000103">cantilever (ang 昂)</term> and single perpendicular bracket arm (chaogong 抄栱). There is only one <term ref="/keyword/k000105">intercolumnar bracketing (bujian puzuo 补间铺作)</term> in the <term ref="/keyword/k000153">central bay (dangxinjian 当心间)</term>. The Door and windows are built under the front eaves. The central bay has a single-panel door (banmen 板门) and the two secondary bays have mullioned windows (zhilingchuang 直棂窗). 
+                  <p source="#bibl000063-1">
+                     The base of the Jin dynasty Celestial Kings Hall  is made of stone with a height of 1.5 meters. The hall is three bays wide and four rafters deep with a single-eave <term ref="/keyword/k000146">overhanging-gable roof (xuanshan 懸山頂)</term>.  Inside of the hall, there are four <term ref="/keyword/k000107">rafters (chuanfu 椽栿)</term> and the space are equally divided into two parts by three columns (fenxincao 分心槽). The tops of the <term ref="/keyword/k000111">eaves pillars (yanzhu 簷柱)</term> are rounded with a sharp narrowing or entasis (juansha 卷殺). The front eaves pillars support  5-<term ref="/keyword/k000013">puzuo (鋪作)</term> <term ref="/keyword/k000019">bracket sets (dougong 斗拱)</term> with double <term ref="/keyword/k000178">slanted arma  (xia’ang 下昂)</term>. On the other hand, the back eaves pillars only support single <term ref="/keyword/k000103">slaned arms (ang 昂)</term> and single perpendicular bracket arm (chaogong 抄栱). There is only one <term ref="/keyword/k000105">intercolumnar bracketing (bujian puzuo 補間鋪作)</term> in the  <term ref="/keyword/k000153">central bay (dangxinjian 當心間)</term>. The Door and windows are built under the front eaves. The central bay has a single-panel door (banmen 板門) and the two secondary bays have mullioned windows (zhilingchuang 直欞窗). 
                   </p>
                </desc>  
                <location type="gps" subtype="preferred">
@@ -96,24 +96,26 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000206-1">
+               <listBibl xml:id="bibl000063-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">304-305</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
+                     <citedRange unit="pp">179-184</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
+                     <citedRange unit="pp">52-57</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000063-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000063-2">
-                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                  <citedRange unit="pp">304-305</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000063-3">
-                  <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
-                  <citeRange unit="pp">179-184</citeRange>
-               </bibl>
-               <bibl xml:id="bibl000063-4">
-                  <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
-               </bibl>
-               <bibl xml:id="bibl000063-5">
-                  <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
-                  <citedRange unit="pp">52-57</citedRange>
                </bibl>
                <!-- <note type="field-notes">Jin dynasty with fan brackets</note> -->
             </place>
