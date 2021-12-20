@@ -13,12 +13,16 @@
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="SL">Sophia Liu</editor>
             <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
                <resp>Initial research 2021 by</resp>
                <name type="person" ref="#SL">Sophia Liu</name>
             </respStmt>
             <respStmt>
-               <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -86,7 +90,7 @@
                   <p><ref target="https://en.wikipedia.org/wiki/Tianning_Temple_(Beijing)">Wikipedia (in English)</ref></p>
                   <p><ref target="https://tinyurl.com/2p8394x3">百度百科</ref></p>
                </note>
-               <location type="nested">
+               <!--<location type="nested">
                   <country>China</country>
                   <region type="county-city">
                      <placeName xml:lang="zh-latn-pinyin">Beijing</placeName>
@@ -96,7 +100,7 @@
                      <placeName xml:lang="zh-Hant">西城區</placeName>
                      <placeName xml:lang="en">Xicheng District</placeName>
                   </region>
-               </location>
+               </location>-->
                <location type="gps" subtype="preferred">
                   <geo>39.894167 116.346111</geo>
                </location>
