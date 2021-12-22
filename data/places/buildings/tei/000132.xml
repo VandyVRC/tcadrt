@@ -7,12 +7,12 @@
             <title level="a" xml:lang="en">Baoguo Monastery, Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">保國寺大雄寶殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="EYC">Yue Chen</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="EYC">Yue Chen</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -94,25 +94,27 @@
                </trait>
                <desc type="site-data" xml:lang="en">
                   <p source="#bibl000132-2">
-                     The Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿) is part of a Buddhist Monastery that is dedicated to the worship of Shakyamuni Buddha. The Mahāvīra Treasure Hall in the Baoguo Monastery was first built in the <term subtype="dynasty" ref="/keyword/k000074">Song Dynasty</term> (year 1013) and originally had a single hip-gable roof, and the building was three bays in width and depth (Guo 2003, 72). During reconstruction in the <term subtype="dynasty" ref="/keyword/k000070">Qing Dynasty</term>, two rows of pillars were added to the front, left, and right of the building to create a double-eaves <term subtype="keyword" ref="/keyword/k000143">hip-gable roof</term> and expand the building to seven bays in width and 6 bays in depth. Only one row of pillars was added to the back because of the sloping site’s sloping topography (Yang 1987, 50). The roof of the building is supported by an <term subtype="keyword" ref="/keyword/k000107">eight-rafter beam structure</term>. The transverse roof frame extends eight rafters using a three-rafter beam in the front bay, a three-rafter beam in the central bay, and a <term subtype="keyword" ref="/keyword/k000140">rufu tie beam (乳栿)</term> spanning two rafters in the back (中国文物局 2010, 117). These are all supported using three pillars from front to back. All sixteen of the pillars supporting Mahāvīra Treasure Hall are melon-shaped with six different variations in how much of the circumference is actually melon-shaped. This is significant in Chinese architectural history because Baoguo Monastery Mahāvīra Treasure Hall’s pillars are the only remaining examples of the Song Dynasty’s melon-shaped pillar combination technique (Guo 2003, 72). Another important artifact of the Mahāvīra Treasure Hall is the painting on the <term subtype="keyword" ref="/keyword/k000038">lan'e (闌額)</term>. The painting follows the “Seven Red Eight White” (七朱八白）method outlined in the <term ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</term> (營造法式, 1103). Similar painting techniques are seen in stone buildings from the Song Dynasty.
+                     The Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿) is part of a Buddhist Monastery that is dedicated to the worship of Shakyamuni Buddha. The Mahāvīra Treasure Hall in the Baoguo Monastery was first built in the <term subtype="dynasty" ref="/keyword/k000074">Song Dynasty</term> (year 1013) and originally had a single hip-gable roof, and the building was three bays in width and depth (Guo 2003, 77). During reconstruction in the <term subtype="dynasty" ref="/keyword/k000070">Qing Dynasty</term>, two rows of pillars were added to the front, left, and right of the building to create a double-eaves <term subtype="keyword" ref="/keyword/k000143">hip-gable roof</term> and expand the building to seven bays in width and 6 bays in depth. Only one row of pillars was added to the back because of the sloping site’s sloping topography (Yang 1987, 50). The roof of the building is supported by an <term subtype="keyword" ref="/keyword/k000107">eight-rafter beam structure</term>. The transverse roof frame extends eight rafters using a three-rafter beam in the front bay, a three-rafter beam in the central bay, and a <term subtype="keyword" ref="/keyword/k000140">rufu tie beam (乳栿)</term> spanning two rafters in the back (中国文物局 2010, 117). These are all supported using four pillars from front to back. All sixteen of the pillars supporting the original Mahāvīra Treasure Hall are melon-shaped, with six different variations in how much of the circumference is actually melon-shaped. This is significant in Chinese architectural history because Baoguo Monastery Mahāvīra Treasure Hall’s pillars are the earliest remaining timber examplest of the melon-shaped pillar combination technique. Similar pillars are seen in stone buildings from the Song Dynasty. (Guo 2003, 86). Another important artifact of the Mahāvīra Treasure Hall is the painting on the <term subtype="keyword" ref="/keyword/k000038">lan'e (闌額)</term>. The painting follows the “Seven Red Eight White” (七朱八白）method outlined in the <term ref="https://en.wikipedia.org/wiki/Yingzao_Fashi">Yingzao fashi</term> (營造法式, 1103).
                   </p>
                </desc>
                <bibl xml:id="bibl000132-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <bibl xml:id="bibl000004-2">
+               <listBibl xml:id="bibl000004-2">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
                   <citedRange unit="pp">117</citedRange>
                </bibl>
-               <bibl xml:id="bibl000004-3">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/DI7DFN93"/>
                   <citedRange unit="pp"></citedRange>
                </bibl>
-               <bibl xml:id="bibl000004-4">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/4QN3JM97"/>
                   <citedRange unit="pp">46-52</citedRange>
                </bibl>
+               </listBibl>
                <!--note type="field-notes">Early 11th cen. Example of style in YZFS; Dated to 1013 in later inscription on stauary platform</note-->
             </place>
             <listRelation>
