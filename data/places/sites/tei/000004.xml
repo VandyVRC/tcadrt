@@ -22,7 +22,7 @@
                <name type="person" xml:id="ML">Melanie Lu</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
+               <resp>research and data entry</resp>
                <name type="person" ref="#EYC">Yue Chen</name>
             </respStmt>
          </titleStmt>
@@ -55,42 +55,41 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-10">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data entry</change>
+         <change when="2020-09-10">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="3.0" who="#EYC" when="2021-12-16-04:00">adding data and images</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000004" type="site">
-               <placeName xml:id="name000004-1" type="site-name" xml:lang="en">Baoguo Monastery</placeName>
-               <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin">Bǎoguósì</placeName>
-               <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-latn-wadegile">Pao-kuo-ssu</placeName>
+               <placeName xml:id="name000004-1" type="site-name" xml:lang="en">Baoguo
+                  Monastery</placeName>
+               <placeName xml:id="name000004-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Bǎoguósì</placeName>
+               <placeName xml:id="name000004-3" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Pao-kuo-ssu</placeName>
                <placeName xml:id="name000004-4" type="site-name" xml:lang="zh-Hant">保國寺</placeName>
                <placeName xml:id="name000004-5" type="site-name" xml:lang="zh-Hans">保国寺</placeName>
-               <placeName xml:id="name000004-6" type="alternate" xml:lang="en">Lingshansi Monastery</placeName>
-               <placeName xml:id="name000004-7" type="alternate" xml:lang="zh-latn-pinyin">Língshānsì</placeName>
-               <placeName xml:id="name000004-8" type="alternate" xml:lang="zh-latn-wadegile">Ling-shan-ssu</placeName>
+               <placeName xml:id="name000004-7" type="alternate" xml:lang="zh-latn-pinyin"
+                  >Língshānsì</placeName>
                <placeName xml:id="name000004-9" type="alternate" xml:lang="zh-Hant">靈山寺</placeName>
                <placeName xml:id="name000004-10" type="alternate" xml:lang="zh-Hans">灵山寺</placeName>
-               <placeName xml:id="name000004-11" type="alternate" xml:lang="en">Jingjin Monastery</placeName>
-               <placeName xml:id="name000004-12" type="alternate" xml:lang="zh-latn-pinyin">Jīngjìn sì</placeName>
-               <placeName xml:id="name000004-13" type="alternate" xml:lang="zh-latn-wadegile">Jīngjìn-ssu</placeName>
-               <placeName xml:id="name000004-14" type="alternate" xml:lang="zh-Hant">精進寺</placeName>
-               <placeName xml:id="name000004-15" type="alternate" xml:lang="zh-Hans">精进寺</placeName>
+               <placeName xml:id="name000004-12" type="alternate" xml:lang="zh-latn-pinyin"
+                  >Jīngjìnyuàn</placeName>
+               <placeName xml:id="name000004-14" type="alternate" xml:lang="zh-Hant">精進院</placeName>
+               <placeName xml:id="name000004-15" type="alternate" xml:lang="zh-Hans">精进院</placeName>
                <idno type="URI">https://architecturasinica.org/place/000004</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000004-1" from="0025-01-01"
-                  to="1912-01-01">
-                  <label>Dynasty</label>
-                  <desc>Eastern Han to Qing 25-1912</desc>
+               <state type="existence" source="#bibl000004-1" notBefore="0025-01-01">
+                  <desc>Founded in the Eastern Han (25-220 CE)</desc>
                </state>
-               <note type= "National Cultural Heritage Administration Number 全國重點文物保護單位編號">
-                  <p> 
+               <note type="National Cultural Heritage Administration Number 全國重點文物保護單位編號">
+                  <p>
                      <ref target="https://tinyurl.com/tpz24ks">1-0090-3-043</ref>
                   </p>
                </note>
-               <note type= "external links">
+               <note type="external links">
                   <p>
                      <ref target="https://tinyurl.com/yxxur8ok">Wikipedia (in Chinese)</ref>
                   </p>
@@ -127,33 +126,68 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000004-2">
-                     The Baoguo Monastery in Zhejiang, Ningbo is a historic Buddhist monastery protected by the National Cultural Heritage Administration. The original date of the site’s founding is unknown, but the complex was later destroyed in the year 845, rebuilt in 880, and named Baoguosi (Baoguo Monestary). In addition, the building name was once changed to 精進寺 in the 1065. Baoguo Monastery is nestled in Ling Mountain (Lingshan 靈山) between the Xiangbi Peak (Xiangbifeng 象鼻峰) and Shiyan Peak (Shiyanfeng 獅岩峰), and only the south side is exposed to downhill. The monastery itself is also surrounded by water: Ci River (Cijiang 慈江) runs at the foot of the mountain and eight streams cross through the mountain. The building complex is roughly oriented north-south, and is more precisely sitting northwest and facing southeast (Xu 2014, 72). It is symmetrical along the central axis with the exception of a few smaller buildings attached to the west and east sides of the complex. Throughout the <term subtype="dynasty" ref="../keyword/k000074">Song Dynasty</term>, new buildings were constructed while maintaining symmetry around the existing central axis. By the <term subtype="dynasty" ref="../keyword/k000076">Southern Song Dynasty</term> (南宋, 1127-1279), the complex’s layout was similar to the style of the Five Mountains and Ten Monasteries“五山十剎” defined by the Imperial Court (Guo 2003, 94). The most drastic reconstructions were done during the time of <term subtype="dynasty" ref="../keyword/k000051">Ming</term>-<term subtype="dynasty" ref="../keyword/k000070">Qing</term> (明清) and the layout is similar to common Ming-Qing Buddhist monasteries. The central axis of the complex is now preserved  in the three steps progression, moving from bottom to top, the Celestial Kings Hall (Tianwangdian 天王殿), <placeName ref="/place/000132">Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿)</placeName>, then the Dharma Hall (fatang 法堂) and sutra repository tower (cangjinglou 藏經樓) along the central axis (Guo 2003, 93). The living areas outside that of the Buddhist ritual spaces did not aim for symmetry and enjoyed relative freedom in their layout. 
-                  </p>
+               <desc type="site-data" source="#bibl000004-2" xml:lang="en">
+                  <p> Baoguo Monastery is located in Ningbo, Zhejiang, and is a historic Buddhist
+                     monastery protected by the National Cultural Heritage Administration. The
+                     complex is nestled in the Ling Mountains (Lingshan 靈山) between Xiangbi Peak
+                     (Xiangbifeng 象鼻峰) and Shiyan Peak (Shiyanfeng 獅岩峰), and the south side is
+                     exposed to a downhill slope. The monastery itself is also surrounded by water:
+                     the Ci River (Cijiang 慈江) runs at the foot of the mountain and eight streams
+                     cross through the mountain. The building complex is roughly oriented
+                     north-south, and is more precisely sitting northwest and facing southeast (Xu
+                     and Qiu 2014, 72). It is symmetrical along the central axis with the exception
+                     of a few smaller buildings attached to the west and east sides of the
+                     complex.</p>
+                  <p>Following the 1805 Baoguosi zhi 保國寺志, Guo Daiheng relates the legendary
+                     founding of the monastery as Lingshansi 靈山寺 in the <term ref="/keyword/k000020"
+                        >Eastern Han</term> dynasty. This complex was destroyed in the Huichang
+                     suppression of Buddhism from 842-845. When it was rebuilt in 880 it was renamed
+                     Baoguosi (Baoguo Monastery). In 1064 the complex received an official plaque
+                     bearing the name Jingjin Cloister (Jingjinyuan 精進院). Throughout the <term
+                        subtype="dynasty" ref="/keyword/k000074">Song Dynasty</term>, new buildings
+                     were constructed while maintaining symmetry around the existing central axis.
+                     By the <term subtype="dynasty" ref="/keyword/k000076">Southern Song</term>, the
+                     complex’s layout was similar to the style of the Five Mountains and Ten
+                     Monasteries “五山十剎” defined by the Imperial Court, however only the structures
+                     currently extant from the Song dynasty are the <placeName ref="/place/000132"
+                        >Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿)</placeName> and Pure Land Pool
+                     (Jingtuchi 淨土池) (Guo 2003, 2-18). Drastic reconstructions were done during the
+                        <term subtype="dynasty" ref="../keyword/k000051">Ming</term>-<term
+                        subtype="dynasty" ref="../keyword/k000070">Qing</term> (明清) period and the
+                     current layout is in keeping with many Ming-Qing Buddhist monasteries. The
+                     central axis of the complex is now preserved in a three-step progression,
+                     moving from bottom to top, there is the Celestial Kings Hall (Tianwangdian
+                     天王殿), <placeName ref="/place/000132">Mahāvīra Treasure Hall (Daxiongbaodian
+                        大雄寶殿)</placeName>, then the Dharma Hall (fatang 法堂) and sutra repository
+                     tower (cangjinglou 藏經樓) along the central axis. The living areas outside that
+                     of the Buddhist ritual spaces did not aim for symmetry and enjoyed relative
+                     freedom in their layout. </p>
                </desc>
-               <note source="#bibl000004-1">Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880
+               <!--Notes: look for 1102 date on 佛座上, Founded E. Han, destroyed 845, rebuilt in 880
                   and named Baoguosi; 1065 called 精进寺, 净土池 excavated in Southern Song. 3/4/1961
                   under protection. Some difference between Magellan and google earth Lat/Lon
                   readings: 29˚ 58.98' N (Magellan) / 29˚ 58' 57.10" N (google earth 9/2009)and 121˚
                   31.01' E (Magellan) / 121˚ 30' 57.99" E (google earth)-compare to satellite
                   photo</note>
+                   -->
                <bibl xml:id="bibl000004-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">11-12</citedRange>
                </bibl>
-               <bibl xml:id="bibl000004-2">
-                  <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
-                  <citedRange unit="pp">117</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000004-3">
-                  <ptr target="https://architecturasinica.org/bibl/DI7DFN93"/>
-                  <citedRange unit="pp"></citedRange>
-               </bibl>
-               <bibl xml:id="bibl000004-4">
-                  <ptr target="https://architecturasinica.org/bibl/AVWHAE7B"/>
-                  <citedRange unit="pp">72-74</citedRange>
-               </bibl>
+               <listBibl xml:id="bibl000004-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/NV2DMTTC"/>
+                     <citedRange unit="pp">117</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/DI7DFN93"/>
+                     <citedRange unit="pp">2-76</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/AVWHAE7B"/>
+                     <citedRange unit="pp">72-74</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000004"
@@ -165,9 +199,6 @@
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/49695142941_5bcccac0ba_h.jpg"
-                  passive="https://architecturasinica.org/place/000004" ana="featured"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/4701/25454733887_d6bbb2db46_b.jpg"
                   passive="https://architecturasinica.org/place/000004" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51752814835_5ef9b8ff3f_b.jpg"
