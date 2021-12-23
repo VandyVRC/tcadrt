@@ -9,20 +9,24 @@
             <title level="a" xml:lang="en">Jianfu Monastery <foreign xml:lang="zh-Hant">薦福寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="JP">Jason Pan</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>page creation by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial translation in 2021 by</resp>
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
-            </respStmt>
-            <respStmt>
-               <resp>Initial research 2021 by</resp>
-               <name type="person">Jason Pan</name>
-            </respStmt>
-            <respStmt>
-               <resp>Editing and proof correction by</resp>
-               <name type="person" ref="#JP">Jason Pan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -68,23 +72,25 @@
                <placeName xml:id="name000285-6" type="alternate" xml:lang="zh-Hant">大獻福寺</placeName>
                <placeName xml:id="name000285-7" type="alternate" xml:lang="zh-Hans">大献福寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000296</idno>
-               <state type="existence" from="0684-01-01" >
+               <state type="existence" notBefore="0684-01-01" >
                   <label>Date</label>
                   <desc>684</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000195-1" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang 618 - 907</desc>
+                  <desc>Tang - post-Qing</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000296-1"> 
-                     Jianfu Monastery is located on the south side of the east section of West Youyi Road, in the Beilin District of Xi’an. It contains artifacts from the Tang, Ming, Qing dynasties. Built in the first year of the Tang Wenming (684) reign period it originally named Daxianfu Monastery and contained within the Kaihuafang of Tang dynasty Chang'an. In the first year of the Tianshou (690) reign period, it was renamed Jianfu Monastery. During the Jinglong period(707-710), the Jianfu pagoda(the Small Wild Goose Pagoda) was established in the Anren subdivision south of the monastery. At the end of the Tang Dynasty, the monastery was destroyed by wars, but the tower remained. In <term subtype="dynasty" ref="/keyword/k000074">Song</term> Dynasty, the pagoda was renamed Shengrongyuan. During <term subtype="dynasty" ref="/keyword/k000051">Ming</term> and <term subtype="dynasty" ref="/keyword/k000070"></term>Qing, the pagoda courtyard was regarded as Jianfu Monastery until the present. The contemporary Monastery covers an area of about 35,300 square meters, sitting north facing south. Except for the Tang dynasty Small Wild Goose Pagoda, other buildings were built all in Ming and Qing Dynasties or in modern times. Temples are concentrated on the central axis of the mountain gate facing <placeName ref="/place/0000296a">Small Wild Goose Pagoda</placeName>. The layout was maintained mostly as its was after the Ming Zhengtong period renovation. Behind the southern Mountain Gate, there are the ruins of Tianwang Palace, a two-story Cishi Pavilions three bays wide(two floors), a five-bay Daxiong Hall, a five-bay Buddhist scripture repository of two stories(two floors), the Small Goose Pagoda, and a three-bay Baiyi Pavilions of two stories. On either side, there is a bell tower, a drum tower, auxiliary halls, stele pavilions, and new corridors. The remains included the "Daijianfu Temple Renovated Tower Stele" in the sixth year of the Zhenghe period in the Northern Song Dynasty (1116), an Iron Bell in the third year of the Mingchang period in Jin Dynasty(1192), and an the “Image of the Temple Hall of Jianfu Monastery Engraved in Limestone” drawn at the fourteenth year of the Ming Zhengtong period(1449), the “Restoration of the Jianfu Monastery Pagoda of Stele” engraved at the twenty-ninth year of Kangxi reign period in the Qing Dynasty(1690), and "The Stele of the Origin of the Jianfu Monastery" from the twelfth year of the Qing Yongzheng reign period(1734). Among these historical remains, the Jin Dynasty Iron Bell is one of the most important. It is 3.5 meters high and 2.5 meters in diameter with a weight of more than 10,000 kilograms. The bell was known as the "Morning Bell of the Wild Goose Pagoda" with its magnificent and bright sound quality, which is one of the eight scenic spots in the Guanzhong area.Since 1965, a number of relics unearthed in Jianfu Monastery, such as a statue of a limestone statue of a Bodhisattva from Tang Dynasty. The repairing and furnishing was continuing in recent sixty years. (See "Wenbo" 1985 Issue 2)</p>
+                  <p  source="#bibl000296-1"> 
+                     Jianfu Monastery is located in the Beilin District of Xi’an and contains artifacts from the Tang, Ming, and Qing dynasties. Built in the first year of the Tang Wenming (684) reign period it was originally named Daxianfu Monastery and contained within the Kaihuafang of Tang dynasty Chang'an. In the first year of the Tianshou (690) reign period, it was renamed Jianfu Monastery. During the Jinglong period (707-710), the <placeName ref="/place/000296a">Jianfu pagoda</placeName> (the Small Wild Goose Pagoda 小雁塔) was established in the Anren subdivision south of the monastery. At the end of the Tang Dynasty, the monastery was destroyed by wars, but the tower remained. In the <term subtype="dynasty" ref="/keyword/k000074">Song</term> Dynasty, the pagoda was renamed Shengrongyuan 聖容院. From the <term subtype="dynasty" ref="/keyword/k000051">Ming</term> and <term subtype="dynasty" ref="/keyword/k000070"></term>Qing dynasties until today the pagoda cloister itself was considered to be Jianfu Monastery.</p>
+                  <p  source="#bibl000296-1">The contemporary monastery covers an area of about 35,300 square meters, sitting north facing south. Except for the Tang dynasty Small Wild Goose Pagoda, other buildings were all built in the Ming and Qing Dynasties or in modern times. The main buildings are mostly clustered between the mountain gate in the south and the <placeName ref="/place/0000296a">Small Wild Goose Pagoda</placeName> in the north. From the southern Mountain Gate to the Small Wild Goose Pagoda, the layout of buildings along the central axis retains that of the Ming Zhengtong period (1436-1450) renovation. North of the Mountain Gate, there are the ruins of the Celestial Kings Hall (Tianwangdian 天王殿), a three-bay, two-story Cishi Pavilion (Cishige 慈氏閣), a five-bay Mahavira Treasure Hall (Daxiong baodian 大雄寶殿), a five-bay, two-story sutra repository, the Small Wild Goose Pagoda, and a three-bay, two-story Baiyi Pavilion (Baiyige 白衣閣). On either side there are a bell tower, a drum tower, auxiliary halls, stele pavilions, and new corridors. The remains include the "Daijianfu Temple Renovated Tower Stele" from the sixth year of the Song Zhenghe reign period (1116), an iron bell from the third year of the Jin Mingchang reign period (1192), and an “Image of the Temple Hall of Jianfu Monastery Engraved in Limestone” drawn in the fourteenth year of the Ming Zhengtong reign period (1449), the “Restoration of the Jianfu Monastery Pagoda Stele” engraved in the twenty-ninth year of the Qing Kangxi reign period (1690), and "The Stele of the Origin of the Jianfu Monastery" from the twelfth year of the Qing Yongzheng reign period (1734). Among these historical remains, the Jin Dynasty Iron Bell is one of the most important. It is 3.5 meters high and 2.5 meters in diameter with a weight of more than 10,000 kilograms. The bell was known as the "Morning Bell of the Wild Goose Pagoda" with its magnificent and bright sound quality, which is one of the eight scenic spots in the Guanzhong area. Since 1965, a number of relics have been unearthed in Jianfu Monastery, such as a statue of a limestone statue of a Bodhisattva from the Tang Dynasty. Renovations have continued over the past sixty years. (See "Wenbo" 1985 Issue 2)</p>
                   <p source="#bibl000296-2">Tang Emperor Zhongzong sent down an edict to establish a scripture the translation institute in Jianfu Monastery. Because the monk Yijing was the chief editor of those translations, it was also called “the Yijing Translation Institute.” This institution was the one of the major translation institutions of Buddhism scriptures during the High Tang dynasty and was famous as around the world as the Ci’en Monastery Translation Institution directed by Xuanzang and Daxingshan Monastery Translation Institution directed by the monk Bukong. These were known as the biggest three largest translation institution in the history of Chang ‘an. At this point the Jianfu Monastery Translation Institution was at its peak, with eminent monks and scholars from seven countries assisting the translation. Supervised by the left and right prime ministers from the Tang court, many of the classics that came out of the Yijing Translation Institution later became an important part of the Tripitaka.</p>
                </desc>
-               <desc xml:lang="zh-Hant">
-                  <p>荐福寺［碑林区友谊西路东段南侧．唐、明～清］ 始建于文明元年(684), 名大献福寺，位于唐长安城开化坊。天授元年(690) 易名荐福寺。景龙年间在寺南安仁坊另辟塔院，建造荐福寺塔（即小雁塔）。唐末寺院毁于兵火，惟塔存。宋时，塔院名圣容院；明清时，以塔为荐福寺延至今。现寺院占地面积约3. 53 万平方米，坐北朝南。寺内建筑除唐代小雁塔外，均为明清及近代所建。殿宇集中在山门直对小雁塔的中轴线上，大体保持着明正统年间重修时的布局。南人山门后，依次有天王殿遗址、慈氏阁（二层）三间、大雄宝殿五间、藏经楼（二层）五间、小雁塔、白衣阁（二层）三间，两侧有钟楼、鼓楼、配殿、碑亭和新建长廊等。现存北宋政和六年(1116)“ 大荐福寺修塔碑”、金明昌三年(1192) 铁钟、明正统十四年(1449) 青石线刻荐福寺殿堂图，清康熙二十九年(1 690) “补修荐福寺宝塔碑＂、雍正十二年(1734) "荐福寺来源碑”等。其中金代铁钟高3. 5 米，口径2. 5 米，重万余公斤，以其音质宏亮，誉为＂雁塔晨钟＂，列关中八景之一。1965 年出土有唐代青石线刻菩萨像等遗物。60 年代以来历有修菁。（参见《文博》 1985 年2 期）</p>
+              <!--<desc xml:lang="zh-Hant">
+                  <p>荐福寺［碑林区友谊西路东段南侧．唐、明～清］ 始建于文明元年(684), 名大献福寺，位于唐长安城开化坊。天授元年(690) 易名荐福寺。景龙年间在寺南安仁坊另辟塔院，建造荐福寺塔（即小雁塔）。唐末寺院毁于兵火，惟塔存。宋时，塔院名圣容院；明清时，以塔为荐福寺延至今。现寺院占地面积约3. 53 万平方米，坐北朝南。寺内建筑除唐代小雁塔外，均为明清及近代所建。殿宇集中在山门直对小雁塔的中轴线上，大体保持着明正统年间重修时的布局。南人山门后，依次有天王殿遗址、慈氏阁（二层）三间、大雄宝殿五间、藏经楼（二层）五间、小雁塔、白衣阁（二层）三间，两侧有钟楼、鼓楼、配殿、碑亭和新建长廊等。现存北宋政和六年(1116)“ 大荐福寺修塔碑”、金明昌三年(1192) 铁钟、明正统十四年(1449) 青石线刻荐福寺殿堂图，清康熙二十九年(1 690) “补修荐福寺宝塔碑＂、雍正十二年(1734) "荐福寺来源碑”等。其中金代铁钟高3. 5 米，口径2. 5 米，重万余公斤，以其音质宏亮，誉为＂雁塔晨钟＂，列关中八景之一。1965 年出土有唐代青石线刻菩萨像等遗物。60 年代以来历有修菁。（参见《文博》 1985 年2 期）</p> Direct quote from the ZGWWDTJ, do not publish
                   <p>唐中宗时，敕令在荐福寺专设“翻经院”，是为荐福寺译场，因由义净担任译主，故亦称“义净译场”。“义净译场”是盛唐时期最主要的佛经译场之一，与玄奘主持的慈恩寺译场、不空主持的大兴善寺译场被称为中国佛经翻译史上著名的“长安三大译场”，闻名海内外。荐福寺译场的规格和水平均高于以往，助译人员有来自七个国家的高僧和学者，译场的监译则由朝中左、右丞相担任，规模相当庞大。组织结构正规严谨，译场的设置、人员的组成和分工成熟有序。当年出自“义净译场”的许多经典后来都成为了《大藏经》的重要组成部分。</p>
                </desc>
+                 --> 
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/ux8m6tj8">Wikipedia (in Chinese)</ref>
@@ -99,10 +105,11 @@
                <location type="nested"
                   source="http://vocab.getty.edu/tgn/7002084 http://vocab.getty.edu/tgn/8190462">
                   <placeName>陕西省西安市</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Shaanxi Xi'an</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Xi'an, Shaanxi</placeName>
                   <country>China</country>
-                  <region type="province">
-                     <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
+                 <!--  
+                    <region type="province">
+                   <placeName xml:lang="zh-latn-pinyin">Zhejiang</placeName>
                      <placeName xml:lang="zh-Hant">陝西省</placeName>
                      <placeName xml:lang="zh-Hans">陕西省</placeName>
                   </region>
@@ -120,9 +127,11 @@
                      <placeName xml:lang="zh-Hant">碑林區</placeName>
                      <placeName xml:lang="zh-Hans">碑林区</placeName>
                   </region>
+                    --> 
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>34.2401 108.9373</geo>
+                  <geo>34.238323 108.937320</geo>
+                  <note>Google Earth 12-22-2021</note>
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type </label>
