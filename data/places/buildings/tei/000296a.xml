@@ -117,12 +117,12 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000296-1">
+               <bibl xml:id="bibl000296a-1">
                   <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
                   <citedRange unit="pp">II:21;120-C1-1</citedRange>
                </bibl>
-               <bibl xml:id="bibl000296-2">
-                  <ptr target="https://dev.architecturasinica.org/bibl/PRQDGBFB"/>
+               <bibl xml:id="bibl000296a-2">
+                  <ptr target="https://architecturasinica.org/bibl/PRQDGBFB"/>
                   <citedRange unit="pp">32-34</citedRange>
                </bibl>
             </place>
@@ -130,11 +130,11 @@
                  <relation active="https://architecturasinica.org/place/000296a"
                   passive="https://architecturasinica.org/keyword/k000060"
                   ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/0000" ref="dcterms:temporal" passive="https://dev.architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/0000" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal" passive="https://dev.architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000296a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000296"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683460409_b08507e5e8_4k.jpg" passive="https://architecturasinica.org/place/0000" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683053593_6d36cf15db_4k.jpg" passive="https://architecturasinica.org/place/0000" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683460409_b08507e5e8_4k.jpg" passive="https://architecturasinica.org/place/000296a" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683053593_6d36cf15db_4k.jpg" passive="https://architecturasinica.org/place/000296a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
