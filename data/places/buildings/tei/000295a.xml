@@ -117,15 +117,15 @@
                     </listBibl>
                 </place>
                 <listRelation>
+                    <relation active="https://architecturasinica.org/place/000295a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000295a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000295"/>
+                    <relation active="https://architecturasinica.org/place/000295a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
                     <relation ref="foaf:depicts"
                         active="https://live.staticflickr.com/65535/51725634559_792bce5bed_h.jpg"
                         passive="https://architecturasinica.org/place/000295a" ana="featured"/>
                     <relation ref="foaf:depicts"
                         active="https://live.staticflickr.com/65535/51724170817_81054c8144_h.jpg"
                         passive="https://architecturasinica.org/place/000295a" ana="featured"/> 
-                    <relation active="https://architecturasinica.org/place/000295a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-                    <relation ana="contained" active="https://architecturasinica.org/place/000295a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000295"/>
-                    <relation active="https://architecturasinica.org/place/000295a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
                 </listRelation>
             </listPlace>
         </body>
