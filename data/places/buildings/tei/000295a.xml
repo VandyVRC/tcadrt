@@ -52,7 +52,7 @@
         </profileDesc>
         <revisionDesc>
             <change n="1.0" who="#CX" when="2021-12-08-04:00">CREATED: place record</change>
-            <change n="1.1" who="#TGM" when="2022-01-03-04:00">updated authorial responsibility</change>
+            <change n="1.1" who="#TGM" when="2022-01-04-04:00">updated authorial responsibility, added location</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,6 +90,23 @@
                         <desc xml:lang="zh-Hans">塔</desc>
                         <desc xml:lang="en">stūpa</desc>
                     </trait>
+                    <note type="External Links">
+                        <p>
+                            <ref target="https://tinyurl.com/5h8vdupk">Wikipedia (in English)</ref>
+                        </p>
+                        <p>
+                            <ref target="https://tinyurl.com/3rme639m">Wikipedia (in Chinese)</ref>
+                        </p>
+                        <p>
+                            <ref target="https://tinyurl.com/44bpzmkv">百度百科</ref>
+                        </p>
+                    </note>           
+                    <location type="gps" subtype="preferred">
+                        <geo>34.219571 108.959166</geo>
+                    </location>
+                    <location type="verbatim">
+                        <note>(google map)</note>
+                    </location>
                     <listBibl xml:id="bibl000295-1">
                         <bibl>
                             <ptr target="https://architecturasinica.org/bibl/9MZGZAHX"/>
