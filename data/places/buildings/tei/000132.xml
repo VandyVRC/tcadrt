@@ -8,15 +8,19 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" xml:id="EYC">Yue Chen</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding diacritical marks to Pinyin, adding Wade-Giles by</resp>
+               <name type="person" xml:id="OW">OGIHARA Waka></name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -51,9 +55,8 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
-         <change when="2020-09-25">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.0" who="ML" when="2020-03-27">Adding citation</change>
+         <change n= "2.1" when="2020-09-25"  who="OW">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
          <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data entry</change>
       </revisionDesc>
    </teiHeader>
