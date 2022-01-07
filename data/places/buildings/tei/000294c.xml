@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Qixia Monastery, Vairocana Treasure Hall<foreign xml:lang="zh-Hant">棲霞寺毗盧寶殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="ZXL">ZHANG Xuliang 張序亮</editor>
+            <respStmt>
+               <resp>Initial research 2022 by</resp>
+               <name type="person" ref="#ZXL">ZHANG Xuliang 張序亮</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000294c/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-01-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-01-07" who="#ZXL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000294c" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000294c-1" type="building-name" xml:lang="en">Vairocana Treasure Hall</placeName>
+               <placeName xml:id="name000294c-2" type="building-name" xml:lang="zh-Hant">毗盧寶殿</placeName>
+               <placeName xml:id="name000294c-3" type="building-name" xml:lang="zh-Hans">毗卢宝殿</placeName>
+               <placeName xml:id="name000294c-4" type="building-name" xml:lang="zh-latn-pinyin">pílúbǎodiàn</placeName>
+               <placeName xml:id="name000294c-5" type="building-name" xml:lang="zh-latn-wadegile">p'i-lu-pao-tien</placeName>
+               <placeName xml:id="name000294c-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qixia Monastery Vairocana Treasure Hall</placeName>
+               <placeName xml:id="name000294c-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">棲霞寺毗盧寶殿</placeName>
+               <placeName xml:id="name000294c-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">栖霞寺毗卢宝殿</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000294c</idno>
+               <desc type="building-data">
+                  <p xml:lang="en" source="#bibl000294c-1">The Vairocana Treasure Hall (Pilubaodian 毗盧寶殿) is the largest hall in Qixia Monastery. A large bell and a dharma drum frame the front of the hall (Li 2015, 84). A 5-meter tall Vairocana Buddha statue is enshrined inside the hall. Together with <term ref="https://tinyurl.com/mv59u4yr">the Mount Sumeru platform (Xumizuo 須彌座)</term> on which the statue sits, the entire structure has a height of 8.6 meters (Li 2010, 64). Beside the Vairocana Buddha stand the statues of <term ref="https://tinyurl.com/26uyzsyf">Brahma (Fantian 梵天)</term> and <term ref="https://tinyurl.com/2kre8krn">Indra (Dishi 帝釋)</term>. Twenty wooden statues of various divinities are positioned on both sides of the hall, each with a height of over 2 meters. Behind the Vairocana Buddha statue is a tableau of Guanyin on Potalaka (usually interpreted in China as Mount Putuo 普陀山), at the center of which is the statue of Guanyin of the Southern Sea with <term ref="http://www.buddhism-dict.net/cgi-bin/xpr-ddb.pl?55.xml+id(%27b5584-8ca1-7ae5-5b50%27)">Sudhana (Shancai tongzi 善財童子; also translated as Good-in-Talent)</term> and <term ref="https://tinyurl.com/2p9x54mf">Dragon Girl (Longnü 龍女)</term> standing beside. There are thirty-two manifestations of the <term ref="https://tinyurl.com/2p8up49t">nirmanakaya (response bodys 應身)</term> shown on the island (Li 2015, 84; Li 2010, 65; Idema 2008, 6).</p>
+                  <p xml:lang="zh-Hant" source="#bibl000294c-1">毗盧寶殿為棲霞寺內最大的殿堂。大殿前側左右各有大鐘一座、法鼓一面（Li 2015，84）。殿內正中供奉一尊毗盧遮那佛，高約五米。其坐於<term ref="https://tinyurl.com/mv59u4yr">須彌座</term>上，總高約8.6米（Li 2010，64）。毗盧遮那佛兩側侍立其弟子<term ref="https://tinyurl.com/26uyzsyf">梵天</term>、<term ref="https://tinyurl.com/2kre8krn">帝釋</term>。大殿兩側分立20座諸天木雕像，均高兩米以上。毗盧遮那佛後為海島觀音群塑，中央為南海觀世音菩薩，其左右為<term ref="http://www.buddhism-dict.net/cgi-bin/xpr-ddb.pl?55.xml+id(%27b5584-8ca1-7ae5-5b50%27)">善財童子</term>與<term ref="https://tinyurl.com/2p9x54mf">龍女</term>，全島遍布觀音三十二<term ref="https://tinyurl.com/2p8up49t">應身</term>（Li 2015，84；Li 2010，65; Idema 2008, 6）。</p>
+               </desc>   
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/bdcdwnhr">百度百科</ref>
+                  </p>
+               </note>
+               <location type="gps" subtype="preferred">
+                  <geo>32.152061, 118.959341</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">Hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">diantang</desc>
+                  <desc xml:lang="zh-Hant">殿堂</desc>
+                  <desc xml:lang="zh-Hans">殿堂</desc>
+               </trait>
+               <listBibl xml:id="bibl000294c-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KSHCDTIE"/>
+                     <citedRange unit="pp">84</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8EJAJ6FP"/>
+                     <citedRange unit="pp">64-65</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/XJ2XTRA5"/>
+                     <citedRange unit="pp">6</citedRange>
+                  </bibl>
+               </listBibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000294c" passive="https://architecturasinica.org/keyword/k000130" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000294c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
