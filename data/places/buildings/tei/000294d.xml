@@ -99,6 +99,9 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000294d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
                <relation active="https://architecturasinica.org/place/000294d" ref="dcterms:temporal"
                   passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51808905435_7b56e5aee6_b.jpg"
+                  passive="https://architecturasinica.org/place/000294d" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
