@@ -72,7 +72,7 @@
                   <label>Date</label>
                   <desc>Founded in 676</desc>
                </state>
-               <state type="existence" subtype="dynasty" from="0618-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000294d-2" from="0618-01-01"
                   to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618-907</desc>
@@ -90,6 +90,10 @@
                      <citedRange unit="pp">34-35</citedRange>
                   </bibl>
                </listBibl>
+               <bibl xml:id="bibl000294d-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                      </place>
             <listRelation>
                <relation ana="contained" active="https://architecturasinica.org/place/000294d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
