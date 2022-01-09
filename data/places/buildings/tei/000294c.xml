@@ -101,7 +101,12 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000294c" passive="https://architecturasinica.org/keyword/k000130" ref="dcterms:subject" ana="building-type"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000294c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000294"/>
-               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51808257618_4020630b22_h.jpg"
+                  passive="https://architecturasinica.org/place/000294c" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51808502864_bb8a63ed10_h.jpg"
+                  passive="https://architecturasinica.org/place/000294c" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
