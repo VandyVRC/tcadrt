@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Qixia Monastery, Ming Zheng Memorial Tablet<foreign xml:lang="zh-Hant">明征君碑</foreign>
+            <title level="a" xml:lang="en">Qixia Monastery, Ming Zhengjun bei<foreign xml:lang="zh-Hant">明徵君碑</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -55,24 +55,28 @@
       <body>
          <listPlace>
             <place xml:id="place-000294d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000294d-1" type="building-name" xml:lang="en">Ming Zheng Memorial Tablet</placeName>
-               <placeName xml:id="name000294d-2" type="building-name" xml:lang="zh-Hant">明征君碑</placeName>
+               <placeName xml:id="name000294d-1" type="building-name" xml:lang="en">Ming Sengshao Stele</placeName>
+               <placeName xml:id="name000294d-2" type="building-name" xml:lang="zh-Hant">明徵君碑</placeName>
                <placeName xml:id="name000294d-3" type="building-name" xml:lang="zh-Hans">明征君碑</placeName>
                <placeName xml:id="name000294d-4" type="building-name" xml:lang="zh-latn-pinyin">míngzhēngjūnbēi</placeName>
                <placeName xml:id="name000294d-5" type="building-name" xml:lang="zh-latn-wadegile">ming-chêng-chün-pei</placeName>
-               <placeName xml:id="name000294d-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qixia Monastery Ming Zheng Memorial</placeName>
-               <placeName xml:id="name000294d-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">棲霞寺明征君碑</placeName>
+               <placeName xml:id="name000294d-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Qixia Monastery Ming Sengshao Stele</placeName>
+               <placeName xml:id="name000294d-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">棲霞寺明徵君碑</placeName>
                <placeName xml:id="name000294d-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">栖霞寺明征君碑</placeName>
                <idno type="URI">https://architecturasinica.org/place/000294d</idno>
+               <desc type="building-data">
+                  <p xml:lang="en" source="#bibl000294d-1">Ming Sengshao Stele is at the entrance of Qixia Monastery. It was set up by Tang Emperor Gaozong in year 676 to commemorate the recluse Ming Sengshao 明僧紹 (Li 2010, 34). The tablet has a height of 2.74 meters, a width of 1.21 meters, and a thickness of 0.36 meters (Li 2015, 59). Tang Gaozong composed the inscription on the tablet, and it was later written down by the calligrapher and lieutenant Gao Zhengchen. The inscription is written in running script and is framed in four-six parallel prose. The whole passage contains 2376 characters (2363 of which are extant) and documents the life story of Ming Sengshao (Li 2015, 60; Li 2010, 35).</p>
+                  <p xml:lang="zh-Hant" source="#bibl000294d-1">明徵君碑位於棲霞寺寺門前，由唐高宗為紀念隱士明僧紹於676年建立（Li 2010，34）。碑高2.74米，寬1.21米，厚0.36米（Li 2015，59）。碑文由唐高宗撰寫、書法家衛尉少卿高正臣書寫。通篇為四六韻文，由行書體書寫，共2376字，現存2363字，內容記載了明僧紹的生平事跡（Li 2015，60；Li 2010，35）。</p>
+               </desc> 
+               <state type="existence" notBefore="0676-01-01">
+                  <label>Date</label>
+                  <desc>Founded in 676</desc>
+               </state>
                <state type="existence" subtype="dynasty" from="0618-01-01"
                   to="0907-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang</desc>
+                  <desc>Tang 618-907</desc>
                </state>
-               <desc type="building-data">
-                  <p xml:lang="en" source="#bibl000294d-1">Ming Zheng Memorial Tablet is at the entrance of Qixia Monastery. It was set up by Tang Emperor Gaozong in year 676 to commemorate the recluse Ming Sengshao 明僧紹 (Li 2010, 34). The tablet has a height of 2.74 meters, a width of 1.21 meters, and a thickness of 0.36 meters (Li 2015, 59). Tang Gaozong composed the inscription on the tablet, and it was later written down by the calligrapher and lieutenant Gao Zhengchen. The inscription is written in running script and is framed in four-six parallel prose. The whole passage contains 2376 characters (2363 of which are extant) and documents the life story of Ming Sengshao (Li 2015, 60; Li 2010, 35).</p>
-                  <p xml:lang="zh-Hant" source="#bibl000294d-1">明征君碑位於棲霞寺寺門前，由唐高宗為紀念隱士明僧紹於676年建立（Li 2010，34）。碑高2.74米，寬1.21米，厚0.36米（Li 2015，59）。碑文由唐高宗撰寫、書法家衛尉少卿高正臣書寫。通篇為四六韻文，由行書體書寫，共2376字，現存2363字，內容記載了明僧紹的生平事跡（Li 2015，60；Li 2010，35）。</p>
-               </desc>   
                <location type="gps" subtype="preferred">
                   <geo>32.152383, 118.958639</geo>
                </location>
