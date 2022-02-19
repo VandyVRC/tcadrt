@@ -8,8 +8,9 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
-            <editor role="creator" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <editor role="content-author">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -51,10 +52,10 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
+         <change n="2.0" who="#SZ" when="2020-02-26">Adding external links by</change>
          <change when="2020-09-10">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
-         <change n="3.0" who="#ZYY" when="2021-12-15">Adding descriptions</change>
+         <change n="3.0" who="#ZYY" when="2021-12-15">Adding descriptions by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,8 +69,8 @@
                <placeName xml:id="name000066-5" type="site-name" xml:lang="zh-Hans">南禅寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000066</idno>
                <desc type= "site-data" xml:lang="en">
-                  <p source="#bibl000066-2">Located in Wutai County of Shanxi province, China, Nanchan Monastery 南禪寺 was established as a Buddhist monastery in the <term ref="/keyword/k000082">Tang dynasty</term>. (Guojiawenwuju 2006, 578). This small monastery was relatively unimportant for worship in the past, so its construction history was rarely mentioned in literature. Nevertheless, its initial establishment is reliably dated by the inscriptions on two interior pillars in the great hall to the Tang Dynasty, with restorations documented in the stone steles inscriptions from the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties located at the site (Qi and Chai 1980, 61). Still freestanding today, Nanchan Monastery’s obscurity and remoteness actually prevented it from being destroyed in the largest ever purge of Buddhism in China in 845 under the Tang Emperor Wuzong (Qi and Chai 1980, 61). The <term ref="/place/000214">great hall 大殿 </term>in the monastery is dated to the third year of Tang Jianzhong reign period (唐建中三年, 782) and is the oldest extant timber-frame structure in China (Chai 1999A, 353).</p>
-                  <p source="#bibl000066-3">Nanchan Monastery is north-south oriented and divided into east and west areas (Gao 2001, 16). There are six extant buildings in the current building complex among which only the great hall was constructed in Tang dynasty, and the rest are reconstructed structures from Ming and Qing dynasties (Chai 1999A, 353). The building complex is very small in scale, 51.3 meters from front to back, 60 meters across, covering an area of 3078 square meters (Guojiawenwuju 2006, 578). The primary west section is a single <term ref="/keyword/k000012">courtyard</term> whose central axis passes through the Guanyin Hall (Mountain Gate) 觀音殿(山門), and then the great hall 大殿 consecutively (Guojiawenwuju 2006, 578). The Bodhisattva Hall 菩薩殿 and the Longwang Hall 龍王殿 from Ming dynasty respectively lie on the two sides of the courtyard (Guojiawenwuju 2006, 578). The monastery’s east section includes Luohan Hall 羅漢殿, Vihāra Hall 伽藍殿, three Yanwang Halls 閻王殿, and six residence cells on the left-most side (Chai 1999A, 353). The great hall houses seventeen polychrome statues and wall paintings for worship uses and one small stone pagoda which are all made in the Tang dynasty (Guojiawenwuju 2006, 578).</p>
+                  <p source="#bibl000066-2">Located in Wutai County of Shanxi province, China, Nanchan Monastery 南禪寺 was established as a Buddhist monastery in the <term ref="/keyword/k000082">Tang dynasty</term> (Guojia wenwuju 2006, 578). This small monastery was relatively unimportant for worship in the past, so its construction history was rarely mentioned in literature. Nevertheless, it is reliably dated by the inscriptions on two interior pillars in the great hall to the Tang dynasty, with further restorations documented in the stone steles inscriptions from the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties located at the site (Qi and Chai 1980, 61). Still standing today, Nanchan Monastery’s obscurity and remoteness likely prevented it from being destroyed in the largest ever purge of Buddhism in China in 845 under the Tang Emperor Wuzong (Qi and Chai 1980, 61). The <term ref="/place/000214">great hall 大殿 </term>in the monastery is dated by a repair which took place in the third year of Tang Jianzhong reign period (唐建中三年, 782) and is the oldest extant timber-frame structure in China (Chai 1999A, 353).</p>
+                  <p source="#bibl000066-3">Nanchan Monastery is north-south oriented and divided into east and west areas (Gao 2011, 16). There are six extant buildings in the current building complex among which only the great hall was constructed in Tang dynasty. The rest are reconstructions from the Ming and Qing dynasties (Chai 1999A, 353). The building complex is very small in scale, 51.3 meters from front to back, 60 meters across, covering an area of 3078 square meters (Guojia wenwuju 2006, 578). The primary cloister is a single <term ref="/keyword/k000012">courtyard</term> whose central axis passes through a Guanyin Hall 觀音殿, which is served as the entry "Mountain Gate 山門," and then the great hall 大殿 consecutively (Guojia wenwuju 2006, 578). In 1973 Chai Zejun documented four other structures in the main cloister: a Luohan Hall 羅漢殿, Vihāra Hall 伽藍殿, Bodhisattva Hall 菩薩殿 and a Longwang Hall 龍王殿 from the Ming dynasty. He also stated that monastery’s eastern cloister held a three-bay Yanwang Hall 閻王殿, and a side hall of six bays to its east (Chai 1999A, 353). The great hall houses seventeen polychrome statues from the Tang dynasty which were repainted in 1343, as well as a five-story stone pagoda also from the Tang dynasty (Guojia wenwuju 2006, 579).</p>
                </desc> 
                <state type="existence" subtype="dynasty" source="#bibl000066-1" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
@@ -120,30 +121,30 @@
                   </bibl>
                <listBibl xml:id="bibl000066-2">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/2KPHKIIW"/>
-                     <citedRange unit="pp">578</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II:578;40-C1</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/ZFI98EVV"/>
+                     <ptr target="https://architecturasinica.org/bibl/WSAMNRIG"/>
                      <citedRange unit="pp">61</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/B26FJRIY"/>
+                     <ptr target="https://architecturasinica.org/bibl/67SWA4WP"/>
                      <citedRange unit="pp">353</citedRange>
                   </bibl>
                </listBibl>
                <listBibl xml:id="bibl000066-3">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EBJ8GF4F"/>
+                     <ptr target="https://architecturasinica.org/bibl/M36RFQCG"/>
                      <citedRange unit="pp">16</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/B26FJRIY"/>
+                     <ptr target="https://architecturasinica.org/bibl/67SWA4WP"/>
                      <citedRange unit="pp">353</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/2KPHKIIW"/>
-                     <citedRange unit="pp">578</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II:579;40-C1-1-3</citedRange>
                   </bibl>
                </listBibl>
             </place>
