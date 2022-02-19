@@ -12,7 +12,9 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="VJS">Vania Sih</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -57,6 +59,8 @@
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
                type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="2.1" who="#VJS" when="2021-12-18-04:00">adding building description</change>
+         <change n="2.1" who="#TGM" when="2022-02-18-04:00">updated authorial responsibility, edited text</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -95,18 +99,16 @@
                      Sakyamuni pagoda (Shijiata 釋迦塔) or the Yingxian timber pagoda (应县木塔) and was
                      begun by Emperor Daozong of Liao in the second year of the Qingning reign
                      (1056) at the location of his grandmother’s ancestral home. It is located in
-                     Yingxian, northern Shanxi Province, and was placed under the National key
-                     cultural relics protection unit. The pagoda is the oldest wooden pagoda still
+                     Yingxian, northern Shanxi Province. The pagoda is the oldest wooden pagoda still
                      standing in China, resisting a multitude of earthquakes and wars. The pagoda
-                     structure stands on a 4 meter tall, 2-tiered stone, octagonal platform. The
-                     pagoda has a 10 meter tall steeple, and reaches a total height of 67.31 meters
-                     tall, towering above its town today. Created by five octagonal shaped stories
-                     in <term ref="/keyword/k000130">diantang style (殿堂)</term>, the pagoda has a
-                     mezzanine level every two levels that acts as porch-like timber balconies
+                     structure stands on a 4 meter tall, 2-tiered octagonal platform made of stone. The
+                     pagoda has a 10 meter tall finial, and reaches a total height of 67.31 meters
+                     tall, towering above the town surrounding it. Created by five octagonal stories
+                     in the <term ref="/keyword/k000130">diantang (殿堂)</term> structural style, the pagoda has a
+                     mezzanine level between each story supporting porch-like timber balconies
                      (pingzuo 平座) (Lin 2016, 121). Each floor is created with two rings of columns
-                     connected by beams that create an inner and outer aisle (Lin 2016, 121). With
-                     the greatest variety of bracketing in Liao dynasty buildings, the timber pagoda
-                     has fifty-four types of bracketing (Steinhardt 1994, 13). Prominent features
+                     connected by beams that create an inner and outer aisle (Lin 2016, 121). The timber pagoda
+                     has fifty-four types of bracketing, the largest number of different bracket types of any Liao building (Steinhardt 1994, 13). Prominent features
                      and artifacts in the pagoda include the Sakyamuni Buddha, the Buddhas of the
                      Four Directions, and the Vairocana and eight attendant Bodhisattvas (Shen 2001,
                      23).</p>
@@ -124,9 +126,6 @@
                   <desc xml:lang="zh-Hant">塔</desc>
                   <desc xml:lang="zh-Hans">塔</desc>
                   <desc xml:lang="en">stūpa</desc>
-                  <desc xml:lang="zh-latn-pinyin">ta</desc>
-                  <desc xml:lang="zh-Hant">塔</desc>
-                  <desc xml:lang="zh-Hans">塔</desc>
                </trait>
                
                <bibl xml:id="bibl000168-1">
