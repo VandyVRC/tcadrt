@@ -8,9 +8,9 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>            
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
-            <editor role="content-author">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
