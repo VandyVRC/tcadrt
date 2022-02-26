@@ -8,19 +8,20 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
-            <editor role="data entry" xml:id="ZC">CHEN Zhuo 陈卓</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>proof correction and revision by</resp>
+               <resp>Proof correction and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>Adding citations</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
                <resp>Editing, data entry, adding images, and adding citations</resp>
-               <name type="person" when="2021-12-14" ref="ZC">CHEN Zhuo 陈卓</name>
+               <name type="person" when="2021-12-14" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,6 +55,8 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="#ZC" when="2021-12-14">Adding content by</change>
+         <change n="2.2" who="#TGM" when="2022-02-25">Editing by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,7 +83,7 @@
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000063-1">
-                      According to inscriptions on the eave column in front of the hall, Mahavira Hall was rebuilt in the fifth year of Shaosheng reign period (1098), and had major renovations in the fifth to twelfth years of Wanli reign period (1577-1584), the ninth to tenth years of Shunzhi reign period (1652-1653), and the third year of Tongzhi reign period (1864). The base of the hall is made of bricks. The main hall is a three-by-three <term ref="/keyword/k000149">bay</term> hall. Although its size is relatively small compared to other buildings, it is still within the range for image halls of smaller monasteries in this area (Miller 2011, 182). The main hall has a square plan and a single-eaves <term ref="/keyword/k000143">hip-gable roof (xieshanding 歇山頂)</term>. The roofridge-figures are made of yellow and green glaze, and their shapes and technique are all in Ming-style (Guojia wenwuju 2006, 305). Inside of the main hall, the transverse structure (liangjia 梁架)  is six rafters deep with a four-<term ref="/keyword/k000107">rafter</term> beam (sichuanfu 四椽栿) abutting a <term ref="/keyword/k000140">rufu (乳栿)</term> supported by three columns. On top of the three columns, there are 5-<term ref="/keyword/k000013">puzuo (鋪作)</term> <term ref="/keyword/k000019">bracket sets (dougong 斗拱)</term> with single <term ref="/keyword/k000178">slanted arm (xia‘ang 下昂)</term> and single <term ref="/keyword/k000172">perpendicular bracket arm (huagong 華栱)</term>. There are also  bracket sets carved in relief (yinke dougong 隐刻斗拱) between the columns. Four panels of six-gridlattice partition doors (六抹格扇門) are hung on the central bay of both front and back facades , and two secondary bays both hold windows. Inside the back wall and gable-end walls are decorated with 34.10 square meters of meticulous and deeply colored Buddhist narrative murals. Based on the stele inscription and the art style of the frescos, the mural on the west side should have been painted in the Wanli reign period (1573-1620), and the mural on the east gable might be painted during the renovation in the tenth years of Shunzhi reign (1653) (Song Wenqiang 2010, 55).  
+                     The main hall of Longmen Monastery is the Mahavira Treasure Hall. According to inscriptions on the front eaves columns, the Mahavira Hall was rebuilt in the fifth year of Shaosheng reign period (1098), and had major renovations in the fifth to twelfth years of Wanli reign period (1577-1584), the ninth to tenth years of Shunzhi reign period (1652-1653), and the third year of Tongzhi reign period (1864). The foundation of the hall is made of brick and the structure is three-by-three <term ref="/keyword/k000149">bays</term>. It has a square plan and a single-eaves <term ref="/keyword/k000143">hip-gable roof (xieshanding 歇山頂)</term>. Although its size is relatively small compared to other buildings of the period, it is still within the range for image halls of smaller monasteries in this area (Miller 2011, 182). The roof ridge-figures are made of yellow and green glazed ceramic tile, and their shapes and technique are all consistent with Ming-style (Guojia wenwuju 2006, 305). The transverse structure of the building spans six rafters from front to back with a four-<term ref="/keyword/k000107">rafter</term> beam (sichuanfu 四椽栿) abutting a <term ref="/keyword/k000140">rufu (乳栿)</term> tiebeam supported by three columns. On top of the three columns, there are 5-<term ref="/keyword/k000013">puzuo (鋪作)</term> bracket sets (<term ref="/keyword/k000019">dougong 斗拱</term>) with a single slanted arm (<term ref="/keyword/k000178">xia‘ang 下昂</term>) and a single perpendicular bracket arm (<term ref="/keyword/k000172">huagong 華栱</term>). There are also bracket sets carved in relief (yinke dougong 隐刻斗拱) between the columns. Four panels of six-grid lattice partition doors (六抹格扇門) are hung on the central bay of both front and back facades, and the two side bays both hold windows. The interior of the north (back) and east and west gable-end walls are decorated with 34.10 square meters of deeply colored Buddhist narrative murals. Based on the stele inscription and the style of the wall paintings, the mural on the west wall should have been painted in the Ming Wanli reign period (1573-1620) and the mural on the east wall might have been painted during the renovation in the tenth year of the Qing Shunzhi reign period (1653) (Song Wenqiang 2010, 55).  
                   </p>
                </desc>
                <location type="gps" subtype="preferred">
@@ -99,7 +102,7 @@
                <listBibl xml:id="bibl000063-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
-                     <citedRange unit="pp">304-305</citedRange>
+                     <citedRange unit="pp">II:304-305;32-C3-2</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
