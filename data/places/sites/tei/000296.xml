@@ -86,7 +86,7 @@
                   <desc>Tang (618-907) to present</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000296-1"> Jianfu Monastery is located in the Beilin District of Xi’an and contains artifacts from the <term ref="/keyword/k000082">Tang</term>, <term subtype="dynasty" ref="/keyword/k000051">Ming</term>, and <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasties. Converted from a courtly residence at the beginning of the Tang Wenmingreign period (684) it was originally named Da Xianfu Monastery and was contained within the
+                  <p source="#bibl000296-1"> Jianfu Monastery is located in the Beilin District of Xi’an and contains artifacts from the <term ref="/keyword/k000082">Tang</term>, <term subtype="dynasty" ref="/keyword/k000051">Ming</term>, and <term subtype="dynasty" ref="/keyword/k000070">Qing</term> dynasties. Converted from a courtly residence at the beginning of the Tang Wenming reign period (684) it was originally named Da Xianfu Monastery and was contained within the
                      Kaihuafang 開化坊 of Tang dynasty Chang'an. In the first year of the Tianshou
                      reign period (690), the name was changed to Jianfu Monastery. During the
                      Jinglong period (707-710), the <placeName ref="/place/000296a">Jianfu Monastery pagoda</placeName> (the Small Wild Goose Pagoda 小雁塔) was established within a separate cloister in Anrenfang 安仁坊, south of the monastery. At the end of the
@@ -123,7 +123,7 @@
                      also called the "Yijing Translation Center" (Yijing yichang 義浄譯場). Other important translation
                      centers in Tang Chang'an included those directed by Xuanzang 玄奘 (602-664) at Ci'en Monastery 慈恩寺 and by
                      Bukong jingang 不空金剛 (Amoghavajra 705-774) at the Great Xingshan Monastery 大興善寺. Many of
-                     the sutras translated at Jianfu Monastery became an important part of the Tripitaka.</p>
+                     the sutras translated at Jianfu Monastery became an important part of the Buddhist Canon or Tripitaka.</p>
                </desc>
                <!--<desc xml:lang="zh-Hant">
                   <p>荐福寺［碑林区友谊西路东段南侧．唐、明～清］ 始建于文明元年(684), 名大献福寺，位于唐长安城开化坊。天授元年(690) 易名荐福寺。景龙年间在寺南安仁坊另辟塔院，建造荐福寺塔（即小雁塔）。唐末寺院毁于兵火，惟塔存。宋时，塔院名圣容院；明清时，以塔为荐福寺延至今。现寺院占地面积约3. 53 万平方米，坐北朝南。寺内建筑除唐代小雁塔外，均为明清及近代所建。殿宇集中在山门直对小雁塔的中轴线上，大体保持着明正统年间重修时的布局。南人山门后，依次有天王殿遗址、慈氏阁（二层）三间、大雄宝殿五间、藏经楼（二层）五间、小雁塔、白衣阁（二层）三间，两侧有钟楼、鼓楼、配殿、碑亭和新建长廊等。现存北宋政和六年(1116)“ 大荐福寺修塔碑”、金明昌三年(1192) 铁钟、明正统十四年(1449) 青石线刻荐福寺殿堂图，清康熙二十九年(1 690) “补修荐福寺宝塔碑＂、雍正十二年(1734) "荐福寺来源碑”等。其中金代铁钟高3. 5 米，口径2. 5 米，重万余公斤，以其音质宏亮，誉为＂雁塔晨钟＂，列关中八景之一。1965 年出土有唐代青石线刻菩萨像等遗物。60 年代以来历有修菁。（参见《文博》 1985 年2 期）</p> Direct quote from the ZGWWDTJ, do not publish
@@ -182,7 +182,7 @@
                <listBibl xml:id="bibl000296-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
-                     <citedRange unit="pp">II:21;120-C1</citedRange>
+                     <citedRange unit="pp">II:21; 120-C1</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/AQUQVPAN"/>
@@ -204,6 +204,9 @@
                   passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51683437094_f84c31b616_4k.jpg"
+                  passive="https://architecturasinica.org/place/000296" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51906390575_be87afaa2f_b.jpg"
                   passive="https://architecturasinica.org/place/000296" ana="featured"/>
             </listRelation>
          </listPlace>
