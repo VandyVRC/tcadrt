@@ -8,7 +8,8 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <editor role="page-creator">Tracy Miller</editor> 
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -49,13 +50,14 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="3.0" when="2021-12-16" who="#HDN">Added site information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000215" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000215-1" xml:lang="en">middle hall</placeName>
+               <placeName xml:id="name000215-1" xml:lang="en">Middle Hall</placeName>
                <placeName xml:id="name000215-2" type="building-name" xml:lang="zh-Hant">中殿</placeName>
                <placeName xml:id="name000215-3" type="building-name" xml:lang="zh-Hans">中殿</placeName>
                <placeName xml:id="name000215-4" type="building-name" xml:lang="zh-latn-pinyin">zhōngdiàn</placeName>
@@ -63,12 +65,19 @@
                <placeName xml:id="name000215-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Nanjixiangsi zhongdian</placeName>
                <placeName xml:id="name000215-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">南吉祥寺中殿</placeName>
                <placeName xml:id="name000215-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">南吉祥寺中殿</placeName>
-               <placeName xml:id="name000215-11" type="alternate">Zhongdian</placeName>
+               <placeName xml:id="name000215-9" type="alternate" xml:lang="zh-Hant" source="bibl000215-3">過殿</placeName>
+               <placeName xml:id="name000215-10" type="alternate" xml:lang="en">Passage Hall</placeName>
                <idno type="URI">https://architecturasinica.org/place/000215</idno>
                <state type="existence" from="1030-01-01" to="1030-01-01">
                   <label>Date</label>
                   <desc>1030</desc>
                </state>
+               <desc type="site-data">
+                  <p xml:lang="en">
+                     The Middle Hall 中殿, also known as the Passage Hall 過殿, was dated to the <term ref="/keyword/k000074">Song</term> dynasty 宋代. Standing on a 0.40-meter-high stone platform, the Middle Hall is three bays wide by six rafters deep, with a single-rafter <term ref="/keyword/k000143">hip-gable roof</term> danyan xieshanding 單檐<term ref="/keyword/k000143">歇山頂</term>.</p>
+                  <p source="bibl000215-2">Characterized as the six-rafter construction 六架椽屋 style, the hall contains the six-rafter-cross beams 六椽栿 connecting the eaves. Only ​​two pillars are used to support the eaves. Its <term ref="/keyword/k000120">pillar-top corbelling 柱頭斗栱</term> has five bracket sets 鋪作. These bracket sets reflect the danchao 單抄 structure, meaning they only have one perpendicular bracket arm that extends outward. They are also featured by their single <term ref="/ keyword/k000178">descending cantilever xia’ang 下昂</term>. The roof ridge (zhengji 正脊), jicha 脊剎, wenshou 吻獸, and fangxin 方心 are color-glazed. Lattice doors were once installed in the front and backside of the hall. Today, we can only see the reconstructed doors (Guojia wenwuju, III: 762; 57-C1).    
+                  </p>  
+               </desc>    
                <state type="existence" subtype="dynasty" source="#bibl000215-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
@@ -90,6 +99,14 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000215-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">III: 762; 57-C1</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000215-3">
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">178-9</citedRange>
+               </bibl>               
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000215" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>

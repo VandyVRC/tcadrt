@@ -9,6 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="EYC">Yue Chen</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +17,10 @@
             <respStmt>
                <resp>adding external links</resp>
                <name type="person" xml:id="SZ"> SUN Zheng </name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#EYC">Yue Chen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +54,7 @@
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
          <change when="2020-09-11">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data translation from 中国文物地图集</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,6 +79,13 @@
                      <ref target="https://tinyurl.com/r5f7r49">百度百科</ref>
                   </p>
                </note>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000093-1">
+                     Tiantai Hermitage (Beidanche Xiang, Wangqu Village, Tang Dynasty, Major Historical and Cultural Site Protected at the national level)
+                     Original construction date unknown. North-south oriented, sitting north and facing south. Now only remains main hall, stone-made foundation. It is three bays wide and four rafters deep. The main hall has an open frame ceiling. The transversal structural frame consists of a four rather beam supported by front and back eaves pillars. The hall itself is supported by one circuit of columns, and the tops of the columns are rounded with a gentle narrowing. Lan’e, the tie beams through the top of the columns joining inside the columns themselves, is placed between the pillars with no pupaifang. The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars. The pillar top bracket arms extend out directly from the bearing block, on top of which is an intermediary timber (timu 替木) directly supporting the eaves purlins. This exemplifies the “bearking-block extension” (doukoutian 斗口跳) described in the Yingzao fashi (1103). A set of double panel doors lead into the central bay, and the secondary bay employs two sets of lattice windows. There stands a Tang Dynasty stele in the courtyard, but the text is indistinguishable because of erosion.
+                  </p>
+               </desc>
+               
                <location type="nested" source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
                   <placeName>山西省平顺县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
@@ -110,6 +123,15 @@
                <relation active="https://architecturasinica.org/place/000093" passive="https://architecturasinica.org/keyword/k000031" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000093" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000093" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51673676933_641273806a_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ba" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51672632172_3d9e7ba77a_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ba" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51674112119_19e2bd3632_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ba" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

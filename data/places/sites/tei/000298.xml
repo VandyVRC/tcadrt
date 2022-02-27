@@ -1,0 +1,147 @@
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Xuankong Monastery <foreign xml:lang="zh-Hant">懸空寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research, data entry, and adding external links by</resp>
+               <name type="person" when="2021-12-12" ref="#ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000298/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-12-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-12-04:00" who="#ZAL">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2022-02-18-04:00">updated authorial responsibility, edited text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000298" type="site">
+               <placeName xml:id="name000298-1" type="site-name" xml:lang="en">Xuankong Monastery</placeName>
+               <placeName xml:id="name000298-2" type="site-name" xml:lang="zh-latn-pinyin">Xuánkōngsì</placeName>
+               <placeName xml:id="name000298-3" type="site-name" xml:lang="zh-latn-wadegile">Hsüan-k'ung-ssu</placeName>
+               <placeName xml:id="name000298-4" type="site-name" xml:lang="zh-Hant">懸空寺</placeName>
+               <placeName xml:id="name000298-5" type="site-name" xml:lang="zh-Hans">悬空寺</placeName>
+               <placeName xml:id="name000298-1" type="site-name" xml:lang="en">Hanging Monastery</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000298</idno>
+               <state type="existence" source="#bibl000298-1" from="0652-01-01">
+                  <label>Date</label>
+                  <desc>Founded in the later part of the Northern Wei</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000298-3" from="0386-01-01" to="0534-01-01">
+                  <label>Dynasty</label>
+                  <desc>Northern Wei 386 - 534</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000298-1">Occupying a total area of 30 square meters and oriented facing eastward, Xuankong Monastery (also known as Xuankongsi 懸空寺 or the Hanging Monastery) is an icon of the Mount Heng (Hengshan 恆山) area. Its name is derived from its location on a cliff that stands between Mount Heng and Cuiping Peak (Cuipingfeng 翠屏峰). The earliest construction of Xuankongsi is said to date back to the <term ref="/keyword/k000056">Northern Wei (Bei Wei 北魏)</term> dynasty, however the earliest large-scale construction is thought to have taken place in the <term ref="/keyword/k000036">Jin 金</term> dynasty. The site underwent significant renovations and additions during the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties, whereby it assumed its current form. With forty bays of towers, pavilions, and worship halls organized into a rectangular courtyard complex, Xuankong Monastery can be divided into three sections: the monastery cloister (siyuan 寺院), the southern tower (nanlou 南樓), and the northern tower (beilou 北樓), all of which assume a different height from the ground level to conform to the overall geographical shape of the cliff. </p>
+                  <p source="#bibl000298-2">The support structure of the Xuankong Monastery complex consists of dozens of wooden beams to form a foundation. Soaked in tung oil (tongyou 桐油) to prevent corrosion and insect damage, the beams were joined into mortise holes, whose depths are roughly half of the length of the beams, that were chiseled into the cliffside. The use of this timber joinery system not only supports the weight of the Xuankongsi complex, it is also believed to counteract the damage of natural disasters, such as earthquakes. </p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://en.wikipedia.org/wiki/Hanging_Temple">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/2r82kfvp">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/ycy4m8e7">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested" source="http://vocab.getty.edu/tgn/8618711 http://vocab.getty.edu/aat/300387198">
+                  <placeName>山西省浑源县</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                  <country>China</country>
+                  <region type="province">
+                     <placeName xml:lang="zh-latn-pinyin">Shanxi</placeName>
+                     <placeName xml:lang="zh-Hant">山西省</placeName>
+                     <placeName xml:lang="zh-Hans">山西省</placeName>
+                  </region>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Hunyuan</placeName>
+                     <placeName xml:lang="zh-Hans">浑源</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hans">县</placeName>
+                     <placeName xml:lang="en">County</placeName>
+                  </region>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>39.659831 113.708298</geo>
+                  <note>Located using GoogleEarth</note>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type </label>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">miao</desc>
+                  <desc xml:lang="zh-Hant">廟</desc>
+                  <desc xml:lang="zh-Hans">庙</desc>
+               </trait>
+               <bibl xml:id="bibl000298-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">127</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000298-2">
+                  <ptr target="https://architecturasinica.org/bibl/6AXFXE8X"/>
+                  <citedRange unit="pp">114</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000298-3">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000298" passive="https://architecturasinica.org/keyword/k000083" ref="dcterms:subject" ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000056" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000298" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51720875997_4c9aadfcb2_4k.jpg"
+                  passive="https://architecturasinica.org/place/000298" ana="featured"/>
+               <relation ref="foaf:depicts" 
+                  active="https://live.staticflickr.com/65535/51721688366_5d8216d855_4k.jpg"
+                  passive="https://architecturasinica.org/place/000298" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51721941123_fda004b3e2_4k.jpg"
+                  passive="https://architecturasinica.org/place/000298" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

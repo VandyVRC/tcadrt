@@ -10,7 +10,7 @@
             <principal>Tracy Miller</principal>
             <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
+               <resp>Editing, proof correction, images</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
@@ -46,6 +46,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+         <change n="2.0" who="#TGM" when="2022-01-05-04:00">added images and links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,6 +58,9 @@
                <placeName xml:id="name000048h-3" type="building-name" xml:lang="zh-Hans">昊天神祠</placeName>
                <placeName xml:id="name000048h-4" type="building-name" xml:lang="zh-latn-pinyin">Hàotiānshéncí</placeName>
                <placeName xml:id="name000048h-5" type="building-name" xml:lang="zh-latn-wadegile">Hao-t'ien-shen-tz'u</placeName>
+               <placeName xml:id="name000048h-6" type="building-name" xml:lang="en">Jinci Haotianshenci</placeName>
+               <placeName xml:id="name000048h-7" type="building-name" xml:lang="zh-Hant">晉祠昊天神祠</placeName>
+               <placeName xml:id="name000048h-8" type="building-name" xml:lang="zh-Hans">晋祠昊天神祠</placeName>   
                <idno type="URI">https://architecturasinica.org/place/000048h</idno>
                <state type="existence" from="1795-01-01" to="1795-12-31">
                   <label>Date</label>
@@ -67,7 +71,7 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048h-1"> This temple-complex is dedicated to the Jade Emperor (玉皇), the Three Pure Ones or Clarities (三清), and Guandi (關帝). The whole is called the Haotianshen Shrine, after the title given to the Jade Emperor during the Northern Song dynasty. In the Liu Dapeng's Jincizhi the date given for the investiture is January 31, 1017. That date remains unconfirmed. The <title>Songshi 宋史</title> records the Jade Emperor being awarded the title "Vast Heaven" (Haotian 昊天) by Huizong in 1116, see Songshi 21.396 and 104.2543. See also Pregadio, ed. 2008, 63. This combined shrine was constructed after the 1770–71 rebuilding of the Shu Yu of Tang Shrine. According to the stele inscription documenting the construction of the combined complex by Hu Qijing of 1801, originally individual temple buildings dedicated to the Jade Emperor and the Three Pure Ones were on the right (west side) of the shrine to Shu Yu, and a temple of Guandi was located to the left (east) of the Shu Yu Shrine. These buildings appear on the 1551 map of Jinci in Gao Ruxing’s Taiyuan xianzhi (they are numbered 42 (Jade Emperor’s Temple 玉皇廟) and 43 (Temple to the Three Pure Ones 三清廟) on the plan of Jinci from 1606 in Miller 2007, 163, which is largely based on Gao Ruxing’s map). The 1801 inscription states that after the Shu Yu Shrine was rebuilt in the 1770s, the contrast between the new shrine and the old buildings inspired people to rebuild the surrounding temples as well. Twenty-two years later, the new complex was built on top of the old foundation of the Guandi Temple. The complex has an entry gate with two courtyards, each with a worship hall at its rear to the north, and side halls to the east and west. Guandi is worshiped in a three-bay-wide central hall located on the north end of the first courtyard. In this inscription, the back hall is said to have been built like the Wenchang palace-temple next to it, with an arcuated lower story (described as cave-like 洞) and a timber upper story (called a ge 閣). The Three Pure Ones are worshiped in the lower story, the Cavern of the Three Pure Ones (Sanqingdong 三清洞), with the central cavern dedicated to Yuanshi tianzun 元始天尊, the left cavern dedicated to Lingbao tianzun 靈寶天尊, and the right cavern dedicated to Yuqing tianzun (Laozi) 玉清天尊. The upper story is, by itself, the Jade Emperor’s Storied Pavilion (Yuhuangge 玉皇閣).</p>
+                  <p source="#bibl000048h-1"> This temple-complex is dedicated to the Jade Emperor (玉皇), the Three Pure Ones or Clarities (三清), and Guandi (關帝). The whole is called the Haotianshen Shrine, after the title given to the Jade Emperor during the <term ref="/keyword/k000055">Northern Song</term> dynasty. In the Liu Dapeng's <title>Jincizhi</title> the date given for the investiture is January 31, 1017. That date remains unconfirmed. The <title>Song shi 宋史</title> records the Jade Emperor being awarded the title "Vast Heaven" (Haotian 昊天) by Emperor Huizong in 1116 (Song shi 21.396 and 104.2543; Pregadio, ed. 2008, 63). This combined shrine was constructed after the 1770–71 rebuilding of the <placeName ref="/place/000048a">Shu Yu of Tang Shrine Complex 唐叔虞祠</placeName>. According to the stele inscription documenting the construction of the combined complex by Hu Qijing of 1801, originally individual temple buildings dedicated to the Jade Emperor and the Three Pure Ones were on the right (west side) of the shrine to Shu Yu, and a temple of Guandi was located to the left (east) of the Shu Yu Shrine. These buildings appear on the 1551 map of Jinci in Gao Ruxing’s <title>Taiyuan xianzhi</title> (the first two are numbered 42 (Jade Emperor’s Temple 玉皇廟) and 43 (Temple to the Three Pure Ones 三清廟) on the plan of Jinci from 1606 in Miller 2007, 163, which is largely based on Gao Ruxing’s drawing). The 1801 inscription states that after the Shu Yu Shrine was rebuilt in the 1770s, the contrast between the new shrine and the old buildings inspired people to rebuild the surrounding temples as well. Twenty-two years later, the new complex was built on top of the old foundation of the Guandi Temple. The complex has an entry gate with two courtyards, each with a worship hall at its rear to the north, and side halls to the east and west. Guandi is worshiped in a three-bay-wide central hall located on the north end of the first courtyard. In this inscription, the back hall is said to have been built like the <placeName ref="place/000048j">Wenchang palace</placeName> next to it, with an arcuated lower story (described as cave-like 洞) and a timber upper story (called a <term ref="keyword/k000078">ge 閣</term>). The Three Pure Ones are worshiped in the lower story, the Cavern of the Three Pure Ones (Sanqingdong 三清洞), with the central cavern dedicated to Yuanshi tianzun 元始天尊, the left cavern dedicated to Lingbao tianzun 靈寶天尊, and the right cavern dedicated to Yuqing tianzun (Laozi) 玉清天尊. The upper story is, by itself, the Jade Emperor’s Storied Pavilion (Yuhuangge 玉皇閣). This complex is number 9 on our plan of the site.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -104,6 +108,8 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048h" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048h" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51634419201_f3bd5e5033_b.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg" passive="https://architecturasinica.org/place/000048" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

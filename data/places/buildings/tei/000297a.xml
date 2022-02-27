@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Tianning Monastery Pagoda<foreign xml:lang="zh-Hant"> 天寧寺塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#SL">Sophia Liu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000297a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles/</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-10" who="#SL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000297a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000297a-1" type="building-name" xml:lang="en">Tianning Monastery Pagoda</placeName>
+               <placeName xml:id="name000297a-2" type="building-name" xml:lang="zh-Hant">天寧寺塔</placeName>
+               <placeName xml:id="name000297a-3" type="building-name" xml:lang="zh-Hans">天宁寺塔</placeName>
+               <placeName xml:id="name000297a-4" type="building-name" xml:lang="zh-latn-pinyin">Tiānníngsì tǎ</placeName>
+               <placeName xml:id="name000297a-5" type="building-name" xml:lang="zh-latn-wadegile">T’ien-ning-ssu-t’a</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000297a</idno>
+               <state type="existence" from="1119-01-01" to="1120-12-31">
+                  <label>Date</label>
+                  <desc>1119 - 1120</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000297a-3" from="0916-01-01" to="1125-12-31">
+                  <label>Dynasty</label>
+                  <desc>Liao 916-1125</desc>
+               </state>
+               <desc type="building-data">
+                  <p xml:lang="en" source="#bibl000297a-1">The Tianning Monastery Pagoda is an octagonal stone and brick pagoda 
+                     with thirteen eaves constructed in the miyan (密檐, meaning “closely-piled eaves” (Lin 2016, 111)) style 
+                     in the <term ref = "/keyword/k000047">Liao dynasty</term>. A Liao stele found at the top of the pagoda
+                     documents its construction in 1119 supervised by prince Chun, 
+                     a military general of the Liao military, under the decree of Emperor Tianzuo, and the 
+                     construction was completed in 1120 (Wang and Wang 2011, 80). The finial (baoding) of the pagoda 
+                     was a <term ref = "/keyword/k000070">Qing dynasty</term> reconstruction (Wang 1996, 10). 
+                  </p>
+                  <p xml:lang="en" source="#bibl000297a-2">
+                     Although the center is now offset due to later renovations, 
+                     Wang Shiren locates the original position of the pagoda at the center of the rectilinear complex 
+                     of the Tianningsi (1996, 11). The pagoda is 55.38 meters tall according to a 1991 measurement (Wang 1996, 12). 
+                     The body of the pagoda is seated upon a wide octagonal base consisting from bottom to top of a 
+                     Mount Sumeru platform (xumizuo 须弥座) with horizontal patterning of cusped gable doorways (kunmen 壸门), 
+                     another level consisting of the same pattern, a level of balcony structured decoration formed by railings (goulan) 
+                     supported by bracket arms (<term ref="/keyword/k000019">dougong</term>) in imitation of wooden structures, and three layers of upward-facing lotus 
+                     petals that frame the shaft (Liang and Lin 1935, 142). The body’s first level contains alternating architectural features of 
+                     arched doorways and mullioned windows on its cardinal and off-cardinal sides respectively. There are relief sculptures 
+                     flanking or on top of the architectural features. The thirteen eaves are constructed with masonry in imitation of 
+                     wooden structures: the eaves are complete with both eaves rafters and flying rafters which curve upwards at the 
+                     corners, column tops are joined with both lan’e and pupaifang, and the columns support five-layer bracket sets 
+                     with two steps of <term ref="/keyword/k000172">huagong</term> (五铺作双抄) (Wang 1996, 13). The forty-five degree angle bracket arms (huagong) at the 
+                     corners are also characteristic of late Liao wooden structures. The eaves are topped with glazed tiles (<term ref="/keyword/k000165">liuliwa</term>) 
+                     dating to distinct periods, and plate tiles (<term ref="/keyword/k000104">banwa</term>) were also found dating to the Liao dynasty (Wang 1996, 12).
+                  </p>
+               </desc>   
+               <location type="gps" subtype="preferred">
+                  <geo>39.894167 116.346111</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type </label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <listBibl xml:id="bibl000297a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EGGYVYY5"/>
+                     <citedRange unit="pp">111</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/QNU7AKR9"/>
+                     <citedRange unit="pp">80</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VVFZG6KV"/>
+                     <citedRange unit="pp">10</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000297a-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VVFZG6KV"/>
+                     <citedRange unit="pp">11-13</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/8WH4533W"/>
+                     <citedRange unit="pp">142</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000297a-3">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                     </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000297a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000297a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000297"/>
+               <relation active="https://architecturasinica.org/place/000294a" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51723383680_3685f5ad4a_k.jpg"
+                  passive="https://architecturasinica.org/place/000297a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/51723161409_049828e88d_k.jpg"
+                  passive="https://architecturasinica.org/place/000297a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

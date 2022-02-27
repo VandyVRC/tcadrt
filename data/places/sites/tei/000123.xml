@@ -9,6 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +17,10 @@
             <respStmt>
                <resp>adding external links</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#CX">XU Chuyuan 徐楚原</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -60,7 +65,6 @@
                <placeName xml:id="name000123-3" type="site-name" xml:lang="zh-latn-wadegile">Chung-p'ing Er-hsien-kung</placeName>
                <placeName xml:id="name000123-4" type="site-name" xml:lang="zh-Hant">中坪二仙宮</placeName>
                <placeName xml:id="name000123-5" type="site-name" xml:lang="zh-Hans">中坪二仙宫</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000123</idno>
                <state type="existence" subtype="dynasty" source="#bibl000123-1" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
@@ -97,6 +101,9 @@
                <location type="gps">
                   <geo>35.8061166 113.069833</geo>
                </location>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000123-2">Erxian Gong (Erxian Palace) is Located about 1 km northwest of Zhongping Village, Beishi Town at the Southern foot of Cuiping Mountain. Containing artifacts from the <term ref="/keyword/k000036">Jin</term>, <term ref="/keyword/k000101">Yuan</term>, <term ref="/keyword/k000051">Ming</term>, and <term ref="/keyword/k000070">Qing</term> dynasties, it is registered with the Provincial Cultural Relics Protection Unit. Erxian Palace was founded in the <term ref="/keyword/k000082">Tang</term> Tianyou reign period (905-907) has been rebuilt and expanded in the Jin dynasty, the fifth year of the Yuan Zhiyuan reign period (1339), and during the Ming and Qing dynasties, ultimately enclosing an area of 2040 square meters. The palace is oriented north-south facing the south, and has a one-courtyard-arrangement. On the central axis there is a Mountain Gate (the back of which has an inward-facing stage on the upper story) and a main hall. There are east and west wing towers, surrounding corridors, side halls, and corner halls on both sides. The existing main hall was built in the Jin dynasty and repaired in the Yuan dynasty, while the rest are buildings in the Ming and Qing dynasties. The temple has seventeen steles documenting restorations in the past dynasties, including one Jin stele, one Yuan stele, seven Ming steles, eight Qing steles, and a pair of Qing stone lions.</p> 
+               </desc>
                <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">palace (Daoist monastery or other)</desc>
@@ -108,6 +115,12 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <listBibl xml:id="bibl000123-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                     <citedRange unit="pp">424</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000123" passive="https://architecturasinica.org/keyword/k000061" ref="dcterms:subject" ana="site-type"/>
