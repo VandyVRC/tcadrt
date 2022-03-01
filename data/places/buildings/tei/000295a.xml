@@ -108,7 +108,7 @@
                     <location type="verbatim">
                         <note>(google map)</note>
                     </location>
-                    <listBibl xml:id="bibl000295-1">
+                    <listBibl xml:id="bibl000295a-1">
                         <bibl>
                             <ptr target="https://architecturasinica.org/bibl/9MZGZAHX"/>
                             <citedRange unit="pp">1-10</citedRange>                            
@@ -122,18 +122,14 @@
                             <citedRange unit="pp">II:45-46; 138-C1-1</citedRange>
                         </bibl>                      
                     </listBibl>
-                    <listBibl xml:id="bibl000295-2">
-                        <bibl>
+                        <bibl xml:id="bibl000295a-2">
                             <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
                             <citedRange unit="pp">II:45-46; 138-C1-1</citedRange>
-                        </bibl>
-                    </listBibl>
-                    <listBibl xml:id="bibl000295-3">
-                        <bibl>
+                        </bibl>               
+                        <bibl xml:id="bibl000295a-3">
                             <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                             <citedRange unit="pp">12</citedRange>
                         </bibl>
-                    </listBibl>
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000295a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
