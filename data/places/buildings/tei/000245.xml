@@ -14,8 +14,12 @@
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
+               <resp>Initial translation by</resp>
+               <name type="person" ref="#EYC">Yue Chen</name>
+            </respStmt>
+            <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id=" SZ"> SUN Zheng </name>
+               <name type="person" xml:id="SZ"> SUN Zheng </name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +53,8 @@
          <change n="2.0" when="2020-03-26-04:00">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data translation from 中国文物地图集</change>
+         <change n="3.1" who="#TGM" when="2022-03-01-04:00">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,17 +69,16 @@
                <placeName xml:id="name000245-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Tiantaian zhengdian</placeName>
                <placeName xml:id="name000245-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">天臺庵正殿</placeName>
                <placeName xml:id="name000245-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">天台庵正殿</placeName>
-               <placeName xml:id="name000245-11" type="alternate">Zhengdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000245</idno>
-               <state type="existence" from="0618-01-01" to="0960-01-01">
+               <state type="existence" from="0800-01-01" to="0960-01-01">
                   <label>Date</label>
-                  <desc>618-960</desc>
+                  <desc>Likely founded in the Late Tang - Five Dynasties period (9th-10th centuries)</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000245-1" from="618-01-01" to="907-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000245-1" from="0618-01-01" to="0960-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang 618 - 907</desc>
+                  <desc>Tang - Five Dynasties 618 - 960</desc>
                </state>
-               <desc type="building-data" xml:lang="en">The main hall of Tiantai'an is three bays wide and four rafters deep with an open frame ceiling. The transversal structural frame consists of four rather beams supported by front and back eaves pillars. The hall itself is thus supported by one circuit of eaves columns, and the tops of the columns are rounded with a gentle narrowing (juansha 卷殺). <term ref="keyword/k000038">Lan’e 闌額</term>, the tie beams through the top of the columns joining inside the columns themselves, are placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term> on top of them. The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars. The pillar top bracket arms extend out directly from the bearing block, on top of which is an intermediary timber (timu 替木) directly supporting the eaves purlins. This exemplifies the “bearking-block extension” (doukoutiao 斗口跳) described in the Yingzao fashi (1103). A set of panel doors lead into the central bay, and the secondary bay holds lattice windows.</desc>
+               <desc type="building-data" source="#bibl000245-2" xml:lang="en">The main hall of Tiantai'an is three bays wide and four rafters deep with an open frame ceiling. The transversal structural frame consists of four rather beams supported by front and back eaves pillars. The hall itself is thus supported by one circuit of eaves columns, and the tops of the columns are rounded with a gentle narrowing (juansha 卷殺). <term ref="keyword/k000038">Lan’e 闌額</term>, the tie beams through the top of the columns joining inside the columns themselves, are placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term> on top of them. The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars. The pillar top bracket arms extend out directly from the bearing block, on top of which is an intermediary timber (timu 替木) directly supporting the eaves purlins. This exemplifies the “bearking-block extension” (doukoutiao 斗口跳) described in the Yingzao fashi (1103). A set of panel doors lead into the central bay, and the secondary bay holds lattice windows.</desc>
                <location type="gps" subtype="preferred">
                   <geo>36.38344 113.3922133</geo>
                </location>
@@ -90,6 +95,10 @@
                <bibl xml:id="bibl000245-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000093-2">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II:304; 32-C3</citedRange>
                </bibl>
                <note type="field-notes">probably early tenth century, based on style</note>
             </place>
