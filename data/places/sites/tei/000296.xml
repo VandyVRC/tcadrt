@@ -6,12 +6,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jianfu Monastery <foreign xml:lang="zh-Hant"
-                  >薦福寺</foreign>
+            <title level="a" xml:lang="en">Jianfu Monastery <foreign xml:lang="zh-Hant">薦福寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Page creation by</resp>
