@@ -9,8 +9,9 @@
                 <title level="a" xml:lang="en">Great Ci'en Monastery <foreign xml:lang="zh-Hant">大慈恩寺</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal>Tracy Miller</principal>
-                <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <editor role="content-author" ref="#TGM">Tracy Miller</editor>
                 <editor role="page-creator" xml:id="CX">XU Chuyuan 徐楚原</editor>
                 <respStmt>
                     <resp>Website coordination by</resp>
