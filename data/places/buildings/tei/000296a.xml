@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jianfu Monastery, Small Wild Goose Pagoda <foreign xml:lang="zh-Hant">薦福寺小雁塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Page creation by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial translation in 2021 by</resp>
+               <name type="person" ref="#JP">Jason Pan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000296a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-04-15:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#JP" when="2021-12-04">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2022-02-26">Editing, adding content</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000296a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000296a-1" type="building-name" xml:lang="en">Small Wild Goose Pagoda</placeName>
+               <placeName xml:id="name000296a-2" type="building-name" xml:lang="zh-latn-pinyin">Xiaoyanta</placeName>
+               <placeName xml:id="name000296a-3" type="building-name" xml:lang="zh-latn-wadegile">Hsiao-yen-t'a</placeName>
+               <placeName xml:id="name000296a-4" type="building-name" xml:lang="zh-Hant">小雁塔</placeName>
+               <placeName xml:id="name000296a-5" type="building-name" xml:lang="zh-Hans">小雁塔</placeName>
+               <placeName xml:id="name000296a-6" type="alternate" xml:lang="en">Jianfu Monastery Small Wild Goose Pagoda</placeName>
+               <placeName xml:id="name000296a-7" type="alternate" xml:lang="zh-latn-pinyin">Jianfusi Xiaoyanta</placeName>
+               <placeName xml:id="name000296a-8" type="alternate" xml:lang="zh-Hant">薦福寺小雁塔</placeName>
+               <placeName xml:id="name000296a-9" type="alternate" xml:lang="zh-Hans">荐福寺小雁塔</placeName>
+               <placeName xml:id="name000296a-10" type="alternate" xml:lang="zh-latn-pinyin">Jianfusi ta</placeName>
+               <placeName xml:id="name000296a-11" type="alternate" xml:lang="zh-Hant">薦福寺塔</placeName>
+               <placeName xml:id="name000296a-12" type="alternate" xml:lang="zh-Hans">荐福寺塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000296a</idno>
+               <state type="existence" notBefore="0705-01-01">
+                  <label>Date</label>
+                  <desc>705-710</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000296a-2" from="0618-01-01" to="0907-01-01">
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
+               </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000296a-1">The Small Wild Goose Pagoda is a 15-story compact eaves  (<term>miyan 密檐</term>) brick pagoda. Also known as the Jianfu Monastery Pagoda, it is considered to be a representative example of early compact eaves pagodas in China. Together with the <placeName ref="/place/000295a">Great Wild Goose Pagoda</placeName>, it is an important monument preserved from when Chang'an (modern Xi'an) was the capital of the <term ref="/keyword/k000082">Tang</term> dynasty. The Small Wild Goose Pagoda was built during the reign of Tang dynasty Emperor Zhongzong (r. 705–710). Earthquakes in 1487 and 1556 damaged the upper floors, and its remaining thirteen stories now rise from an 11.38 meter square first level to a height of 43.94 meters. The pagoda stands on a 3.2 meter high square base, measuring 23.38 meters a side. The tower is hollow with a single outer wall. The ground story is the tallest and the height of every story decreases progressively towards the top. Its overall profile is a gentle curve, and eaves are created to distinguish each story through layers of corbelled brick (<term>diese 疊澀</term>) crowned by two rows of "water chestnut" (lingjiao 菱角) shaped triangular brick dentals. The ground story has two arched doors facing south and north respectively and other stories have arched windows on north and south sides. The limestone lintel and doorframes on the ground level are carved with celestials making offerings and foliate patterns. There are small pagodas placed on either side of the arched windows from the 5th to 11th stories. Inside the pagoda each level has a wooden floor which is linked to the others by stairs of brick. Numerous inscriptions from the Tang to Qing dynasties are set into the walls. According to the line drawing carved into a stone stele from 1449, the original finial rose from a round base, and threaded through two-tiers of chattras and a pearl. From 1964-1965, the pagoda underwent extensive repairs and the foundation was excavated.</p>
+               </desc>
+                  <!--<p source="#bibl000296-2">The "morning bell" of the Small Wild Goose Pagoda is an iron bell of the Jin Dynasty washed away by the Weihe River in the worshiping buddhist temple in wugong village. it brings convenience to the production and life of the citizens of Xi'an City, because the monks of Jianfu Temple ring the clock every day. The Bell forms the well-known "morning bell of the wild goose pagoda" scenery in Guanzhong area. At present, this record was first seen in the collection of liuxipo by Liu Chuxiu of the Ming Dynasty. During the Ming and Qing dynasties, the military examination graduates in Shaanxi and Gansu followed the example of the Tang people and named the little wild goose pagoda, which further enriched the connotation of the little wild goose pagoda as a local scenic spot. There is existing 18 famous steles of imperial examination on military in the provincial level, which is an important material for studying the military imperial examination of the Ming and Qing dynasties. On the lintel of the stone north gate of the little wild goose pagoda, there is the miracle of the separation and combination of the little wild goose pagoda due to the earthquake recorded by Wang He in the year of Jiajing of the Ming Dynasty (1551), which increases the preference to this pagoda from local people. There are also more than 20 inscriptions of Jianfu Temple repaired in the courtyard of Small Wild Goose Pagoda from the Song dynasty to the Ming and Qing dynasties, which is the direct material evidence of the ancient people's protection of historical relics and local scenic spots.</p>
+                       -->
+               <note type="External Links">
+                  <p>
+                     <ref target="https://tinyurl.com/43pebcyp">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/yfhhv39v">Wikipedia (in English)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://tinyurl.com/hksuwccm">百度百科</ref>
+                  </p>
+               </note>
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/7002084 http://vocab.getty.edu/tgn/8190462">
+                  <placeName>陕西省西安市</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Beilin, Xi'an, Shaanxi </placeName>
+                  <country>China</country>
+               </location>
+               <location type="gps" subtype="preferred">
+                  <geo>34.240757 108.937262</geo>
+                  <note>Google Earth</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <bibl xml:id="bibl000296a-1">
+                  <ptr target="https://architecturasinica.org/bibl/X4LUR7EJ"/>
+                  <citedRange unit="pp">II:21; 120-C1-1</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000296a-2">
+                  <ptr target="https://architecturasinica.org/bibl/PRQDGBFB"/>
+                  <citedRange unit="pp">32-34</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+                 <relation active="https://architecturasinica.org/place/000296a"
+                  passive="https://architecturasinica.org/keyword/k000060"
+                  ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal" passive="https://dev.architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000296a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000296a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000296"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683460409_b08507e5e8_4k.jpg" passive="https://architecturasinica.org/place/000296a" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51683053593_6d36cf15db_4k.jpg" passive="https://architecturasinica.org/place/000296a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

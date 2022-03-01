@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Fogong Monastery <foreign xml:lang="zh-Hant">佛宮寺</foreign>
+            <title level="a" xml:lang="en">Fogong Monastery <foreign xml:lang="zh-Hant"
+                  >佛宮寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="VJS">Vania Sih</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +21,10 @@
             <respStmt>
                <resp>adding external links</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#VJS">Vania Sih</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,17 +56,22 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
-         <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change when="2020-09-17" who="#SLY">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="VJS" when="2021-12-18-04:00">adding site description</change>
+         <change n="2.1" who="#TGM" when="2022-02-18-04:00">updated authorial responsibility, edited text</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000028" type="site">
-               <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong Monastery</placeName>
-               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin">Fógōngsì</placeName>
-               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-latn-wadegile">Fo-kung-ssu</placeName>
+               <placeName xml:id="name000028-1" type="site-name" xml:lang="en">Fogong
+                  Monastery</placeName>
+               <placeName xml:id="name000028-2" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Fógōngsì</placeName>
+               <placeName xml:id="name000028-3" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Fo-kung-ssu</placeName>
                <placeName xml:id="name000028-4" type="site-name" xml:lang="zh-Hant">佛宮寺</placeName>
                <placeName xml:id="name000028-5" type="site-name" xml:lang="zh-Hans">佛宫寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000028</idno>
@@ -65,6 +79,32 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000028-1">Fogongsi (佛宮寺) is located in Yingxian County, Shanxi Province. According to the Wanli
+                     reign period (1573-1620) <title>Yingzhouzhi (應州志)</title>, it was begun in the second year of
+                     the Liao Qingning period (1056). The site has been
+                     renovated many times. Although initially named Baogong chansi (寶宮禪寺), due to
+                     an imperial taboo for the character bao (寶) in 1315, the site’s name was
+                     changed to Fogongsi. Covering an area of ​​24,000 square
+                     meters the buildings are oriented north-south. In the Liao period, the
+                     monastery was just northwest of the intersection between the major north­-south
+                     and east-­west city thoroughfares, putting the monastery in a central position
+                     in Yingzhou (Steinhardt 1994, 13-14).
+                  </p>
+                  <p>
+                     The Sakyamuni Pagoda is oriented two degrees
+                     west of due south and stands on the central axis, behind the Shanmen (山門) and
+                     in front of the Mahavira Treasure Hall (Daxiongbaodian 大雄宝殿). Of the existing
+                     buildings at the site, only the Sakyamuni Pagoda is a relic of the Liao
+                     Dynasty. The <term> bell tower (钟楼)</term> and the <term
+                     >drum tower (鼓楼)</term> were built in the Ming dynasty,
+                     and the Mahavira Treasure Hall (Daxiongbaodian 大雄宝殿), appended buildings (jiawu
+                     夹屋), and subsidiary halls (peidian 配殿) are all buildings from the <term subtype="dynasty" ref="/keyword/k000070"
+                        >Qing</term> dynasty (Guojia wenwuju, 2006, 176). From the mid 20th century there were two courtyards,
+                     one with the gatehouse, bell and drum towers and the pagoda, and the back with
+                     abbots' quarters and the Daxiongbaodian (Chen, 2001, 30).
+                  </p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/w76mrgg">Wikipedia (in Chinese)</ref>
@@ -101,14 +141,33 @@
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
                <bibl xml:id="bibl000028-1">
+                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  <citedRange unit="pp">13-14</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000028-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000028-3">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">176</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000028-4">
+                  <ptr target="https://architecturasinica.org/bibl/HEM6YVW7"/>
+                  <citedRange unit="pp">30</citedRange>
+               </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000028" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000028"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000028" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/3399/4645897039_59e0c05eab_b.jpg"
+                  passive="https://architecturasinica.org/place/000028" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

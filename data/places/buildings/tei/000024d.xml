@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Dule Monastery, White Pagoda<foreign xml:lang="zh-Hant">獨樂寺白塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <respStmt>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding external links 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000024d/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2018-03-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-02-04:00">CREATED: place record</change>
+         <change n="1.5" when="2021-12-16" who="#HDN">Added site information</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000024c" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000024d-1" xml:lang="en">White Pagoda</placeName>
+               <placeName xml:id="name000024d-2" type="building-name" xml:lang="zh-Hant">白塔</placeName>
+               <placeName xml:id="name000024d-3" type="building-name" xml:lang="zh-Hans">白塔</placeName>
+               <placeName xml:id="name000024d-4" type="building-name" xml:lang="zh-latn-pinyin">Bái tǎ</placeName>
+               <placeName xml:id="name000024d-5" type="building-name" xml:lang="zh-latn-wadegile">Pai-t'a</placeName>
+               <placeName xml:id="name000024d-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Baita</placeName>
+               <placeName xml:id="name000024d-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺白塔</placeName>
+               <placeName xml:id="name000024d-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">独乐寺白塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000024d</idno>
+               <state type="existence" notBefore="0900-01-01">
+                  <label>Date</label>
+                  <desc>original construction ca. 10th century (?); reconstructed in 1058</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000024d-6" from="0916-01-01" to="1125-01-01">
+                  <label>Dynasty</label>
+                  <desc>Reconstructed in Liao 916 - 1125</desc>
+               </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000024c-1">Located the southwest of Ji County 薊州, Tianjin Municipality 天津市, the White Pagoda (Baita 白塔) is also known as the Dule si ta 獨樂寺塔 (Tianjin lishi bowuguan kaogudui 1989, 83).</p>
+                  <p xml:lang="en" source="#bibl000024c-2">Although the exact construction date of the White Pagoda is unknown, in his 1930s report, Liang Sicheng 梁思成 believed the original construction should date to the <term ref="/keyword/k000047">Liao</term> dynasty (916-1125) (Liang 1932, 94). Because pagodas (<term ref="/keyword/k000060">ta 塔</term>) during the <term ref="keyword/k000082">Tang</term> dynasty (618-907) commonly had a square ground plans, the octagonal-shape ground plan suggests White Pagoda was originally constructed after that time, likely in the tenth century (Liang 1932, 95).</p>
+                  <p xml:lang="en" source="#bibl000024c-3">The White Pagoda aligns with the central north-south axis that extends from <term ref="/place/000024c">the Guanyin Pavilion (Guanyin ge 觀音閣)</term> at <placeName ref="/place/000024">Dule Monastery (Dule si 獨樂寺)</placeName>. It is located 380 meters south of the monastery (Tianjin lishi bowuguan kaogudui 1989, 83). Thus, Liang Sicheng suggested that the construction of the White Pagoda followed the construction of the Dule Monastery and the White Pagoda may have originally been part of this larger complex (Liang 1932, 93). Nancy Steinhardt also agrees on that the White Pagoda must be interpreted as an extension of <term ref="/place/000024">Dule Monastery</term> (Steinhardt 1997, 53). Standing at the third floor of its <term ref="/place/000024c">Guanyin Pavilion</term>, one can easily see the White Pagoda directly to its south (Steinhardt 1997, 53).</p> 
+                  <p xml:lang="en" source="#bibl000024c-4">The White Pagoda is 30.6 meters high (Tianjin lishi bowuguan kaogudui 1989, 112). The foundation is made of granite (Liang 1932, 95). It was damaged in the Tangshan earthquake 唐山大地震 in 1976 and it was rebuilt in the spring 1983 (Tianjin lishi bowuguan kaogudui 1989, 119). During the repair in 1983, earlier <term>Liao</term> dynasty layers were found within the ca. 60-100 cm thick exterior brick layer 包磚層 (Tianjin lishi bowuguan kaogudui 1989, 83). The enclosed pagoda consisted of a waisted monumental Sumeru base 束腰須彌座, a pavilion-shaped octagonal double-eaves body 八角重檐亭式塔身, and a stupa 窣堵波 (覆鉢) (Tianjin lishi bowuguan kaogudui 1989, 85). The exterior of the pagoda is made of brick carved with dougong-shaped designs, floral patterns and mythical animals (Tianjin lishi bowuguan kaogudui 1989, 119).</p> 
+                  <p xml:lang="en" source="#bibl000024c-5">The pagoda is largely solid brick within which were found two vertically aligned crypts. A short finial extends from the ceiling of the upper crypt through the top of the pagoda (Lin 2016, 112). Archeologists also found a two-layer reliquary within the central crypt. Although the wooden interior layer had decayed, the outer stone reliquary was engraved on three sides with the names of Han Zhibai 韓知白, Qin Jian 秦鑒 and the monk Sixiao 思孝, as well as documentation of donations of Buddhist relics. Steinhardt suggests the relics were interred here so they could be protected by the watchful eye of the Guanyin in Dule Monastery (Steinhardt 1997, 55).</p> 
+                  <!--<p xml:lang="en" source="#bibl000024c-1">In front of the White Pagoda is the Guanyin Monastery 觀音寺, commonly known as Baita Monastery 白塔寺 because of the White Pagoda Baita 白塔 that is housed in the monastery. According to Chongxiu yuyangjun ta ji《重修漁陽郡塔記》, the monastery was constructed during the Jiajing 嘉靖 reign period of the <term ref="/keyword/k000051">Ming dynasty</term> 明代 (Tianjin lishi bowuguan kaogudui 1989, 83).</p>  
+                  
+                  <p xml:lang="en" source="#bibl000024c-5">Architectural historians such as Liang Sicheng believed that the White Pagoda holds great significance, but they have not determined what exact significance the White Pagoda possessed (Steinhardt 1997, 54).</p>
+                  -->
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>40.042022 117.403283</geo>
+               </location>
+               <location type="verbatim">
+                  <note>(Google Earth)</note>
+               </location>   
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait> 
+               <note type="External Links">
+                  <p>
+                     <ref target="https://youtu.be/wQZrhL0N9_I">Video: 天津薊縣獨樂寺白塔 The White Pagoda (Baita), Dule Monastery, Tianjin, Ji County (sounds on!) The rhythm of the wind, bells, and birds singing. By Danni Huang.</ref>
+                  </p>  
+                  <p>
+                     <ref target="https://tinyurl.com/yr6jz2nt">百度百科</ref>
+                  </p>
+               </note>
+               
+               <bibl xml:id="bibl000024d-1">
+                  <ptr target="https://architecturasinica.org/bibl/IXCKU8IP"/>
+                  <citedRange unit="pp">83</citedRange>
+               </bibl> 
+               <bibl xml:id="bibl000024d-2">
+                  <ptr target="https://architecturasinica.org/bibl/VQ2ZMAP8"/>
+                  <citedRange unit="pp">94,95</citedRange>
+               </bibl> 
+               <listBibl xml:id="bibl000024d-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VQ2ZMAP8"/>
+                     <citedRange unit="pp">93</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/IXCKU8IP"/>
+                     <citedRange unit="pp">83</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">53</citedRange>
+                  </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000024d-4">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/VQ2ZMAP8"/>
+                     <citedRange unit="pp">95</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/IXCKU8IP"/>
+                     <citedRange unit="pp">83, 85,112,119</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EGGYVYY5"/>
+                     <citedRange unit="pp">112</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000024d-5">
+                  <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                  <citedRange unit="pp">54, 55</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000024d-6">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl> 
+            </place>
+            <listRelation>
+               <!-- 
+                  <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>1</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/Keyword/k000065" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+                  <desc>
+                     <num>2</num>
+                  </desc>
+               </relation>
+               <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000024c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+               
+               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000024c">
+                  <desc>Guanyinge, Front view from Shanmen</desc>
+               </relation>
+                -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51733142231_6b1e31610c_6k.jpg" passive="https://architecturasinica.org/place/000024d" ana="featured"/>     
+               <relation ana="contained" active="https://architecturasinica.org/place/000024d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

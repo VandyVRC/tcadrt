@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Tianning Monastery <foreign xml:lang="zh-Hant"> 天寧寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" xml:id="SL">Sophia Liu</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research 2021 by</resp>
+               <name type="person" ref="#SL">Sophia Liu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000297/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2021-12-09-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2021-12-09-04:00" who="#SL">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000297" type="site">
+               <placeName xml:id="name000294-1" type="site-name" xml:lang="en">Tianning Monastery</placeName>
+               <placeName xml:id="name000294-2" type="site-name" xml:lang="zh-Hant">天寧寺</placeName>
+               <placeName xml:id="name000294-3" type="site-name" xml:lang="zh-Hans">天宁寺</placeName>
+               <placeName xml:id="name000294-4" type="site-name" xml:lang="zh-latn-pinyin">Tiānníngsì</placeName>
+               <placeName xml:id="name000294-5" type="site-name" xml:lang="zh-latn-wadegile">T’ien-ning-ssu</placeName>
+               <placeName xml:id="name000294-1" type="site-name" xml:lang="en">Tianwang Monastery</placeName>
+               <placeName xml:id="name000294-2" type="site-name" xml:lang="zh-Hant">天王寺</placeName>
+               <placeName xml:id="name000294-3" type="site-name" xml:lang="zh-Hans">天王寺</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000297</idno>
+                   <state type="existence" subtype="dynasty" source="#bibl000297-2" from="0618-01-01" to="0907-12-31">
+                   <label>Dynasty</label>
+                   <desc>Tang 618-907</desc>
+                  </state>
+               <desc type="site-data">
+                  <p xml:lang="en" source="#bibl000297-1"> The Tianning Monastery is a Buddhist monastery complex located in Xicheng district, Beijing.
+                     Although historical records usually date the Tianning Monastery to the <term ref="/keyword/k000056">Northern Wei</term> period, 
+                     the contemporary scholar Wang Shiren writes that the monastery was first built in the <term ref="/keyword/k000082">Tang dynasty</term>
+                  under the name Tianwangsi (天王寺) and was dedicated to Vaisravana (1996, 9). The octagonal pagoda still 
+                  extant today was constructed during the Tianqing reign of the <term ref="/keyword/k000047">Liao dynasty</term> in 1120 (Wang and Wang 2011, 80). 
+                  Later records show that the monastery was destroyed at the end of the Liao dynasty and rebuilt by Emperor 
+                  Yongle (r. 1402 - 1424) of the <term ref="/keyword/k000051">Ming dynasty</term> while he was the Prince of Yan. The monastery was 
+                  renamed Tianningsi in the tenth year of the Xuande reign (1435) of the Ming dynasty. 
+                  The buildings standing today date to another reconstruction in the twenty-first year of Qianlong (1756) of 
+                     <term ref="/keyword/k000070">Qing</term> with additional renovations from 1938 (Wang 1996, 12).
+                  </p>
+               </desc>
+               <note type="External Links">
+                  <p><ref target="https://tinyurl.com/2p8wnpcu">Wikipedia (in Chinese)</ref></p>
+                  <p><ref target="https://en.wikipedia.org/wiki/Tianning_Temple_(Beijing)">Wikipedia (in English)</ref></p>
+                  <p><ref target="https://tinyurl.com/2p8394x3">百度百科</ref></p>
+               </note>
+               <!--<location type="nested">
+                  <country>China</country>
+                  <region type="county-city">
+                     <placeName xml:lang="zh-latn-pinyin">Beijing</placeName>
+                     <placeName xml:lang="zh-Hant">北京市</placeName>
+                  </region>
+                  <region type="political-subdivision">
+                     <placeName xml:lang="zh-Hant">西城區</placeName>
+                     <placeName xml:lang="en">Xicheng District</placeName>
+                  </region>
+               </location>-->
+               <location type="gps" subtype="preferred">
+                  <geo>39.894167 116.346111</geo>
+               </location>
+               <trait type="type" sub-type="site type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+               </trait>
+               <listBibl xml:id="bibl000297-1">
+                  <bibl>                  
+                     <ptr target="https://architecturasinica.org/bibl/VVFZG6KV"/>
+                     <citedRange unit="pp">9-12</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/QNU7AKR9"/>
+                     <citedRange unit="pp">80</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000297-2">
+                 <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+            <relation active="https://architecturasinica.org/place/000297" 
+               passive="https://architecturasinica.org/keyword/k000052" 
+               ref="dcterms:subject" ana="site-type"/>
+            <relation active="https://architecturasinica.org/place/000297" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+            <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/51721696542_322c2a64b1_k.jpg"
+                  passive="https://architecturasinica.org/place/000297" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

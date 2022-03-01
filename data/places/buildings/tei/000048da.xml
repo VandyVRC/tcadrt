@@ -65,7 +65,7 @@
                <placeName xml:id="name000048da-3" type="building-name" xml:lang="zh-Hans">茶烟洞</placeName>
                <placeName xml:id="name000048da-4" type="building-name" xml:lang="zh-latn-pinyin">Cháyāndòng</placeName>
                <placeName xml:id="name000048da-5" type="building-name" xml:lang="zh-latn-wadegile">Ch'a-yen-tung</placeName>
-               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines Cha-yan Cavern</placeName>
+               <placeName xml:id="name000048da-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci chayandong</placeName>
                <placeName xml:id="name000048da-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠茶煙洞</placeName>
                <placeName xml:id="name000048da-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠茶烟洞</placeName>
                <placeName xml:id="name000048da-9" type="alternate" xml:lang="zh-Hant">雲陶洞</placeName>
@@ -76,9 +76,9 @@
                    <label> Date </label>
                    <desc> 17th century </desc>
                    <label>Dynasty</label>
-                   <desc> Ming - Qing </desc>
+                   <desc> Ming - Qing (1368-1912) </desc>
                </state>
-               <location type="nested" source="http://vocab.getty.edu/tgn/8680913 http://vocab.getty.edu/aat/300387145">
+               <location type="nested" source="http://vocab.getty.edu/tgn/8680913">
                   <country>China</country>
                   <region type="province">
                      <placeName xml:lang="en">Shanxi Province</placeName>
@@ -102,7 +102,7 @@
                   <desc xml:lang="zh-Hans">洞</desc>
                </trait>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of <term ref="/place/000048ba">Chaoyang Cavern</term>, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than <term ref="/place/000048ba">Chaoyang Cavern</term>. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195). This structure is number 28 on our <term ref="https://architecturasinica.org/place/000048">plan</term> of the site.</p> 
+                  <p source="#bibl000048da-1" xml:lang="en">Also called Yuntaodong 云陶洞. Located north of <term ref="/place/000048ba">Chaoyang Cavern</term>, originally called Chaoyang bieyi dong 朝陽別一洞 (the other Chaoyang cavern), but it is deeper than Chaoyang Cavern. Within it there is another small cave, a tea stove and a stone bed. According to Liu Yongde, this place was thought to have been excavated for the use of troops in the area, and was where Fu Shan (1607–1684) was said to have been imprisoned. It came to be called Tea Smoke Cavern after this time, when Daoist priests brewed tea to entertain troops (Miller 2007, 195). This structure is number 28 on our <term ref="https://architecturasinica.org/place/000048">plan</term> of the site.</p> 
                </desc>
                  <bibl xml:id="bibl000048da-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>

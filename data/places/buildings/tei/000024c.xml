@@ -7,24 +7,24 @@
             <title level="a" xml:lang="en">Dule Monastery, Guanyin Pavilion <foreign xml:lang="zh-Hant">獨樂寺觀音閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <principal>Tracy Miller</principal>
+            <editor role="content-author" xml:id="HDN">HUANG Danni 黄聃婗</editor>
+            <editor role="page-creator" ref="HDN">HUANG Danni 黄聃婗</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
+               <resp>Data entry, adding notes, links and citations 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
             <respStmt>
-               <resp>Initial site research and adding site information, citations and photos 2021 by</resp>
-               <name type="person" xml:id="HDN">HUANG Danni 黄聃婗</name>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citations</resp>
-               <name type="person" xml:id="ML">Melanie Lu</name>
+               <resp>adding external links 2021 by</resp>
+               <name type="person" ref="HDN">HUANG Danni 黄聃婗</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -153,14 +153,9 @@
                </relation>
                <relation active="https://architecturasinica.org/place/000024c" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000024c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
-               <!-- 
-               <relation ref="foaf:depicts" active="farm5.staticflickr.com/4036/4686522417_b04ff30fe1_" passive="https://architecturasinica.org/place/000024c">
-                  <desc>Guanyinge, Front view from Shanmen</desc>
-               </relation>
-                -->
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
-               <relation ref="https://live.staticflickr.com/65535/51160710931_393b13f3aa_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000024c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000024"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51160952858_9c047c3b1f_h.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51752936415_089cf0bb87_k.jpg" passive="https://architecturasinica.org/place/000024c" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

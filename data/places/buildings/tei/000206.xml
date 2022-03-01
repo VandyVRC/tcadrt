@@ -7,15 +7,21 @@
             <title level="a" xml:lang="en">Longmen Monastery, Celestial Kings Hall <foreign xml:lang="zh-Hant">龍門寺天王殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, data entry, adding images, and adding citations</resp>
+               <name type="person" when="2021-12-14" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +55,8 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.1" who="#ZC" when="2021-12-14">Adding content by</change>
+         <change n="2.2" who="#TGM" when="2022-02-25">Editing by</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,6 +81,11 @@
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000063-1">
+                     The foundation of the Jin dynasty Celestial Kings Hall is made of stone with a height of 1.5 meters. The hall is three bays wide and four rafters deep with a single-eaves, overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山頂</term>).  The transverse structure of the building employes a four-rafter beam (sichuanfu 四椽栿) and the space is equally divided into two parts by central and eaves columns (fenxincao 分心槽). The central bay of the front facade has a panel door (banmen 板門) and the two secondary bays have straight lattice windows (zhilingchuang 直欞窗). The tops of the <term ref="/keyword/k000111">eaves pillars (yanzhu 檐柱)</term> are narrowed showing entasis (juansha 卷殺). The front eaves pillars support 5-<term ref="/keyword/k000013">puzuo (鋪作)</term> <term ref="/keyword/k000019">bracket sets (dougong 斗拱)</term> with double <term ref="/keyword/k000178">slanted arms  (xia’ang 下昂)</term>. There is only one <term ref="/keyword/k000105">intercolumnar bracket set (bujian puzuo 補間鋪作)</term> in the central bay (<term ref="/keyword/k000153">dangxinjian 當心間</term>), which is constructed with angled bracket arms (xiegong 斜栱). On the other hand, the back facade has a panel door in the central bay but no windows. The back eaves pillars only support single <term ref="/keyword/k000103">slanted arms (ang 昂)</term> and single <term ref="/keyword/k000172">perpendicular bracket arms (huagong 華栱)</term>, however the central bay intercolumnar bracket also employs angled bracket arms. 
+                  </p>
+               </desc>  
                <location type="gps" subtype="preferred">
                   <geo>36.3896666 113.622666</geo>
                </location>
@@ -86,7 +99,24 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000206-1">
+               <listBibl xml:id="bibl000063-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II:304-305; 32-C3-3</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/TF2IF3WC"/>
+                     <citedRange unit="pp">179-184</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/HIK4IZPK"/>
+                     <citedRange unit="pp">52-57</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000063-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -111,6 +141,8 @@
                </relation>
                <relation active="https://architecturasinica.org/place/000206" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000206" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51722226184_1c7eed2672_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721827998_d7ad24e650_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000206" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000063"/>
             </listRelation>
          </listPlace>

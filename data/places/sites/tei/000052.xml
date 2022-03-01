@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,6 +8,10 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <respStmt>
+               <resp when="2021-12-9">Initial translation in 2021 by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -48,7 +51,8 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
          <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+            <name type="person" xml:id="SLY">SHEN Liyan</name>
+            </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,10 +65,13 @@
                <placeName xml:id="name000052-4" type="site-name" xml:lang="zh-Hant">九天聖母廟</placeName>
                <placeName xml:id="name000052-5" type="site-name" xml:lang="zh-Hans">九天圣母庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000052</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000052-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000052-2" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000052-1">The Jiutian Shengmu Temple is located in Hedongcun, Beishezhen and is classified as a national-level cultural heritage site. It contains relics from the Song, Ming, and Qing dynasties. According to a stele inscription at the site, the of Jiutian Shengmu Temple was originally built in the Sui Dynasty, and refurbished in the Tang, Song, Yuan, Ming, and Qing Dynasties. Occupying 2,526 m2 of space and facing southward, the temple consists of a single courtyard. The Mountain Gate (the back of which is constructed as an inward-facing stage), offering hall, and main hall are on its central axis, while the side halls, galleries, and attached towers are located on the two sides. There is a Dressing Tower on the east side of the temple complex. The courtyard of the temple complex contains three steles, dating to the Song, Yuan, and Ming Dynasties respectively. It also contains 4 tablets (jie碣) from the Ming dynasty, 12 stele (bei碑) from the Qing dynasty, 10 jie from the Qing dynasty, and 3 stele from the Republican Period.</p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/r9nj4nl">Wikipedia (in Chinese)</ref>
@@ -102,6 +109,10 @@
                   <desc xml:lang="zh-Hans">庙</desc>
                </trait>
                <bibl xml:id="bibl000052-1">
+                  <ptr target="https://architecturasinica.org/bibl/XETXHXWJ"/>
+                  <citedRange unit="pp">305-6</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000052-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
