@@ -70,17 +70,17 @@
                <placeName xml:id="name000171-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">佛頭寺正殿</placeName>
                <placeName xml:id="name000171-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">佛头寺正殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000171</idno>
-               <state type="existence" from="0960-01-01" to="1125-01-01">
+               <state type="existence" from="0960-01-01" to="1234-01-01">
                   <label>Date</label>
-                  <desc>960-1125</desc>
+                  <desc>960-1234</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000171-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000171-2" from="0960-01-01" to="1234-01-01">
                   <label>Dynasty</label>
-                  <desc>Northern Song 960 - 1127</desc>
+                  <desc>Northern Song to Jin 960 - 1234</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000171-1">The main hall of Fotou Monastery was built during the Song-Jin period. Placed on a stone foundation platform 0.31 meters high, the hall is three bays wide, four rafters deep, with a single eaves hip-gable roof.
-                     In the hall, the transverse frame is four-rafters deep and is configured using a three rafter beam joined to a zha-qian tie beam supported by three pillars.
+                  <p source="#bibl000171-1">The main hall of Fotousi was built during the Song-Jin period. Placed on a stone foundation platform 0.31 meters high, the hall is three bays wide, four rafters deep, with a single eaves hip-gable roof.
+                     In the hall, the transverse frame is four-rafters deep and is configured using a three rafter beam joined to a <term ref="/keyword/k000141">zhaqian</term> tie beam supported by three pillars.
                      There are panel doors in the central bays of the front and back facades and straight lattice windows in each of the side bays.</p>
                </desc>
                <location type="gps" subtype="preferred">
@@ -97,9 +97,14 @@
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <bibl xml:id="bibl000171-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II:305; 35-C6</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000171-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               
                <!--note type="field-notes">Great Hall Song-Jin structure; see: 中國文物地圖集山西分冊, 中, 305 </note-->
             </place>
             <listRelation>
