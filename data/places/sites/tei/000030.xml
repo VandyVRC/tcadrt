@@ -54,6 +54,7 @@
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
          <change n="2.1" who="#KTT" when="2021-12-08-04:00">UPDATED: place record</change>
+         <change n="2.2" who="#TGM" when="2022-03-01-04:00">edited record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,13 +67,13 @@
                <placeName xml:id="name000030-4" type="site-name" xml:lang="zh-Hant">佛頭寺</placeName>
                <placeName xml:id="name000030-5" type="site-name" xml:lang="zh-Hans">佛头寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000030</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000030-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000030-2" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000030-1">"Fotousi, or Buddha’s Head Monastery is located in Chedang Village, Yanggao Town. It contains artifacts from the Song, and Jin Dynasties and is registered under the  Provincial Cultural Relics Protection Unit. 
-                     The date of its founding is unknown. Sitting in the north and facing south, only the <placeName ref="/place/000171">main hall</placeName> is extant. There are three Qing dynasty steles documenting restorations in the monastery.</p>
+                  <p source="#bibl000030-1">Fotou Monastery, literally Buddha’s Head Monastery, is located in Chedang cun, Yanggao xiang, in Pingshun county. The date of its founding is unknown. Sitting in the north and facing south, only the <placeName ref="/place/000171">great hall</placeName> is extant. It contains a main hall which should date to the Song-Jin period (960-1234) and is registered under the Provincial Cultural Relics Protection Unit. There are also three <term ref="/keyword/k000070">Qing</term> dynasty steles documenting restorations in the monastery preserved at the site.</p>
+                  <p>A plaque on the building seen in 2010 indicates that the hall was registered under the National Cultural Relics Protection Unit in 2006.</p>
                </desc>
                <note type="External Links">
                   <p>
@@ -111,6 +112,10 @@
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
                <bibl xml:id="bibl000030-1">
+                  <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                  <citedRange unit="pp">II:305; 35-C6</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000030-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
