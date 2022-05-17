@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">夏 </foreign>Xià</title>
+               <foreign xml:lang="zh-Hant">商 </foreign>Shāng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -20,13 +20,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000196/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000197/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2022-05-16-04:00</date>
+            <date>2022-05-17-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -42,28 +42,28 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2022-05-16-04:00">CREATED: record</change>
+         <change n="1.0" when="2022-05-17-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000196" type="time period">
-            <term xml:id="term-k000196-1" xml:lang="en">Xia</term>
-            <term xml:id="term-k000196-2" xml:lang="zh-Hant">夏</term>
-            <term xml:id="term-k000196-3" xml:lang="zh-Hans">夏</term>
-            <term xml:id="term-k000196-4" xml:lang="zh-latn-pinyin">Xià</term>
-            <term xml:id="term-k000196-5" xml:lang="zh-latn-wadegile">Hsia</term>
-            <term xml:id="term-k000196-6" xml:lang="en">Xia</term>
-            <term xml:id="term-k000196-7" xml:lang="en">Xia Dynasty</term>
-            <term xml:id="term-k000196-8" xml:lang="zh-Hant">夏朝</term>
-            <state type="existence" source="#biblk00196-1" from="-2100" to="-1600">
-            <desc>2100 BCE - 1600 BCE</desc>
+         <entryFree xml:id="k000197" type="time period">
+            <term xml:id="term-k000197-1" xml:lang="en">Shang</term>
+            <term xml:id="term-k000197-2" xml:lang="zh-Hant">商</term>
+            <term xml:id="term-k000197-3" xml:lang="zh-Hans">商</term>
+            <term xml:id="term-k000197-4" xml:lang="zh-latn-pinyin">Shāng</term>
+            <term xml:id="term-k000197-5" xml:lang="zh-latn-wadegile">Shang</term>
+            <term xml:id="term-k000197-6" xml:lang="en">Shang</term>
+            <term xml:id="term-k000197-7" xml:lang="en">Shang Dynasty</term>
+            <term xml:id="term-k000197-8" xml:lang="zh-Hant">商朝</term>
+            <state type="existence" source="#biblk00197-1" from="-1600" to="-1045">
+            <desc>1600 BCE - 1045 BCE</desc>
             </state>
-            <bibl xml:id="biblk00196-1">
+            <bibl xml:id="biblk00197-1">
                <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                <citedRange unit="pp">10</citedRange>>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000196</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000197</idno>
          </entryFree>
       </body>
    </text>
