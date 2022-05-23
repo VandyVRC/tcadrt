@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">
+               <foreign xml:lang="zh-Hant">東周 </foreign>Dōngzhōu</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>data entry and proof correction</resp>
+               <name type="person" xml:id="ZC">CHEN Zhuo</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000199/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-05-21-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-05-21-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000199" type="time period">
+            <term xml:id="term-k000199-1" xml:lang="en">Eastern Zhou</term>
+            <term xml:id="term-k000199-2" xml:lang="zh-Hant">東周</term>
+            <term xml:id="term-k000199-3" xml:lang="zh-Hans">东周</term>
+            <term xml:id="term-k000199-4" xml:lang="zh-latn-pinyin">Dōng Zhōu</term>
+            <term xml:id="term-k000199-5" xml:lang="zh-latn-wadegile">Tung Chou</term>
+            <term xml:id="term-k000199-6" xml:lang="en">Eastern Zhou</term>
+            <term xml:id="term-k000199-7" xml:lang="en">Eastern Zhou Dynasty</term>
+            <term xml:id="term-k000199-8" xml:lang="zh-Hant">東周朝</term>
+            <state type="existence" source="#biblk000199-1" from="-770" to="-256">
+            <desc>770 BCE - 256 BCE</desc>
+            </state>
+            <bibl xml:id="biblk000199-1">
+               <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+               <citedRange unit="pp">10</citedRange>>
+            </bibl>
+            <idno type="URI">https://architecturasinica.org/keyword/k000199</idno>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
