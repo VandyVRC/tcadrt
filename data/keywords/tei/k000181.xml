@@ -81,7 +81,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000181" type="architectural feature">
+         <entryFree xml:id="k000181" type="building type">
             <term xml:id="term-k000181-1" xml:lang="zh-latn-pinyin-nt">wutoumen</term>
             <term xml:id="term-k000181-2" xml:lang="zh-Hant">烏頭門</term>
             <term xml:id="term-k000181-3" xml:lang="zh-Hans">乌头门</term>
@@ -150,7 +150,7 @@
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270633319_8d6fe974f9_o.jpg" passive="https://architecturasinica.org/keyword/k000181" ana="featured"/>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270326294_b726af63e0_o.jpg" passive="https://architecturasinica.org/keyword/k000181" ana="featured"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000181" passive="building type"/>
+                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000181" passive="gateways"/> -->
                </listRelation>
             </listRelation>
          </entryFree>
