@@ -55,7 +55,8 @@
          <change n="2.0" who="ML" when="2020-03-25">adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change n="3.0" who="#KTT" when="2022-05-01-04:00">UPDATED: place record</change>
+         <change n="3.0" who="#KTT" when="2022-05-01">UPDATED: place record</change>
+         <change n="3.1" who="#TGM" when="2022-05-26">updated bibl statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +69,7 @@
                <placeName xml:id="name000029-4" type="site-name" xml:lang="zh-Hant">佛光寺</placeName>
                <placeName xml:id="name000029-5" type="site-name" xml:lang="zh-Hans">佛光寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000029</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000029-1" from="0618-01-01" to="0907-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000029-2" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
@@ -113,17 +114,26 @@
                      First established during the <term ref="/keyword/k000056">Northern Wei</term> dynasty, the monastery lies in a remote pocket on the outskirts of the South Range of the Wutai Mountains.
                      Extant timber buildings are from the late Tang dynasty reconstruction and after. It was rediscovered in June 1937 by an investigation team 
                      led by architectural historian Liang Sicheng (1901-1972). The earliest structures located in the monastery are the <placeName ref="/place/000169">Great East Hall</placeName> (857), 
-                     a brick pagoda  on the building’s left side (600), and the <placeName ref="/place/000170">Manjusri Hall</placeName> (1137). There are also two stone dharani pillars, one
+                     a brick pagoda  on the building’s south side (ca. 6th cen. CE), and the <placeName ref="/place/000170">Manjusri Hall</placeName> (1137). There are also two stone dharani pillars, one
                      in front of the East Great Hall (857), and another in the courtyard in front of the Manjusri Hall (877). 
                   </p>
                   <p source="#bibl000029-1"> 
                      No buildings from the Northern Wei dynasty are extant at the Foguangsi Monastery site, but research on the site has 
                      shown it was established during that time. It is believed that the original buildings of the monastery (including a 
-                     three-story pavilion dedicated to the bodhisattva Maitreya were destroyed during the “Huichang Persecution” in 845 when 
+                     three-story pavilion dedicated to the bodhisattva Maitreya) were destroyed during the “Huichang Persecution” in 845 when 
                      Emperor Wuzong (r. 840-46) ordered the suppression of Buddhism. 
                   </p>
                </desc>
-               <bibl xml:id="bibl000029-1">
+               <listBibl xml:id="bibl000029-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II:579-580;41-C</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000029-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
