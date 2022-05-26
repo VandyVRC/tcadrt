@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">西夏 </foreign>Xīxià</title>
+               <foreign xml:lang="zh-Hant">西夏 </foreign>Xī Xià</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
@@ -49,18 +49,20 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
          <change n="3.0" who="#SZ" when="2020-06-01">Revised title statement</change>
+         <change n="3.1" who="#TGM" when="2022-05-26">Revised romanization</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000096" type="time period">
-            <term xml:id="term-k000096-6" xml:lang="en">Western Xia</term>
+            <term xml:id="term-k000096-1" xml:lang="en">Western Xia</term>
             <term xml:id="term-k000096-2" xml:lang="zh-Hant">西夏</term>
             <term xml:id="term-k000096-3" xml:lang="zh-Hans">西夏</term>
-            <term xml:id="term-k000096-4" xml:lang="zh-latn-pinyin">Xīxià</term>
-            <term xml:id="term-k000096-5" xml:lang="zh-latn-wadegile">Hsi-hsia</term>
-            <term xml:id="term-k000096-8" xml:lang="en">Western Xia Kingdom</term>
-            <term xml:id="term-k000096-7" xml:lang="zh-Hant">西夏國</term>
+            <term xml:id="term-k000096-4" xml:lang="zh-latn-pinyin">Xī Xià</term>
+            <term xml:id="term-k000096-5" xml:lang="zh-latn-wadegile">Hsi Hsia</term>
+            <term xml:id="term-k000096-6" xml:lang="en">Xixia</term>
+            <term xml:id="term-k000096-7" xml:lang="en">Western Xia Kingdom</term>
+            <term xml:id="term-k000096-8" xml:lang="zh-Hant">西夏國</term>
             <state type="existence" source="#biblk000096-1" from="1038" to="1227">
                <desc>1038 - 1227</desc>
             </state>
