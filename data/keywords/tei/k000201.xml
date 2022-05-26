@@ -5,18 +5,14 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="en">
-               <foreign xml:lang="zh-Hant">西漢 </foreign>Xī Hàn</title>
+               <foreign xml:lang="zh-Hant">戰國 </foreign>Zhànguó</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>data entry and proof correction</resp>
-               <name type="person" ref="TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
-               <resp>adding citations and revising title statement 2020 by</resp>
-               <name type="person" xml:id="SZ">SUN Zheng</name>
+               <resp>data entry</resp>
+               <name type="person" xml:id="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,13 +20,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000090/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000201/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2022-05-21-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -46,30 +42,26 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="2.0" who="#SZ" when="2020-02-07-04:00">adding citation(s)</change>
-         <change n="3.0" who="#SZ" when="2020-06-04">Revised title statement</change>
+         <change n="1.0" when="2022-05-21-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000090" type="time period">
-            <term xml:id="term-k000090-1" xml:lang="en">Western Han</term>
-            <term xml:id="term-k000090-2" xml:lang="zh-Hant">西漢</term>
-            <term xml:id="term-k000090-3" xml:lang="zh-Hans">西汉</term>
-            <term xml:id="term-k000090-4" xml:lang="zh-latn-pinyin">Xī Hàn</term>
-            <term xml:id="term-k000090-5" xml:lang="zh-latn-wadegile">Hsi Han</term>
-            <term xml:id="term-k000090-6" xml:lang="en">Western Han</term>
-            <term xml:id="term-k000090-7" xml:lang="en">Western Han Dynasty</term>
-            <term xml:id="term-k000090-8" xml:lang="zh-Hant">西漢朝</term>
-            <state type="existence" source="#biblk000090-1" from="-0202" to="0023">
-            <desc>202 BCE - 23 CE</desc>
+         <entryFree xml:id="k000201" type="time period">
+            <term xml:id="term-k000201-1" xml:lang="en">Warring States</term>
+            <term xml:id="term-k000201-2" xml:lang="zh-Hant">戰國</term>
+            <term xml:id="term-k000201-3" xml:lang="zh-Hans">战国</term>
+            <term xml:id="term-k000201-4" xml:lang="zh-latn-pinyin">Zhànguó</term>
+            <term xml:id="term-k000201-5" xml:lang="zh-latn-wadegile">Chan-kuo</term>
+            <term xml:id="term-k000201-6" xml:lang="en">Warring States Period</term>
+            <state type="existence" source="#biblk000201-1" from="-475" to="-221">
+            <desc>475 BCE - 221 BCE</desc>
             </state>
-            <bibl xml:id="biblk00090-1">
+            <bibl xml:id="biblk000201-1">
                <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-               <citedRange unit="pp">11</citedRange>>
+               <citedRange unit="pp">10</citedRange>>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000090</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000201</idno>
          </entryFree>
       </body>
    </text>

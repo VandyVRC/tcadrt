@@ -9,6 +9,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="KTT">Kymbria Thomas</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
@@ -16,6 +17,10 @@
             <respStmt>
                <resp>adding citations</resp>
                <name type="person" xml:id="ML">Melanie Lu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#KTT">Kymbria Thomas</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,6 +54,8 @@
          <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" who="#KTT" when="2022-05-01-04:00">UPDATED: place record</change>
+         <change n="3.1" who="#TGM" when="2022-05-26">UPDATED: bibl statement</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +75,7 @@
                   <label>Date</label>
                   <desc>857</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000169-1" from="0618-01-01" to="0907-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000169-2" from="0618-01-01" to="0907-01-01">
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
@@ -85,11 +92,36 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000169-1">
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl0000169-1"> 
+                     The Great East Hall, or Dongdadian 東大殿, sits in the east side of the monastery facing the west. Based on evidence
+                     from inscriptions preserved at the site, the hall is believed to have been built in 857 and is one of the most important 
+                     structures in China. Until the discovery of <placeName ref="/place/000066">Nanchansi</placeName> in 1953,  it was the oldest building extant in modern China, and it 
+                     remains the grandest extant <term ref="/keyword/k000082">Tang</term> building to this day. The Great East Hall is distinguished from other extant Tang structures 
+                     through its grid ceiling and a hip (<term ref="/keyword/k000125">wudian</term> 廡殿) roof, while others have hip-gable roofs with exposed roof frames. Another thing 
+                     that distinguishes the East Hall from other Tang dynasty halls is that the East Hall is our earliest extant example of a building
+                     which could be described as using a palatial hall structure (<term ref="/keyword/k000130">diantang</term> 殿堂). 
+                  </p>
+                  <p source="#bibl0000169-1"> 
+                     The hall is a 7 x 4 bay timber-frame structure, eight pillars wide and five pillars deep, measuring 34 by 17.66 meters.
+                     The hall uses seven-<term ref="/keyword/k000013">puzuo</term> bracket sets on the tops of the pillars to support the roof. The front, central bay is the widest,
+                     and the other six bays symmetrically decrease going toward the sides of the building. The five central front bays have doors,
+                     and the outer ones have slat, or straight lattice, windows (zhilingchuang 直欞窗).
+                  </p>
+               </desc>
+               <listBibl xml:id="bibl0000169-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">II:579-580;41-C2-1</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000169-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!--note type="field-notes">857 early diantang</note-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000169" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>

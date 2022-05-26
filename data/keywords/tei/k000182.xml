@@ -80,7 +80,7 @@
    </teiHeader>
    <text>
       <body>   
-         <entryFree xml:id="k000182" type="architectural feature">
+         <entryFree xml:id="k000182" type="building type">
             <term xml:id="term-k000182-1" xml:lang="zh-latn-pinyin-nt">lingxingmen</term>
             <term xml:id="term-k000182-2" xml:lang="zh-Hant">欞星門（靈星門）</term>
             <term xml:id="term-k000182-3" xml:lang="zh-Hans">棂星门（灵星门）</term>
@@ -132,7 +132,7 @@
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51270686055_86c920e3cb_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51268846272_1f0a2808d3_o.jpg" passive="https://architecturasinica.org/keyword/k000182" ana="featured"/>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000182" passive="building type"/>
+                  <!--<relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000182" passive="gateways"/>  -->
                </listRelation>
             </listRelation>
          </entryFree>
