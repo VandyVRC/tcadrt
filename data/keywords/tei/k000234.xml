@@ -52,7 +52,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000234" type="architectural feature: bracketing">
+         <entryFree xml:id="k000234" type="architectural feature: building type">
             <term xml:id="term-k000234-5" xml:lang="zh-latn-pinyin-nt">peng</term>
             <term xml:id="term-k000234-2" xml:lang="zh-Hant">棚</term>
             <term xml:id="term-k000234-3" xml:lang="zh-Hans">棚</term>
@@ -64,6 +64,11 @@
             </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000234</idno>
             <listBibl xml:id="biblk000234-1">
+               <!--<bibl> 
+                  TCA 12 page number [G3VB5QMD]
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">352</citedRange>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">63</citedRange>
@@ -71,6 +76,18 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">363</citedRange>
+               </bibl>
+               -->
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">343</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">375</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
                </bibl>
             </listBibl>
          </entryFree>
