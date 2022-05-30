@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">副階</foreign> fùjiē</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="RJ">RUAN Jing 阮景</editor>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#RJ">RUAN Jing 阮景</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry 2022 by</resp>
+               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000210/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-05-30</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-05-30">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000210" type="architectural feature">
+            <term xml:id="term-k000210-1" xml:lang="zh-latn-pinyin-nt">fujie</term>
+            <term xml:id="term-k000210-2" xml:lang="zh-Hant">副階</term>
+            <term xml:id="term-k000210-3" xml:lang="zh-Hans">副阶</term>
+            <term xml:id="term-k000210-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">fùjiē</term>
+            <term xml:id="term-k000210-5" xml:lang="zh-latn-wadegile">fu-chieh</term>
+            <!-- <note type="Gloss">
+               <p xml:lang="en" source="#biblk000210-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000210-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
+            </note>
+            <note type="Note (full)">                              
+            </note>
+            <bibl xml:id="biblk000210-1">
+               <ptr target=""/>
+               <citedRange unit="pp">472</citedRange>
+            </bibl>
+             -->
+         </entryFree>
+      </body>
+   </text>
+</TEI>
