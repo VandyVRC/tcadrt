@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">棚 </foreign>péng</title>
+               <foreign xml:lang="zh-Hant">坐 </foreign>zuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000236/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -52,25 +52,21 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000234" type="building type">
-            <term xml:id="term-k000234-5" xml:lang="zh-latn-pinyin-nt">peng</term>
-            <term xml:id="term-k000234-2" xml:lang="zh-Hant">棚</term>
-            <term xml:id="term-k000234-3" xml:lang="zh-Hans">棚</term>
-            <term xml:id="term-k000234-4" xml:lang="zh-latn-pinyin">péng</term>
-            <term xml:id="term-k000234-6" xml:lang="zh-latn-wadegile">p'eng</term>
+         <entryFree xml:id="k000236" type="architectural feature: foundations">
+            <term xml:id="term-k000236-5" xml:lang="zh-latn-pinyin-nt">zuo</term>
+            <term xml:id="term-k000236-2" xml:lang="zh-Hant">坐</term>
+            <term xml:id="term-k000236-3" xml:lang="zh-Hans">坐</term>
+            <term xml:id="term-k000236-4" xml:lang="zh-latn-pinyin">zuò</term>
+            <term xml:id="term-k000236-6" xml:lang="zh-latn-wadegile">tso</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000234-1">1. Shed or shelter; 2. a modest or humble house</p>
-               <p xml:lang="zh-Hant" source="#biblk000234-1">1. 遮風擋雨的遮蓋物; 2. 簡陋的房屋</p>
+               <p xml:lang="en" source="#biblk000236-1">1. type of seat or platform, often of authority or status, such as a throne; position in a site ; 2. to sit</p>
+               <p xml:lang="zh-Hant" source="#biblk000236-1">1.座位或平台的类型，通常象征权威或特殊地位，例如宝座；在某场所中的位置；2.坐着</p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234</idno>
-            <listBibl xml:id="biblk000234-1">
+            <idno type="URI">https://architecturasinica.org/keyword/k000236</idno>
+            <listBibl xml:id="biblk000236-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">343</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
-                  <citedRange unit="pp">375</citedRange>
+                  <citedRange unit="pp">179</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>

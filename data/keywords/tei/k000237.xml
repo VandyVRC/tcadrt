@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">棚 </foreign>péng</title>
+               <foreign xml:lang="zh-Hant">道 </foreign>dào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000237/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -52,25 +52,25 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000234" type="building type">
-            <term xml:id="term-k000234-5" xml:lang="zh-latn-pinyin-nt">peng</term>
-            <term xml:id="term-k000234-2" xml:lang="zh-Hant">棚</term>
-            <term xml:id="term-k000234-3" xml:lang="zh-Hans">棚</term>
-            <term xml:id="term-k000234-4" xml:lang="zh-latn-pinyin">péng</term>
-            <term xml:id="term-k000234-6" xml:lang="zh-latn-wadegile">p'eng</term>
+         <entryFree xml:id="k000237" type="site type">
+            <term xml:id="term-k000237-5" xml:lang="zh-latn-pinyin-nt">dao</term>
+            <term xml:id="term-k000237-2" xml:lang="zh-Hant">道</term>
+            <term xml:id="term-k000237-3" xml:lang="zh-Hans">道</term>
+            <term xml:id="term-k000237-4" xml:lang="zh-latn-pinyin">dào</term>
+            <term xml:id="term-k000237-6" xml:lang="zh-latn-wadegile">tao</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000234-1">1. Shed or shelter; 2. a modest or humble house</p>
-               <p xml:lang="zh-Hant" source="#biblk000234-1">1. 遮風擋雨的遮蓋物; 2. 簡陋的房屋</p>
+               <p xml:lang="en" source="#biblk000237-1">1. Roads that allow passengers, horses, or vehicles to pass; 2. circuit; a historical political division within which central government officials supervise a civil administration; 3. A spiritual path</p>
+               <p xml:lang="zh-Hant" source="#biblk000237-1">1. 人、马、车辆通行之路; 2. 历史上的一种行政区划， 每一个区域都有中央政府特派的来使监督地方官员办公；3. 宗教信仰</p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234</idno>
-            <listBibl xml:id="biblk000234-1">
+            <idno type="URI">https://architecturasinica.org/keyword/k000237</idno>
+            <listBibl xml:id="biblk000237-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">343</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">352</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
-                  <citedRange unit="pp">375</citedRange>
+                  <citedRange unit="pp">487</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>

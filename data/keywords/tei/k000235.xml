@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">棚 </foreign>péng</title>
+               <foreign xml:lang="zh-Hant">階 </foreign>jiē</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000235/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -52,25 +52,29 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000234" type="building type">
-            <term xml:id="term-k000234-5" xml:lang="zh-latn-pinyin-nt">peng</term>
-            <term xml:id="term-k000234-2" xml:lang="zh-Hant">棚</term>
-            <term xml:id="term-k000234-3" xml:lang="zh-Hans">棚</term>
-            <term xml:id="term-k000234-4" xml:lang="zh-latn-pinyin">péng</term>
-            <term xml:id="term-k000234-6" xml:lang="zh-latn-wadegile">p'eng</term>
+         <entryFree xml:id="k000235" type="architectural feature: foundations">
+            <term xml:id="term-k000235-5" xml:lang="zh-latn-pinyin-nt">jie</term>
+            <term xml:id="term-k000235-2" xml:lang="zh-Hant">階</term>
+            <term xml:id="term-k000235-3" xml:lang="zh-Hans">阶</term>
+            <term xml:id="term-k000235-4" xml:lang="zh-latn-pinyin">jiē</term>
+            <term xml:id="term-k000235-6" xml:lang="zh-latn-wadegile">chieh</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000234-1">1. Shed or shelter; 2. a modest or humble house</p>
-               <p xml:lang="zh-Hant" source="#biblk000234-1">1. 遮風擋雨的遮蓋物; 2. 簡陋的房屋</p>
+               <p xml:lang="en" source="#biblk000235-1">1. an elevated platform or stair, often of masonry; 2. a step or staircase</p>
+               <p xml:lang="zh-Hant" source="#biblk000235-1">1.用砖石等砌成的平台或梯級; 2.樓梯</p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/k000234</idno>
-            <listBibl xml:id="biblk000234-1">
+            <idno type="URI">https://architecturasinica.org/keyword/k000235</idno>
+            <listBibl xml:id="biblk000235-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">343</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">358</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIDR9AUD"/>
+                  <citedRange unit="pp">35</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
-                  <citedRange unit="pp">375</citedRange>
+                  <citedRange unit="pp">143</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
