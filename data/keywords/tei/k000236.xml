@@ -5,18 +5,18 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">臺 </foreign>miào</title>
+               <foreign xml:lang="zh-Hant">坐 </foreign>zuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Adding citation information and gloss 2022 by</resp>
-               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,13 +24,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000231/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000236/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2022-05-27-04:00</date>
+            <date>2022-06-01-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -47,42 +47,29 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2022-05-27-04:00">CREATED: record</change>
+         <change n="1.0" when="2022-06-01-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000231" type="building type">
-            <term xml:id="term-k000231-5" xml:lang="zh-latn-pinyin-nt">tai</term>
-            <term xml:id="term-k000231-2" xml:lang="zh-Hant">臺</term>
-            <term xml:id="term-k000231-3" xml:lang="zh-Hans">台</term>
-            <term xml:id="term-k000231-4" xml:lang="zh-latn-pinyin">tái</term>
-            <term xml:id="term-k000231-6" xml:lang="zh-latn-wadegile">t'ai</term>
+         <entryFree xml:id="k000236" type="architectural feature: foundations">
+            <term xml:id="term-k000236-5" xml:lang="zh-latn-pinyin-nt">zuo</term>
+            <term xml:id="term-k000236-2" xml:lang="zh-Hant">坐</term>
+            <term xml:id="term-k000236-3" xml:lang="zh-Hans">坐</term>
+            <term xml:id="term-k000236-4" xml:lang="zh-latn-pinyin">zuò</term>
+            <term xml:id="term-k000236-6" xml:lang="zh-latn-wadegile">tso</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000231-1">terrace, platform (raised from ground level). e.g. 平臺, 臺子</p>
-               <p xml:lang="zh-Hant" source="#biblk000231-1">陔, (高於地面的) 平面。如平臺、臺子</p>
+               <p xml:lang="en" source="#biblk000236-1">1. type of seat or platform, often of authority or status, such as a throne; position in a site ; 2. to sit</p>
+               <p xml:lang="zh-Hant" source="#biblk000236-1">1.座位或平台的类型，通常象征权威或特殊地位，例如宝座；在某场所中的位置；2.坐着</p>
             </note>
-            <idno type="URI">https://architecturasinica.org/keyword/k000231</idno>
-            <listBibl xml:id="biblk000231-1">
+            <idno type="URI">https://architecturasinica.org/keyword/k000236</idno>
+            <listBibl xml:id="biblk000236-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-                  <citedRange unit="pp">76</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-                  <citedRange unit="pp">367</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MIDR9AUD"/>
-                  <citedRange unit="pp">32</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
-                  <citedRange unit="pp">373-4</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">179</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
-                  <citedRange unit="pp">accessed May 27, 2022</citedRange>
                </bibl>
             </listBibl>
          </entryFree>
