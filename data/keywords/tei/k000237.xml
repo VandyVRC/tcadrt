@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">棚 </foreign>péng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citation information and gloss 2022 by</resp>
+               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000237/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-06-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-06-01-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000237" type="building type">
+            <term xml:id="term-k000237-5" xml:lang="zh-latn-pinyin-nt">peng</term>
+            <term xml:id="term-k000237-2" xml:lang="zh-Hant">棚</term>
+            <term xml:id="term-k000237-3" xml:lang="zh-Hans">棚</term>
+            <term xml:id="term-k000237-4" xml:lang="zh-latn-pinyin">péng</term>
+            <term xml:id="term-k000237-6" xml:lang="zh-latn-wadegile">p'eng</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000237-1">1. Shed or shelter; 2. a modest or humble house</p>
+               <p xml:lang="zh-Hant" source="#biblk000237-1">1. 遮風擋雨的遮蓋物; 2. 簡陋的房屋</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000237</idno>
+            <listBibl xml:id="biblk000237-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">343</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">375</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+            </listBibl>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
