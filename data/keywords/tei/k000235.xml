@@ -82,7 +82,9 @@
                </bibl>
             </listBibl>
             <listRelation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000235" passive="foundations"/>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000235" passive="foundations"/>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
