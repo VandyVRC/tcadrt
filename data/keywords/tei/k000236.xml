@@ -52,15 +52,15 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000236" type="architectural feature: foundations">
+         <entryFree xml:id="k000236" type="architectural feature">
             <term xml:id="term-k000236-5" xml:lang="zh-latn-pinyin-nt">zuo</term>
             <term xml:id="term-k000236-2" xml:lang="zh-Hant">坐</term>
             <term xml:id="term-k000236-3" xml:lang="zh-Hans">坐</term>
             <term xml:id="term-k000236-4" xml:lang="zh-latn-pinyin">zuò</term>
             <term xml:id="term-k000236-6" xml:lang="zh-latn-wadegile">tso</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000236-1">1. type of seat or platform, often of authority or status, such as a throne; position in a site ; 2. to sit (Chen 2010, 179; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000236-1">1.座位或平台的类型，通常象征权威或特殊地位，例如宝座；在某场所中的位置；2.坐着</p>
+               <p xml:lang="en" source="#biblk000236-1">Type of seat or platform, often of authority or status, such as a throne; position in a site ; to sit (Chen 2010, 179; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000236-1">座位或平台的类型，通常象征权威或特殊地位，例如宝座；在某场所中的位置；坐着</p>
             </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000236</idno>
             <listBibl xml:id="biblk000236-1">
@@ -70,8 +70,14 @@
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange unit="pp">accessed May 27, 2022</citedRange>
                </bibl>
             </listBibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000236" passive="foundations"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>
