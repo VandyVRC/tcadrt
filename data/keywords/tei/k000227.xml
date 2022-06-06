@@ -13,8 +13,14 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="associate" xml:id="ZL">ZUO Lala 左拉拉</editor>
+            <editor role="content-author" ref="#ZL">ZUO Lala 左拉拉</editor>
             <editor role="content-author" xml:id="JY">Yinuo Jin</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#JY">Yinuo Jin</name>
