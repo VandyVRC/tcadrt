@@ -14,10 +14,11 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" xml:id="RJ">RUAN Jing 阮景</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 贾亭立</editor>
+            <editor role="content-author" xml:id="DKQ">DOU Keqin 窦可亲</editor>
             <respStmt>
                <resp>Initial research and revision by</resp>
-               <name type="person" ref="#RJ">RUAN Jing 阮景</name>
+               <name type="person" ref="#DKQ">DOU Keqin 窦可亲</name>
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
@@ -74,6 +75,11 @@
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000205" passive="architectural ornament"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>
