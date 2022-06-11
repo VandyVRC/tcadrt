@@ -123,7 +123,9 @@
                <citedRange unit="pp">7-8</citedRange>
             </bibl>
             <listRelation>
-               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000121" passive="fortification elements"/>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000121" passive="fortification elements"/>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
