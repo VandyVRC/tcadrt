@@ -66,7 +66,7 @@
             <term xml:id="term-k000225-1" xml:lang="zh-latn-pinyin-nt">citang</term>
             <term xml:id="term-k000225-2" xml:lang="zh-Hant">祠堂</term>
             <term xml:id="term-k000225-3" xml:lang="zh-Hans">祠堂</term>
-            <term xml:id="term-k000225-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">cítáng</term>
+            <term xml:id="term-k000225-4" xml:lang="zh-latn-pinyin" source="#biblk000225-1" type="ATTCAT_preferred">cítáng</term>
             <term xml:id="term-k000225-5" xml:lang="zh-latn-wadegile">tz'u-t'ang</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000225-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -79,6 +79,10 @@
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <bibl xml:id="biblk000225-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 28, 2022</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>

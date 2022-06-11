@@ -66,7 +66,7 @@
             <term xml:id="term-k000217-1" xml:lang="zh-latn-pinyin-nt">huagong</term>
             <term xml:id="term-k000217-2" xml:lang="zh-Hant">華栱</term>
             <term xml:id="term-k000217-3" xml:lang="zh-Hans">华栱</term>
-            <term xml:id="term-k000217-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">huāgǒng</term>
+            <term xml:id="term-k000217-4" xml:lang="zh-latn-pinyin" source="#biblk000217-1" type="ATTCAT_preferred">huāgǒng</term>
             <term xml:id="term-k000217-5" xml:lang="zh-latn-wadegile">hua-kung</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000217-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -79,6 +79,10 @@
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <bibl xml:id="biblk000217-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">296</citedRange>
+            </bibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000217" passive="bracketing"/>

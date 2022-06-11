@@ -68,7 +68,7 @@
             <term xml:id="term-k000226-1" xml:lang="zh-latn-pinyin-nt">lou</term>
             <term xml:id="term-k000226-2" xml:lang="zh-Hant">樓</term>
             <term xml:id="term-k000226-3" xml:lang="zh-Hans">楼</term>
-            <term xml:id="term-k000226-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">lóu</term>
+            <term xml:id="term-k000226-4" xml:lang="zh-latn-pinyin" source="#biblk000226-1" type="ATTCAT_preferred">lóu</term>
             <term xml:id="term-k000226-5" xml:lang="zh-latn-wadegile">lou</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000226-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -81,6 +81,16 @@
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <listBibl xml:id="biblk000226-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">361</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed May 28, 2022</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>
