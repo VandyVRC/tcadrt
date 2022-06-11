@@ -72,19 +72,23 @@
    <text>
       <body>
          <entryFree xml:id="k000121" type="architectural feature">
-            <term xml:id="term-k000121-9" xml:lang="zh-latn-pinyin-nt">mamian</term>
+            <term xml:id="term-k000121-9" xml:lang="zh-latn-pinyin-nt" source="#biblk000121-1">mamian</term>
             <term xml:id="term-k000121-1" xml:lang="zh-Hant">馬面</term>
             <term xml:id="term-k000121-2" xml:lang="zh-Hans">马面</term>
-            <term xml:id="term-k000121-3" xml:lang="zh-latn-pinyin">mǎmiàn</term>
+            <term xml:id="term-k000121-3" xml:lang="zh-latn-pinyin" source="#biblk000121-1">mǎmiàn</term>
             <term xml:id="term-k000121-4" xml:lang="zh-latn-wadegile">ma-mien</term>
-            <term xml:id="term-k000121-5" xml:lang="en" type="literal_translation" source="#biblk000121-1">horse face (lit.)</term>
-            <term xml:id="term-k000121-7" xml:lang="en" source="#biblk000121-2" type="ATTCAT_preferred">bastions (ATTCAT preferred)</term>
-            <term xml:id="term-k000121-6" xml:lang="en" source="#biblk000121-3">projecting bastions</term>
-            <term xml:id="term-k000121-8" xml:lang="en" source="#biblk000121-4">salients</term>
+            <term xml:id="term-k000121-5" xml:lang="en" type="literal_translation" source="#biblk000121-2">horse face (lit.)</term>
+            <term xml:id="term-k000121-7" xml:lang="en" source="#biblk000121-3" type="ATTCAT_preferred">bastions (ATTCAT preferred)</term>
+            <term xml:id="term-k000121-6" xml:lang="en" source="#biblk000121-4">projecting bastions</term>
+            <term xml:id="term-k000121-8" xml:lang="en" source="#biblk000121-5">salients</term>
             <note type="related concepts">
-               <p xml:id="related-concept-k000121-1" xml:lang="zh-Hant" ref="/keyword/k000122" source="#biblk000121-5">yángmǎ chéng 羊馬城</p>
+               <p xml:id="related-concept-k000121-1" xml:lang="zh-Hant" ref="/keyword/k000122" source="#biblk000121-6">yángmǎ chéng 羊馬城</p>
             </note>
-            <listBibl xml:id="biblk000121-1">
+            <bibl xml:id="biblk000121-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">262</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000121-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
                   <citedRange unit="pp">7-8</citedRange>
@@ -94,7 +98,7 @@
                   <citedRange unit="pp">57</citedRange>
                </bibl>   
             </listBibl>
-            <listBibl xml:id="biblk000121-2">
+            <listBibl xml:id="biblk000121-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">57</citedRange>
@@ -104,15 +108,15 @@
                   <citedRange unit="pp">50</citedRange>
                </bibl>
             </listBibl>
-            <bibl xml:id="biblk000121-3">
+            <bibl xml:id="biblk000121-4">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">50</citedRange>
             </bibl>
-            <bibl xml:id="biblk000121-4">
+            <bibl xml:id="biblk000121-5">
                <ptr target="https://architecturasinica.org/bibl/JEVZYB9P"/>
                <citedRange unit="pp">226</citedRange>
             </bibl>
-            <bibl xml:id="biblk000121-5">
+            <bibl xml:id="biblk000121-6">
                <ptr target="https://architecturasinica.org/bibl/HSNT7SZA"/>
                <citedRange unit="pp">7-8</citedRange>
             </bibl>
