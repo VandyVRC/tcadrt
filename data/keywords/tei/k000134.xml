@@ -59,19 +59,22 @@
    <text>
       <body>
          <entryFree xml:id="k000134" type="architectural feature">
-            <term xml:id="term-k000134-7" xml:lang="zh-latn-pinyin-nt">yixinggong</term>
-            <term xml:id="term-k000134-1" xml:lang="zh-Hant" source="#biblk000134-1">翼形栱</term>
+            <term xml:id="term-k000134-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000134-1">yixinggong</term>
+            <term xml:id="term-k000134-1" xml:lang="zh-Hant" source="#biblk000134-2">翼形栱</term>
             <term xml:id="term-k000134-2" xml:lang="zh-Hans">翼形栱</term>
-            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin">yìxínggǒng</term>
+            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin" source="#biblk000134-1">yìxínggǒng</term>
             <term xml:id="term-k000134-4" xml:lang="zh-latn-wadegile">i-hsing-kung</term>
-            <term xml:id="term-k000134-5" xml:lang="en" type="literal_translation" source="#biblk000134-2">wing-shaped bracket arm</term>
-            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-3" type="ATTCAT_preferred">wing-shaped bracket (ATTCAT preferred)</term>
+            <term xml:id="term-k000134-5" xml:lang="en" type="literal_translation" source="#biblk000134-3">wing-shaped bracket arm</term>
+            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-4" type="ATTCAT_preferred">wing-shaped bracket (ATTCAT preferred)</term>
 
             <note>
                <p> Related terms: 異形栱</p>
             </note> 
-
-            <listBibl xml:id="biblk000134-1">            
+            <bibl xml:id="biblk000134-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000134-2">            
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
                   <citedRange unit="pp">40</citedRange>
@@ -81,11 +84,11 @@
                   <citedRange unit="pp">34-37</citedRange>
                </bibl>
             </listBibl>
-            <bibl xml:id="biblk000134-2">
+            <bibl xml:id="biblk000134-3">
                <ptr target="https://architecturasinica.org/bibl/EUBHKQVT"/>
                <citedRange unit="pp">1-42</citedRange>
             </bibl> 
-            <bibl xml:id="biblk000134-3">
+            <bibl xml:id="biblk000134-4">
                <ptr target="https://architecturasinica.org/bibl/AGBDUUHA"/>
                <citedRange unit="pp">102</citedRange>
             </bibl> 
