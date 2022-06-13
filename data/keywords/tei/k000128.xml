@@ -59,34 +59,38 @@
    <text>
       <body>
          <entryFree xml:id="k000128" type="architectural feature">
-            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin-nt">zhuchu</term>
+            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000128-1">zhuchu</term>
             <term xml:id="term-k000128-1" xml:lang="zh-Hant">柱礎</term>
             <term xml:id="term-fk000128-2" xml:lang="zh-Hans">柱础</term>
-            <term xml:id="term-k000128-13" xml:lang="zh-latn-pinyin">zhùchǔ</term>
+            <term xml:id="term-k000128-13" xml:lang="zh-latn-pinyin" source="#biblk000128-1">zhùchǔ</term>
             <term xml:id="term-k000128-4" xml:lang="zh-latn-wadegile">chu-ch'u</term>           
-            <term xml:id="term-k000128-5" xml:lang="en" source="#biblk000128-1">base</term>
-            <term xml:id="term-k000128-6" xml:lang="en" source="#biblk000128-2">boulder base</term>
-            <term xml:id="term-k000128-7" xml:lang="en" source="#biblk000128-3">column base</term>
-            <term xml:id="term-k000128-8" xml:lang="en" source="#biblk000128-4">pillar base</term>
-            <term xml:id="term-k000128-9" xml:lang="en" source="#biblk000128-5">plinth</term>
-            <term xml:id="term-k000128-10" xml:lang="en" source="#biblk000128-6">granite plinth</term>
-            <term xml:id="term-k000128-11" xml:lang="en" source="#biblk000128-7">stone plinth</term>
-            <term xml:id="term-k000128-12" xml:lang="en" source="#biblk000128-8">stone pedestal for a column</term>
+            <term xml:id="term-k000128-5" xml:lang="en" source="#biblk000128-2">base</term>
+            <term xml:id="term-k000128-6" xml:lang="en" source="#biblk000128-3">boulder base</term>
+            <term xml:id="term-k000128-7" xml:lang="en" source="#biblk000128-4">column base</term>
+            <term xml:id="term-k000128-8" xml:lang="en" source="#biblk000128-5">pillar base</term>
+            <term xml:id="term-k000128-9" xml:lang="en" source="#biblk000128-6">plinth</term>
+            <term xml:id="term-k000128-10" xml:lang="en" source="#biblk000128-7">granite plinth</term>
+            <term xml:id="term-k000128-11" xml:lang="en" source="#biblk000128-8">stone plinth</term>
+            <term xml:id="term-k000128-12" xml:lang="en" source="#biblk000128-9">stone pedestal for a column</term>
 
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
             
             <bibl xml:id="biblk000128-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">249</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000128-2">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                <citedRange unit="pp">40</citedRange>
             </bibl>            
-            <bibl xml:id="biblk000128-2">
+            <bibl xml:id="biblk000128-3">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                <citedRange unit="pp">55</citedRange>
             </bibl>
        
-            <listBibl xml:id="biblk000128-3">
+            <listBibl xml:id="biblk000128-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">89</citedRange>
@@ -96,12 +100,12 @@
                   <citedRange unit="pp">135</citedRange>
                </bibl> 
             </listBibl>
-            <bibl xml:id="biblk000128-4">
+            <bibl xml:id="biblk000128-5">
                <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                <citedRange unit="pp">43</citedRange>
             </bibl>
 
-            <listBibl xml:id="biblk000128-5">
+            <listBibl xml:id="biblk000128-6">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                   <citedRange unit="pp">220</citedRange>
@@ -125,16 +129,16 @@
             </listBibl>
             
             
-            <bibl xml:id="biblk000128-6">
+            <bibl xml:id="biblk000128-7">
                <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                <citedRange unit="pp">39</citedRange>
             </bibl>
             
-            <bibl xml:id="biblk000128-7">
+            <bibl xml:id="biblk000128-8">
                <ptr target="https://architecturasinica.org/bibl/67UPM6JJ"/>
                <citedRange unit="pp">47</citedRange>
             </bibl>
-            <bibl xml:id="biblk000128-8">
+            <bibl xml:id="biblk000128-9">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">371</citedRange>
             </bibl>
