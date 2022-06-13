@@ -22,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000210" type="architectural feature">
-            <term xml:id="term-k000210-1" xml:lang="zh-latn-pinyin-nt">fujie</term>
+            <term xml:id="term-k000210-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000210-1">fujie</term>
             <term xml:id="term-k000210-2" xml:lang="zh-Hant">副階</term>
             <term xml:id="term-k000210-3" xml:lang="zh-Hans">副阶</term>
-            <term xml:id="term-k000210-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">fùjiē</term>
+            <term xml:id="term-k000210-4" xml:lang="zh-latn-pinyin" source="#biblk000210-2">fùjiē</term>
             <term xml:id="term-k000210-5" xml:lang="zh-latn-wadegile">fu-chieh</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000210-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -80,6 +80,20 @@
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000210" passive="foundations"/>
                </listRelation>
             </listRelation>
+            <listBibl xml:id="biblk000210-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">37</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">355</citedRange>
+               </bibl>
+               <bibl xml:id="biblk000210-2">
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">302</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>
