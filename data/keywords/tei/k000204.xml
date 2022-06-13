@@ -22,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000204" type="architectural feature">
-            <term xml:id="term-k000204-1" xml:lang="zh-latn-pinyin-nt">chuji</term>
+            <term xml:id="term-k000204-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000204-1">chuji</term>
             <term xml:id="term-k000204-2" xml:lang="zh-Hant">出際</term>
             <term xml:id="term-k000204-3" xml:lang="zh-Hans">出际</term>
-            <term xml:id="term-k000204-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">chūjì</term>
+            <term xml:id="term-k000204-4" xml:lang="zh-latn-pinyin" source="#biblk000204-1">chūjì</term>
             <term xml:id="term-k000204-5" xml:lang="zh-latn-wadegile">ch'u-chi</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000204-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -73,13 +73,20 @@
             <bibl xml:id="biblk000204-1">
                <ptr target=""/>
                <citedRange unit="pp">472</citedRange>
-            </bibl>
              -->
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000204" passive="building frame"/>
                </listRelation>
             </listRelation>
+            <bibl xml:id="biblk000204-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">26</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000204-2">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">126</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
