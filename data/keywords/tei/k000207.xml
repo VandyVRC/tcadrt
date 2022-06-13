@@ -59,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000207" type="architectural feature">
-            <term xml:id="term-k000207-1" xml:lang="zh-latn-pinyin-nt">duntai</term>
+            <term xml:id="term-k000207-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000207-1">duntai</term>
             <term xml:id="term-k000207-2" xml:lang="zh-Hant">墩台</term>
             <term xml:id="term-k000207-3" xml:lang="zh-Hans">墩台</term>
-            <term xml:id="term-k000207-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">dūntái</term>
+            <term xml:id="term-k000207-4" xml:lang="zh-latn-pinyin" source="#biblk000207-2">dūntái</term>
             <term xml:id="term-k000207-5" xml:lang="zh-latn-wadegile">tun-t'ai</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000207-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -80,6 +80,14 @@
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000207" passive="foundations"/>
                </listRelation>
             </listRelation>
+            <bibl xml:id="biblk000207-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">354</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000207-2">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
