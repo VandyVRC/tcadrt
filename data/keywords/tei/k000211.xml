@@ -22,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000211" type="architectural feature">
-            <term xml:id="term-k000211-1" xml:lang="zh-latn-pinyin-nt">pingzuo</term>
+            <term xml:id="term-k000211-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000211-1">pingzuo</term>
             <term xml:id="term-k000211-2" xml:lang="zh-Hant">平坐</term>
             <term xml:id="term-k000211-3" xml:lang="zh-Hans">平坐</term>
-            <term xml:id="term-k000211-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">píngzuò</term>
+            <term xml:id="term-k000211-4" xml:lang="zh-latn-pinyin" source="#biblk000211-2">píngzuò</term>
             <term xml:id="term-k000211-5" xml:lang="zh-latn-wadegile">p'ing-tso</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000211-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -80,6 +80,20 @@
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000211" passive="foundations"/>
                </listRelation>
             </listRelation>
+            <listBibl xml:id="biblk000210-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">63</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">363</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000210-2">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">114</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
