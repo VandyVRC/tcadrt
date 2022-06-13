@@ -22,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,10 +59,10 @@
    <text>
       <body>
          <entryFree xml:id="k000208" type="architectural feature">
-            <term xml:id="term-k000208-1" xml:lang="zh-latn-pinyin-nt">lankangouchuang</term>
+            <term xml:id="term-k000208-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000208-1">lankangouchuang</term>
             <term xml:id="term-k000208-2" xml:lang="zh-Hant">闌檻鉤窗</term>
             <term xml:id="term-k000208-3" xml:lang="zh-Hans">阑槛钩窗</term>
-            <term xml:id="term-k000208-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">lánkǎngōuchuāng</term>
+            <term xml:id="term-k000208-4" xml:lang="zh-latn-pinyin" source="#biblk000208-2">lánkǎngōuchuāng</term>
             <term xml:id="term-k000208-5" xml:lang="zh-latn-wadegile">lan-
                k'an-kou-ch'uan</term>
             <!-- <note type="Gloss">
@@ -81,6 +81,14 @@
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000208" passive="architectural ornament"/>
                </listRelation>
             </listRelation>
+            <bibl xml:id="biblk000208-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">53</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000208-2">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">433</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
