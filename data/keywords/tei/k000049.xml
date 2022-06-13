@@ -11,13 +11,14 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Modifying gloss 2022 by</resp>
-               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
+               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -61,17 +62,38 @@
             <term xml:id="term-k000049-4" xml:lang="zh-latn-pinyin" source="#biblk000049-1">táng</term>
             <term xml:id="term-k000049-5" xml:lang="zh-latn-wadegile">t'ang</term>
             <term xml:id="term-k000049-6" xml:lang="en">hall</term>
-            <gloss>
-             A primary ritual hall, main/central room, or pavilion. Often used in compounds such as tingtang 廳堂 "mansion hall," diantang 殿堂 "palatial hall," or fotang 佛堂 "Buddha hall," etc. (T. Miller, 2020)
-             
-             Main hall or hall; a building designed for a specific purpose or to house a certain ritual.
-             正房；举行仪式用的房屋
-            </gloss>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000049-1">main hall or hall; a building designed for a specific purpose or to house a certain ritual (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000049-1">正房；舉行儀式用的房屋 (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000049-1" xml:lang="zh-Hant" ref="/keyword/k000129">廳堂 tīngtáng</p>
+               <p xml:id="related-concept-k000049-2" xml:lang="zh-Hant" ref="/keyword/k000130">殿堂 diàntáng</p>
+               <p xml:id="related-concept-k000049-3" xml:lang="zh-Hant">佛堂 fótáng</p>
+            </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
-                   <bibl xml:id="biblk000049-1">
-               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-               <citedRange unit="pp">444</citedRange>
-            </bibl>
+            <listBibl xml:id="biblk000049-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">310</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">486</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">77</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">367</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed May 27, 2022</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>
