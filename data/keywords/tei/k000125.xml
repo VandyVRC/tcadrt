@@ -64,8 +64,8 @@
             <term xml:id="term-k000125-2" xml:lang="zh-Hans">庑殿</term>
             <term xml:id="term-k000125-3" xml:lang="zh-latn-pinyin">wǔdiàn</term>
             <term xml:id="term-k000125-5" xml:lang="zh-latn-wadegile">wu-tien</term>          
-            <term xml:id="term-k000125-6" xml:lang="en" source="#biblk000125-2">hip roof</term>
-            <term xml:id="term-k000125-7" xml:lang="en" source="#biblk000125-3">hipped roof</term>
+            <term xml:id="term-k000125-6" xml:lang="en" source="#biblk000125-3">hip roof</term>
+            <term xml:id="term-k000125-7" xml:lang="en" source="#biblk000125-4">hipped roof</term>
             <note type="related concepts">
                <p xml:id="related-concept-k000125-1" xml:lang="zh-Hant">四阿 sì'ā</p>
                <p xml:id="related-concept-k000125-2" xml:lang="zh-Hant">五脊殿 wǔjídiàn</p>
@@ -74,7 +74,11 @@
             <bibl xml:id="biblk000125-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
             </bibl> 
-            <listBibl xml:id="biblk000125-2">
+            <bibl xml:id="biblk000125-2">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000125-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">74，142</citedRange>
@@ -83,7 +87,7 @@
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                </bibl> 
             </listBibl>
-            <listBibl xml:id="biblk000125-3">
+            <listBibl xml:id="biblk000125-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/IRRH8K8Q"/>
                </bibl> 
