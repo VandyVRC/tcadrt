@@ -53,17 +53,21 @@
    <text>
       <body>
          <entryFree xml:id="k000237" type="site type">
-            <term xml:id="term-k000237-5" xml:lang="zh-latn-pinyin-nt">dao</term>
+            <term xml:id="term-k000237-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000237-1">dao</term>
             <term xml:id="term-k000237-2" xml:lang="zh-Hant">道</term>
             <term xml:id="term-k000237-3" xml:lang="zh-Hans">道</term>
-            <term xml:id="term-k000237-4" xml:lang="zh-latn-pinyin">dào</term>
+            <term xml:id="term-k000237-4" xml:lang="zh-latn-pinyin" source="#biblk000237-1">dào</term>
             <term xml:id="term-k000237-6" xml:lang="zh-latn-wadegile">tao</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000237-1">Roads that allow passengers, horses, or vehicles to pass; circuit; a historical political division within which central government officials supervise a civil administration; a spiritual path (Fu 2017, 352; Hucker 1985, 487; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000237-1">人、马、车辆通行之路; 历史上的一种行政区划， 每一个区域都有中央政府特派的来使监督地方官员办公；宗教信仰</p>
+               <p xml:lang="en" source="#biblk000237-2">road that allows passengers, horses, or vehicles to pass; circuit; a historical political division within which central government officials supervise a civil administration; a spiritual path (Fu 2017, 352; Hucker 1985, 487; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000237-2">人、馬、車輛通行之路; 歷史上的一種行政區劃， 每一個區域都有中央政府特派的來使監督地方官員辦公；宗教信仰 (Fu 2017, 352; Hucker 1985, 487; Kroll 2016, online edition)</p>
             </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000237</idno>
-            <listBibl xml:id="biblk000237-1">
+            <bibl xml:id="biblk000237-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000237-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">352</citedRange>
