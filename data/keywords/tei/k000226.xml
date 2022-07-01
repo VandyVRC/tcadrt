@@ -10,25 +10,25 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">樓</foreign> lóu</title>
+               <foreign xml:lang="zh-Hant">羊馬牆</foreign> qiáng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="associate" xml:id="ZL">ZUO Lala 左拉拉</editor>
-            <editor role="content-author" ref="#ZL">ZUO Lala 左拉拉</editor>
-            <editor role="content-author" xml:id="CB">Baolong Chen</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立 </editor>
+            <editor role="content-author" xml:id="XF">XIE Fei 谢菲 </editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Initial research and revision by</resp>
-               <name type="person" ref="#CB">Baolong Chen</name>
+               <resp>Research and revision by</resp>
+               <name type="person" xml:id="JTL">JIA Tingli 賈亭立</name>
+               <name type="person" xml:id="XF">XIE Fei 谢菲</name>
             </respStmt>
             <respStmt>
                <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt> 
@@ -65,40 +65,18 @@
    <text>
       <body>
          <entryFree xml:id="k000226" type="building type">
-            <term xml:id="term-k000226-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000226-1">lou</term>
-            <term xml:id="term-k000226-2" xml:lang="zh-Hant">樓</term>
-            <term xml:id="term-k000226-3" xml:lang="zh-Hans">楼</term>
-            <term xml:id="term-k000226-4" xml:lang="zh-latn-pinyin" source="#biblk000226-1" type="ATTCAT_preferred">lóu</term>
-            <term xml:id="term-k000226-5" xml:lang="zh-latn-wadegile">lou</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000226-1">
-                  often translated "tower"; originally meaning one building layered on top of another; an upper story (Hanyu dacidian (online edition) ); later referring to a multi-story building or other structure; also "double-decked"; see: louge; ge (Kroll 2015, 281; Chen 2010, 403 (louge)); see also:
-                  <term ref="/keyword/k000177">louge</term>
-                  ;
-                  <term ref="/keyword/k000078">ge</term>
-               </p>
-               <p xml:lang="Hant" source="#biblk000086-1">
-                  本意為屋上架屋，後泛指多層房屋。參見
-                  <term ref="/keyword/k000177">“樓閣”</term>
-                  、
-                  <term ref="/keyword/k000078">“閣”</term>
-                  。
-               </p>
+            <term xml:id="term-k000226-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000226-1">yangmaqiang</term>
+            <term xml:id="term-k000226-2" xml:lang="zh-Hant">羊馬牆</term>
+            <term xml:id="term-k000226-3" xml:lang="zh-Hans">羊马墙</term>
+            <term xml:id="term-k000226-4" xml:lang="zh-latn-pinyin" source="#biblk000226-1" type="ATTCAT_preferred">Yángmǎqiáng</term>
+            <term xml:id="term-k000226-5" xml:lang="zh-latn-wadegile">yangmaqiang</term>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000226-1" xml:lang="zh-Hant" ref="/keyword/k000122">羊馬城 yángmǎchéng</p>
             </note>
-            <listBibl xml:id="biblk000226-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">361</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
-                  <citedRange>accessed May 28, 2022</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
-                  <citedRange unit="pp">281</citedRange>
-               </bibl>
-            </listBibl>
+            <bibl xml:id="biblk000226-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 28, 2022</citedRange>
+            </bibl>
          </entryFree>
       </body>
    </text>
