@@ -15,6 +15,8 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="WR">WANG Ruodi 王若菂</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -22,6 +24,14 @@
             <respStmt>
                <resp>Data entry, adding citations and gloss 2021 by</resp>
                <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#WR">WANG Ruodi 王若菂</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry 2022 by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -58,10 +68,10 @@
    <text>
       <body>
          <entryFree xml:id="k000170" type="building type">
-            <term xml:id="term-k000170-1" xml:lang="zh-latn-pinyin-nt">citang</term>
+            <term xml:id="term-k000170-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000170-2">citang</term>
             <term xml:id="term-k000170-2" xml:lang="zh-Hant">祠堂</term>
             <term xml:id="term-k000170-3" xml:lang="zh-Hans">祠堂</term>
-            <term xml:id="term-k000170-4" xml:lang="zh-latn-pinyin">cítáng</term>
+            <term xml:id="term-k000170-4" xml:lang="zh-latn-pinyin" source="#biblk000170-2">cítáng</term>
             <term xml:id="term-k000170-5" xml:lang="zh-latn-wadegile">tz'u-t'ang</term>           
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000170-1">usually an ancestral hall (Fu 2017, 152); literally: hall or space in which cultic sacrifices (ci 祠) are performed (Kroll 2015, 64, 444)</p>
@@ -78,6 +88,10 @@
                </bibl>
                   
             </listBibl>
+            <bibl xml:id="biblk000170-2">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 28, 2022</citedRange>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000170</idno>
             <listRelation>
                <listRelation>
