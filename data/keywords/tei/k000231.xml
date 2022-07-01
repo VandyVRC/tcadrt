@@ -5,18 +5,18 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">臺 </foreign>tái</title>
+               <foreign xml:lang="zh-Hant">小木作 </foreign>xiǎomùzuō</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Adding citation information and gloss 2022 by</resp>
-               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+               <name type="person" ref="#ZAL">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -30,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2022-05-27-04:00</date>
+            <date>2022-07-01-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -53,32 +53,11 @@
    <text>
       <body>
          <entryFree xml:id="k000231" type="building type">
-            <term xml:id="term-k000231-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000231-1">tai</term>
-            <term xml:id="term-k000231-2" xml:lang="zh-Hant">臺</term>
-            <term xml:id="term-k000231-3" xml:lang="zh-Hans">台</term>
-            <term xml:id="term-k000231-4" xml:lang="zh-latn-pinyin" source="#biblk000231-1">tái</term>
-            <term xml:id="term-k000231-6" xml:lang="zh-latn-wadegile">t'ai</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000231-2">terrace, platform (raised from ground level). e.g. 平臺, 臺子 (Guo 2002, 76; Fu 2017, 367; 呂 1992, 32; Hucker 1985, 373-4; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000231-2">陔, (高於地面的) 平面。如平臺、臺子</p>
-            </note>
-            <note type="related concepts">
-               <p>
-                  <term ref="/keyword/k000176">tán 壇</term>
-               </p>
-               <p>
-                  <term ref="/keyword/k000144">dānbì 丹陛</term>
-               </p>
-               <p>
-                  <term ref="/keyword/k000145">dānchí 丹墀</term>
-               </p>
-               <p>
-                  <term ref="/keyword/k000123">yuètái 月臺</term>
-               </p>
-               <p>
-                  <term ref="/keyword/k000136">lùtái 露臺</term>
-               </p>
-            </note>
+            <term xml:id="term-k000231-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000231-1">xiaomuzuo</term>
+            <term xml:id="term-k000231-2" xml:lang="zh-Hant">小木作</term>
+            <term xml:id="term-k000231-3" xml:lang="zh-Hans">小木作</term>
+            <term xml:id="term-k000231-4" xml:lang="zh-latn-pinyin" source="#biblk000231-1">xiǎomùzuō</term>
+            <term xml:id="term-k000231-6" xml:lang="zh-latn-wadegile">xiao-mu-tso</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000231</idno>
             <bibl xml:id="biblk000231-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
