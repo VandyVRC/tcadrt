@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">勾滴 </foreign>gōudī</title>
+               <foreign xml:lang="zh-Hant">排山勾滴 </foreign>páishāngōudī</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -24,7 +24,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000238/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000239/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -52,14 +52,14 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000238" type="site type">
-            <term xml:id="term-k000238-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000238-1">goudi</term>
-            <term xml:id="term-k000238-2" xml:lang="zh-Hant">勾滴</term>
-            <term xml:id="term-k000238-3" xml:lang="zh-Hans">勾滴</term>
-            <term xml:id="term-k000238-4" xml:lang="zh-latn-pinyin" source="#biblk000238-1">gōudī</term>
-            <term xml:id="term-k000238-6" xml:lang="zh-latn-wadegile">kou-ti</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000238</idno>
-            <bibl xml:id="biblk000238-1">
+         <entryFree xml:id="k000239" type="site type">
+            <term xml:id="term-k000239-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000239-1">paishangoudi</term>
+            <term xml:id="term-k000239-2" xml:lang="zh-Hant">排山勾滴</term>
+            <term xml:id="term-k000239-3" xml:lang="zh-Hans">排山勾滴</term>
+            <term xml:id="term-k000239-4" xml:lang="zh-latn-pinyin" source="#biblk000239-1">páishāngōudī</term>
+            <term xml:id="term-k000239-6" xml:lang="zh-latn-wadegile">p'ai-shan-kou-ti</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000239</idno>
+            <bibl xml:id="biblk000239-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed July 1, 2022</citedRange>
             </bibl>
