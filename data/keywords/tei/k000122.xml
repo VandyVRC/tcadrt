@@ -107,9 +107,21 @@
             </bibl>
             <listBibl xml:id="biblk000122-3">
                <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WU25GH7V"/>
+                  <citedRange unit="pp">Vol.152, 15b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WU25GH7V"/>
+                  <citedRange unit="pp">Vol.152, 21b-22a</citedRange>
+               </bibl>
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/WKCL2CN5"/>
                   <citedRange unit="pp">Vol.12, 3a</citedRange>
-               </bibl> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/5RJYAV48"/>
+                  <citedRange unit="pp">8537</citedRange>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/XLKV2ZQW"/>
                   <citedRange unit="pp">2.5a-5b</citedRange>
@@ -119,10 +131,25 @@
                   <citedRange unit="pp">1.12a-12b</citedRange>
                </bibl>
             </listBibl>
+            <listBibl xml:id="biblk000122-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KHJG9UVB"/>
+                  <citedRange unit="pp">79-81</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8HDVTVNH"/>
+                  <citedRange unit="pp">165-175</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8HDVTVNH"/>
+                  <citedRange unit="pp">233-235</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182118053_cb7d775fe8_h.jpg" passive="https://architecturasinica.org/keyword/k000122" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000122" passive="fortification elements"/>
-            </listRelation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
