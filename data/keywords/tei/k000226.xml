@@ -70,17 +70,21 @@
             <term xml:id="term-k000226-3" xml:lang="zh-Hans">楼</term>
             <term xml:id="term-k000226-4" xml:lang="zh-latn-pinyin" source="#biblk000226-1" type="ATTCAT_preferred">lóu</term>
             <term xml:id="term-k000226-5" xml:lang="zh-latn-wadegile">lou</term>
-            <!-- <note type="Gloss">
-               <p xml:lang="en" source="#biblk000226-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000226-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000226-1">
+                  often translated "tower"; originally meaning one building layered on top of another; an upper story (Hanyu dacidian (online edition) ); later referring to a multi-story building or other structure; also "double-decked"; see: louge; ge (Kroll 2015, 281; Chen 2010, 403 (louge)); see also:
+                  <term ref="/keyword/k000177">louge</term>
+                  ;
+                  <term ref="/keyword/k000078">ge</term>
+               </p>
+               <p xml:lang="Hant" source="#biblk000086-1">
+                  本意為屋上架屋，後泛指多層房屋。參見
+                  <term ref="/keyword/k000177">“樓閣”</term>
+                  、
+                  <term ref="/keyword/k000078">“閣”</term>
+                  。
+               </p>
             </note>
-            <note type="Note (full)">                              
-            </note>
-            <bibl xml:id="biblk000226-1">
-               <ptr target=""/>
-               <citedRange unit="pp">472</citedRange>
-            </bibl>
-             -->
             <listBibl xml:id="biblk000226-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
@@ -89,6 +93,10 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                   <citedRange>accessed May 28, 2022</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">281</citedRange>
                </bibl>
             </listBibl>
          </entryFree>
