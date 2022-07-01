@@ -121,7 +121,9 @@
             </bibl>
             
             <listRelation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182240896_ab72cb0279_h.jpg" passive="https://architecturasinica.org/keyword/k000129" rendition="featured"> </relation>
+               <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182240896_ab72cb0279_h.jpg" passive="https://architecturasinica.org/keyword/k000129" rendition="featured"> </relation>
+               </listRelation>
             </listRelation>
             
          </entryFree>
