@@ -18,8 +18,8 @@
                <resp>Initial Research</resp>
                <name type="person" xml:id="SXQ">SUN Xiaoqian 孫曉倩</name>
                <name type="person" xml:id="HRJ">HUANG Ruijing 黄睿菁</name>
-               <name type="team">ATTCAT 2019</name>    
-            </respStmt>           
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
@@ -59,24 +59,63 @@
    <text>
       <body>
          <entryFree xml:id="k000128" type="architectural feature">
-            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000128-1">zhuchu</term>
+            <term xml:id="term-k000128-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000128-1"
+               >zhuchu</term>
             <term xml:id="term-k000128-1" xml:lang="zh-Hant">柱礎</term>
             <term xml:id="term-fk000128-2" xml:lang="zh-Hans">柱础</term>
-            <term xml:id="term-k000128-13" xml:lang="zh-latn-pinyin" source="#biblk000128-1">zhùchǔ</term>
-            <term xml:id="term-k000128-4" xml:lang="zh-latn-wadegile">chu-ch'u</term>           
+            <term xml:id="term-k000128-13" xml:lang="zh-latn-pinyin" source="#biblk000128-1"
+               >zhùchǔ</term>
+            <term xml:id="term-k000128-4" xml:lang="zh-latn-wadegile">chu-ch'u</term>
             <term xml:id="term-k000128-5" xml:lang="en" source="#biblk000128-2">base</term>
             <term xml:id="term-k000128-6" xml:lang="en" source="#biblk000128-3">boulder base</term>
             <term xml:id="term-k000128-7" xml:lang="en" source="#biblk000128-4">column base</term>
             <term xml:id="term-k000128-8" xml:lang="en" source="#biblk000128-5">pillar base</term>
             <term xml:id="term-k000128-9" xml:lang="en" source="#biblk000128-6">plinth</term>
-            <term xml:id="term-k000128-10" xml:lang="en" source="#biblk000128-7">granite plinth</term>
-            <term xml:id="term-k000128-11" xml:lang="en" source="#biblk000128-8">stone plinth</term>
-            <term xml:id="term-k000128-12" xml:lang="en" source="#biblk000128-9">stone pedestal for a column</term>
-
-            <!--  <note>
-              <p> Related terms: 四阿，五脊殿，吴殿</p>
-            </note> -->
-            
+            <term xml:id="term-k000128-10" xml:lang="en" source="#biblk000128-7">granite
+               plinth</term>
+            <term xml:id="term-k000128-11" xml:lang="en">stone plinth</term>
+            <term xml:id="term-k000128-12" xml:lang="en" source="#biblk000128-8">stone pedestal for
+               a column</term>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000128-9">In traditional Chinese architecture, zhuchu
+                  (literally the stone plinth or foundation (chu 礎) of a pillar (zhu 柱) (Kroll 2015,
+                  58; Hanyu dacidian online)) generally refers to the stone that supports a
+                  pillar.</p><p xml:lang="en" source="#biblk000128-10"> It consists of an upper part
+                  aboveground which supports the pillar foot (zhujiao 柱脚) and a lower part buried
+                  underground, the top of which is generally level with the surface of the building
+                  platform. The style and material of pillar bases differ according to time and
+                  region. In the early human settlements, there is evidence that wooden planks or
+                  wooden blocks were used as pillar bases. In the southern part of China, two
+                  separate parts work together to support the pillar. The upper one is called gudeng
+                  鼓磴 (lit. “drum step”) lower one is sangshi 磉石 (lit. “pillar base stone”), both are
+                  made of stone. The stone “drums” of the traditional architecture in the southern
+                  part of China and the stone blocks supporting the stone drums jointly assume the
+                  role of pillar bases. The pillar base can effectively prevent the decay of the
+                  wooden pillar foot by raising it off the wet ground. Furthermore, by stopping the
+                  absorption of moisture around the pillar foot, it helps prevent the shrinkage of
+                  the wood. The first mention of the term zhuchu we have found is in the <title
+                     ref="https://tinyurl.com/5ejv2mfs">Huainanzi</title> by Liu An (179 BCE-122
+                  BCE). Here chu 礎 was glossed as “the stone under the pillar (zhu xia shi 柱下石)” by
+                  the Eastern Han dynasty scholar Gao You 高誘 (Hanyu dacidian).</p><p xml:lang="en"
+                  source="#biblk000128-11"> The Yingzao fashi provides information on the meaning of
+                  zhuchu and outlines their visual characteristics, including size, shape, and
+                  engraved decoration. Zhuchu has many synonyms. In addition to zhuchu, zhudingshi
+                  柱頂石, which is first mentioned in the Ming Dynasty Wanli period（1573-1620）was
+                  generally used in Ming and Qing Dynasties.</p><p xml:lang="en"
+                  source="#biblk000128-12"> Zhuchu was given a broad interpretation in Yingzao
+                  fayuan 營造法原 (1986, 112), "the foundation of the pillar, including the stone base
+                  under the sangshi 磉石”. In other words, the whole stone support system under the
+                  pillar was called zhuchu. </p>
+               <p xml:lang="zh-Hant" source="#biblk000128-10"
+                  >"中國古代建築中，柱礎通常是指施用於柱下的塊石，包括高於地坪承托柱子的上部，埋於地坪下與階沿石相平的下部，上下為一整體，用於隔離水汽對木柱腳侵蝕。柱礎的樣式具有時代和地域特征，其材料和指代的對象在不同時期和地域也有所改變，早期人類文化遺址中有以木板或木塊作為柱礎的做法。而南方傳統建築中的鼓磴和承托鼓磴的磉石共同承擔了柱礎的作用.。
+                  “柱礎”一詞最早出現在漢《淮南子說林訓》. 東漢經學家高誘注礎本意為柱下石.</p><p xml:lang="zh-Hant" source="#biblk000128-11"> 宋《營造法式》
+                     對柱礎有系統的定義和梳理，從尺寸、紋樣、鐫刻等方面對造柱礎之制進行了規定。“柱礎”有諸多同義詞。明清時常同時使用“柱頂石”。</p><p xml:lang="zh-Hant" source="#biblk000128-12"
+                        >此外，“柱礎”二字在《營造法原》
+                        中含義被擴大為柱下之基礎，“柱底之基礎，包括磉石下之石基”：地坪之上的（石鼓，gǔ）磴，（石鼓，gǔ）磴下與階沿相平的磉石和磉石以下基礎共同被稱為柱礎。（法原，1986,112）</p><p xml:lang="zh-Hant" source="#biblk000128-13">
+                           根據考古資料，陝西半坡村新石器時代仰韶文化遺址中，柱洞壁和底部已有被堅實夯築的痕迹，柱洞中还填有木炭</p><p xml:lang="zh-Hant" source="#biblk000128-14"
+                              >。同为仰韶文化时期的安阳后岗遗址中，有较为成熟的深埋块石作为柱础的实例。
+                           </p><p xml:lang="zh-Hant" source="#biblk000128-15">安阳殷墟遗址中，有以天然卵石为柱礎的做法，同时也发现了铜鑕遺跡。</p><p xml:lang="zh-Hant" source="#biblk000128-16">西周中期陝西扶風召陳遺址中素夯土摻有大礫石夯築築基，其上置平整砾石，基底埋深至土壤凍結深度以下。</p><p xml:lang="zh-Hant" source="#biblk000128-17">最晚至西漢，柱礎或圓或方，並高出地坪，有效解決了柱腳深埋引起的水害問題。漢以後的柱礎經歷多種形式變化，唐宋逐成定式。</p>
+            </note>
             <bibl xml:id="biblk000128-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">249</citedRange>
@@ -84,74 +123,97 @@
             <bibl xml:id="biblk000128-2">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                <citedRange unit="pp">40</citedRange>
-            </bibl>            
+            </bibl>
             <bibl xml:id="biblk000128-3">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                <citedRange unit="pp">55</citedRange>
             </bibl>
-       
             <listBibl xml:id="biblk000128-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">89</citedRange>
-               </bibl> 
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                   <citedRange unit="pp">135</citedRange>
-               </bibl> 
+               </bibl>
             </listBibl>
             <bibl xml:id="biblk000128-5">
                <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                <citedRange unit="pp">43</citedRange>
             </bibl>
-
             <listBibl xml:id="biblk000128-6">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
                   <citedRange unit="pp">220</citedRange>
-               </bibl> 
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">98</citedRange>
-               </bibl> 
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/67UPM6JJ"/>
                   <citedRange unit="pp">43</citedRange>
-               </bibl> 
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                   <citedRange unit="pp">39</citedRange>
-               </bibl> 
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/IRRH8K8Q"/>
                   <citedRange>reference illustration</citedRange>
-               </bibl>      
+               </bibl>
             </listBibl>
-            
-            
             <bibl xml:id="biblk000128-7">
                <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
                <citedRange unit="pp">39</citedRange>
             </bibl>
-            
             <bibl xml:id="biblk000128-8">
-               <ptr target="https://architecturasinica.org/bibl/67UPM6JJ"/>
-               <citedRange unit="pp">47</citedRange>
-            </bibl>
-            <bibl xml:id="biblk000128-9">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">371</citedRange>
             </bibl>
-            
-            
-            
-            
+            <listBibl xml:id="biblk000128-9">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange>accessed 2015</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed June 12, 2022</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000128-10">
+               <ptr target="https://architecturasinica.org/bibl/28B4HD9A"/>
+            </bibl>
+            <bibl xml:id="biblk000128-11">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+            </bibl>
+            <bibl xml:id="biblk000128-12">
+               <ptr target="https://architecturasinica.org/bibl/UWHU6CTI"/>
+               <citedRange unit="pp">112</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000128-13">
+               <ptr target="https://architecturasinica.org/bibl/J56UFFPZ"/>
+               <citedRange unit="pp">5-10, 7-16</citedRange>
+            </bibl><bibl xml:id="biblk000128-14">
+               <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
+               <citedRange unit="pp">103</citedRange>
+            </bibl><bibl xml:id="biblk000128-15">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+            </bibl><bibl xml:id="biblk000128-16">
+               <ptr target="https://architecturasinica.org/bibl/RW9VAFD6"/>
+               <citedRange unit="pp">152-157</citedRange>
+            </bibl>
+            </bibl><bibl xml:id="biblk000128-17">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+            </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000128</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000128" passive="foundations"/>
-             
-            </listRelation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000128" passive="foundations"/>
+
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
