@@ -61,13 +61,34 @@
             <term xml:id="term-k000164-1" xml:lang="zh-latn-pinyin-nt">tai</term>
             <term xml:id="term-k000164-2" xml:lang="zh-Hant">臺</term>
             <term xml:id="term-k000164-3" xml:lang="zh-Hans">台</term>
-            <term xml:id="term-k000164-4" xml:lang="zh-latn-pinyin">tái</term>
+            <term xml:id="term-k000164-4" xml:lang="zh-latn-pinyin" source="#biblk000164-1">tái</term>
             <term xml:id="term-k000164-5" xml:lang="zh-latn-wadegile">t`ai</term>            
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000164-1">literally: terrace; raised platform (Kroll 2015, 440; Fu 2017, 367)</p>
-               <p xml:lang="zh-Hant" source="#biblk000164-1">高而上平的建築物。</p>
+               <p xml:lang="en" source="#biblk000164-2">literally: terrace; platform (raised from ground level). e.g. 平臺, 臺子 (Kroll 2015, 440; Guo 2002, 76; Fu 2017, 367; 呂 1992, 32; Hucker 1985, 373-4)</p>
+               <p xml:lang="zh-Hant" source="#biblk000164-1">陔;高而上平的建築物。</p>
             </note>
-            <listBibl xml:id="biblk000164-1">
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000176">tán 壇</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000144">dānbì 丹陛</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000145">dānchí 丹墀</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000123">yuètái 月臺</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000136">lùtái 露臺</term>
+               </p>
+            </note>
+            <bibl xml:id="biblk000164-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 27, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000164-2">
                <bibl>
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">440</citedRange>
@@ -75,7 +96,23 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                   <citedRange unit="pp">367</citedRange>
-               </bibl>     
+               </bibl>  
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">76</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">367</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIDR9AUD"/>
+                  <citedRange unit="pp">32</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">373-4</citedRange>
+               </bibl>
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000164</idno>
             <listRelation>
