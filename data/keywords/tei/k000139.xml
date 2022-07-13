@@ -94,11 +94,12 @@
             <term xml:id="term-k000139-9" xml:lang="en" source="#biblk000139-5">two-rafter crossbeam</term>
             <note type="Note (full)">
                <note type="getty:scopeNote" xml:lang="en">
-                <p source="#biblk000139-6">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the <title ref="https://tinyurl.com/36hnkkzs">Yingzao fashi</title>, where it is also called <term>pingfu 平栿</term>. In extant architecture, <term>shuzhu 蜀柱</term> and <term>chashou 叉手</term> are joined into the top of the pingliang (Liang 1983, 142 ; Chen 2010, 114). In official <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">Qing</term> dynasty architectural terminology, the beam in the location of the pingliang is called <term>sanjialiang 三架梁</term>, meaning a beam that spans three purlins (and two rafters), or <term>taipingliang 太平梁</term>.</p>
+                  <p source="#biblk000139-6">Pingliang refers to cross beams that span two rafters and are located on the highest layer of the roof frame. This term is used in the <title ref="https://tinyurl.com/36hnkkzs">Yingzao fashi</title>, where it is also called <term>pingfu 平栿</term>. In extant architecture, <term>shuzhu 蜀柱</term> and <term>chashou 叉手</term> are joined into the top of the pingliang (Liang 1983, 142 ; Chen 2010, 114). In official <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">Qing</term> dynasty architectural terminology, the beam in the location of the pingliang is called <term>sanjialiang 三架梁</term>, meaning a beam that spans three purlins (and two rafters), or <term>taipingliang 太平梁</term>.</p>
+               </note>
                <note type="getty:scopeNote" xml:lang="zh-Hant">
                 <p source="#biblk000139-6">平梁為《<title ref="https://tinyurl.com/36hnkkzs">營造法式</title>》（1103）所用術語，也稱<term>平栿</term>。指長兩椽，位於梁架最上一層的梁。現存實例中平梁上通常立<term>蜀柱</term>與<term>叉手</term>（梁 1983, 142；陳 2010, 114）。在<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">清</term>官式的梁架及其術語體系中，屋架最上層的<term>太平梁</term>或<term>三架梁</term>與《<title ref="https://tinyurl.com/36hnkkzs">營造法式</title>》平梁相當。</p>
                </note>
-            </note>            
+            </note>       
             <bibl xml:id="biblk000139-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">114</citedRange>
@@ -134,11 +135,8 @@
                   <listRelation>
                      <relation ref="foaf:depicts"
                         active="https://live.staticflickr.com/65535/51273155892_24b5eeb605_o.jpg"
-                        passive="https://architecturasinica.org/keyword/k000139" ana="featured"/>
+                        passive="https://architecturasinica.org/keyword/k000139" rendition="featured"/>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000139" passive="building frame"/>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
                      source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
                </listRelation>
