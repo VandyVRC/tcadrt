@@ -67,12 +67,12 @@
             <term xml:id="term-k000031-4" source="#biblk000031-1" xml:lang="zh-latn-pinyin">ān</term>
             <term xml:id="term-k000031-1" xml:lang="zh-latn-wadegile">an</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000031-2">literally: a cottage or hut; in a religious context a hermitage, sanctuary; often a convent (Kroll 2015, 2; Guo 2002, 16; Hanyu dacidian (online edition))</p>
+               <p xml:lang="en" source="#biblk000031-2">literally: a cottage or hut; in a religious context a hermitage, sanctuary; often a convent (Kroll 2015, 2; Guo 2002, 16; Hanyu dacidian (online edition)).</p>
                <p xml:lang="zh-Hant" source="#biblk000031-1">草屋；宗教建築中指寺院，多爲尼姑所居（漢語大詞典）。</p>   
             </note>
             <bibl xml:id="biblk000031-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
-               <citedRange unit="pp">digital</citedRange>
+               <citedRange>digital</citedRange>
             </bibl>
             <listBibl xml:id="biblk000031-2">
                <bibl>
@@ -82,7 +82,11 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                   <citedRange unit="pp">16</citedRange>
-               </bibl>              
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>digital</citedRange>
+               </bibl>
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000031</idno>
          </entryFree>
