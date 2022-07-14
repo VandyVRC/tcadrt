@@ -53,6 +53,10 @@
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
             </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -82,7 +86,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-16">CREATED: record</change>
+         <change n="1.0" when="2020-05-16" who="#ZS">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
