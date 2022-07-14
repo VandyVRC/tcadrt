@@ -14,11 +14,15 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="YAN">YAN Anni 嚴安妮</editor>
+            <editor role="content-author" xml:id="RSJ">REN Sijie 任思捷</editor>
+            
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person" xml:id="YAN">YAN Anni 嚴安妮</name>
-               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
-               <name type="person" xml:id="RSJ">REN Sijie 任思捷</name>
+               <name type="person" ref="#YAN">YAN Anni 嚴安妮</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛凈</name>
+               <name type="person" ref="#RSJ">REN Sijie 任思捷</name>
                <name type="team">ATTCAT 2019</name>
             </respStmt>
             <respStmt>
@@ -112,7 +116,7 @@
                   嚴安妮，Zhuge jing 諸葛淨，Ren Sijie 任思捷） </p>
             </note>
             <note type="Related terms">
-               <p><term ref="/keyword/k000136">露台</term></p>
+               <p><term ref="/keyword/k000136">露台 lùtái</term></p>
             </note>
             <bibl xml:id="biblk000124-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
