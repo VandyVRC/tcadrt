@@ -64,22 +64,6 @@
             <term xml:id="term-k000206-3" xml:lang="zh-Hans">华废</term>
             <term xml:id="term-k000206-4" xml:lang="zh-latn-pinyin" source="#biblk000206-2">huáfèi</term>
             <term xml:id="term-k000206-5" xml:lang="zh-latn-wadegile">hua-fei</term>
-            <!-- <note type="Gloss">
-               <p xml:lang="en" source="#biblk000206-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000206-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
-            </note>
-            <note type="Note (full)">                              
-            </note>
-            <bibl xml:id="biblk000206-1">
-               <ptr target=""/>
-               <citedRange unit="pp">472</citedRange>
-            </bibl>
-             -->
-            <listRelation>
-               <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000206" passive="roofing tiles"/>
-               </listRelation>
-            </listRelation>
             <bibl xml:id="biblk000206-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">42</citedRange>
@@ -87,6 +71,12 @@
             <bibl xml:id="biblk000206-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">298</citedRange>
+            </bibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000206" passive="roofing tiles"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>
