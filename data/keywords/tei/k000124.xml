@@ -12,13 +12,20 @@
                <foreign xml:lang="zh-Hant">崖墓</foreign> yámù</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="YAN">YAN Anni 嚴安妮</editor>
+            <editor role="content-author" xml:id="RSJ">REN Sijie 任思捷</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Initial Research</resp>
-               <name type="person" xml:id="YAN">YAN Anni 嚴安妮</name>
-               <name type="person" xml:id="ZJ">ZHUGE Jing 諸葛凈</name>
-               <name type="person" xml:id="RSJ">REN Sijie 任思捷</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="#YAN">YAN Anni 嚴安妮</name>
+               <name type="person" ref="#RSJ">REN Sijie 任思捷</name>
                <name type="team">ATTCAT 2019</name>
             </respStmt>
             <respStmt>
@@ -108,11 +115,10 @@
                   1951）但在目前，關於崖墓與其形式相似的墓葬形式如崖葬、以及中部和東部地區漢墓的區分還不夠明確。
                      “崖墓”這一稱呼在歷史文獻中不曾出現，但有可與之相對應的描述。（陸 2004；杜 2013）有關崖墓的考察研究最早由歐洲學者開啟，所以其專有名稱率先出現在英文(cave
                   tombs)和法文的文獻中。（Wylie, A. 1869, 169; Baber, E.C.
-                  1882, 201）隨著這些記錄在國內學者中傳播，中文名詞“崖墓”第一次在一本由法文翻譯而來的書中出現。(色伽蘭 1930) 而後，隨著國內的崖墓研究逐漸興起，又出現了由“崖墓”翻譯成外文的名詞。（Yan An’ni
-                  嚴安妮，Zhuge jing 諸葛淨，Ren Sijie 任思捷） </p>
+                  1882, 201）隨著這些記錄在國內學者中傳播，中文名詞“崖墓”第一次在一本由法文翻譯而來的書中出現。(色伽蘭 1930) 而後，隨著國內的崖墓研究逐漸興起，又出現了由“崖墓”翻譯成外文的名詞。</p>
             </note>
             <note type="Related terms">
-               <p><term ref="/keyword/k000136">露台</term></p>
+               <p><term ref="/keyword/k000136">露台 lùtái</term></p>
             </note>
             <bibl xml:id="biblk000124-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>

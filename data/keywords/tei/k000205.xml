@@ -17,6 +17,10 @@
             <editor role="content-author" xml:id="JTL">JIA Tingli 贾亭立</editor>
             <editor role="content-author" xml:id="DKQ">DOU Keqin 窦可亲</editor>
             <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#DKQ">DOU Keqin 窦可亲</name>
             </respStmt>
@@ -59,27 +63,12 @@
    <text>
       <body>
          <entryFree xml:id="k000205" type="architectural feature">
-            <term xml:id="term-k000205-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000205-1">jianbian</term>
+            <term xml:id="term-k000205-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000205-2">jianbian</term>
             <term xml:id="term-k000205-2" xml:lang="zh-Hant">剪邊</term>
             <term xml:id="term-k000205-3" xml:lang="zh-Hans">剪边</term>
             <term xml:id="term-k000205-4" xml:lang="zh-latn-pinyin" source="#biblk000205-2">jiǎnbiān</term>
             <term xml:id="term-k000205-5" xml:lang="zh-latn-wadegile">chien-pien</term>
-            <!-- <note type="Gloss">
-               <p xml:lang="en" source="#biblk000205-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000205-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
-            </note>
-            <note type="Note (full)">                              
-            </note>
-            <bibl xml:id="biblk000205-1">
-               <ptr target=""/>
-               <citedRange unit="pp">472</citedRange>
-            </bibl>
-             -->
-            <listRelation>
-               <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000205" passive="architectural ornament"/>
-               </listRelation>
-            </listRelation>
+            <idno type="URI">https://architecturasinica.org/keyword/k000205</idno>
             <bibl xml:id="biblk000205-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">46</citedRange>
@@ -88,6 +77,11 @@
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">310</citedRange>
             </bibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000205" passive="architectural ornament"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>

@@ -9,13 +9,15 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information and gloss 2022 by</resp>
+               <resp>Adding citation information and gloss by</resp>
                <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -59,8 +61,8 @@
             <term xml:id="term-k000234-4" xml:lang="zh-latn-pinyin" source="#biblk000234-1">péng</term>
             <term xml:id="term-k000234-6" xml:lang="zh-latn-wadegile">p'eng</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000234-1">Shed or shelter; a modest or humble house (Chen 2010, 343; Hucker 1985, 375; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000234-1">遮風擋雨的遮蓋物; 簡陋的房屋 (Chen 2010, 343; Hucker 1985, 375; Kroll 2016, online edition)</p>
+               <p xml:lang="en" source="#biblk000234-1">Shed or shelter; a modest or humble house (陳 2010, 343; Hucker 1985, 375; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000234-1">遮風擋雨的遮蓋物; 簡陋的房屋 (陳 2010, 343; Hucker 1985, 375; Kroll 2016, online edition)</p>
             </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000234-1" xml:lang="zh-Hant" ref="/keyword/k000209">地棚 dìpéng</p>
