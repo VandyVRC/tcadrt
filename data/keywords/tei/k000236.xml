@@ -9,13 +9,15 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information and gloss 2022 by</resp>
+               <resp>Adding citation information and gloss by</resp>
                <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -60,7 +62,7 @@
             <term xml:id="term-k000236-6" xml:lang="zh-latn-wadegile">tso</term>
             <term xml:id="term-k000236-7" xml:lang="en" type="ATTCAT preferred" source="#biblk000236-1">seat (ATTCAT preferred)</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000236-2">1. type of seat, often of authority or status, such as a throne; position in a site; 2. to sit (Chen 2010, 179; Kroll 2016, online edition)</p>
+               <p xml:lang="en" source="#biblk000236-2">1. type of seat, often of authority or status, such as a throne; position in a site; 2. to sit (陳 2010, 179; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000236-2">1. 座位或平台的類型，通常象徵權威或特殊地位，例如寶座；在某場所中的位置；2. 坐著 (Chen 2010, 179; Kroll 2016, online edition)</p>
             </note>
             <note type="related concepts">
