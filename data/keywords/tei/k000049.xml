@@ -10,7 +10,7 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
@@ -63,8 +63,8 @@
             <term xml:id="term-k000049-5" xml:lang="zh-latn-wadegile">t'ang</term>
             <term xml:id="term-k000049-6" xml:lang="en">hall</term>
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000049-1">main hall or hall; a building designed for a specific purpose or to house a certain ritual (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000049-1">正房；舉行儀式用的房屋 (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
+               <p xml:lang="en" source="#biblk000049-2">main hall or hall; a building designed for a specific purpose or to house a certain ritual (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000049-2">正房；舉行儀式用的房屋 (Chen 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
             </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000049-1" xml:lang="zh-Hant" ref="/keyword/k000129">廳堂 tīngtáng</p>
@@ -79,11 +79,11 @@
                <p xml:id="related-concept-k000049-10" xml:lang="zh-Hant" ref="/keyword/k000170">祠堂 cítáng</p>
             </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
-            <listBibl xml:id="biblk000049-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-                  <citedRange unit="pp">310</citedRange>
-               </bibl>
+            <bibl xml:id="biblk000049-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">310</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000049-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
                   <citedRange unit="pp">486</citedRange>
