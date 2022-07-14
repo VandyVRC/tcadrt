@@ -22,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Preliminary research</resp>
-               <name type="team">CMW S19</name>
+               <name type="team">ATTCAT 2019</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
@@ -51,6 +51,10 @@
             <respStmt>
                <resp>Data entry, adding citations 2020 by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -81,7 +85,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-19">CREATED: record</change>
+         <change n="1.0" when="2020-05-19" who="#ZS">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
