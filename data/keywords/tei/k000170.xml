@@ -22,15 +22,30 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations and gloss 2021 by</resp>
-               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
-            </respStmt>
-            <respStmt>
-               <resp>Initial research and revision by</resp>
+               <resp>Preliminary research and revision by</resp>
+               <name type="team">CMW S21</name>
                <name type="person" ref="#WR">WANG Ruodi 王若菂</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry 2022 by</resp>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>            
+            <respStmt>
+               <resp>Data entry, adding citations and gloss by</resp>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Updating data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
@@ -63,6 +78,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-06-02" who="#YFB">CREATED: record, added citations and gloss</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">updating entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
