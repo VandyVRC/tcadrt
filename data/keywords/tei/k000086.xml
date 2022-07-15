@@ -106,6 +106,11 @@
                </bibl>
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000086" passive="building type"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>
