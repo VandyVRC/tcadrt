@@ -21,11 +21,29 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW M22</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2022</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
                <resp>Initial research and revision by</resp>
                <name type="person" ref="#RJ">RUAN Jing 阮景</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry 2022 by</resp>
+               <resp>Data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
@@ -57,7 +75,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2022-05-28">CREATED: record</change>
+         <change n="1.0" when="2022-05-28" who="#ZAL">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
