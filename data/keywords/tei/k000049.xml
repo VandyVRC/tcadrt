@@ -9,8 +9,11 @@
                táng
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" xml:id="YAN">YAN Anni 嚴安妮</editor>
             <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -21,7 +24,21 @@
                <name type="person">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Modifying gloss 2022 by</resp>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Modifying gloss, adding related terms by</resp>
                <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -55,6 +72,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" when="2022-06-01" who="#CZ">Modified gloss</change>
+         <change n="1.2" when="2022-07-15" who="#TGM">Modified entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,21 +84,21 @@
             <term xml:id="term-k000049-4" xml:lang="zh-latn-pinyin" source="#biblk000049-1">táng</term>
             <term xml:id="term-k000049-5" xml:lang="zh-latn-wadegile">t'ang</term>
             <term xml:id="term-k000049-6" xml:lang="en">hall</term>
-            <note type="Gloss">
-               <p xml:lang="en" source="#biblk000049-2">main hall or hall; a building designed for a specific purpose or to house a certain ritual (陳 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000049-2">正房；舉行儀式用的房屋 (陳 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition)</p>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000049-2">Literally a main hall or hall, a tang is usually a building designed to house a special ritual or function (陳 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition). From records dating to the <term ref="/keyword/k000200">Spring and Autumn</term> and <term ref="/keyword/k000201">Warring States</term> periods（770 BCE - 221 BCE), we can deduce that a tang originally referred to a building atop a podium. Additionally, the term tang was also used to referred to a high and open main room in the most important building of a larger complex. In pre-<term ref="/keyword/k000069">Qin</term> sources (and after) this was the location for important ceremonial activities (Zhuge and Xue 2021, 102).</p>
+               <p xml:lang="zh-Hant" source="#biblk000049-2">正房；舉行儀式用的房屋 (陳 2010, 310; Hucker 1985, 486; Guo 2002, 77; Fu 2017, 367; Kroll 2016, online edition). 基於<term ref="/keyword/k000200">春秋</term><term ref="/keyword/k000201">戰國</term>時期的各類文獻可知，堂本意为為坐於台基上的房屋 。“堂“又是建築群主體建築物裡高敞部分之稱，為先<term ref="/keyword/k000069">秦</term>文献记载的各項禮儀主要程式進行的地方(诸葛和薛 2021, 102)。</p>
             </note>
             <note type="related concepts">
-               <p xml:id="related-concept-k000049-1" xml:lang="zh-Hant" ref="/keyword/k000129">廳堂 tīngtáng</p>
+               <p xml:id="related-concept-k000049-10" xml:lang="zh-Hant" ref="/keyword/k000170">祠堂 cítáng</p>
                <p xml:id="related-concept-k000049-2" xml:lang="zh-Hant" ref="/keyword/k000130">殿堂 diàntáng</p>
+               <p xml:id="related-concept-k000049-9" xml:lang="zh-Hant">法堂 fǎtáng</p>
                <p xml:id="related-concept-k000049-3" xml:lang="zh-Hant">佛堂 fótáng</p>
-               <p xml:id="related-concept-k000049-4" xml:lang="zh-Hant">堂屋 tángwū</p>
-               <p xml:id="related-concept-k000049-5" xml:lang="zh-Hant">堂閣 tánggé</p>
-               <p xml:id="related-concept-k000049-6" xml:lang="zh-Hant">禮堂 lǐtáng</p>
                <p xml:id="related-concept-k000049-7" xml:lang="zh-Hant">畫堂 huàtáng</p>
                <p xml:id="related-concept-k000049-8" xml:lang="zh-Hant">華堂 huátáng</p>
-               <p xml:id="related-concept-k000049-9" xml:lang="zh-Hant">法堂 fǎtáng</p>
-               <p xml:id="related-concept-k000049-10" xml:lang="zh-Hant" ref="/keyword/k000170">祠堂 cítáng</p>
+               <p xml:id="related-concept-k000049-6" xml:lang="zh-Hant">禮堂 lǐtáng</p>
+               <p xml:id="related-concept-k000049-5" xml:lang="zh-Hant">堂閣 tánggé</p>
+               <p xml:id="related-concept-k000049-4" xml:lang="zh-Hant">堂屋 tángwū</p>
+               <p xml:id="related-concept-k000049-1" xml:lang="zh-Hant" ref="/keyword/k000129">廳堂 tīngtáng</p>
             </note>
             <idno type="URI">https://architecturasinica.org/keyword/k000049</idno>
             <bibl xml:id="biblk000049-1">
@@ -88,6 +106,10 @@
                <citedRange unit="pp">310</citedRange>
             </bibl>
             <listBibl xml:id="biblk000049-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">310</citedRange>
+               </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
                   <citedRange unit="pp">486</citedRange>
@@ -103,6 +125,10 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                   <citedRange>accessed May 27, 2022</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J2RZ94SY"/> 
+                  <citedRange unit="pp">102</citedRange>
                </bibl>
             </listBibl>
          </entryFree>
