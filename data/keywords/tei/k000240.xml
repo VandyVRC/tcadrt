@@ -21,17 +21,25 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" ref="#RSJ">REN Sijie 任思捷</name>
-               <name type="person" ref="#CJQ">Chen Jiaqi 陈加麒</name>
+               <resp>Peer review by</resp>
                <name type="team">ATTCAT 2019</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations 2020 by</resp>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
             </respStmt>
             <respStmt>
-               <resp>Adding notes, bibliography, photo 2022 by</resp>
+               <resp>Adding notes, bibliography, photo</resp>
                <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -64,6 +72,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-23">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#CZ">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
