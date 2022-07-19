@@ -81,6 +81,7 @@
             <term xml:id="term-k000019-1" xml:lang="zh-latn-pinyin-nt">dougong</term>
       	   <term xml:id="term-k000019-2" xml:lang="zh-Hant" source="#biblk000019-2">枓栱</term>
       	   <term xml:id="term-k000019-3" xml:lang="zh-Hans">斗栱</term>
+            <term xml:id="term-k000019-10" xml:lang="zh-Han" type="alternate">斗栱</term>
             <term xml:id="term-k000019-4" xml:lang="zh-latn-pinyin">dǒugǒng (preferred)</term>
       	   <term xml:id="term-k000019-5" xml:lang="zh-latn-wadegile">tou-kung</term>
       	   <term xml:id="term-k000019-6" xml:lang="en" type="literal_translation">blocks(s) and bracket arm(s) (lit.)</term>
@@ -130,10 +131,9 @@
       	   <idno type="URI">https://architecturasinica.org/keyword/k000019</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="bracketing"/>
-                  <!--
-                     <relation ref="foaf:depicts" active="url to flickr here" passive="https://architecturasinica.org/keyword/k000019" rendition="featured">
-                  </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000019" passive="bracketing"/> 
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52225051557_ebc036eb63_b.jpg" passive="https://architecturasinica.org/keyword/k000019" rendition="featured"/>
+                  <!--</relation>
                      <relation ref="https://architecturasinica.org/place/000xxx" source="name_of_numbered_example_here"/>
                   -->
                </listRelation>
