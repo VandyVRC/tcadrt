@@ -65,7 +65,7 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000226" type="building type">
+         <entryFree xml:id="k000226" type="architectural feature">
             <term xml:id="term-k000226-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000226-1">yangmaqiang</term>
             <term xml:id="term-k000226-2" xml:lang="zh-Hant">羊馬牆</term>
             <term xml:id="term-k000226-3" xml:lang="zh-Hans">羊马墙</term>
@@ -74,12 +74,15 @@
             <term xml:id="term-k000226-6" xml:lang="en" type="literal_translation">goat and horse wall (lit.)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000226</idno>
             <note>
-               <p>See <term ref="/keyword/k000122">羊馬城 yángmǎchéng</term></p>
+               <p>Alternative term for <term ref="/keyword/k000122">羊馬城 yángmǎchéng</term></p>
             </note>
             <bibl xml:id="biblk000226-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed May 28, 2022</citedRange>
             </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000226" passive="fortification elements"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>
