@@ -88,9 +88,13 @@
             <term xml:id="term-k000170-2" xml:lang="zh-Hant">祠堂</term>
             <term xml:id="term-k000170-3" xml:lang="zh-Hans">祠堂</term>
             <term xml:id="term-k000170-4" xml:lang="zh-latn-pinyin" source="#biblk000170-2">cítáng</term>
-            <term xml:id="term-k000170-5" xml:lang="zh-latn-wadegile">tz'u-t'ang</term>           
+            <term xml:id="term-k000170-5" xml:lang="zh-latn-wadegile">tz'u-t'ang</term>
+            <term xml:id="term-k000170-6" xml:lang="en" source="#biblk000170-1">sacrificial hall</term>
+            
+            <idno type="URI">https://architecturasinica.org/keyword/k000170</idno>
+            
             <note type="Gloss">
-               <p xml:lang="en" source="#biblk000170-1">literally a hall or space in which cultic sacrifices (ci 祠) are performed (Kroll 2015, 64, 444); usually an ancestral hall (Fu 2017, 152). </p>
+               <p xml:lang="en" source="#biblk000170-1">literally, a hall or space in which cultic sacrifices (ci 祠) are performed (Kroll 2015, 64, 444); usually an ancestral hall (Fu 2017, 152). </p>
                <p xml:lang="zh-Hant" source="#biblk000170-1">祭祀祖先或先賢之處。</p>
             </note>  
             <listBibl xml:id="biblk000170-1">
@@ -101,14 +105,12 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">64, 444</citedRange>
-               </bibl>
-                  
+               </bibl>    
             </listBibl>
             <bibl xml:id="biblk000170-2">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed May 28, 2022</citedRange>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000170</idno>
             
                <!-- <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000170" passive="building type"/>
