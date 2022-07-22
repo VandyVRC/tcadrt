@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">鋪 </foreign>pū</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW M22</name>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000233/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-05-27-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-05-27-04:00" who="#ZAL">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000233" type="architectural feature">
+            <term xml:id="term-k000233-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000233-1">pu</term>
+            <term xml:id="term-k000233-2" xml:lang="zh-Hant">鋪</term>
+            <term xml:id="term-k000233-3" xml:lang="zh-Hans">铺</term>
+            <term xml:id="term-k000233-4" xml:lang="zh-latn-pinyin" source="#biblk000233-1">pū</term>
+            <term xml:id="term-k000233-6" xml:lang="zh-latn-wadegile">p'u</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000233-2">lay and arrange in a certain manner; used in relation to layered bracketing structures, such as puzuo 鋪作 (Guo 2002, 63; Fu 2017, 363)</p>
+               <p xml:lang="zh-Hant" source="#biblk000233-2">以一種特別的方式鋪設、相疊；尤其是多層托架結構，如鋪作</p>
+            </note>
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000219">bǔjiān pūzuò 補間鋪作</term>
+               </p>
+               <p> 
+                  <term ref="/keyword/k000058">míngjiān pūzuò 明間鋪作</term>
+               </p>
+               <p> 
+                  <term ref="/keyword/k000013">pūzuò 鋪作</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000099">yǐngzuò mùgòu 影作木構</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000014">zhuǎnjiǎo pūzuò xiégǒng 轉角鋪作斜栱</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000120">zhùtóu pūzuò 柱頭鋪作</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000015">zhùtóu pūzuò xiégǒng 柱頭鋪作斜栱</term>
+               </p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000233</idno>
+            <listBibl xml:id="biblk000233-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">410</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed May 27, 2022</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000233-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">63</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">363</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000233" passive="bracketing"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

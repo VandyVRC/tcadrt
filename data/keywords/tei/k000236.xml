@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">坐 </foreign>zuò</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW M22</name>
+               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000236/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-06-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-06-01-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000236" type="architectural feature">
+            <term xml:id="term-k000236-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000236-2">zuo</term>
+            <term xml:id="term-k000236-2" xml:lang="zh-Hant">坐</term>
+            <term xml:id="term-k000236-3" xml:lang="zh-Hans">坐</term>
+            <term xml:id="term-k000236-4" xml:lang="zh-latn-pinyin" source="#biblk000236-2">zuò</term>
+            <term xml:id="term-k000236-6" xml:lang="zh-latn-wadegile">tso</term>
+            <term xml:id="term-k000236-7" xml:lang="en" type="ATTCAT preferred" source="#biblk000236-1">seat (ATTCAT preferred)</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000236-2">1. type of seat, often of authority or status, such as a throne; position in a site; 2. to sit (陳 2010, 179; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000236-2">1. 座位或平台的類型，通常象徵權威或特殊地位，例如寶座；在某場所中的位置；2. 坐著 (陳 2010, 179; Kroll 2016, online edition)</p>
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000236-1" xml:lang="zh-Hant">鐘坐 zhōngzuò</p>
+               <p xml:id="related-concept-k000236-2" xml:lang="zh-Hant">平坐鋪作 píngzuòpùzuò</p>
+               <p xml:id="related-concept-k000236-3" xml:lang="zh-Hant">坐凳欄杆 zuòdènglángān</p>
+               <p xml:id="related-concept-k000236-4" xml:lang="zh-Hant">坐禪 zuòchán</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000236</idno>
+            <bibl xml:id="biblk000236-1">
+               <ptr target="https://architecturasinica.org/bibl/FRELIMGK"/>
+            </bibl>
+            <listBibl xml:id="biblk000236-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">179</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange>accessed May 27, 2022</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000236" passive="foundations"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

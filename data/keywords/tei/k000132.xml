@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -9,20 +9,38 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">截間版帳</foreign> jiejianbanzhang</title>
+               <foreign xml:lang="zh-Hant">截間版帳</foreign> jiéjiānbǎnzhàng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <editor role="content-author" xml:id="WLJ">WANG Lijia 王麗佳</editor>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" xml:id="BY">BAI Ying 白穎</name>
-               <name type="person" xml:id="WLJ">WANG Lijia 王麗佳</name>
-               <name type="team">ATTCAT 2019</name>    
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations 2020 by</resp>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,27 +72,71 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-21">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#CZ">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000132" type="architectural feature">
-            <term xml:id="term-k000132-3" xml:lang="zh-latn-pinyin-nt">jiejianbanzhang</term>
-            <term xml:id="term-k000132-1" xml:lang="zh-Hant" source="#biblk000132-1">截間版帳</term>
-            <term xml:id="term-k000132-2" xml:lang="zh-Hans" source="#biblk000132-2">截间版帐</term>
-            <term xml:id="term-k000132-6" xml:lang="zh-latn-pinyin">jiéjiānbǎnzhàng</term>
-            <term xml:id="term-k000132-4" xml:lang="zh-latn-pinyin" source="#biblk000132-3">jiejian banzhang</term>
+            <term xml:id="term-k000132-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000132-1"
+               >jiejianbanzhang</term>
+            <term xml:id="term-k000132-1" xml:lang="zh-Hant" source="#biblk000132-2">截間版帳</term>
+            <term xml:id="term-k000132-2" xml:lang="zh-Hans" source="#biblk000132-3">截间版帐</term>
+            <term xml:id="term-k000132-6" xml:lang="zh-latn-pinyin" source="#biblk000132-1"
+               >jiéjiānbǎnzhàng</term>
+            <term xml:id="term-k000132-4" xml:lang="zh-latn-pinyin" source="#biblk000132-4">jiejian
+               banzhang</term>
             <term xml:id="term-k000132-5" xml:lang="zh-latn-wadegile">chieh-chien-pan-chang</term>
-
-            <note>
-               <p> Related terms: 截間屏風骨，殿內截間格子，佛道帳，九脊小帳，牙腳帳，壁帳</p>
-            </note> 
-            
-      
-            <bibl xml:id="#biblk000132-1">
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000132-5">Scholars generally agree that jiejian
+                  banzhang 截間版帳 is a room dividing partition, and some scholars believe that it is a
+                  partition specifically running perpendicular to the main roof ridge. The term is
+                  only found in Yingzao fashi 營造法式 as a type of nonstructural carpentry (xiaomuzuo
+                  小木作). According to the description in Yingzao fashi, jiejian banzhang is six to
+                  ten feet high and is composed of boards (ban 版) and covering strips (yatouhufeng
+                  牙頭護縫), which can be used on both sides of board. These components are fixed by a
+                  board casing (nanzi 難子) between the columns. If the jiejian banzhang is more than
+                  seven feet high, column-top-ties (e’fu 額栿) along with ,posts (tuanzhu 摶柱), and a
+                  waist bar (yaochuan 腰串) should be added to the framework. If its width is wider
+                  than usual, a bay muntin (qianzhu 槏柱) should also be added. The term jiejian
+                  banzhang is related to the use of fabric partitioning within interior decoration
+                  before the Song Dynasty. The use of word zhang 帳 in the term seems to indicate the
+                  relationship between wooden and fabric room partitions. Among all the xiaomuzuo
+                  non structural carpentry types in the Yingzao fashi that include the word zhang,
+                  jiejian banzhang is the only one that is a vertical plane partition, and it is
+                  thus different from other types, such as Ffo-Ddao zhang 佛道賬, etc.,which areis
+                  enclosed like a miniaturesmall building. The Han dynasty text Shiming 釋名, by Liu Xi 劉熙 explains
+                  that zhang is covering a bed which was shaped like a dou 鬥, (an ancient rice
+                  measuring container possessing revered status) turned upside-down (fudou 覆鬥)
+                  .“帳，張也，張施於牀上也，小帳如鬥形，如覆鬥也。” Here, the meaning of zhang is clear: it is similar to
+                  other types such as Fo-Dao zhang, which are enclosed, have their own roofs, and
+                  provide sheltered space for sculpture or other objects. From the Tang Dynasty
+                  onwards zhang was known to have multiple meanings. In addition to an enclosed
+                  structure, another meaning of “zhang” was a type of vertical fabric partition,
+                  similar to wei 帷. </p>
+               <p xml:lang="zh-Hant" source="#biblk000132-5">
+                  截間版帳，學者們一般認爲它是以木制作的室內隔斷（梁 2001, 180），有些則認爲特指進深方向的隔斷（趙 2005, 102）。這一術語在古代文獻中，僅見於宋《營造法式》（李 2009, 6.6a）。根據《營造法式》的定義，它由木版、內外並施的牙頭、護縫構成，並用難子固定於柱間，高度六至十尺。如果它的高度達七尺以上，則需增加額栿、槫柱及腰串作為框架。如果它的寬度（進深）較一般廣，則需增立槏柱。
+                  有三位學者對截間版帳進行過復原（梁 2001, 180；竹島 1997, 234-241; 潘 2005, 121）。
+                  截間版帳這一術語體現出宋代室內裝修中殘留的早期的室內織物分隔的影響。“帳”字的使用暗示這一以木制作的室内隔断與織物的關系（張 2001, 70-71；潘
+                  2005, 120-122；趙 2005, 102）。此外，在《營造法式》所有以“帳”命名的小木作中，截間版帳是惟一一個垂直的面狀隔斷，有別於自身呈圍合狀，有頂而且具有內部空間的各類帳，如佛道帳等。從歷史文獻推斷，“帳”本意為自身围合、内部带有空间的織物構造（劉, 6.44b）；表示垂直隔斷的字為“帷”（鄭 et al. 1934, 19.3a）。很可能至唐，“帳”已有與“帷”同為一意的情況：唐·李善等註的《文選》：“羅帳，羅帷也。”（蕭 et al. 1919, 31.4b）在梁·顧野王撰，宋·陸彭年重修的《玉篇》中對帳釋義：“帷也，張也，幬也。”（顧 1013, 28.2a），即“帳”可兼具垂直面狀隔斷與圍合的兩層含義。</p>
+            </note>
+            <note type="related concepts">
+               <p>間屏風骨</p>
+               <p>殿內截間格子</p>
+               <p>佛道帳</p>
+               <p>九脊小帳</p>
+               <p>牙腳帳</p>
+               <p>壁帳</p>
+            </note>
+            <bibl xml:id="biblk000132-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">399</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000132-2">
                <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
-            </bibl>        
-            <listBibl xml:id="#biblk000132-2">
+               <citedRange unit="pp">6.6a</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000132-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
                   <citedRange unit="pp">680</citedRange>
@@ -82,19 +144,69 @@
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
                   <citedRange unit="pp">120</citedRange>
-               </bibl>  
+               </bibl>
             </listBibl>
-            <bibl xml:id="#biblk000132-3">
+            <bibl xml:id="#biblk000132-4">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">48</citedRange>
             </bibl>
-            
+            <listBibl xml:id="biblk000132-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.6a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KKULIDU9"/>
+                  <citedRange unit="pp">6.44b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IBU3ZPGZ"/>
+                  <citedRange unit="pp">180</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XE2KRULI"/>
+                  <citedRange unit="pp">102</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IBU3ZPGZ"/>
+                  <citedRange unit="pp">180</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WMCSME8Q"/>
+                  <citedRange unit="pp">234-241</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">121</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/BDZZD8ZY"/>
+                  <citedRange unit="pp">70–71</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XE2KRULI"/>
+                  <citedRange unit="pp">102</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">120-122</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/95GCC63S"/>
+                  <citedRange unit="pp">19.3a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/7CZ3VP38"/>
+                  <citedRange unit="pp">31.4b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/PF5RZZLD"/>
+                  <citedRange unit="pp">28.2a</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000132</idno>
             <listRelation>
-               <listRelation>
-                  <!--  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000130" passive="building-type"/>-->
-             
-            </listRelation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182252156_eed613eff8_o.png" passive="https://architecturasinica.org/keyword/k000134" rendition="featured"> </relation>
             </listRelation>
          </entryFree>
       </body>

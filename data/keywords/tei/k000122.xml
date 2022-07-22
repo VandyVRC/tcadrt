@@ -9,11 +9,11 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">羊馬城</foreign> yángmǎ chéng</title>
+               <foreign xml:lang="zh-Hant">羊馬城</foreign> yángmǎchéng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
             <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立 </editor>
             <editor role="content-author" xml:id="XF">XIE Fei 谢菲 </editor>
             <respStmt>
@@ -21,14 +21,23 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Initial research and revision by</resp>
-               <name type="person" xml:id="JTL">JIA Tingli 賈亭立</name>
-               <name type="person" xml:id="XF">XIE Fei 谢菲</name>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2019</name>
             </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>            
             <respStmt>
                <resp>Data entry, proofreading and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -36,6 +45,10 @@
             <respStmt>
                <resp>Data entry, adding citations, and revising statements by</resp>
                <name type="person" xml:id="SZ">SUN Zheng 孫正</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -66,37 +79,91 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-12">CREATED: record</change>
+         <change n="1.0" when="2020-05-12" who="#ZS">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000122" type="architectural feature">
-            <term xml:id="term-k000122-3" xml:lang="zh-latn-pinyin-nt">yangma cheng (preferred)</term>
+            <term xml:id="term-k000122-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000122-1">yangmacheng</term>
             <term xml:id="term-k000122-1" xml:lang="zh-Hant">羊馬城</term>
             <term xml:id="term-k000122-2" xml:lang="zh-Hans">羊马城</term>
-            <term xml:id="term-k000122-9" xml:lang="zh-latn-pinyin">yángmǎ chéng</term>
+            <term xml:id="term-k000122-9" xml:lang="zh-latn-pinyin" source="#biblk000122-1">yángmǎchéng</term>
             <term xml:id="term-k000122-4" xml:lang="zh-latn-wadegile">yang-ma-ch'eng</term>
             <term xml:id="term-k000122-5" xml:lang="en" type="literal-translation">goat-and-horse defensive wall (lit.)</term>
-            <term xml:id="term-k000122-6" xml:lang="en" source="#biblk000122-1" type="ATTCAT_preferred">parapets (ATTCAT preferred)</term>
-            <term xml:id="term-k000122-8" xml:lang="en" source="#biblk000122-1">fausse-brayes</term>
-            <term xml:id="term-k000122-7" xml:lang="en" source="#biblk000122-1">ramparts</term>            
+            <term xml:id="term-k000122-6" xml:lang="en" type="literal-translation">goat and horse fortification (lit.)</term>
+            <term xml:id="term-k000122-7" xml:lang="en" source="#biblk000122-2" type="ATTCAT_preferred">parapets (ATTCAT preferred)</term>
+            <term xml:id="term-k000122-10" xml:lang="en" source="#biblk000122-2">fausse-brayes</term>
+            <term xml:id="term-k000122-8" xml:lang="en" source="#biblk000122-2">ramparts</term>            
+            
+            <note type="Note (brief)">
+               <p xml:lang="en" source = "#biblk000122-3">Yangma wall  (yangmacheng 羊馬城) literally meaning “goat and horse fortification,” first appeared in Tang dynasty records and then also in Song dynasty textual sources. It refers to a wall built either between the city wall and the moat or around a beacon tower. It is usually smaller than the city wall. The yangma wall forms a closed circle around the city wall or the beacon tower, or may be located in certain parts of the city wall to form a closed circle together with the city wall. Yangma wall serves as a defensive line between the city wall and the moat in order to prevent the enemy from invading. It was also used for the temporary placement of goats, sheep, and horses when residents outside the city entered the city for protection. A second term, yangmaqiang 羊馬墻, literally meaning “goat and horse wall” also survives in <title ref="https://dev.architecturasinica.org/keyword/k000082">Tang</title> and <title ref="https://architecturasinica.org/keyword/k000074">Song</title> records and the two terms are interchangeable in texts until the Qing dynasty.</p>
+               <p xml:lang="en" source = "#biblk000122-4">Judging from the remains of  fortifications excavated by archaeologists, the earliest known yangmacheng is located at the site of Luotuocheng 駱駝城 in Gaotai County, Gansu Province. Scholars believe that the site might have been constructed in the Former Liang period (320-376) of the Sixteen Kingdoms. Most of the known remains of yangmacheng date to the Tang and Song Dynasties. In the ancient city of Beiting, built in the Tang Dynasty and located in Xinjiang province, the yangmacheng was constructed between the north side of the north wall of the outer city and the south bank of the moat, and it adopts a nearly rectangular plane. Yangmacheng are rare in the <term ref="https://dev.architecturasinica.org/keyword/k000051">Ming</term> and <term ref="https://architecturasinica.org/keyword/k000070">Qing</term> Dynasties. Some hypothesize that due to the development of weapons, the low yangmacheng built with rammed earth no longer played an effective defensive role and therefore stopped being built.</p>
+               <p xml:lang="zh-Hant" source = "#biblk000122-3">羊馬城，亦稱羊馬墻，指中國古代修築於城墻與護城河之間，或烽火臺周邊的墻體。其墻體尺度小於城墻，環繞城墻或烽火臺一周，或設於城墻局部與城墻共同形成閉合的城圈。羊馬城是城墻與護城河之間阻擋敵人進攻的一重防線，同時也可供城外居民在撤入城內時暫時安置羊馬之用。
+                  “羊馬城”最早出现于<term ref="https://dev.architecturasinica.org/keyword/k000082">唐代</term>文獻，<term ref="https://architecturasinica.org/keyword/k000074">宋代</term>文獻又出現“羊馬墻”一詞，直至明<term ref="https://architecturasinica.org/keyword/k000070">清</term>二詞一直混用。（杜，152.15b,152.21b-152.22a）（曾，12.3a）（司馬 1965，8537）（陳，2.5a-5b，1.12a-12b）</p>
+               <p xml:lang="zh-Hant" source = "#biblk000122-4">考古已知最早羊馬城遺跡為甘肅高臺縣駱駝城址，學者考證可能於前涼時期即修築（李 2002，79-81）。現發現的羊馬城遺址大多數為唐宋時期修築，遺跡比較完整的如唐代新疆吉木薩爾北庭古城（孫 1982，165-175,233-235）。<term ref="https://dev.architecturasinica.org/keyword/k000051">明</term><term ref="https://architecturasinica.org/keyword/k000070">清</term>時期的城墻遺址中少見羊馬城，可能由於攻城武器的发展，土築的低矮羊馬城已難以有效發揮防禦作用，因此大多數城池不再修築羊馬城。</p>
+            </note>
             <note type="related concepts">
                <p xml:id="related-concept-k000122-1" xml:lang="zh-Hant" ref="/keyword/k000089">甕城 wèngchéng</p>
                <p xml:id="related-concept-k000122-2" xml:lang="zh-Hant">羊馬垣 yángmǎyuán</p>
                <p xml:id="related-concept-k000122-3" xml:lang="zh-Hant">牛馬墻 niúmǎqiáng</p>
                <p xml:id="related-concept-k000122-4" xml:lang="zh-Hant">養馬墻 yǎngmǎqiáng</p>
             </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000122</idno>
             <bibl xml:id="biblk000122-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 28, 2022</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000122-2">
                <ptr target="https://architecturasinica.org/bibl/J29YQPIW"/>
                <citedRange unit="pp">51</citedRange>
             </bibl>
-         
-            <idno type="URI">https://architecturasinica.org/keyword/k000122</idno>
+            <listBibl xml:id="biblk000122-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WU25GH7V"/>
+                  <citedRange unit="pp">152.15b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WU25GH7V"/>
+                  <citedRange unit="pp">152.21b-152.22a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WKCL2CN5"/>
+                  <citedRange unit="pp">12.3a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/5RJYAV48"/>
+                  <citedRange unit="pp">8537</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XLKV2ZQW"/>
+                  <citedRange unit="pp">2.5a-5b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XLKV2ZQW"/>
+                  <citedRange unit="pp">1.12a-12b</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000122-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KHJG9UVB"/>
+                  <citedRange unit="pp">79-81</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8HDVTVNH"/>
+                  <citedRange unit="pp">165-175</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8HDVTVNH"/>
+                  <citedRange unit="pp">233-235</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182118053_cb7d775fe8_h.jpg" passive="https://architecturasinica.org/keyword/k000122" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000122" passive="fortification elements"/>
-            </listRelation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>

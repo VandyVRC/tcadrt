@@ -10,12 +10,12 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" >JIANG Jiayuan 蔣嘉元</editor>
+            <editor role="content-author" xml:id="JJY">JIANG Jiayuan 蔣嘉元</editor>
             <editor role="content-author" xml:id="SX">SUN Xiaoqian 孫曉倩</editor>
             <respStmt>
                <resp>Initial research and revision by</resp>
-               <name type="person">JIANG Jiayuan 蔣嘉元</name>
-               <name type="person" xml:id="SX">SUN Xiaoqian 孫曉倩</name>
+               <name type="person" ref="#JJY" >JIANG Jiayuan 蔣嘉元</name>
+               <name type="person" ref="#SX">SUN Xiaoqian 孫曉倩</name>
             </respStmt>
             <respStmt>
                <resp>Website coordination by</resp>

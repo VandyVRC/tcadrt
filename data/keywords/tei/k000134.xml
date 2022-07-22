@@ -9,20 +9,38 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">翼形栱</foreign> yixinggong</title>
+               <foreign xml:lang="zh-Hant">翼形栱</foreign> yìxínggǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="RSJ">REN Sijie 任思捷</editor>
+            <editor role="content-author" xml:id="CJQ">Chen Jiaqi 陈加麒</editor>
             <respStmt>
-                <resp>Initial Research</resp>
-                <name type="person" xml:id="RSJ">REN Sijie 任思捷</name>
-                <name type="person" xml:id="CJQ">Chen Jiaqi 陈加麒</name>
-                <name type="team">ATTCAT 2019</name>          
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations 2020 by</resp>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry, adding citations</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,24 +72,64 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-23">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#CZ">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000134" type="architectural feature">
-            <term xml:id="term-k000134-7" xml:lang="zh-latn-pinyin-nt">yixinggong</term>
-            <term xml:id="term-k000134-1" xml:lang="zh-Hant" source="#biblk000134-1">翼形栱</term>
+            <term xml:id="term-k000134-7" xml:lang="zh-latn-pinyin-nt" source="#biblk000134-1"
+               >yixinggong</term>
+            <term xml:id="term-k000134-1" xml:lang="zh-Hant" source="#biblk000134-2">翼形栱</term>
             <term xml:id="term-k000134-2" xml:lang="zh-Hans">翼形栱</term>
-            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin">yìxínggǒng</term>
+            <term xml:id="term-k000134-3" xml:lang="zh-latn-pinyin" source="#biblk000134-1"
+               >yìxínggǒng</term>
             <term xml:id="term-k000134-4" xml:lang="zh-latn-wadegile">i-hsing-kung</term>
-            <term xml:id="term-k000134-5" xml:lang="en" type="literal_translation" source="#biblk000134-2">wing-shaped bracket arm</term>
-            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-3" type="ATTCAT_preferred">wing-shaped bracket (ATTCAT preferred)</term>
-
-            <note>
-               <p> Related terms: 異形栱</p>
-            </note> 
-
-            <listBibl xml:id="biblk000134-1">            
+            <term xml:id="term-k000134-5" xml:lang="en" type="literal_translation"
+               source="#biblk000134-3">wing-shaped bracket arm</term>
+            <term xml:id="term-k000134-6" xml:lang="en" source="#biblk000134-4"
+               type="ATTCAT_preferred">wing-shaped bracket (ATTCAT preferred)</term>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000134-1"> Yixinggong 翼形栱, which cannot be found in
+                  Chinese literature until 1930s, is a term coined by Liang Sicheng that combines
+                  yixing 翼形 (literally, wing-shaped (Hanyu dacidian, online; Kroll 2015, 551)</p><p xml:lang="en" source="#biblk000134-5"> and gong 栱 to refer to the
+                  wing-shaped brackets in Tang, Liao, and Song architecture. In terms of shape,
+                  yixinggong 翼形栱 is based on actual examples which were referred to as yixinggong
+                  翼形栱 by Liang Sicheng. In terms of function, the two ends of yixinggong 翼形栱 do not
+                  support a bearing block and would therefore be considered more decorative than
+                  structural. With the publication of Liang Sicheng's investigation reports on Song,
+                  Liao, and Jin architecture in the Journal of the Society for the Study of Chinese
+                  Architecture (Zhongguo Yingzao xueshe huikan 中國營造學社彙刊) between 1932 and 1935, the
+                  term yixinggong 翼形栱 was used repeatedly and it gradually became a term with a much
+                  clearer definition which was adopted by other scholars. It is important to note
+                  that the consensus reached by later architectural historians about the meaning of
+                  yixinggong differs from Liang Sicheng's use of the term. The discrepancy mainly
+                  lies in different understandings of what is meant by “wing-shaped” (yixing). Prior
+                  to 1979, the term yixinggong 翼形栱 (“wing-shaped bracket arm”) was applied to all
+                  irregularly-shaped brackets. Now some scholars also use yixinggong 異形栱
+                  (“irregularly shaped bracket arm”) instead. See <term ref="/keyword/k000240">yixinggong 異形栱</term> </p>
+               <p xml:lang="zh-Hant" source="#biblk000125-5">
+                  “翼形栱”字面意義為形狀如翅膀的栱。“翼形栱”一詞源於現代學者的研究。當前學者一般認為“翼形栱”可歸納為以下方面：時間上，“翼形栱”是一種出現于唐、宋、遼、金建築上的鬥栱構件；形狀上，“翼形栱”的形狀以梁思成使用“翼形栱”指稱的實例為參考，但並不存在明確的限定；作用上，“翼形栱”兩端不承枓。
+                  “翼形栱”一詞不見於古代文獻，系梁思成在1930年代研究唐、宋、遼代建築時為描述狀如飛翼的栱而將“翼形”與“栱”複合而成的詞語（梁 1932，40）。
+                  隨著梁思成對晉冀地區宋、遼、金建築的調查報告相繼於1932~1935年在《中國營造學社彙刊》上發表（梁 1932-1935），
+                  “翼形栱”在其中被不斷提及，並逐漸成為了一個含義較為明確的術語而為其他學者所接受，但與梁思成對“翼形栱”一詞的使用並非毫無出入，其差異主要源自對“何為翼形”這一問題的不同認識。</p><p
+                  xml:lang="zh-Hant" source="#biblk000125-6"
+                     >至1979年，其詞義已泛化為專指栱身與弓形栱不同且兩端不承枓的栱。現在也有學者寫作“異形栱”（張 1979，71-106; 陸 2008，182-194）。</p>
+            </note>
+            <note type="related concepts">
+               <p> <term ref="/keyword/k000240">yìxínggǒng 異形栱</term></p>
+            </note>
+            <listBibl xml:id="biblk000134-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed June 12, 2022</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange>accessed 2015</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000134-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
                   <citedRange unit="pp">40</citedRange>
@@ -81,20 +139,46 @@
                   <citedRange unit="pp">34-37</citedRange>
                </bibl>
             </listBibl>
-            <bibl xml:id="biblk000134-2">
+            <bibl xml:id="biblk000134-3">
                <ptr target="https://architecturasinica.org/bibl/EUBHKQVT"/>
                <citedRange unit="pp">1-42</citedRange>
-            </bibl> 
-            <bibl xml:id="biblk000134-3">
+            </bibl>
+            <bibl xml:id="biblk000134-4">
                <ptr target="https://architecturasinica.org/bibl/AGBDUUHA"/>
                <citedRange unit="pp">102</citedRange>
-            </bibl> 
+            </bibl>
+            <listBibl xml:id="biblk000134-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/TAT6B6Z4"/>
+                  <citedRange unit="pp">40</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MVJQ3HVU"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KAHIYUUN"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/FJ5IK63S"/>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000134-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/QC5ZS7NQ"/>
+                  <citedRange unit="pp">71-106</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SIQJLQAT"/>
+                  <citedRange unit="pp">182–94</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000134</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000134" passive="bracketing"/>
-             
-            </listRelation>
+                  <relation ref="skos:broadMatch"
+                     active="https://architecturasinica.org/keyword/k000134" passive="bracketing"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182607685_5fa30bcb9e_o.png" passive="https://architecturasinica.org/keyword/k000134" rendition="featured"> </relation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">道 </foreign>dào</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="CZ">CHEN Zhuo 陈卓</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW M22</name>
+               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000237/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-06-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-06-01-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000237" type="roads and bridges">
+            <term xml:id="term-k000237-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000237-1">dao</term>
+            <term xml:id="term-k000237-2" xml:lang="zh-Hant">道</term>
+            <term xml:id="term-k000237-3" xml:lang="zh-Hans">道</term>
+            <term xml:id="term-k000237-4" xml:lang="zh-latn-pinyin" source="#biblk000237-1">dào</term>
+            <term xml:id="term-k000237-6" xml:lang="zh-latn-wadegile">tao</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000237-2">1. road that allows passengers, horses, or vehicles to pass; 2. circuit; a historical political division within which central government officials supervise a civil administration; 3. a spiritual path (Fu 2017, 352; Hucker 1985, 487; Kroll 2016, online edition)</p>
+               <p xml:lang="zh-Hant" source="#biblk000237-2">1. 人、馬、車輛通行之路; 2. 歷史上的一種行政區劃， 每一個區域都有中央政府特派的來使監督地方官員辦公；3. 宗教信仰 (Fu 2017, 352; Hucker 1985, 487; Kroll 2016, online edition)</p>
+            </note>
+            <note type="related concepts">
+               <p xml:id="related-concept-k000237-1" xml:lang="zh-Hant" ref="/keyword/k000214">馳道 chídào</p>
+               <p xml:id="related-concept-k000237-2" xml:lang="zh-Hant">道路 dàolù</p>
+               <p xml:id="related-concept-k000237-3" xml:lang="zh-Hant">輦道 niǎndào</p>
+               <p xml:id="related-concept-k000237-4" xml:lang="zh-Hant">閣道 gédào</p>
+               <p xml:id="related-concept-k000237-5" xml:lang="zh-Hant">步道 bùdào</p>
+               <p xml:id="related-concept-k000237-6" xml:lang="zh-Hant">棧道 zhàndào</p>
+               <p xml:id="related-concept-k000237-7" xml:lang="zh-Hant" ref="/keyword/k000002">道觀 dàoguàn</p>
+               <p xml:id="related-concept-k000237-8" xml:lang="zh-Hant">神道 shéndào</p>
+               <p xml:id="related-concept-k000237-9" xml:lang="zh-Hant">十三道製 shísāndàozhì</p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000237</idno>
+            <bibl xml:id="biblk000237-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000237-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">352</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">487</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange>accessed May 27, 2022</citedRange>
+               </bibl>
+            </listBibl>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

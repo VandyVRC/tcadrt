@@ -14,14 +14,20 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" xml:id="RJ">RUAN Jing 阮景</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 贾亭立</editor>
+            <editor role="content-author" xml:id="PY">PENG Yin 彭隐</editor>
             <respStmt>
-               <resp>Initial research and revision by</resp>
-               <name type="person" ref="#RJ">RUAN Jing 阮景</name>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry 2022 by</resp>
-               <name type="person" xml:id="ZAL">CHEN Zhuo 陈卓</name>
+               <resp>Initial research and revision by</resp>
+               <name type="person" ref="#PY">PENG Yin 彭隐</name>
+               <name type="team">CMW M22</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry by</resp>
+               <name type="person" xml:id="CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -57,23 +63,20 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000203" type="architectural feature">
-            <term xml:id="term-k000203-1" xml:lang="zh-latn-pinyin-nt">ditai</term>
+         <entryFree xml:id="k000203" type="building type">
+            <term xml:id="term-k000203-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000203-1">ditai</term>
             <term xml:id="term-k000203-2" xml:lang="zh-Hant">敵台</term>
             <term xml:id="term-k000203-3" xml:lang="zh-Hans">敌台</term>
-            <term xml:id="term-k000203-4" xml:lang="zh-latn-pinyin" type="ATTCAT_preferred">dítái</term>
+            <term xml:id="term-k000203-4" xml:lang="zh-latn-pinyin" source="#biblk000203-1">dítái</term>
             <term xml:id="term-k000203-5" xml:lang="zh-latn-wadegile">ti-t'ai</term>
-            <!-- <note type="Gloss">
-               <p xml:lang="en" source="#biblk000203-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000203-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
-            </note>
-            <note type="Note (full)">                              
-            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000203</idno>
             <bibl xml:id="biblk000203-1">
-               <ptr target=""/>
-               <citedRange unit="pp">472</citedRange>
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed June 12, 2022</citedRange>
             </bibl>
-             -->
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000203"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>

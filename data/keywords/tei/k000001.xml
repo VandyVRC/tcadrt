@@ -10,17 +10,46 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="HK">HUAN Kaijie 还凯洁</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#HK">HUAN Kaijie 还凯洁</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding various languages and revising title statement 2020 by</resp>
+               <resp>adding various languages and revising title statement by</resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
             <respStmt>
                <resp>updating by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -52,26 +81,33 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
-         <change n="1.1" when="2021-03-07-04:00">Updating</change>
+         <change n="1.1" when="2021-03-07-04:00" who="#SZ">Updating</change>
+         <change n="1.2" when="2022-05-28-04:00" who="#ZAL">Updating</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000001" type="architectural feature">
-            <term xml:id="term-k000001-6" xml:lang="zh-latn-pinyin-nt">angxing shuatou</term>
+            <term xml:id="term-k000001-6" xml:lang="zh-latn-pinyin-nt" source="#biblk000222-1">angxing shuatou</term>
             <term xml:id="term-k000001-2" xml:lang="zh-Hant">昂形耍頭</term>
             <term xml:id="term-k000001-3" xml:lang="zh-Hans">昂形耍头</term>
-            <term xml:id="term-k000001-4" xml:lang="zh-latn-pinyin">ángxíng shuǎtóu</term>
+            <term xml:id="term-k000001-4" xml:lang="zh-latn-pinyin" source="#biblk000222-1">ángxíng shuǎtóu</term>
             <term xml:id="term-k000001-5" xml:lang="zh-latn-wadegile">ang-hsing-shua-t`ou</term>
             <term xml:id="term-k000001-1" xml:lang="en">slanted bracket arm-shaped shuatou</term>            
             <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>            
             <note type="gloss">
                <p xml:lang="en">Term used to describe a shuatou, a timber joined through the <term ref="/keyword/k000156">linggong</term>, that has been crafted to mimic a slanted bracket-arm. <s source="#biblk000001-1"> More on the shuatou can be found in Chen Mingda (2010, 241)</s> (T. Miller)</p>
-            </note> 
-            <bibl xml:id="biblk000001-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">241</citedRange>
-            </bibl>            
+            </note>
+            <listBibl xml:id="biblk000001-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">241</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  <citedRange>accessed May 28, 2022</citedRange>
+               </bibl>
+            </listBibl>            
             <listRelation>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
                </relation>

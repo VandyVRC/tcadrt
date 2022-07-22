@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Cheng Brothers Shrine in Liang Cheng ancient ward <foreign xml:lang="zh-Hant">兩程故裡兩程祠</foreign>
+            <title level="a" xml:lang="en">Liang Cheng ancient ward, Cheng Brothers Shrine <foreign xml:lang="zh-Hant">兩程故里兩程祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -58,7 +58,7 @@
                <placeName xml:id="name000059-1" type="site-name" xml:lang="en">Cheng Brothers Shrine in Liang Cheng ancient ward</placeName>
                <placeName xml:id="name000059-2" type="site-name" xml:lang="zh-latn-pinyin">Liǎng Chéng Gùlǐ Liǎng Chéngcí</placeName>
                <placeName xml:id="name000059-3" type="site-name" xml:lang="zh-latn-wadegile">Liang Ch`eng Ku-li Liang Ch`eng-tz`u</placeName>
-               <placeName xml:id="name000059-4" type="site-name" xml:lang="zh-Hant">兩程故裡兩程祠</placeName>
+               <placeName xml:id="name000059-4" type="site-name" xml:lang="zh-Hant">兩程故里兩程祠</placeName>
                <placeName xml:id="name000059-5" type="site-name" xml:lang="zh-Hans">两程故里两程祠</placeName>
                <idno type="URI">https://architecturasinica.org/place/000059</idno>
                <state type="existence" subtype="dynasty" source="#bibl000059-1" from="0960-01-01" to="1127-01-01">
@@ -72,7 +72,7 @@
                </note>
                <location type="nested">
                   <placeName>河南省嵩县</placeName>
-                  <placeName xml:lang="zh-latn-pinyin">Henan</placeName>
+                  <placeName xml:lang="zh-latn-pinyin">Henansheng Songxian</placeName>
                   <country>China</country>
                   <region type="province">
                      <placeName xml:lang="zh-latn-pinyin">Henan</placeName>
@@ -81,9 +81,11 @@
                   </region>
                   <region type="county-city">
                      <placeName xml:lang="zh-Hans">嵩</placeName>
+                     <placeName xml:lang="zh-latn-pinyin">Song</placeName>
                   </region>
                   <region type="political-subdivision">
                      <placeName xml:lang="zh-Hans">县</placeName>
+                     <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
                <trait type="type" sub-type="site type">
@@ -100,6 +102,7 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000059" passive="https://architecturasinica.org/keyword/k000073" ref="dcterms:subject" ana="site-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000059" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000058"/>
                <relation active="https://architecturasinica.org/place/000059" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000059" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
             </listRelation>

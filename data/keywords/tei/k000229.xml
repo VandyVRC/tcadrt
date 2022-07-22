@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">鄉 </foreign>xiāng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="ZAL">LI Zhixian 李知賢</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW M22</name>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000229/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-05-26-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-05-26-04:00" who="#ZAL">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000229" type="site type">
+            <term xml:id="term-k000229-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000229-1">xiang</term>
+            <term xml:id="term-k000229-2" xml:lang="zh-Hant">鄉</term>
+            <term xml:id="term-k000229-3" xml:lang="zh-Hans">乡</term>
+            <term xml:id="term-k000229-4" xml:lang="zh-latn-pinyin" source="#biblk000229-1">xiāng</term>
+            <term xml:id="term-k000229-6" xml:lang="zh-latn-wadegile">hsiang</term>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000229-2">1. township; an administrative unit of five <term ref = "https://architecturasinica.org/keyword/k000087">li 里 (neighborhood or ward)</term>, smaller in size than a xian 縣 (county or district) 2. Generally referring to suburbs/places outside a city (Hucker 1985, 231; Kroll 2016, online edition).</p>
+               <p xml:lang="zh-Hant" source="#biblk000229-2">1. 方圓五里的行政單位 （鄰里），比縣小 2. 對城市外郊區等地的統稱。</p>
+            </note>
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000228">cūn 村</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000230">zhèn 鎮</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000087">lǐ 里</term>
+               </p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000229</idno>
+            <bibl xml:id="biblk000229-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 26, 2022</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000229-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3KQEHFIF"/>
+                  <citedRange unit="pp">231</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange>accessed May 26, 2022</citedRange>
+               </bibl>
+            </listBibl>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

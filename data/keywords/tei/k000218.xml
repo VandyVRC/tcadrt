@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">普拍方</foreign> pǔpāifāng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="CJ">CONG Jiayi 丛佳仪</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>           
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#CJ">CONG Jiayi 丛佳仪</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2022</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>            
+            <respStmt>
+               <resp>Data entry by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt> 
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000218/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-05-28</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2022-05-28" who="#ZAL">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000218" type="architectural feature">
+            <term xml:id="term-k000218-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000218-1">pupaifang</term>
+            <term xml:id="term-k000218-2" xml:lang="zh-Hant">普拍方</term>
+            <term xml:id="term-k000218-3" xml:lang="zh-Hans">普拍方</term>
+            <term xml:id="term-k000218-4" xml:lang="zh-latn-pinyin" source="#biblk000218-1" type="ATTCAT_preferred">pǔpāifāng</term>
+            <term xml:id="term-k000218-5" xml:lang="zh-latn-wadegile">p'u-p'ai-fang</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000218</idno>
+            <note type="Gloss">
+               <p xml:lang="en">See <title ref="https://architecturasinica.org/keyword/k000067">普拍枋</title></p>
+            </note>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000067">普拍枋 pǔpāifāng</term></p>
+            </note>
+            <bibl xml:id="biblk000218-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">346</citedRange>
+            </bibl>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000218" passive="building frame"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

@@ -11,13 +11,42 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" xml:id="ZL">ZUO Lala 左拉拉</editor>
+            <editor role="content-author" xml:id="CB">Baolong Chen</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW S21</name>
+               <name type="person" ref="#CB">Baolong Chen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation and gloss 2021 by</resp>
+               <resp>Adding citation and gloss by</resp>
                <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
+            </respStmt>
+            <respStmt>
+               <resp>Updating entry</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -51,6 +80,7 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="2.0" when="2021-04-16" who="#MT">add gloss</change>
          <change n="2.1" when="2021-05-06" who="#TGM">update gloss and authors</change>
+         <change n="2.2" when="2022-07-14" who="#ZAL">updating entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,10 +92,16 @@
             <term xml:id="term-k000086-4" xml:lang="zh-latn-pinyin">lóu</term>            
             <term xml:id="term-k000086-5" xml:lang="zh-latn-wadegile">lou</term>
              <note type="Gloss">
-                <p xml:lang="en" source="#biblk000086-1">often translated "tower"; originally meaning one building layered on top of another; an upper story (Hanyu dacidian (online edition) ); later referring to a multi-story building or other structure; also "double-decked"; see: louge; ge (Kroll 2015, 281; Chen 2010, 403 (louge)); see also: <term ref="/keyword/k000177">louge</term>; <term ref="/keyword/k000078">ge</term></p>
+                <p xml:lang="en" source="#biblk000086-1">often translated "tower"; originally meaning one building layered on top of another; an upper story (Hanyu dacidian (online edition) ); later referring to a multi-story building or other structure; also "double-decked" (Kroll 2015, 281; Chen 2010, 403 (louge)); see also: <term ref="/keyword/k000177">louge</term>; <term ref="/keyword/k000078">ge</term></p>
                 <p xml:lang="Hant" source="#biblk000086-1">本意為屋上架屋，後泛指多層房屋。參見 <term ref="/keyword/k000177">“樓閣”</term>、<term ref="/keyword/k000078">“閣”</term>。</p>
             </note>
-                <listBibl xml:id="biblk000086-1">
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000177">lóugé 樓閣</term>
+                  <term ref="/keyword/k000078">gé 閣</term>
+               </p>
+            </note>
+            <listBibl xml:id="biblk000086-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">281</citedRange>
@@ -76,6 +112,11 @@
                </bibl>
             </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000086" passive="building type"/>
+               </listRelation>
+            </listRelation>
          </entryFree>
       </body>
    </text>

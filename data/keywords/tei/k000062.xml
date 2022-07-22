@@ -7,16 +7,21 @@
             <title level="a" xml:lang="zh-latn-pinyin">
                <foreign xml:lang="zh-Hant">殿</foreign> diàn</title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" xml:id="YAN">YAN Anni 嚴安妮</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person">Tracy Miller</name>
+                  <resp>Website coordination by</resp>
+                  <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
-         	<respStmt>
-         		<resp>revision by</resp>
-         		<name type="person">Yuh-Fen Benda</name>
-         	</respStmt>
+            <respStmt>
+               <resp>Initial Research</resp>
+               <name type="person" ref="#YAN">YAN Anni 嚴安妮</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛凈</name>
+               <name type="person" ref="#TGM">Tracy Miller</name> 
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -47,18 +52,57 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="2.0" when="2022-06-20" who="#TGM">ADDED: content</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000062" type="building type">
-            <term xml:id="term-k000062-5" xml:lang="zh-latn-pinyin-nt" source="biblpalatial-hall-1">dian</term>
-            <term xml:id="term-k000062-2" xml:lang="zh-Hant" source="biblpalatial-hall-1">殿</term>
-            <term xml:id="term-k000062-3" xml:lang="zh-Hans" source="biblpalatial-hall-1">殿</term>
-            <term xml:id="term-k000062-4" xml:lang="zh-latn-pinyin" source="biblpalatial-hall-1">diàn</term>
-            <term xml:id="term-k000062-6" xml:lang="zh-latn-wadegile">tien</term>
-            <term xml:id="term-k000062-1" xml:lang="en">hall</term>
-         	<idno type="URI">https://architecturasinica.org/keyword/k000062</idno>
+            <term xml:id="term-k000062-1" xml:lang="zh-latn-pinyin-nt">dian</term>
+            <term xml:id="term-k000062-2" xml:lang="zh-Hant">殿</term>
+            <term xml:id="term-k000062-3" xml:lang="zh-Hans">殿</term>
+            <term xml:id="term-k000062-4" xml:lang="zh-latn-pinyin" source="#biblk000062-1">diàn</term>
+            <term xml:id="term-k000062-5" xml:lang="zh-latn-wadegile">tien</term>
+            <term xml:id="term-k000062-6" xml:lang="en">hall</term>
+            <term xml:id="term-k000062-8" xml:lang="en" source="#biblk000062-1">royal hall</term>
+           <idno type="URI">https://architecturasinica.org/keyword/k000062</idno>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000062-3">Architecturally speaking, dian usually means a large and high-ranking hall (<term ref="/keyword/k000049">tang 堂</term>) or throne-hall (Li 李 2009, 1.3b; Kroll 2015, 86), although term can also refer to the "rearguard" of a palace (Kroll 2015, 86). From as early as the Northern and Southern dynasties, dian was used as a specific term for a main audience hall within the imperial palace. It also refers to the main building in Buddhist monasteries. For example, the  <title ref="https://tinyurl.com/2p8zuzvk">Luoyang qielan ji</title> records that Yongning Monastery 永寧寺 held a  Buddha “dian” north of the “futu”, which looked like Taiji “dian” (futu bei you Fo dian yi suo, xingru Taijidian 浮圖北有佛殿一所，形如太極殿). Taijidian was the main building in the imperial palace in Luoyang  (Zhou and Yang 2010, 5). The use of the term dian for buildings housing both the Buddha and the emperor suggests that the  emperor and the Buddha were equated spatially and thus hierarchically (Zhuge and Xue 2021).</p>
+               <p xml:lang="zh-Hant" source="#biblk000062-3">殿本意为高大房屋，《營造法式》即轉引《蒼頡篇》釋殿為大堂(李 2009, 1.3b)。大約從<term ref="https://architecturasinica.org/keyword/k000088">魏晋南北朝</term>開始，殿漸漸專指帝王宮殿；也用於指佛寺主要建築物，如《<title ref="https://tinyurl.com/2p8zuzvk">洛陽伽藍記</title>》永寧寺“浮圖北有佛殿一所，形如太極殿”(周和杨 2010, 5)，暗示了佛的等级可与帝王相当 (諸葛和薛 2021)。</p>
+            </note>
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000130">diàntáng 殿堂</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000129">tīngtáng 廳堂</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000049">táng 堂</term>
+               </p>
+            </note>
+               <bibl xml:id="biblk000062-1">
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">86</citedRange>
+               </bibl>
+            <listBibl xml:id="biblk000062-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">86</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">1.3b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/R7EIN3X6"/>
+                  <citedRange unit="pp">5</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J2RZ94SY"/>
+                  <citedRange unit="pp">100-107</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>

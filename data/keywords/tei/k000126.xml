@@ -9,20 +9,42 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">四阿頂</foreign> sieding</title>
+               <foreign xml:lang="zh-Hant">四阿頂</foreign> sì'ēdǐng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
-            <editor role="general" ref="#TGM">Tracy Miller</editor>            
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立 </editor>
+            <editor role="content-author" xml:id="MJQ">MA Jiaqi 馬嘉琪 </editor>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" xml:id="JTL">JIA Tingli 賈亭立</name>
-               <name type="person" xml:id="MJQ">MA Jiaqi 馬嘉琪</name>
-               <name type="team">ATTCAT 2019</name>    
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt> 
             <respStmt>
-               <resp>Data entry, adding citations 2020 by</resp>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>  
+            <respStmt>
+               <resp>Data entry, adding citations by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,24 +75,37 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-16">CREATED: record</change>
+         <change n="1.0" when="2020-05-16" who="#ZS">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000126" type="architectural feature">
-            
-            <term xml:id="term-k000126-5" xml:lang="zh-latn-pinyin-nt">sieding</term>
-            <term xml:id="term-k000126-1" xml:lang="zh-Hant" source="#biblk000126-1">四阿頂</term>
+            <term xml:id="term-k000126-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000126-1">si'eding</term>
+            <term xml:id="term-k000126-1" xml:lang="zh-Hant" source="#biblk000126-2">四阿頂</term>
             <term xml:id="term-k000126-2" xml:lang="zh-Hans">四阿顶</term>
-            <term xml:id="term-k000126-3" xml:lang="zh-latn-pinyin">sìēdǐng</term>
+            <term xml:id="term-k000126-3" xml:lang="zh-latn-pinyin" source="#biblk000126-1">sì'ēdǐng</term>
             <term xml:id="term-k000126-4" xml:lang="zh-latn-wadegile">szu-o-ting</term>
-            <note>
-              <p> Related terms: 五脊殿，吴殿，庑殿，庑殿顶，四坡顶</p>
+            <term xml:id="term-k000126-8" xml:lang="zh-latn-pinyin-nt" source="#biblk000126-2">si'e</term>
+            <term xml:id="term-k000126-6" xml:lang="en" source="#biblk000126-4">hip roof</term>
+            <term xml:id="term-k000126-7" xml:lang="en" source="#biblk000126-5">five-spine roof</term>
+            <note type="Note (brief)">
+               <p xml:lang="en">Si'e (literally “fourfold” “slopes” Kroll 2015, 429, 98) is a roof type usually translated  “hip roof” in a literal translation of the specific roof type in English. Until the <term subtype="dynasty" ref="https://dev.architecturasinica.org/keyword/k000082">Tang</term> and <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000074">Song</term> Dynasties, it was generally believed that “e 阿” referred to the roof eaves, and that  "si`e " (four eaves) therefore meant the eaves on all four sides of a building. In the <title ref="https://tinyurl.com/yew84ub2">Yingzao fashi 營造法式</title> (1103), the si`e hall（si’e diange 四阿殿閣) is also called  "five-ridge hall”（wuji dian 五脊殿) as well as "wudian” 吳殿) , referring to a roof with a central ridge, and four sloping ridges where the surfaces of the roof slopes meet. According to references in ancient texts, the term si`e 四阿 first appeared in the <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000200">Spring and Autumn Period</term> and was used until the <term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">Qing Dynasty</term>. However, in records before the Tang Dynasty, it is difficult to understand the  precise meaning of the term. In the Qing Dynasty, this kind of roof was generally called wudianding <term ref="https://dev.architecturasinica.org/keyword/k000125">廡殿</term>頂.</p>
+               <p xml:lang="zh-Hant"><term subtype="dynasty" ref="https://dev.architecturasinica.org/keyword/k000082">唐</term><term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000074">宋</term>時期普遍認為“阿”即屋檐，“四阿”其字面意義即四面屋檐。宋<title ref="https://tinyurl.com/yew84ub2">《营造法式》</title>中又称“四阿殿閣”为“五脊殿”（法式引註），以此推斷“四阿”指具有一道正脊、四條垂脊、四面坡的屋頂形式。目前已知“四阿”一词最早出现在<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000200">春秋</term>时期，且一直沿用至<term subtype="dynasty" ref="https://architecturasinica.org/keyword/k000070">清代</term>。但唐之前其明确含义難以明了。明清时期的文献中較少使用“四阿”來描述當時具有五脊四坡屋頂的建築，清代普遍稱這種屋頂為“<term ref="https://dev.architecturasinica.org/keyword/k000125">廡殿</term>頂”。（Jia Tingli賈亭立， Ma Jiaqi 馬嘉琪）</p>
+            </note>
+            <note type="related concepts">
+               <p> Related terms: wǔjǐdiàn 五脊殿，wúdiàn 吴殿，wǔdiàn 廡殿，wǔdiàndǐng 廡殿顶，sìpōdǐng 四坡顶</p>
+              <p>
+                 <term ref="/keyword/k000125">wǔdiàn 廡殿</term>
+              </p>
             </note> 
 
-                       
-            <listBibl xml:id="biblk000126-1">
+            <bibl xml:id="biblk000126-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">135</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000126-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
                </bibl> 
@@ -85,13 +120,35 @@
                   <ptr target="https://architecturasinica.org/bibl/GZT26BNM"/>
                </bibl>
             </listBibl>
+            <listBibl xml:id="biblk000126-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">429</citedRange>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">98</citedRange>
+               </bibl> 
+            </listBibl>
+            <listBibl xml:id="biblk000126-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+               </bibl> 
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000126-5">
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+            </bibl>
 
             <idno type="URI">https://architecturasinica.org/keyword/k000126</idno>
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000126" passive="fortification elements"/> -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52183425289_b352441367_z.jpg" passive="https://architecturasinica.org/keyword/k000126" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000126" passive="roof types"/>
                   <!-- I don't know what should the category be -->
-            </listRelation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>

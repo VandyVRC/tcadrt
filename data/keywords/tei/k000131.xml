@@ -9,20 +9,42 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">井幹</foreign> jinggan</title>
+               <foreign xml:lang="zh-Hant">井幹</foreign> jǐnggàn</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛凈</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <editor role="content-author" xml:id="WLJ">WANG Lijia 王麗佳</editor>
             <respStmt>
-               <resp>Initial Research</resp>
-               <name type="person" xml:id="BY">BAI Ying 白穎</name>
-               <name type="person" xml:id="WLJ">WANG Lijia 王麗佳</name>
-               <name type="team">ATTCAT 2019</name>    
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry, adding citations 2020 by</resp>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2019</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt> 
+            <respStmt>
+               <resp>Data entry, adding citations by</resp>
                <name type="person" xml:id="ZS">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding notes, bibliography, photo</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,66 +75,137 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2020-05-20">CREATED: record</change>
+         <change n="1.0" when="2020-05-20" who="#ZS">CREATED: record</change>
+         <change n="1.1" when="2022-07-14" who="#ZAL">MODIFIED</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000131" type="architectural feature">
-            <term xml:id="term-k000131-12" xml:lang="zh-latn-pinyin-nt">jinggan</term>
-            <term xml:id="term-k000131-1" xml:lang="zh-Hant" source="#biblk000131-1">井幹</term>
-            <term xml:id="term-k000131-2" xml:lang="zh-Hans" source="#biblk000131-2">井干</term>
-            <term xml:id="term-k000131-3" xml:lang="zh-Hans" source="#biblk000131-3">井干构架/构造</term>
-            <term xml:id="term-k000131-4" xml:lang="zh-latn-pinyin">jǐnggàn</term>
-            <term xml:id="term-k000131-5" xml:lang="en" source="#biblk000131-3">jinggangoujia/gouzao</term>
+            <term xml:id="term-k000131-12" xml:lang="zh-latn-pinyin-nt" source="#biblk000131-1">jinggan</term>
+            <term xml:id="term-k000131-1" xml:lang="zh-Hant" source="#biblk000131-2">井幹</term>
+            <term xml:id="term-k000131-2" xml:lang="zh-Hans" source="#biblk000131-3">井干</term>
+            <term xml:id="term-k000131-3" xml:lang="zh-Hans" source="#biblk000131-4">井干构架/构造</term>
+            <term xml:id="term-k000131-4" xml:lang="zh-latn-pinyin" source="#biblk000131-1">jǐnggàn</term>
+            <term xml:id="term-k000131-5" xml:lang="en" source="#biblk000131-4">jinggangoujia/gouzao</term>
             <term xml:id="term-k000131-6" xml:lang="zh-latn-wadegile">ching-kan</term>
-            <term xml:id="term-k000131-7" xml:lang="en" source="#biblk000131-4">log-cabin construction</term>
-            <term xml:id="term-k000131-8" xml:lang="en" source="#biblk000131-5">jinggan</term>
-            <term xml:id="term-k000131-9" xml:lang="en" source="#biblk000131-6">log construction</term>
-            <term xml:id="term-k000131-10" xml:lang="en" source="#biblk000131-7">log cabin</term>
+            <term xml:id="term-k000131-7" xml:lang="en" source="#biblk000131-5">log-cabin construction</term>
+            <term xml:id="term-k000131-8" xml:lang="en" source="#biblk000131-6">jinggan</term>
+            <term xml:id="term-k000131-9" xml:lang="en" source="#biblk000131-7">log construction</term>
+            <term xml:id="term-k000131-10" xml:lang="en" source="#biblk000131-8">log cabin</term>
             <term xml:id="term-k000131-11" xml:lang="en" source="#biblk000131-8">interlocking timber</term>
+            <note type="Note (brief)">
+               <p xml:lang="en" source="#biblk000131-9">Meaning literally “well” “structure” (Kroll 2015, 218; 128) Jinggan originally refers to  the wall of a wooden well or the railing of a well, but also indicates a construction technique, known as “jinggan method” (jinggan shi 井幹式). According to textual descriptions, archaeological discoveries, and surviving images, the jinggan method involved stacking layers of timbers to form the wall of a building, in which the  ends of the timbers were fit together with mortise and tenon joinery. The jinggan construction method is still being used in some areas of northeast and southwest China that are rich in timber.</p>
+               <p xml:lang="en" source="#biblk000131-10">The first appearance of the term jinggan 井幹 is in Zhuangzi’s 莊子 “Autumn Floods” (Qiushui 秋水) from  the <term ref="https://architecturasinica.org/keyword/k000201">Warring States</term> Period. In this text, a frog jumps into a “jinggan,” which likely refers to the wall of a wooden well (jingbi 井壁) or the railing of a well (jinglan 井欄).</p>
+               <p xml:lang="en">One of the most famous references to the jinggan method describes the architecture of the Jinggan Pavilion (Jinggan lou 井幹樓) in Jianzhang Palace (Jianzhang gong 建章宮) of the <term ref="https://architecturasinica.org/keyword/k000030">Han</term> dynasty.</p>
+               <p xml:lang="en">After jinggan-style buildings in Yunnan province were first studied by the Society for the Study of Chinese Architecture (Yingzao xueshe 營造學社) in the 1940s, jinggan, as both a method of construction and architectural style, began to attract the attention of Chinese architectural historians. Since then, it has been considered  representative of architectural technology before the Han Dynasty. Jinggan was listed as one of the three major types of Chinese wooden structures together with <term ref="https://dev.architecturasinica.org/keyword/k000081">tailiang 抬梁</term> and <term ref="https://dev.architecturasinica.org/keyword/k000011">chuandou 穿鬥</term>. Some scholars think that <term ref="https://architecturasinica.org/keyword/k000019">bracket sets (dougong 枓栱)</term>, developed from the technique of stacking squared timbers in jinggan construction.</p>
+               <p xml:lang="zh-Hant">井幹本意是木製井壁或井欄。作為一種建築構造，根據文獻描述、考古發現以及圖像，井幹的構造方式是用木料層層累疊，構成房屋的壁體，在轉角部位可以通過榫卯將木料卡接在一起。這樣的構造方式，在中國的東北和西南等一些盛產木材的區域仍在被繼續使用。</p>
+               <p xml:lang="zh-Hant" source="#biblk000131-10">井幹一詞最早出現於<term ref="https://architecturasinica.org/keyword/k000201">戰國</term>時期的文獻《莊子·秋水篇》，“塪井之鼃......跳梁乎井幹之上”，（郭 1961, 598） 其，作為建築構造的最重要的文獻記載源自<term ref="https://architecturasinica.org/keyword/k000030">漢</term>建章宮的“井幹樓”（司馬 1982, 482；張 1977, 41）。隨著1940年代營造學社在雲南地區發現類似井幹構造的建築遺存，作為建築結構的井幹引起了建築學界的關注（劉 2007, 8, 34; 梁 1985, 55; 梁 1998, 50, 55）。此後，它被作為漢代以前建築技術的代表，與<term ref="https://dev.architecturasinica.org/keyword/k000081">抬梁</term>和<term ref="https://dev.architecturasinica.org/keyword/k000011">穿鬥</term>並列為中國木結構建築的三大結構類型（劉 1980, 3-4） 。一些學者認為，中國古代建築標誌性的<term ref="https://architecturasinica.org/keyword/k000019">枓栱</term>即來自井幹結構方木壘疊的邏輯（陳 1980, 46, 54, 56）（Bai Ying 白颖，Wang Lijia 王丽佳）。</p>
+            </note>
+            <note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000011">chuāndòu 穿鬥</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000081">táiliáng 擡梁</term>
+               </p>
+            </note>
             <!--  <note>
               <p> Related terms: 四阿，五脊殿，吴殿</p>
             </note> -->
             
             <bibl xml:id="biblk000131-1">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+               <citedRange>accessed May 28, 2022</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000131-2">
                <ptr target="https://architecturasinica.org/bibl/QTBPMT8P"/>
                <citedRange unit="pp">129</citedRange>
             </bibl> 
-            <bibl xml:id="biblk000131-2">
+            <bibl xml:id="biblk000131-3">
                <ptr target="https://architecturasinica.org/bibl/X3PYY5SL"/>
                <citedRange unit="pp">8</citedRange>
             </bibl> 
-            <bibl xml:id="biblk000131-3">
+            <bibl xml:id="biblk000131-4">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">358</citedRange>
             </bibl>      
-            <bibl xml:id="biblk000131-4">
+            <bibl xml:id="biblk000131-5">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">358</citedRange>
             </bibl>        
 
-            <bibl xml:id="biblk000131-5">
+            <bibl xml:id="biblk000131-6">
                   <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
                   <citedRange unit="pp">51-52</citedRange>
             </bibl>
-            <bibl xml:id="biblk000131-6">
-               <ptr target="https://architecturasinica.org/bibl/SJFD9MI7"/>
+            <bibl xml:id="biblk000131-7">
+               <ptr target="https://architecturasinica.org/bibl/52G975VG"/>
                <citedRange unit="pp">78</citedRange>
             </bibl>   
-            <bibl xml:id="biblk000131-7">
-               <ptr target="https://architecturasinica.org/bibl/3WEHW5PE"/>
-             </bibl> 
             <bibl xml:id="biblk000131-8">
-               <ptr target="https://architecturasinica.org/bibl/3WEHW5PE"/>
-            </bibl> 
+               <ptr target="https://architecturasinica.org/bibl/K2DK8WGX"/>
+             </bibl> 
+            <listBibl xml:id="biblk000131-9">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">218</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">128</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000131-10">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SZDFIK8B"/>
+                  <citedRange unit="pp">598</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WDZRV2JG"/>
+                  <citedRange unit="pp">482</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="http://www.worldcat.org/oclc/884376240"/>
+                  <citedRange unit="pp">34</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2VTCCK4A"/>
+                  <citedRange unit="pp">55</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3G9YVY8R"/>
+                  <citedRange unit="pp">50</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3G9YVY8R"/>
+                  <citedRange unit="pp">55</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8F5QGCMJ"/>
+                  <citedRange unit="pp">3-4</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/YVTXI7KZ"/>
+                  <citedRange unit="pp">46</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/YVTXI7KZ"/>
+                  <citedRange unit="pp">54</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/YVTXI7KZ"/>
+                  <citedRange unit="pp">56</citedRange>
+               </bibl>
+            </listBibl>
 
             <idno type="URI">https://architecturasinica.org/keyword/k000131</idno>
             <listRelation>
                <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52182613380_6638e978f8_h.jpg" passive="https://architecturasinica.org/keyword/k000131" rendition="featured"> </relation>
                   <!--  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000130" passive="building-type"/>-->
              
-            </listRelation>
+               </listRelation>
             </listRelation>
          </entryFree>
       </body>
