@@ -99,7 +99,7 @@
             <note type="Note (full)">
             <note type="getty:scopeNote" xml:lang="en">
                   <p source="#biblk000185-4" xml:lang="en">Shaliangtou 厦兩頭, literally “with a "mansion" on either end” (Kroll 2016, 492, 458),  only appears as a technical term of architecture in the literature of the <term ref="/keyword/k000082">Tang</term> and <term ref="/keyword/k000074">Song</term> dynasties. Here it  refers to a roof form used on a <term ref="/keyword/k000129">tingtang 廳堂</term> building. It is similar to the <term ref="/keyword/k000143">xieshan roof</term> in the <term ref="/keyword/k000070">Qing</term> dynasty, which is commonly translated as “hip-gable” or “hip-and-gable” roof, or a roof composed of four slopes and two gables in which corner beams extend at a 45 degree angle to support eaves sheltering the corner of the building. </p>         
-                <p source="#biblk000185-5">In the <term ref="/keyword/k000082">Tang</term> dynasty, only officials of the fifth rank or above were allowed to use shaliangtou in their houses. The same form of roof used in <term ref="/keyword/k000130">diantang  殿堂</term> buildings is called jiujidian 九脊殿 (nine-ridged hall) (Tianyige Musuem  2006, 344).</p>
+                <p source="#biblk000185-5">In the <term ref="/keyword/k000082">Tang</term> dynasty, only officials of the fifth rank or above were allowed to use shaliangtou in their houses. The same form of roof used in <term ref="/keyword/k000130">diantang  殿堂</term> buildings is called <term>jiujidian 九脊殿</term> (nine-ridged hall) (Tianyige Musuem  2006, 344).</p>
             </note> 
                <p  xml:lang="en" source="#biblk000185-7"> Although usually treated as a single technical term, in translating the characters literally, shaliangtou might also be interpreted as a construction method for a roof structure. In the context of Tang-Song literature, xialiangtou may be read as a verbal phrase, meaning either “to [add a lower] set of eaves (xia 厦 here meaning a mansion or additional building) to the sides of a building (liangtou 兩頭)” or “to make a gable on both ends of the roof ridge (xia 厦, working as a verb meaning  “to cut”; sha 厦 as homonym for sha 殺 or xia 下) the two ends of a hip roof at the roof ridge, or “to make into a Xia 夏 dynasty-style roof” (if Xia-style meant “gabled”). In this case, “Xia liangtou” would not be a technical term. Further research is necessary to confirm the viability of this interpretation. Textual sources indicate that in the eleventh century the pronunciation of the term was also variable (《廣韻》1008, 四庫全書本，卷六，60; <term ref="https://tinyurl.com/4btupcar">《集韻》</term>1039, 四庫全書本，卷八，51). </p>
                <p xml:lang="en">In <term ref="/keyword/k000074">Song</term> dynasty paintings one can find many images of buildings with gable roofs where shed roofs (piyan 披簷) are added to the gable ends. However, this roof form, where eaves shelter all four sides of the building without the use of corner beams to create a full hip roof sheltering the corner columns, does not appear to have been considered shaliangtou in either style or building technique.</p>
@@ -123,17 +123,6 @@
                   <ptr target="https://architecturasinica.org/bibl/H7BK9JQF"/>
                   <citedRange unit="pp">344</citedRange>
                </bibl>    
-            
-            <!--<listBibl xml:id="biblk000185-5">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
-                  <citedRange unit="pp">492, 458</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/H7BK9JQF"/>
-                  <citedRange unit="pp">344</citedRange>
-               </bibl>    
-            </listBibl>-->
             <listBibl xml:id="biblk000185-6">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/H7BK9JQF"/>
@@ -160,18 +149,13 @@
                <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                <citedRange unit="pp">190</citedRange>
             </bibl>
-            <!--<bibl xml:id="biblk000185-5">
-               <ptr target="https://architecturasinica.org/bibl/YTIAFBLI"/>
-               <citedRange unit="pp">accessed 2021</citedRange>
-            </bibl>-->
             <listRelation>
                <listRelation>
-                  <!-- <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/47814614181_99d129a44c_z.jpg" passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/40848169453_a75b6c1b06_z.jpg"
-                     passive="https://architecturasinica.org/keyword/k000018" rendition="featured"> </relation> -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52245212591_bcd29cf5b4_b.jpg" passive="https://architecturasinica.org/keyword/k000185" rendition="featured"> </relation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52244240167_64f925f8d6_b.jpg" passive="https://architecturasinica.org/keyword/k000185" rendition="featured"> </relation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000185" passive="roof types"/>
                   <!--  <relation ref="https://architecturasinica.org/place/000xxx"
-                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example -->
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51271089077_c52b199512_o.jpg" passive="https://architecturasinica.org/keyword/k000185" rendition="featured"> </relation>
+                     source="name_of_numbered_example_here"/> where there is an xxx put the number of the example --> 
                </listRelation>
             </listRelation>
          </entryFree>
