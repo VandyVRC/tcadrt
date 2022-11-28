@@ -69,6 +69,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2020-05-12">CREATED: record</change>
+         <change n="2.0" when="2022-11-28" who="#TGM">update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -85,7 +86,8 @@
                Meaning, literally "moon platform," the yuetai refers to a platform or terrace extending in front of a building.
             </note>
             <note type="related concepts">
-               <p><term ref="/keyword/k000124">露台 lùtái</term></p>
+               <p><term ref="/keyword/k000164">臺 tái</term></p>
+               <p><term ref="/keyword/k000136">露臺 lùtái</term></p>
             </note>   
             <listBibl xml:id="biblk000123-1">
                <bibl>
@@ -109,7 +111,7 @@
                <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                <citedRange unit="pp">94; 135</citedRange>
             </bibl>
-            <idno type="URI">https://architecturasinica.org/keyword/k000136</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000123</idno>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000123" passive="building type"/>
