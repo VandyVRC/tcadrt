@@ -79,13 +79,11 @@
       <body>
          <entryFree xml:id="k000132" type="architectural feature">
             <term xml:id="term-k000132-3" xml:lang="zh-latn-pinyin-nt" source="#biblk000132-1"
-               >jiejianbanzhang</term>
+               >jiejian banzhang</term>
             <term xml:id="term-k000132-1" xml:lang="zh-Hant" source="#biblk000132-2">截間版帳</term>
             <term xml:id="term-k000132-2" xml:lang="zh-Hans" source="#biblk000132-3">截间版帐</term>
             <term xml:id="term-k000132-6" xml:lang="zh-latn-pinyin" source="#biblk000132-1"
                >jiéjiān bǎnzhàng</term>
-            <term xml:id="term-k000132-4" xml:lang="zh-latn-pinyin" source="#biblk000132-4">jiejian
-               banzhang</term>
             <term xml:id="term-k000132-5" xml:lang="zh-latn-wadegile">chieh-chien pan-chang</term>
             <note type="Note (brief)">
                <p xml:lang="en">Literally meaning "bay-dividing plank partition" (Kroll 2016), scholars generally agree that jiejian
@@ -127,10 +125,16 @@
                <p>牙腳帳</p>
                <p>壁帳</p>
             </note>
-            <bibl xml:id="biblk000132-1">
+            <listBibl xml:id="biblk000132-1">            
+               <bibl>
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">399</citedRange>
             </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">48</citedRange>
+               </bibl>
+            </listBibl>
             <bibl xml:id="biblk000132-2">
                <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
                <citedRange unit="pp">6.6a</citedRange>
@@ -145,10 +149,6 @@
                   <citedRange unit="pp">120</citedRange>
                </bibl>
             </listBibl>
-            <bibl xml:id="#biblk000132-4">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-               <citedRange unit="pp">48</citedRange>
-            </bibl>
             <listBibl xml:id="biblk000132-5">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
