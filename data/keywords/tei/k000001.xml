@@ -9,7 +9,6 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="HK">HUAN Kaijie 还凯洁</editor>
@@ -83,6 +82,8 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" when="2021-03-07-04:00" who="#SZ">Updating</change>
          <change n="1.2" when="2022-05-28-04:00" who="#ZAL">Updating</change>
+         <change n="1.3" when="2023-02-21-04:00" who="#ZAL">Updating</change>
+         <change n="1.3" when="2023-02-25-04:00" who="#TGM">Updating</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -94,14 +95,16 @@
             <term xml:id="term-k000001-4" xml:lang="zh-latn-pinyin" source="#biblk000001-1">ángxíng shuǎtóu</term>
             <term xml:id="term-k000001-5" xml:lang="zh-latn-wadegile">ang-hsing-shua-t`ou</term>
             <term xml:id="term-k000001-1" xml:lang="en">slanted bracket arm-shaped shuatou</term>            
-            <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>            
+            <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             <note type="gloss">
-               <p xml:lang="en" source="#biblk000001-2">Angxing shuatou refers to shuatou made into the shape of an ang (usually an oblique or angled element; see <term ref="/keyword/k000103">“ang”</term>. The term originated from Liang Sicheng's descriptions of buildings and has been widely adopted by scholars as the mainstream name for describing this type of shuatou (Liang 1955, 105-28). The earliest image of an angxing shuatou appears in the wall painting of the Cave 172 at Dunhuang (Yu 2017; Xiao 2003, 232). During the Song dynasty, the angxing shuatou was already widespread in northern China, but not in the south. The term does not appear in the <title ref="https://tinyurl.com/yss6ucrb">Yingzao fashi</title> (Zhang Shiqing 2015).
+               <p xml:lang="en" source="#biblk000001-2">Angxing shuatou refers to <term ref="/keyword/k000220">shuatou</term> made into the shape of an <term ref="/keyword/k000103">"ang,"</term> which is usually an oblique or angled element. The term originated from Liang Sicheng's descriptions of buildings and has been widely adopted by scholars as the mainstream name for describing this type of shuatou (Liang 1955, 105-28). The earliest image of an angxing shuatou appears in the wall painting of the Cave 172 at Dunhuang (Yu 2017; Xiao 2003, 232). During the Song dynasty, the angxing shuatou was already widespread in northern China, but not in the south. The term does not appear in the 
+                  <title ref="https://tinyurl.com/yss6ucrb">Yingzao fashi</title> (Zhang Shiqing 2015).
                </p>
                <p xml:lang="en" source="#biblk000001-3">
-                  Judging by its intersection with the <term ref="/keyword/k000156">linggong 令栱</term>, the angxing shuatou takes two forms, horizontal and slanting, which were common in the Tang, Song, Liao, and Jin dynasties. The slanting form rarely appeared after the Yuan dynasty (Jia Hongbo 2010, 218). Some scholars have argued that the angxing shuatou may reduce the need for a large number of bracket-set layers, which would give the <term ref="/keyword/k000019">dougong</term> the appearance of a higher grade by virtue of having more projections perpendicular to the wall plane (Yu Mengzhe 2017). Potential structural functions of the angxing shuatou requires further investigation.
+                  Judging by its intersection with the <term ref="/keyword/k000156">linggong 令栱</term>, the angxing shuatou takes one of two forms, horizontal and slanting, which were common in the Tang, Song, Liao, and Jin dynasties. The slanting form rarely appears after the Yuan dynasty (Jia Hongbo 2010, 218). Some scholars have argued that the angxing shuatou may reduce the need for a large number of bracket-set layers, which would give the <term ref="/keyword/k000019">dougong</term> the appearance of a higher grade by virtue of having more projections perpendicular to the wall plane (Yu Mengzhe 2017). Potential structural functions of the angxing shuatou require further investigation.
                </p>
-               <p xml:lang="zh-Hant" source="#biblk000001-2">昂形耍頭指形狀做成昂嘴形的耍頭，屬於曆代耍頭演變過程中的一種類型。該術語源於梁思成對建築實例的描述(梁 1955, 105–28)，並被學者廣泛採用，成為描述該種形態耍頭的主流名稱。
+               <p xml:lang="zh-Hant" source="#biblk000001-2">
+                  昂形耍頭指形狀做成昂嘴形的耍頭，屬於曆代耍頭演變過程中的一種類型。該術語源於梁思成對建築實例的描述(梁 1955, 105–28)，並被學者廣泛採用，成為描述該種形態耍頭的主流名稱。
                   昂形耍頭的形象最早出現於敦煌盛唐第172窟南窟壁畫(喻 2017; 萧 2003, 232)。宋代時，昂形耍頭在北方已經廣泛流行，而江南不用，且沒有收錄於<title ref="https://tinyurl.com/yss6ucrb">《營造法式》</title>(张 2015)。
                </p>
                <p xml:lang="zh-Hant" source="#biblk000001-3">
@@ -148,8 +151,6 @@
                </bibl>
             </listBibl>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
-               </relation>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52698644285_f3f2839af1_h.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000001" passive="bracketing"/>
