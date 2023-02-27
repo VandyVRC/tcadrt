@@ -9,7 +9,6 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="HK">HUAN Kaijie 还凯洁</editor>
@@ -83,20 +82,35 @@
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
          <change n="1.1" when="2021-03-07-04:00" who="#SZ">Updating</change>
          <change n="1.2" when="2022-05-28-04:00" who="#ZAL">Updating</change>
+         <change n="1.3" when="2023-02-21-04:00" who="#ZAL">Updating</change>
+         <change n="1.3" when="2023-02-25-04:00" who="#TGM">Updating</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000001" type="architectural feature">
-            <term xml:id="term-k000001-6" xml:lang="zh-latn-pinyin-nt" source="#biblk000222-1">angxing shuatou</term>
+            <term xml:id="term-k000001-6" xml:lang="zh-latn-pinyin-nt" source="#biblk000001-1">angxing shuatou</term>
             <term xml:id="term-k000001-2" xml:lang="zh-Hant">昂形耍頭</term>
             <term xml:id="term-k000001-3" xml:lang="zh-Hans">昂形耍头</term>
-            <term xml:id="term-k000001-4" xml:lang="zh-latn-pinyin" source="#biblk000222-1">ángxíng shuǎtóu</term>
+            <term xml:id="term-k000001-4" xml:lang="zh-latn-pinyin" source="#biblk000001-1">ángxíng shuǎtóu</term>
             <term xml:id="term-k000001-5" xml:lang="zh-latn-wadegile">ang-hsing-shua-t`ou</term>
             <term xml:id="term-k000001-1" xml:lang="en">slanted bracket arm-shaped shuatou</term>            
-            <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>            
+            <idno type="URI">https://architecturasinica.org/keyword/k000001</idno>
             <note type="gloss">
-               <p xml:lang="en">Term used to describe a shuatou, a timber joined through the <term ref="/keyword/k000156">linggong</term>, that has been crafted to mimic a slanted bracket-arm. <s source="#biblk000001-1"> More on the shuatou can be found in Chen Mingda (2010, 241)</s> (T. Miller)</p>
+               <p xml:lang="en" source="#biblk000001-2">Angxing shuatou refers to <term ref="/keyword/k000220">shuatou</term> made into the shape of an <term ref="/keyword/k000103">"ang,"</term> which is usually an oblique or angled element. The term originated from Liang Sicheng's descriptions of buildings and has been widely adopted by scholars as the mainstream name for describing this type of shuatou (Liang 1955, 105-28). The earliest image of an angxing shuatou appears in the wall painting of the Cave 172 at Dunhuang (Yu 2017; Xiao 2003, 232). During the Song dynasty, the angxing shuatou was already widespread in northern China, but not in the south. The term does not appear in the 
+                  <title ref="https://tinyurl.com/yss6ucrb">Yingzao fashi</title> (Zhang Shiqing 2015).
+               </p>
+               <p xml:lang="en" source="#biblk000001-3">
+                  Judging by its intersection with the <term ref="/keyword/k000156">linggong 令栱</term>, the angxing shuatou takes one of two forms, horizontal and slanting, which were common in the Tang, Song, Liao, and Jin dynasties. The slanting form rarely appears after the Yuan dynasty (Jia Hongbo 2010, 218). Some scholars have argued that the angxing shuatou may reduce the need for a large number of bracket-set layers, which would give the <term ref="/keyword/k000019">dougong</term> the appearance of a higher grade by virtue of having more projections perpendicular to the wall plane (Yu Mengzhe 2017). Potential structural functions of the angxing shuatou require further investigation.
+               </p>
+               <p xml:lang="zh-Hant" source="#biblk000001-2">
+                  昂形耍頭指形狀做成昂嘴形的耍頭，屬於曆代耍頭演變過程中的一種類型。該術語源於梁思成對建築實例的描述(梁 1955, 105–28)，並被學者廣泛採用，成為描述該種形態耍頭的主流名稱。
+                  昂形耍頭的形象最早出現於敦煌盛唐第172窟南窟壁畫(喻 2017; 萧 2003, 232)。宋代時，昂形耍頭在北方已經廣泛流行，而江南不用，且沒有收錄於<title ref="https://tinyurl.com/yss6ucrb">《營造法式》</title>(张 2015)。
+               </p>
+               <p xml:lang="zh-Hant" source="#biblk000001-3">
+                  以與<term ref="/keyword/k000156">令栱</term>相交為標準判斷，昂形耍頭存在平出和斜出兩種形態，在唐宋遼金各代都很常見，但斜出式在元代以後鮮少出現。(贾 2010, 218) 
+                  有學者認為昂形耍頭使<term ref="/keyword/k000019">斗栱</term>在擁有較高級形象的同時，減少了實際層次，有利於構架的整體穩定(喻 2017)。然而，昂型耍頭是否有利於結構的整體穩定還有待研究，但這一構件的使用無疑使結構較爲簡單的低等級斗拱擁有了更爲高級華麗的形象。
+               </p>
             </note>
             <listBibl xml:id="biblk000001-1">
                <bibl>
@@ -107,9 +121,37 @@
                   <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                   <citedRange>accessed May 28, 2022</citedRange>
                </bibl>
-            </listBibl>            
+            </listBibl>
+            <listBibl xml:id="biblk000001-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/RRA2ZKYY"/>
+                  <citedRange unit="pp">105-28</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/T4X3IVHM"/>
+                  <citedRange unit="pp">232</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DLZWECR5"/>
+                  <citedRange>accessed Feb 25, 2023</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/TRCTCYM9"/>
+                  <citedRange>accessed Feb 25, 2023</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000001-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/FAJ6HHYJ"/>
+                  <citedRange unit="pp">218</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DLZWECR5"/>
+                  <citedRange>accessed Feb 25, 2023</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4099/4822349222_4b4b990726_z.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52698644285_f3f2839af1_h.jpg" passive="https://architecturasinica.org/keyword/k000001" rendition="featured">
                </relation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000001" passive="bracketing"/>
                <relation ref="https://architecturasinica.org/place/000150" source="Chongqingsi 1000 Buddhas Hall"/>
