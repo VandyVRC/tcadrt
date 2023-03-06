@@ -8,10 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citation</resp>
@@ -40,9 +40,7 @@
             <language ident="en">English</language>
             <language ident="zh-latn-pinyin">Pinyin</language>
             <language ident="zh-Hant">Traditional Chinese</language>
-            <language ident="zh-Hans">Simplified Chinese</<language ident="zh-latn-wadegile">Wade-Giles</language>
-         </langUsage>language><language ident="zh-latn-wadegile">Wade-Giles</language>
-         </langUsage>
+            <language ident="zh-Hans">Simplified Chinese</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
