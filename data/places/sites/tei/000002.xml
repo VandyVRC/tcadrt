@@ -10,8 +10,8 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="creator" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                      <resp>Initial translation 2010 by</resp>
                <name type="person" xml:id="LO">Lydia Ohl</name>
@@ -67,15 +67,11 @@
       <body>
          <listPlace>
             <place xml:id="place-000002" type="site">
-               <placeName xml:id="name000002-1" type="site-name" xml:lang="en">Baitai
-                  Monastery</placeName>
-               <placeName xml:id="name000002-2" type="site-name" xml:lang="zh-latn-pinyin"
-                  >Báitáisì</placeName>
+               <placeName xml:id="name000002-1" type="site-name" xml:lang="en">Baitai Monastery</placeName>
+               <placeName xml:id="name000002-2" type="site-name" xml:lang="zh-latn-pinyin">Báitáisì</placeName>
                <placeName xml:id="name000002-3" type="site-name" xml:lang="zh-latn-wadegile">Pai-t`ai-ssu</placeName>
                <placeName xml:id="name000002-4" type="site-name" xml:lang="zh-Hant">白臺寺</placeName>
                <placeName xml:id="name000002-5" type="site-name" xml:lang="zh-Hans">白台寺</placeName>
-               <placeName xml:id="name000002-1" type="alternate" xml:lang="zh-latn-pinyin">Pǔhuàsì</placeName>
-               <placeName xml:id="name000002-4" type="alternate" xml:lang="zh-Hant">白臺寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000002</idno>
                
                    <state type="existence" subtype="dynasty" source="#bibl000002-2" from="1115-01-01" to="1912-02-12">
