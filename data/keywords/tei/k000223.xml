@@ -84,11 +84,9 @@
             <term xml:id="term-k000223-4" xml:lang="zh-latn-pinyin" source="#biblk000223-1" type="ATTCAT_preferred">jǔzhé</term>
             <term xml:id="term-k000223-5" xml:lang="zh-latn-wadegile">chü-che</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000223</idno>
-            <!-- <note type="Gloss">
-               <p xml:lang="en" source="#biblk000223-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
-               <p xml:lang="zh-Hant" source="#biblk000223-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
+            <!--
             </note>
-            <note type="Note (full)">                              
+            <note type="Note">                              
             </note>
             <bibl xml:id="biblk000223-1">
                <ptr target=""/>
@@ -101,6 +99,7 @@
             </bibl>
             <listRelation>
                <listRelation>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52726033636_09d0a42581_h.jpg" passive="https://architecturasinica.org/keyword/k000223" rendition="featured"> </relation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000223" passive="building frame"/>
                </listRelation>
             </listRelation>

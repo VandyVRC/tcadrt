@@ -19,9 +19,9 @@
             <editor role="content-author" xml:id="YWT">YANG Wantian 杨菀阗</editor>
             <respStmt>
                <resp>Initial Research</resp>               
-               <name type="person" xml:id="YWT">YANG Wantian 杨菀阗</name>               
-               <name type="person" xml:id="GM">GUO Mian 郭勉</name>
-               <name type="person" xml:id="RSJ">REN Sijie 任思捷</name>
+               <name type="person" ref="#YWT">YANG Wantian 杨菀阗</name>               
+               <name type="person" ref="#GM">GUO Mian 郭勉</name>
+               <name type="person" ref="#RSJ">REN Sijie 任思捷</name>
                <name type="team">ATTCAT 2019</name>          
             </respStmt>
             <respStmt>
@@ -68,7 +68,7 @@
             <term xml:id="term-k000133-1" xml:lang="zh-Hant" source="#biblk000133-1">駝峰</term>
             <term xml:id="term-k000133-2" xml:lang="zh-Hans">驼峰</term>
             <term xml:id="term-k000133-3" xml:lang="zh-Hant" type="alternate" source="#biblk000133-2">駝峯</term>
-            <term xml:id="term-k000133-3" xml:lang="zh-latn-pinyin" source="#biblk000133-2">tuófēng</term>
+            <term xml:id="term-k000133-9" xml:lang="zh-latn-pinyin" source="#biblk000133-2">tuófēng</term>
             <term xml:id="term-k000133-5" xml:lang="zh-latn-wadegile">t'o-feng</term>
             <term xml:id="term-k000133-6" xml:lang="en" source="#biblk000133-3" type="literal translation">camel's hump (lit.)</term>
             <term xml:id="term-k000133-7" xml:lang="en" source="#biblk000133-4">camel's-hump-shaped brace</term>
