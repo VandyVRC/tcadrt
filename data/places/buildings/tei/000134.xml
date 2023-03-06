@@ -8,10 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding citations</resp>
@@ -46,7 +46,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="ML" when="2020-03-27">adding citation</change>
+         <change n="2.0" who="#ML" when="2020-03-27">adding citation</change>
          <change when="2020-09-25">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
@@ -89,7 +89,7 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!--note type="field-notes">nidaogong chamfered--did not include</note-->
+               <!--<note type="field-notes">nidaogong chamfered</note>-->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000134" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>

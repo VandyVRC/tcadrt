@@ -7,18 +7,22 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
-               <resp when="2021-12-9">Initial translation in 2021 by</resp>
+               <resp when="2021-12-09">Initial translation in 2021 by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding tones to Pinyin, adding Wade-Giles</resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -50,9 +54,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" when="2020-03-24-04:00">adding external links</change>
-         <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name>
-            </change>
+         <change n="2.1" when="2020-09-21" who="#SLY">Adding tones to Pinyin, adding Wade-Giles</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,8 +71,8 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000052-1">The Jiutian Shengmu Temple is located in Hedongcun, Beishezhen and is classified as a national-level cultural heritage site. It contains relics from the Song, Ming, and Qing dynasties. According to a stele inscription at the site, the of Jiutian Shengmu Temple was originally built in the Sui Dynasty, and refurbished in the Tang, Song, Yuan, Ming, and Qing Dynasties. Occupying 2,526 m2 of space and facing southward, the temple consists of a single courtyard. The Mountain Gate (the back of which is constructed as an inward-facing stage), offering hall, and main hall are on its central axis, while the side halls, galleries, and attached towers are located on the two sides. There is a Dressing Tower on the east side of the temple complex. The courtyard of the temple complex contains three steles, dating to the Song, Yuan, and Ming Dynasties respectively. It also contains 4 tablets (jie碣) from the Ming dynasty, 12 stele (bei碑) from the Qing dynasty, 10 jie from the Qing dynasty, and 3 stele from the Republican Period.</p>
+               <desc type="site-data" xml:lang="en" source="#bibl000052-1">
+                  The Jiutian Shengmu Temple is located in Hedongcun, Beishezhen and is classified as a national-level cultural heritage site. It contains relics from the Song, Ming, and Qing dynasties. According to a stele inscription at the site, the of Jiutian Shengmu Temple was originally built in the Sui Dynasty, and refurbished in the Tang, Song, Yuan, Ming, and Qing Dynasties. Occupying 2,526 m2 of space and facing southward, the temple consists of a single courtyard. The Mountain Gate (the back of which is constructed as an inward-facing stage), offering hall, and main hall are on its central axis, while the side halls, galleries, and attached towers are located on the two sides. There is a Dressing Tower on the east side of the temple complex. The courtyard of the temple complex contains three steles, dating to the Song, Yuan, and Ming Dynasties respectively. It also contains 4 tablets (jie 碣) from the Ming dynasty, 12 stele (bei 碑) from the Qing dynasty, 10 jie from the Qing dynasty, and 3 stele from the Republican Period.
                </desc>
                <note type="External Links">
                   <p>

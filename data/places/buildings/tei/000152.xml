@@ -8,10 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -42,7 +42,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" when="2020-03-28-04:00" xml:id="TGM">ADDED: building discription</change>
+         <change n="2.0" when="2020-03-28-04:00" who="#TGM">ADDED: building discription</change>
          <change n="3.0" when="2020-03-29" xml:id="ML">added citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
