@@ -82,6 +82,8 @@
             <term xml:id="term-k000215-3" xml:lang="zh-Hans">插栱</term>
             <term xml:id="term-k000215-4" xml:lang="zh-latn-pinyin" source="#biblk000215-1" type="ATTCAT_preferred">chāgǒng</term>
             <term xml:id="term-k000215-5" xml:lang="zh-latn-wadegile">ch'a-kung</term>
+            <term xml:id="term-k000215-6" xml:lang="en" source="#biblk000215-2">inserted bracket-arm</term>
+            <term xml:id="term-k000215-7" xml:lang="en" source="#biblk000215-3">inserted bracket-arms</term>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000215-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000215-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
@@ -93,10 +95,66 @@
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000215-4">Chagong 插栱, which cannot be found in traditional Chinese literature, is a term translated by Liang Sicheng from the Japanese <term ref="https://www.aisf.or.jp/~jaanus/deta/s/sashihijiki.htm">sashihijiki 挿肘木</term>. Sashihijiki refers to the bracket  arms of the outer eaves of the South Gate of Todaiji Temple in Nara, Japan, which are directly inserted into the pillar shaft (Liang, 1932). </p>
+               <p xml:lang="en" source="#biblk000215-5">In modern Chinese scholarship chagong 插栱 generally refers to bracket-arms of many layers that are directly inserted into pillars. However, some scholars believe that the term chagong should only refer to such components when they are located in the outer eaves pillars of <term ref="/keyword/k000011">chuandou 穿斗</term> style structures in southern China. This is because both the positioning and multiple layers of the bracket-arms in chuandou style structures in southern China closely resemble the sashihijiki in <term ref="https://www.aisf.or.jp/~jaanus/deta/d/daibutsuyou.htm">“Indian Style”</term> (tenjikuyou 天竺様; aka <term ref="https://www.aisf.or.jp/~jaanus/deta/d/daibutsuyou.htm">“Great Buddha Style,”</term> daibutsuyou 大仏様) architecture in Japan (Liu Dunping 刘致平, 1957: 85; Fu Xinian 傅熹年 1981, Zhu Guangya 朱光亚, 1983). The chagong in southern Chinese buildings are considered by most scholars to be the source of sashihijiki, and may also be the source of chagong in Jusimpo 柱心包-style structures in Korea (Zhang, 1982, 1998, 2002; Ota, 2016; Fu, 1981; Choi, 2002, 2003; Nakanishi, 2021). In addition, some scholars use the term chagong to refer to the cantilevered components that are inserted into pillars and walls or which bear the brackets in outer eaves, such as we see in ceramic building models from the Han Dynasty (Fig Eastern Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze 東漢 鉛綠釉陶明器建築模型（一組), H. 41 in. (104.1 cm); W. 22 5/8 in. (57.5 cm); D. 11 3/4 in. (29.8 cm), Metropolitan Museum of Art, Public Domain. https://www.metmuseum.org/art/collection/search/49519)
+               </p>
+            </note>
             <bibl xml:id="biblk000215-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed May 28, 2022</citedRange>
             </bibl>
+            <bibl xml:id="biblk000215-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">353</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000215-3">
+               <ptr target="https://architecturasinica.org/bibl/UW7FESBQ"/>
+               <citedRange unit="pp">49</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000215-4">
+               <ptr target="#FIXME: Multiple Liang 1932"/>               
+            </bibl>
+            <listBibl xml:id="biblk000215-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GBAS7WRT"/>
+                  <citedRange unit="pp">85</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KBENFNYG"/>
+                  <citedRange unit="pp">68-77</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/EC766RSE"/>
+                  <citedRange unit="pp">107-109</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/FDNA2R37"/>
+                  <citedRange unit="pp">118-143</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/V6ULFPUT"/>
+                  <citedRange unit="pp">121-129</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8SS6WJP6"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/5QVX364R"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2MC4TT3Q"/>
+                  <citedRange unit="pp">321-326</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LDNCC7HH"/>
+                  <citedRange unit="pp">343-347</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/B4ZW497A"/>
+                  <citedRange unit="pp">277-283</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000215" passive="bracketing"/>
