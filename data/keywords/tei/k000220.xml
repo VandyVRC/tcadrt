@@ -86,18 +86,32 @@
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000220-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000220-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
-            </note>
-            <note type="Note (full)">                              
-            </note>
+            </note>            
             <bibl xml:id="biblk000220-1">
                <ptr target=""/>
                <citedRange unit="pp">472</citedRange>
             </bibl>
              -->
+            <note type="Note (full)">
+               <p xml:lang="en" source="#biblk000220-2">Shuatou, literally, “mocking” “head” or “top” (Kroll 2015, 424 and 458), is a component part of the <term ref="/keyword/k000019">dougong (bracket-set)</term> located above the uppermost layer of <term ref="/keyword/k000172">huagong</term> or <term ref="/keyword/k000103">ang</term>. The shuatou protrudes from the center of the dougong, intersecting with the <term ref="/keyword/k000156">linggong</term>, which is perpendicular to it (Liang Sicheng 1981, 22).
+               </p>
+               <p xml:lang="en" source="#biblk000220-3">The term shuatou is only found in the <title ref="https://tinyurl.com/yjx8es3m">Yingzao fashi</title>, as one of four alternative names for this timber element. The other three are: “bird head” (quetou 爵頭 read: 雀頭)(Zhen and Jia 2008,25; Hanyu dacidian 汉语大词典 entry “爵”), "monkey head" (husun tou 胡孫頭), and "insect head” (fuzong tou 蜉䗥頭) (Li  2009, 1.8b, 4.7a).  All of these alternatives probably derive from the various descriptions of its finished shape, which may have broader cultural connotations. The YZFS  description and accompanying illustration indicates two possible usages for the term: 1. the protruding tip or end of the timber member (the portion that intersects with linggong) 2. the entire timber component, including protruding tip and the back portion which is joined into the body of the dougong (Li 2009, 4.7a-b; 30.2b; 30.15a-b)). Modern architectural historians use the term shuatou to refer both to the end of the relevant component and the whole component. 
+               </p>
+            </note>
             <bibl xml:id="biblk000220-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">241</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000220-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">424, 458</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GJDWIU6M"/>
+                  <citedRange unit="pp">22</citedRange>
+               </bibl>               
+            </listBibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000220" passive="bracketing"/>
