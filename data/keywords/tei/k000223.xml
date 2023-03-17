@@ -81,20 +81,34 @@
             <term xml:id="term-k000223-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000223-1">juzhe</term>
             <term xml:id="term-k000223-2" xml:lang="zh-Hant">舉折</term>
             <term xml:id="term-k000223-3" xml:lang="zh-Hans">举折</term>
-            <term xml:id="term-k000223-4" xml:lang="zh-latn-pinyin" source="#biblk000223-1" type="ATTCAT_preferred">jǔzhé</term>
+            <term xml:id="term-k000223-4" xml:lang="zh-latn-pinyin" source="#biblk000223-1" type="ATTCAT_preferred">jǚzhé</term>
             <term xml:id="term-k000223-5" xml:lang="zh-latn-wadegile">chü-che</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000223</idno>
-            
-            <!--<note type="Note">  
+            <term xml:id="term-k000223-6" xml:lang="en" type="literal-translation">To raise and depress (lit.)</term>
+            <term xml:id="term-k000223-7" xml:lang="en" source="#biblk000223-2">Raise and depress</term>
+            <term xml:id="term-k000223-8" xml:lang="en" source="#biblk000223-3">Sloping and Folding the Roof</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000223</idno>            
+            <note type="Note"> 
+               <p xml:lang="en" source="#biblk000223-4">Juzhe, literally “raise and bend” (Kroll 2015, 226, 596), is a method of positioning the purlins in relation to each other in order to manipulate the slope and curvature of the roof. In premodern literature, the term juzhe only appears in the Yingzao fashi. According to this text, a building’s juzhe is determined through a process called ding ceyang 定側樣 (deciding the side appearance) or dian caojia 點草架 (designating the rough structural frame). During this process, the roof frame would be drawn on a wall plane at a scale of 1:10. The drawing would then serve as a reference for determining the positions of the purlins during assembly. 
+               </p>
+               <p xml:lang="en">Juzhe involves two steps, juwu 舉屋 and zhewu 折屋, which are to be performed in this order. Juwu (“raising the roof”) refers to positioning the ridge purlin in order to determine the total height of the roof (H) measured from the top of the eaves purlin to the top of ridge purlin. In the <title ref="https://tinyurl.com/5h9dshus">Yingzao fashi</title>, the height of the ridge purlin (or the top of the roof slope) is stipulated according to the different rank of the buildings (Table 1). The calculation of the height of the ridge purlin (H) is based on the depth of the building (D), measured by the horizontal distance between the front and rear eaves purlins or between the front and back columns if the building does not employ dougong. The height of the ridge purlin can be either 1/3 or 1/4 the building depth, depending on the rank of the building.
+               </p>               
             </note>
-            <bibl xml:id="biblk000223-1">
-               <ptr target=""/>
-               <citedRange unit="pp">472</citedRange>
-            </bibl>
-             -->
+            
             <bibl xml:id="biblk000223-1">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">426</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000223-2">
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+               <citedRange unit="pp">16-17</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000223-3">
+               <ptr target="https://architecturasinica.org/bibl/HLMQKI8I"/>
+               <citedRange unit="pp">229</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000223-4">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+               <citedRange unit="pp">226, 596</citedRange>
             </bibl>
             <listRelation>
                <listRelation>
