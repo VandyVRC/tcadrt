@@ -78,16 +78,28 @@
       <body>
          <entryFree xml:id="k000224" type="architectural feature">
             <term xml:id="term-k000224-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000224-1">jujia</term>
-            <term xml:id="term-k000224-2" xml:lang="zh-Hant">舉架</term>
+            <term xml:id="term-k000224-2" xml:lang="zh-Hant" source="#biblk000224-2">舉架</term>
             <term xml:id="term-k000224-3" xml:lang="zh-Hans">举架</term>
             <term xml:id="term-k000224-4" xml:lang="zh-latn-pinyin" source="#biblk000224-1" type="ATTCAT_preferred">jǔjià</term>
             <term xml:id="term-k000224-5" xml:lang="zh-latn-wadegile">chü-chia</term>
+            <term xml:id="term-k000224-6" xml:lang="en" type="literal-translation">To raise and build up (lit.)
+            </term>
+            <term xml:id="term-k000224-7" xml:lang="en" source="#biblk000224-3">raising the roof frame</term>
+            <term xml:id="term-k000224-8" xml:lang="en" source="#biblk000224-4">raising the frame or raising the truss</term>
+            <term xml:id="term-k000224-9" xml:lang="en" source="#biblk000224-5">lifting the purlins</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000224</idno>
+            <note type="Note">
+               <p xml:lang="en">Jujia is the method of positioning the purlins, layer by layer, in order to determine the pitch of the roof. The term mainly appears in the <title ref="https://tinyurl.com/4ddw8u6h">Gongcheng zuofa</title> and Yingzao suanli edited by Liang Sicheng, so it can be considered an official practice of the Qing Dynasty. Different from juzhe, jujia is the process of determining the height of the roof ridge based on the heights of the purlins as calculated from the bottom (eaves) to the top (ridge). Here jugao 舉高 refers to the height that a purlin is lifted relative to the one below it.  The jugao of each purlin is determined by the percentage of the distance of bujia 步架, the distance between two adjacent purlins. For instance, “65 ju” ( 六五舉) means that the height of jugao is 65% that of the bujia 步架. The first step is to determine the height between the top of the neighboring pillars, guazhu 瓜柱 post, or tuodun 柁橔 brace. Then add a height of pingshui 平水, and this will result in the appropriate position for the purlin. As outlined in the Yingzao suanli, the calculation of jugao differs according to the number of purlins in a given building. Few actual buildings correspond exactly to the method of  jujia outlined in the Gongcheng zuofa and Yingzao suanli, indicating that the height of the purlins could be increased or decreased according to specific circumstances rather than always rigidly following a single standard that was documented in these texts.
+               </p>
+               <p xml:lang="en">The practice of jujia explained by modern scholars is different from that outlined in the Gongcheng zuofa. The description in the Gongcheng zuofa refers to a construction process involving prefabricated components. In comparison, the practice of jujia explained by modern scholars focuses on the general principles of jujia, and aims to understand the method of determining the final positions of the purlins. Furthermore, the precise method used for calculating the positions of the purlins is still a matter of scholarly debate. 
+               </p>
+               <p xml:lang="en" source="#biblk000224-6">Since <term ref="/keyword/k000223"></term>juzhe refers to the method of determining the pitch of the roof in the Song Dynasty and jujia refers to the method of determining the pitch of the roof in the Qing Dynasty, yet the methods differ with regard to how to the position the purlins, scholars who study architecture in the Ming Dynasty are interested in understanding the development from juzhe to jujia. (Guo Huayu 郭華瑜 2005; Zhu Guangya 朱光亞 1983). The possible reasons juzhe evolved into jujia are the subject of active debate in published literature (Zhang Shiqing 張十慶 2005; Zhu Guangya 朱光亞 1983) as well as in current courses at major research institutions such as Southeast University (2022).
+               </p>
+               
+            </note>
             <!-- <note type="Gloss">
                <p xml:lang="en" source="#biblk000224-2">literally "dew terrace"; refers to an exposed or uncovered platform, terrace, or landing  (Guo 2002, 57; Kroll 2016, online edition)</p>
                <p xml:lang="zh-Hant" source="#biblk000224-2">沒有屋頂覆蓋的，露天的平台。(Guo 2002, 57; Kroll 2016, online edition)</p>
-            </note>
-            <note type="Note (full)">                              
             </note>
             <bibl xml:id="biblk000224-1">
                <ptr target=""/>
@@ -98,6 +110,34 @@
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed May 28, 2022</citedRange>
             </bibl>
+            <bibl xml:id="biblk000224-2">
+               <ptr target="https://architecturasinica.org/bibl/FZJ972YS"/>
+            </bibl>
+            <bibl xml:id="biblk000224-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">51</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000224-4">
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+               <citedRange unit="pp">19-21</citedRange>
+            </bibl> 
+            <bibl xml:id="biblk000224-5">
+               <ptr target="https://architecturasinica.org/bibl/C6GSTM92"/>
+               <citedRange unit="pp">72-74</citedRange>
+            </bibl> 
+            <listBibl xml:id="biblk000224-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/6THPBJNV"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/EC766RSE"/>
+                  <citedRange unit="pp">107-109</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/DMUAZCDK"/>
+                  <citedRange unit="pp">45-50</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000224" passive="building frame"/>
