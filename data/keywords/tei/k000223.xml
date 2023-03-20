@@ -78,10 +78,10 @@
    <text>
       <body>
          <entryFree xml:id="k000223" type="architectural feature">
-            <term xml:id="term-k000223-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000223-1">juzhe</term>
+            <term xml:id="term-k000223-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000223-6">juzhe</term>
             <term xml:id="term-k000223-2" xml:lang="zh-Hant">舉折</term>
             <term xml:id="term-k000223-3" xml:lang="zh-Hans">举折</term>
-            <term xml:id="term-k000223-4" xml:lang="zh-latn-pinyin" source="#biblk000223-1" type="ATTCAT_preferred">jǚzhé</term>
+            <term xml:id="term-k000223-4" xml:lang="zh-latn-pinyin" source="#biblk000223-1" type="ATTCAT_preferred">jǔzhé</term>
             <term xml:id="term-k000223-5" xml:lang="zh-latn-wadegile">chü-che</term>
             <term xml:id="term-k000223-6" xml:lang="en" type="literal-translation">To raise and depress (lit.)</term>
             <term xml:id="term-k000223-7" xml:lang="en" source="#biblk000223-2">Raise and depress</term>
@@ -137,6 +137,10 @@
                   <citedRange unit="pp">51-53</citedRange>
                </bibl>
             </listBibl>
+            <bibl xml:id="biblk000223-6">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">51</citedRange>
+            </bibl>
             <listRelation>
                <listRelation>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52726033636_09d0a42581_h.jpg" passive="https://architecturasinica.org/keyword/k000223" rendition="featured"> </relation>
