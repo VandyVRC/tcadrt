@@ -80,6 +80,9 @@
                   <p>
                      <ref target="https://tinyurl.com/w4qhdao">百度百科</ref>
                   </p>
+                  <p>
+                     <ref target="https://blog.sina.com.cn/s/blog_4a877d4d0102dzk7.html">2011 blog post</ref>
+                  </p>
                </note>
                <bibl xml:id="bibl000140-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
@@ -103,7 +106,6 @@
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000140" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000140" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000140" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000010"/>
             </listRelation>
