@@ -116,12 +116,11 @@
                   <citedRange unit="pp">403</citedRange>
                </bibl>
             </listBibl>
-            <!--  <listRelation>
-               <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000086" passive="building type"/>
-               </listRelation>
+            <listRelation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52729641751_9c9f06713f_b.jpg" passive="https://architecturasinica.org/keyword/k000086" rendition="featured">
+               </relation>
             </listRelation>
-            -->
+            
          </entryFree>
       </body>
    </text>
