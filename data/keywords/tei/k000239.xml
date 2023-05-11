@@ -59,13 +59,65 @@
             <term xml:id="term-k000239-3" xml:lang="zh-Hans">排山勾滴</term>
             <term xml:id="term-k000239-4" xml:lang="zh-latn-pinyin" source="#biblk000239-1">páishān gōudī</term>
             <term xml:id="term-k000239-6" xml:lang="zh-latn-wadegile">p'ai-shan kou-ti</term>
+            <term xml:id="term-k000239-7" xml:lang="en" source="#biblk000239-2">eaves tiles placed at the edges of the outward-projecting gable-roof parts in a hip-gable roof</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000239</idno>
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000239-3">The term paishan goudi 排山勾滴 combines the words paishan, referring to the practice of aligning rooftiles  (pai 排) along the slope of the gable end (shanmian 山面, lit. “mountain (peak)” “side”), and goudi, which refers to the <term ref="/keyword/k000108">goutou 勾頭</term> and <term ref="/keyword/k000241">dishui 滴水</term> capping tiles. In placing more emphasis on practice of paishan, it is also called “capping the gable-end tiles” (lingdang paisha 鈴鐺排山; lit. aligning bell clappers along the gable end; Liu 1993, 193; Wang 1995, 31).</p>
+               <p xml:lang="en" source="#biblk000239-4">Scholars have determined that <term ref="/keyword/k000238">goudi 勾滴</term> generally refers to dishui 滴水 (“drip tiles”), i.e. the tiles located at the lowest part of the roof with a “ruyi” 如意 or multi-lip 重唇-shape at the end of the plate tile (Liu 1932, 168; Liang and Liu 1933, 160; Bao, Liu and Liang 1934, 12-13; Liu 1935, 165). However, in the compound term paishan goudi, goudi should be understood as a combination of the abbreviated names of goutou and dishui (Liang 1982, 37, 78; Liu 1993, 168; Wang 1995, 31).</p>
+               <p xml:lang="zh-Hant" source="#biblk000239-3">“排山勾滴”是“排山”和“<term ref="/keyword/k000238">勾滴</term>”組合而成的瓦屋面術語，主要見於清代官刊文獻。“排山”指順山面排列而上的做法，“勾滴”指<term ref="/keyword/k000108">勾頭</term>和<term ref="/keyword/k000241">滴水</term>。在更強調排山這種做法時，又稱“鈴鐺排山” (劉大可 1993, 193; 王璞子 1995, 31)。</p>
+               <p xml:lang="zh-Hant" source="#biblk000239-4">關於“勾滴”，根據文獻和學者的研究，一般指“滴水”，即位於隴溝最下端，且瓦端有如意形或重唇形下垂的瓪瓦(劉敦楨 1932, 168; 梁和劉 1933, 160; 鮑, 劉和梁 1934, 12–13; 劉敦楨 1935, 165)；但在“排山勾滴”的語義下，“勾滴”應作複合詞，是“勾頭”和“滴水”的通稱(梁 1981, 37、78; 劉大可 1993, 168; 王 1995, 31)</p>
+            </note>
             <bibl xml:id="biblk000239-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed July 1, 2022</citedRange>
             </bibl>
+            <bibl xml:id="biblk000239-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">363</citedRange>
+            </bibl>
+            <ListBibl xml:id="biblk000239-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LCGUUHWR"/>
+                  <citedRange unit="pp">193</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/HXE4ZES5"/>
+                  <citedRange unit="pp">31</citedRange>
+               </bibl>
+            </ListBibl>
+            <ListBibl xml:id="biblk000239-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/J88A293N"/>
+                  <citedRange unit="pp">168</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/KAHIYUUN"/>
+                  <citedRange unit="pp">160</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SCYQYIF9"/>
+                  <citedRange unit="pp">12-13</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/BEPW4KNR"/>
+                  <citedRange unit="pp">165</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GJDWIU6M"/>
+                  <citedRange unit="pp">37、78</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LCGUUHWR"/>
+                  <citedRange unit="pp">168</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/HXE4ZES5"/>
+                  <citedRange unit="pp">31</citedRange>
+               </bibl>
+            </ListBibl>
             <listRelation>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52763297178_1628d6fffd_b.jpg" passive="https://architecturasinica.org/keyword/k000239" rendition="featured"> </relation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52763297178_d95b157b6c_o.jpg" passive="https://architecturasinica.org/keyword/k000239" rendition="featured"> </relation>
             <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000239" passive="roofing tiles"/>
             </listRelation>
