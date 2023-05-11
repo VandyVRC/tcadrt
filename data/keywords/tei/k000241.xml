@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">排山勾滴 </foreign>páishāngōudī</title>
+               <foreign xml:lang="zh-Hant">滴水 </foreign>dīshǚi</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -17,7 +17,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
-               <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
+               <name type="person" ref="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,77 +48,68 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2022-07-01-04:00">CREATED: record</change>
+         <change n="1.0" when="2023-05-10-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000241" type="architectural feature">
-            <term xml:id="term-k000241-5" xml:lang="zh-latn-pinyin-nt" source="#biblk000241-1">paishan goudi</term>
-            <term xml:id="term-k000241-2" xml:lang="zh-Hant">排山勾滴</term>
-            <term xml:id="term-k000241-3" xml:lang="zh-Hans">排山勾滴</term>
-            <term xml:id="term-k000241-4" xml:lang="zh-latn-pinyin" source="#biblk000241-1">páishān gōudī</term>
-            <term xml:id="term-k000241-6" xml:lang="zh-latn-wadegile">p'ai-shan kou-ti</term>
-            <term xml:id="term-k000241-7" xml:lang="en" source="#biblk000241-2">eaves tiles placed at the edges of the outward-projecting gable-roof parts in a hip-gable roof</term>
+            <term xml:id="term-k000241-5" xml:lang="zh-latn-pinyin-nt">dishui</term>
+            <term xml:id="term-k000241-2" xml:lang="zh-Hant">滴水</term>
+            <term xml:id="term-k000241-3" xml:lang="zh-Hans">滴水</term>
+            <term xml:id="term-k000241-4" xml:lang="zh-latn-pinyin">dīshǚi</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000241</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000241-3">The term paishan goudi 排山勾滴 combines the words paishan, referring to the practice of aligning rooftiles  (pai 排) along the slope of the gable end (shanmian 山面, lit. “mountain (peak)” “side”), and goudi, which refers to the <term ref="/keyword/k000108">goutou 勾頭</term> and <term ref="/keyword/k000241">dishui 滴水</term> capping tiles. In placing more emphasis on practice of paishan, it is also called “capping the gable-end tiles” (lingdang paisha 鈴鐺排山; lit. aligning bell clappers along the gable end; Liu 1993, 193; Wang 1995, 31).</p>
-               <p xml:lang="en" source="#biblk000241-4">Scholars have determined that <term ref="/keyword/k000238">goudi 勾滴</term> generally refers to dishui 滴水 (“drip tiles”), i.e. the tiles located at the lowest part of the roof with a “ruyi” 如意 or multi-lip 重唇-shape at the end of the plate tile (Liu 1932, 168; Liang and Liu 1933, 160; Bao, Liu and Liang 1934, 12-13; Liu 1935, 165). However, in the compound term paishan goudi, goudi should be understood as a combination of the abbreviated names of goutou and dishui (Liang 1982, 37, 78; Liu 1993, 168; Wang 1995, 31).</p>
-               <p xml:lang="zh-Hant" source="#biblk000241-3">“排山勾滴”是“排山”和“<term ref="/keyword/k000238">勾滴</term>”組合而成的瓦屋面術語，主要見於清代官刊文獻。“排山”指順山面排列而上的做法，“勾滴”指<term ref="/keyword/k000108">勾頭</term>和<term ref="/keyword/k000241">滴水</term>。在更強調排山這種做法時，又稱“鈴鐺排山” (劉大可 1993, 193; 王璞子 1995, 31)。</p>
-               <p xml:lang="zh-Hant" source="#biblk000241-4">關於“勾滴”，根據文獻和學者的研究，一般指“滴水”，即位於隴溝最下端，且瓦端有如意形或重唇形下垂的瓪瓦(劉敦楨 1932, 168; 梁和劉 1933, 160; 鮑, 劉和梁 1934, 12–13; 劉敦楨 1935, 165)；但在“排山勾滴”的語義下，“勾滴”應作複合詞，是“勾頭”和“滴水”的通稱(梁 1981, 37、78; 劉大可 1993, 168; 王 1995, 31)</p>
+               <p xml:lang="en" source="#biblk000241-1">The term dishui 滴水 (“dripping water”) as an architectural term is first found in Ming dynasty literature (Zhuo 1580, 5.9a).  The texts explain that dishui are located at the end of the eaves and that the end of the tile “hangs down,” but there is no description of the specific shape. Recent research and existing examples indicate that the term dishui can be understood in both a narrow and a broad sense. When modern scholars define dishui, they are usually referring specifically to the plate tile with a “ruyi”-shape 如意形 descending from the lowest end of the gutter tiles, especially in the context of Qing architecture. Thus, dishui can be used to distinguish Qing style buildings from Song style buildings, the latter of which more commonly employed “multi-lipped plate tiles” (<term ref="/keyword/k000106">chongchun banwa 重唇瓪瓦</term>)," as described in the the Song dynasty <title ref="https://tinyurl.com/4kzsjspc">Yingzao fashi</title> (Liang 1982, 85; Yao 1986, 111; Pan and He 2005, 157).
+               </p>
+               <p xml:lang="en" source="#biblk000241-2">More generally, dishui can be used to refer to any eaves gutter tile with an end that hangs down. The shape includes (but is not limited to) ruyi-shape, multi-lip-shaped (chongchun xing 重唇形), and floral border shaped (huabian xing 花邊形). In this broad understanding of dishui, the term refers to any gutter tile serving the function of protecting the eaves from water damage (Liang 1981, 36, Liu 1935; 2007, 163-226; Qi 1965).</p>
+               <p xml:lang="zh-Hant" source="#biblk000241-1, #biblk000241-2">作為建築術語的“滴水”最早見於明代文獻(卓 1580, 5.9a)，根據古代文獻可知“滴水”位於簷端，瓦的端部下垂，但未見對具體形態的描述。從學者的研究和現存實例來看，“滴水”可以作狹義與廣義兩種理解：當學者定義滴水時，往往特指隴溝最下端有如意形舌片下垂之瓪瓦，這種狹義理解的滴水也常用於宋清相對照的語境下，以區別于宋代<title ref="https://tinyurl.com/4kzsjspc">《營造法式》</title>中的“<term ref="/keyword/k000106">重唇瓪瓦</term>” （梁 1981：85；姚 1986：111；潘和何 2005：157.）；而學者在描述建築物屋面瓦件時，常使用“滴水”來泛指位於隴溝最下端，且瓦端下垂的瓪瓦，其形態包括但不限於如意形、重唇形、花邊形（梁 1981：36；劉 1935；2007：163-226；祁 1965），這是“滴水”的廣義理解。
+               </p>
             </note>
-            <bibl xml:id="biblk000241-1">
-               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
-               <citedRange>accessed July 1, 2022</citedRange>
-            </bibl>
-            <bibl xml:id="biblk000241-2">
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">363</citedRange>
-            </bibl>
-            <ListBibl xml:id="biblk000241-3">
+            <ListBibl xml:id="biblk000241-1">
                <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/LCGUUHWR"/>
-                  <citedRange unit="pp">193</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/HXE4ZES5"/>
-                  <citedRange unit="pp">31</citedRange>
-               </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000241-4">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/J88A293N"/>
-                  <citedRange unit="pp">168</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/KAHIYUUN"/>
-                  <citedRange unit="pp">160</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/SCYQYIF9"/>
-                  <citedRange unit="pp">12-13</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/BEPW4KNR"/>
-                  <citedRange unit="pp">165</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/2EWRU3TC"/>
+                  <citedRange unit="pp">5.9a</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/GJDWIU6M"/>
-                  <citedRange unit="pp">37、78</citedRange>
+                  <citedRange unit="pp">85</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/JCHZR2SN"/>
+                  <citedRange unit="pp">111</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">157</citedRange>
+               </bibl>
+            </ListBibl>
+            <ListBibl xml:id="biblk000241-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GJDWIU6M"/>
+                  <citedRange unit="pp">36</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/BEPW4KNR"/>
+                  <citedRange unit="pp">165-166</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="#FIXME: 2007"/>
+                  <citedRange unit="pp">163-226</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/HW86292S"/>
+                  <citedRange unit="pp">14-30, 33</citedRange>
                </bibl>
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/LCGUUHWR"/>
                   <citedRange unit="pp">168</citedRange>
                </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/HXE4ZES5"/>
-                  <citedRange unit="pp">31</citedRange>
-               </bibl>
+               
             </ListBibl>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52763297178_1628d6fffd_b.jpg" passive="https://architecturasinica.org/keyword/k000241" rendition="featured"> </relation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52763297178_d95b157b6c_o.jpg" passive="https://architecturasinica.org/keyword/k000241" rendition="featured"> </relation>
-            <relation ref="skos:broadMatch"
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52762775821_572bd8a1c1_b.jpg" passive="https://architecturasinica.org/keyword/k000241" rendition="featured"> </relation>
+               <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000241" passive="roofing tiles"/>
             </listRelation>
          </entryFree>
