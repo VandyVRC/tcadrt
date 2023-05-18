@@ -137,11 +137,13 @@
                   <term ref="/keyword/k000078">gé 閣</term>
                </p>
             </note>
-            <bibl xml:id="biblk000086-1">
+            <listBibl>            
+               <bibl xml:id="biblk000086-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">281</citedRange>               
             </bibl>
-            <ListBibl xml:id="biblk000086-2">
+            </listBibl>
+            <listBibl xml:id="biblk000086-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">365</citedRange>               
@@ -150,8 +152,8 @@
                   <ptr target="https://architecturasinica.org/bibl/T4X3IVHM"/>
                   <citedRange unit="pp">128</citedRange>   
                </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000086-3">
+            </listBibl>
+            <listBibl xml:id="biblk000086-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KW2K5RE"/>
                   <citedRange unit="pp">20</citedRange>               
@@ -160,8 +162,8 @@
                   <ptr target="https://architecturasinica.org/bibl/3AAZAAFL"/>
                   <citedRange unit="pp">88</citedRange>   
                </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000086-4">
+            </listBibl>
+            <listBibl xml:id="biblk000086-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">281</citedRange>               
@@ -174,7 +176,8 @@
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                   <citedRange unit="pp">45</citedRange>   
                </bibl>
-            </ListBibl>
+            </listBibl>
+            
             <listRelation>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52729641751_9c9f06713f_b.jpg" passive="https://architecturasinica.org/keyword/k000086" rendition="featured">
                </relation>
