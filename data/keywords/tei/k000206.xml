@@ -85,19 +85,17 @@
             </note>
             
             <note type="related concepts">
-               <p ref="/keyword/k000239">paishan goudi 排山勾滴</p>
-               <p>huafei 化廢</p>
+               <p ref="/keyword/k000239">páishān gōudī 排山勾滴</p>
+               <p>huàfèi 化廢</p>
                <p ref="http://vocab.getty.edu/page/aat/300002376">verges</p>
             </note>
-            <bibl xml:id="biblk000206-1">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">298</citedRange>
-            </bibl>
-            <bibl xml:id="biblk000206-2">
+            <listBibl xml:id="biblk000206-2"> 
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">42</citedRange>
             </bibl>
-            <ListBibl xml:id="biblk000206-3">
+            </listBibl>
+            <listBibl xml:id="biblk000206-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
                   <citedRange unit="pp">13.2a; 13.4b</citedRange>
@@ -114,8 +112,8 @@
                   <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                   <citedRange unit="pp">298</citedRange>
                </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000206-4">
+            </listBibl>
+            <listBibl xml:id="biblk000206-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/T5QHEK76"/>
                   <citedRange unit="pp">43.8b; 46.5b</citedRange>
@@ -124,7 +122,7 @@
                   <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
                   <citedRange unit="pp">37</citedRange>
                </bibl>
-            </ListBibl>
+            </listBibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000206" passive="roofing tiles"/>
