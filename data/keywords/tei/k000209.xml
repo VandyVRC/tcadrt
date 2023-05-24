@@ -64,21 +64,138 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000209" type="architectural feature">
-            <term xml:id="term-k000209-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000209-2">dipeng</term>
+         <entryFree xml:id="k000209" type="building type">
+            <term xml:id="term-k000209-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000209-1">dipeng</term>
             <term xml:id="term-k000209-2" xml:lang="zh-Hant">地棚</term>
             <term xml:id="term-k000209-3" xml:lang="zh-Hans">地棚</term>
             <term xml:id="term-k000209-4" xml:lang="zh-latn-pinyin" source="#biblk000209-2">dìpéng</term>
             <term xml:id="term-k000209-5" xml:lang="zh-latn-wadegile">ti-p'eng</term>
+            <term xml:id="term-k000209-6" xml:lang="en">raised ground covering (lit. ATTCAT 2022)</term>            
             <idno type="URI">https://architecturasinica.org/keyword/k000209</idno>
-            <bibl xml:id="biblk000209-1">
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000209-3">Dipeng (lit. “foundation shed”) (Kroll 2015, 84 and 338) was described in the small-scale carpentry (xiaomuzuo 小木作) section of the <title ref="https://tinyurl.com/m77p5hcw">Yingzao fashi</title> as a raised wood floor system designed for granaries and storehouses during the Song dynasty (Xu Shen 1978, 123; Zhu Junsheng 1848, 升部 shengbu 2.23b-24a; Duan Yucai 1815, 6.49b, Pan and He 2005, 134). The primary purpose was to create a wooden framework to elevate the floor above the ground to protect stored goods from humidity and groundwater (Xu Song 1957, 2727). Mention of dipeng used in common residential architecture can be found in textual sources after the Song dynasty, suggesting a more widespread use of this system  (Huang Juzhong (1629-1644), 15.14b; Lü zu zhi 呂祖志 (1522-1620), 3.8b). 
+               </p>
+               <p xml:lang="en" source="#biblk000209-4">The specific method of constructing dipeng is to place sleepers (duntian 敦㮇) on the ground, then layer a floor joists (fangzi 方子), followed by floorboards (dimianban 地面版)). The exposed sides of floor joists and floorboards should be covered by cover boards (zhexiuban 遮羞版) (Li 2009, 6.11a). Modern scholars generally view dipeng as an interior wooden floor system without devoting much time to investigating the term itself (Liang 2001,188; Pan and He 2005, 106; Chen 2010, 157).
+               </p>
+               <p xml:lang="zh-Hant" source="#biblk000209-5">地棚在宋代是主要用於倉庫的一種架空木地板結構。目的是形成架空層，一定程度上避免地面濕氣損壞倉庫内储存的物品 (徐 1957, 2727)。 宋代之后的文献中也有地棚用於普通房屋的記載，暗示了地棚可能有更廣泛的使用場合 (黄 1629-1644，15.14b;呂祖志 1522-1620 3.8b)。
+               </p>
+               <p xml:lang="zh-Hant" source="#biblk000209-4">地棚一词有在地面上搭起的下部架空的建築物之意 (許 1978,123; 朱 1848 升部2.23b-24a； 段 1815，6.49b, 潘和何 2005，134)。 《營造法式》中地棚屬於小木作部分。具體做法是地面上架設敦㮇和方子，方子上鋪設地面版，並用遮羞版遮擋方子和地面版露出的側面，在构造上獨立於建築主體。（徐 1957；李 2009， 6.11a）現代學者對此術語研究較少，基本認為是室內木地板（梁 2001,188；潘和何 2005，106；陳 2010,157）。
+               </p>
+            </note>
+            <listBibl xml:id="biblk000209-1">
+               <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">33</citedRange>
             </bibl>
+            </listBibl>
             <bibl xml:id="biblk000209-2">
                <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
                <citedRange unit="pp">157</citedRange>
             </bibl>
+            <listBibl xml:id="biblk000209-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">84, 338</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/Q3VFQDRP"/>
+                  <citedRange unit="pp">123</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XM8DJ5RF"/>
+                  <citedRange unit="pp">升部 shengbu 2.23b-24a</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/U5U9S66M"/>
+                  <citedRange unit="pp">6.49b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">134</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/JCYPW6YE"/>
+                  <citedRange unit="pp">2727</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/HDGP2TXS"/>
+                  <citedRange unit="pp">15.14b</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/4PUDGJJ6"/>
+                  <citedRange unit="pp">3.8b</citedRange>               
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000209-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.11a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IBU3ZPGZ"/>
+                  <citedRange unit="pp">188</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">106</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">157</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000209-5">               
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/JCYPW6YE"/>
+                  <citedRange unit="pp">2727</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/HDGP2TXS"/>
+                  <citedRange unit="pp">15.14b</citedRange> 
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/4PUDGJJ6"/>
+                  <citedRange unit="pp">3.8b</citedRange>               
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000209-6">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+                  <citedRange unit="pp">84, 338</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/Q3VFQDRP"/>
+                  <citedRange unit="pp">123</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/XM8DJ5RF"/>
+                  <citedRange unit="pp">升部 2.23b-24a</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/U5U9S66M"/>
+                  <citedRange unit="pp">6.49b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">134</citedRange>               
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">6.11a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/IBU3ZPGZ"/>
+                  <citedRange unit="pp">188</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">106</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">157</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000209" passive="foundations"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52736761524_cdf2d762f3_b.jpg" passive="https://architecturasinica.org/keyword/k000209" ana="featured"/>

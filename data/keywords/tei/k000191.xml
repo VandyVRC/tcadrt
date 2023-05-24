@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/odd4Taxonomy/out/odd4Taxonomy.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"
+?><?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">平水</foreign> píngshǔi</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="CY">CHEN Yinsiwei 陳寅思危</editor> 
+            <editor role="content-author" xml:id="JTL">JIA Tingli 贾亭立</editor> 
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research</resp>
+               <name type="team">CMW 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" ref="#ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry and adding links by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000191/tei</idno>  
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-05-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+            <change n="1.0" when="2023-05-10" who="#ZAL">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>   
+         <entryFree xml:id="k000191" type="architectural feature">
+            <term xml:id="term-k000191-1" xml:lang="zh-latn-pinyin-nt">pingshui</term>
+            <term xml:id="term-k000191-2" xml:lang="zh-Hant">平水</term>
+            <term xml:id="term-k000191-3" xml:lang="zh-Hans">平水</term>
+            <term xml:id="term-k000191-4" xml:lang="zh-latn-pinyin" >píngshǔi</term>
+            <term xml:id="term-k000191-5" xml:lang="zh-latn-wadegile">p'ing-shui</term>
+            <!--<note type="Gloss">             
+               <p xml:lang="en">Da'e is usually used to refer to over-sized column-top tie beams often found in the timber architecture of Shanxi and Shaanxi constructed during the <term subtype="dynasty" ref="/keyword/k000101">Yuan</term> period (thirteenth-fourteenth centuries).</p>
+               <p xml:lang="zh-Hant">大額一般指晉陝地區<term subtype="dynasty" ref="/keyword/k000101">元</term>代建築中材分巨大的橫梁。</p> 
+            </note> -->
+            <note type="Note">
+               <p xml:lang="en">Pingshui (lit. “level water”) can be defined as a method of compensating for the height difference between the purlins on the front/back (zhengmian 正面) and sides (shanmian 山面) of buildings with hip (<term ref="/keyword/k000125">wudian 廡殿</term>) or hip-gable (<term ref="/keyword/k000143">xieshan 歇山</term>) roofs, often by adding a board (dianban 墊板) above the pillar to lift the purlins. </p>
+               <p xml:lang="en">The term pingshui appears in the Qing dynasty Gongcheng zuofa (1734) and is related to the term <term ref="/keyword/k000224">jujia</term> (“lifting the frame”). At present there is no clear definition of pingshui in academic circles, and the following inferences are based on the description in the Gongcheng zuofa. Here pingshui appears in relation to the interior pillars (jinzhu 金柱) located on the two sides (shanmian) of a building. When determining the height of these pillars, the Gongcheng zuofa states the height of “pingshui” should be added (jia pingshui gao 加平水高; e.g. GCZF <title ref="https://tinyurl.com/2s3zkr9y">1.15</title>; <title ref="https://tinyurl.com/2p86zctj">3.43</title>). This is because the purlins perpendicular to the roof ridge (those supporting the hip, or hip of a hip-gable roof) are placed directly on top of pillars (or tuodun braces 柁橔, depending on the situation), whereas the purlins parallel to the roof ridge, are placed on top of crossbeams, and the crossbeams are in turn placed on top of the pillars (or tuodun braces). The difference in height, or “pingshui,” must be added to the pillars on the sides (shanmian 山面) in order to compensate for the height of the crossbeams on the front and back facade (zhengmian 正面). In this way the purlins along the sides can be level with those along the front and back facades. 
+               </p>
+               <p xml:lang="zh-Hant">平水為<term ref="/keyword/k000125">廡殿頂</term>、<term ref="/keyword/k000143">歇山頂</term>建築中為了使山面與正面桁条的高度相同而補足的高度。</p>
+               <p xml:lang="zh-Hant">和<term ref="/keyword/k000143">举架</term>相关的“平水”一词出现于《工程做法》。目前學界对“平水”沒有明確定義，現根據《工程做法》中的描述做出如下推斷。在《工程做法》中，“平水”一詞出現於廡殿頂建築的兩山並四角金柱、四角交金墩、脊瓜柱及歇山頂建築的踩步金柱、脊瓜柱等。在確定這幾種構件的上皮高度時，需加上 “平水” 的高度 （例如 GCZF <title ref="https://tinyurl.com/2s3zkr9y">1.15</title>；<title ref="https://tinyurl.com/2p86zctj">3.43</title>）。據此推斷，由於山面桁條直接架在柱或柁橔上，而沿面阔方向柱或坨墩之上先架梁，梁上再架桁条，山面與沿面闊方向的桁條就形成了高度差。增加的平水的高度正是為了補足正面桁条與山面桁條之间的這一高度差。由此山面與正面桁条可同高兜圈。</p> 
+            </note> 
+            <note type="related concepts">
+               <p><term xml:id="related-concept-k000191-1" ref="/keyword/k000114" xml:lang="zh-Hant">額 é</term></p>
+               <p><term xml:id="related-concept-k000191-2" ref="/keyword/k000097" xml:lang="zh-Hant">檐額 yán'é</term></p>
+              <p><term xml:id="related-concept-k000191-3" ref="/keyword/k000038" xml:lang="zh-Hant">闌額 lān'é</term></p>
+               <p><term xml:id="related-concept-k000191-4" ref="/keyword/k000224" xml:lang="zh-Hant">舉架 jǔjià</term></p>
+               <p><term xml:id="related-concept-k000191-5" xml:lang="zh-Hant">楣 méi</term></p>
+               <p><term xml:id="related-concept-k000191-6" xml:lang="zh-Hant">橫楣 héngméi</term></p>
+            </note>
+            <idno type="URI">https://architecturasinica.org/keyword/k000191</idno>
+            <listRelation>
+               <listRelation>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000191" passive="building frame"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52905463137_b1d49f5f12_b.jpg" passive="https://architecturasinica.org/keyword/k000191" ana="featured"/>
+               </listRelation>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

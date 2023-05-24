@@ -16,6 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="JT">JIA Tingli 賈亭立</editor>
             <editor role="content-author" xml:id="BL">BAO Lu 寶璐</editor>
+            <editor role="content-author" xml:id="DKQ">DOU Keqin 竇可親</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -96,14 +97,25 @@
             <term xml:id="term-k000108-5" xml:lang="zh-latn-wadegile">kou-t'ou</term>
             <term xml:id="term-k000108-6" xml:lang="en" type="literal_translation">hooked heads (lit.)</term>
             <term xml:id="term-k000108-1" xml:lang="en" >barrel tile ends</term>
-          <note type="Note">
-             <p xml:lang="en">A type of roofing tile. Term used in the <term ref="/keyword/k000070">Qing</term> court architectural manual, the <title ref="https://tinyurl.com/2p9jshsj">Gongcheng zuofa</title> (1734), to describe the type of <term ref="/keyword/k000109">barrel tile (tongwa 筒瓦)</term> which is used to cap the end of covering tiles at the eaves.</p>
-             <p xml:lang="zh-Hant">筒瓦的一種，剖面如 “┍—”，用於檐頭以遮擋檐部. “勾頭”見于<term ref="/keyword/k000051">明</term>以後的文獻，如<term ref="/keyword/k000070">清</term>工部《<title ref="https://tinyurl.com/2p9jshsj">工程做法</title>》</p>
+            
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000108-1">A goutou is the <term ref="/keyword/k000109">barrel tile</term> at the bottom of each tile row used to cap the ends (Liang 1981, 78). This term is commonly found in <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasty texts. An earlier term for this element is "<term ref="/keyword/k000110">wadang</term>".
+             </p>
+               <p xml:lang="zh-Hant" source="#biblk000108-1">“勾頭”是<term ref="/keyword/k000109">筒瓦</term>每隴最下有圓盤為頭之瓦 （梁 1981，78）。作為蓋瓦用於檐頭以遮擋檐部。<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>時期文獻中的勾頭如以前的 "<term ref="/keyword/k000110">瓦當</term>"。
+             </p>
           </note>
             <note type="related concepts">
-               <p ref="/keyword/k000110">瓦當 wǎdàng</p>
-               <p ref="/keyword/k000109">筒瓦 tǒngwǎ</p>
+               <p xml:id="related-concept-k000108-1" xml:lang="zh-Hant">瓦 wǎ</p>
+               <p xml:id="related-concept-k000108-2" xml:lang="zh-Hant" ref="/keyword/k000110">瓦當 wǎdàng</p>
+               <p xml:id="related-concept-k000108-3" xml:lang="zh-Hant">㼧瓦 tóngwǎ</p>
+               <p xml:id="related-concept-k000108-4" xml:lang="zh-Hant" ref="/keyword/k000109">筒瓦 tǒngwǎ</p>
+               <p xml:id="related-concept-k000108-5" xml:lang="zh-Hant" ref="/keyword/k000104">瓪瓦 bǎnwǎ</p>
+               <p xml:id="related-concept-k000108-6" xml:lang="en">antefixes</p>
             </note>
+          <bibl xml:id="biblk000108-1">
+             <ptr target="https://architecturasinica.org/bibl/GJDWIU6M"/>
+             <citedRange unit="pp">78</citedRange>
+          </bibl>
             <!--This is left as a template for bibliographic structure
 <bibl xml:id="biblk000104-2">
 <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>

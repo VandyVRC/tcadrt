@@ -94,12 +94,13 @@
             <term xml:id="term-k000086-6" xml:lang="en" source="#biblk000086-1">loft-building</term>
             
            <idno type="URI">https://architecturasinica.org/keyword/k000086</idno>
+            
            <note type="Note">
               <p xml:lang="en" source="#biblk000086-1">
                  Lou is generally understood to mean a multi-story building (two stories or more) or a loft-building (Kroll 2017, 281) elevated on a terrace or city wall. 
               </p>
               <p xml:lang="en">
-                 In historic texts the term lou usually denotes a building elevated either by means of multiple stories or man-made or natural platforms. The <term ref="/keyword/k000020">Eastern Han</term> classic <title ref="https://tinyurl.com/yf3attj5">Shuowen jiezi</title> defines lou as a structure with a layered wu 屋 (a roof, or a roofed structure). 
+                 Historically, lou as a type of traditional architecture usually designates a building elevated either by means of multiple stories or man-made or natural platforms. The <term ref="/keyword/k000020">Eastern Han</term> classic <title ref="https://tinyurl.com/yf3attj5">Shuowen jiezi</title> defines lou as a structure with a layered wu 屋 (a roof, or a roofed structure). 
               </p>
               <p xml:lang="en">
                  From the <term ref="/keyword/k000201">Warring States Period</term> to the <term ref="/keyword/k000070">Qing dynasty</term>, the architectural form of lou was usually one of two types:
@@ -137,11 +138,13 @@
                   <term ref="/keyword/k000078">gé 閣</term>
                </p>
             </note>
-            <bibl xml:id="biblk000086-1">
+            <listBibl xml:id="biblk000086-1">            
+               <bibl>
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">281</citedRange>               
-            </bibl>
-            <ListBibl xml:id="biblk000086-2">
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000086-2">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">365</citedRange>               
@@ -150,8 +153,8 @@
                   <ptr target="https://architecturasinica.org/bibl/T4X3IVHM"/>
                   <citedRange unit="pp">128</citedRange>   
                </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000086-3">
+            </listBibl>
+            <listBibl xml:id="biblk000086-3">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KW2K5RE"/>
                   <citedRange unit="pp">20</citedRange>               
@@ -160,8 +163,8 @@
                   <ptr target="https://architecturasinica.org/bibl/3AAZAAFL"/>
                   <citedRange unit="pp">88</citedRange>   
                </bibl>
-            </ListBibl>
-            <ListBibl xml:id="biblk000086-4">
+            </listBibl>
+            <listBibl xml:id="biblk000086-4">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                   <citedRange unit="pp">281</citedRange>               
@@ -174,7 +177,7 @@
                   <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
                   <citedRange unit="pp">45</citedRange>   
                </bibl>
-            </ListBibl>
+            </listBibl>
             <listRelation>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52729641751_9c9f06713f_b.jpg" passive="https://architecturasinica.org/keyword/k000086" rendition="featured">
                </relation>

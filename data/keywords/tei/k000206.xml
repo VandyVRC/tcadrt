@@ -64,23 +64,69 @@
    <text>
       <body>
          <entryFree xml:id="k000206" type="architectural feature">
-            <term xml:id="term-k000206-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000206-2">huafei</term>
+            <term xml:id="term-k000206-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000206-1">huafei</term>
             <term xml:id="term-k000206-2" xml:lang="zh-Hant">華廢</term>
             <term xml:id="term-k000206-3" xml:lang="zh-Hans">华废</term>
-            <term xml:id="term-k000206-4" xml:lang="zh-latn-pinyin" source="#biblk000206-2">huáfèi</term>
+            <term xml:id="term-k000206-4" xml:lang="zh-latn-pinyin" source="#biblk000206-1">huáfèi</term>
             <term xml:id="term-k000206-5" xml:lang="zh-latn-wadegile">hua-fei</term>
+            <term xml:id="term-k000206-6" xml:lang="en" source="#biblk000206-2">gable-eaves</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000206</idno>
-            <bibl xml:id="biblk000206-1">
+            
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000206-3">Meaning “ornate” (or “blossoming”) “end,” huafei 華廢 refers to the covering of the verges, the part of the roof beyond the vertical ridges of a gable end, with roof tiles, whereby the capping tiles (huatou tongwa 華頭㼧瓦 and <term ref="/keyword/k000106">chongchun banwa 重唇瓪瓦</term>) are aligned to be perpendicular to the vertical ridges (see figure). The term is found in texts as late as the Song dynasty (Li 2009, 13.2a; 13.4b) and is written huafei 化廢 (lit. “transforming the end”) in some literature (Guo 1368, 1.8b). Modern scholars are generally of the opinion that the tiles aligned perpendicular to the vertical ridges outside the two gables should be called huafei 華廢 (Liang 1983, 256; Chen 2010, 298).  </p>
+               <p xml:lang="en">From an archaeological perspective, by the <term type="dynasty" ref="/keyword/k000030">Han dynasty</term> we can already find examples of the finishing of gable-end verges in a manner similar to "huafei."</p>
+               <p xml:lang="en" source="#biblk000206-4">By the Qing dynasty, the term "huafei" is no longer seen in textual sources. In the  <title ref="https://tinyurl.com/wx83z57r">Gongcheng zuofa</title> the similar treatment of the gable end verges is called “<term ref="/keyword/k000239">paishan goudi 排山勾滴</term>” ([Qing] Gongbu 1773, 43.8b; 46.5b; Liang 1981, 37).</p> 
+               
+               <p xml:lang="zh-Hant" source="#biblk000206-3">指屋頂兩山垂脊之外的部分且採用垂直於屋脊排列華頭㼧瓦和<term ref="/keyword/k000106">重唇瓪瓦</term>的做法。該詞在古籍中至遲見於宋代文獻（李 2009, 13.2a;13.4b)，有的文獻中寫作“化廢” (郭 1368, 1.8b)。現代學者也普遍認為兩山垂脊之外垂直於垂脊排列瓦隴都可稱為“華廢” (梁 1983, 256; 陈 2010, 298) 。
+               </p>
+               <p xml:lang="zh-Hant">從考古材料來看，<term type="dynasty" ref="/keyword/k000030">漢代</term>明器中已有屋頂兩端垂直於山面垂脊或與垂脊呈一定角度排列瓦隴的形式，可視為“華廢”做法的早期形態。</p>
+               <p xml:lang="zh-Hant" source="#biblk000206-4"><term type="dynasty" ref="/keyword/k000070">清代</term>“華廢”一詞已不見使用，在<title ref="https://tinyurl.com/wx83z57r">《工程做法》</title>中，屋頂兩山垂脊之外的類似做法被稱為“<term ref="/keyword/k000239">排山勾滴</term>”([清]工部 1773, 43.8b；46.5b; 梁 1981, 37) 。
+               </p>
+            </note>
+            
+            <note type="related concepts">
+               <p ref="/keyword/k000239">páishān gōudī 排山勾滴</p>
+               <p>huàfèi 化廢</p>
+               <p ref="http://vocab.getty.edu/page/aat/300002376">verges</p>
+            </note>
+            <listBibl xml:id="biblk000206-2"> 
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
                <citedRange unit="pp">42</citedRange>
             </bibl>
-            <bibl xml:id="biblk000206-2">
-               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
-               <citedRange unit="pp">298</citedRange>
-            </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000206-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">13.2a; 13.4b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/AN82D6US"/>
+                  <citedRange unit="pp">1.8b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+                  <citedRange unit="pp">256</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">298</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000206-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/T5QHEK76"/>
+                  <citedRange unit="pp">43.8b; 46.5b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+                  <citedRange unit="pp">37</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <listRelation>
                   <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000206" passive="roofing tiles"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52909252587_d984fa8cd0_b.jpg" passive="https://architecturasinica.org/keyword/k000206" ana="featured"/>
                </listRelation>
             </listRelation>
          </entryFree>
