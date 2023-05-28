@@ -16,7 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="associate" xml:id="ZL">ZUO Lala 左拉拉</editor>
             <editor role="content-author" ref="#ZL">ZUO Lala 左拉拉</editor>
-            <editor role="content-author" xml:id="JY">Yinuo Jin</editor>
+            <editor role="content-author" xml:id="JY">JIN Yinuo 金一诺</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -73,6 +73,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2022-05-28" who="#ZAL">CREATED: record</change>
+         <change n="1.0" when="2023-05-24" who="#ZAL">Updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -105,10 +106,12 @@
                <p xml:lang="zh-Hant" source="#biblk000227-12">到了晚明，發展出以計成（1582-1642）、張南垣（1587-1671）為代表的假山新流派（曹 1980：79；計 1631：34-35；張 1638-1708）。計成、張南垣批評宋元流行的“小中見大”的假山風格（計 1631：3；黃 1610-1695），通過用土石再現大山一麓為遊賞者創造“身在此山中”的遊玩體驗（吳 1609-1672；計 1631：147，151）。明清園林中被建築化的假山，不僅與園林中的其它建築規模相當，還多被打造為有內部空間的可入、可遊之山，且時常與周邊建築結合形成豐富立體的組合（計 1631：148-167），例如從小盤谷和個園的假山中皆能一窺明清假山的這些建築化特點（周維權 1990：262，265-266）。
                </p>
             </note>
-            <note type="related concepts">
-               <p>小盤谷 xiǎopángǔ</p>
-               <p>个園 gèyuán</p>
+            <!--
+               <note type="related concepts">
             </note>
+               <p>小盤谷 Xiǎopángǔ</p>
+               <p>个園 Gèyuán</p>
+            -->
             <bibl xml:id="biblk000227-1">
                <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                <citedRange>accessed May 28, 2022</citedRange>
