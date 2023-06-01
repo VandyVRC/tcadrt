@@ -37,11 +37,14 @@
                <resp>Chinese proofreading by</resp>
                <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
                <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
-            </respStmt>
-            
+            </respStmt>            
             <respStmt>
                <resp>Data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+            <respStmt>
+               <resp>Entry of revised data and links by</resp>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt> 
@@ -75,6 +78,7 @@
          <change n="1.0" when="2022-05-28" who="#ZAL">CREATED: record</change>
          <change n="1.1" when="2023-03-19" who="#ZAL">added content, citations, links</change>
          <change n="1.2" when="2023-03-20" who="#TGM">added citations, links, images</change>
+         <change n="2.0" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
