@@ -19,6 +19,10 @@
                <resp>Data entry by</resp>
                <name type="person" ref="#CZ">CHEN Zhuo 陈卓</name>
             </respStmt>
+            <respStmt>
+               <resp>Entry of revised data and links by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -49,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2022-07-01-04:00">CREATED: record</change>
+         <change n="2.0" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
