@@ -42,6 +42,10 @@
                <resp>Data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
+            <respStmt>
+               <resp>Entry of revised data and links by</resp>
+               <name type="person" ref="#ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
          </titleStmt>
          <editionStmt> 
             <edition n="1.0"/>
@@ -74,6 +78,7 @@
          <change n="1.0" when="2022-05-28" who="#ZAL">CREATED: record</change>
          <change n="1.1" when="2023-03-20" who="#ZAL">added data, links</change>
          <change n="1.2" when="2023-03-20" who="#TGM">added image, links</change>
+         <change n="2.0" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
