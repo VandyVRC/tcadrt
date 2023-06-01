@@ -45,7 +45,7 @@
                <name type="person" xml:id="MT">MIAO Tongxi 繆彤茜</name>
             </respStmt>
             <respStmt>
-               <resp>Updating entry</resp>
+               <resp>Entry of revised data and links by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
@@ -81,6 +81,7 @@
          <change n="2.0" when="2021-04-16" who="#MT">add gloss</change>
          <change n="2.1" when="2021-05-06" who="#TGM">update gloss and authors</change>
          <change n="2.2" when="2022-07-14" who="#ZAL">updating entry</change>
+         <change n="2.3" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -183,8 +184,7 @@
                </relation>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52705293679_070c3821b1_b.jpg" passive="https://architecturasinica.org/keyword/k000086" rendition="featured">
                </relation>
-            </listRelation>
-            
+            </listRelation>            
          </entryFree>
       </body>
    </text>
