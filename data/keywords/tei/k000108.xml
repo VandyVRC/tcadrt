@@ -54,6 +54,10 @@
                <resp>Adding citation information 2021 by</resp>
                <name type="person" xml:id="ZX">ZHANG xuliang 張序亮</name>
             </respStmt>
+            <respStmt>
+               <resp>Entry of revised data and links by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -85,6 +89,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-18">CREATED: record</change>
          <change n="2.0" who="#TGM" when="2020-09-18">Adding AC and ZJ edits</change>
+         <change n="2.1" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
