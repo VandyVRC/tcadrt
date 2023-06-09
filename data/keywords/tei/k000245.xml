@@ -16,7 +16,7 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Entry of revised data and links by</resp>
+               <resp>Data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
@@ -58,8 +58,9 @@
             <term xml:id="term-k000245-2" xml:lang="zh-Hant">平棊</term>
             <term xml:id="term-k000245-3" xml:lang="zh-Hans">平棊</term>
             <term xml:id="term-k000245-4" xml:lang="zh-latn-pinyin" source="#biblk000245-1">píngqí</term>
-            <term xml:id="term-k000245-5" xml:lang="en" source="#biblk000245-2">flat, coffered ceiling using grids lager than ping'an</term>
-            <term xml:id="term-k000245-6" xml:lang="en" source="#biblk000245-3">'chessboard ceiling', decorated lattice ceiling</term>
+            <term xml:id="term-k000245-5" xml:lang="zh-latn-wadegile">p'ing-ch'i</term>
+            <term xml:id="term-k000245-6" xml:lang="en" source="#biblk000245-2">flat, coffered ceiling using grids lager than ping'an</term>
+            <term xml:id="term-k000245-7" xml:lang="en" source="#biblk000245-3">'chessboard ceiling', decorated lattice ceiling</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000245</idno>
             <note type="Note">
             </note>
@@ -84,7 +85,6 @@
                <citedRange unit="pp">62</citedRange>               
             </bibl>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/52762775821_572bd8a1c1_b.jpg" passive="https://architecturasinica.org/keyword/k000245" rendition="featured"> </relation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000245" passive="roofing tiles"/>
             </listRelation>
