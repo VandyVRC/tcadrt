@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000257/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000256/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -53,34 +53,34 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000257" type="architectural feature">
-            <term xml:id="term-k000257-1" xml:lang="zh-latn-pinyin-nt">dangong</term>
-            <term xml:id="term-k000257-2" xml:lang="zh-Hant">單栱</term>
-            <term xml:id="term-k000257-3" xml:lang="zh-Hans">单栱</term>
-            <term xml:id="term-k000257-4" xml:lang="zh-latn-pinyin">dāngǒng</term>
-            <term xml:id="term-k000257-5" xml:lang="zh-latn-wadegile" source="#biblk000257-3">tan-kung</term>
-            <term xml:id="term-k000257-6" xml:lang="en">Single arm (lit. ATTCAT 2023)</term>
-            <term xml:id="term-k000257-7" xml:lang="en" source="#biblk000257-1">dangong</term>
-            <term xml:id="term-k000257-8" xml:lang="en" source="#biblk000257-2">dangong</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000257</idno>
+         <entryFree xml:id="k000256" type="architectural feature">
+            <term xml:id="term-k000256-1" xml:lang="zh-latn-pinyin-nt">dangong</term>
+            <term xml:id="term-k000256-2" xml:lang="zh-Hant">單栱</term>
+            <term xml:id="term-k000256-3" xml:lang="zh-Hans">单栱</term>
+            <term xml:id="term-k000256-4" xml:lang="zh-latn-pinyin">dāngǒng</term>
+            <term xml:id="term-k000256-5" xml:lang="zh-latn-wadegile" source="#biblk000257-3">tan-kung</term>
+            <term xml:id="term-k000256-6" xml:lang="en">Single arm (lit. ATTCAT 2023)</term>
+            <term xml:id="term-k000256-7" xml:lang="en" source="#biblk000256-1">dangong</term>
+            <term xml:id="term-k000256-8" xml:lang="en" source="#biblk000256-2">dangong</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000256</idno>
             <note type="Note">
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000156">令栱 lìnggǒng</term></p>
                <p><term ref="/keyword/k000257">重栱 chónggǒng</term></p>
             </note>
-            <bibl xml:id="biblk000257-1">
+            <bibl xml:id="biblk000256-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
             </bibl>
-            <bibl xml:id="biblk000257-2">
+            <bibl xml:id="biblk000256-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>
-            <bibl xml:id="biblk000257-3">
+            <bibl xml:id="biblk000256-3">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
             </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
-               active="https://architecturasinica.org/keyword/k000257" passive="roofing tiles"/>
+               active="https://architecturasinica.org/keyword/k000256" passive="bracketing"/>
             </listRelation>
          </entryFree>
       </body>
