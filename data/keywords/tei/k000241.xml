@@ -16,8 +16,8 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry by</resp>
-               <name type="person" ref="ZAL">LI Zhixian 李知賢</name>
+               <resp>Entry of revised data and links by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,13 +48,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2023-05-10-04:00">CREATED: record</change>
+         <change n="1.0" when="2023-05-10-04:00">CREATED: record</change>         
+         <change n="2.0" when="2023-05-31" who="#ZAL">completed data entry</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000241" type="architectural feature">
-            <term xml:id="term-k000241-5" xml:lang="zh-latn-pinyin-nt">dishui</term>
+            <term xml:id="term-k000241-1" xml:lang="zh-latn-pinyin-nt">dishui</term>
             <term xml:id="term-k000241-2" xml:lang="zh-Hant">滴水</term>
             <term xml:id="term-k000241-3" xml:lang="zh-Hans">滴水</term>
             <term xml:id="term-k000241-4" xml:lang="zh-latn-pinyin">dīshǚi</term>

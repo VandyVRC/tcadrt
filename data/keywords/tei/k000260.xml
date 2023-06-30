@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">帳 </foreign>zhàng</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="YQY">YU Qingya 于清雅</editor>
+            <editor role="content-author" xml:id="YLN">YU Lina 俞莉娜</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000260/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-07-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2023-06-05-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000260" type="architectural feature">
+            <term xml:id="term-k000260-1" xml:lang="zh-latn-pinyin-nt">zhang</term>
+            <term xml:id="term-k000260-2" xml:lang="zh-Hant">帳</term>
+            <term xml:id="term-k000260-3" xml:lang="zh-Hans">帐</term>
+            <term xml:id="term-k000260-4" xml:lang="zh-latn-pinyin">zhàng</term>
+            <term xml:id="term-k000260-5" xml:lang="zh-latn-wadegile">chang</term>
+            <term xml:id="term-k000260-6" xml:lang="en" source="#biblk000260-1">Valance</term>
+            <term xml:id="term-k000260-7" xml:lang="en" source="#biblk000260-2">Canopied couch</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000260</idno>
+            <note type="Note">
+            </note>
+            <note type="related concepts">
+               <p>帳龕 zhàngkān</p>
+            </note>
+            <bibl xml:id="biblk000260-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">44</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000260-2">
+               <ptr target="#FIXME: Lin Wei-Chung's Screening the Chinese Interior: Architectonic and Architecturesque"/>
+               <citedRange unit="pp">81</citedRange>
+            </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch"
+               active="https://architecturasinica.org/keyword/k000260" passive="architectural ornament"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
