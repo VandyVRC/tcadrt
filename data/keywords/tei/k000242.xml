@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,6 +11,7 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="GPY">GAO Panyu 高攀玉</editor>
             <editor role="content-author" xml:id="LY">LIU Yan 劉妍</editor>
             <respStmt>
@@ -60,11 +63,11 @@
             <term xml:id="term-k000242-4" xml:lang="zh-latn-pinyin">záoruì</term>
             <term xml:id="term-k000242-5" xml:lang="zh-latn-wadegile">tsao-jui</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000242</idno>
-            <note type="Note">
+            <note type="Note"> 
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
-               active="https://architecturasinica.org/keyword/k000242" passive="joint components"/>
+                  active="https://architecturasinica.org/keyword/k000242" passive="joint components"/>
             </listRelation>
          </entryFree>
       </body>
