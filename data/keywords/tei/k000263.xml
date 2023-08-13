@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:tei="http://www.tei-c.org/ns/1.0" 
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">單枓隻替 </foreign>dāndǒuzhītì</title>
+               <foreign xml:lang="zh-Hant">單枓隻替 </foreign>dāndǒu zhītì</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="ZGJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -54,11 +59,11 @@
    <text>
       <body>
          <entryFree xml:id="k000263" type="architectural feature">
-            <term xml:id="term-k000263-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000263-1">dandouzhiti</term>
+            <term xml:id="term-k000263-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000263-1">dandou zhiti</term>
             <term xml:id="term-k000263-2" xml:lang="zh-Hant">單枓隻替</term>
             <term xml:id="term-k000263-3" xml:lang="zh-Hans">单斗只替</term>
-            <term xml:id="term-k000263-4" xml:lang="zh-latn-pinyin" source="#biblk000263-2">dāndǒuzhītì</term>
-            <term xml:id="term-k000263-5" xml:lang="zh-latn-wadegile">tan-tou-chih-t'i</term>
+            <term xml:id="term-k000263-4" xml:lang="zh-latn-pinyin" source="#biblk000263-2">dāndǒu zhītì</term>
+            <term xml:id="term-k000263-5" xml:lang="zh-latn-wadegile">tan-tou chih-t'i</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000263</idno>
             <note type="Note">
             </note>
