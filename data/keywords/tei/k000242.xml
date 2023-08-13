@@ -12,11 +12,15 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" xml:id="GPY">GAO Panyu 高攀玉</editor>
             <editor role="content-author" xml:id="LY">LIU Yan 劉妍</editor>
+            <editor role="content-author" xml:id="GPY">GAO Panyu 高攀玉</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#GPY">GAO Panyu 高攀玉</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
