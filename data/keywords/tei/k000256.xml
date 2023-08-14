@@ -9,11 +9,16 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="LL">LIU Lin 劉琳</editor>
-            <editor role="content-author" xml:id="ZGJ">ZHUGE Jing 諸葛淨</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#LL">LIU Lin 劉琳</name>
             </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
@@ -54,14 +59,12 @@
    <text>
       <body>
          <entryFree xml:id="k000256" type="architectural feature">
-            <term xml:id="term-k000256-1" xml:lang="zh-latn-pinyin-nt">dangong</term>
+            <term xml:id="term-k000256-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000256-1">dangong</term>
             <term xml:id="term-k000256-2" xml:lang="zh-Hant">單栱</term>
             <term xml:id="term-k000256-3" xml:lang="zh-Hans">单栱</term>
             <term xml:id="term-k000256-4" xml:lang="zh-latn-pinyin">dāngǒng</term>
-            <term xml:id="term-k000256-5" xml:lang="zh-latn-wadegile" source="#biblk000257-3">tan-kung</term>
+            <term xml:id="term-k000256-5" xml:lang="zh-latn-wadegile" source="#biblk000257-2">tan-kung</term>
             <term xml:id="term-k000256-6" xml:lang="en">Single arm (lit. ATTCAT 2023)</term>
-            <term xml:id="term-k000256-7" xml:lang="en" source="#biblk000256-1">dangong</term>
-            <term xml:id="term-k000256-8" xml:lang="en" source="#biblk000256-2">dangong</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000256</idno>
             <note type="Note">
             </note>
@@ -69,13 +72,15 @@
                <p><term ref="/keyword/k000156">令栱 lìnggǒng</term></p>
                <p><term ref="/keyword/k000257">重栱 chónggǒng</term></p>
             </note>
-            <bibl xml:id="biblk000256-1">
+            <listBibl xml:id="biblk000256-1">
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
             </bibl>
-            <bibl xml:id="biblk000256-2">
+            <bibl>
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>
-            <bibl xml:id="biblk000256-3">
+            </listBibl>
+            <bibl xml:id="biblk000256-2">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
             </bibl>
             <listRelation>
