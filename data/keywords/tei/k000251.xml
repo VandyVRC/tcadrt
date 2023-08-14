@@ -16,6 +16,10 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#WXY">WANG Xinyue 汪馨悅</name>
+            </respStmt>
+            <respStmt>
                <resp>Data entry by</resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
             </respStmt>
@@ -63,6 +67,7 @@
             <note type="Note">
             </note>
             <note type="related concepts">
+               <p><term ref="/keyword/k000248">溜金斗科 liūjīn dǒukē</term></p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"

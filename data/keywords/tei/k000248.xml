@@ -5,15 +5,20 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">溜金斗科 </foreign>liūjīndǒukē</title>
+               <foreign xml:lang="zh-Hant">溜金斗科 </foreign>liūjīn dǒukē</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="JTL">JIA Tingli 贾亭立</editor>
             <editor role="content-author" xml:id="WXY">WANG Xinyue 汪馨悅</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#WXY">WANG Xinyue 汪馨悅</name>
             </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
@@ -54,16 +59,16 @@
    <text>
       <body>
          <entryFree xml:id="k000248" type="architectural feature">
-            <term xml:id="term-k000248-1" xml:lang="zh-latn-pinyin-nt">liujindouke</term>
+            <term xml:id="term-k000248-1" xml:lang="zh-latn-pinyin-nt">liujin douke</term>
             <term xml:id="term-k000248-2" xml:lang="zh-Hant">溜金斗科</term>
             <term xml:id="term-k000248-3" xml:lang="zh-Hans">溜金斗科</term>
-            <term xml:id="term-k000248-4" xml:lang="zh-latn-pinyin">liūjīndǒukē</term>
-            <term xml:id="term-k000248-5" xml:lang="zh-latn-wadegile">liu-chin-tou-k'o</term>
+            <term xml:id="term-k000248-4" xml:lang="zh-latn-pinyin">liūjīn dǒukē</term>
+            <term xml:id="term-k000248-5" xml:lang="zh-latn-wadegile">liu-chin tou-k'o</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000248</idno>
             <note type="Note">
             </note>
             <note type="related concepts">
-               <p><term ref="/keyword/k000249">挑金斗科 tiāojīndǒukē</term></p>
+               <p><term ref="/keyword/k000249">挑金斗科 tiāojīn dǒukē</term></p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
