@@ -5,15 +5,20 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">橫架</foreign>héng jià</title>
+               <foreign xml:lang="zh-Hant">橫架</foreign>héngjià</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="WZC">WANG Zhicheng 王志成</editor>
-            <editor role="content-author" xml:id="ZGJ">ZHUGE Jing 諸葛淨</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#WZC">WANG Zhicheng 王志成</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
@@ -57,10 +62,13 @@
             <term xml:id="term-k000255-1" xml:lang="zh-latn-pinyin-nt">hengjia</term>
             <term xml:id="term-k000255-2" xml:lang="zh-Hant">橫架</term>
             <term xml:id="term-k000255-3" xml:lang="zh-Hans">横架</term>
-            <term xml:id="term-k000255-4" xml:lang="zh-latn-pinyin">héng jià</term>
+            <term xml:id="term-k000255-4" xml:lang="zh-latn-pinyin">héngjià</term>
             <term xml:id="term-k000255-5" xml:lang="zh-latn-wadegile">heng-chia</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000255</idno>
             <note type="Note">
+            </note>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000255">縱架 zòngjià</term></p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
