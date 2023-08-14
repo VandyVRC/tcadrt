@@ -9,11 +9,16 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="ZF">ZHAO Fei 趙菲</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="LY">LIU Yan 劉妍</editor>
+            <editor role="content-author" xml:id="ZF">ZHAO Fei 趙菲</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#ZF">ZHAO Fei 趙菲</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
@@ -61,6 +66,10 @@
             <term xml:id="term-k000252-5" xml:lang="zh-latn-wadegile">tung-liang</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000252</idno>
             <note type="Note">
+            </note>
+            <note type="related concepts">
+               <p> <term xml:lang="zh-Hant" ref="/keyword/k000045">梁 liáng</term></p>
+               <p> <term xml:lang="zh-Hant" ref="/keyword/k000028">栿 fú</term></p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
