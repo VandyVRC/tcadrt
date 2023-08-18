@@ -9,11 +9,16 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author" xml:id="YQY">YU Qingya 于清雅</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="YLN">YU Lina 俞莉娜</editor>
+            <editor role="content-author" xml:id="YQY">YU Qingya 于清雅</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#YQY">YU Qingya 于清雅</name>
             </respStmt>
             <respStmt>
                <resp>Data entry by</resp>
@@ -59,8 +64,8 @@
             <term xml:id="term-k000260-3" xml:lang="zh-Hans">帐</term>
             <term xml:id="term-k000260-4" xml:lang="zh-latn-pinyin">zhàng</term>
             <term xml:id="term-k000260-5" xml:lang="zh-latn-wadegile">chang</term>
-            <term xml:id="term-k000260-6" xml:lang="en" source="#biblk000260-1">Valance</term>
-            <term xml:id="term-k000260-7" xml:lang="en" source="#biblk000260-2">Canopied couch</term>
+            <term xml:id="term-k000260-6" xml:lang="en" source="#biblk000260-1">valance</term>
+            <term xml:id="term-k000260-7" xml:lang="en" source="#biblk000260-2">canopied couch</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000260</idno>
             <note type="Note">
             </note>
@@ -72,7 +77,7 @@
                <citedRange unit="pp">44</citedRange>
             </bibl>
             <bibl xml:id="biblk000260-2">
-               <ptr target="#FIXME: Lin Wei-Chung's Screening the Chinese Interior: Architectonic and Architecturesque"/>
+               <ptr target="https://architecturasinica.org/bibl/INV43AUB"/>
                <citedRange unit="pp">81</citedRange>
             </bibl>
             <listRelation>

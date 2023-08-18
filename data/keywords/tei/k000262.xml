@@ -5,15 +5,20 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">枓口跳</foreign>dǒu kǒu tiào</title>
+               <foreign xml:lang="zh-Hant">枓口跳</foreign>dǒukǒutiào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
-            <editor role="content-author" xml:id="ZGJ">ZHUGE Jing 諸葛淨</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#HJB">HU Jianbin 胡劍斌</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
@@ -57,7 +62,7 @@
             <term xml:id="term-k000262-1" xml:lang="zh-latn-pinyin-nt">doukoutiao</term>
             <term xml:id="term-k000262-2" xml:lang="zh-Hant">枓口跳</term>
             <term xml:id="term-k000262-3" xml:lang="zh-Hans">斗口跳</term>
-            <term xml:id="term-k000262-4" xml:lang="zh-latn-pinyin">dǒu kǒu tiào</term>
+            <term xml:id="term-k000262-4" xml:lang="zh-latn-pinyin">dǒukǒutiào</term>
             <term xml:id="term-k000262-5" xml:lang="zh-latn-wadegile">tou-k'ou-t'iao</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000262</idno>
             <note type="Note">

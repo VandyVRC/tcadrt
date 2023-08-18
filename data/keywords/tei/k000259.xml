@@ -5,15 +5,20 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">瓜子栱</foreign>guā zǐ gǒng</title>
+               <foreign xml:lang="zh-Hant">瓜子栱</foreign>guāzǐgǒng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="LL">LIU Lin 劉琳</editor>
-            <editor role="content-author" xml:id="ZGJ">ZHUGE Jing 諸葛淨</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>            
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#LL">LIU Lin 劉琳</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
@@ -57,7 +62,7 @@
             <term xml:id="term-k000259-1" xml:lang="zh-latn-pinyin-nt">guazigong</term>
             <term xml:id="term-k000259-2" xml:lang="zh-Hant">瓜子栱</term>
             <term xml:id="term-k000259-3" xml:lang="zh-Hans">瓜子栱</term>
-            <term xml:id="term-k000259-4" xml:lang="zh-latn-pinyin">guā zǐ gǒng</term>
+            <term xml:id="term-k000259-4" xml:lang="zh-latn-pinyin">guāzǐgǒng</term>
             <term xml:id="term-k000259-5" xml:lang="zh-latn-wadegile">kua-tzu-kung</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000259</idno>
             <note type="Note">
