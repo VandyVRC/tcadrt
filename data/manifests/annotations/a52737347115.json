@@ -1,0 +1,61 @@
+{
+  "@context": "http://www.shared-canvas.org/ns/context.json",
+  "@id": "https://architecturasinica.org/iiif/annotations/gallery/52737347115/a52737347115.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/0",
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+        "selector": {
+          "type": "oa:FragmentSelector",
+          "value": "xywh=866,501,120,135"
+        },
+        "within": {
+          "@id": "https://architecturasinica.org/iiif/manifest/gallery/52737347115/52737347115.json",
+          "@type": "sc:Manifest"
+        }
+      },
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/plain",
+          "chars": "chagong 插栱"
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/0",
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+        "selector": {
+          "type": "oa:FragmentSelector",
+          "value": "xywh=990,1026,103,178"
+        },
+        "within": {
+          "@id": "https://architecturasinica.org/iiif/manifest/gallery/52737347115/52737347115.json",
+          "@type": "sc:Manifest"
+        }
+      },
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/plain",
+          "chars": "chagong 插栱"
+        }
+      ]
+    }
+    ]
+}

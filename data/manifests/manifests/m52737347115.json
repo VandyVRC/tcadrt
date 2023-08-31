@@ -1,0 +1,107 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://architecturasinica.org/iiif/manifest/gallery/52737347115/52737347115.json",
+	"@type": "sc:Manifest",
+	"label": "chagong MMA DP341913",
+	"metadata": [
+        {
+            "label": "Title",
+            "value": "chagong MMA DP341913"
+        },
+		{
+			"label": "Description",
+			"value": 'Eastern Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h. 41 in. (104.1 cm) 東漢 鉛綠釉陶明器建築模型(image: MMA, Public Domain. <a href="https://www.metmuseum.org/art/collection/search/49519" rel="noreferrer nofollow">www.metmuseum.org/art/collection/search/49519</a>, modified by T. Miller, 2023)'
+		},
+		{
+			"label": "Date",
+			"value": "2023-03-09 15:02:53"
+		}
+	],
+	"description": [
+		{
+			"@value": 'Eastern Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h. 41 in. (104.1 cm) 東漢 鉛綠釉陶明器建築模型(image: MMA, Public Domain. <a href="https://www.metmuseum.org/art/collection/search/49519" rel="noreferrer nofollow">www.metmuseum.org/art/collection/search/49519</a>, modified by T. Miller, 2023)',
+			"@language": "en"
+		}
+	],
+	"logo": "https://iiif.library.vanderbilt.edu/iiif/2/vu_gallery_logo1.png/full/!100,100/0/default.jpg",
+	"attribution": "Architectura Sinica, work in the Public Domain",
+	"sequences": [
+		{
+			"@id": "http://eee8eea4-630d-481c-a328-befc6433d92c",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+					"@type": "sc:Canvas",
+					"label": "Full View",
+					"height": 2000,
+					"width": 1500,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1d54be0f-4f69-435e-9ff7-266c63a8b649",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.library.vanderbilt.edu/iiif/2/attcat%2F52737347115.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.library.vanderbilt.edu/iiif/2/attcat%2F52737347115.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+					            "width": 1500
+							},
+							"on": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd"
+						}
+					],
+					"related": "",
+					"otherContent": [
+						{
+							"@id": "https://architecturasinica.org/iiif/annotations/gallery/52737347115/a52737347115.json",
+							"@type": "sc:AnnotationList"
+						}
+					],
+					"metadata": [
+						{
+							"label": "Image attribution",
+							"value": "Architectura Sinica, work in the Public Domain"
+						}
+					]
+				}
+				]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right",
+	"viewingHint": "individuals"
+}
