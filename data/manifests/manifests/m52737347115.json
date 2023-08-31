@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://architecturasinica.org/iiif/manifest/gallery/52737347115/52737347115.json",
+	"@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json",
 	"@type": "sc:Manifest",
 	"label": "chagong MMA DP341913",
 	"metadata": [
@@ -9,17 +9,13 @@
             "value": "chagong MMA DP341913"
         },
 		{
-			"label": "Description",
-			"value": 'Eastern Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h. 41 in. (104.1 cm) 東漢 鉛綠釉陶明器建築模型(image: MMA, Public Domain. <a href="https://www.metmuseum.org/art/collection/search/49519" rel="noreferrer nofollow">www.metmuseum.org/art/collection/search/49519</a>, modified by T. Miller, 2023)'
-		},
-		{
 			"label": "Date",
 			"value": "2023-03-09 15:02:53"
 		}
 	],
 	"description": [
 		{
-			"@value": 'Eastern Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h. 41 in. (104.1 cm) 東漢 鉛綠釉陶明器建築模型(image: MMA, Public Domain. <a href="https://www.metmuseum.org/art/collection/search/49519" rel="noreferrer nofollow">www.metmuseum.org/art/collection/search/49519</a>, modified by T. Miller, 2023)',
+			"@value": "Easter Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h.41 in (104.1 cm) 東漢 鉛綠釉陶明器建築模型",
 			"@language": "en"
 		}
 	],
@@ -87,14 +83,14 @@
 					"related": "",
 					"otherContent": [
 						{
-							"@id": "https://architecturasinica.org/iiif/annotations/gallery/52737347115/a52737347115.json",
+							"@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/annotations/a52737347115.json",
 							"@type": "sc:AnnotationList"
 						}
 					],
 					"metadata": [
 						{
 							"label": "Image attribution",
-							"value": "Architectura Sinica, work in the Public Domain"
+							"value": "MMA, Public Domain"
 						}
 					]
 				}
