@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">把頭絞項作</foreign>bǎtóu jiǎoxiàngzuò</title>
+               <foreign xml:lang="zh-Hant">把頭絞項作</foreign> bǎtóu jiǎoxiàngzuò</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -54,18 +54,21 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:10">CREATED: record</change>
+         <change n="1.0" when="2023-09-01-11:10">updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000261" type="architectural feature">
-            <term xml:id="term-k000261-1" xml:lang="zh-latn-pinyin-nt">batoujiaoxiangzuo</term>
+            <term xml:id="term-k000261-1" xml:lang="zh-latn-pinyin-nt">batou jiaoxiangzuo</term>
             <term xml:id="term-k000261-2" xml:lang="zh-Hant">把頭絞項作</term>
             <term xml:id="term-k000261-3" xml:lang="zh-Hans">把头绞项作</term>
             <term xml:id="term-k000261-4" xml:lang="zh-latn-pinyin">bǎtóu jiǎoxiàngzuò</term>
             <term xml:id="term-k000261-5" xml:lang="zh-latn-wadegile">pa-t'ou chiao-hsiang-tso</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000261</idno>
-            <note type="Note">Under construction</note>
+            <note type="Note">
+               Under construction
+            </note>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000261" passive="building frame"/>
