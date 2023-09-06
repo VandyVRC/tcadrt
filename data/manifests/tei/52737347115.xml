@@ -113,6 +113,9 @@
                <annotation xml:id="http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/1" motivation="commenting" target="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json">
                   <note>chagong 插栱</note>
                </annotation>
+               <annotation xml:id="http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/1" motivation="commenting" target="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json">
+                  <note>chonggong 重栱</note>
+               </annotation>
                <!-- 
                <additional>
                   <adminInfo>
@@ -140,6 +143,9 @@
             </relation>
             <relation ref="keyword" active="https://architecturasinica.org/keyword/k000215" passive="https://architecturasinica.org/image/m52737347115">
             </relation>
+            <relation ref="keyword" active="https://architecturasinica.org/keyword/k000257" passive="https://architecturasinica.org/image/m52737347115">
+            </relation>
+            
          </listRelation>
       </body>
    </text>
