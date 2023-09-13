@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Gong Shuzi Shrine Complex <foreign xml:lang="zh-Hant">晉祠公輸子祠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Gongshuzi Shrine Complex <foreign xml:lang="zh-Hant">晉祠公輸子祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -46,13 +46,14 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2023-09-13-04:00">updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000048u" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048u-1" type="building-name" xml:lang="en">Gong Shuzi Shrine Complex</placeName>
+               <placeName xml:id="name000048u-1" type="building-name" xml:lang="en">Gongshuzi Shrine Complex</placeName>
                <placeName xml:id="name000048u-2" type="building-name" xml:lang="zh-Hant">公輸子祠</placeName>
                <placeName xml:id="name000048u-3" type="building-name" xml:lang="zh-Hans">公输子祠</placeName>
                <placeName xml:id="name000048u-4" type="building-name" xml:lang="zh-latn-pinyin">Gōngshūzicí</placeName>
@@ -67,26 +68,28 @@
                   <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048u-1">Gong Shuzi is the name of Lu Ban, the ancient craftsman, and a statue of him is worshiped in the main hall. The complex consists of a main hall of three bays, a surrounding wall, and an entry gateway. The original date of establishment is unknown and does not appear on Gao Ruxing’s Jinci zhitu. The statuary niche was repaired in the 8th year of the Yongzheng period (1730); the complex was repaired again in the 35th year of the Qianlong period (1770).</p></desc>
-               <!-- 
+                  <p source="#bibl000048u-1">Gongshuzi is the honorific name of Lu Ban 魯班, the ancient craftsman from the state of Lu 魯國. Originally named <persName>Gongshu Ban 公輸班</persName>, he is said to have lived during the <term ref="/keyword/k000200">Spring and Autumn Period</term> (770-476 BCE). A statue of him is worshiped in the main hall. The complex consists of a main hall of three bays, a surrounding wall, and an entry gateway. The original date of establishment is unknown and does not appear on Gao Ruxing’s Jinci zhitu. The statuary niche was repaired in the 8th year of the Yongzheng period (1730); the complex was repaired again in the 35th year of the Qianlong period (1770). The shrine complex is number 23 on the <placeName ref="/place/000048">Jin Shrines</placeName> site plan.</p></desc>
                   <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+                     <geo>37.708533 112.434278</geo>
                </location>
-               <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
-               </location>
-               -->
+               <!-- geolocated using Google Earth 2023-09-13-->
+
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">shrine</desc>
-                  <desc xml:lang="zh-latn-pinyin">Cí</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
                   <desc xml:lang="zh-Hant">祠</desc>
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <bibl xml:id="bibl000048u-1">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">194</citedRange>
-               </bibl>
+               <listBibl xml:id="bibl000048u-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">194</citedRange>
+                  </bibl>
+               </listBibl>
                <bibl xml:id="bibl000048u-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
