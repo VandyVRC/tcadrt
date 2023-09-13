@@ -62,7 +62,7 @@
                <placeName xml:id="name000048b-8" type="alternate" subtype="building-name" xml:lang="en">Water Mother Tower</placeName>
                <placeName xml:id="name000048b-9" type="alternate" subtype="building-name" xml:lang="zh-Hant">水母樓</placeName>
                <placeName xml:id="name000048b-10" type="alternate" subtype="building-name" xml:lang="zh-Hans">水母楼</placeName>
-               <placeName xml:id="name000048b-11" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Dressing Tower</placeName>
+               <placeName xml:id="name000048b-11" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Shuzhuanglou</placeName>
                <placeName xml:id="name000048b-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠梳妝樓</placeName>
                <placeName xml:id="name000048b-13" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠梳妆楼</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048b</idno>
@@ -107,7 +107,10 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000048b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597327531_010f33fb97_c.jpg"
-                  passive="https://architecturasinica.org/place/000048b" ana="featured"/>            
+                  passive="https://architecturasinica.org/place/000048b" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53170820632_8b32808878_h.jpg"
+                  passive="https://architecturasinica.org/place/000048b" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
