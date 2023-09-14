@@ -1,0 +1,88 @@
+{
+  "@context": "http://www.shared-canvas.org/ns/context.json",
+  "@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/annotations/a52737347115.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/0",
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+        "selector": {
+          "type": "oa:FragmentSelector",
+          "value": "xywh=891,551,83,81"
+        },
+        "within": {
+          "@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json",
+          "@type": "sc:Manifest"
+        }
+      },
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/plain",
+          "chars": "chagong 插栱"
+        }
+      ]
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/1",
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+        "selector": {
+          "type": "oa:FragmentSelector",
+          "value": "xywh=994,1129,73,79"
+        },
+        "within": {
+          "@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json",
+          "@type": "sc:Manifest"
+        }
+      },
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/plain",
+          "chars": "chagong 插栱"
+        }
+      ]
+    },
+        {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/2",
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "http://7e5e2ee0-aecb-410f-874c-5738e37280fd",
+        "selector": {
+          "type": "oa:FragmentSelector",
+          "value": "xywh=654,1043,128,94"
+        },
+        "within": {
+          "@id": "https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json",
+          "@type": "sc:Manifest"
+        }
+      },
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/plain",
+          "chars": "chonggong 重栱"
+        }
+      ]
+    }
+    ]
+}

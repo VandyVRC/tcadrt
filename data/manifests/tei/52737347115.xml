@@ -1,0 +1,152 @@
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">Central Watchtower (architectural model), MMA DP341913</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="HK">HUAN Kaijie 还凯洁</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision by</resp>
+               <name type="person" ref="#HK">HUAN Kaijie 还凯洁</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2021</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading by</resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading by</resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding various languages and revising title statement by</resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>updating by</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry by</resp>
+               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/image/m52737347115/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-08-31-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2023-08-31-04:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listObject>
+            <object xml:id="m52737347115">
+               <objectIdentifier>
+                  <objectName xml:lang="en">chagong MMA DP341913</objectName>
+                  <idno type="url">https://architecturasinica.org/image/m52737347115</idno>
+                  <idno type="iiif">https://iiif.library.vanderbilt.edu/iiif/2/attcat%2F52737347115.jpg/full/full/0/default.jpg</idno>
+                  <idno type="thumbnail">https://iiif.library.vanderbilt.edu/iiif/2/attcat%2F52737347115.jpg/full/100,/0/default.jpg</idno>
+                  <idno type="local">m52737347115</idno>
+                  <idno type="mma">MMA DP341913</idno>
+                  <institution/>
+               </objectIdentifier>
+               <msContents>
+                  <p>Easter Han dynasty tower (1-3rd cen. CE), Earthenware with green lead glaze, h.41 in (104.1 cm) 東漢 鉛綠釉陶明器建築模型</p>
+               </msContents>
+               <physDesc>
+                  <p/>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <p/>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <annotation xml:id="http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/0" motivation="commenting" target="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json">
+                  <note>chagong 插栱</note>
+               </annotation>
+               <annotation xml:id="http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/1" motivation="commenting" target="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json">
+                  <note>chagong 插栱</note>
+               </annotation>
+               <annotation xml:id="http://7e5e2ee0-aecb-410f-874c-5738e37280fd/annotation/1" motivation="commenting" target="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json">
+                  <note>chonggong 重栱</note>
+               </annotation>
+               <!-- 
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent when="1944">When it was discovered in 1925, the 2.5kg narrow gold beard was no longer attached
+                           to
+                           the mask and was reattached to the chin by use of a wooden dowel in 1944.</custEvent>
+                        <custEvent when="2014-08"> In August 2014 when the mask was removed from its display case for cleaning, the
+                           beard fell off again. Those working in the museum unadvisedly used a quick-drying
+                           epoxy to attempt to fix
+                           it, but left the beard off-centre. </custEvent>
+                        <custEvent when="2015-01">The damage was noticed and repaired in January 2015 by a German-Egyptian team who
+                           used beeswax, a material known to be used as adhesives by the ancient Egyptians.</custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+               -->
+            </object>
+         </listObject>
+         <!-- Not sure where relations belong -->
+         <listRelation>
+            <relation ref="manifest" active="https://architecturasinica.org/apps/tcadrt-data/data/manifests/manifests/m52737347115.json" passive="https://architecturasinica.org/image/m52737347115">
+            </relation>
+            <relation ref="annotation" active="https://architecturasinica.org/apps/tcadrt-data/data/manifests/annotations/a52737347115.json" passive="https://architecturasinica.org/image/m52737347115">
+            </relation>
+            <relation ref="keyword" active="https://architecturasinica.org/keyword/k000215" passive="https://architecturasinica.org/image/m52737347115">
+            </relation>
+            <relation ref="keyword" active="https://architecturasinica.org/keyword/k000257" passive="https://architecturasinica.org/image/m52737347115">
+            </relation>
+            
+         </listRelation>
+      </body>
+   </text>
+</TEI>
