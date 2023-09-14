@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Sansheng Shrine <foreign xml:lang="zh-Hant">晉祠三聖祠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Sansheng Shrine, gateway <foreign xml:lang="zh-Hant">晉祠三聖祠門樓</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -21,7 +21,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" ref="#WO">Waka Ogihara</name>
+               <name type="person" xml:id="LH">Liyu Huang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -29,7 +29,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048l/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048l1/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -51,19 +51,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
-         <change n="1.1" who="#TGM" when="2021-10-07-04:00">ADDED: images, reference to plan </change>
+         <change n="1.0" who="#LH" when="2023-09-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048l" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048l-1" xml:lang="en">Three Sages Shrine</placeName>
-               <placeName xml:id="name000048l-2" type="building-name" xml:lang="zh-Hant">三聖祠</placeName>
-               <placeName xml:id="name000048l-3" type="building-name" xml:lang="zh-Hans">三圣祠</placeName>
-               <placeName xml:id="name000048l-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí</placeName>
-               <placeName xml:id="name000048l-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu</placeName>
+            <place xml:id="place-000048l1" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048l1-1" xml:lang="en">Three Sages Shrine, gateway</placeName>
+               <placeName xml:id="name000048l1-2" type="building-name" xml:lang="zh-Hant">三聖祠門樓</placeName>
+               <placeName xml:id="name000048l1-3" type="building-name" xml:lang="zh-Hans">三圣祠门楼</placeName>
+               <placeName xml:id="name000048l1-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcíménlóu</placeName>
+               <placeName xml:id="name000048l1-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu-men-lou</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048l</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
