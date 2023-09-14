@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Shu Yu of Tang Shrine Complex <foreign xml:lang="zh-Hant">唐叔虞祠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Shu Yu of Tang Shrine Shanmen Gatehouse <foreign xml:lang="zh-Hant">唐叔虞祠山門</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -15,7 +15,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="WO">Waka Ogihara</name>
+               <name type="person" xml:id="QG">Qihan Gao</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048a/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048a1/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -45,19 +45,19 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+         <change n="1.0" who="#QG" when="2023-09-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048a-1" xml:lang="en">Shu Yu of Tang Shrine Complex</placeName>
-               <placeName xml:id="name000048a-2" type="building-name" xml:lang="zh-Hant">唐叔虞祠</placeName>
-               <placeName xml:id="name000048a-3" type="building-name" xml:lang="zh-Hans">唐叔虞祠</placeName>
-               <placeName xml:id="name000048a-4" type="building-name" xml:lang="zh-latn-pinyin">Táng Shū Yú cí</placeName>
-               <placeName xml:id="name000048a-5" type="building-name" xml:lang="zh-latn-wadegile">T'ang Shu Yü tz'u</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048a</idno>
+            <place xml:id="place-000048a1" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048a-1" xml:lang="en">Shu Yu of Tang Shrine Complex Shanmen Gatehouse</placeName>
+               <placeName xml:id="name000048a-2" type="building-name" xml:lang="zh-Hant">唐叔虞祠山門</placeName>
+               <placeName xml:id="name000048a-3" type="building-name" xml:lang="zh-Hans">唐叔虞祠山门</placeName>
+               <placeName xml:id="name000048a-4" type="building-name" xml:lang="zh-latn-pinyin">Táng Shū Yú cí shānmén</placeName>
+               <placeName xml:id="name000048a-5" type="building-name" xml:lang="zh-latn-wadegile">T'ang Shu Yü tz'u  </placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048a1</idno>
                <state type="existence" from="1770-01-01" to="1771-01-01">
                   <label>Date</label>
                   <desc>1770-1771</desc>
