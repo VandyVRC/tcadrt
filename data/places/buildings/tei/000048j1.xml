@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Wenchang Palace <foreign xml:lang="zh-Hant">文昌宮</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Wenchang Palace, Palace Gate <foreign xml:lang="zh-Hant">文昌宮宮門</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -15,7 +15,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="WO">Waka Ogihara</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000048j/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000048j1/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -45,32 +45,32 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+         <change n="1.0" who="#YYY" when="2023-09-14-04:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048j" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048j-1" xml:lang="en">Wenchang Palace</placeName>
-               <placeName xml:id="name000048j-2" type="building-name" xml:lang="zh-Hant">文昌宮</placeName>
-               <placeName xml:id="name000048j-3" type="building-name" xml:lang="zh-Hans">文昌宫</placeName>
-               <placeName xml:id="name000048j-4" type="building-name" xml:lang="zh-latn-pinyin">Wénchānggōng</placeName>
-               <placeName xml:id="name000048j-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-ch'ang-kung</placeName>
-               <placeName xml:id="name000048j-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉水七賢祠</placeName>
-               <placeName xml:id="name000048j-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋水七贤祠</placeName>
-               <placeName xml:id="name000048j-8" type="alternate" subtype="building-name" xml:lang="en">Jin River Seven Worthies Shrine</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048j</idno>
+            <place xml:id="place-000048j1" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048j1-1" xml:lang="en">Wenchang Palace Palace Gate</placeName>
+               <placeName xml:id="name000048j1-2" type="building-name" xml:lang="zh-Hant">文昌宮宮門</placeName>
+               <placeName xml:id="name000048j1-3" type="building-name" xml:lang="zh-Hans">文昌宫宫门</placeName>
+               <placeName xml:id="name000048j1-4" type="building-name" xml:lang="zh-latn-pinyin">Wénchānggōnggōngmén</placeName>
+               <placeName xml:id="name000048j1-5" type="building-name" xml:lang="zh-latn-wadegile">Wen-ch'ang-kung-kung-men</placeName>
+               <placeName xml:id="name000048j1-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉水七賢祠</placeName>
+               <placeName xml:id="name000048j1-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋水七贤祠</placeName>
+               <placeName xml:id="name000048j1-8" type="alternate" subtype="building-name" xml:lang="en">Jin River Seven Worthies Shrine</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048j1</idno>
                <state type="existence" from="1773-01-01" to="1773-01-01">
                   <label>Date</label>
                   <desc>1773</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048j-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048j1-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048j-1">The present structure was built in the 38th year of Qianlong period (1773). According to the stele inscription by Yang Eryou 楊二酉 documenting that construction, the shrine was originally a one-bay wide building on the south bank of the Earl of Zhi canal. During the Yongzheng period (1723-1736) it was moved to a location on the north side of the canal. In 1763, with the completion of the pagoda in Fengshengyuan 奉聖院, a new site was divined and the building was built on previous endowed temple lands (香火地) located north of the canal (JCZ 41-43).  Originally Jin River Worthies Shrine dedicated to 5 worthies and was located in the Jinxi Academy. In the 38 year of the Qianlong reign, when the Wenchang Temple-Palace was built, the shrine was moved to the central cavern below the Wenchang  ge-pavilion and was changed to include seven worthies, they are: from the Zhou dynasty: Yu Rang 豫讓 (mid-5th century BCE); from the Tang dynasty: Li Bai 李白 (701-762) and Bai Juyi 白居易 (772-846); from the Song dynasty: Fan Zhongyan 范仲淹 (989-1052) and Ouyang Xiu 歐陽修 (1007-1072); from the Ming dynasty: Yu Qian 于謙 (1398-1457) and Wang Qiong 王瓊 (1459-1532) (JCZ 43).</p>    
+                  <p source="#bibl000048j1-1"></p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -82,10 +82,10 @@
                -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">palace</desc>
-                  <desc xml:lang="zh-latn-pinyin">gōng</desc>
-                  <desc xml:lang="zh-Hant">宮</desc>
-                  <desc xml:lang="zh-Hans">宮</desc>
+                  <desc xml:lang="en">gatehouse</desc>
+                  <desc xml:lang="zh-latn-pinyin">gōngmén</desc>
+                  <desc xml:lang="zh-Hant">宮門</desc>
+                  <desc xml:lang="zh-Hans">宮门</desc>
                </trait>
                <listBibl xml:id="bibl000048j-1">
                   <bibl>
