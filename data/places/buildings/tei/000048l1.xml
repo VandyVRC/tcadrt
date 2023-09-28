@@ -73,11 +73,11 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l-1">Originally two temples dedicated to the Medicine King (Yaowang 藥王) and the True Lord  (Zhenjun 真君). In the second year of the Qianlong period (1737) they were combined into one temple and, with the addition of the Dragon King (Longwang 龍王) it was called the Shrine of the Three Kings 三王祠 which was later changed to the Shrine of the Three Sages. The Medicine King is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Black Dragon King at right. A short wall surrounds the building, and there is an entrance is through a fang 坊 gateway which serves as the front gate to the complex (Liu 1986, 32-33). This structure is number 13 on our plan of the site.</p>
+                  <p source="#bibl000048l-1" xml:lang="en"> The great gate (damen 大門) leading into the complex was likely added when the shrine was rebuilt in the second year of the Qianlong period (1737). A single bay wide with a gable roof. Liu Dapeng described it as a <term ref="/keyword/k000116">fang 坊</term> gateway (Liu 1986, 32-33). Also called a <term ref="/keyword/k000212">paifang 牌坊</term> (Liu 2016. 157), this is an architectural form which facilitates the installation of formal name-plaques pai 牌.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+                  <geo>37.708074 112.434529</geo>
                </location>
                <location type="verbatim">
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
@@ -104,12 +104,16 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000048l-3">
+                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                  <citedRange unit="pp">157</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048l" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51532184582_26182559ab_k.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_6853d795a6_o.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
+               <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

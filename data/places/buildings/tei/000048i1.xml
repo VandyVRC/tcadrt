@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Shrine to the Eastern Peak, gateway <foreign xml:lang="zh-Hant">東嶽祠</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="SK">Soonmin Kwon</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048i1/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2020-10-22-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SK" when="2023-09-14-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048i" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048i1-1" xml:lang="en">Shrine to the Eastern Peak</placeName>
+               <placeName xml:id="name000048i1-2" type="building-name" xml:lang="zh-Hant">東嶽祠</placeName>
+               <placeName xml:id="name000048i1-3" type="building-name" xml:lang="zh-Hans">东岳祠</placeName>
+               <placeName xml:id="name000048i1-4" type="building-name" xml:lang="zh-latn-pinyin">Dōngyuècí</placeName>
+               <placeName xml:id="name000048i1-5" type="building-name" xml:lang="zh-latn-wadegile">Tung-yüeh-tz'u</placeName>
+               <placeName xml:id="name000048i1-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">東嶽廟</placeName>
+               <placeName xml:id="name000048i1-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">东岳庙</placeName>
+               <placeName xml:id="name000048i1-8" type="alternate" subtype="building-name" xml:lang="en">Temple to the Eastern Peak</placeName>
+               <placeName xml:id="name000048i1-9" type="alternate" xml:lang="zh-latn-pinyin">Dōngyuèmiào</placeName>
+               <placeName xml:id="name000048i1-10" type="alternate" subtype="building-name" xml:lang="zh-Hant">泰山廟</placeName>
+               <placeName xml:id="name000048i1-11" type="alternate" subtype="building-name" xml:lang="en">Temple to the Mount Tai</placeName>
+               <placeName xml:id="name000048i1-12" type="alternate" subtype="building-name" xml:lang="zh-latn-pinyin">Taishanmiao</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048i1</idno>
+               <state type="existence" from="1342-01-01" to="1877-01-01">
+                  <label>Date</label>
+                  <desc>1342-1877</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048i-2" from="1279-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Yuan - Qing 1279 - 1912</desc>
+               </state>
+               <desc type="building-data" xml:lang="en"> 
+                  <p source="#bibl000048i1-1">The earliest documentation of a temple to the Eastern Peak at Jinci is in Wang Sicheng’s stele inscription of 1342 where it was called the Temple to Mount Tai (Taishanmiao 泰山廟). Gao Ruxing also shows a Temple to Mount Tai on his map of Jinci published in 1551 (Gao Ruxing, Taiyuan xianzhi 1/11a and Jinci zhitu )  and it was still called this in a 1567 repair inscription (JCZ 29).  However, Liu Dapeng was uncertain of the age of the temple. By his time, the temple had also been changed from Temple to Mount Tai to Shrine to the Eastern Peak (Dongyueci 東嶽祠). The shrine was repaired in 1825 and 1877 (JCZ 29).</p>    
+               </desc>
+               <!-- 
+                  <location type="gps" subtype="preferred">
+                  <geo>37.708727 112.434575</geo>
+               </location>
+               <location type="verbatim">
+                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">shrine</desc>
+                  <desc xml:lang="zh-latn-pinyin">cí</desc>
+                  <desc xml:lang="zh-Hant">祠</desc>
+                  <desc xml:lang="zh-Hans">祠</desc>
+               </trait>
+               <listBibl xml:id="bibl000048i1-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">29</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">190</citedRange>
+                  </bibl>
+               </listBibl> 
+               <bibl xml:id="bibl000048i1-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048i" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048i" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
