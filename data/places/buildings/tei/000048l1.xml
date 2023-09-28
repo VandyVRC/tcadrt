@@ -51,7 +51,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#LH" when="2023-09-14-04:00">CREATED: place record</change>
+         <change n="1.0" who="#LH" when="2023-09-14-04:00">CREATED: building page</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -73,7 +73,7 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l-1" xml:lang="en"> The great gate (damen 大門) leading into the complex was likely added when the shrine was rebuilt in the second year of the Qianlong period (1737). A single bay wide with a gable roof. Liu Dapeng described it as a <term ref="/keyword/k000116">fang 坊</term> gateway (Liu 1986, 32-33). Also called a <term ref="/keyword/k000212">paifang 牌坊</term> (Liu 2016. 157), this is an architectural form which facilitates the installation of formal name-plaques pai 牌.</p>
+                  <p source="#bibl000048l1-1" xml:lang="en"> The great gate (damen 大門) leading into the complex was likely added when the shrine was rebuilt in the second year of the Qianlong period (1737). A single bay wide with a gable roof. Liu Dapeng described it as a <term ref="/keyword/k000116">fang 坊</term> gateway (Liu 1986, 32-33). Also called a <term ref="/keyword/k000212">paifang 牌坊</term> (Liu 2016. 157), this is an architectural form which facilitates the installation of formal name-plaques pai 牌.</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -90,24 +90,15 @@
                   <desc xml:lang="zh-Hant">祠</desc>
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
-               <listBibl xml:id="bibl000048l-1">
+               <listBibl xml:id="bibl000048l1-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">32-33</citedRange>
                   </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">191</citedRange>
-               </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange unit="pp">157</citedRange>
+                  </bibl>
                </listBibl>
-               <bibl xml:id="bibl000048l-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000048l-3">
-                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                  <citedRange unit="pp">157</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
