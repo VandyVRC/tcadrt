@@ -49,7 +49,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
+         <change n="1.0" who="#QG" when="2023-09-28-04:00">CREATED: building page</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +67,7 @@
                   >Táng Shū Yú cí guò diàn </placeName>
                <placeName xml:id="name000048a2-5" type="building-name" xml:lang="zh-latn-wadegile"
                   >T'ang Shu Yü tz'u</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000048a</idno>
+               <idno type="URI">https://architecturasinica.org/place/000048a2</idno>
                <state type="existence" from="1770-01-01" to="1771-01-01">
                   <label>Date</label>
                   <desc>1770-1771</desc>
@@ -81,7 +82,7 @@
                      axis after the entering gatehouse. It has a single-eave juanpeng 卷棚 style. The
                      plan of this structure is square with both depth and width being three bays.
                      There is a set of Yuan Dynasty music attendant clay sculptures inside of the
-                     passage hall (Liu et al., 2015, vol. 2, 45)..</p>
+                     passage hall (Liu et al., 2015, vol. 2, 45).</p>
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -107,7 +108,8 @@
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                      <citedRange unit="pp">59-79; 187</citedRange>
                   </bibl>
-               </listBibl>  <bibl xml:id="bibl000048a2-2">
+               </listBibl> 
+               <bibl xml:id="bibl000048a2-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
@@ -120,11 +122,12 @@
                   ref="schema:containedInPlace"
                   passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
+                  active="https://live.staticflickr.com/65535/53217719172_cf28062ae4_o.jpg"
                   passive="https://architecturasinica.org/place/000048a2" ana="featured"/>
-               <relation ref="foaf:depicts"
+               <!--<relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
                   passive="https://architecturasinica.org/place/000048a2" ana="featured"/>
+                  -->
             </listRelation>
          </listPlace>
       </body>
