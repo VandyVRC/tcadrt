@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Shrine to the Eastern Peak, gateway <foreign xml:lang="zh-Hant">東嶽祠</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Shrine to the Eastern Peak, gateway <foreign xml:lang="zh-Hant">東嶽祠門樓</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -52,8 +52,8 @@
       <body>
          <listPlace>
             <place xml:id="place-000048i" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048i1-1" xml:lang="en">Shrine to the Eastern Peak</placeName>
-               <placeName xml:id="name000048i1-2" type="building-name" xml:lang="zh-Hant">東嶽祠</placeName>
+               <placeName xml:id="name000048i1-1" xml:lang="en">Shrine to the Eastern Peak, gateway</placeName>
+               <placeName xml:id="name000048i1-2" type="building-name" xml:lang="zh-Hant">東嶽祠門樓</placeName>
                <placeName xml:id="name000048i1-3" type="building-name" xml:lang="zh-Hans">东岳祠</placeName>
                <placeName xml:id="name000048i1-4" type="building-name" xml:lang="zh-latn-pinyin">Dōngyuècí</placeName>
                <placeName xml:id="name000048i1-5" type="building-name" xml:lang="zh-latn-wadegile">Tung-yüeh-tz'u</placeName>
@@ -69,12 +69,12 @@
                   <label>Date</label>
                   <desc>1342-1877</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048i-2" from="1279-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048i1-2" from="1279-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Yuan - Qing 1279 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en"> 
-                  <p source="#bibl000048i1-1">The earliest documentation of a temple to the Eastern Peak at Jinci is in Wang Sicheng’s stele inscription of 1342 where it was called the Temple to Mount Tai (Taishanmiao 泰山廟). Gao Ruxing also shows a Temple to Mount Tai on his map of Jinci published in 1551 (Gao Ruxing, Taiyuan xianzhi 1/11a and Jinci zhitu )  and it was still called this in a 1567 repair inscription (JCZ 29).  However, Liu Dapeng was uncertain of the age of the temple. By his time, the temple had also been changed from Temple to Mount Tai to Shrine to the Eastern Peak (Dongyueci 東嶽祠). The shrine was repaired in 1825 and 1877 (JCZ 29).</p>    
+                  <p source="#bibl000048i1-1">The shrine complex is entered through a single-bay gateway with an arched, juanpeng 卷棚 style, overhanging-gable roof. Through this entry, one gains access to a small courtyard of approximately 466 square meters, which is separated from the rest of the complex by a low wall (Liu et al., 2015, vol. 7, 1).</p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -93,12 +93,8 @@
                </trait>
                <listBibl xml:id="bibl000048i1-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">29</citedRange>
-                  </bibl>
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                     <citedRange unit="pp">190</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange>vol. 7, 1</citedRange>
                   </bibl>
                </listBibl> 
                <bibl xml:id="bibl000048i1-2">
