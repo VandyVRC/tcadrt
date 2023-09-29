@@ -70,7 +70,10 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048j2-1"></p>    
+                  <p source="#bibl000048j2-1">The main hall of the Wenchang Palace is a two-story structure at the north end of the complex. The lower floor is composed of three cave like (yaodong窯洞) chambers and is called the Shrine to the Seven Worthies (Qixianci七賢祠). Here seven individuals important to the literati community at Jinci are honored. Inside the shallow cave on the west side is a stone carving of the “Epitaph of Wenchang Emperor” written by Fu Shan. The calligraphy is in small standard script (xiaokai小楷) and possesses a unique charm, making it a remarkable piece. On the east side there is a stone carving depicting the panoramic view of the Jin Shrines during the reign of Emperor Guangxu in the late Qing Dynasty. This carving is a valuable resource for studying the evolution of the Jin Shrines during that time period.
+                     
+                     The upper story is the Wenchang pavilion (Wenchangge 文昌閣), where Wenchang, a deity known for aiding imperial exam candidates, is venerated. Elevated galleries are built on both the left and right sides of the pavilion, with the words “Poetry Pavilion” inscribed on the wall.  The corridor walls feature a poem titled “Jinci neiwai bajing shi 晉祠內外八景詩” (Eight Scenic Views Inside and Outside the Jin Shrines), written by Yang Yu in the 42nd year of the Qianlong reign period (1777). Steps are provided on both sides for visitors to enjoy the scenery. 
+                  </p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -105,7 +108,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048j" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048j2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048j"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048j2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048j"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048j2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/53218745368_2a341872e6_h.jpg"
                   passive="https://architecturasinica.org/place/000048j2" ana="featured"/>
