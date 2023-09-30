@@ -111,10 +111,10 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
-                  passive="https://architecturasinica.org/place/000048a" ana="featured"/>
+                  passive="https://architecturasinica.org/place/000048a1" ana="featured"/>
         
             </listRelation>
          </listPlace>
