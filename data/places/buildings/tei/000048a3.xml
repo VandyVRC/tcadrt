@@ -65,7 +65,7 @@
                <placeName xml:id="name000048a3-4" type="building-name" xml:lang="zh-latn-pinyin"
                   >Táng Shū Yú cí Zhèng diàn</placeName>
                <placeName xml:id="name000048a3-5" type="building-name" xml:lang="zh-latn-wadegile"
-                  >T'ang Shu Yü tz'u </placeName>
+                  >T'ang Shu Yü tz'u cheng tien </placeName>
                <idno type="URI">https://architecturasinica.org/place/000048a3</idno>
                <state type="existence" from="1770-01-01" to="1771-01-01">
                   <label>Date</label>
@@ -77,7 +77,7 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048a3-1">Main Hall: The main hall is located at the north end
+                  <p source="#bibl000048a3-1">The main hall is located at the north end
                      of this north-south-oriented shrine complex. It is three bays deep and five
                      bays wide with hip-gable (xieshan 歇山) roof. There is a statue of Tang Shuyu
                      inside of the main hall, and the pillars in front of the statue are decorated
@@ -120,10 +120,10 @@
                   ref="schema:containedInPlace"
                   passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50596585608_66f72c577f_o.jpg"
+                  active=""
                   passive="https://architecturasinica.org/place/000048a3" ana="featured"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
+                  active= "https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
                   passive="https://architecturasinica.org/place/000048a3" ana="featured"/>
             </listRelation>
          </listPlace>
