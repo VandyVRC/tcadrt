@@ -52,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#ZYY" when="2021-09-23">CREATED: place record</change>
+         <change n="1.0" who="#TGM" when="2023-09-30">edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,34 +69,31 @@
                <placeName xml:id="name000048ua-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠會仙橋</placeName>
                <placeName xml:id="name000048ua-13" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠会仙桥</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ua</idno>
-               <!-- <state type="existence" from="1563-01-01" to="1563-01-01">
+              <state type="existence" from="1551-01-01">
                   <label>Date</label>
-                  <desc>1563</desc>
+                  <desc>before 1551 CE</desc>
                </state>
-                -->
-               <state type="existence" subtype="dynasty" source="#bibl000048ua-2" from="1644-01-01" to="1912-01-01">
+               <state>
                   <label>Dynasty</label>
-                  <desc>Qing 1644 - 1912</desc>
+                  <desc>established before or during the Ming 1368-1644</desc>
                </state>
                
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048ua-1"> Original date of construction unknown. A bridge appears in this location on
-                     Gao Ruxing's Jinci zhitu. According to Liu Dapeng, legend has it that in the
+                  <p source="#bibl000048ua-1"> The original date of construction unknown. A bridge already appears in this location on
+                     map of Jinci (Jinci zhitu 晋祠之图) included in the Taiyuan gazetteer by Gao Ruxing 高汝行, from 1551. According to the twentieth-century account by Liu Dapeng 劉大鵬, legend has it that in the
                      past, on the 14th day of the 4th month, transcendents meet on this bridge. This structure is number 40 on our plan of the site.</p>
                     
                </desc>
-               
-               <!-- 
-                  <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+               <location type="gps" subtype="preferred">
+                  <geo>37.708198 112.435474</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+                  <note>Google Earth, 2023-09-30</note>
                </location>
-               -->
+
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">bridger</desc>
+                  <desc xml:lang="en">bridge</desc>
                   <desc xml:lang="zh-latn-pinyin">qiao</desc>
                   <desc xml:lang="zh-Hant">橋</desc>
                   <desc xml:lang="zh-Hans">桥</desc>
