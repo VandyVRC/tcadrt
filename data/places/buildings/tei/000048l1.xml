@@ -58,12 +58,12 @@
       <body>
          <listPlace>
             <place xml:id="place-000048l1" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048l1-1" xml:lang="en">Three Sages Shrine, Great Gate</placeName>
+               <placeName xml:id="name000048l1-1" xml:lang="en">Three Sages Shrine, great gate</placeName>
                <placeName xml:id="name000048l1-2" type="building-name" xml:lang="zh-Hant">三聖祠門樓</placeName>
                <placeName xml:id="name000048l1-3" type="building-name" xml:lang="zh-Hans">三圣祠门楼</placeName>
                <placeName xml:id="name000048l1-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí ménlóu</placeName>
                <placeName xml:id="name000048l1-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu men-lou</placeName>
-               <placeName xml:id="name000048l1-6" xml:lang="en">Sansheng Shrine, Great Gate</placeName>
+               <placeName xml:id="name000048l1-6" type="building-name" xml:lang="en">Sansheng Shrine, great gate</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048l1</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
@@ -76,12 +76,12 @@
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000048l1-1" xml:lang="en"> The great gate (damen 大門) leading into the complex was likely added when the shrine was rebuilt in the second year of the Qianlong period (1737). A single bay wide with a gable roof. Liu Dapeng described it as a fang 坊 gateway (Liu 1986, 32-33). Also called a <term ref="/keyword/k000212">paifang 牌坊</term> (Liu 2016. 157), this is an architectural form which facilitates the installation of formal name-plaques pai 牌.</p>
                </desc>
-               <!-- 
                   <location type="gps" subtype="preferred">
-                  <geo>37.708074 112.434529</geo>
+                  <geo>37.708113 112.434722</geo>
                </location>
+               <!--
                <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+                  <note>Located using Google Earth 2023-10-3</note>
                </location>
                -->
                <trait type="type" sub-type="building type">

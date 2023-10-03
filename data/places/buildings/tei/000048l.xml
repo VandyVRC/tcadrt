@@ -18,6 +18,7 @@
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
                <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id="LH">Liyu Huang</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
@@ -53,6 +54,7 @@
       <revisionDesc>
          <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
          <change n="1.1" who="#TGM" when="2021-10-07-04:00">ADDED: images, reference to plan </change>
+         <change n="1.2" who="#LH" when="2023-10-03-04:00">EDITED: building details </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,6 +66,7 @@
                <placeName xml:id="name000048l-3" type="building-name" xml:lang="zh-Hans">三圣祠</placeName>
                <placeName xml:id="name000048l-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí</placeName>
                <placeName xml:id="name000048l-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu</placeName>
+               <placeName xml:id="name000048l-6" type="building-name" xml:lang="en">Sansheng Shrine</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048l</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
@@ -74,14 +77,15 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l-1">Originally two temples dedicated to the Medicine King (Yaowang 藥王) and the True Lord  (Zhenjun 真君). In the second year of the Qianlong period (1737) they were combined into one temple and, with the addition of the Dragon King (Longwang 龍王) it was called the Shrine of the Three Kings 三王祠 which was later changed to the Shrine of the Three Sages. The Medicine King is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Black Dragon King at right. A short wall surrounds the building, and there is an entrance is through a fang 坊 gateway which serves as the front gate to the complex (Liu 1986, 32-33). This structure is number 13 on our plan of the site.</p>
+                  <p>The Sanshengci, or Three Sages Shrine, is located on the southern side of the Early of Zhi canal (<term ref="/place/000048g">Zhi Bo qu 知伯渠</term>). The current building complex consists of a main hall (zhengting 正廳) surrounded by a low wall, all of which are raised on a 1.5 meter high terrace forming a level foundation for the site. One enters the complex by way of a narrow staircase through a single-bay roofed gateway holding a formal name-plaque. This complex is number 13 on our plan of the site.</p>
+                  <p source="#bibl000048l-1">According to Liu Dapeng’s Jincizhi, originally there were separate temples to two of the divinities currently worshipped here. One was dedicated to the Medicine King (Yaowang 藥王) and another to the True Lord (Zhenjun 真君). In the second year of the Qianlong reign period (1737 CE) they were combined into one temple and, because of the addition of the Dragon King (Longwang 龍王), it was renamed the Shrine of the Three Kings 三王祠. The name was later changed to the Shrine of the Three Sages (Liu 1986, 32-33; Miller 2007, 191).</p>
                </desc>
-               <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
                </location>
+               <!-- 
                <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+                  <note>Located using Google Earth 2023-10-3</note>
                </location>
                -->
                <trait type="type" sub-type="building type">
@@ -101,10 +105,6 @@
                   <citedRange unit="pp">191</citedRange>
                </bibl>
                </listBibl>
-               <bibl xml:id="bibl000048l-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>

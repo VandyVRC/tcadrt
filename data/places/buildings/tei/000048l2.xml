@@ -58,12 +58,12 @@
       <body>
          <listPlace>
             <place xml:id="place-000048l2" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048l2-1" xml:lang="en">Three Sages Shrine, Main Hall</placeName>
+               <placeName xml:id="name000048l2-1" xml:lang="en">Three Sages Shrine, main hall</placeName>
                <placeName xml:id="name000048l2-2" type="building-name" xml:lang="zh-Hant">三聖祠正廳</placeName>
                <placeName xml:id="name000048l2-3" type="building-name" xml:lang="zh-Hans">三圣祠正厅</placeName>
                <placeName xml:id="name000048l2-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí zhèngtīng</placeName>
                <placeName xml:id="name000048l2-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu cheng-t'ing</placeName>
-               <placeName xml:id="name000048l2-6" xml:lang="en">Sansheng Shrine, Main Hall</placeName>
+               <placeName xml:id="name000048l2-6" type="building-name" xml:lang="en">Sansheng Shrine, main hall</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048l2</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
@@ -74,14 +74,14 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l2-1" xml:lang="en"> The main hall is a three-bay, 14-meter-wide building with an overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山</term>). 8.9 meters in depth, it encompasses 124 square meters and is said to be an original Qing building, possibly dating to the 1737 reconstruction of the site. The Medicine King (Yaowang 藥王) is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Dragon King (Longwang 龍王) at right (Liu 2016, vol. 5, 157).</p>
-               </desc>
-               <!-- 
+                  <p source="#bibl000048l2-1" xml:lang="en"> The main hall is a three-bay, 14-meter-wide building with an overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山</term>). 8.9 meters in depth, it encompasses 124 square meters and is said to be an original <term ref="/keyword/k000070">Qing</term> building, possibly dating to the 1737 reconstruction of the site. The Medicine King (Yaowang 藥王) is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Dragon King (Longwang 龍王) at right (Liu 2016, vol. 5, 157).</p>
+               </desc> 
                   <location type="gps" subtype="preferred">
-                  <geo>37.707742 112.434563</geo>
+                  <geo>37.707989 112.434677</geo>
                </location>
+               <!--
                <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+                  <note>Located using Google Earth  2023-10-3</note>
                </location>
                -->
                <trait type="type" sub-type="building type">

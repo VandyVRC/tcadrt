@@ -57,15 +57,15 @@
          <listPlace>
             <place xml:id="place-000048a3" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000048a3-1" xml:lang="en">Shu Yu of Tang Shrine
-                  Complex</placeName>
+                  Complex main hall</placeName>
                <placeName xml:id="name000048a3-2" type="building-name" xml:lang="zh-Hant"
                   >唐叔虞祠正殿</placeName>
                <placeName xml:id="name000048a3-3" type="building-name" xml:lang="zh-Hans"
                   >唐叔虞祠正殿</placeName>
                <placeName xml:id="name000048a3-4" type="building-name" xml:lang="zh-latn-pinyin"
-                  >Táng Shū Yú cí Zhèng diàn</placeName>
+                  >Tángshūyúcí zhèngdiàn</placeName>
                <placeName xml:id="name000048a3-5" type="building-name" xml:lang="zh-latn-wadegile"
-                  >T'ang Shu Yü tz'u cheng tien </placeName>
+                  >T'ang-Shu-Yü-tz'u cheng tien </placeName>
                <idno type="URI">https://architecturasinica.org/place/000048a3</idno>
                <state type="existence" from="1770-01-01" to="1771-01-01">
                   <label>Date</label>
@@ -110,8 +110,8 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048a"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048a3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
- 
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596586218_9cfbbf4d13_c.jpg"
                   passive="https://architecturasinica.org/place/000048a3" ana="featured"/>
