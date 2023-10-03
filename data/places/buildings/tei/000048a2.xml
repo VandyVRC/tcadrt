@@ -64,7 +64,7 @@
                <placeName xml:id="name000048a2-3" type="building-name" xml:lang="zh-Hans"
                   >唐叔虞祠过殿</placeName>
                <placeName xml:id="name000048a2-4" type="building-name" xml:lang="zh-latn-pinyin"
-                  >Tángshūyúcí guòdiàn </placeName>
+                  >Táng Shū Yú cí guòdiàn </placeName>
                <placeName xml:id="name000048a2-5" type="building-name" xml:lang="zh-latn-wadegile"
                   >T'ang-Shu-Yü-tz'u kuo tien</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048a2</idno>
@@ -84,11 +84,11 @@
                      There is a set of Yuan Dynasty music attendant clay sculptures inside of the
                      passage hall. Between the gatehouse and the passage hall, there are over forty steles in the connecting corridors((Liu,2015,45-46).</p>
                </desc>
-               <!-- 
+               
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
                </location>
-               <location type="verbatim">
+               <!-- <location type="verbatim">
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
                -->
@@ -115,12 +115,8 @@
                <relation active="https://architecturasinica.org/place/000048a2"
                   ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070"
                   ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048a2"
-                  ref="schema:containedInPlace"
-                  passive="https://architecturasinica.org/place/000048"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048a2"
-                  ref="schema:containedInPlace"
-                  passive="https://architecturasinica.org/place/000048a"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048a2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048a"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/53217719172_cf28062ae4_o.jpg"
                   passive="https://architecturasinica.org/place/000048a2" ana="featured"/>
