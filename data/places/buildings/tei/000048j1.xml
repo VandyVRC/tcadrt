@@ -46,7 +46,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#YYY" when="2023-09-14-04:00">CREATED: place record</change>
-         <change n="2.0" who="#YYY" when="2023-09-17-04:00">EDITED: place record</change>
+         <change n="1.1" who="#YYY" when="2023-10-02-04:00">edited place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,7 +71,8 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048j1-1"></p>    
+                  <p source="#bibl000048j1-1">The palace gate is three bays wide with a central doorway framed by windows on either side. The roof ridge is faced with intricate brickwork representing corbelled bracketing. Circular “moon windows” (<term>yuechuang 月窗</term>) with exquisite and unique designs are located on both sides of the gate (Liu et al. vol. 6, 47). The interior of the gateway is a one-by-three-bay corridor enclosed by a screening panel door (<term>pingmen 屏門</term>) blocking direct view into the interior (Miller 2007, 190-1).
+                  </p>    
                </desc>
                <!-- 
                   <location type="gps" subtype="preferred">
@@ -91,7 +92,7 @@
                <listBibl xml:id="bibl000048j1-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                     <citedRange unit="pp">41-43</citedRange>
+                     <citedRange unit="pp">47</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
