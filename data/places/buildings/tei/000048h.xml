@@ -7,8 +7,9 @@
             <title level="a" xml:lang="en">Jin Shrines, Haotianshen Shrine <foreign xml:lang="zh-Hant">晉祠昊天神祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing, proof correction, images</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
