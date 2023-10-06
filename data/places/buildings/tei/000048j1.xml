@@ -8,7 +8,7 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator" xml:id="TGM">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -74,14 +74,14 @@
                   <p source="#bibl000048j1-1">The palace gate is three bays wide with a central doorway framed by windows on either side. The roof ridge is faced with intricate brickwork representing corbelled bracketing. Circular “moon windows” (<term>yuechuang 月窗</term>) with exquisite and unique designs are located on both sides of the gate (Liu et al. vol. 6, 47). The interior of the gateway is a one-by-three-bay corridor enclosed by a screening panel door (<term>pingmen 屏門</term>) blocking direct view into the interior (Miller 2007, 190-1).
                   </p>    
                </desc>
-               <!-- 
+              
                   <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+                     <geo>37.708500 112.436166</geo>
                </location>
+               
                <location type="verbatim">
                   <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
                </location>
-               -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">gatehouse</desc>
@@ -91,7 +91,7 @@
                </trait>
                <listBibl xml:id="bibl000048j1-1">
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
                      <citedRange unit="pp">47</citedRange>
                   </bibl>
                   <bibl>
