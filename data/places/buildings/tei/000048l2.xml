@@ -8,8 +8,9 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="WO">Waka Ogihara</editor>
+            <editor role="page-creator" xml:id="LH">Liyu Huang</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -21,7 +22,7 @@
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="LH">Liyu Huang</name>
+               <name type="person" ref="#LH">Liyu Huang</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -52,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#LH" when="2023-09-28-04:00">CREATED: building page</change>
+         <change n="1.0" who="#TGM" when="2023-10-13-04:00">edited</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,22 +76,20 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048l2-1" xml:lang="en"> The main hall is a three-bay, 14-meter-wide building with an overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山</term>). 8.9 meters in depth, it encompasses 124 square meters and is said to be an original <term ref="/keyword/k000070">Qing</term> building, possibly dating to the 1737 reconstruction of the site. The Medicine King (Yaowang 藥王) is the central divinity with the True Lord (aka Cangwang 倉王) to the left, a Dragon King (Longwang 龍王) at right (Liu 2016, vol. 5, 157).</p>
+                  <p source="#bibl000048l2-1" xml:lang="en"> The main hall is a three-bay, 14-meter-wide building with an overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山</term>). 8.9 meters in depth, it encompasses 124 square meters and is said to be an original <term ref="/keyword/k000070">Qing</term> building, possibly dating to the 1737 reconstruction of the site. The Medicine King (Yaowang 藥王) is the central divinity with a True Lord (Zhenjun 真君; aka Cangwang 倉王) to the left, and a Dragon King (Longwang 龍王) at right (Liu 2016, vol. 5, 157).</p>
                </desc> 
                   <location type="gps" subtype="preferred">
                   <geo>37.707989 112.434677</geo>
                </location>
-               <!--
-               <location type="verbatim">
-                  <note>Located using Google Earth  2023-10-3</note>
+                  <note>Located using Google Earth 2023-10-3</note>
                </location>
-               -->
+
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">main hall</desc>
-                  <desc xml:lang="zh-latn-pinyin">zhèngtīng</desc>
-                  <desc xml:lang="zh-Hant">正廳</desc>
-                  <desc xml:lang="zh-Hans">正厅</desc>
+                  <desc xml:lang="en">audience-hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">tīng</desc>
+                  <desc xml:lang="zh-Hant">廳</desc>
+                  <desc xml:lang="zh-Hans">厅</desc>
                </trait>
                   <bibl xml:id="bibl000048l2-1">
                      <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
