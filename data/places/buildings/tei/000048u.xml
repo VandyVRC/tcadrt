@@ -7,15 +7,21 @@
             <title level="a" xml:lang="en">Jin Shrines, Gongshuzi Shrine Complex <foreign xml:lang="zh-Hant">晉祠公輸子祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="LS">Liyan Shen</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="LS">Liyan Shen</name>
+               <name type="person" ref="#LS">Liyan Shen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -72,7 +78,7 @@
                   <location type="gps" subtype="preferred">
                      <geo>37.708533 112.434278</geo>
                </location>
-               <!-- geolocated using Google Earth 2023-09-13-->
+               <note>geolocated using Google Earth 2023-09-13</note>
 
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -99,7 +105,10 @@
                <relation active="https://architecturasinica.org/place/000048u" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048u" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/53219051640_6c398dec70_o.jpg"
+                  active="https://live.staticflickr.com/65535/53219051640_d43dac8f70_o.jpg"
+                  passive="https://architecturasinica.org/place/000048u" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53255341063_57fd11fba1_o.jpg"
                   passive="https://architecturasinica.org/place/000048u" ana="featured"/>
             </listRelation>
          </listPlace>
