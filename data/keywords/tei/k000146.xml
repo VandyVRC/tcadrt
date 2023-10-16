@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">懸山</foreign>xúanshān</title>
+               <foreign xml:lang="zh-Hant">懸山 </foreign>xúanshān</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -49,6 +49,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-03-24" who="#ZJ">CREATED: record</change>
+         <change n="1.0" when="2023-10-16" who="#TGM">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,18 +60,30 @@
             <term xml:id="term-k000146-3" xml:lang="zh-Hans">悬山</term>
             <term xml:id="term-k000146-4" xml:lang="zh-latn-pinyin">xúanshān</term>
             <term xml:id="term-k000146-5" xml:lang="zh-latn-wadegile">hsüan-shan</term>
+            <term xml:id="term-k000146-6" xml:lang="en" source="#biblk000146-1">overhanging gable roof</term>
+            
             <note type="Gloss">
-               <p xml:lan="en" source="#biblk000146-1">overhanging gable roof (Fu 2017, 370)</p>
-               <p xml:lang="zh-Hant" source="#biblk000146-1">一種兩坡，並且在山面挑出的屋頂形式。</p>   
+               <p xml:lan="en" source="#biblk000146-2">A term commonly used in the <term ref="/keyword/k000070">Qing</term> dynasty for a two-sloped, gable roof which extends beyond the wall plane on the gable ends (Guo 2002, 86). This type can also be called a <term>xuanshanding 懸山頂</term>, where ding 頂 means roof (Fu 2017, 370).</p>
+               <p xml:lang="zh-Hant" source="#biblk000146-2">一種兩坡，並且在山面挑出的屋頂形式。</p>   
             </note>
             <bibl xml:id="biblk000146-1">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
                <citedRange unit="pp">370</citedRange>
             </bibl>
+            <listBibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">86</citedRange>
+               </bibl>
+               <bibl>
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">370</citedRange>
+               </bibl>
+            </listBibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000146</idno>
             <listRelation>
                <listRelation>
-                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000146" passive="building frame"/>
+                  <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000146" passive="roof types"/>
                </listRelation>
             </listRelation>
          </entryFree>
