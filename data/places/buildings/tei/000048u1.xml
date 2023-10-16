@@ -68,22 +68,21 @@
                   <label>Date</label>
                   <desc>ca. 1730-1770</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048u-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048u1-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048u-1">
+                  <p source="#bibl000048u1-1">
                      The shrine’s gateway (menlou 門樓) faces west, sitting in a west-east direction. The stairway leads to the gateway, forming a central axis leading to the Gongshuzi Shrine. The inscribed horizontal plaque (hengbian 橫匾) “Gongshuzici 公輸子祠“ hangs on the top center of the gateway (Liu 2016, vol. 5).
                   </p></desc>
 
                   <location type="gps" subtype="preferred">
                      <geo>37.708558 112.434295</geo>
                </location>
-               <!-- <location>
+               <!--
                   <note>geolocated using Google Earth 2023-09-13</note>
-               </location> -->
-               
+               -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">gateway</desc>
@@ -91,17 +90,17 @@
                   <desc xml:lang="zh-Hant">門</desc>
                   <desc xml:lang="zh-Hans">门</desc>
                </trait>
-               <listBibl xml:id="bibl000048u-1">
+               <listBibl xml:id="bibl000048u1-1">
                   <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">194</citedRange>
                   </bibl>
-                  <bibl>
+                  <!-- <bibl>
                      <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
                      <citedRange>vol. 5</citedRange>
-                  </bibl>
+                  </bibl> -->
                </listBibl>
-               <bibl xml:id="bibl000048u-2">
+               <bibl xml:id="bibl000048u1-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
