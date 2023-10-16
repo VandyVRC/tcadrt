@@ -4,18 +4,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Gongshuzi Shrine Complex, Great Hall <foreign xml:lang="zh-Hant">晉祠公輸子祠大殿</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Gongshuzi Shrine Complex, great hall <foreign xml:lang="zh-Hant">晉祠公輸子祠大殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="RF">Ruoci Feng</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="LS">Liyan Shen</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="RF">Ruoci Feng</name>
+               <name type="person" ref="#RF">Ruoci Feng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,6 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#RF" when="2023-09-28-04:00">CREATED: place record</change>
+         <change n="1.0" who="#TGM" when="2023-10-15-04:00">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,8 +62,8 @@
                <placeName xml:id="name000048u-1" type="building-name" xml:lang="en">Gongshuzi Shrine Complex Great Hall</placeName>
                <placeName xml:id="name000048u-2" type="building-name" xml:lang="zh-Hant">公輸子祠大殿</placeName>
                <placeName xml:id="name000048u-3" type="building-name" xml:lang="zh-Hans">公输子祠大殿</placeName>
-               <placeName xml:id="name000048u-4" type="building-name" xml:lang="zh-latn-pinyin">Gōngshūzicídàdiàn</placeName>
-               <placeName xml:id="name000048u-5" type="building-name" xml:lang="zh-latn-wadegile">kung shu tzu tz'u ta tien</placeName>
+               <placeName xml:id="name000048u-4" type="building-name" xml:lang="zh-latn-pinyin">Gōngshūzicí dàdiàn</placeName>
+               <placeName xml:id="name000048u-5" type="building-name" xml:lang="zh-latn-wadegile">Kung-shu-tzu-tz'u ta-tien</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048u2</idno>
                <state type="existence" from="1700-01-01" to="1800-01-01">
                   <label>Date</label>
@@ -85,10 +92,12 @@
                   <desc xml:lang="zh-Hant">大殿</desc>
                   <desc xml:lang="zh-Hans">大殿</desc>
                </trait>
+            <listBibl>
                <bibl xml:id="bibl000048u-1">
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">194</citedRange>
                </bibl>
+            </listBibl>
                <bibl xml:id="bibl000048u-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
