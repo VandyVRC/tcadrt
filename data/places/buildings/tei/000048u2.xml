@@ -92,16 +92,17 @@
                   <desc xml:lang="zh-Hant">大殿</desc>
                   <desc xml:lang="zh-Hans">大殿</desc>
                </trait>
+               <bibl xml:id="bibl000048u2-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
              <listBibl  xml:id="bibl000048u2-1">
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">194</citedRange>
                </bibl>
             </listBibl>
-               <bibl xml:id="bibl000048u2-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
+
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048u2" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
