@@ -69,12 +69,12 @@
                   <label>Date</label>
                   <desc>1700-1800</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048u-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048u2-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048u-1">
+                  <p source="#bibl000048u2-1">
                      The great hall (Dadian 大殿) is dedicated to the statue of Gongshuzi, and there are frescoes on the north and south walls. Under the eaves hangs an inscribed plaque "巧思入神". The creation date is not known. According to the wooden plaque hanging in the temple, a shrine was added in 1730. The whole temple was rebuilt in 1760, and this plaque was added to the temple in that year.               
                   </p></desc>
       
@@ -92,13 +92,13 @@
                   <desc xml:lang="zh-Hant">大殿</desc>
                   <desc xml:lang="zh-Hans">大殿</desc>
                </trait>
-            <listBibl>
-               <bibl xml:id="bibl000048u-1">
+             <listBibl  xml:id="bibl000048u2-1">
+               <bibl>
                   <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                   <citedRange unit="pp">194</citedRange>
                </bibl>
             </listBibl>
-               <bibl xml:id="bibl000048u-2">
+               <bibl xml:id="bibl000048u2-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
