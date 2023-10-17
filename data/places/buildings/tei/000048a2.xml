@@ -11,8 +11,14 @@
                Hall <foreign xml:lang="zh-Hant">晉祠唐叔虞祠過殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#QG">Qihan Gao</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -50,7 +56,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#QG" when="2023-09-28-04:00">CREATED: building page</change>
-         
+         <change n="1.0" who="#TGM" when="2023-10-17-04:00">edited</change>
       </revisionDesc>
    </teiHeader>
    <text>
