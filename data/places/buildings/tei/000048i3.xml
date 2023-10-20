@@ -72,23 +72,23 @@
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048i3-2" from="1279-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Yuan - Qing 1279 - 1912</desc>
+                  <desc>Yuan-Qing 1279-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en"> 
-                  <p source="#bibl000048i-1">Located at the north end of the small complex’s central axis, the great hall of the Shrine to the Eastern Peak is 12 x 9.9 meters and three bays wide. It is crowned with an overhanging gable (xuanshan 懸山) roof. The god of the Eastern Peak is worshiped inside the hall (Liu 1986, 29; Liu et al., 2015, vol. 7, 1).</p>    
+                  <p source="#bibl000048i-1">Located at the north end of the small complex’s central axis, the great hall of the Shrine to the Eastern Peak is 12 x 9.9 meters and three bays wide. It is crowned with an overhanging gable (<term ref="/keyword/k000146">xuanshan 懸山</term>) roof. The god of the Eastern Peak is worshiped inside the hall (Liu 1986, 29; Liu et al. 2015, vol. 7, 1).</p>    
                </desc>
                   <location type="gps" subtype="preferred">
                   <geo>37.708685 112.435896</geo>
                </location>
-               <!--
+              <location type="verbatim">
                   <note>location determined with Google Earth 2023-09-15</note>
-               -->
+                  </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">shrine</desc>
-                  <desc xml:lang="zh-latn-pinyin">cí</desc>
-                  <desc xml:lang="zh-Hant">祠</desc>
-                  <desc xml:lang="zh-Hans">祠</desc>
+                  <desc xml:lang="en">hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">diàn</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <listBibl xml:id="bibl000048i3-1">
                   <bibl>
@@ -107,9 +107,10 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048i" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048i" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53146999700_e8ad04ade7_h.jpg" passive="https://architecturasinica.org/place/000048i" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg" passive="https://architecturasinica.org/place/000048i" ana="featured"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048i3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048i3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048i"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53146999700_e8ad04ade7_h.jpg" passive="https://architecturasinica.org/place/000048i3" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg" passive="https://architecturasinica.org/place/000048i3" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
