@@ -7,15 +7,21 @@
             <title level="a" xml:lang="en">Jin Shrines, Gongshuzi Shrine Complex <foreign xml:lang="zh-Hant">晉祠公輸子祠</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="LS">Liyan Shen</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
                <resp>Data entry</resp>
-               <name type="person" xml:id="LS">Liyan Shen</name>
+               <name type="person" ref="#LS">Liyan Shen</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,7 +52,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
-         <change n="1.1" who="#TGM" when="2023-09-13-04:00">updated</change>
+         <change n="1.1" who="#TGM" when="2023-10-17-04:00">updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,21 +65,20 @@
                <placeName xml:id="name000048u-4" type="building-name" xml:lang="zh-latn-pinyin">Gōngshūzicí</placeName>
                <placeName xml:id="name000048u-5" type="building-name" xml:lang="zh-latn-wadegile">Kung-shu-tzu-tz`u</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048u</idno>
-               <state type="existence" from="1700-01-01" to="1800-01-01">
+               <state type="existence" from="1730-01-01" to="1760-01-01">
                   <label>Date</label>
-                  <desc>1700-1800</desc>
+                  <desc>1730-1760</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048u-2" from="1644-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048u-1">Gongshuzi is the honorific name of Lu Ban 魯班, the ancient craftsman from the state of Lu 魯國. Originally named <persName>Gongshu Ban 公輸班</persName>, he is said to have lived during the <term ref="/keyword/k000200">Spring and Autumn Period</term> (770-476 BCE). A statue of him is worshiped in the main hall. The complex consists of a main hall of three bays, a surrounding wall, and an entry gateway. The original date of establishment is unknown and it does not appear on the "Jinci zhitu 晉祠之圖," Gao Ruxing’s 1551 map of the site. The statuary niche was repaired in the 8th year of the Yongzheng period (1730); the complex was repaired again in the 35th year of the Qianlong period (1770). The shrine complex is number 23 on the <placeName ref="/place/000048">Jin Shrines</placeName> site plan.</p></desc>
+                  <p source="#bibl000048u-1">Gongshuzi is the honorific name of Lu Ban 魯班, the ancient craftsman from the State of Lu 魯國. Originally named <persName>Gongshu Ban 公輸班</persName>, he is said to have lived during the <term ref="/keyword/k000200">Spring and Autumn Period</term> (770-476 BCE). A statue of him is worshiped in the main hall. The complex consists of a main hall of three bays, a surrounding wall, and an entry gateway. The original date of establishment is unknown and it does not appear on the "Jinci zhitu 晉祠之圖," Gao Ruxing’s 1551 map of the site. The statuary niche was repaired in the 8th year of the Yongzheng period (1730); the complex was repaired again in the 35th year of the Qianlong period (1770). The shrine complex is number 23 on the <placeName ref="/place/000048">Jin Shrines</placeName> site plan.</p></desc>
                   <location type="gps" subtype="preferred">
                      <geo>37.708533 112.434278</geo>
                </location>
-               <!-- geolocated using Google Earth 2023-09-13-->
-
+                  <!-- <note>geolocated using Google Earth 2023-09-13</note> -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">shrine</desc>
@@ -82,6 +87,10 @@
                   <desc xml:lang="zh-Hans">祠</desc>
                </trait>
                <listBibl xml:id="bibl000048u-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange>vol. 5, 141</citedRange>
+                  </bibl>
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
                   </bibl>
@@ -98,6 +107,12 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048u" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048u" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53219051640_d43dac8f70_o.jpg"
+                  passive="https://architecturasinica.org/place/000048u" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53255341063_57fd11fba1_o.jpg"
+                  passive="https://architecturasinica.org/place/000048u" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
