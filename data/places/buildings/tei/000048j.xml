@@ -60,6 +60,7 @@
                <placeName xml:id="name000048j-6" type="alternate" subtype="building-name" xml:lang="zh-Hant">晉水七賢祠</placeName>
                <placeName xml:id="name000048j-7" type="alternate" subtype="building-name" xml:lang="zh-Hans">晋水七贤祠</placeName>
                <placeName xml:id="name000048j-8" type="alternate" subtype="building-name" xml:lang="en">Jin River Seven Worthies Shrine</placeName>
+               <placeName xml:id="name000048j-9" type="alternate" subtype="building-name" xml:lang="en">Jinshui Qixianci</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048j</idno>
                <state type="existence" from="1773-01-01" to="1773-01-01">
                   <label>Date</label>
@@ -70,16 +71,16 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048j-1">The present structure was built in the 38th year of Qianlong period (1773). According to the stele inscription by Yang Eryou 楊二酉 documenting that construction, the shrine was originally a one-bay wide building on the south bank of the Earl of Zhi canal. During the Yongzheng period (1723-1736) it was moved to a location on the north side of the canal. In 1763, with the completion of the pagoda in Fengshengyuan 奉聖院, a new site was divined and the building was built on previous endowed temple lands (香火地) located north of the canal (JCZ 41-43).  Originally Jin River Worthies Shrine dedicated to 5 worthies and was located in the Jinxi Academy. In the 38 year of the Qianlong reign, when the Wenchang Temple-Palace was built, the shrine was moved to the central cavern below the Wenchang  ge-pavilion and was changed to include seven worthies, they are: from the Zhou dynasty: Yu Rang 豫讓 (mid-5th century BCE); from the Tang dynasty: Li Bai 李白 (701-762) and Bai Juyi 白居易 (772-846); from the Song dynasty: Fan Zhongyan 范仲淹 (989-1052) and Ouyang Xiu 歐陽修 (1007-1072); from the Ming dynasty: Yu Qian 于謙 (1398-1457) and Wang Qiong 王瓊 (1459-1532) (Liu 1986, 43).</p>    
-               </desc>
-               <!-- 
-                  <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+                  <p source="#bibl000048j-1">The present structure was built in the 38th year of Qianlong period (1773). According to the stele inscription by Yang Eryou 楊二酉 （jinshi 1733) documenting that construction, the shrine was originally a one-bay wide building on the south bank of the Earl of Zhi canal. During the Yongzheng period (1723-1736) it was moved to a location on the north side of the canal. In 1763, with the completion of the pagoda in Fengshengyuan 奉聖院, a new site was divined and the building was built on previous endowed temple lands (香火地) located north of the canal (JCZ 41-43).  Originally Jin River Worthies Shrine dedicated to 5 worthies and was located in the Jinxi Academy. In the 38 year of the Qianlong reign, when the Wenchang Temple-Palace was built, the shrine was moved to the central cavern below the Wenchang  ge-pavilion and was changed to include seven worthies, they are: from the Zhou dynasty: Yu Rang 豫讓 (mid-5th century BCE); from the Tang dynasty: Li Bai 李白 (701-762) and Bai Juyi 白居易 (772-846); from the Song dynasty: Fan Zhongyan 范仲淹 (989-1052) and Ouyang Xiu 歐陽修 (1007-1072); from the Ming dynasty: Yu Qian 于謙 (1398-1457) and Wang Qiong 王瓊 (1459-1532) (Liu 1986, 43).</p>    
+               </desc> 
+               
+               <location type="gps" subtype="preferred">
+                  <geo>37.708500 112.436166</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 42.25' E  N (Garmin) 112˚ 26.43' E</note>
+                  <note>Measured using Google Earth, 2023</note>
                </location>
-               -->
+               
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">palace</desc>
