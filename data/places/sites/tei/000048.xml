@@ -53,7 +53,7 @@
          <change n="2.0" who="#SQ" when="2020-03-20-04:00">Adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change when="2020-10-30">Adding site data by
+         <change when="2023-10-20">Adding site data by
             <name type="person" ref="#TGM">Tracy Miller</name></change>
       </revisionDesc>
    </teiHeader>
@@ -101,7 +101,7 @@
                   </region>
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>37.708727 112.434575</geo>
+                  <geo>37.707681 112.436414</geo>
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type </label>
@@ -122,6 +122,9 @@
                <relation active="https://architecturasinica.org/place/000048" passive="https://architecturasinica.org/keyword/k000073" ref="dcterms:subject" ana="site-type"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000048" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                              <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50623115547_84dfcd5b6d_o.jpg"
+                  passive="https://architecturasinica.org/place/000048" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50597420992_4d49e0b97f_o.jpg"
                   passive="https://architecturasinica.org/place/000048" ana="featured"/>
