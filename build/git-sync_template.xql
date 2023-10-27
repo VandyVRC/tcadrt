@@ -20,7 +20,7 @@ let $data := request:get-data()
 return 
     githubxq:execute-webhook($data, 
         '/db/apps/tcadrt-data',
-        'https://github.com/VandyVRC/tcadrt',
-        'development',
+        'https://github.com/Chinese-Monuments-WG/tcadrt',
+        'master',
         '${SECRET_KEY}',
         '')
