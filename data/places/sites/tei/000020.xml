@@ -54,6 +54,7 @@
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
          <change n="2.1" who="TGM" when="2021-03-27">Adding sources and dates</change>
+         <change n="2.2" who="TGM" when="2021-03-27">updating geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -102,8 +103,12 @@
                   </region>
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>36.35619167 113.4353267</geo>
+                  <geo>36.36675 113.43875</geo>
                </location>
+               <location type="verbatim">
+                  <note>Lat 36˚22.005' Lon 113˚26.325' (Garmin taken 2019-05-29)</note>
+               </location>
+               
                <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">cloister</desc>
