@@ -16,7 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" ref="#YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
             </respStmt>
            <!--> <respStmt>
                <resp>Peer review by</resp>
@@ -73,7 +73,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-25">CREATED: record</change>
          <change n="1.1" when="2020-06-13">Added related concepts</change>
-         <change who="#YFS" when="2020-09-21">Adding AC and ZJ edits</change>
+         <change who="#YF" when="2020-09-21">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
