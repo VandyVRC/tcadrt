@@ -16,7 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" ref="#YF">Yuh-Fen Benda</name>
+               <name type="person" xml:id="YF">Yuh-Fen Benda</name>
             </respStmt>
            <!--> <respStmt>
                <resp>Peer review by</resp>
@@ -73,7 +73,7 @@
       <revisionDesc>
          <change n="1.0" when="2020-01-25">CREATED: record</change>
          <change n="1.1" when="2020-06-13">Added related concepts</change>
-         <change who="#YFS" when="2020-09-21">Adding AC and ZJ edits</change>
+         <change who="#YF" when="2020-09-21">Adding AC and ZJ edits</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -86,7 +86,7 @@
             <term xml:id="term-k000110-5" xml:lang="zh-latn-wadegile">wa-tang</term>
             <term xml:id="term-k000110-6" xml:lang="en" type="literal_translation">tile ends (lit.)</term>
             <term xml:id="term-k000110-1" xml:lang="en" source="#biblk000110-1">barrel tile ends</term>
-            <term xml:id="term-k000110-7" xml:lang="en" source="#biblk000110-2">eaves-tile ends</term>
+            <term xml:id="term-k000110-7" xml:lang="en" source="#biblk000110-2">eave-end tile</term>
             <note type="Note"> 
                <p xml:lang="en">Type of <term ref="/keyword/k000109">barrel tile (筒瓦 tongwa)</term> used to cap the end of a line of covering tiles at the eaves.</p>
                <p xml:lang="zh-Hant">瓦當的本意是瓦頭.現指 <term ref="/keyword/k000109">筒瓦</term> 的一種，剖面如 "┍—",作為蓋瓦用於檐頭以遮擋檐部.如<term ref="/keyword/k000051">明</term><term ref="/keyword/k000070">清</term>的 <term ref="/keyword/k000108">"勾頭"</term>.在清代文獻中，"瓦當"似通常專指<term ref="/keyword/k000069">秦</term><term ref="/keyword/k000030">漢</term>等較早時期的瓦當.</p>
@@ -101,7 +101,7 @@
             </bibl>
             <bibl xml:id="biblk000110-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">349</citedRange>
+               <citedRange unit="pp">368</citedRange>
             </bibl>
             <idno type="URI">https://architecturasinica.org/keyword/k000110</idno>
             <listRelation>
