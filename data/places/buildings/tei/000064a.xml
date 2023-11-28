@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Sansheng Shrine, great gate <foreign xml:lang="zh-Hant">晉祠三聖祠大門</foreign>
+            <title level="a" xml:lang="en">Shiqiao <foreign xml:lang="zh-Hant">石橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -36,7 +36,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2023-09-14-04:00</date>
+            <date>2023-11-28-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -60,12 +60,11 @@
       <body>
          <listPlace>
             <place xml:id="place-000064a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000064a-1" xml:lang="en">Three Sages Shrine, great gate</placeName>
-               <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant">三聖祠大門</placeName>
-               <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans">三圣祠大门</placeName>
-               <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin">Sānshèngcí dàmén</placeName>
-               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">San-sheng-t'zu ta-men</placeName>
-               <placeName xml:id="name000064a-6" type="building-name" xml:lang="en">Sansheng Shrine, great gate</placeName>
+               <placeName xml:id="name000064a-1" xml:lang="en">Shiqiao</placeName>
+               <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
+               <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
+               <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin">Shí qiáo</placeName>
+               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">Shíh ch'iao</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064a</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
@@ -100,8 +99,8 @@
                </listBibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048l" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048l"/>
+               <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
                <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/>
             </listRelation>
