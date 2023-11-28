@@ -78,7 +78,7 @@
                   <p source="#bibl000064a-1" xml:lang="en"></p>
                </desc>
                   <location type="gps" subtype="preferred">
-                  <geo>37.708113 112.434722</geo>
+                  <geo></geo>
                </location>
                   <note>Located using Google Earth 2023-10-03</note>
                <trait type="type" sub-type="building type">
@@ -101,7 +101,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
-               <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000064" ana="featured"/> -->
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_1202bf02e1_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
                <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
             </listRelation>
          </listPlace>
