@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, shiqiao <foreign xml:lang="zh-Hant">石橋</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Mituodian (Amitabha Hall) <foreign xml:lang="zh-Hant">彌陀殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -60,34 +60,34 @@
       <body>
          <listPlace>
             <place xml:id="place-000064d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000064d-1" xml:lang="en">shiqiao</placeName>
-               <placeName xml:id="name000064d-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
-               <placeName xml:id="name000064d-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
-               <placeName xml:id="name000064d-4" type="building-name" xml:lang="zh-latn-pinyin">shí qiáo</placeName>
-               <placeName xml:id="name000064d-5" type="building-name" xml:lang="zh-latn-wadegile">shíh ch'iao</placeName>
-               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">stone bridge</placeName>
+               <placeName xml:id="name000064d-1" xml:lang="en">Mituodian</placeName>
+               <placeName xml:id="name000064d-2" type="building-name" xml:lang="zh-Hant">彌陀殿</placeName>
+               <placeName xml:id="name000064d-3" type="building-name" xml:lang="zh-Hans">弥陀殿</placeName>
+               <placeName xml:id="name000064d-4" type="building-name" xml:lang="zh-latn-pinyin">Mítuó diàn</placeName>
+               <placeName xml:id="name000064d-5" type="building-name" xml:lang="zh-latn-wadegile">Mi-t'o-tien</placeName>
+               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Amitabha hall</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064d</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
-                  <desc></desc>
+                  <desc>1510</desc>
                </state>
-               <state type="existence" subtype="dynasty" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
-                  <desc></desc>
+                  <desc>Ming 1368-1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000064d-1" xml:lang="en"></p>
                </desc>
                   <location type="gps" subtype="preferred">
-                  <geo>38.140934 114.576385</geo>
+                     <geo>38.143273 114.576472</geo>
                </location>
                   <note>Located using Google Earth 2023-10-03</note>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">gate</desc>
-                  <desc xml:lang="zh-latn-pinyin">mén</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
-                  <desc xml:lang="zh-Hans">门</desc>
+                  <desc xml:lang="en">temple</desc>
+                  <desc xml:lang="zh-latn-pinyin">diàn</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <!-- <listBibl xml:id="bibl000064d-1">
                   <bibl>
@@ -100,9 +100,9 @@
                </listBibl> -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000064d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000064d" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000064d" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_1202bf02e1_o.jpg" passive="https://architecturasinica.org/place/000064d" ana="featured"/>
+               <relation ref="foaf:depicts" active="<a data-flickr-embed="true" href="https://live.staticflickr.com/65535/53339081528_b211a3aa6f_o.jpg"></script>" passive="https://architecturasinica.org/place/000064d" ana="featured"/>
                <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
             </listRelation>
          </listPlace>

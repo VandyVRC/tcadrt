@@ -64,7 +64,7 @@
                <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
                <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
                <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin">shí qiáo</placeName>
-               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">shíh ch'iao</placeName>
+               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">shíh-ch'iao</placeName>
                <placeName xml:id="name000064a-6" type="building-name" xml:lang="en">stone bridge</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064a</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
@@ -79,15 +79,15 @@
                   <p source="#bibl000064a-1" xml:lang="en"></p>
                </desc>
                   <location type="gps" subtype="preferred">
-                  <geo>38.140934 114.576385</geo>
+                     <geo>38.140934 114.576385</geo>
                </location>
                   <note>Located using Google Earth 2023-10-03</note>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">gate</desc>
-                  <desc xml:lang="zh-latn-pinyin">mén</desc>
-                  <desc xml:lang="zh-Hant">門</desc>
-                  <desc xml:lang="zh-Hans">门</desc>
+                  <desc xml:lang="en">bridge</desc>
+                  <desc xml:lang="zh-latn-pinyin">qiáo</desc>
+                  <desc xml:lang="zh-Hant">橋</desc>
+                  <desc xml:lang="zh-Hans">桥</desc>
                </trait>
                <!-- <listBibl xml:id="bibl000064a-1">
                   <bibl>
