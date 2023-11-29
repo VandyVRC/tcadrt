@@ -30,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/place/000064a/tei</idno>
+            <idno type="URI">https://architecturasinica.org/place/000064e/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -59,14 +59,14 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000064a" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000064a-1" xml:lang="en">shiqiao</placeName>
-               <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
-               <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
-               <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin">shí qiáo</placeName>
-               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">shíh ch'iao</placeName>
-               <placeName xml:id="name000064a-6" type="building-name" xml:lang="en">stone bridge</placeName>
-               <idno type="URI">https://architecturasinica.org/place/000064a</idno>
+            <place xml:id="place-000064e" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000064e-1" xml:lang="en">shiqiao</placeName>
+               <placeName xml:id="name000064e-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
+               <placeName xml:id="name000064e-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
+               <placeName xml:id="name000064e-4" type="building-name" xml:lang="zh-latn-pinyin">shí qiáo</placeName>
+               <placeName xml:id="name000064e-5" type="building-name" xml:lang="zh-latn-wadegile">shíh ch'iao</placeName>
+               <placeName xml:id="name000064e-6" type="building-name" xml:lang="en">stone bridge</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000064e</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
                   <desc></desc>
@@ -76,7 +76,7 @@
                   <desc></desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000064a-1" xml:lang="en"></p>
+                  <p source="#bibl000064e-1" xml:lang="en"></p>
                </desc>
                   <location type="gps" subtype="preferred">
                   <geo>38.140934 114.576385</geo>
@@ -89,7 +89,7 @@
                   <desc xml:lang="zh-Hant">門</desc>
                   <desc xml:lang="zh-Hans">门</desc>
                </trait>
-               <!-- <listBibl xml:id="bibl000064a-1">
+               <!-- <listBibl xml:id="bibl000064e-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
                   </bibl>
@@ -100,9 +100,9 @@
                </listBibl> -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_1202bf02e1_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000064e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000064e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_1202bf02e1_o.jpg" passive="https://architecturasinica.org/place/000064e" ana="featured"/>
                <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
             </listRelation>
          </listPlace>
