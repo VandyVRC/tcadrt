@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Mituodian (Amitabha Hall) <foreign xml:lang="zh-Hant">彌陀殿</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Mituodian (Amitabha Hall) <foreign xml:lang="zh-Hant">隆興寺彌陀殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -60,12 +60,14 @@
       <body>
          <listPlace>
             <place xml:id="place-000064d" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000064d-1" xml:lang="en">Mituodian</placeName>
+               <placeName xml:id="name000064d-1" xml:lang="en">Amitabha hall</placeName>
                <placeName xml:id="name000064d-2" type="building-name" xml:lang="zh-Hant">彌陀殿</placeName>
                <placeName xml:id="name000064d-3" type="building-name" xml:lang="zh-Hans">弥陀殿</placeName>
-               <placeName xml:id="name000064d-4" type="building-name" xml:lang="zh-latn-pinyin">Mítuó diàn</placeName>
+               <placeName xml:id="name000064d-4" type="building-name" xml:lang="zh-latn-pinyin">Mítuódiàn</placeName>
                <placeName xml:id="name000064d-5" type="building-name" xml:lang="zh-latn-wadegile">Mi-t'o-tien</placeName>
-               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Amitabha hall</placeName>
+               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Longxingsi Mituodian</placeName>
+               <placeName xml:id="name000064d-7" type="building-name" xml:lang="zh-Hant">隆興寺彌陀殿</placeName>
+               <placeName xml:id="name000064d-8" type="building-name" xml:lang="zh-Hans">隆興寺弥陀殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064d</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>

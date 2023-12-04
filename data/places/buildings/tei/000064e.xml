@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Piludian <foreign xml:lang="zh-Hant">毘盧殿</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Piludian (Vairocana hall) <foreign xml:lang="zh-Hant">隆興寺毘盧殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -60,12 +60,14 @@
       <body>
          <listPlace>
             <place xml:id="place-000064e" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000064e-1" xml:lang="en">Piludian</placeName>
+               <placeName xml:id="name000064e-1" xml:lang="en">Vairocana hall</placeName>
                <placeName xml:id="name000064e-2" type="building-name" xml:lang="zh-Hant">毘盧殿</placeName>
                <placeName xml:id="name000064e-3" type="building-name" xml:lang="zh-Hans">毗卢殿</placeName>
-               <placeName xml:id="name000064e-4" type="building-name" xml:lang="zh-latn-pinyin">Pí lú diàn</placeName>
+               <placeName xml:id="name000064e-4" type="building-name" xml:lang="zh-latn-pinyin">Pílúdiàn</placeName>
                <placeName xml:id="name000064e-5" type="building-name" xml:lang="zh-latn-wadegile">p'i-lu-tien</placeName>
-               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Vairocana hall</placeName>
+               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Longxingsi Piludian</placeName>
+               <placeName xml:id="name000064e-7" type="building-name" xml:lang="zh-Hant">隆興寺毘盧殿</placeName>
+               <placeName xml:id="name000064e-8" type="building-name" xml:lang="zh-Hans">隆興寺毗卢殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064e</idno>
                <state type="existence" from="1737-01-01" to="1737-12-31">
                   <label>Date</label>
