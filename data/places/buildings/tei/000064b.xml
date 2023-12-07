@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Longxing Monastery, Dajue liushi Hall <foreign xml:lang="zh-Hant">大覺六師殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal>Tracy Miller</principal>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="TGM">Tracy Miller</editor>
+            <editor role="page-creator" xml:id="LH">Soonmin Kwon</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" ref="#YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" ref="#LH">Soonmin Kwon</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000064b/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-11-28-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#SK" when="2023-09-14-04:00">CREATED: building page</change>
+         <change n="1.0" who="#TGM" when="2023-10-13-04:00">edited text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000064b" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000064b-1" xml:lang="en">Dajue liushi Hall</placeName>
+               <placeName xml:id="name000064b-2" type="building-name" xml:lang="zh-Hant">大覺六師殿</placeName>
+               <placeName xml:id="name000064b-3" type="building-name" xml:lang="zh-Hans">大觉六师殿</placeName>
+               <placeName xml:id="name000064b-4" type="building-name" xml:lang="zh-latn-pinyin">Dàjuéliùshīdiàn</placeName>
+               <placeName xml:id="name000064b-5" type="building-name" xml:lang="zh-latn-wadegile">Ta-chüeh liu-shih-tien</placeName>
+               <placeName xml:id="name000064b-6" type="building-name" xml:lang="en">Longxingsi Dajue liushi Hall</placeName>
+               <placeName xml:id="name000064b-7" type="building-name" xml:lang="zh-Hant">隆興寺大覺六師殿</placeName>
+               <placeName xml:id="name000064b-8" type="building-name" xml:lang="zh-Hans">隆兴寺大觉六师殿</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000064a</idno>
+               <state type="existence" from="1737-01-01" to="1737-12-31">
+                  <label>Date</label>
+                  <desc></desc>
+               </state>
+               <state type="existence" subtype="dynasty" from="1644-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc></desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000064b-1" xml:lang="en"></p>
+               </desc>
+                  <location type="gps" subtype="preferred">
+                     <geo>38.140934 114.576385</geo>
+               </location>
+               <location type="verbatim">
+                  <note>Located using Google Earth 2023-11-28</note>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <!-- <listBibl xml:id="bibl000064b-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange unit="pp">157</citedRange>
+                  </bibl>
+               </listBibl> -->
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000064b" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53368429142_0e37d51d78_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339310650_a85f41a257_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
