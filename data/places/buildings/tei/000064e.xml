@@ -69,7 +69,7 @@
                <placeName xml:id="name000064e-7" type="building-name" xml:lang="zh-Hant">隆興寺毘盧殿</placeName>
                <placeName xml:id="name000064e-8" type="building-name" xml:lang="zh-Hans">隆興寺毗卢殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064e</idno>
-               <state type="existence" from="1737-01-01" to="1737-12-31">
+               <state type="existence" from="1607-01-01" to="1959-12-31">
                   <label>Date</label>
                   <desc></desc>
                </state>
@@ -104,6 +104,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000064e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000064e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53376381334_2fda769c8a_z.jpg" passive="https://architecturasinica.org/place/000064e" ana="featured"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53364940788_541a5013ee_o.jpg" passive="https://architecturasinica.org/place/000064e" ana="featured"/>
                <!--<relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53217688457_4e7f5a02c3_h.jpg" passive="https://architecturasinica.org/place/000048l" ana="featured"/> -->
             </listRelation>
