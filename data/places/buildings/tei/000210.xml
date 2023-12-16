@@ -92,10 +92,11 @@
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <bibl xml:id="bibl000210-1">
-                  <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
-                     <citedRange unit="pp">5-8</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
                   </bibl>
+                  <bibl>
+               <bibl xml:id="bibl000210-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
                      <citedRange unit="pp">37</citedRange>
@@ -104,7 +105,7 @@
                      <ptr target="https://architecturasinica.org/bibl/AJ2KF92X"/>
                      <citedRange unit="pp">373-380</citedRange>
                   </bibl>
-               </bibl>
+               </bibl>         
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000210" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
