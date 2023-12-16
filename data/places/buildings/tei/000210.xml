@@ -92,10 +92,20 @@
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
                <bibl xml:id="bibl000210-1">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
+                     <citedRange unit="pp">5-8</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                     <citedRange unit="pp">37</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/AJ2KF92X"/>
+                     <citedRange unit="pp">373-380</citedRange>
+                  </bibl>
                </bibl>
-               <!-- <note type="field-notes">1052 with angled bracket arms; qinmian ang appears to be recarved</note> -->
+            </place>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000210" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
