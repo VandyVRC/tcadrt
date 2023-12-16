@@ -73,6 +73,11 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000210-1" xml:lang="en">The Moni Hall is located north of the Dajue liushi Hall foundation and would have been the third timber-frame structure on the central axis. Based on a craftsman’s inscription discovered during a recent renovation from 1976 to 1980, we know it was originally completed during the Northern Song dynasty, in the year 1052.</p>
+                  <p source="#bibl000210-1" xml:lang="en">Despite renovations throughout its history, its core diantang style structure largely retains the style of the Song dynasty original. It is now the largest building surviving in the Longxing Monastery complex. It is seven bays wide and seven bays deep, measuring 33.29 meters wide and 27.12 meters deep. It has a double-eaves xieshan roof and the major bracket sets are Song Dynasty originals in five puzuo touxin style. </p>
+                  <p source="#bibl000210-1" xml:lang="en">The intercolumnar and corner bracket sets have two extra huagong in the forty-five-degree position respective to the wall plane. Moni Hall hosts an Amitabha triad: the Amitabha Buddha accompanied by Avalokitesvara and Mahasthamaprapta.</p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14256944 114.5762444</geo>
                </location>
@@ -117,6 +122,8 @@
                <relation active="https://architecturasinica.org/place/000210" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000210" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000210" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53369588614_1672c9204c_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53382920045_df0e412eab_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
