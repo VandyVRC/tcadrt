@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
-   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Tianwang Hall <foreign
-                  xml:lang="zh-Hant">隆興寺天王殿</foreign>
+            <title level="a" xml:lang="en">
+               Longxing Monastery, Celestial Kings Hall 
+               <foreign xml:lang="zh-Hant">隆興寺天王殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -46,14 +44,15 @@
             <language ident="zh-Hant">Traditional Chinese</language>
             <language ident="zh-Hans">Simplified Chinese</language>
             <language ident="zh-latn-wadegile">Wade-Giles</language>
-            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
-               type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change when="2020-10-01">
+            Adding diacritical marks to Pinyin, adding Wade-Giles by
+            <name type="person" xml:id="SLY">SHEN Liyan</name>
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,45 +60,27 @@
          <listPlace>
             <place xml:id="place-000209" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000209-1" xml:lang="en">Celestial Kings Hall</placeName>
-               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant"
-                  >天王殿</placeName>
-               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans"
-                  >天王殿</placeName>
-               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin"
-                  >Tiānwángdiàn</placeName>
-               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile"
-                  >T`ien-wang-tien</placeName>
-               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site"
-                  xml:lang="zh-latn-pinyin-nt">Longxingsi Tianwangdian</placeName>
-               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site"
-                  xml:lang="zh-Hant">隆興寺天王殿</placeName>
-               <placeName xml:id="name000209-9" type="alternate" subtype="building-name-in-site"
-                  xml:lang="zh-Hans">隆兴寺天王殿</placeName>
-
+               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant">天王殿</placeName>
+               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans">天王殿</placeName>
+               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin">Tianwangdian</placeName>
+               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile">T`ien-wang-tien</placeName>
+               <placeName xml:id="name000209-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longxingsi Tianwangdian</placeName>
+               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺天王殿</placeName>
+               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺天王殿</placeName>
+               <placeName xml:id="name000209-11" type="alternate">Tianwangdian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000209</idno>
-               <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000209-1" xml:lang="en">Tianwang Hall is the first timber-frame hall
-                     located in the central axis of the Longxingsi complex. Due to the absence of
-                     the mountain gate, Tianwang Hall serves as the entrance for tourists. Possibly
-                     dated to the Northern Song Dynasty (960-1279 CE), it is a single-eave building
-                     with a nine-ridge 九脊 (xieshan 歇山) roof. The structure is five bays wide and two
-                     bays deep, measuring 23.23 meters wide and 9.62 meters deep. The column-top
-                     bracket sets are five puzuo, in touxin style. The eaves bracketing underwent a
-                     major modification during the Qianlong reign of the Qing Dynasty (1780), with
-                     small brackets added to the first step of the pillar-top bracket sets and
-                     additional intercolumnar bracket sets between the original pillar-top sets. In
-                     addition to the four Celestial Kings inside, it also hosts a sculpture of
-                     Maitreya Buddha with a Sack dated to the Jin Dynasty (1115-1234 CE).</p>
-               </desc>
                <state type="existence" from="0982-01-01" to="0982-01-01">
                   <label>Date</label>
                   <desc>982</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000209-1" from="0960-01-01"
-                  to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000209-1" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000209-1" xml:lang="en">Tianwang Hall is the first timber-frame hall located in the central axis of the Longxingsi complex. Due to the absence of the mountain gate, Tianwang Hall serves as the entrance for tourists. Possibly dated to the Northern Song Dynasty (960-1279 CE), it is a single-eave building with a nine-ridge 九脊 (xieshan 歇山) roof. The structure is five bays wide and two bays deep, measuring 23.23 meters wide and 9.62 meters deep. The column-top bracket sets are five puzuo, in touxin style. The eaves bracketing underwent a major modification during the Qianlong reign of the Qing Dynasty (1780), with small brackets added to the first step of the pillar-top bracket sets and additional intercolumnar bracket sets between the original pillar-top sets. In addition to the four Celestial Kings inside, it also hosts a  sculpture of Maitreya Buddha with a Sack dated to the Jin Dynasty (1115-1234 CE). 
+                  </p>     
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14109167 114.5763528</geo>
                </location>
@@ -116,35 +97,18 @@
                <bibl xml:id="bibl000209-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-                  <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
-                  <citedRange unit="pp">3-5</citedRange>
-                  <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
-                  <citedRange unit="pp">37</citedRange>
                </bibl>
-               <!-- <note type="field-notes">late 10th century (982?); modified in 1780. Early mojiao gong similar to Dulesi</note>
-               <note type="notes">zgmscd 105-106</note> -->
+               <!--  <note type="field-notes">late 10th century (982?); modified in 1780. Early mojiao gong similar to Dulesi</note>
+               <note type="notes">zgmscd 105-106</note>  -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000209"
-                  passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject"
-                  ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000209"
-                  passive="https://architecturasinica.org/keyword/k000015" ref="dcterms:subject"
-                  ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209"
-                  passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject"
-                  ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209"
-                  passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject"
-                  ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209"
-                  passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject"
-                  ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209" ref="dcterms:temporal"
-                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000209"
-                  ref="schema:containedInPlace"
-                  passive="https://architecturasinica.org/place/000064"/>
+               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000015" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000209" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
             </listRelation>
          </listPlace>
       </body>
