@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery <foreign xml:lang="zh-Hant">隆興寺</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery <foreign xml:lang="zh-Hant"
+                  >隆興寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -47,33 +50,52 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
-         <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000064" type="site">
-               <placeName xml:id="name000064-1" type="site-name" xml:lang="en">Longxing Monastery</placeName>
+               <placeName xml:id="name000064-1" type="site-name" xml:lang="en">Longxing
+                  Monastery</placeName>
                <placeName xml:id="name000064-2" type="site-name" xml:lang="zh-Hant">隆興寺</placeName>
                <placeName xml:id="name000064-3" type="site-name" xml:lang="zh-Hans">隆兴寺</placeName>
-               <placeName xml:id="name000064-4" type="site-name" xml:lang="zh-latn-pinyin">Lóngxìngsì</placeName>
-               <placeName xml:id="name000064-5" type="site-name" xml:lang="zh-latn-wadegile">Lung-hsing-ssu</placeName>
+               <placeName xml:id="name000064-4" type="site-name" xml:lang="zh-latn-pinyin"
+                  >Lóngxìngsì</placeName>
+               <placeName xml:id="name000064-5" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Lung-hsing-ssu</placeName>
                <placeName xml:id="name000064-6" type="site-name">Longxingsi</placeName>
-               
+
                <idno type="URI">https://architecturasinica.org/place/000064</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000064-1" from="0581-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000064-1" from="0581-01-01"
+                  to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Sui-Qing</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000064-1" xml:lang="en"> Longxing Monastery (Longxingsi 隆興寺) is a Buddhist monastery located in Zhengding, Hebei. The site was originally founded in 586 CE during the Sui dynasty and was originally named Longzangsi 龍藏寺. In the Tang Dynasty, the name was changed to Longxingsi 龍興寺. Under the imperial patronage of the Song dynasty, Longxing Monastery was expanded in scale and gradually developed into the layout we see today. The oldest extant structures in the monastery date to the Northern Song dynasty.  During the Kangxi reign period of the Qing dynasty, the emperor renamed the monastery Longxingsi 隆興寺, the name we use today. Despite frequent renovations during its history, the planning and the core structure of the major buildings remain largely in the Song dynasty style. From south to north, the main structures on its central axis are the “One-word” Shadow Wall（Yingbi 影壁), the Stone Bridge (Shiqiao 石橋),  Tianwang Hall 天王殿, the foundation of the Dajue liushi Hall 大覺六師殿, Moni Hall 摩尼殿, Ordination Altar 戒壇, and Dabei Pavilion 大悲閣 located. On the east and west sides of the central axis between the Ordination Altar and the Dabei Pavilion, there are Zhuanlun zang Pavilion 轉輪藏閣 and Cishi Pavilion 慈氏閣. </p>     
+                  <p source="#bibl000064-1" xml:lang="en"> Longxing Monastery (Longxingsi 隆興寺) is a
+                     Buddhist monastery located in Zhengding, Hebei. The site was originally founded
+                     in 586 CE during the Sui dynasty and was originally named Longzangsi 龍藏寺. In
+                     the Tang Dynasty, the name was changed to Longxingsi 龍興寺. Under the imperial
+                     patronage of the Song dynasty, Longxing Monastery was expanded in scale and
+                     gradually developed into the layout we see today. The oldest extant structures
+                     in the monastery date to the Northern Song dynasty. During the Kangxi reign
+                     period of the Qing dynasty, the emperor renamed the monastery Longxingsi 隆興寺,
+                     the name we use today. Despite frequent renovations during its history, the
+                     planning and the core structure of the major buildings remain largely in the
+                     Song dynasty style. From south to north, the main structures on its central
+                     axis are the “One-word” Shadow Wall（Yingbi 影壁), the Stone Bridge (Shiqiao 石橋),
+                     Tianwang Hall 天王殿, the foundation of the Dajue liushi Hall 大覺六師殿, Moni Hall
+                     摩尼殿, Ordination Altar 戒壇, and Dabei Pavilion 大悲閣 located. On the east and west
+                     sides of the central axis between the Ordination Altar and the Dabei Pavilion,
+                     there are Zhuanlun zang Pavilion 轉輪藏閣 and Cishi Pavilion 慈氏閣. </p>
                </desc>
-               <note type="External Links"> 
+               <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/u9tyjtp">Wikipedia (in English)</ref>
-                  </p>                  
+                  </p>
                   <p>
                      <ref target="https://tinyurl.com/uc6w3ed">Wikipedia (in Chinese)</ref>
                   </p>
@@ -81,8 +103,9 @@
                      <ref target="https://tinyurl.com/wz9ecru">百度百科</ref>
                   </p>
                </note>
-                            
-               <location type="nested" source="http://vocab.getty.edu/tgn/8683355 http://vocab.getty.edu/aat/300387198">
+
+               <location type="nested"
+                  source="http://vocab.getty.edu/tgn/8683355 http://vocab.getty.edu/aat/300387198">
                   <placeName>河北省正定县</placeName>
                   <placeName xml:lang="zh-latn-pinyin">Hebei</placeName>
                   <country>China</country>
@@ -111,23 +134,28 @@
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
                <bibl xml:id="bibl000064-1">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>  
-               </bibl>    
+                  <bibl> <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                     <citedRange unit="pp">12</citedRange></bibl>
+                  
+             
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
-    
                   <citedRange unit="pp">1-19</citedRange></bibl>
-               
+
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
                   <citedRange unit="pp">37</citedRange>
+               </bibl>  
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000064" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000064" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000064" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000064"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000064" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000064" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>
