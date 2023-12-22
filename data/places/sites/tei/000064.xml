@@ -77,7 +77,7 @@
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000064-1" xml:lang="en"> Longxing Monastery (Longxingsi 隆興寺) is a
                      Buddhist monastery located in Zhengding, Hebei. The site was originally founded
-                     in 586 CE during the Sui dynasty and was originally named Longzangsi 龍藏寺. In
+                     in 586 CE during the Sui dynasty and it was called Longzangsi 龍藏寺. In
                      the Tang Dynasty, the name was changed to Longxingsi 龍興寺. Under the imperial
                      patronage of the Song dynasty, Longxing Monastery was expanded in scale and
                      gradually developed into the layout we see today. The oldest extant structures
@@ -136,8 +136,6 @@
                <bibl xml:id="bibl000064-1">
                   <bibl> <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                      <citedRange unit="pp">12</citedRange></bibl>
-                  
-             
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
                   <citedRange unit="pp">1-19</citedRange></bibl>
@@ -149,6 +147,8 @@
                </bibl>
             </place>
             <listRelation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53376060556_5c8325ff4a_b.jpg" passive="https://architecturasinica.org/place/000064" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53414551493_5ea4965d32_z.jpg" passive="https://architecturasinica.org/place/000064" ana="featured"/>
                <relation active="https://architecturasinica.org/place/000064"
                   passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
                   ana="site-type"/>
