@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Cintāmaṇi Hall <foreign xml:lang="zh-Hant">隆興寺摩尼殿</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Moni Hall <foreign xml:lang="zh-Hant">隆興寺摩尼殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -55,7 +55,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000210" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000210-1" xml:lang="en">Cintāmaṇi Hall</placeName>
+               <placeName xml:id="name000210-1" xml:lang="en">Moni Hall</placeName>
                <placeName xml:id="name000210-2" type="building-name" xml:lang="zh-Hant">摩尼殿</placeName>
                <placeName xml:id="name000210-3" type="building-name" xml:lang="zh-Hans">摩尼殿</placeName>
                <placeName xml:id="name000210-4" type="building-name" xml:lang="zh-latn-pinyin">Mónídiàn</placeName>
@@ -64,19 +64,20 @@
                <placeName xml:id="name000210-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺摩尼殿</placeName>
                <placeName xml:id="name000210-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺摩尼殿</placeName>
                <placeName xml:id="name000210-11" type="alternate">Monidian</placeName>
+               <placeName xml:id="name000210-12" type="alternate" xml:lang="en">Cintāmaṇi Hall</placeName>
                <idno type="URI">https://architecturasinica.org/place/000210</idno>
                <state type="existence" from="1052-01-01" to="1052-01-01">
                   <label>Date</label>
                   <desc>1052</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000210-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000210-2" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000210-1" xml:lang="en">The Moni Hall is located north of the Dajue liushi Hall foundation and would have been the third timber-frame structure on the central axis. Based on a craftsman’s inscription discovered during a recent renovation from 1976 to 1980, we know it was originally completed during the Northern Song dynasty, in the year 1052.</p>
-                  <p source="#bibl000210-1" xml:lang="en">Despite renovations throughout its history, its core diantang style structure largely retains the style of the Song dynasty original. It is now the largest building surviving in the Longxing Monastery complex. It is seven bays wide and seven bays deep, measuring 33.29 meters wide and 27.12 meters deep. It has a double-eaves xieshan roof and the major bracket sets are Song Dynasty originals in five puzuo touxin style. </p>
-                  <p source="#bibl000210-1" xml:lang="en">The intercolumnar and corner bracket sets have two extra huagong in the forty-five-degree position respective to the wall plane. Moni Hall hosts an Amitabha triad: the Amitabha Buddha accompanied by Avalokitesvara and Mahasthamaprapta.</p>
+                  <p source="#bibl000210-1" xml:lang="en">The Moni Hall is located north of the Dajue liushi Hall foundation and would have been the third timber-frame structure on the central axis. Based on a craftsman’s inscription discovered during a recent renovation from 1976 to 1980, we know it was originally completed during the Northern Song dynasty, in the year 1052 (Guo 2009, 370).</p>
+                  <p source="#bibl000210-1" xml:lang="en">Despite renovations throughout its history, its core diantang style structure largely retains the style of the Song dynasty original. It is now the largest building surviving in the Longxing Monastery complex. It is seven bays wide and seven bays deep, measuring 33.29 meters wide and 27.12 meters deep. It has a double-eaves xieshan roof and the major bracket sets are Song Dynasty originals in five puzuo, with the first outward step in "stolen-heart" (<term ref="/keyword/k000024">touxin 偷心</term>) style (Guo 2009, 373-375). </p>
+                  <p source="#bibl000210-1" xml:lang="en">The intercolumnar and corner bracket sets have two extra huagong in the forty-five-degree position respective to the wall plane (Guo 2009, 378). Moni Hall hosts a sculptural program including Sakyamuni framed by Manjusri and Samantabhadra on the main altar. On the opposite side of this altar, facing northward, is a sculpture of "Avalokitesvara on an Island in the Sea" (Haidao Guanyin 海島觀音) dated to 1563 (Guojia wenwuju 2013, 37).</p>
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14256944 114.5762444</geo>
@@ -91,18 +92,18 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000210-1">
+               <bibl xml:id="bibl000210-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <listBibl xml:id="bibl000210-2">
+               <listBibl xml:id="bibl000210-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
                      <citedRange unit="pp">37</citedRange>
                   </bibl>
                   <bibl>
-                     <ptr target="https://architecturasinica.org/bibl/AJ2KF92X"/>
-                     <citedRange unit="pp">373-380</citedRange>
+                     <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
+                     <citedRange unit="pp">370-380</citedRange>
                   </bibl>
                </listBibl>
             </place>
