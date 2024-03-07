@@ -17,6 +17,10 @@
                <resp>adding citation</resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
+            <respStmt>
+               <resp>Site description and data entry by</resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -49,6 +53,7 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" who="#YYY" when="2024-03-06-04:00">added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,6 +77,18 @@
                   <label>Dynasty</label>
                   <desc>Liao 916 - 1125</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000182-2">The Bhagavat Sutra Repository is located in the southeast of <placeName ref="/place/000041">Huayan Monastery</placeName>. It serves as the main hall of the Lower Monastery and is the scripture repository of Huayan Monastery. While the building seems simple from the outside, it is the earliest and only remaining piece of architecture from the Liao Dynasty in Huayan Temple. The Repository is a <term subtype="keyword" ref="keyword/k000129">tingtang</term> style hall with a <term subtype="keyword" ref="keyword/k000143">hip-gable</term> roof. It is five bays wide and four bays deep, facing east. Due to its function as a storage hall for sutras, only the three central bays of the front facade have doors, while the remaining sides are solid walls to ensure a secure storage of scriptures, in cabinets commonly known as bizang (wall storage) (中国文物地图集 山西分册, 78; Hong 2017; Steinhardt 1997, 124-140).
+                  </p>
+                  <p source="#bibl000182-3">The Repository is situated in front of a spacious platform measuring 4.2 meters high, and there is a broad “moon terrace" in front (<term subtype="keyword" ref="/keyword/k000123">yuetai</term>). The single-eaves <term subtype="keyword" ref="keyword/k000143">hip-and-gable</term> roof incorporates seventeen different types of bracket sets, including some of the most complex found in Liao dynasty architecture. Being a sutra repository, the hall is dark inside, and the different shaped pillars suggest that multiple repairs have been done to the hall over time (中国文物地图集 山西分册, 78; Steinhardt 1997, 124-140).
+                  </p>
+               </desc>
+               <desc type="building-data" xml:lang="zh-Hant">
+                  <p source="#bibl000182-2">薄伽教藏殿位於<placeName ref="/place/000041">華嚴寺</placeName>的東南方，是下寺主殿，也是華嚴寺的藏經殿。 雖然這棟建築從外部看起來不太引人注目，但它是華嚴寺中現存最古老的建築，也是唯一留存下來的遼代建築。 它採用<term subtype="keyword" ref="keyword/k000129">亭堂</term>式建築風格，頂部為<term subtype="keyword" ref="keyword/k000143">歇山</term>頂，寬五間，深四間，朝向東方。 由於其功能是用於存放經卷，除了正面三間有門之外，其他部分都是實牆，以便用作安防壁藏（中國文物地圖集山西分冊，78；Hong 2017；Steinhardt 1997，124-140）。
+                  </p>
+                  <p source="#bibl000182-3">大殿坐落在4.2米高的台基，前設有寬闊的大<term subtype="keyword" ref="/keyword/k000123">月台</term>。 它採用了單簷<term subtype="keyword" ref="keyword/k000143">歇山</term>頂的設計，屋頂採用了十七種不同類型的支撐系統，其中包括遼代建築中最複雜的一些建築結構。 作為一個藏經殿，其大廳內非常昏暗，不同形狀的柱子暗示了多次修復的痕跡（中國文物地圖集 山西分冊，78；Steinhardt 1997，124-140）。
+                  </p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>40.0905166 113.288533</geo>
                </location>
@@ -90,6 +107,28 @@
                   <citedRange unit="pp">12</citedRange>
                </bibl>
                <!-- <note type="field-notes">1038</note> -->
+               <listBibl xml:id="bibl000182-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">78</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/YCVRHHE9"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">124-140</citedRange>
+               </listBibl>
+               <listBibl xml:id="bibl000183-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
+                     <citedRange unit="pp">78</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/FAT47S42"/>
+                     <citedRange unit="pp">124-140</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000182" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
