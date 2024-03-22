@@ -11,7 +11,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="creator" xml:id="SL">Sophia Liu</editor>
+            <editor role="content-author" xml:id="SL">Sophia Liu</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -53,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-12-09-04:00" who="#SL">CREATED: place record</change>
+         <change n="1.1" when="2024-03-21" who="#TGM">updated GIS</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -102,7 +103,8 @@
                   </region>
                </location>-->
                <location type="gps" subtype="preferred">
-                  <geo>39.894167 116.346111</geo>
+                  <geo>39.892979 116.339998</geo>
+                  <!--<location>located using GoogleEarth 2024-03-21</location>-->
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type</label>

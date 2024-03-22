@@ -11,7 +11,7 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="general" xml:id="SL">Sophia Liu</editor>
+            <editor role="content-author" xml:id="SL">Sophia Liu</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>
                <name type="person" ref="#SL">Sophia Liu</name>
@@ -53,6 +53,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2021-12-10" who="#SL">CREATED: place record</change>
+         <change n="1.1" when="2024-03-21" who="#TGM">updated GIS</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -103,6 +104,7 @@
                <location type="gps" subtype="preferred">
                   <geo>39.894167 116.346111</geo>
                </location>
+               <!--<location>located using GoogleEarth 2024-03-21</location>-->
                <trait type="type" sub-type="building type">
                   <label>Type </label>
                   <desc xml:lang="en">pagoda</desc>
