@@ -74,7 +74,7 @@
                   <label>Date</label>
                   <desc>ca. 1607; moved to current location in 1959</desc>
                </state>
-               <state type="existence" subtype="dynasty" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000064e-2" from="1368-01-01" to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368-1644</desc>
                </state>
@@ -116,6 +116,10 @@
                      <citedRange unit="pp">18</citedRange>
                   </bibl>
                </listBibl>
+               <bibl xml:id="bibl000064e-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000064e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>

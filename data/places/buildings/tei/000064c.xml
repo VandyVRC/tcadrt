@@ -83,7 +83,7 @@
                   <label>Date</label>
                   <desc>1050-1100</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000211-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000064c-3" from="0960-01-01" to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
@@ -114,6 +114,10 @@
                      <citedRange unit="pp">370-73</citedRange>
                   </bibl>
                </listBibl>
+               <bibl xml:id="bibl000064c-3">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
