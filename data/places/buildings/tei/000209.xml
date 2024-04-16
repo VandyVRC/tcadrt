@@ -132,6 +132,8 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000209"
                   ref="schema:containedInPlace"
                   passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts" active="https://www.flickr.com/photos/30365320@N04/53376382799/in/pool-14789043@N22/" passive="https://architecturasinica.org/place/000209" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://www.flickr.com/photos/30365320@N04/53382797564/in/pool-14789043@N22/" passive="https://architecturasinica.org/place/000209" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
