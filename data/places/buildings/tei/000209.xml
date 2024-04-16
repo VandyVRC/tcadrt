@@ -84,7 +84,7 @@
                   <label>Date</label>
                   <desc>982 (with 18th century modifications)</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000209-1" from="0960-01-01"
+               <state type="existence" subtype="dynasty" source="#bibl000209-2" from="0960-01-01"
                   to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
@@ -106,10 +106,11 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
+               <bibl xml:id="bibl000209-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                <listBibl xml:id="bibl000209-1">
-                  <bibl><ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                     <citedRange unit="pp">12</citedRange></bibl>
-              
                <bibl>
                   <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
                   <citedRange unit="pp">3-5</citedRange>
