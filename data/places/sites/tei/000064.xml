@@ -11,10 +11,13 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="page-creator" ref="#TGM">Tracy Miller</editor>
-            <editor role="content-author">CMW (HART 2815) F23</editor>
+            <editor role="content-author" xml:id="CMW">CMW (HART 2815) F23</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Page creator</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
