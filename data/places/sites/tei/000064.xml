@@ -10,15 +10,21 @@
                   >隆興寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <editor role="page-creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author">CMW (HART 2815) F23</editor>
             <respStmt>
                <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>entry composition</resp>
+               <name xml:id="GQH">GAO Qihan</name>
             </respStmt>
             <respStmt>
                <resp>adding external links</resp>
-               <name type="person" xml:id="SZ"> SUN Zheng </name>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -50,8 +56,10 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
+         <change n="3.0" when="2023-12-01">updating entry with text and images<name
+               type="person" ref="#GQH">GAO Qihan</name></change>
          <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
-               type="person" xml:id="OW">OGIHARA Waka</name></change>
+            type="person" xml:id="OW">OGIHARA Waka</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
