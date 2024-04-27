@@ -13,8 +13,12 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="content-author" xml:id="CMW">CMW (HART 2815) F23</editor>
             <respStmt>
-               <resp>Editing and proof correction by</resp>
+               <resp>Editing and proof correction:</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Page creator: </resp>
@@ -71,10 +75,9 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SZ" when="2020-02-26">adding external links</change>
-         <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+         <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles <name
             type="person" xml:id="OW">OGIHARA Waka</name></change>
-         <change n="3.0" when="2023-12-01">updating entry with text and images<name
-            type="person" ref="#GQH">GAO Qihan</name></change>
+         <change n="3.0" who="#GQH" when="2023-12-01">updating entry with text and images</change>
       </revisionDesc>
    </teiHeader>
    <text>
