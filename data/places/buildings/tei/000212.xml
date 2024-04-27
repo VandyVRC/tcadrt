@@ -39,12 +39,13 @@
                <name type="person" ref="#HL">HUANG Leo</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation by </resp>
+               <resp>Citations: </resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2024 by </resp>
-               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+               <resp>Romanization </resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -76,8 +77,8 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.0" who="#SLY" when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
+         <change n="2.0" who="#YYY" when="2024-04-24-04:00">citations</change>
       </revisionDesc>
    </teiHeader>
    <text>
