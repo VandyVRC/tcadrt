@@ -4,23 +4,26 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Shiqiao <foreign xml:lang="zh-Hant">隆興寺石橋</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Stone Bridge <foreign xml:lang="zh-Hant">隆興寺石橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="HL">HUANG Leo</editor>
             <editor role="content-author">CMW (HART 2815) F23</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Page creator: </resp>
+               <name type="person" xml:id="HL">HUANG Liyu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2024 by</resp>
+               <resp>Description and citation information: </resp>
                <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
@@ -51,9 +54,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#LH" when="2023-09-14-04:00">CREATED: building page</change>
+         <change n="1.0" who="#HL" when="2023-09-14-04:00">CREATED: place record</change>
          <change n="1.0" who="#TGM" when="2023-10-13-04:00">edited text</change>
          <change n="1.1" who="#YYY" when="2023-12-15-04:00">edited text</change>
+         <change n="1.2" who="#YYY" when="2024-03-29-04:00">edited text</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,10 +75,10 @@
                <idno type="URI">https://architecturasinica.org/place/000064a</idno>
                <state type="existence" subtype="dynasty" from="0960-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>uncertain</desc>
+                  <desc>uncertain; extant from the 18th century</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000064a-1" xml:lang="en">The <placeName ref="/keyword/000064">Longxing Monastery</placeName> Stone Bridge (Shiqiao 石橋) is located in front of the Tianwang Hall (<placeName ref="/place/000209">Tianwangdian 天王殿</placeName>), just across from the “One Word” Glazed Screen Wall (Yizi liuli yingbi 一字琉璃影壁) located at the southernmost end of the central axis. The name of the bridge comes from the decorative single hole under the bridge and the three paths formed by four rows of balustrades running north and south along the bridge deck.</p>   
+                  <p source="#bibl000064a-1" xml:lang="en">The <placeName ref="/keyword/000064">Longxing Monastery</placeName> Stone Bridge (Shiqiao 石橋), also called the Three Path Single Arch Stone Bridge (Sanlu dankong shiqiao 三路單孔石橋) is located in front of the Tianwang Hall (<placeName ref="/place/000209">Tianwangdian 天王殿</placeName>), just across from the “One Word” Glazed Shadow Wall (Yizi liuli yingbi 一字琉璃影壁) located at the southernmost end of the central axis. The name of the bridge comes from the decorative single arch of the bridge and the three paths formed by four rows of balustrades running north and south along the bridge deck.</p>   
                   <p source="#bibl000064a-1" xml:lang="en">The width of the bridge deck surface is 12.6 meters from east to west, and the horizontal length from north to south is 7.4 meters. The width of the middle lane, measured from the center of the balusters, is 5 meters, and the width of the side lanes is 3.5 meters. Each of the balustrades (<term>goulan 勾欄</term>) is composed of four balusters approximately 1.2 meters in height, which are surmounted by four intricately carved squatting lions, two facing south and two facing north, with their heads slightly tilted inward, as well as other sculpted components (Hebeisheng Zhengdingxian wenwu baoguansuo 2000, 275).</p>
                   <p source="#bibl000064a-1" xml:lang="zh-Hant">这座三路單孔石橋位於<placeName ref="/place/000209">天王殿</placeName>前，與中軸綫最南端的一字琉璃影壁僅一路相隔。橋的名字来源于桥下起裝飾作用的單孔及橋面南北向置勾欄四排形成的三路。</p>
                   <p source="#bibl000064a-1" xml:lang="zh-Hant">橋面的東西寬度為12.6米，南北水平長度為7.4米。中路柱中至柱中的寬度為5米，兩側的寬度為3.5米。<term>勾欄</term>由地栿、望柱、欄板、荷葉凈瓶和尋杖等構件組成。望柱的高度為1.2米。每排有四個雕刻著蹲獅的望柱，南面和北面各有兩個，頭部稍微向內傾斜（河北省正定縣文物保管所 2000，275）。</p>
@@ -101,7 +105,7 @@
                <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53368427762_44d4c05af3_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_1202bf02e1_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_8455d214c9_h.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
