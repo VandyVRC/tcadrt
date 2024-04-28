@@ -11,19 +11,24 @@
                   xml:lang="zh-Hant">華嚴寺下寺薄伽教藏殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="YYY">YAN Yiyang 嚴一洋</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>adding citation: </resp>
                <name type="person" xml:id="SQ">SONG Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>Site description and data entry by</resp>
-               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+               <resp>Site description and data entry: </resp>
+               <name type="person" ref="#YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -66,15 +71,15 @@
             <place xml:id="place-000182" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000182-1" xml:lang="en">Bhagavat Sutra Hall</placeName>
                <placeName xml:id="name000182-2" type="building-name" xml:lang="zh-Hant"
-                  >下寺薄伽教藏殿</placeName>
+                  >薄伽教藏殿</placeName>
                <placeName xml:id="name000182-3" type="building-name" xml:lang="zh-Hans"
-                  >下寺薄伽教藏殿</placeName>
+                  >薄伽教藏殿</placeName>
                <placeName xml:id="name000182-4" type="building-name" xml:lang="zh-latn-pinyin"
-                  >Báojiā jiàozàngdiàn</placeName>
+                  >Huáyánsì xiàsì Báojiā jiàozàngdiàn</placeName>
                <placeName xml:id="name000182-5" type="building-name" xml:lang="zh-latn-wadegile"
-                  >Pao-chia chiao-tsang-tien</placeName>
+                  >Hua-yen-ssu Pao-chia chiao-tsang-tien</placeName>
                <placeName xml:id="name000182-6" type="alternate" subtype="building-name-in-site"
-                  xml:lang="en">Huayansi Xiasi Boqie jiaozangdian</placeName>
+                  xml:lang="zh-latn-pinyin">Huáyánsì xiàsì Bóqié jiàozàngdiàn</placeName>
                <placeName xml:id="name000182-7" type="alternate" subtype="building-name-in-site"
                   xml:lang="zh-Hant">華嚴寺下寺薄伽教藏殿</placeName>
                <placeName xml:id="name000182-8" type="alternate" subtype="building-name-in-site"
@@ -99,8 +104,8 @@
                      with a <term subtype="keyword" ref="/keyword/k000143">hip-gable</term> roof. It
                      is five bays (25.65 m) wide and four bays (18.47 m) deep, facing east. Due to
                      its function as a storage hall for the canonical writings (jiaozang 教藏, Skt.
-                     pitaka）of the Bhagavat, (Baojia or Boqie 薄伽; Skt. Bhagavat) one term used for Sakyamuni
-                     Buddha, only the three central bays of the front facade have doors while the
+                     pitaka）of the Bhagavat (Baojia or Boqie 薄伽; Skt. Bhagavat; one term used for Sakyamuni
+                     Buddha) only the three central bays of the front facade have doors while the
                      remaining sides are solid walls to ensure the secure storage of scriptures
                      (DDB). Although the building seems simple from the outside, the solid walls are
                      lined with wall cabinets for scriptures (bizang 壁藏) that are exquisitely
