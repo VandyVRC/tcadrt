@@ -19,16 +19,20 @@
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
+               <resp>Page creator: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Site description, data entry, citations: </resp>
+               <name type="person" ref="#YYY">YAN Yiyang 嚴一洋</name>
+            </respStmt>
+            <respStmt>
                <resp>Editing and proof correction: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation: </resp>
+               <resp>Citations: </resp>
                <name type="person" xml:id="SQ">SONG Qisen</name>
-            </respStmt>
-            <respStmt>
-               <resp>Site description and data entry: </resp>
-               <name type="person" ref="#YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,10 +63,10 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by <name
                type="person" xml:id="OW">OGIHARA Waka</name></change>
-         <change n="3.0" who="#YYY" when="2024-03-06-04:00">added site description</change>
+         <change n="1.2" who="#YYY" when="2024-03-06-04:00">added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -99,7 +103,7 @@
                      southeast side of <placeName ref="/place/000041">Huayan Monastery</placeName>.
                      It serves as the main hall of the Lower Monastery and is the scripture
                      repository of larger site. The hall is also the earliest and only remaining
-                     building from the Liao Dynasty in Huayan Monastery. The repository is a
+                     building from the Liao dynasty in Huayan Monastery. The repository is a
                      tingtang <term subtype="keyword" ref="/keyword/k000129">廳堂</term> style structure
                      with a <term subtype="keyword" ref="/keyword/k000143">hip-gable</term> roof. It
                      is five bays (25.65 m) wide and four bays (18.47 m) deep, facing east. Due to
@@ -151,7 +155,6 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <note type="field-notes">1038</note> -->
                <listBibl xml:id="bibl000182-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
