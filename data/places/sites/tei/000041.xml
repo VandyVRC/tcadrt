@@ -8,18 +8,19 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="creator">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="YYY">YAN Yiyang 嚴一洋</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Editing, proofreading, data entry and revision: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>External links: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>Site description and data entry by</resp>
-               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+               <resp>Site description and data entry: </resp>
+               <name type="person" ref="#YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -50,12 +51,12 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-03-20-04:00">adding external links</change>
+         <change n="1.1" who="#SQ" when="2020-03-20-04:00">adding external links</change>
          <change when="2020-09-17">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
          <change when="2021-07-05">editing title by
             <name type="person" ref="#TGM">Tracy Miller</name></change>
-         <change n="3.0" who="#YYY" when="2024-03-06-04:00">added site description</change>
+         <change n="1.2" who="#YYY" when="2024-03-06-04:00">added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -74,7 +75,7 @@
                </state>
                
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000041-2">The Huayan Monastery in Datong, Shanxi Province, was first built during the Liao Dynasty, and it is the largest and most well-preserved monastery from the Liao and Jin Dynasties.  It covers an area of approximately 16,700 square meters. The monastery complex faces east, with all individual halls arranged in a rigorous axial organization. The earliest remaining building in the monastery, the <placeName ref="place/000182">Bhagavat Sutra Repository (薄伽教藏殿)</placeName>, was first constructed in the seventh year of the Liao Chongxi reign period  (1038) and is said to have been rebuilt in the eighth year of the Liao Qingning reign period (1062) (中国文物地图集 山西分册, 78).
+                  <p source="#bibl000041-2">The Huayan Monastery in Datong, Shanxi Province, was first built during the Liao Dynasty, and it is the largest and most well-preserved monastery from the Liao and Jin Dynasties.  It covers an area of approximately 16,700 square meters. The monastery complex faces east, with all individual halls arranged in a rigorous axial organization. The earliest remaining building in the monastery, the <placeName ref="place/000182">Bhagavat Sutra Hall (薄伽教藏殿)</placeName>, was first constructed in the seventh year of the Liao Chongxi reign period  (1038) and is said to have been rebuilt in the eighth year of the Liao Qingning reign period (1062) (中国文物地图集 山西分册, 78).
                   </p>
                   <p source="#bibl000041-3">Starting from the Ming dynasty, Huayan Monastery was divided into two parts Upper and  Lower. The Upper Monastery houses the <placeName ref="/place/000183">Mahavira Treasure Hall (Daxiong baodian 大雄寶殿)</placeName> first built in the Liao Qingning reign period, as well as smaller halls including the mountain gate, passage hall with portico (baoxia 抱夏). This was originally called the Tianwang Hall. Most of these ancillary halls were rebuilt in 2010 (Cao 2012, 41). The Lower Monastery’s location resembles a separate monastery, with a separate central axis consisting of a mountain gate, the Liao period Bhagavat Sutra Repository and Ming and Qing Dynasty auxiliary halls and side rooms. During the initial survey by Liang Sicheng and Liu Dunzhen in the early twentieth century another early building, the Haihui Hall, was documented as part of the Lower Monastery. This building was destroyed in the 1950s, but has been reconstructed recently as part of the Upper Monastery. Artifacts housed in the monastery exemplify the best of Buddhist art from China’s medieval periods. (中国文物地图集 山西分册, 78; Steinhardt 1997, 124-140; Liang 2001, vol. 2, 87).
                   </p>
