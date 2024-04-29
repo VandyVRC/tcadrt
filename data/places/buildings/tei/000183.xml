@@ -9,17 +9,26 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general">Tracy Miller</editor>
+            <editor role="content-author" xml:id="YYY">YAN Yiyang 嚴一洋</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Page creator: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Site description and data entry by</resp>
-               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+               <resp>Citation: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Site description and data entry: </resp>
+               <name type="person" ref="#YYY">YAN Yiyang 嚴一洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -80,15 +89,15 @@
                   <desc>Jin 1115 - 1234</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000183-2">Daxiongbao Hall of the <placeName ref="/place/000041">Huayan Monastery</placeName> is the main hall of the Upper Monastery, and it is in the northwest corner of the monastery complex. It is the only surviving Jin Dynasty building in the Huayan Monastery as well as the largest remaining main hall from the early periods of Chinese architecture. According to inscriptions found on interior timber frame, the Daxiongbao Hall was first built during the Liao Dynasty and later rebuilt during the Jin Dynasty between the third year of the Tianjuan reign period and the fourth year of the Huangtong reign period (1140-1144) (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45).
+                  <p source="#bibl000183-2">Daxiongbao Hall of the <placeName ref="/place/000041">Huayan Monastery</placeName> is the main hall of the Upper Monastery, and it is in the northwest corner of the monastery complex. It is the only surviving Jin dynasty building in the Huayan Monastery as well as the largest remaining main hall from the early periods of Chinese architecture. According to inscriptions found on interior timber frame, the Daxiongbao Hall was first built during the Liao dynasty and later rebuilt during the Jin dynasty between the third year of the Tianjuan reign period and the fourth year of the Huangtong reign period (1140-1144) (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45).
                   </p>
-                  <p source="#bibl000183-3">The Daxiongbao Hall occupies an area of 1444 square meters, which makes it the largest Buddhist building extant from the Liao and Jin periods. The hall has a width of nine bays and a depth of five bays. It stands on a four-meter high platform with an open “moon terrace” (<term subtype="keyword" ref="/keyword/k000123">yuetai</term>) in front. Inside the hall, the method of moving (yizhu) and reducing columns (touzhu) was used to reduce the number of interior columns by 12, thereby enlarging the central space for worship. The hall houses a number of important cultural artifacts including sculptures and murals (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45; Steinhardt 1997, 124-140).
+                  <p source="#bibl000183-3">The Daxiongbao Hall occupies an area of 1444 square meters, which makes it the largest Buddhist building extant from the Liao and Jin periods. The hall has a width of nine bays (53.7 m) and a depth of five bays (27.44 m). It stands on a four-meter high platform with an open “moon terrace” (<term subtype="keyword" ref="/keyword/k000123">yuetai</term>) in front. Inside the hall, the method of moving (yizhu) and reducing columns (touzhu) was used to reduce the number of interior columns by 12, thereby enlarging the central space for worship. The hall houses a number of important cultural artifacts including sculptures and murals (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45; Steinhardt 1997, 124-140).
                   </p>
                </desc>
                <desc type="building-data" xml:lang="zh-Hant">
                   <p source="#bibl000183-2">大雄寶殿是上寺的主殿，位於寺內的西北角。 它是<placeName ref="/place/000041">華嚴寺</placeName>內僅存的黃金代建築，也是中國早期建築中現存最大的主殿。 根據大殿的樑架題記載，它始建於遼朝，並於金天眷三年至皇統四年（1140-1144）進行了重修。 （中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45）。
                   </p>
-                  <p source="#bibl000183-3">大雄寶殿的建築面積為1444平方米，是國內現存遼金時期規模最大的佛殿。 大殿寬九間，進深五間。 大殿坐落在高4米的台基上，前面有寬敞的<term subtype="keyword" ref="/keyword/k000123">月台</term>，顯示了大殿的重要性。 為了擴大禮佛空間，殿內採用了移柱和減柱法，減少了12根內柱。 殿內還藏有珍貴文物（出處：中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45；Steinhardt 1997，124-140）。
+                  <p source="#bibl000183-3">大雄寶殿的建築面積為1444平方米，是國內現存遼金時期規模最大的佛殿。 大殿寬九間（53.7米），進深五間（27.44米）。 大殿坐落在高4米的台基上，前面有寬敞的<term subtype="keyword" ref="/keyword/k000123">月台</term>，顯示了大殿的重要性。 為了擴大禮佛空間，殿內採用了移柱和減柱法，減少了12根內柱。 殿內還藏有珍貴文物（出處：中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45；Steinhardt 1997，124-140）。
                   </p>
                </desc>
                <location type="gps" subtype="preferred">
