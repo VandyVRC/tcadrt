@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Stone Bridge <foreign xml:lang="zh-Hant">隆興寺石橋</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Stone Bridge <foreign
+                  xml:lang="zh-Hant">隆興寺石橋</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -65,26 +69,55 @@
          <listPlace>
             <place xml:id="place-000064a" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000064a-1" xml:lang="en">Stone Bridge</placeName>
-               <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant">石橋</placeName>
-               <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans">石桥</placeName>
-               <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin">Shíqiáo</placeName>
-               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile">Shíh-ch'iao</placeName>
-               <placeName xml:id="name000064a-6" type="building-name" xml:lang="en">Longxingsi Shiqiao</placeName>
-               <placeName xml:id="name000064a-7" type="building-name" xml:lang="zh-Hant">隆興寺石橋</placeName>
-               <placeName xml:id="name000064a-8" type="building-name" xml:lang="zh-Hans">隆興寺石桥</placeName>
+               <placeName xml:id="name000064a-2" type="building-name" xml:lang="zh-Hant"
+                  >石橋</placeName>
+               <placeName xml:id="name000064a-3" type="building-name" xml:lang="zh-Hans"
+                  >石桥</placeName>
+               <placeName xml:id="name000064a-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Shíqiáo</placeName>
+               <placeName xml:id="name000064a-5" type="building-name" xml:lang="zh-latn-wadegile"
+                  >Shíh-ch'iao</placeName>
+               <placeName xml:id="name000064a-6" type="building-name" xml:lang="en">Longxingsi
+                  Shiqiao</placeName>
+               <placeName xml:id="name000064a-7" type="building-name" xml:lang="zh-Hant"
+                  >隆興寺石橋</placeName>
+               <placeName xml:id="name000064a-8" type="building-name" xml:lang="zh-Hans"
+                  >隆興寺石桥</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064a</idno>
-               <state type="existence" subtype="dynasty" from="0960-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000064a-1" from="0586-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>uncertain; extant from the 18th century</desc>
+                  <desc>Extant from 1748; existence of bridge: Sui - Qing dynasties?</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000064a-1" xml:lang="en">The <placeName ref="/keyword/000064">Longxing Monastery</placeName> Stone Bridge (Shiqiao 石橋), also called the Three Path Single Arch Stone Bridge (Sanlu dankong shiqiao 三路單孔石橋) is located in front of the Tianwang Hall (<placeName ref="/place/000209">Tianwangdian 天王殿</placeName>), just across from the “One Word” Glazed Shadow Wall (Yizi liuli yingbi 一字琉璃影壁) located at the southernmost end of the central axis. The name of the bridge comes from the decorative single arch of the bridge and the three paths formed by four rows of balustrades running north and south along the bridge deck.</p>   
-                  <p source="#bibl000064a-1" xml:lang="en">The width of the bridge deck surface is 12.6 meters from east to west, and the horizontal length from north to south is 7.4 meters. The width of the middle lane, measured from the center of the balusters, is 5 meters, and the width of the side lanes is 3.5 meters. Each of the balustrades (<term>goulan 勾欄</term>) is composed of four balusters approximately 1.2 meters in height, which are surmounted by four intricately carved squatting lions, two facing south and two facing north, with their heads slightly tilted inward, as well as other sculpted components (Hebeisheng Zhengdingxian wenwu baoguansuo 2000, 275).</p>
-                  <p source="#bibl000064a-1" xml:lang="zh-Hant">这座三路單孔石橋位於<placeName ref="/place/000209">天王殿</placeName>前，與中軸綫最南端的一字琉璃影壁僅一路相隔。橋的名字来源于桥下起裝飾作用的單孔及橋面南北向置勾欄四排形成的三路。</p>
-                  <p source="#bibl000064a-1" xml:lang="zh-Hant">橋面的東西寬度為12.6米，南北水平長度為7.4米。中路柱中至柱中的寬度為5米，兩側的寬度為3.5米。<term>勾欄</term>由地栿、望柱、欄板、荷葉凈瓶和尋杖等構件組成。望柱的高度為1.2米。每排有四個雕刻著蹲獅的望柱，南面和北面各有兩個，頭部稍微向內傾斜（河北省正定縣文物保管所 2000，275）。</p>
+                  <p source="#bibl000064a-1" xml:lang="en">The <placeName ref="/keyword/000064"
+                        >Longxing Monastery</placeName> Stone Bridge (Shiqiao 石橋), also called the
+                     Triple Path Single Arch Stone Bridge (Sanlu dankong shiqiao 三路單孔石橋) is located
+                     in front of the Tianwang Hall (<placeName ref="/place/000209">Tianwangdian
+                        天王殿</placeName>), just across from the “One Word” Glazed Shadow Wall (Yizi
+                     liuli yingbi 一字琉璃影壁) located at the southernmost end of the central axis.
+                     Although we have not confirmed the date of its first construction, it does
+                     appear on a plan of the building from the thirteenth year of the Qianlong reign
+                     period (1748; Guo 2009, 369.)The name of the bridge comes from the decorative
+                     single arch of the bridge and the three paths formed by four rows of
+                     balustrades running north and south along the bridge deck.</p>
+                  <p source="#bibl000064a-1" xml:lang="en">The width of the bridge deck surface is
+                     12.6 meters from east to west, and the horizontal length from north to south is
+                     7.4 meters. The width of the middle lane, measured from the center of the
+                     balusters, is 5 meters, and the width of the side lanes is 3.5 meters. Each of
+                     the balustrades (<term>goulan 勾欄</term>) is composed of four balusters
+                     approximately 1.2 meters in height, which are surmounted by four squatting
+                     lions as well as other sculpted components. The lions, two facing south and two
+                     facing north, are intricately carved with their heads slightly tilted inward
+                     (Hebeisheng Zhengdingxian wenwu baoguansuo 2000, 275).</p>
+                  <p source="#bibl000064a-1" xml:lang="zh-Hant">这座三路單孔石橋位於<placeName
+                        ref="/place/000209"
+                     >天王殿</placeName>前，與中軸綫最南端的一字琉璃影壁僅一路相隔。橋的名字来源于桥下起裝飾作用的單孔及橋面南北向置勾欄四排形成的三路。</p>
+                  <p source="#bibl000064a-1" xml:lang="zh-Hant"
+                        >橋面的東西寬度為12.6米，南北水平長度為7.4米。中路柱中至柱中的寬度為5米，兩側的寬度為3.5米。<term>勾欄</term>由地栿、望柱、欄板、荷葉凈瓶和尋杖等構件組成。望柱的高度為1.2米。每排有四個雕刻著蹲獅的望柱，南面和北面各有兩個，頭部稍微向內傾斜（河北省正定縣文物保管所
+                     2000，275）。</p>
                </desc>
-                  <location type="gps" subtype="preferred">
-                     <geo>38.140934 114.576385</geo>
+               <location type="gps" subtype="preferred">
+                  <geo>38.140934 114.576385</geo>
                </location>
                <location type="verbatim">
                   <note>Located using Google Earth 2023-11-28</note>
@@ -96,16 +129,30 @@
                   <desc xml:lang="zh-Hant">橋</desc>
                   <desc xml:lang="zh-Hans">桥</desc>
                </trait>
-               <bibl xml:id="bibl000064a-1">
-                  <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
-                  <citedRange unit="pp">275</citedRange>
-               </bibl>
+               <listBibl xml:id="bibl000064a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
+                     <citedRange unit="pp">275</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
+                     <citedRange unit="pp">369</citedRange>
+                  </bibl>
+               </listBibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000064a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000064a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53368427762_44d4c05af3_o.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53339184919_8455d214c9_h.jpg" passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000064a"
+                  ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064"
+                  ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000064a"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53368427762_44d4c05af3_o.jpg"
+                  passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53339184919_8455d214c9_h.jpg"
+                  passive="https://architecturasinica.org/place/000064a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
