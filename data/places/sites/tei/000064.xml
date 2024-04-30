@@ -13,10 +13,6 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="content-author" xml:id="CMW">CMW (HART 2815) F23</editor>
             <respStmt>
-               <resp>Editing and proof correction:</resp>
-               <name type="person" ref="#TGM">Tracy Miller</name>
-            </respStmt>
-            <respStmt>
                <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
@@ -44,6 +40,11 @@
             <respStmt>
                <resp>External links: </resp>
                <name type="person" xml:id="SZ">SUN Zheng</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction:</resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -78,6 +79,7 @@
          <change when="2020-09-08">Adding diacritical marks to Pinyin, adding Wade-Giles <name
             type="person" xml:id="OW">OGIHARA Waka</name></change>
          <change n="1.2" who="#GQH" when="2023-12-01">updating entry with text and images</change>
+         <change n="1.2" who="#TGM" when="2024-04-30">editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
