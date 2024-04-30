@@ -27,11 +27,8 @@
                <name type="person" xml:id="KS">KWON Soonmin</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation: </resp>
+               <resp>Adding citations: </resp>
                <name type="person" xml:id="SQ">SONG Qisen</name>
-            </respStmt>
-            <respStmt>
-               <resp>Adding citation information 2024: </resp>
                <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
@@ -75,13 +72,20 @@
          <listPlace>
             <place xml:id="place-000209" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000209-1" xml:lang="en">Celestial Kings Hall</placeName>
-               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant">天王殿</placeName>
-               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans">天王殿</placeName>
-               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin">Tianwangdian</placeName>
-               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile">T`ien-wang-tien</placeName>
-               <placeName xml:id="name000209-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longxingsi Tianwangdian</placeName>
-               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺天王殿</placeName>
-               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺天王殿</placeName>
+               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant"
+                  >天王殿</placeName>
+               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans"
+                  >天王殿</placeName>
+               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Tianwangdian</placeName>
+               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile"
+                  >T`ien-wang-tien</placeName>
+               <placeName xml:id="name000209-6" type="alternate" subtype="building-name-in-site"
+                  xml:lang="en">Longxingsi Tianwangdian</placeName>
+               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">隆興寺天王殿</placeName>
+               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">隆兴寺天王殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000209</idno>
                <state type="existence" from="0982-01-01" to="0982-01-01">
                   <label>Date</label>
@@ -93,8 +97,33 @@
                   <desc>Northern Song 960 - 1127</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000209-1" xml:lang="en">Tianwang Hall is the first major wooden structure on the central axis of the <placeName ref="/keyword/000064">Longxing Monastery</placeName> complex. Since there is no mountain gate in monastery, Tianwang Hall plays the role of the main entrance of Longxing Temple (河北省正定縣文物保管所 2000, 3). The creation year of this hall was not recorded in the literature, but it can be inferred to be a <term ref="/keyword/k000074">Northern Song dynasty</term> building based on its framework and bracket features. The hall is five bays or 23.28 meters wide, two bays or 9.62 meters deep, with a single-eave green glazed tile hip-and-gable (xieshan <term subtype="keyword" ref="/keyword/k000143">歇山</term>) roof. The total building area is about 380 square meters. The column heads are decorated with five-fold double-stolen center construction (touxinzao <term ref="/keyword/k000024">偷心造</term>) brackets. The brackets of Tianwang Hall underwent additions and modifications in the 45th year of Qianlong reign in the <term ref="/keyword/k000070">Qing dynasty</term> (1780), when the first step of the <term ref="/keyword/k000074">Song dynasty</term> column head layout was changed and intercolumnar bracket sets (bujian puzuo <term ref="/keyword/k000105">補間鋪作</term>) were added (pingshenke <term>平身科</term>).</p>
-                  <p source="#bibl000209-1" xml:lang="zh-Hant">天王殿為<placeName ref="/keyword/000064">隆興寺</placeName>中軸線上第一座主要木構建築。因隆興寺未設山門，天王殿起到了隆興寺大門入口的作用 (河北省正定縣文物保管所 2000，3)。此殿的創建年代未被文字資料記載，但根據架構以及斗栱特征可推斷其為<term ref="/keyword/k000074">北宋</term>建築。該殿面闊五間，寬23.28米，進深兩間，深9.62米，為單檐<term subtype="keyword" ref="/keyword/k000143">歇山</term>綠琉璃瓦剪邊頂。總建築面積約為380平方米。柱頭施五鋪作雙抄<term ref="/keyword/k000024">偷心造</term><term>斗栱</term>。天王殿的斗栱在<term ref="/keyword/k000070">清</term>乾隆四十五年（1780）經歷了增補修改，改製了<term ref="/keyword/k000074">宋朝</term>柱頭鋪作原構的第一跳<term ref="/keyword/k000172">華栱</term>，並在柱間添加了<term ref="/keyword/k000105">補間鋪作</term>（<term>平身科</term>）。</p>
+                  <p source="#bibl000209-1" xml:lang="en">Tianwang Hall is the first major wooden
+                     structure on the central axis of the <placeName>Longxing Monastery</placeName>
+                     complex. Since there is no mountain gate in the monastery, Tianwang Hall plays
+                     the role of the main entrance of Longxing Temple (河北省正定縣文物保管所 2000, 3). We have
+                     found no textual information to document the initial creation of this building, but
+                     it can be dated to the <term ref="/keyword/k000055">Northern Song</term>
+                     dynasty based on its framework and bracket features. The hall is five
+                     bays or 23.28 meters wide, two bays or 9.62 meters deep, with a single-eaves,
+                     green glazed tile, hip-gable (xieshan <term subtype="keyword"
+                        ref="/keyword/k000143">歇山</term>) roof. The total building area is about 380
+                     square meters. The column tops are decorated with five-layer double-stolen
+                     heart (touxinzao <term ref="/keyword/k000024">偷心造</term>) bracket sets. The brackets of Tianwang Hall underwent additions and modifications
+                     in the 45th year of Qianlong reign in the <term ref="/keyword/k000070">Qing
+                        dynasty</term> (1780), when the first step of the Song dynasty column top
+                     layout was changed and smaller (pingshenke <term>平身科</term>) were added as
+                     intercolumnar bracket sets (bujian puzuo <term ref="/keyword/k000105"
+                        >補間鋪作</term>).</p>
+                  <p source="#bibl000209-1" xml:lang="zh-Hant"
+                     >天王殿為<placeName>隆興寺</placeName>中軸線上第一座主要木構建築。因隆興寺未設山門，天王殿起到了隆興寺大門入口的作用
+                     (河北省正定縣文物保管所 2000，3)。此殿的創建年代未被文字資料記載，但根據架構以及斗栱特征可推斷其為<term
+                        ref="/keyword/k000055">北宋</term>建築。該殿面闊五間，寬23.28米，進深兩間，深9.62米，為單檐<term
+                        ref="/keyword/k000143">歇山</term>綠琉璃瓦剪邊頂。總建築面積約為380平方米。柱頭施五鋪作雙抄<term
+                        ref="/keyword/k000024">偷心造</term><term>斗栱</term>。天王殿的斗栱在<term
+                        ref="/keyword/k000070">清</term>乾隆四十五年（1780）經歷了增補修改，改製了<term
+                        ref="/keyword/k000074">宋朝</term>柱頭鋪作原構的第一跳<term ref="/keyword/k000172"
+                        >華栱</term>，並在柱間添加了<term ref="/keyword/k000105"
+                     >補間鋪作</term>（<term>平身科</term>）。</p>
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14109167 114.5763528</geo>
@@ -114,14 +143,14 @@
                   <citedRange unit="pp">12</citedRange>
                </bibl>
                <listBibl xml:id="bibl000209-1">
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
-                  <citedRange unit="pp">3-5</citedRange>
-               </bibl>
-               <bibl>
-                  <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
-                  <citedRange unit="pp">37</citedRange>
-               </bibl> 
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
+                     <citedRange unit="pp">3-5</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                     <citedRange unit="pp">37</citedRange>
+                  </bibl>
                </listBibl>
                <!--  <note type="field-notes">late 10th century (982?); modified in 1780. Early mojiao gong similar to Dulesi</note>
                <note type="notes">zgmscd 105-106</note>  -->
@@ -147,8 +176,12 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000209"
                   ref="schema:containedInPlace"
                   passive="https://architecturasinica.org/place/000064"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53376382799_cfcf2b6bfd_3k.jpg" passive="https://architecturasinica.org/place/000209" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53382797564_119ba1bd05_3k.jpg" passive="https://architecturasinica.org/place/000209" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53376382799_cfcf2b6bfd_3k.jpg"
+                  passive="https://architecturasinica.org/place/000209" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53382797564_119ba1bd05_3k.jpg"
+                  passive="https://architecturasinica.org/place/000209" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
