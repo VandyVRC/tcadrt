@@ -30,7 +30,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000258/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000193/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -53,24 +53,24 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2023-06-10-11:00">CREATED: record</change>
+         <change n="1.0" when="2024-04-29-11:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000258" type="architectural feature">
-            <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt">tiao</term>
-            <term xml:id="term-k000258-2" xml:lang="zh-Hant">跳</term>
-            <term xml:id="term-k000258-3" xml:lang="zh-Hans">跳</term>
-            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin">tiào</term>
-            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile">t'iao</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000258</idno>
+            <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt">tiaotou</term>
+            <term xml:id="term-k000258-2" xml:lang="zh-Hant">跳頭</term>
+            <term xml:id="term-k000258-3" xml:lang="zh-Hans">跳头</term>
+            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin">tiàotóu</term>
+            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile">t'iao-t'ou</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000193</idno>
             <note type="Note">
                Under construction
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
-               active="https://architecturasinica.org/keyword/k000258" passive="bracketing"/>
+               active="https://architecturasinica.org/keyword/k000193" passive="bracketing"/>
             </listRelation>
          </entryFree>
       </body>
