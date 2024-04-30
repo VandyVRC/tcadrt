@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Pilu (Vairocana) Hall <foreign xml:lang="zh-Hant">隆興寺毘盧殿</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Pilu (Vairocana) Hall <foreign
+                  xml:lang="zh-Hant">隆興寺毘盧殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -69,47 +73,77 @@
          <listPlace>
             <place xml:id="place-000064e" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000064e-1" xml:lang="en">Vairocana Hall</placeName>
-               <placeName xml:id="name000064e-2" type="building-name" xml:lang="zh-Hant">毘盧殿</placeName>
-               <placeName xml:id="name000064e-3" type="building-name" xml:lang="zh-Hans">毗卢殿</placeName>
-               <placeName xml:id="name000064e-4" type="building-name" xml:lang="zh-latn-pinyin">Pílúdiàn</placeName>
-               <placeName xml:id="name000064e-5" type="building-name" xml:lang="zh-latn-wadegile">P'i-lu-tien</placeName>
-               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Longxingsi Piludian</placeName>
-               <placeName xml:id="name000064e-7" type="building-name" xml:lang="zh-Hant">隆興寺毘盧殿</placeName>
-               <placeName xml:id="name000064e-8" type="building-name" xml:lang="zh-Hans">隆兴寺毗卢殿</placeName>
+               <placeName xml:id="name000064e-2" type="building-name" xml:lang="zh-Hant"
+                  >毘盧殿</placeName>
+               <placeName xml:id="name000064e-3" type="building-name" xml:lang="zh-Hans"
+                  >毗卢殿</placeName>
+               <placeName xml:id="name000064e-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Pílúdiàn</placeName>
+               <placeName xml:id="name000064e-5" type="building-name" xml:lang="zh-latn-wadegile"
+                  >P'i-lu-tien</placeName>
+               <placeName xml:id="name000064d-6" type="building-name" xml:lang="en">Longxingsi
+                  Piludian</placeName>
+               <placeName xml:id="name000064e-7" type="building-name" xml:lang="zh-Hant"
+                  >隆興寺毘盧殿</placeName>
+               <placeName xml:id="name000064e-8" type="building-name" xml:lang="zh-Hans"
+                  >隆兴寺毗卢殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000064e</idno>
                <state type="existence" from="1607-01-01" to="1959-12-31">
                   <label>Date</label>
                   <desc>ca. 1607; moved to current location in 1959</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000064e-2" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000064e-2" from="1368-01-01"
+                  to="1644-01-01">
                   <label>Dynasty</label>
                   <desc>Ming 1368-1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000064e-1" xml:lang="en">Pilu Hall at <placeName ref="/keyword/000064">Longxing Monastery</placeName> was originally the main hall of Chongyan Monastery, and the timber structure 
-                  dates to the <term ref="keyword/k000051">Ming</term> Wanli reign period (1573-1620).  In 1959 the hall was moved to its present location at the end of the central axis north of 
-                  Amitabha Hall at Longxingsi. The plan of this building is 5 bays wide and 5 bays deep, with both sides measuring 17.2 meters. The east-west width of the <term>“moon terrace”</term> 
-                     (yuetai <term ref="keyword/k000123">月臺</term>) is 14.2 meters, and its north-south length is 5.4 meters. Longxingsi Piludian has a double eaves (chongyan <term>重檐</term>) <term>hip-gable</term>  
-                     (xieshan <term ref="keyword/k000143">歇山)</term> roof, with grey and green glazed tiles covering it. The overall height of the building is 18.3 meters. The structural frame is 
-                     considered to be a typical example of the tailiang <term ref="keyword/k000081">擡梁</term> system common in the Ming and <term ref="/keyword/k000070">Qing</term> dynasties. The upper and lower eaves are supported 
-                     by a circuit of bracket-block clusters (dougong <term ref="keyword/k000019">枓栱</term>). To reduce the materials of building the pillars in the layout of the pillar network, 
-                     The inner and outer pillars of the column grid (zhuwang <term>柱網</term>) are connected by a large <term >tie beam</term> (fang <term ref="keyword/k000117">枋</term>), which may have been used to reduce 
-                  the number of individual pillars in the hall (Hebeisheng Zhengdingxian wenwu baoguansuo 2000, 18).</p>
-                  <p>The design of the cast bronze sculpture of Vairocana in the hall is unique and beautifully rendered. 
-                  The sculpture consists of three layers. Each layer is composed of a multi-petaled lotus seat supporting a four-sided image of Vairocana. The four 
-                  bodies on lotus seats are arranged to face the four cardinal directions. The scale of the lotus seats and bodies of the figures decreases with 
-                  each level from the bottom to the top. The sculpture reaches a total height of 6.42 meters (Hebeisheng Zhengdingxian wenwu baoguansuo 2000, 18).</p>
-                  
-                  <p source="#bibl000064e-1" xml:lang="zh-Hant">毘盧殿（也称毗盧殿）於1959年建於<placeName ref="/keyword/000064">隆興寺</placeName>彌陀殿北面，位於中軸線的末端。此殿平面為正方形，面闊、進深各五間，通面闊與通進深都為17.2米。
-                     前出<term ref="keyword/k000123">月臺</term>，東西寬14.2米，南北長5.4米。毘盧殿為重檐<term ref="keyword/k000143">歇山</term>頂，青瓦與綠琉璃覆蓋。自室外地平至大吻上皮高18.3米。大木構架為<term ref="keyword/k000051">明</term>、<term ref="/keyword/k000070">清</term>常見的<term ref="keyword/k000081">擡梁</term>式做法。上下檐均為一圈<term ref="keyword/k000019">枓栱</term>。<term>柱網</term>的布
-                     局為減柱造，內外柱之間用斷面尺寸極大的<term ref="keyword/k000117">枋</term>子連接，柱枋相比看起來有頭重腳輕之感。（河北省正定縣文物保管所 2000，18）</p>
+                  <p source="#bibl000064e-1" xml:lang="en">Pilu Hall at <placeName
+                        ref="/place/000064">Longxing Monastery</placeName> was originally the main
+                     hall of Chongyan Monastery, and the timber structure dates to the <term
+                        ref="/keyword/k000051">Ming</term> Wanli reign period (1573-1620). In 1959
+                     the hall was moved to its present location at the end of the central axis north
+                     of Amitabha Hall at Longxingsi. The plan of this building is 5 bays wide and 5
+                     bays deep, with both sides measuring 17.2 meters. The east-west width of the
+                        <term>“moon terrace”</term> (yuetai <term ref="/keyword/k000123">月臺</term>)
+                     is 14.2 meters, and its north-south length is 5.4 meters. Longxingsi Piludian
+                     has a double eaves (chongyan <term>重檐</term>) <term>hip-gable</term> (xieshan
+                        <term ref="/keyword/k000143">歇山)</term> roof, with grey and green glazed
+                     tiles covering it. The overall height of the building is 18.3 meters. The
+                     structural frame is considered to be a typical example of the tailiang <term
+                        ref="/keyword/k000081">擡梁</term> system common in the Ming and <term
+                        ref="/keyword/k000070">Qing</term> dynasties. The upper and lower eaves are
+                     supported by a circuit of bracket-block clusters (dougong <term
+                        ref="/keyword/k000019">枓栱</term>). To reduce the materials of building the
+                     pillars in the layout of the pillar network, The inner and outer pillars of the
+                     column grid (zhuwang <term>柱網</term>) are connected by a large <term>tie
+                        beam</term> (fang <term ref="/keyword/k000117">枋</term>), which may have been
+                     used to reduce the number of individual pillars in the hall (Hebeisheng
+                     Zhengdingxian wenwu baoguansuo 2000, 18).</p>
+                  <p>The design of the cast bronze sculpture of Vairocana in the hall is unique and
+                     beautifully rendered. The sculpture consists of three layers. Each layer is
+                     composed of a multi-petaled lotus seat supporting a four-sided image of
+                     Vairocana. The four bodies on lotus seats are arranged to face the four
+                     cardinal directions. The scale of the lotus seats and bodies of the figures
+                     decreases with each level from the bottom to the top. The sculpture reaches a
+                     total height of 6.42 meters (Hebeisheng Zhengdingxian wenwu baoguansuo 2000,
+                     18).</p>
+                  <p source="#bibl000064e-1" xml:lang="zh-Hant">毘盧殿（也称毗盧殿）於1959年建於<placeName
+                        ref="/place/000064"
+                     >隆興寺</placeName>彌陀殿北面，位於中軸線的末端。此殿平面為正方形，面闊、進深各五間，通面闊與通進深都為17.2米。 前出<term
+                        ref="/keyword/k000123">月臺</term>，東西寬14.2米，南北長5.4米。毘盧殿為重檐<term
+                        ref="/keyword/k000143">歇山</term>頂，青瓦與綠琉璃覆蓋。自室外地平至大吻上皮高18.3米。大木構架為<term
+                        ref="/keyword/k000051">明</term>、<term ref="/keyword/k000070">清</term>常見的<term
+                        ref="/keyword/k000081">擡梁</term>式做法。上下檐均為一圈<term ref="/keyword/k000019"
+                        >枓栱</term>。<term>柱網</term>的布 局為減柱造，內外柱之間用斷面尺寸極大的<term ref="/keyword/k000117"
+                        >枋</term>子連接，柱枋相比看起來有頭重腳輕之感。（河北省正定縣文物保管所 2000，18）</p>
                   <p>殿內所供的銅鑄佛像，設計極為獨特和優美。佛像由三層四身相連，面向四方的坐式毗盧佛像和各層下面的蓮座疊置而成，自下而上依
-                  次縮小，高6.42米（河北省正定縣文物保管所 2000，18）。</p>
+                     次縮小，高6.42米（河北省正定縣文物保管所 2000，18）。</p>
                </desc>
-                  <location type="gps" subtype="preferred">
-                     <geo>38.145433 114.576141</geo>
+               <location type="gps" subtype="preferred">
+                  <geo>38.145433 114.576141</geo>
                </location>
-                  <note>Located using Google Earth 2023-10-03</note>
+               <note>Located using Google Earth 2023-10-03</note>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">hall</desc>
@@ -129,10 +163,18 @@
                </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000064e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000064e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53376381334_2fda769c8a_z.jpg" passive="https://architecturasinica.org/place/000064e" ana="featured"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53365188085_20b9fc270e_h.jpg" passive="https://architecturasinica.org/place/000064e" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000064e"
+                  ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000064"
+                  ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000064e"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53376381334_2fda769c8a_z.jpg"
+                  passive="https://architecturasinica.org/place/000064e" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53365188085_20b9fc270e_h.jpg"
+                  passive="https://architecturasinica.org/place/000064e" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
