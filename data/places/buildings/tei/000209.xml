@@ -13,8 +13,6 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="general" xml:id="TGM">Tracy Miller</editor>
-            <editor role="content-author" ref="TGM">Tracy Miller</editor>
-            <editor role="page-creator" xml:id="LH">Soonmin Kwon</editor>
             <editor role="content-author">CMW (HART 2815)F23</editor>
             <respStmt>
                <resp>Website coordination by</resp>
@@ -25,11 +23,15 @@
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Page creation: </resp>
+               <name type="person" xml:id="KS">KWON Soonmin</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citation information 2024 by</resp>
+               <resp>Adding citation: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citation information 2024: </resp>
                <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
@@ -61,10 +63,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-10-01"> Adding diacritical marks to Pinyin, adding Wade-Giles by <name
                type="person" xml:id="SLY">SHEN Liyan</name>
          </change>
+         <change n="1.2" who="#YYY" when="2024-04-29">edited text</change>
       </revisionDesc>
    </teiHeader>
    <text>
