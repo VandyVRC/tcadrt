@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Huayan Upper Monastery, Mahāvīra Treasure Hall <foreign xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</foreign>
+            <title level="a" xml:lang="en">Huayan Upper Monastery, Mahāvīra Treasure Hall <foreign
+                  xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
             <editor role="content-author" xml:id="YYY">YAN Yiyang 嚴一洋</editor>
             <respStmt>
                <resp>Website coordination: </resp>
@@ -60,11 +64,10 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
-         <change when="2020-09-26">Editing name by
-            <name type="person" ref="TGM">Tracy Miller</name></change>
-         <change n="1.2" who="#YYY" when="2024-04-29-04:00">added site description</change>
+         <change n="1.2" who="#OW" when="2020-09-26">Adding diacritical marks to Pinyin, adding
+            Wade-Giles</change>
+         <change n="1.2" who="#TGM" when="2020-09-26">general editing</change>
+         <change n="1.3" who="#YYY" when="2024-04-29-04:00">added site description</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -72,33 +75,60 @@
          <listPlace>
             <place xml:id="place-000183" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000183-1" xml:lang="en">Mahāvīra Treasure Hall</placeName>
-               <placeName xml:id="name000183-2" type="building-name" xml:lang="zh-Hant">大雄寶殿</placeName>
-               <placeName xml:id="name000183-3" type="building-name" xml:lang="zh-Hans">大雄宝殿</placeName>
-               <placeName xml:id="name000183-4" type="building-name" xml:lang="zh-latn-pinyin">Huáyánsì shàngsì dàxióng bǎodiàn</placeName>
-               <placeName xml:id="name000183-5" type="building-name" xml:lang="zh-latn-wadegile">Hua-yen-ssu shang-ssu ta-hsiung pao-tien</placeName>
-               <placeName xml:id="name000183-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Huayan Upper Monastery Daxiongbao Hall</placeName>
-               <placeName xml:id="name000183-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</placeName>
-               <placeName xml:id="name000183-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">华严寺上寺大雄宝殿</placeName>
+               <placeName xml:id="name000183-2" type="building-name" xml:lang="zh-Hant"
+                  >大雄寶殿</placeName>
+               <placeName xml:id="name000183-3" type="building-name" xml:lang="zh-Hans"
+                  >大雄宝殿</placeName>
+               <placeName xml:id="name000183-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Huáyánsì shàngsì dàxióng bǎodiàn</placeName>
+               <placeName xml:id="name000183-5" type="building-name" xml:lang="zh-latn-wadegile"
+                  >Hua-yen-ssu shang-ssu ta-hsiung pao-tien</placeName>
+               <placeName xml:id="name000183-6" type="alternate" subtype="building-name-in-site"
+                  xml:lang="en">Huayan Upper Monastery Daxiongbao Hall</placeName>
+               <placeName xml:id="name000183-7" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">華嚴寺上寺大雄寶殿</placeName>
+               <placeName xml:id="name000183-8" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">华严寺上寺大雄宝殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000183</idno>
                <state type="existence" from="1140-01-01" to="1140-01-01">
                   <label>Date</label>
                   <desc>1140</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000183-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000183-1" from="1115-01-01"
+                  to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000183-2">Daxiongbao Hall of the <placeName ref="/place/000041">Huayan Monastery</placeName> is the main hall of the Upper Monastery, and it is in the northwest corner of the monastery complex. It is the only surviving Jin dynasty building in the Huayan Monastery as well as the largest remaining main hall from the early periods of Chinese architecture. According to inscriptions found on interior timber frame, the Daxiongbao Hall was first built during the Liao dynasty and later rebuilt during the Jin dynasty between the third year of the Tianjuan reign period and the fourth year of the Huangtong reign period (1140-1144) (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45).
-                  </p>
-                  <p source="#bibl000183-3">The Daxiongbao Hall occupies an area of 1444 square meters, which makes it the largest Buddhist building extant from the Liao and Jin periods. The hall has a width of nine bays (53.7 m) and a depth of five bays (27.44 m). It stands on a four-meter high platform with an open “moon terrace” (<term subtype="keyword" ref="/keyword/k000123">yuetai</term>) in front. Inside the hall, the method of moving (yizhu) and reducing columns (touzhu) was used to reduce the number of interior columns by 12, thereby enlarging the central space for worship. The hall houses a number of important cultural artifacts including sculptures and murals (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45; Steinhardt 1997, 124-140).
-                  </p>
+                  <p source="#bibl000183-2">Daxiongbao Hall of the <placeName>Huayan
+                        Monastery</placeName> is the main hall of the Upper Monastery, and it is in
+                     the northwest corner of the monastery complex. It is the only surviving <term ref="/keyword/k000036">Jin</term>
+                     dynasty building in the Huayan Monastery as well as the largest remaining main
+                     hall from the early periods of Chinese architecture. According to inscriptions
+                     found on interior timber frame, the Daxiongbao Hall was first built during the
+                     <term ref="/keyword/k000047">Liao</term> dynasty and later rebuilt during the Jin dynasty between the third year of
+                     the Tianjuan reign period and the fourth year of the Huangtong reign period
+                     (1140-1144) (中国文物地图集 山西分册, 78; 中国古代建筑史 Vol. 3, 324-45). </p>
+                  <p source="#bibl000183-3">The Daxiongbao Hall occupies an area of 1444 square
+                     meters, which makes it the largest Buddhist building extant from the Liao and
+                     Jin periods. The hall has a width of nine bays (53.7 m) and a depth of five
+                     bays (27.44 m). It stands on a four-meter high platform with an open “moon
+                     terrace” (yuetai <term ref="/keyword/k000123">月臺</term>) in
+                     front. Inside the hall, the method of moving (yizhu 移柱) and reducing columns
+                     (jianzhu 減柱) was used to reduce the number of interior columns by 12, thereby
+                     enlarging the central space for worship. The hall houses a number of important
+                     cultural artifacts including sculptures and murals (中国文物地图集 山西分册, 78; 中国古代建筑史
+                     Vol. 3, 324-45; Steinhardt 1997, 124-140). </p>
                </desc>
                <desc type="building-data" xml:lang="zh-Hant">
-                  <p source="#bibl000183-2">大雄寶殿是上寺的主殿，位於寺內的西北角。 它是<placeName ref="/place/000041">華嚴寺</placeName>內僅存的黃金代建築，也是中國早期建築中現存最大的主殿。 根據大殿的樑架題記載，它始建於遼朝，並於金天眷三年至皇統四年（1140-1144）進行了重修。 （中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45）。
-                  </p>
-                  <p source="#bibl000183-3">大雄寶殿的建築面積為1444平方米，是國內現存遼金時期規模最大的佛殿。 大殿寬九間（53.7米），進深五間（27.44米）。 大殿坐落在高4米的台基上，前面有寬敞的<term subtype="keyword" ref="/keyword/k000123">月台</term>，顯示了大殿的重要性。 為了擴大禮佛空間，殿內採用了移柱和減柱法，減少了12根內柱。 殿內還藏有珍貴文物（出處：中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45；Steinhardt 1997，124-140）。
-                  </p>
+                  <p source="#bibl000183-2">大雄寶殿是上寺的主殿，位於寺內的西北角。
+                        它是<placeName>華嚴寺</placeName>內僅存的黃<term ref="/keyword/k000036"
+                           >金</term>代建築，也是中國早期建築中現存最大的主殿。 根據大殿的樑架題記載，它始建於<term ref="/keyword/k000047">遼</term>朝，並於金天眷三年至皇統四年（1140-1144）進行了重修。
+                     （中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45）。 </p>
+                  <p source="#bibl000183-3">大雄寶殿的建築面積為1444平方米，是國內現存遼金時期規模最大的佛殿。
+                     大殿寬九間（53.7米），進深五間（27.44米）。 大殿坐落在高4米的台基上，前面有寬敞的<term subtype="keyword"
+                        ref="/keyword/k000123">月臺</term>，顯示了大殿的重要性。 為了擴大禮佛空間，殿內採用了移柱和減柱法，減少了12根內柱。
+                     殿內還藏有珍貴文物（出處：中國文物地圖集 山西分冊，78；中國古代建築史 第三卷，324-45；Steinhardt 1997，124-140）。 </p>
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>40.09125 113.287433</geo>
@@ -144,21 +174,42 @@
                <!-- <note type="field-notes">1140</note> -->
             </place>
             <listRelation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53645186762_2e57301e44_h.jpg" passive="https://architecturasinica.org/place/000183" ana="featured"> </relation>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53669195570_b2c1d3094c_3k.jpg" passive="https://architecturasinica.org/place/000183" ana="featured"> </relation>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53645186762_2e57301e44_h.jpg"
+                  passive="https://architecturasinica.org/place/000183" ana="featured"> </relation>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53669195570_b2c1d3094c_3k.jpg"
+                  passive="https://architecturasinica.org/place/000183" ana="featured"> </relation>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject"
+                  ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000033" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject"
+                  ana="architectural-feature">
                   <desc>
                      <num>1</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000183" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000183" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000183" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000041"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000183"
+                  passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000183" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000183"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000041"/>
             </listRelation>
          </listPlace>
       </body>
