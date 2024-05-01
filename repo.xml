@@ -9,6 +9,10 @@
     <type>application</type>
     <target>tcadrt-data</target>
     <prepare>pre-install.xql</prepare>
+ main
         <finish>post-install.xql</finish> 
+
+    <finish>post-install.xql</finish> 
+main
     <deployed>2015-04-23T13:17:07.65-04:00</deployed>
 </meta>

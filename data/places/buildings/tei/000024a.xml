@@ -52,6 +52,7 @@
       <revisionDesc>
          <change n="1.0" when="2021-04-17-04:00" who="#HDN">CREATED: place record</change>
          <change n="1.1" when="2021-05-05" who="#HDN">Added location and site description</change>
+         <change n="1.1" when="2023-12-17" who="#TGM">updates</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +62,7 @@
                <placeName xml:id="name000024a-1" xml:lang="en">Bao'en Cloister</placeName>
                <placeName xml:id="name000024a-2" type="building-name" xml:lang="zh-Hant">報恩院</placeName>
                <placeName xml:id="name000024a-3" type="building-name" xml:lang="zh-Hans">报恩院</placeName>
-               <placeName xml:id="name000024a-4" type="building-name" xml:lang="zh-latn-pinyin">Bào ēn yuàn</placeName>
+               <placeName xml:id="name000024a-4" type="building-name" xml:lang="zh-latn-pinyin">Bào'ēnyuàn</placeName>
                <placeName xml:id="name000024a-5" type="building-name" xml:lang="zh-latn-wadegile">Pao-en-yüan</placeName>
                <placeName xml:id="name000024a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Dulesi Bao'enyuan</placeName>
                <placeName xml:id="name000024a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">獨樂寺報恩院</placeName>
@@ -77,10 +78,10 @@
                   <p xml:lang="zh-Hant"></p>          
                </desc>
                <location type="gps" subtype="preferred">
-                  <geo>40.045342 117.402597</geo>
+                  <geo>40.044514 117.396831</geo>
                </location>
                <location type="verbatim">
-                  <note>(Google Earth)</note>
+                  <note>Google Earth, taken 17 December 2023</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>

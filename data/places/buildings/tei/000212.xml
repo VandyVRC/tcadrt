@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Maitreya Pavilion <foreign xml:lang="zh-Hant">隆興寺慈氏閣</foreign>
+            <title level="a" xml:lang="en">Longxing Monastery, Cishi (Maitreya) Pavilion <foreign
+                  xml:lang="zh-Hant">隆興寺慈氏閣</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author">CMW (HART 2815) F23</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Editing, proofreading, and revision: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Page creator: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Entry composition and data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci</name>
+            </respStmt>
+            <respStmt>
+               <resp>Image editing: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Image addition: </resp>
+               <name type="person" ref="#FRC">FENG Ruoci</name>
+            </respStmt>
+            <respStmt>
+               <resp>Internal links: </resp>
+               <name type="person" ref="#HL">HUANG Liyu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Citations: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Romanization: </resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,8 +81,9 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="2.0" who="#SLY" when="2020-10-01">Adding diacritical marks to Pinyin, adding
+            Wade-Giles</change>
+         <change n="2.0" who="#YYY" when="2024-04-24-04:00">citations</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,28 +91,89 @@
          <listPlace>
             <place xml:id="place-000212" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000212-1" xml:lang="en">Maitreya Pavilion</placeName>
-               <placeName xml:id="name000212-2" type="building-name" xml:lang="zh-Hant">慈氏閣</placeName>
-               <placeName xml:id="name000212-3" type="building-name" xml:lang="zh-Hans">慈氏阁</placeName>
-               <placeName xml:id="name000212-4" type="building-name" xml:lang="zh-latn-pinyin">Císhìgé</placeName>
-               <placeName xml:id="name000212-5" type="site-name" xml:lang="zh-latn-wadegile">Tz`u-shih-ko</placeName>
-               <placeName xml:id="name000212-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longxingsi Cishige</placeName>
-               <placeName xml:id="name000212-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺慈氏閣</placeName>
-               <placeName xml:id="name000212-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺慈氏閣</placeName>
+               <placeName xml:id="name000212-2" type="building-name" xml:lang="zh-Hant"
+                  >慈氏閣</placeName>
+               <placeName xml:id="name000212-3" type="building-name" xml:lang="zh-Hans"
+                  >慈氏阁</placeName>
+               <placeName xml:id="name000212-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Císhìgé</placeName>
+               <placeName xml:id="name000212-5" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Tz`u-shih-ko</placeName>
+               <placeName xml:id="name000212-6" type="alternate" subtype="building-name-in-site"
+                  xml:lang="en">Longxingsi Cishige</placeName>
+               <placeName xml:id="name000212-7" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">隆興寺慈氏閣</placeName>
+               <placeName xml:id="name000212-8" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">隆兴寺慈氏閣</placeName>
                <placeName xml:id="name000212-11" type="alternate">Cishige</placeName>
                <idno type="URI">https://architecturasinica.org/place/000212</idno>
                <state type="existence" from="1050-01-01" to="1100-01-01">
                   <label>Date</label>
                   <desc>1050-1100</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000212-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000212-1" from="0960-01-01"
+                  to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000212-2" xml:lang="en">The Maitreya Pavilion is located in front
+                     of the <placeName ref="/place/000064c">Dabei Pavilion</placeName> at the
+                        <placeName>Longxing Monastery</placeName>, on the east side of the courtyard
+                     oriented east-west. This pavilion has a hip-gable (xieshan <term ref="/keyword/k000143"
+                        >歇山</term>) roof, with grey tile and green-glazed tile covering the
+                     roof on both stories. The front facade has a width of three bays and is 12.95
+                     meters, its depth is three bays and 12.34 meters. The overall height of the
+                     building is 19.96 meters. The timber substructure (pingzuo <term
+                        ref="/keyword/k000211">平坐</term>) of the building’s second floor and balcony
+                     are partially supported by a yongdingzhu <term>永定柱</term>, a pillar that
+                     extends from the pingzuo to the ground without break. Discussed in the Yingzao
+                     fashi (1103), the Maitreya Pavilion contains the only extant example of this
+                     technique known (Guo 2009, 385).</p>
+                  <p source="#bibl000212-3" xml:lang="en">Inside the pavilion stands a monumental
+                     wooden sculpture of the bodhisattva Maitreya (Cishi pusa 慈氏菩薩; Cishi
+                     (Benevolent One) being a translation of the Sanskrit name Maitreya, often
+                     transliterated as Mile 彌勒), 7.4 meters in height, itself standing on a 2.55
+                     meter Sumeru-style platform (xumizuo <term>須彌座</term>) made of brick.
+                     Twentieth-century scholars found documentation in the eighteenth-century
+                     Longxing Monastery Gazetteer (Longxingsi zhi 隆興寺志) indicating this statue was
+                     carved in the <term ref="/keyword/k000074">Song</term> dynasty from a single
+                     piece of wood. In order to construct an interior space able to accommodate the
+                     sculpture, the lower floor of the building only has two proper interior pillars
+                     framing the back of the sculpture and these extend straight through the upper
+                     floor to support the roof. A crossbeam is joined from each of the eaves pillars
+                     (yanzhu <term ref="/keyword/k000111">檐柱</term>) framing the front central bay
+                     into the body of the tall, back interior pillars, spanning the space where the
+                     front interior pillars would have been. On top of these two beams are two
+                     level, flat, bearing blocks (pingpandou <term>平盤枓</term>) which form a base for
+                     shorter pillars extending upwards to support the five-rafter cross beam above
+                     the second level (Qi 1992a, 9). The bracket-block clusters (dougong <term
+                        ref="/keyword/k000019">枓栱</term>) of the lower eaves are half of the
+                     perpendicular bracket arm (huagong <term ref="/keyword/k000172">華拱</term>), and
+                     the arch of the upper eaves adopts the jia'ang <term ref="/keyword/k000166"
+                        >假昂</term> (simulated slanted bracket arm) practice. Because its upper beams
+                     are no longer original to the Song dynasty, this structure may have resulted
+                     from later restorations (Zhang et al., eds. 2000, 16-17).</p>
+                  <p xml:lang="zh-Hant">慈氏閣位於<placeName
+                        >隆興寺</placeName><placeName ref="/place/000064c"
+                        >大悲閣</placeName>前面東側，坐東向西。此閣為<term ref="/keyword/k000143"
+                        >歇山</term>頂，由青瓦和綠琉璃瓦覆蓋的二層樓閣氏建築。面闊三間12.95米，進深三間12.34米。室外地平至大吻上皮通高19.96米。樓閣平座采用了<term>永定柱</term>造，這是現存的唯一一例永定柱造
+                     （郭 2009，385）。</p>
+                  <p source="#bibl000212-2" xml:lang="zh-Hant"
+                        >閣內矗立一座木雕彌勒菩薩像，高至二層樓面。為使室內空間能容納佛像，慈氏閣下層內柱只有兩根，直通上層。到了二層又將前列的兩根<term>內柱</term>恢復，立於前<term
+                        ref="/keyword/k000111"
+                        >檐柱</term>與後內柱之間的大梁上，並與柱腳下放置一個大的平盤枓。下檐枓栱為半截華拱形的五鋪作<term
+                        ref="/keyword/k000019">枓栱</term>，上檐枓栱采用<term ref="/keyword/k000166"
+                        >假昂</term>做法，這種結構可能為後世重修所導致，因為其上部梁架已不是宋代結構。（郭 2009，385）</p>
+                  <p source="#bibl000212-3" xml:lang="zh-Hant"
+                        >閣內所供的彌勒菩薩，意譯為慈氏。彌勒像立於2.55米高的磚砌須彌座上，高7.4米。據《隆興寺誌》記載，此像用獨木雕刻於<term
+                        ref="/keyword/k000074">宋</term>代（河北省正定縣文物保管所 2000, 16-17）。</p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14363611 114.5765111</geo>
                </location>
                <location type="verbatim">
-                  <note>38˚ 08' 37.09" N (google earth 9/2009) 144˚ 34' 35.47" E</note>
+                  <note>38˚ 08' 37.09" N 144˚ 34' 35.47" E (google earth 9/2009) </note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -90,27 +186,58 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000212-2">
+                  <ptr target="https://architecturasinica.org/bibl/XW46QJPW"/>
+                  <citedRange unit="pp">385</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000212-3">
+                  <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
+                  <citedRange unit="pp">16,17</citedRange>
+               </bibl>
                <!-- <note type="field-notes">upper eaves bracket sets</note>
                <note type="notes">2nd half of 11th century; see Qi Yingtao</note> -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000034" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000078" ref="dcterms:subject"
+                  ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000034" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000058" ref="dcterms:subject"
+                  ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject" ana="architectural-feature">
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000067" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000059" ref="dcterms:subject"
+                  ana="architectural-feature">
                   <desc>
                      <num>2</num>
                   </desc>
                </relation>
-               <relation active="https://architecturasinica.org/place/000212" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000212" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000212" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation active="https://architecturasinica.org/place/000212"
+                  passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000212" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000212"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53376237748_f2cff57d35_o.jpg"
+                  passive="https://architecturasinica.org/place/000064a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53339184784_7f0e512990_o.jpg"
+                  passive="https://architecturasinica.org/place/000064a" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

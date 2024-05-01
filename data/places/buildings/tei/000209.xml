@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Longxing Monastery, Celestial Kings Hall <foreign xml:lang="zh-Hant">隆興寺天王殿</foreign>
+            <title level="a" xml:lang="en"> Longxing Monastery, Tianwang Hall <foreign
+                  xml:lang="zh-Hant">隆興寺天王殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <editor role="content-author">CMW (HART 2815) F23</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Editing, proofreading, data entry and revision: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Page creation: </resp>
+               <name type="person" xml:id="KS">KWON Soonmin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding citations: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,9 +60,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
+         <change when="2020-10-01"> Adding diacritical marks to Pinyin, adding Wade-Giles by <name
+               type="person" xml:id="SLY">SHEN Liyan</name>
+         </change>
+         <change n="1.2" who="#YYY" when="2024-04-29">edited text</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,23 +72,59 @@
          <listPlace>
             <place xml:id="place-000209" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000209-1" xml:lang="en">Celestial Kings Hall</placeName>
-               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant">天王殿</placeName>
-               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans">天王殿</placeName>
-               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin">Tianwangdian</placeName>
-               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile">T`ien-wang-tien</placeName>
-               <placeName xml:id="name000209-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longxingsi Tianwangdian</placeName>
-               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">隆興寺天王殿</placeName>
-               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">隆兴寺天王殿</placeName>
-               <placeName xml:id="name000209-11" type="alternate">Tianwangdian</placeName>
+               <placeName xml:id="name000209-2" type="building-name" xml:lang="zh-Hant"
+                  >天王殿</placeName>
+               <placeName xml:id="name000209-3" type="building-name" xml:lang="zh-Hans"
+                  >天王殿</placeName>
+               <placeName xml:id="name000209-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Tianwangdian</placeName>
+               <placeName xml:id="name000209-5" type="site-name" xml:lang="zh-latn-wadegile"
+                  >T`ien-wang-tien</placeName>
+               <placeName xml:id="name000209-6" type="alternate" subtype="building-name-in-site"
+                  xml:lang="en">Longxingsi Tianwangdian</placeName>
+               <placeName xml:id="name000209-7" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hant">隆興寺天王殿</placeName>
+               <placeName xml:id="name000209-8" type="alternate" subtype="building-name-in-site"
+                  xml:lang="zh-Hans">隆兴寺天王殿</placeName>
                <idno type="URI">https://architecturasinica.org/place/000209</idno>
                <state type="existence" from="0982-01-01" to="0982-01-01">
                   <label>Date</label>
-                  <desc>982</desc>
+                  <desc>982 (with 18th century modifications)</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000209-1" from="0960-01-01" to="1127-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000209-2" from="0960-01-01"
+                  to="1127-01-01">
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000209-1" xml:lang="en">Tianwang Hall is the first major wooden
+                     structure on the central axis of the <placeName>Longxing Monastery</placeName>
+                     complex. Since there is no mountain gate in the monastery, Tianwang Hall plays
+                     the role of the main entrance to Longxing Temple (河北省正定縣文物保管所 2000, 3). We have
+                     found no textual information to document the initial creation of this building, but
+                     it can be dated to the <term ref="/keyword/k000055">Northern Song</term>
+                     dynasty based on its framework and bracket features. The hall is five
+                     bays or 23.28 meters wide, two bays or 9.62 meters deep, with a single-eaves,
+                     green glazed tile, hip-gable (shaliangtou <term ref="/keyword/k000185">厦兩頭</term> or xieshan <term subtype="keyword"
+                        ref="/keyword/k000143">歇山</term>) roof. The total building area is about 380
+                     square meters. The column tops are decorated with five-layer, double-stolen
+                     heart (touxinzao <term ref="/keyword/k000024">偷心造</term>) bracket sets. The bracket sets of Tianwang Hall underwent additions and modifications
+                     in the 45th year of the <term ref="/keyword/k000070">Qing
+                        dynasty</term> Qianlong reign period (1780), when the first step of the Song dynasty column top
+                     layout was changed and smaller (pingshenke <term>平身科</term>) were added as
+                     intercolumnar bracket sets (bujian puzuo <term ref="/keyword/k000105"
+                        >補間鋪作</term>).</p>
+                  <p source="#bibl000209-1" xml:lang="zh-Hant"
+                     >天王殿為<placeName>隆興寺</placeName>中軸線上第一座主要木構建築。因隆興寺未設山門，天王殿起到了隆興寺大門入口的作用
+                     (河北省正定縣文物保管所 2000，3)。此殿的創建年代未被文字資料記載，但根據架構以及斗栱特征可推斷其為<term
+                        ref="/keyword/k000055">北宋</term>建築。該殿面闊五間，寬23.28米，進深兩間，深9.62米，為單檐<term
+                        ref="/keyword/k000143">歇山</term>綠琉璃瓦剪邊頂。總建築面積約為380平方米。柱頭施五鋪作雙抄<term
+                        ref="/keyword/k000024">偷心造</term><term>斗栱</term>。天王殿的斗栱在<term
+                        ref="/keyword/k000070">清</term>乾隆四十五年（1780）經歷了增補修改，改製了<term
+                        ref="/keyword/k000074">宋朝</term>柱頭鋪作原構的第一跳<term ref="/keyword/k000172"
+                        >華栱</term>，並在柱間添加了<term ref="/keyword/k000105"
+                     >補間鋪作</term>（<term>平身科</term>）。</p>
+               </desc>
                <location type="gps" subtype="preferred">
                   <geo>38.14109167 114.5763528</geo>
                </location>
@@ -86,21 +138,50 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <bibl xml:id="bibl000209-1">
+               <bibl xml:id="bibl000209-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <note type="field-notes">late 10th century (982?); modified in 1780. Early mojiao gong similar to Dulesi</note>
-               <note type="notes">zgmscd 105-106</note> -->
+               <listBibl xml:id="bibl000209-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MRIXTUMA"/>
+                     <citedRange unit="pp">3-5</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                     <citedRange unit="pp">37</citedRange>
+                  </bibl>
+               </listBibl>
+               <!--  <note type="field-notes">late 10th century (982?); modified in 1780. Early mojiao gong similar to Dulesi</note>
+               <note type="notes">zgmscd 105-106</note>  -->
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000015" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209" passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000209" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000209" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000064"/>
+               <relation active="https://architecturasinica.org/place/000209"
+                  passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject"
+                  ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000209"
+                  passive="https://architecturasinica.org/keyword/k000014" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209"
+                  passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209"
+                  passive="https://architecturasinica.org/keyword/k000006" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209"
+                  passive="https://architecturasinica.org/keyword/k000003" ref="dcterms:subject"
+                  ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000209" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000209"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000064"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53376382799_cfcf2b6bfd_3k.jpg"
+                  passive="https://architecturasinica.org/place/000209" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53382797564_119ba1bd05_3k.jpg"
+                  passive="https://architecturasinica.org/place/000209" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

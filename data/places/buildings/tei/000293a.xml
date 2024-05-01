@@ -11,7 +11,8 @@
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
-            <editor role="general" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <editor role="content-author" xml:id="ZYY">ZOU Yuyang 鄒宇洋</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Initial research 2021 by</resp>
                <name type="person" ref="#ZYY">ZOU Yuyang 鄒宇洋</name>
@@ -81,7 +82,7 @@
                   </p>
                </desc>
                <location type="gps" subtype="preferred">
-                  <geo>32.011143 118.788516</geo>
+                  <geo>32.011567 118.778468</geo>
                   <note>location determined with GoogleEarth</note>
                </location>
                
