@@ -17,16 +17,17 @@
             <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
             <editor role="content-author" xml:id="YPF">YAO Peifan 姚佩凡</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#YPF">YAO Peifan 姚佩凡</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry by</resp>
+               <resp>Data entry: </resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -58,6 +59,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-05-04:00">CREATED: record</change>
+         <change who="#YYY" n="1.1" when="2024-05-07-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,7 +73,13 @@
             <term xml:id="term-k000245-6" xml:lang="en" source="#biblk000245-2">flat, coffered ceiling using grids lager than ping'an</term>
             <term xml:id="term-k000245-7" xml:lang="en" source="#biblk000245-3">chessboard ceiling</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000245</idno>
-            <note type="Note">Under construction
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000245">Pingqi 平棊, meaning literally “level game board,” is a kind of ceiling in traditional Chinese architecture. The term is used to describe the ceiling of a palatial type hall (dian 殿) in Yingzao fashi 營造法式 (1103). Modern scholars usually use it to refer to the ceilings of buildings constructed in the Tang, Liao and Song dynasties. In the Ming and Qing dynasties the term pingqi panding 平棋盘顶 was used instead of pingqi (Wu 1611-1644, 2.2a; Li 1795, 4.5b). The Chinese character 平 (ping) means flat or level, while the character 棊 (qi) means the game weiqi 圍棋 (“Chinese chess” or “Go”; Zhang 1985, 582) or, by extension, the orthogonal-grid pattern of a game board (Liu 184-220, 4.9b). The implication is that pingqi is a kind of ceiling with a chessboard pattern. The term pingqi panding 平棋盘顶 has the same meaning.</p>
+               <p xml:lang="en" source="#biblk000245">In Yingzao fashi, pingqi is listed in the sections of small-scale carpentry (xiaomuzuo 小木作), carving works (diaozuo 雕作),  and polychrome painting works (caihuazuo 彩畫作). According to the illustrations in Yingzao fashi, pingqi are only used in palatial-type halls (diantang 殿堂). They are located above the mingfu 明栿 beams and the backing boards (beiban 背板) are supported by beams called pingqifang 平棊枋  (YZFS.5.3b); the pingqi itself does not provide roof support. Pingqi are characterized by a series of squares because multiple backing boards (beiban 背板), which are further divided by board casings (nanzi 難子), are joined to form the whole ceiling (YZFS.8.1b). Carved and painted decorative elements called huazi 花子 are pasted on the backing boards.</p>
+               <p xml:lang="zh-Hant" source="#biblk000245">平棊是中国古代建築室內的頂棚做法。</p>
+               <p xml:lang="zh-Hant" source="#biblk000245">「平棊」一詞最早出現於《營造法式》當中。按照《營造法式》的圖樣，平棊僅用於殿堂級別的建築。現代學者一般用它描述唐、遼、宋时期建築內部的頂棚。明清時有少量記載，且說法上出現了變化，稱為「平棋盤頂」（午 1611-1644, 2.2a; 李 1795, 4.5b）。</p>
+               <p xml:lang="zh-Hant" source="#biblk000245">根據《營造法式》，平棊與大木結構關聯緊密：平棊位於明栿之上，由明栿上的平棊枋承托背板（李 1103, 5.3b）。平棊並無承托屋頂重量的作用。平棊的背板由多塊木板拼接而成 (李 1103 8.1b)。形象上，平棊的特點是被劃分為一系列方格，每一格子內通過「難子」進一步劃分，並在其中貼上各類紋樣的「花子」 ，其中「花子」以雕刻或彩畫裝飾。</p>
+               <p xml:lang="zh-Hant" source="#biblk000245">從字義上看，「棊」通「棋」，既指代古代娛樂所用的「棋」（張 1985, 582），也有方格狀紋理的意思（劉 184-220, 4.9b）。說明平棊是一類具有方格狀的紋理的頂棚做法。明清文獻中「平棋盤頂」，也是具有類似外觀的頂棚。</p>
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000244">平闇 píng'àn</term></p>
@@ -96,6 +104,9 @@
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000245" passive="ceilings and ceiling components"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53694864585_c33ee4832f_h.jpg"
+                  passive="https://architecturasinica.org/keyword/k000245" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
