@@ -10,10 +10,23 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor> 
-            <editor role="content-author">CMW S21</editor>
+            <editor role="content-author" xml:id="SXQ">SUN Xiaoqian 孫曉倩</editor>
+            <editor role="content-author" xml:id="WSJY">WANG Sijuanyi 王絲絹逸</editor>
             <respStmt>
-               <resp>Editing, proofreading, data entry and revision by</resp>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, proofreading, data entry and revision: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,6 +59,7 @@
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00" who="#TGM">CREATED: record</change>
          <change n="1.1" when="2021-05-27" who="#YFB">Added gloss and image</change>
+         <change who="#YYY" n="1.2" when="2024-05-13-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +75,9 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000023</idno>
             <note type="Gloss">
                <p xml:lang="en" source="#biblk000023-2"><term type="literal_translation">literally: "added center construction" (Kroll 2015, 189-90, 507, 585);</term> <term ref="/keyword/k000172">huagong</term> which supports <term ref="/keyword/k000169">bracket-arms</term> running both parallel (e.g. guazigong, <term ref="/keyword/k000156">linggong</term>) and perpendicular (e.g. <term ref="/keyword/k000172">huagong</term>, <term ref="/keyword/k000103">ang</term>) to the building plane (Chen 2010, 257); also crisscross center or projection (Guo 2002, 50); "crisscross-heart"  (Zuo 2019, 175).</p>
-               <p xml:lang="zh-Hant" source="#biblk000023-3"><term ref="/keyword/k000013">鋪作</term>跳頭上用橫<term ref="/keyword/k000169">栱</term>、<term ref="/keyword/k000103">昂</term>的做法。（陳 2010, 257）。</p>   
+               <p xml:lang="en" source="#biblk000023">Jixin zao 計心造, or jixin 計心 for short, is an architectural term describing bracket-sets (dougong 斗栱) composed of a henggong 橫栱 installed above  a huagong 華栱 or an ang 昂. The henggong is positioned perpendicular to the huagong or ang and parallel to the wall plane. In premodern sources, the term appears only in Yingzao fashi《營造法式》 (Li Jie 2009, 4.5a, 4.9b,17.2b, 18.1a, 30.6a, etc.). As a verb, ji 計 means “to calculate” or “add (up),”  while as a noun, xin 心 means “center” or “heart.”  Thus “jixin” can mean to “add (a bracket arm)” through the “center” of a bearing block located above an outward projecting bracket arm or ang (tiao 跳). Xu Bo’an proposed that quan jixin zao 全計心造 should be used to to describe the method of installing henggong on each projecting step of bracket arm and use “jixin zao 計心造” to describe the method of installing henggong only on certain projecting bracket arms (Xu 1985).</p>
+               <p xml:lang="zh-Hant" source="#biblk000023-3"><term ref="/keyword/k000013">鋪作</term>跳頭上用橫<term ref="/keyword/k000169">栱</term>、<term ref="/keyword/k000103">昂</term>的做法。（陳 2010, 257）。</p> 
+               <p xml:lang="zh-Hant" source="#biblk000023">計心造是描述斗栱做法的建築術語，可簡稱為計心，指在華栱或昂頭上安放橫栱，即與華栱或昂垂直相交、平行於建築屋身方向的栱的做法。計心造在歷史文獻中僅見於《營造法式》（李誡 2009，4.5a，4.9b，17.2b，18.1a，30.6a等）。“計”作為動詞，有“計算，計數”的意思。“心”作為名詞，有“中心，中央”的意思。徐伯安曾提出可以用“全計心造”描述每跳上均安橫栱的斗栱做法，用“計心造”描述某一跳上安橫栱的做法（徐1985）。</p>
             </note> 
             <note type="Related Concepts">
                <term ref="/keyword/k000024">tōuxīnzào 偷心造</term>
@@ -93,7 +109,7 @@
                <citedRange unit="pp">257</citedRange>
             </bibl>
             <listRelation>
-                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51159477774_5a3e2f02f2_k.jpg" passive="https://architecturasinica.org/keyword/k000023" rendition="featured"> </relation>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53695373885_3b157b694c_h.jpg" passive="https://architecturasinica.org/keyword/k000023" rendition="featured"> </relation>
                
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000023" passive="bracketing"/>
                <relation ref="https://architecturasinica.org/place/000176" source="Guanghua Monastery, main hall (Mahāvīra Treasure Hall)"/>
