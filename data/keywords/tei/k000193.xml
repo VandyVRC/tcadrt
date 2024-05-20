@@ -91,6 +91,9 @@
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000193" passive="bracketing"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53523436313_c6b2959de6_h.jpg"
+                  passive="https://architecturasinica.org/keyword/k000193" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
