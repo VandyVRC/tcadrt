@@ -13,16 +13,34 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="LL">LIU Lin 劉琳</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
-            </respStmt>            
+            </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>         
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#LL">LIU Lin 劉琳</name>
             </respStmt>
             <respStmt>
-               <resp>Entry of revised data and links by</resp>
+               <resp>Entry of revised data and links: </resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,6 +72,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:06">CREATED: record</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,11 +85,16 @@
             <term xml:id="term-k000259-5" xml:lang="zh-latn-wadegile">kua-tzu-kung</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000259</idno>
             <note type="Note">
-               Under construction
+               <p xml:lang="en" source="#biblk000259">Guazigong is a Song dynasty term for one type of bracket arm placed parallel to the wall plane. Between the linggong and nidaogong in size, it is used in chonggong zao and is placed atop the end of the huagong  (tiaotou 跳頭) or slanted bracket arm (ang 昂). The long arms above the guazigong are called mangong.</p>
+               <p xml:lang="zh-Hant" source="#biblk000259">Some scholars who debate the origin of the names of the five important types of bracket arm discussed in Yingzao fashi believe their differentiation is primarily  related to their length and location (Ho 1983, Li 2011, Feng 2012).</p>
+               <p xml:lang="zh-Hant" source="#biblk000259">宋式斗栱构件名称。平行于屋身的栱的一种，用于重栱造斗栱，置于各跳华栱端头或昂上，其上用慢栱 (李 2009;4.3a)。</p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000259" passive="bracketing"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53695324239_34eaf092a5_h.jpg"
+                  passive="https://architecturasinica.org/keyword/k000259" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
