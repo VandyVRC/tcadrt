@@ -73,6 +73,7 @@
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:15">CREATED: record</change>
          <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
+         <change who="#TGM" n="1.1" when="2024-05-26-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -81,18 +82,49 @@
             <term xml:id="term-k000262-1" xml:lang="zh-latn-pinyin-nt">doukoutiao</term>
             <term xml:id="term-k000262-2" xml:lang="zh-Hant">枓口跳</term>
             <term xml:id="term-k000262-3" xml:lang="zh-Hans">斗口跳</term>
-            <term xml:id="term-k000262-4" xml:lang="zh-latn-pinyin">dǒukǒutiào</term>
+            <term xml:id="term-k000262-4" source="#biblk000262-1" xml:lang="zh-latn-pinyin">dǒukǒutiào</term>
             <term xml:id="term-k000262-5" xml:lang="zh-latn-wadegile">tou-k'ou-t'iao</term>
+            <term xml:id="term-k000262-6" source="#biblk000262-2" xml:lang="en">jumping at the mouth of the cap block </term>
+            <term xml:id="term-k000262-7" source="#biblk000262-3" xml:lang="en">block-mouth tier</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000262</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000262">Doukoutiao (枓口跳 or 斗口跳) is a type of column-top bracket set (dougong 枓栱) used on the exterior of a building. In doukoutiao bracket sets, a nidaogong 泥道栱 set into a cap-block is cross-linked with a beam projecting perpendicular to the building plane. A small cap block atop the protruding end of this perpendicular beam(huagongtou 華栱頭) supports the squared eaves beam (liaoyanfang 撩簷枋), while the nidaogong 泥道栱 supports the squared pillar-top beam (zhutoufang 柱頭枋). According to Yingzao Fashi《營造法式》, doukoutiao 枓口跳 is not classified as  puzuo 鋪作 (Li 2009 4.8b; 4.9a).</p>
-               <p xml:lang="en" source="#biblk000262">Although the term “doukou 枓口” refers to any opening in a bearing-block (dou 枓),  in this term it refers to the opening of ludou 櫨枓 in the direction of outward extension of the huagong 華栱. The term “tiao 跳”  refers to the “step,” or projection from the wall plane, of the head of the projecting bracket arm (huagongtou 華栱頭).</p>
-               <p xml:lang="en" source="#biblk000262">The term "doukoutiao 枓口跳" is only found in Yingzao Fashi《營造法式》. Some scholars believe that this simple form was derived from the “yidou ersheng一枓貳升” dougong 枓栱 of the Han Dynasty (Liu 1987, 434), which is the simplest bracket set extending from the wall plane (Pan and He 2005, 84).</p>
-               <p xml:lang="en" source="#biblk000262">The surviving example that is most consistent with Yingzao Fashi《營造法式》 can be found in pillar-top bracket sets of the main hall of Tiantai Hermitage 天臺庵 in Pingshun, Shanxi (933).</p>
+               <p xml:lang="en">Doukoutiao (枓口跳 or 斗口跳) is a type of column-top bracket set (dougong 枓栱) used on the exterior of a building. In doukoutiao bracket sets, a nidaogong 泥道栱 set into a cap-block is cross-linked with a beam projecting perpendicular to the building plane. A small cap block atop the protruding end of this perpendicular beam(huagongtou 華栱頭) supports the squared eaves beam (liaoyanfang 撩簷枋), while the nidaogong 泥道栱 supports the squared pillar-top beam (zhutoufang 柱頭枋). According to Yingzao Fashi《營造法式》, doukoutiao 枓口跳 is not classified as  puzuo 鋪作 (Li 2009 4.8b; 4.9a).</p>
+               <p xml:lang="en">Although the term “doukou 枓口” refers to any opening in a bearing-block (dou 枓),  in this term it refers to the opening of ludou 櫨枓 in the direction of outward extension of the huagong 華栱. The term “tiao 跳”  refers to the “step,” or projection from the wall plane, of the head of the projecting bracket arm (huagongtou 華栱頭).</p>
+               <p xml:lang="en">The term "doukoutiao 枓口跳" is only found in Yingzao Fashi《營造法式》. Some scholars believe that this simple form was derived from the “yidou ersheng一枓貳升” dougong 枓栱 of the Han Dynasty (Liu 1987, 434), which is the simplest bracket set extending from the wall plane (Pan and He 2005, 84).</p>
+               <p xml:lang="en" source="#biblk000262-4">The surviving example that is most consistent with Yingzao Fashi《營造法式》 can be found in pillar-top bracket sets of the main hall of Tiantai Hermitage 天臺庵 in Pingshun, Shanxi (933).</p>
                <p xml:lang="zh-Hant" source="#biblk000262">枓口跳是一種於柱頭上的外簷枓栱，現今寫作作斗口跳。梁栿的前端與泥道栱在櫨枓枓口内十字搭交，並作華栱頭從櫨枓枓口伸出，承托撩簷枋。泥道栱承托柱头枋。根據《營造法式》枓口跳不稱爲鋪作（李 2009，4.8b；4.9a）。</p>
                <p xml:lang="zh-Hant" source="#biblk000262">“枓口”是枓的開口，此處特指櫨枓順跳方向的開口。“跳”是指枓栱的出跳，這裏便是指華栱頭的出跳。</p>
-               <p xml:lang="zh-Hant" source="#biblk000262">枓口跳作爲建築術語，覲見於《營造法式》。現存枓口跳實物最符合《營造法式》記載者，可見平順天臺庵正殿（933山西平顺）柱頭枓栱。</p>
+               <p xml:lang="zh-Hant" source="#biblk000262-4">枓口跳作爲建築術語，覲見於《營造法式》。現存枓口跳實物最符合《營造法式》記載者，可見平順天臺庵正殿（933山西平顺）柱頭枓栱。</p>
             </note>
+            <note type="related concepts">
+               <p ref="/keyword/k000172">huāgǒng 華栱</p>
+            </note>
+            <listBibl xml:id="biblk000262-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">4.8b; 4.9a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/K7958QVG"/>
+                  <citedRange unit="pp"></citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">84</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000262-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">16</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000262-2">
+               <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+               <citedRange unit="pp">140</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000262-3">
+               <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+               <citedRange unit="pp">140</citedRange>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000262" passive="building frame"/>
