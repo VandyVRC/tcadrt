@@ -16,6 +16,7 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -83,14 +84,15 @@
             <term xml:id="term-k000263-4" xml:lang="zh-latn-pinyin" source="#biblk000263-2">dāngǒngzào</term>
             <term xml:id="term-k000263-5" xml:lang="zh-latn-wadegile">tan-kung-tsao</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000265</idno>
-            <note type="Note">
-               <p xml:lang="en" source="#biblk000265-1">Literally "single bracket arm structure," in dangongzao single bracket arms parallel to the building plane are used to support beams, rather than other, typically larger, bracket arms. Compare "chonggong <term ref="/keyword/k000257">重栱</term>." See also: dangong <term ref="/keyword/k000256">單栱</term>. </p>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000265-1">Literally "single bracket arm structure," in dangongzao (also dangong zao) single bracket arms parallel to the building plane are used to support beams, rather than other, typically larger, bracket arms. Compare "chonggong <term ref="/keyword/k000257">重栱</term>." See also: dangong <term ref="/keyword/k000256">單栱</term>. </p>
                <p xml:lang="zh-Hant" source="#biblk000265">
                </p>
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000257">重栱 chónggǒng</term></p>
                <p><term ref="/keyword/k000156">令栱 lìnggǒng</term></p>
+               <p><term ref="/keyword/k000155">慢栱 màngǒng</term></p>
             </note>
             <bibl xml:id="biblk000265-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
