@@ -9,7 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">單栱造</foreign>dāndǒu zhītì</title>
+               <foreign xml:lang="zh-Hant">單栱造</foreign> dāngōngzào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -40,7 +40,6 @@
             </respStmt>
             <respStmt>
                <resp>Data entry: </resp>
-               <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
                <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
@@ -49,7 +48,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000263/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000265/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -72,41 +71,40 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2023-06-05-04:00">CREATED: record</change>
-         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000263" type="architectural feature">
-            <term xml:id="term-k000263-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000263-1">dandou zhiti</term>
-            <term xml:id="term-k000263-2" xml:lang="zh-Hant">單枓隻替</term>
-            <term xml:id="term-k000263-3" xml:lang="zh-Hans">单斗只替</term>
-            <term xml:id="term-k000263-4" xml:lang="zh-latn-pinyin" source="#biblk000263-2">dāndǒu zhītì</term>
-            <term xml:id="term-k000263-5" xml:lang="zh-latn-wadegile">tan-tou chih-t'i</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000263</idno>
+            <term xml:id="term-k000263-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000263-1">dangongzao</term>
+            <term xml:id="term-k000263-2" xml:lang="zh-Hant">單栱造</term>
+            <term xml:id="term-k000263-3" xml:lang="zh-Hans">单栱造</term>
+            <term xml:id="term-k000263-4" xml:lang="zh-latn-pinyin" source="#biblk000263-2">dāngōngzào</term>
+            <term xml:id="term-k000263-5" xml:lang="zh-latn-wadegile">tan-kung-tsao</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000265</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000263">Dandou zhiti is a type of bracket set (dougong 枓栱) without perpendicular arms (huagong華栱) projecting from the wall plane (Li 2009, 19.9b; 19.11a). Dandou zhiti as an architectural term is only found in Yingzao Fashi《營造法式》. It only uses one bearing block (dou 枓) and a timu 替木 to support the purlin,  linking the column, beam and purlin together (Pan and He 2005, 84). The only surviving example known is in the Yuzhao feiliang 魚沼飛梁 https://architecturasinica.org/place/000048e of the Jin Shrines 晉祠 in Taiyuan, Shanxi, thought to date to the 11th century.</p>
-               <p xml:lang="zh-Hant" source="#biblk000263">單枓隻替是一種不出跳枓栱，現今寫作单斗只替（李 2009，19.9b；19.11a），指仅用一隻枓和一隻替木承托檩，將柱、梁、檁結合起來（潘和何 2005, 84）。 單枓隻替作爲建築術語覲見於《營造法式》。實物可見太原晉祠魚沼飛梁。
+               <p xml:lang="en" source="#biblk000263"></p>
+               <p xml:lang="zh-Hant" source="#biblk000263">
                </p>
             </note>
             <note type="related concepts">
-               <p>帳龕 zhàngkān</p>
+               <p></p>
             </note>
             <bibl xml:id="biblk000263-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-               <citedRange unit="pp">42</citedRange>
+               <citedRange unit="pp"></citedRange>
             </bibl>
             <bibl xml:id="biblk000263-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
-               <citedRange unit="pp">357</citedRange>
+               <citedRange unit="pp"></citedRange>
             </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000263" passive="bracketing"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/53727748868_e7783a78a0_c.jpg"
-                  passive="https://architecturasinica.org/keyword/k000263" rendition="featured"/>
+                  passive="https://architecturasinica.org/keyword/k000265" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
