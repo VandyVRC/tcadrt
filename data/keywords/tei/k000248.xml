@@ -107,6 +107,12 @@
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000248" passive="bracketing"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53726803477_960a794fa3_c.jpg"
+                  passive="https://architecturasinica.org/keyword/k000248" rendition="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53728152955_7e671bc9d8_c.jpg"
+                  passive="https://architecturasinica.org/keyword/k000248" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
