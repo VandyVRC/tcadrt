@@ -85,9 +85,13 @@
             <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile">t'iao-t'ou</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000193</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000193">Tiaotou refers to the projecting end of a perpendicular bracket-arm or cantilever and it can also be used as another name for huagong (Li Jie 2009, 4.8b).</p>
-               <p xml:lang="zh-Hant" source="#biblk000193">跳頭指斗栱中垂直于屋身方向出跳構件（如華栱或昂）的端頭，也可作華栱的別稱（李 2009，4.8b）。</p>
+               <p xml:lang="en" source="#biblk000193-1">Tiaotou refers to the projecting end of a perpendicular bracket-arm or cantilever and it can also be used as another name for huagong (Li 2009, 4.8b).</p>
+               <p xml:lang="zh-Hant" source="#biblk000193=1">跳頭指斗栱中垂直于屋身方向出跳構件（如華栱或昂）的端頭，也可作華栱的別稱（李 2009，4.8b）。</p>
             </note>
+            <bibl xml:id="biblk000193-1">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               <citedRange unit="pp">4.8b</citedRange>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000193" passive="bracketing"/>
