@@ -85,8 +85,8 @@
             <term xml:id="term-k000257-8" xml:lang="en" source="#biblk000257-2">chonggong</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000257</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000257">Literally “double bracket arms,” chongong refers to two bracket arms, one atop the other, placed parallel to the building plane that support squared beams (fang 枋). When used above projecting arms or the ang, the lower arm is called a guazigong 瓜子栱 and the upper arm is called a mangong 慢栱; when used as a fubigong, the lower arm is called nidaogong 泥道栱 and the upper arm is called mangong 慢栱 (Li 2009, 4.12b). The earliest use of chonggong we have found was by Li Linfu in his Tang dynasty Tangliudian  and is related to the ranking of palace architecture (Li et al. 2014).</p>
-               <p xml:lang="zh-Hant" source="#biblk000257">重栱指平行於屋身方向上下重疊的两层栱，其上承枋：斗栱中跳頭或昂上的重栱，下為瓜子栱，上為慢栱；扶壁栱中的重栱，下為泥道栱，上為慢栱(李 2009,4.12b)。在曆史文獻中最早見于唐代《唐六典》(李林甫等 1992,592)，与宫室等级制度相关；并一直沿用至清代。</p>
+               <p xml:lang="en" source="#biblk000257-3">Literally “double bracket arms,” chongong refers to two bracket arms, one atop the other, placed parallel to the building plane that support squared beams (fang 枋). When used above projecting arms or the ang, the lower arm is called a guazigong 瓜子栱 and the upper arm is called a mangong 慢栱; when used as a fubigong, the lower arm is called nidaogong 泥道栱 and the upper arm is called mangong 慢栱 (Li 2009, 4.12b). The earliest use of chonggong we have found was by Li Linfu in his Tang dynasty Tangliudian  and is related to the ranking of palace architecture (Li et al. 1992, 592).</p>
+               <p xml:lang="zh-Hant" source="#biblk000257-3">重栱指平行於屋身方向上下重疊的两层栱，其上承枋：斗栱中跳頭或昂上的重栱，下為瓜子栱，上為慢栱；扶壁栱中的重栱，下為泥道栱，上為慢栱(李 2009,4.12b)。在曆史文獻中最早見于唐代《唐六典》(李等 1992，592)，与宫室等级制度相关；并一直沿用至清代。</p>
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000256">單栱 dāngǒng</term></p>
@@ -97,6 +97,16 @@
             <bibl xml:id="biblk000257-2">
                <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
             </bibl>
+            <listBibl xml:id="biblk000257-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">4.12b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/GYBRGLM7"/>
+                  <citedRange unit="pp">592</citedRange>
+               </bibl>     
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000257" passive="bracketing"/>
