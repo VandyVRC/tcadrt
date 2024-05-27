@@ -78,17 +78,48 @@
    <text>
       <body>
          <entryFree xml:id="k000259" type="architectural feature">
-            <term xml:id="term-k000259-1" xml:lang="zh-latn-pinyin-nt">guazigong</term>
+            <term xml:id="term-k000259-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000259-1">guazigong</term>
             <term xml:id="term-k000259-2" xml:lang="zh-Hant">瓜子栱</term>
             <term xml:id="term-k000259-3" xml:lang="zh-Hans">瓜子栱</term>
             <term xml:id="term-k000259-4" xml:lang="zh-latn-pinyin">guāzǐgǒng</term>
             <term xml:id="term-k000259-5" xml:lang="zh-latn-wadegile">kua-tzu-kung</term>
+            <term xml:id="term-k000259-6" xml:lang="en" source="#biblk000259-2">guazi gong</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000259</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000259">Guazigong is a Song dynasty term for one type of bracket arm placed parallel to the wall plane. Between the linggong and nidaogong in size, it is used in chonggong zao and is placed atop the end of the huagong  (tiaotou 跳頭) or slanted bracket arm (ang 昂). The long arms above the guazigong are called mangong.</p>
-               <p xml:lang="zh-Hant" source="#biblk000259">Some scholars who debate the origin of the names of the five important types of bracket arm discussed in Yingzao fashi believe their differentiation is primarily  related to their length and location (Ho 1983, Li 2011, Feng 2012).</p>
-               <p xml:lang="zh-Hant" source="#biblk000259">宋式斗栱构件名称。平行于屋身的栱的一种，用于重栱造斗栱，置于各跳华栱端头或昂上，其上用慢栱 (李 2009；4.3a)。</p>
+               <p xml:lang="en">Guazigong is a Song dynasty term for one type of bracket arm placed parallel to the wall plane. Between the linggong and nidaogong in size, it is used in chonggong zao and is placed atop the end of the huagong  (tiaotou 跳頭) or slanted bracket arm (ang 昂). The long arms above the guazigong are called mangong.</p>
+               <p xml:lang="zh-Hant" source="#biblk000259-3">Some scholars who debate the origin of the names of the five important types of bracket arm discussed in Yingzao fashi believe their differentiation is primarily  related to their length and location (Ho 1983, Li 2011, Feng 2012).</p>
+               <p xml:lang="zh-Hant" source="#biblk000259-4">宋式斗栱构件名称。平行于屋身的栱的一种，用于重栱造斗栱，置于各跳华栱端头或昂上，其上用慢栱 (李 2009；4.3a)。</p>
             </note>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000172">華栱 huāgǒng</term></p>
+               <p><term ref="/keyword/k000155">慢栱 màngǒng</term></p>
+            </note>
+            <listBibl xml:id="biblk000259-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+                  <citedRange unit="pp">187</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">356</citedRange>
+               </bibl>     
+            </listBibl>
+            <bibl xml:id="biblk000259-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">40</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000259-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/9ZMAER8F"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+               </bibl>    
+            </listBibl>
+            <bibl xml:id="biblk000259-4">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               <citedRange unit="pp">4.3a</citedRange>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000259" passive="bracketing"/>
