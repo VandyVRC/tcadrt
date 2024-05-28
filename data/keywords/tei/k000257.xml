@@ -75,14 +75,12 @@
    <text>
       <body>
          <entryFree xml:id="k000257" type="architectural feature">
-            <term xml:id="term-k000257-1" xml:lang="zh-latn-pinyin-nt">chonggong</term>
+            <term xml:id="term-k000257-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000257-1">chonggong</term>
             <term xml:id="term-k000257-2" xml:lang="zh-Hant">重栱</term>
             <term xml:id="term-k000257-3" xml:lang="zh-Hans">重栱</term>
             <term xml:id="term-k000257-4" xml:lang="zh-latn-pinyin">chónggǒng</term>
             <term xml:id="term-k000257-5" xml:lang="zh-latn-wadegile">chung-kung</term>
-            <term xml:id="term-k000257-6" xml:lang="en">Double arms (lit. ATTCAT 2023)</term>
-            <term xml:id="term-k000257-7" xml:lang="en" source="#biblk000257-1">chonggong</term>
-            <term xml:id="term-k000257-8" xml:lang="en" source="#biblk000257-2">chonggong</term>
+            <term xml:id="term-k000257-6" xml:lang="zh-latn-wadegile" type="alternative" source="#biblk000257-2">ch'ung-kung</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000257</idno>
             <note type="Note">
                <p xml:lang="en" source="#biblk000257-3">Literally “double bracket arms,” chongong refers to two bracket arms, one atop the other, placed parallel to the building plane that support squared beams (fang 枋). When used above projecting arms or the ang, the lower arm is called a guazigong 瓜子栱 and the upper arm is called a mangong 慢栱; when used as a fubigong, the lower arm is called nidaogong 泥道栱 and the upper arm is called mangong 慢栱 (Li 2009, 4.12b). The earliest use of chonggong we have found was by Li Linfu in his Tang dynasty Tangliudian  and is related to the ranking of palace architecture (Li et al. 1992, 592).</p>
@@ -91,11 +89,16 @@
             <note type="related concepts">
                <p><term ref="/keyword/k000256">單栱 dāngǒng</term></p>
             </note>
-            <bibl xml:id="biblk000257-1">
-               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
-            </bibl>
+            <listBibl xml:id="biblk000257-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               </bibl>
+            </listBibl>
             <bibl xml:id="biblk000257-2">
-               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
             </bibl>
             <listBibl xml:id="biblk000257-3">
                <bibl>
