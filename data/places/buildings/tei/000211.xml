@@ -161,10 +161,10 @@
                         >小木作</term>中的稀有文物（河北省正定縣文物保管所 2000，15-16）。</p>
                </desc>
                <location type="gps" subtype="preferred">
-                  <geo>38.14345556 114.5761833</geo>
+               <geo>38.143563 114.576252</geo>
                </location>
                <location type="verbatim">
-                  <note>38˚ 08' 36.44" N (google earth 9/2009) 114˚ 34' 34.26" E</note>
+               <note>38˚ 08' 61.38" N 114˚ 34' 34.5751" E (Garmin June 2024)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -194,6 +194,9 @@
                   passive="https://architecturasinica.org/place/000211" ana="featured"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/53339184849_548922c305_k.jpg"
+                  passive="https://architecturasinica.org/place/000211" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53776979314_f6e81b3543_k.jpg"
                   passive="https://architecturasinica.org/place/000211" ana="featured"/>
                <relation active="https://architecturasinica.org/place/000211"
                   passive="https://architecturasinica.org/keyword/k000063" ref="dcterms:subject"
