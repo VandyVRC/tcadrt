@@ -71,8 +71,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2023-06-05-04:00">CREATED: record</change>
-         <change who="#YYY" n="1.1" when="2024-05-13-04:00">added data</change>
+         <change n="1.0" who="#ZAL" when="2023-06-05-04:00">CREATED: record</change>
+         <change n="1.1" who="#YYY"  when="2024-05-13-04:00">added data</change>
+         <change n="1.1" who="#TGM"  when="2024-06-20-04:00">added links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,11 +85,13 @@
             <term xml:id="term-k000248-4" xml:lang="zh-latn-pinyin">liūjīn dǒukē</term>
             <term xml:id="term-k000248-5" xml:lang="zh-latn-wadegile">liu-chin tou-k'o</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000248</idno>
-            <note type="Note"><p xml:lang="en" source="#biblk000248-1">According to the Gongcheng zuofa《工程做法》the term liujin douke refers to a dougong that connects the eaves purlin (yanheng 檐桁) to the interior purlin (jinheng 金桁) via one or more slanted timbers (chenggan 秤桿) (Gongbu, 1734, 28·16b). Literally meaning  “flowing gold bracket set,” it can be used in any of the three eaves bracket sets types, i.e. the  inter-columnar bracket set (pingshenke 平身科), the corner bracket set (jiaoke 角科), and the pillar-top bracket set (zhutouke 柱头科). Here  the word jin 金 refers to the interior purlin (xiajinheng下金桁), while liu 溜 can be understood as a verb meaning “to slide” (Liu Chang, 2010, 48). It might also be understood as “a row" (排, Hanyu dacidian).  The slanted timber bar echoes the form of the Song dynasty xia’ang (k000178), but it functions less for roof load transfer and more as a stabilizing component locking the eaves to the interior structure. The rear end of the chenggan is embedded in a large block (dou 斗 k000157) of a bracket set called huataike 花台科, which is placed on the top of a squared beam called huataifang 花台枋. The huataifang is located under the interior purlin between the pillars connected to a squared beam (fang 枋). Modern scholars have used the term liujindougong 溜金斗栱 to refer both to the liujindouke 溜金斗科 and tiaojindouke 挑金斗科 (Liang 1981, 108).</p>
-               <p xml:lang="zh-Hant" source="#biblk000248-1">溜金斗科，是明清官式建築中的一種斗栱類型，可用作平身科、柱头科、角科 （工部 1734，28·16b）。“金”指金步或金桁，“溜”可理解為動詞，意為“溜達”（劉2010，48），或也可理解為“一系列”的意思（数字版漢語大辭典）。根據清工部《工程做法》（工部 1734，28·16b），溜金斗科指以斜向構件（秤桿）聯系簷桁和金桁的斗栱。秤桿在形式上類似於宋式斗栱中的昂，但其主要作用是將簷口與內部屋架結構穩固的連接，而不是傳遞屋面荷載。秤桿後尾嵌入花臺科大斗中，大斗置於花臺枋上。花臺枋是位於金桁之下柱間連接的枋，花臺科是金桁下連接秤桿和金桁的一組斗栱。現代學者用溜金斗栱統稱溜金斗栱和挑金斗栱（梁 1981，108）。</p>
+            <note type="Note"><p xml:lang="en" source="#biblk000248-1">According to the Gongcheng zuofa《工程做法》the term liujin douke refers to a bracket set (douke <term ref="/keyword/k000247">斗科</term> or dougong <term ref="/keyword/k000019">斗栱</term>) that connects the eaves purlin (yanheng 檐桁) to the interior purlin (jinheng 金桁) via one or more slanted timbers (chenggan 秤桿) (Gongbu, 1734, 28.16b). Literally meaning  “flowing gold bracket set,” it can be used in any of the three eaves bracket sets types, i.e. the  inter-columnar bracket set (pingshenke 平身科), the corner bracket set (jiaoke 角科), and the pillar-top bracket set (zhutouke 柱头科). Here  the word jin 金 refers to the interior purlin (xiajinheng下金桁), while liu 溜 can be understood as a verb meaning “to slide” (Liu Chang, 2010, 48). It might also be understood as “a row" (排, Hanyu dacidian).  The slanted timber bar echoes the form of the Song dynasty ang <term ref="/keyword/k000103">昂</term>, but it functions less for roof load transfer and more as a stabilizing component locking the eaves to the interior structure. The rear ends of the chenggan slanted timbers are embedded in a large bearing block (dou <term ref="/keyword/k000157">斗</term>) of a bracket set called huataike 花台科, which is placed on the top of a squared beam (fang <term ref="/keyword/k000117">枋</term>) called huataifang 花台枋. The huataifang is located under the interior purlin between the pillars connected to a squared beam . Modern scholars have used the term liujindougong 溜金斗栱 to refer both to the liujindouke 溜金斗科 and tiaojindouke 挑金斗科 (Liang 1981, 108).</p>
+               <p xml:lang="zh-Hant" source="#biblk000248-1">溜金斗科，是明清官式建築中的一種<term ref="/keyword/k000019">斗栱</term>類型，可用作平身科、柱头科、角科 （工部 1734, 28.16b）。“金”指金步或金桁，“溜”可理解為動詞，意為“溜達”（劉 2010，48），或也可理解為“一系列”的意思（数字版漢語大辭典）。根據清工部《工程做法》，溜金斗科指以斜向構件（秤桿）聯系簷桁和金桁的斗栱。秤桿在形式上類似於宋式斗栱中的<term ref="/keyword/k000103">昂</term>，但其主要作用是將簷口與內部屋架結構穩固的連接，而不是傳遞屋面荷載。秤桿後尾嵌入花臺科大斗中，大斗置於花臺枋上。花臺枋是位於金桁之下柱間連接的<term ref="/keyword/k000117">枋</term>，花臺科是金桁下連接秤桿和金桁的一組斗栱。現代學者用溜金斗栱統稱溜金斗栱和挑金斗栱（梁 1981，108）。</p>
             </note>
             <note type="related concepts">
+               <p><term ref="keyword/k000103">昂 áng</term></p>
                <p><term ref="/keyword/k000249">挑金斗科 tiāojīn dǒukē</term></p>
+               <p><term ref="keyword/k000178">下昂 xià'áng</term></p>
             </note>
             <listBibl xml:id="biblk000248-1">
                <bibl>
