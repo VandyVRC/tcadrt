@@ -72,6 +72,7 @@
          <change n="1.2" when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
                <name type="person" xml:id="SLY">SHEN Liyan</name></change>
          <change n="1.3" who="#YYY" when="2023-12-15-04:00">site description entry</change>
+         <change n="1.4" who="#TGM" when="2024-06-15-04:00">add image and new geo information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -161,10 +162,10 @@
                         >小木作</term>中的稀有文物（河北省正定縣文物保管所 2000，15-16）。</p>
                </desc>
                <location type="gps" subtype="preferred">
-                  <geo>38.143563 114.576252</geo>
+                <geo>38.143563 114.576252</geo>
                </location>
                <location type="verbatim">
-                  <note>38˚ 08' 61.38" N 114˚ 34' 34.5751" E (Garmin June 2024)</note>
+               <note>38˚ 08' 61.38" N 114˚ 34' 34.5751" E (Garmin June 2024)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
