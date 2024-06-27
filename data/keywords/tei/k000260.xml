@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">帳 </foreign>zhàng</title>
+               <foreign xml:lang="zh-Hant">帳</foreign>zhàng</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -13,16 +13,34 @@
             <editor role="content-author" xml:id="YLN">YU Lina 俞莉娜</editor>
             <editor role="content-author" xml:id="YQY">YU Qingya 于清雅</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#YQY">YU Qingya 于清雅</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry by</resp>
+               <resp>Data entry: </resp>
                <name type="person" xml:id="ZAL">LI Zhixian 李知賢</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,6 +72,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-05-04:00">CREATED: record</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +87,11 @@
             <term xml:id="term-k000260-7" xml:lang="en" source="#biblk000260-2">canopied couch</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000260</idno>
             <note type="Note">
-               Under construction
+               <p>Under construction</p>
+               <!--  <p xml:lang="en" source="#biblk000260">The term zhang initially referred to a fabric tent, but later, with the rise of small-scale carpentry (xiaomuzuo 小木作), it was also used to refer to wooden cabinets. Zhang was first referred to as a fabric “arranged over a bed,” and records of zhang made of wood are also found in the same period (Liu date, 184). The classical sources record various other terms for zhang, including , yuzhang (Fan, 445), wuzhang (Ban, 82), and baozhang (Liu, 23). In these records it is clear that zhang were used for military warfare, noble life, and worship. The term “ping zhang” appeared in the Tang Dynasty (Zhang et al, 732), so it is clear that the zhang was also used for partitioning, similar to a drape or curtain. In YZFS, four types of small-scale carpentry zhang are outlined in reference to the placement of statues in Buddhist temples: Fo-Dao zhang, yajiao zhang, jiuji xiaozhang, and bizhang (Li 1104) showing an obvious imitation of large-scale carpentry (damuzuo 大木作)  practices. The term jiejian described in the banzhang (Li, 1104) in the Yingzao fashi  is related to the term pingzhang that appeared in the Tang Dynasty, and from this it is clear that zhang were also used as interior partitions.</p>
+               <p xml:lang="zh-Hant">帳最早指 “張於床上” 的織物（圖1-2），同期也見有以木做帳的記載（劉，184） 。 文獻中可見牙帳（魏，554） 、玉帳（範，445）、武帳（班，82）、寶帳（劉，23）等多種名稱，可知帳用於軍事戰爭、貴族生活、尊像 崇拜等(趙琳2002, 69)。 唐代出現「屛帳」一詞（張 et al，732），可知帳也用於隔斷。 《營造法式》中系統地記載了佛道帳、牙腳帳、九脊小帳、壁帳四種用於安置尊像的小木作帳的形式（李，1104），表現出明顯的仿大木做法。 《營造法式》中的截間版帳（李，1104） ，與唐代出現的「屛帳」一詞相關，可知帳也用於無內部空間的室內隔斷。</p>
+               <p xml:lang="zh-Hant" source="#biblk000260">帳多見於歷代圖像、出土文物及石窟、小木作等現存實例，型態經歷了從獨立於床、與床相連到仿木建築的變化。 現代學者多將宋元以來的小木作塑像裝置稱為帳龕。</p>
+               -->
             </note>
             <note type="related concepts">
                <p>帳龕 zhàngkān</p>

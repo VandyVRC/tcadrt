@@ -13,16 +13,34 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#HJB">HU Jianbin 胡劍斌</name>
             </respStmt>
             <respStmt>
-               <resp>Entry of revised data and links by</resp>
+               <resp>Entry of revised data and links: </resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -55,23 +73,81 @@
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:10">CREATED: record</change>
          <change n="1.0" when="2023-09-01-11:10">updated</change>
+         <change who="#YYY" n="1.2" when="2024-05-20-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000261" type="architectural feature">
-            <term xml:id="term-k000261-1" xml:lang="zh-latn-pinyin-nt">batou jiaoxiangzuo</term>
+            <term xml:id="term-k000261-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000261-1">batou jiaoxiangzuo</term>
             <term xml:id="term-k000261-2" xml:lang="zh-Hant">把頭絞項作</term>
             <term xml:id="term-k000261-3" xml:lang="zh-Hans">把头绞项作</term>
             <term xml:id="term-k000261-4" xml:lang="zh-latn-pinyin">bǎtóu jiǎoxiàngzuò</term>
             <term xml:id="term-k000261-5" xml:lang="zh-latn-wadegile">pa-t'ou chiao-hsiang-tso</term>
+            <term xml:id="term-k000259-6" xml:lang="en" source="#biblk000261-2">ba/patou jiaoxiang</term>
+            <term xml:id="term-k000259-7" xml:lang="en" source="#biblk000261-3">rake head intertwined-neck structure</term>
+            <term xml:id="term-k000259-8" xml:lang="zh-latn-pinyin" type="alternative" source="#biblk000261-4">bǎ tóu jiǎo xiàng zuò</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000261</idno>
             <note type="Note">
-               Under construction
+               <p xml:lang="en">Batou jiaoxiangzuo 把頭絞項作, literally “ba-head intertwined-neck structure,” is a type of column-top bracket-set (dougong 枓栱) located on the exterior of buildings. In bracket sets of this type, the nidaogong 泥道栱 joined into a cap block is crossed with the front part of a member whose “head,” or protruding end, has been carved into a distinctive “rake” shape, extends out from the mouth of the cap block. Small cap blocks (sandou 散枓) are placed at either end of the nidaogong 泥道栱 and another small cap block called  qixindou 齐心枓 is placed above the “rake head” member to support a squared beam (fang 枋) above it.</p>
+               <p xml:lang="en">  The term batou jiaoxiangzuo is only found in Yingzao Fashi《營造法式》 (Li 2009, 17.1b; 17.9b; 17.1a) Scholars believe that "ba 把" (handle) is an error in the process of transmission and that it was originally written “pa 杷” (to rake) in reference to the use of patougong 杷頭栱 (rake-head bracket arm) (Cao 1988, 54-57). Both the Siku quanshu 四库全书 and Forbidden City versions of  Yingzao Fashi《營造法式》 use "patou jiaoxiangzuo 杷頭絞項作" (Li 2009, 17.1b; 17.9b; 17.1a).</p>
+               <p xml:lang="en">In this term "jiao 絞" refers to the crossing of the wooden components. Yingzao Fashi《營造法式》uses the terms  "jiaotouzaiwai 絞頭在外” and "yixunzhangjiaojiao以尋杖絞角" respectively describe the intersections of the pupaifang 普拍枋 and xunzhang 尋杖. (Pan and He 2005, 256). “Xiang 項” means “neck” and according to the notes on "xiang 項" in Volume 5 of Yingzao Fashi《營造法式》 are the portions of the bracket arm that are joined into the mortises carved into bearing blocks (rudoukouchu入枓口處) (Li 2009, 5.11b). The meaning of "zuo 作" or “to make” in the Song dynasty was not limited to architecture, but involved the whole field of handicraft industry. Some scholars believe that the zuo here is a copying mistake and that “zao 造” (patou jiaoxiangzao 杷頭絞項造) is a more appropriate way to describe this method of bracket set construction (Zhang 2002, 37-41; Liang 2001, 382; Liu 1992, 446).</p>
+               <p xml:lang="en" source="#biblk000261-5">The only surviving examples of batou jiaoxiangzuo are are in masonry pagodas such as the Xuanzang Pagoda 玄奘塔 of  Xingjiao Temple 興教寺 in Xi'an, Shaanxi (669) and the Jingzang Pagoda 净藏塔 of Huishan Temple 會善寺 in Dengfeng, Henan (746).</p>
+               
+               <p xml:lang="zh-Hant">把頭絞項作是一種用於柱頭的外簷枓栱。做法为，泥道栱與梁栿的前端在櫨枓枓口内十字搭交，梁頭呈耍頭樣式從櫨枓枓口伸出。泥道栱兩端置散枓，中心置齊心枓，枓上擱柱頭枋。</p><p xml:lang="zh-Hant">“把頭絞項作”作爲建築術語，僅見於《營造法式》卷十七。學者認爲，“把”字為傳抄過程中字誤。把頭絞項作應為杷頭絞項作，是因使用杷頭栱而得名。（曹 1988, 54-57）四庫全書本及故宮本《營造法式》中“把頭絞項作”都寫作“杷頭絞項作”（李 2009，17.1b；17.9b； 17.12a）。</p><p xml:lang="zh-Hant">“絞”是木構件十字搭交的意思。《營造法式》中用“絞頭在外”和“以尋杖絞角”分別描述普拍枋和尋杖在轉角處搭交出頭的做法。因此也有學者將“絞”解釋為構件平面相交（潘和何 2005, 256）“項”本意為脖子後部，亦泛指脖子。《營造法式》卷五對“項”的注釋為“入枓口處”。（李 2009，5.11b）“作”的含義在宋代不止限於建築，而是涉及整個手工業領域。有學者認爲此處“作”為傳抄翻刻所致混淆。“杷頭絞項”應爲描述枓栱的結構、構造，寫作“杷頭絞項造”更爲合適（张 2002, 37-41；梁 2001, 382；刘 1992, 446）。</p><p xml:lang="zh-Hant" source="#biblk000261-5">現存實例覲見於磚石塔如西安興教寺玄奘塔（669 陕西西安）、登封會善寺凈藏塔（746 河南登封）等。</p>
             </note>
+            <bibl xml:id="biblk000261-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">32</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000261-2">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">53</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000261-3">
+               <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+               <citedRange unit="pp">140</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000261-4">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">16</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000261-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">17.1b; 17.9b; 17.12a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/SRI3H5IT"/>
+                  <citedRange unit="pp">54-57</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">256</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">5.11b</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/72QMBHZF"/>
+                  <citedRange unit="pp">37-41</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/K2DK8WGX"/>
+                  <citedRange unit="pp">382</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/X3PYY5SL"/>
+                  <citedRange unit="pp">446</citedRange>
+               </bibl>
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000261" passive="building frame"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53694758239_2d25142354_c.jpg"
+                  passive="https://architecturasinica.org/keyword/k000261" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>

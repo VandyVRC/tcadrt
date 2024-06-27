@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:tei="http://www.tei-c.org/ns/1.0" 
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">跳</foreign> tiào</title>
+               <foreign xml:lang="zh-Hant">單栱造</foreign> dāngǒngzào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id="LL">LIU Lin 劉琳</editor>
+            <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
@@ -32,11 +37,7 @@
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref="#LL">LIU Lin 劉琳</name>
-            </respStmt>
-            <respStmt>
-               <resp>Entry of revised data and links: </resp>
-               <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" ref="#HJB">HU Jianbin 胡劍斌</name>
             </respStmt>
             <respStmt>
                <resp>Data entry: </resp>
@@ -48,13 +49,13 @@
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
-            <idno type="URI">https://architecturasinica.org/keyword/k000258/tei</idno>
+            <idno type="URI">https://architecturasinica.org/keyword/k000265/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2023-06-10-11:00</date>
+            <date>2022-07-01-04:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -71,38 +72,39 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2023-06-10-11:00">CREATED: record</change>
-         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">CREATED: record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000258" type="architectural feature">
-            <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000258-1">tiao</term>
-            <term xml:id="term-k000258-2" xml:lang="zh-Hant">跳</term>
-            <term xml:id="term-k000258-3" xml:lang="zh-Hans">跳</term>
-            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin">tiào</term>
-            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile" source="#biblk000258-2">t'iao</term>
-            <idno type="URI">https://architecturasinica.org/keyword/k000258</idno>
-            <note type="Note">
-               <p xml:lang="en">Literally meaning “jump,” in Yingzao Fashi tiao refers to either horizontal bracket arms (gong 栱) or slanted bracket arms (ang 昂) projecting perpendicularly from the wall plane. One tiao refers to one outward projection, and there can be up to five projections in a bracket set.</p>
-               <p xml:lang="zh-Hant">在《营造法式》中是斗栱做法術語，即指挑出栱或昂。挑出一层，称一跳，最多至五跳。</p>
+         <entryFree xml:id="k000265" type="architectural feature">
+            <term xml:id="term-k000265-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000265-1">dangongzao</term>
+            <term xml:id="term-k000265-2" xml:lang="zh-Hant">單栱造</term>
+            <term xml:id="term-k000265-3" xml:lang="zh-Hans">单栱造</term>
+            <term xml:id="term-k000265-4" xml:lang="zh-latn-pinyin" source="#biblk000265-2">dāngǒngzào</term>
+            <term xml:id="term-k000265-5" xml:lang="zh-latn-wadegile">tan-kung-tsao</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000265</idno>
+            <note type="Gloss">
+               <p xml:lang="en" source="#biblk000265-1">Literally "single bracket arm structure," in dangongzao (also dangong zao) single bracket arms parallel to the building plane are used to support beams, rather than other, typically larger, bracket arms. Compare "chonggong <term ref="/keyword/k000257">重栱</term>." See also: dangong <term ref="/keyword/k000256">單栱</term>. </p>
+               <p xml:lang="zh-Hant" source="#biblk000265">
+               </p>
             </note>
             <note type="related concepts">
-               <p><term ref="/keyword/k000193">跳頭 tiàotóu</term></p>
+               <p><term ref="/keyword/k000257">重栱 chónggǒng</term></p>
+               <p><term ref="/keyword/k000256">單栱 dāngǒng</term></p>
+               <p><term ref="/keyword/k000156">令栱 lìnggǒng</term></p>
+               <p><term ref="/keyword/k000155">慢栱 màngǒng</term></p>
             </note>
-            <bibl xml:id="biblk000258-1">
+            <bibl xml:id="biblk000265-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">29</citedRange>
             </bibl>
-            <bibl xml:id="biblk000258-2">
-               <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
+            <bibl xml:id="biblk000265-2">
+               <ptr target="https://architecturasinica.org/bibl/MLHB8LJF"/>
             </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
-               active="https://architecturasinica.org/keyword/k000258" passive="bracketing"/>
-               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/53694640923_1e0714b256_h.jpg"
-                  passive="https://architecturasinica.org/keyword/k000258" rendition="featured"/>
+               active="https://architecturasinica.org/keyword/k000265" passive="bracketing"/>
             </listRelation>
          </entryFree>
       </body>
