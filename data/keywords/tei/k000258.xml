@@ -81,22 +81,48 @@
             <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000258-1">tiao</term>
             <term xml:id="term-k000258-2" xml:lang="zh-Hant">跳</term>
             <term xml:id="term-k000258-3" xml:lang="zh-Hans">跳</term>
-            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin">tiào</term>
-            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile" source="#biblk000258-2">t'iao</term>
+            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin" source="#biblk000258-2">tiào</term>
+            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile" source="#biblk000258-3">t'iao</term>
+            <term xml:id="term-k000258-6" xml:lang="en" source="#biblk000258-1">step</term>
+            <term xml:id="term-k000258-6" xml:lang="en" source="#biblk000258-4">jump</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000258</idno>
             <note type="Note">
-               <p xml:lang="en">Literally meaning “jump,” in Yingzao Fashi tiao refers to either horizontal bracket arms (gong 栱) or slanted bracket arms (ang 昂) projecting perpendicularly from the wall plane. One tiao refers to one outward projection, and there can be up to five projections in a bracket set.</p>
-               <p xml:lang="zh-Hant">在《营造法式》中是斗栱做法術語，即指挑出栱或昂。挑出一层，称一跳，最多至五跳。</p>
+               <p xml:lang="en" source="#biblk000258-5">Literally meaning “jump” or "step," in <title>Yingzao Fashi</title> (1103) the term tiao is used to refer to either horizontal bracket arms (gong <term ref="/keyword/k000169">栱</term>) or slanted bracket arms (ang <term ref="/keyword/k000103">昂</term>) projecting perpendicularly from the wall plane. One tiao refers to one outward projection, and there can be up to five projections in a bracket set.</p>
+               <p xml:lang="zh-Hant" source="#biblk000258-5">在《营造法式》(1103) 中是斗栱做法術語，即指挑出<term ref="/keyword/k000169">栱</term>或<term ref="/keyword/k000103">昂</term>。挑出一层，称一跳，最多至五跳。</p>
             </note>
             <note type="related concepts">
                <p><term ref="/keyword/k000193">跳頭 tiàotóu</term></p>
             </note>
             <bibl xml:id="biblk000258-1">
                <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">78</citedRange>
             </bibl>
             <bibl xml:id="biblk000258-2">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">389</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000258-3">
                <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
             </bibl>
+            <bibl xml:id="biblk000258-4">
+               <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+            </bibl>
+            <listBibl xml:id="biblk000258-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">389</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">78</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000258" passive="bracketing"/>
