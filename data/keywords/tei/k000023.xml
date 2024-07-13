@@ -68,8 +68,9 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00" who="#TGM">CREATED: record</change>
-         <change n="1.1" when="2021-05-27" who="#YFB">Added gloss and image</change>
-         <change who="#YYY" n="1.2" when="2024-05-13-04:00">added data</change>
+         <change n="1.1" when="2021-05-27-04:00" who="#YFB">Added gloss and image</change>
+         <change n="1.2" when="2024-05-13-04:00" who="#YYY" >added data</change>
+         <change n="1.3" when="2024-07-12-04:00" who="#TGM">added links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,17 +79,17 @@
             <term xml:id="term-k000023-1" xml:lang="zh-latn-pinyin-nt">jixinzao</term>
             <term xml:id="term-k000023-2" xml:lang="zh-Hant">計心造</term>
             <term xml:id="term-k000023-3" xml:lang="zh-Hans">计心造</term>
-            <term xml:id="term-k000023-4" xml:lang="zh-latn-pinyin">jì xīn zào</term>
+            <term xml:id="term-k000023-4" xml:lang="zh-latn-pinyin" source="#biblk000023-4">jìxīnzào</term>
             <term xml:id="term-k000023-5" xml:lang="zh-latn-wadegile">chi-hsin-tsao</term>
             <term xml:id="term-k000023-6" xml:lang="en" source="#biblk000023-1">accounted heart </term>
             <term xml:id="term-k000023-7" xml:lang="en" source="#biblk000023-2">filled heart</term>
             <term xml:id="term-k000023-8" xml:lang="en" source="#biblk000023-3">crisscross projection</term>
-            <term xml:id="term-k000023-9" xml:lang="zh-latn-pinyin" type="alternate" source="#biblk000023-4">jìxīnzào</term>
+            <term xml:id="term-k000023-9" xml:lang="zh-latn-pinyin" type="alternate" >jì xīn zào</term>
             <term xml:id="term-k000023-10" xml:lang="zh-latn-pinyin-nt" source="#biblk000023-1">jixin zao</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000023</idno>
             <note type="Note">
-               <p xml:lang="en" source="#biblk000023-5">Jixin zao 計心造, or jixin 計心 for short, is an architectural term describing bracket-sets (dougong 斗栱) composed of a henggong 橫栱 installed above  a huagong 華栱 or an ang 昂. The henggong is positioned perpendicular to the huagong or ang and parallel to the wall plane. In premodern sources, the term appears only in Yingzao fashi《營造法式》 (Li Jie 2009, 4.5a, 4.9b,17.2b, 18.1a, 30.6a, etc.). As a verb, ji 計 means “to calculate” or “add (up),”  while as a noun, xin 心 means “center” or “heart.”  Thus “jixin” can mean to “add (a bracket arm)” through the “center” of a bearing block located above an outward projecting bracket arm or ang (tiao 跳). Xu Bo’an proposed that quan jixin zao 全計心造 should be used to to describe the method of installing henggong on each projecting step of bracket arm and use “jixin zao 計心造” to describe the method of installing henggong only on certain projecting bracket arms (Xu 1985).</p>
-               <p xml:lang="zh-Hant" source="#biblk000023-5">計心造是描述斗栱做法的建築術語，可簡稱為計心，指在華栱或昂頭上安放橫栱，即與華栱或昂垂直相交、平行於建築屋身方向的栱的做法。計心造在歷史文獻中僅見於《營造法式》（李誡 2009，4.5a，4.9b，17.2b，18.1a，30.6a等）。“計”作為動詞，有“計算，計數”的意思。“心”作為名詞，有“中心，中央”的意思。徐伯安曾提出可以用“全計心造”描述每跳上均安橫栱的斗栱做法，用“計心造”描述某一跳上安橫栱的做法（徐 1985）。</p>
+               <p xml:lang="en" source="#biblk000023-5">Jixin zao 計心造, or jixin 計心 for short, is an architectural term describing bracket-sets (dougong <term ref="/keyword/k000019">斗栱</term>) composed of henggong 橫栱 (bracket arms parallel to the building plane) installed above a huagong <term ref="/keyword/k000172">華栱</term> or an ang <term ref="/keyword/k000103">昂</term>. The henggong is positioned perpendicular to the huagong or ang and parallel to the wall plane. In premodern sources, the term appears only in Yingzao fashi《營造法式》 (1103; Li Jie 2009, 4.5a, 4.9b,17.2b, 18.1a, 30.6a, etc.). As a verb, ji 計 means “to calculate” or “add (up),”  while as a noun, xin 心 means “center” or “heart.”  Thus “jixin” can mean to “add (a bracket arm)” through the “center” of a bearing block located above an outward projecting bracket arm or ang (tiao <term ref="/keyword/k000258">跳</term>). Xu Bo’an 徐伯安 proposed that "quan jixin zao 全計心造" (entirely jixin construction) should be used to to describe the method of installing henggong on each projecting step of bracket arm and use “jixin zao 計心造” to describe the method of installing henggong only on select projecting bracket arms in a larger bracket set (Xu 1985).</p>
+               <p xml:lang="zh-Hant" source="#biblk000023-5">計心造是描述<term ref="/keyword/k000019">斗栱</term>做法的建築術語，可簡稱為計心，指在<term ref="/keyword/k000172">華栱</term>或<term ref="/keyword/k000103">昂</term>頭上安放橫栱，即與華栱或昂垂直相交、平行於建築屋身方向的栱的做法。計心造在歷史文獻中僅見於《營造法式》（1103; 李誡 2009，4.5a，4.9b，17.2b，18.1a，30.6a等）。“計”作為動詞，有“計算，計數”的意思。“心”作為名詞，有“中心，中央”的意思。徐伯安曾提出可以用“全計心造”描述每跳上均安橫栱的斗栱做法，用“計心造”描述某一跳上安橫栱的做法（徐 1985）。</p>
             </note> 
             <note type="Related Concepts">
                <term ref="/keyword/k000024">tōuxīnzào 偷心造</term>
