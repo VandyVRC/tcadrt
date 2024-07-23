@@ -133,8 +133,9 @@
             </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
-                  active="https://architecturasinica.org/keyword/k000266" passive="joint components"
-               />
+                  active="https://architecturasinica.org/keyword/k000266" passive="joint components"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53876484760_7365df0d3d_k.jpg" passive="https://architecturasinica.org/keyword/k000266" rendition="featured"> </relation>
+               
             </listRelation>
          </entryFree>
       </body>
