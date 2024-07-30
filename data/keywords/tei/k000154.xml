@@ -77,8 +77,9 @@
       <revisionDesc>
          <change n="1.0" when="2021-07-08" who="#ZJ">CREATED: record</change>
          <change n="1.1" when="2021-09-18" who="#XQ">Adding citations and notes</change>
-         <change n="2.0" when="2021-11-08" who="#CBL">final revision</change>
-         <change n="2.1" when="2021-11-21" who="#TGM">copyedit</change>
+         <change n="1.2" when="2021-11-08" who="#CBL">final revision</change>
+         <change n="1.2" when="2021-11-21" who="#TGM">copyedit</change>
+         <change n="1.3" when="2024-07-30" who="#TGM">add relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -196,6 +197,17 @@
                   “cupola” 或 “Lanterndecke” ceilings等僅表示向上拱起特征的詞彙表示“藻井”（Fu
                   2017，371; Steinhardt 2014， 271），這有可能誤導英文讀者對“藻井”所指的理解。</p>
             </note>
+		<note type="related concepts">
+               <p>
+                  <term ref="/keyword/k000244">平闇 píng'àn</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000245">平棊 píngqí</term>
+               </p>
+               <p>
+                  <term ref="/keyword/k000243">天花 tiānhuā</term>
+               </p>
+            </note>
             <bibl xml:id="biblk000154-1">
                <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
                <citedRange unit="pp">584-585</citedRange>
@@ -256,7 +268,7 @@
                <listRelation>
                   <relation ref="skos:broadMatch"
                      active="https://architecturasinica.org/keyword/k000154"
-                     passive="building frame"/>
+                     passive="ceilings and ceiling components"/>
                </listRelation>
             </listRelation>
          </entryFree>
