@@ -21,6 +21,6 @@ return
     githubxq:execute-webhook($data, 
         '/db/apps/tcadrt-data',
         'https://github.com/VandyVRC/tcadrt',
-        'master',
+        'main',
         '${SECRET_KEY}',
         '')
