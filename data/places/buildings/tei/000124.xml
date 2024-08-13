@@ -7,9 +7,8 @@
             <title level="a" xml:lang="en">Anchan Monastery, sutra preservation hall <foreign xml:lang="zh-Hant">安禪寺藏經殿</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="general" xml:id="TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Data entry, editing and proof correction 2010, 2011, 2018, and 2021 by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -60,10 +59,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" when="2020-03-24">CREATED: place record</change>
+         <change n="1.2" when="2020-03-24">CREATED: place record</change>
          <change when="2020-09-24">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
-         <change n="2.1" when="2021-05-18">modifying name and pinyin<name type="person" ref="#">Tracy Miller</name></change>
+         <change n="1.3" when="2021-05-18">modifying name and pinyin<name type="person" ref="#">Tracy Miller</name></change>
+         <change n="1.4" when="2021-05-18" who="#TGM">adding links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -89,7 +89,7 @@
                   <label>Dynasty</label>
                   <desc>Northern Song 960 - 1127</desc>
                </state>
-               <desc type="building-data" source="#bibl000124-1">The sutra preservation hall or sutra repository (藏经殿)  of Anchansi is built on a brick foundation. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, and the gray rooftiles are punctuated with a central diamond of yellow and green glazed tiles. Under the eaves are four layer bracket sets (<term ref="/keyword/k000013">puzuo</term>) with a single <term ref="/keyword/k000172">huagong</term> and a locust head style <term>shuatou</term>. There is one intercolumnar bracket set in the central bay. The entasis of the columns is clearly evident. The original system of woodwork/latticework is no longer extant.</desc>
+               <desc type="building-data" source="#bibl000124-1">The sutra preservation hall or sutra repository (藏经殿)  of Anchansi is built on a brick foundation. The front façade is 3-bays wide and the depth is 3-bays. The central bay is twice as wide as the side bays. It has a single eaves hip-gable roof, and the gray rooftiles are punctuated with a central diamond of yellow and green glazed tiles. Under the eaves are four layer bracket sets (<term ref="/keyword/k000013">puzuo</term>) with a single <term ref="/keyword/k000172">huagong</term> and a locust head style ("insect head" or “grasshopper head” (fuzong tou 蜉䗥頭; mazhatou 螞蚱頭)) <term ref="/keyword/k000220">shuatou</term>. There is one intercolumnar bracket set in the central bay. The entasis of the pillars is clearly evident, making it possible to consider them "shuttle-shaped pillars" (suozhu 梭柱). The original system of woodwork/latticework is no longer extant.</desc>
                <location type="gps" subtype="preferred">
                   <geo>37.42453333 112.5473333</geo>
                </location>
