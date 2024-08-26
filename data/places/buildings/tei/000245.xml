@@ -10,16 +10,16 @@
             <principal>Tracy Miller</principal>
             <editor role="general">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
+               <resp>Editing and proof correction: </resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Initial translation by</resp>
-               <name type="person" ref="#EYC">Yue Chen</name>
+               <resp>Initial translation: </resp>
+               <name type="person" xml:id="EYC">Elena Yue Chen</name>
             </respStmt>
             <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" xml:id="SZ"> SUN Zheng </name>
+               <resp>adding external links: </resp>
+               <name type="person" xml:id="SZ">SUN Zheng</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -55,6 +55,7 @@
             <name type="person" xml:id="SLY">SHEN Liyan</name></change>
          <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data translation from 中国文物地图集</change>
          <change n="3.1" who="#TGM" when="2022-03-01-04:00">editing</change>
+         <change n="3.1" who="#TGM" when="2024-07-05-04:00">update geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -78,12 +79,12 @@
                   <label>Dynasty</label>
                   <desc>Tang - Five Dynasties 618 - 960</desc>
                </state>
-               <desc type="building-data" source="#bibl000245-2" xml:lang="en">The main hall of Tiantai'an is three bays wide and four rafters deep with an open frame ceiling. The transversal structural frame consists of four rather beams supported by front and back eaves pillars. The hall itself is thus supported by one circuit of eaves columns, and the tops of the columns are rounded with a gentle narrowing (juansha 卷殺). <term ref="keyword/k000038">Lan’e 闌額</term>, the tie beams through the top of the columns joining inside the columns themselves, are placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term> on top of them. The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars. The pillar top bracket arms extend out directly from the bearing block, on top of which is an intermediary timber (timu 替木) directly supporting the eaves purlins. This exemplifies the “bearking-block extension” (doukoutiao 斗口跳) described in the <title>Yingzao fashi</title> (1103). Small panel doors are used in the central bay, and the secondary bay holds simple lattice windows.</desc>
+               <desc type="building-data" source="#bibl000245-2" xml:lang="en">The main hall of Tiantai'an is three bays wide and four rafters deep with an open frame ceiling. The transversal structural frame consists of four rather beams supported by front and back eaves pillars. The hall itself is thus supported by one circuit of eaves columns, and the tops of the columns are rounded (juansha 卷殺). <term ref="keyword/k000038">Lan’e 闌額</term>, the tie beams through the top of the columns joining inside the columns themselves, are placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term> on top of them. The lan’e do not extend beyond the pillars, and the large bearing blocks are placed directly on top of the pillars. The pillar top bracket arms extend out directly from the bearing block, on top of which is an intermediary timber (timu 替木) directly supporting the eaves purlins. This exemplifies the “block-mouth tier” (doukoutiao <term ref="/keyword/k000262">斗口跳</term>) described in the <title>Yingzao fashi</title> (1103). Small plank doors are used in the central bay, and the secondary bay holds simple lattice windows.</desc>
                <location type="gps" subtype="preferred">
-                  <geo>36.38344 113.3922133</geo>
+                  <geo>36.383233 113.398466</geo>
                </location>
                <location type="verbatim">
-                  <note>36˚ 23' 00.64" N (google earth Cui Jinze) 113˚ 23' 53.28" E</note>
+                  <note>GoogleEarth 05July2024</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>

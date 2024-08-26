@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">枓口跳</foreign>dǒukǒutiào</title>
+               <foreign xml:lang="zh-Hant">枓口跳</foreign> dǒukǒutiào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -13,16 +13,34 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="HJB">HU Jianbin 胡劍斌</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#HJB">HU Jianbin 胡劍斌</name>
             </respStmt>
             <respStmt>
-               <resp>Entry of revised data and links by</resp>
+               <resp>Entry of revised data and links: </resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,6 +72,9 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:15">CREATED: record</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
+         <change who="#TGM" n="1.1" when="2024-05-26-04:00">added data</change>
+         <change who="#TGM" n="1.1" when="2024-07-05-04:00">added links</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,16 +83,63 @@
             <term xml:id="term-k000262-1" xml:lang="zh-latn-pinyin-nt">doukoutiao</term>
             <term xml:id="term-k000262-2" xml:lang="zh-Hant">枓口跳</term>
             <term xml:id="term-k000262-3" xml:lang="zh-Hans">斗口跳</term>
-            <term xml:id="term-k000262-4" xml:lang="zh-latn-pinyin">dǒukǒutiào</term>
+            <term xml:id="term-k000262-4" source="#biblk000262-1" xml:lang="zh-latn-pinyin">dǒukǒutiào</term>
             <term xml:id="term-k000262-5" xml:lang="zh-latn-wadegile">tou-k'ou-t'iao</term>
+            <term xml:id="term-k000262-6" source="#biblk000262-2" xml:lang="en">jumping at the mouth of the cap block </term>
+            <term xml:id="term-k000262-7" source="#biblk000262-3" xml:lang="en">block-mouth tier</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000262</idno>
             <note type="Note">
-               Under construction
+               <p xml:lang="en">Doukoutiao (枓口跳 or 斗口跳), literally meaning "bearing-block mouth jump," (Kroll 2016) is a type of column-top bracket set (dougong <term ref="/keyword/k000019">枓栱</term>) used on the exterior of a building. In doukoutiao bracket sets, a nidaogong <term ref="/keyword/k000167">泥道栱</term> set into a cap-block is joined across a beam projecting perpendicular to the building plane, the end of which is shaped like a huagong and is called a "huagongtou 華栱頭." A small cap block atop the protruding end of the huagongtou supports the squared eaves beam (liaoyanfang 撩簷枋), while the nidaogong supports the squared pillar-top beam (zhutoufang 柱頭枋). According to Yingzao Fashi《營造法式》(1103), doukoutiao 枓口跳 is not classified as puzuo <term ref="/keyword/k000013">鋪作</term> (Li 2009 4.8b; 4.9a).</p>
+               <p xml:lang="en">Although the term “doukou” refers to any opening in a bearing-block (dou <term ref="/keyword/k000157">枓</term>), in this term it refers to the opening of ludou <term ref="/keyword/k000158">櫨枓</term> in the direction of outward extension of the huagong. The term “tiao 跳”  refers to the “jump,” or projection from the wall plane, of the head of the modified beam (huagongtou).</p>
+               <p xml:lang="en">The term "doukoutiao" is only found in Yingzao Fashi. Some scholars believe that this simple form was derived from the “yidou ersheng一枓貳升” dougong 枓栱 of the Han Dynasty (Liu 1987, 434), which is the simplest bracket set extending from the wall plane (Pan and He 2005, 84).</p>
+               <p xml:lang="en" source="#biblk000262-4">The surviving example that is most consistent with Yingzao Fashi can be found in pillar-top bracket sets of the <placeName ref="/place/000245">main hall</placeName> of <placeName ref="/place/000093">Tiantai Hermitage 天臺庵</placeName> in Pingshun, Shanxi (933).</p>
+               <p xml:lang="zh-Hant" source="#biblk000262">枓口跳是一種於柱頭上的外簷<term ref="/keyword/k000019">枓栱</term>，現今寫作作斗口跳。梁栿的前端與<term ref="/keyword/k000167">泥道栱</term>在<term ref="/keyword/k000158">櫨枓</term>枓口内十字搭交，並作華栱頭從櫨枓枓口伸出，承托撩簷枋。泥道栱承托柱头枋。根據《營造法式》枓口跳不稱爲<term ref="/keyword/k000013">鋪作</term>（李 2009，4.8b；4.9a）。</p>
+               <p xml:lang="zh-Hant" source="#biblk000262">“枓口”是枓的開口，此處特指櫨枓順跳方向的開口。“跳”是指枓栱的出跳，這裏便是指華栱頭的出跳。</p>
+               <p xml:lang="zh-Hant" source="#biblk000262-5">枓口跳作爲建築術語，覲見於《營造法式》。現存枓口跳實物最符合《營造法式》記載者，可見平順<placeName ref="/place/000093">天臺庵</placeName><placeName ref="/place/000245">正殿</placeName>（933山西平顺）柱頭枓栱。</p>
             </note>
+            <note type="related concepts">
+               <p ref="/keyword/k000172">huāgǒng 華栱</p>
+            </note>
+            <bibl xml:id="biblk000262-1">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">16</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000262-2">
+               <ptr target="https://architecturasinica.org/bibl/E83EI2R9"/>
+               <citedRange unit="pp">140</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000262-3">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">32</citedRange>
+            </bibl>
+            <listBibl xml:id="biblk000262-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+                  <citedRange unit="pp">4.8b; 4.9a</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WHTF8Y2G"/>
+                  <citedRange unit="pp">434</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WT5PUZBP"/>
+                  <citedRange unit="pp">84</citedRange>
+               </bibl>
+            </listBibl>
+            <bibl xml:id="biblk000262-5">
+               <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               <citedRange unit="pp">4.8b; 4.9a</citedRange>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000262" passive="building frame"/>
-            </listRelation>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53694411876_d0967eca6d_c.jpg"
+                  passive="https://architecturasinica.org/keyword/k000262" rendition="featured"/>
+               </listRelation>
          </entryFree>
       </body>
    </text>

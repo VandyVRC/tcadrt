@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">榫卯</foreign> sǔnmǎo</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="LY">LIU Yan 刘妍</editor>
+            <editor role="content-author" xml:id="YQY">YU Qingya 于清雅"></editor>
+            <respStmt>
+               <resp>Website coordination: </resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#YQY">YU Qingya 于清雅</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000266/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2022-07-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#YYY" n="1.0" when="2024-05-20-04:00">created page and added data</change>
+         <change who="#TGM" n="1.0" when="2024-05-28-04:00">update links</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000266" type="architectural feature">
+            <term xml:id="term-k000266-1" xml:lang="zh-latn-pinyin-nt">sunmao</term>
+            <term xml:id="term-k000266-2" xml:lang="zh-Hant">榫卯</term>
+            <term xml:id="term-k000266-3" xml:lang="zh-Hans">榫卯</term>
+            <term xml:id="term-k000266-4" xml:lang="zh-latn-pinyin">sǔnmǎo</term>
+            <term xml:id="term-k000266-5" xml:lang="zh-latn-wadegile">sun-mao</term>
+            <term xml:id="term-k000266-6" xml:lang="en" source="#biblk000266-1">mortise-and-tenon
+               joinery</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000266</idno>
+            <note type="Note">
+               <p xml:lang="en" source="#biblk000266-1">Sunmao refers to traditional joinery in
+                  wood or other materials. Sun 榫 is usually translated as tenon, and mao 卯 as
+                  mortise. However, sunmao as a technical term refers not only to the
+                  mortise-and-tenon joint (which is only one type of joinery), but was also a broad term
+                  for traditional joinery in general, including a variety of other geometric
+                  forms.</p>
+               <p xml:lang="en" source="#biblk000266-1">The compound term sunmao first appeared in the <term ref="/keyword/k000074">Song</term>
+                  dynasty, and prior to that the words rui 枘 and zao 鑿 were commonly used for tenon and mortise, respectively. For example, the Chuijianlu waiji 吹劍錄外集 records that Yichuan 伊川 (Cheng Yi 程頤, 1033-1107)
+                  said ruizao 枘鑿 was sunmao, implying
+                  that sun was considered to be the equivalent of rui (tenon) and mao of zao (mortise). This definition of sunmao continued into
+                  modern times. </p>
+               <p xml:lang="en" source="#biblk000266">Although most literature states that the compound sunmao first
+                  appeared in the Song dynasty, sun and mao also occured separately as expressions of tenons and mortises in earlier literature devoted to craft technology
+                  (for regional and chronological differences, see entries on sun and mao). In Zhu Qiqian's 朱啓鈐 (1871-1964) commentary on the <term ref="/keyword/k000051">Ming</term> dynasty text <title>Xiushilu 髤飾錄</title>, sun was used to express the idea of a protruding tenon. It was
+                  only during the <term ref="/keyword/k000195">Republican Period</term> in that sunmao appeared as a compound term in
+                  woodworking books.</p>
+               <p xml:lang="zh-Hant" source="#biblk000266-1"
+                  >榫卯是指木（或其他材料）器的傳統節點做法。一般的辭書將之定義為榫頭與卯口。但榫卯在技術上不僅指稱榫頭卯口的連接形式，還包括多種其他幾何關係咬合的狀態，泛指“中國傳統木構節點”。</p>
+               <p xml:lang="zh-Hant" source="#biblk000266-1"
+                  >榫卯這一術語最早出現在<term ref="/keyword/k000074">宋</term>代，見於宋《吹劍錄外集》“伊川（程頤 1033-1107）雲，枘鑿者，榫卯也”。將榫定義為枘，卯定義為鑿。其中枘、鑿為先秦至宋之間中表示榫卯凸凹構造的術語，枘為凸，鑿為凹。（《文子》猶持方枘而內圓鑿也P178
+                  明子彙本）宋以後直到當代，各類辭書或注釋都將榫卯解釋為凸出（雄、陽、盈）的榫頭與鑿空（雌、陰、虛）的卯口。<term ref="/keyword/k000051">明</term>代楊明《髤飾錄》在<term ref="keyword/k000195">民國</term>朱啓鈐（1871-1964）刻本裏的注釋“牝梁有竅故為陰道，牡梁有榫故為陽道” (楊 1625/edition date？,卷？. 14)。清代梁同書  (1723-1815)《頻羅庵遺集·卷十四·直語補證》“凡剡木相入，以盈入虛謂之筍，以虛受盈謂之卯” (梁 1817 （清嘉慶二十二年) 陸貞一刻本，卷？.853）。現代《辭海》釋義榫卯為“木器中兩部分接合的地方，突出的部分叫‘榫（筍）頭’，鑿空的部分叫‘卯眼’”）。</p>
+               <p xml:lang="zh-Hant" source="#biblk000266"
+                  >雖然在一般文獻中“榫卯”自宋代開始搭配使用，但在匠作及技術書籍中，“榫”“卯”二字已經早於宋代分別出現，且時代、地域不同（參見“榫”“卯”詞條），獨立（或與其他漢字搭配）表達節點中凸凹雙向的構造。（譬如宋《營造法式》木構部分不用榫字，以“卯”字表示凸，以“卯口”“卯眼”等表達凹。清《工程做法》不用卯字，以“榫”表達凸，以“入榫”“榫眼”“榫竅”表達凹。）</p>
+               <p xml:lang="zh-Hant" source="#biblk000266-2"><term>民国</term>，榫卯合稱才出現在木工技術書籍之中（明代楊明在《髤飾錄》裏的注釋“牝梁有竅故為陰道，牡梁有榫故為陽道”。清代梁同書《頻羅庵遺集·卷十四·直語補證》“凡剡木相入，以盈入虛謂之筍，以虛受盈謂之卯”。現代《辭海》釋義榫卯為“木器中兩部分接合的地方，突出的部分叫‘榫（筍）頭’，鑿空的部分叫‘卯眼’”）。
+               </p>
+            </note>
+            <note type="related concepts">
+               <p>榫 sǔn</p>
+               <p>卯 mǎo</p>
+               <p ref="/keyword/k000242">鑿枘 záoruì</p>
+               <p>筍 sǔn (alternate character for 榫)</p>
+               <p>笋 sǔn (alternate character for 榫)</p>
+               <p>卯口 mǎokǒu</p>
+               <p>卯眼 mǎoyǎn</p>
+               <p>入榫 rùsǔn</p>
+               <p>榫眼 sǔnyǎn</p>
+               <p>榫竅 sǔnqiào</p>
+            </note>
+            <bibl xml:id="biblk000266-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+               <citedRange unit="pp">367</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000266-2">
+              <ptr target="https://architecturasinica.org/bibl/INV43AUB"/>
+               <citedRange unit="pp">81</citedRange>
+            </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch"
+                  active="https://architecturasinica.org/keyword/k000266" passive="joint components"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53876484760_7365df0d3d_k.jpg" passive="https://architecturasinica.org/keyword/k000266" rendition="featured"> </relation>
+               
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

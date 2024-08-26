@@ -60,6 +60,7 @@
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
          <change n="3.0" who="#EYC" when="2021-12-16-04:00">CREATED: data translation from 中国文物地图集</change>
          <change n="3.1" who="#TGM" when="2022-03-01-04:00">editing</change>
+         <change n="3.1" who="#TGM" when="2024-05-05-04:00">update geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -108,7 +109,7 @@
                   </region>
                </location>
                <location type="gps" subtype="preferred">
-                  <geo>36.38344 113.3922133</geo>
+                  <geo>36.383028 113.398455</geo>
                </location>
                <trait type="type" sub-type="site type">
                   <label>Type </label>

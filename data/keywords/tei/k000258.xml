@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="a" xml:lang="zh-latn-pinyin">
-               <foreign xml:lang="zh-Hant">跳</foreign>tiào</title>
+               <foreign xml:lang="zh-Hant">跳</foreign> tiào</title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
@@ -13,16 +13,34 @@
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
             <editor role="content-author" xml:id="LL">LIU Lin 劉琳</editor>
             <respStmt>
-               <resp>Website coordination by</resp>
+               <resp>Website coordination: </resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
-               <resp>Preliminary research and revision by</resp>
+               <resp>Peer review: </resp>
+               <name type="team">ATTCAT 2023</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
                <name type="person" ref="#LL">LIU Lin 劉琳</name>
             </respStmt>
             <respStmt>
-               <resp>Entry of revised data and links by</resp>
+               <resp>Entry of revised data and links: </resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="YYY">YAN Yiyang 嚴一洋</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,23 +72,64 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-10-11:00">CREATED: record</change>
+         <change who="#YYY" n="1.1" when="2024-05-20-04:00">added data</change>
+         <change who="#TGM" n="1.2" when="2024-05-20-04:00">added links and references</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <entryFree xml:id="k000258" type="architectural feature">
-            <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt">tiao</term>
+            <term xml:id="term-k000258-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000258-1">tiao</term>
             <term xml:id="term-k000258-2" xml:lang="zh-Hant">跳</term>
             <term xml:id="term-k000258-3" xml:lang="zh-Hans">跳</term>
-            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin">tiào</term>
-            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile">t'iao</term>
+            <term xml:id="term-k000258-4" xml:lang="zh-latn-pinyin" source="#biblk000258-2">tiào</term>
+            <term xml:id="term-k000258-5" xml:lang="zh-latn-wadegile" source="#biblk000258-3">t'iao</term>
+            <term xml:id="term-k000258-6" xml:lang="en" source="#biblk000258-1">step</term>
+            <term xml:id="term-k000258-6" xml:lang="en" source="#biblk000258-4">jump</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000258</idno>
             <note type="Note">
-               Under construction
+               <p xml:lang="en" source="#biblk000258-5">Literally meaning “jump” or "step," in <title>Yingzao Fashi</title> (1103) the term tiao is used to refer to either horizontal bracket arms (gong <term ref="/keyword/k000169">栱</term>) or slanted bracket arms (ang <term ref="/keyword/k000103">昂</term>) projecting perpendicularly from the wall plane. One tiao refers to one outward projection, and there can be up to five projections in a bracket set.</p>
+               <p xml:lang="zh-Hant" source="#biblk000258-5">在《营造法式》(1103) 中是斗栱做法術語，即指挑出<term ref="/keyword/k000169">栱</term>或<term ref="/keyword/k000103">昂</term>。挑出一层，称一跳，最多至五跳。</p>
             </note>
+            <note type="related concepts">
+               <p><term ref="/keyword/k000193">跳頭 tiàotóu</term></p>
+            </note>
+            <bibl xml:id="biblk000258-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">78</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000258-2">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">389</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000258-3">
+               <ptr target="https://architecturasinica.org/bibl/7NXC4ALQ"/>
+            </bibl>
+            <bibl xml:id="biblk000258-4">
+               <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+            </bibl>
+            <listBibl xml:id="biblk000258-5">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+                  <citedRange unit="pp">389</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">78</citedRange>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000258" passive="bracketing"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/53694640923_1e0714b256_h.jpg"
+                  passive="https://architecturasinica.org/keyword/k000258" rendition="featured"/>
             </listRelation>
          </entryFree>
       </body>
