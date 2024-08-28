@@ -48,6 +48,7 @@
       <revisionDesc>
          <change n="1.0" who="#WO" when="2020-10-22-04:00">CREATED: place record</change>
          <change n="2.0" who="#TGM" when="2022-01-05-04:00">added images and links</change>
+         <change n="2.0" who="#TGM" when="2024-08-28-04:00">modify geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,6 +78,7 @@
                <location type="gps" subtype="preferred">
                   <geo>	37.7043333 112.4421667</geo>
                </location>
+               <!--  geolocated using Garmin 2004-08-12-->
                <!--  geolocated using Google Earth 2023-09-13 -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
