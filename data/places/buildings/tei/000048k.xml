@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Juntianyue Terrace <foreign xml:lang="zh-Hant">鈞天樂臺</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Juntianyue Terrace <foreign xml:lang="zh-Hant">晉祠鈞天樂臺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -57,6 +57,9 @@
                <placeName xml:id="name000048k-3" type="building-name" xml:lang="zh-Hans">钧天乐台</placeName>
                <placeName xml:id="name000048k-4" type="building-name" xml:lang="zh-latn-pinyin">Jūntiānyuètái</placeName>
                <placeName xml:id="name000048k-5" type="building-name" xml:lang="zh-latn-wadegile">Chün-t'ien-yüeh-t'ai</placeName>
+               <placeName xml:id="name000048k-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Juntianyue Terrace</placeName>
+               <placeName xml:id="name000048k-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠鈞天樂臺</placeName>
+               <placeName xml:id="name000048k-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠钧天乐台</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048k</idno>
                <state type="existence" from="1795-01-01" to="1795-01-01">
                   <label>Date</label>
@@ -67,16 +70,14 @@
                   <desc>Qing 1644 - 1912</desc>
                </state>ter the
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048k-1">Built during the Qianlong period, this stage faces the Haotianshen Shrine (JCZ 76-77).  Liu Yongde states that it was constructed at the same time as the shrine expansion (Liu Yongde, Jinci fengguang, 71).  Juntian is the central of the nine heavens and the palace of Shangdi 上帝. The music produced in Juntian is called Juntian guangyue 鈞天廣樂.  Song Naizhong suggests that the name is thus another way of describing the music of transcendent beings (xianyue zhi daicheng 仙樂之代稱) Song Naizhong, Jinci lüyou, 12).  Additionally, Juntianyue is the name of a chuanqi 傳奇 drama written by You Tong 尤侗 (1618–1704).  Given that the structure was built in the late 18th century, it is possible that the name may also allude to this work.</p>
+                  <p source="#bibl000048k-1">Built during the Qianlong reign period (1736-1796), this stage faces the Haotianshen Shrine (JCZ 76-77).  Liu Yongde states that it was constructed at the same time as the shrine expansion (Liu Yongde, Jinci fengguang, 71).  Juntian is the central of the nine heavens and the palace of Shangdi 上帝. The music produced in Juntian is called Juntian guangyue 鈞天廣樂.  Song Naizhong suggests that the name is thus another way of describing the music of transcendent beings (xianyue zhi daicheng 仙樂之代稱) Song Naizhong, Jinci lüyou, 12).  Additionally, Juntianyue is the name of a chuanqi 傳奇 drama written by You Tong 尤侗 (1618–1704).  Given that the structure was built in the late 18th century, it is possible that the name may also allude to this work.</p>
                </desc>
                   <location type="gps" subtype="preferred">
                      <geo>37.708708 112.435667</geo>
                   </location>
-                
                <location type="verbatim">
                   <note>from ESRI geolocated plan of site 2024-09-16-04:00</note>
-               </location>
-               
+               </location>  
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">terrace</desc>
@@ -106,7 +107,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048k" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048k" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/51533228168_9e0416c044_3k.jpg" passive="https://architecturasinica.org/place/000048k" ana="featured"/>
+               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/51533228168_85fab54de0_b.jpg" passive="https://architecturasinica.org/place/000048k" ana="featured"/>
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/51533702139_1af890c23b_k.jpg" passive="https://architecturasinica.org/place/000048k" ana="featured"/>               
             </listRelation>
          </listPlace>
