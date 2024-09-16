@@ -10,12 +10,16 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
+               <resp>Editing and proof correction:</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
+               <resp>Adding citations: </resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing Pinyin, Wade-Giles: </resp>
+               <name type="person" xml:id="OW">OGIHARA Waka</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,9 +50,9 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
+         <change n="1.2" who="#OW" when="2020-09-26">editing romanizations</change>
+         <change n="1.3" who="#TGM" when="2024-09-14">adding images</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -89,7 +93,6 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <note type="field-notes">Jin 1168-local and trans-local types of bracketing</note> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048y" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
@@ -112,7 +115,7 @@
                <relation active="https://architecturasinica.org/place/000048y" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048y" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597452637_0d22c9de44_c.jpg"
+                  active="https://live.staticflickr.com/65535/53995368479_84a38743f0_b.jpg"
                   passive="https://architecturasinica.org/place/000048y" ana="featured"/>
             </listRelation>
          </listPlace>
