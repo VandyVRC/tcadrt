@@ -103,7 +103,11 @@
                <relation ana="contained" active="https://architecturasinica.org/place/000048r" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50596579968_9ed72dc833_b.jpg"
-                  passive="https://architecturasinica.org/place/000048r" ana="featured"/>    
+                  passive="https://architecturasinica.org/place/000048r" ana="featured"/> 
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/50611840196_6bf0958660_b.jpg"
+                  passive="https://architecturasinica.org/place/000048r" ana="featured"/> 
+               
             </listRelation>
          </listPlace>
       </body>
