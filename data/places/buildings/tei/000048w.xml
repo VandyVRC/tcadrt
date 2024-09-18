@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Descendants’ Hall <foreign xml:lang="zh-Hant">晉祠苗裔堂</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Miaoyi Hall <foreign xml:lang="zh-Hant">晉祠苗裔堂</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -52,25 +52,26 @@
       <body>
          <listPlace>
             <place xml:id="place-000048w" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048w-1" xml:lang="en">Descendants’ Hall</placeName>
+               <placeName xml:id="name000048w-1" xml:lang="en">Miaoyi Hall</placeName>
                <placeName xml:id="name000048w-2" type="building-name" xml:lang="zh-Hant">苗裔堂</placeName>
                <placeName xml:id="name000048w-3" type="building-name" xml:lang="zh-Hans">苗裔堂</placeName>
                <placeName xml:id="name000048w-4" type="building-name" xml:lang="zh-latn-pinyin">Miáoyìtáng</placeName>
                <placeName xml:id="name000048w-5" type="building-name" xml:lang="zh-latn-wadegile">Miao-i-t`ang</placeName>
-               <placeName xml:id="name000048w-6" type="alternate" subtype="building-name" xml:lang="en">Descendants’ Temple</placeName>
-               <placeName xml:id="name000048w-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">苗裔廟</placeName>
-               <placeName xml:id="name000048w-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">苗裔庙</placeName>
+               <placeName xml:id="name000048w-6" type="building-name" xml:lang="en">Hall of Descendants</placeName>
+               <placeName xml:id="name000048w-7" type="alternate" subtype="building-name" xml:lang="en">Temple of Descendants</placeName>
+               <placeName xml:id="name000048w-8" type="alternate" subtype="building-name" xml:lang="zh-Hant">苗裔廟</placeName>
+               <placeName xml:id="name000048w-9" type="alternate" subtype="building-name" xml:lang="zh-Hans">苗裔庙</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048w</idno>
-               <state type="existence" from="1511-01-01" to="1511-01-01">
+               <state type="existence" from="1328-01-01" to="1511-12-31">
                   <label>Date</label>
-                  <desc>1511</desc>
+                  <desc>1328-1511</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048w-2" from="1368-01-01" to="1644-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048w-2" from="1328-01-01" to="1644-01-01">
                   <label>Dynasty</label>
-                  <desc>Ming 1368 - 1644</desc>
+                  <desc>Yuan-Ming 1328 - 1644</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048w-1">Date of first construction unknown; Liu Dapeng states that Descendants’ Hall was rebuilt in 1st year of the Song Zhenghe reign period (1111) and repaired in the 6th year of the Ming Zhengde reign period (1511).49 Liu Yongde maintains that the hall was rebuilt in the 1st year of the Yuan Zhihe reign period (1328) and repaired in 1511. It contains images of female deities, which are thought to be Ming-dynasty works.</p></desc>
+                  <p source="#bibl000048w-1">Date of first construction unknown; Liu Dapeng states that Descendants’ Hall was rebuilt in 1st year of the Song Zhenghe reign period (1111) and repaired in the 6th year of the Ming Zhengde reign period (1511). Liu Yongde maintains that the hall was rebuilt in the 1st year of the Yuan Zhihe reign period (1328) and repaired in 1511. The hall contains images of female deities, which are thought to be Ming-dynasty works.</p></desc>
                <!-- 
                   <location type="gps" subtype="preferred">
                   <geo>37.708727 112.434575</geo>
@@ -99,6 +100,7 @@
                <relation active="https://architecturasinica.org/place/000048w" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048w" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51532184862_f97c20a134_h.jpg" passive="https://architecturasinica.org/place/000048w" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53990196382_392c34739b_b.jpg" passive="https://architecturasinica.org/place/000048w" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
