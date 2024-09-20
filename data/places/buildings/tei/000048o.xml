@@ -99,7 +99,8 @@
                      “rejoice together” with the people of the Jinci area. And because ministers
                      stayed here it was also called a Shangguan Ting 上官亭. It was expanded to current
                      configuration in 1963 and made into a memorial hall to the scholar and
-                     calligrapher Fu Shan 傅山 (1607-1684).</p></desc>
+                     calligrapher Fu Shan 傅山 (1607-1684).</p>
+               </desc>
 
                <location type="gps" subtype="preferred">
                   <geo>37.707994 112.435049</geo>
@@ -116,12 +117,8 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <bibl xml:id="bibl000048o-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
-               <listBibl>
-                  <bibl xml:id="bibl000048o-1">
+               <listBibl xml:id="bibl000048o-1">
+                  <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                      <citedRange unit="pp">192</citedRange>
                   </bibl>
@@ -130,6 +127,10 @@
                      <citedRange unit="pp">77-78</citedRange>
                   </bibl>
                </listBibl>
+               <bibl xml:id="bibl000048o-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048o"
