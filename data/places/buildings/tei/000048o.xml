@@ -105,11 +105,9 @@
                <location type="gps" subtype="preferred">
                   <geo>37.707994 112.435049</geo>
                </location>
-
                <location type="verbatim">
-                  <note>Measured using arcGIS</note>
+                  <note>Measured using ArcGIS located plan</note>
                </location>
-
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">gazebo</desc>
@@ -117,6 +115,10 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
+               <bibl xml:id="bibl000048o-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
                <listBibl xml:id="bibl000048o-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
@@ -127,10 +129,6 @@
                      <citedRange unit="pp">77-78</citedRange>
                   </bibl>
                </listBibl>
-               <bibl xml:id="bibl000048o-2">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048o"
