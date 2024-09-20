@@ -17,6 +17,10 @@
                <resp>Data entry</resp>
                <name type="person" xml:id="LS">Liyan Shen</name>
             </respStmt>
+            <respStmt>
+               <resp>Data entry</resp>
+               <name type="person" xml:id="ZEJ">Zhang Enjia</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -45,7 +49,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0"s who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+         <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+         <change n="1.1" who="#ZEJ" when="2024-09-19-04:00">added GIS information</change>
+         <change n="1.1" who="#TGM" when="2024-09-20-04:00">added image</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -99,6 +105,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048o" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048o" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54007855812_322577bda1_b.jpg" passive="https://architecturasinica.org/place/000048o" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
