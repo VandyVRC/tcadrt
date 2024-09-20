@@ -88,8 +88,8 @@
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
-               <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000048o-1">Originally a small sanctuary (jingshe 精舍), later it
+               <desc type="building-data" xml:lang="en" source="#bibl000048o-1">
+                  Originally a small sanctuary (jingshe 精舍), later it
                      became a residence for Daoists and was thus a type of Daoist Cloister. Modified in
                      the 2nd year of the Qianlong period (1737) to include a five-bay hall on the
                      south side, two three-bay halls on the east and west, and pingmen 屏門 gate at
@@ -99,7 +99,7 @@
                      “rejoice together” with the people of the Jinci area. And because ministers
                      stayed here it was also called a Shangguan Ting 上官亭. It was expanded to current
                      configuration in 1963 and made into a memorial hall to the scholar and
-                     calligrapher Fu Shan 傅山 (1607-1684).</p>
+                     calligrapher Fu Shan 傅山 (1607-1684).
                </desc>
 
                <location type="gps" subtype="preferred">
@@ -123,6 +123,10 @@
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
                      <citedRange unit="pp">192</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">77-78</citedRange>
                   </bibl>
                </listBibl>
             </place>
