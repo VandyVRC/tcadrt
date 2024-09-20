@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Unified Rejoicing Gazebo <foreign xml:lang="zh-Hant">晉祠同樂亭</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Unified Rejoicing Gazebo <foreign
+                  xml:lang="zh-Hant">晉祠同樂亭</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
@@ -48,37 +52,56 @@
             <language ident="zh-latn-wadegile">Wade-Giles</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
-         <change n="1.1" who="#ZEJ" when="2024-09-19-04:00">added GIS information</change>
-         <change n="1.1" who="#TGM" when="2024-09-20-04:00">added image</change>
-      </revisionDesc>
+      <!--      <revisionDesc>-->
+      <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+      <change n="1.1" who="#ZEJ" when="2024-09-19-04:00">added GIS information</change>
+      <change n="1.1" who="#TGM" when="2024-09-20-04:00">added image</change>
+      <!--</revisionDesc>-->
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000048o" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048o-1" xml:lang="en">Unified Rejoicing Gazebo/Complex</placeName>
-               <placeName xml:id="name000048o-2" type="building-name" xml:lang="zh-Hant">同樂亭</placeName>
-               <placeName xml:id="name000048o-3" type="building-name" xml:lang="zh-Hans">同乐亭</placeName>
-               <placeName xml:id="name000048o-4" type="building-name" xml:lang="zh-latn-pinyin">Tónglètíng</placeName>
-               <placeName xml:id="name000048o-5" type="building-name" xml:lang="zh-latn-wadegile">T`ung-le-t`ing</placeName>
-               <placeName xml:id="name000048o-6" type="alternate" subtype="building-name" xml:lang="en">Fu Shan Memorial</placeName>
-               <placeName xml:id="name000048o-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">傅山紀念館</placeName>
-               <placeName xml:id="name000048o-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">傅山纪念馆</placeName>
+               <placeName xml:id="name000048o-1" xml:lang="en">Unified Rejoicing
+                  Gazebo/Complex</placeName>
+               <placeName xml:id="name000048o-2" type="building-name" xml:lang="zh-Hant"
+                  >同樂亭</placeName>
+               <placeName xml:id="name000048o-3" type="building-name" xml:lang="zh-Hans"
+                  >同乐亭</placeName>
+               <placeName xml:id="name000048o-4" type="building-name" xml:lang="zh-latn-pinyin"
+                  >Tónglètíng</placeName>
+               <placeName xml:id="name000048o-5" type="building-name" xml:lang="zh-latn-wadegile"
+                  >T`ung-le-t`ing</placeName>
+               <placeName xml:id="name000048o-6" type="alternate" subtype="building-name"
+                  xml:lang="en">Fu Shan Memorial</placeName>
+               <placeName xml:id="name000048o-7" type="alternate" subtype="building-name"
+                  xml:lang="zh-Hant">傅山紀念館</placeName>
+               <placeName xml:id="name000048o-8" type="alternate" subtype="building-name"
+                  xml:lang="zh-Hans">傅山纪念馆</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048o</idno>
                <state type="existence" from="1737-01-28" to="1963-02-08">
                   <label>Date</label>
                   <desc>1737-1963</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048o-2" from="1644-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048o-2" from="1644-01-01"
+                  to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Qing 1644-1912</desc>
                </state>
-                  <desc type="building-data" xml:lang="en">
-                     <p source="#bibl000048o-1">"Originally a small sanctuary (jingshe 精舍), later it became a residence for Daoists and was called a Daoist Cloister. Modified in the 2nd year of the Qianlong period (1737) to include a five-bay hall on the south side, two three-bay halls on the east and west, and pingmen 屏門 gate at the front. Also called Yijianju 一鑒居.  The name Tongle is a reference is to Mengzi’s discussion about rulers sharing his pleasures with the people in order to gain their favor.  High ministers would stay here when they were visiting, and “rejoice together” with the people of the Jinci area. And because ministers stayed here it was also called a Shangguan Ting 上官亭.  It was expanded to current configuration in 1963 and made into a memorial hall to the scholar and calligrapher Fu Shan. Expanded to current configuration in 1963."</p></desc>
-              
-                  <location type="gps" subtype="preferred">
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000048o-1">Originally a small sanctuary (jingshe 精舍), later it
+                     became a residence for Daoists and was thus a type of Daoist Cloister. Modified in
+                     the 2nd year of the Qianlong period (1737) to include a five-bay hall on the
+                     south side, two three-bay halls on the east and west, and pingmen 屏門 gate at
+                     the front (north side). The name Tongle is a reference is to Mengzi’s discussion about
+                     rulers sharing his pleasures with the people in order to gain their favor.
+                     According to Liu Dapeng, high ministers would stay here during visits, and
+                     “rejoice together” with the people of the Jinci area. And because ministers
+                     stayed here it was also called a Shangguan Ting 上官亭. It was expanded to current
+                     configuration in 1963 and made into a memorial hall to the scholar and
+                     calligrapher Fu Shan 傅山 (1607-1684).</p></desc>
+
+               <location type="gps" subtype="preferred">
                   <geo>37.707994 112.435049</geo>
                </location>
                <!-- 
@@ -93,19 +116,32 @@
                   <desc xml:lang="zh-Hant">亭</desc>
                   <desc xml:lang="zh-Hans">亭</desc>
                </trait>
-               <bibl xml:id="bibl000048o-1">
-                  <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
-                  <citedRange unit="pp">192</citedRange>
-               </bibl>
-               <bibl xml:id="bibl000048o-2">
-                     <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                     <citedRange unit="pp">12</citedRange>
+
+               <listBibl>
+                  <bibl xml:id="bibl000048o-1">
+                     <ptr target="https://architecturasinica.org/bibl/7KJMGHD4"/>
+                     <citedRange unit="pp">192</citedRange>
                   </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange>77-78</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000048o-2">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000048o" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048o" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54007855812_322577bda1_b.jpg" passive="https://architecturasinica.org/place/000048o" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048o"
+                  ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070"
+                  ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048o"
+                  ref="schema:containedInPlace"
+                  passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54007855812_322577bda1_b.jpg"
+                  passive="https://architecturasinica.org/place/000048o" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
