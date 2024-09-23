@@ -10,12 +10,16 @@
             <principal>Tracy Miller</principal>
             <editor role="general">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
+               <resp>Editing and proof correction: </resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Data entry</resp>
+               <resp>Data entry: </resp>
                <name type="person" xml:id="LS">Liyan Shen</name>
+            </respStmt>
+            <respStmt>
+               <resp>Geolocation: </resp>
+               <name type="person" xml:id="ZEJ">ZHANG Enjia 张恩嘉</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,6 +50,8 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#LS" when="2020-10-23-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-09-22-04:00">Added image</change>
+         <change n="1.1" who="#ZEJ" when="2024-09-22-04:00">Added geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
