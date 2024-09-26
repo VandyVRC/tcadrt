@@ -59,10 +59,12 @@
                <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
                <!-- Check name for alternate in-site place name -->       
                <idno type="URI">https://architecturasinica.org/place/000048ya1</idno>
+           <!--
                <state type="existence" from="0618-01-01">
                   <label>Date</label>
-                  <desc>Under Construction</desc>
+                  <desc>Under Construction</desc>                  
                </state>
+            -->
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Tang-Qing 618 - 1912</desc>
@@ -88,7 +90,7 @@
                -->
                <bibl xml:id="bibl000048ya1-1">
                   <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                  <citedRange unit="pp">Vol. 2</citedRange>
+                  <citedRange unit="pp">Vol. 2, 107-108</citedRange>
                </bibl>                        
             </place>            
             <listRelation>
