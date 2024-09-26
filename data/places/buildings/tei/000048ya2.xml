@@ -83,14 +83,14 @@
                         <desc xml:lang="zh-Hant">寺</desc>
                         <desc xml:lang="zh-Hans">寺</desc>
                     </trait>
-                    <bibl xml:id="bibl000048ya-1">
+                    <bibl xml:id="bibl000048ya-2">
                         <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                         <citedRange unit="pp">12</citedRange>
                     </bibl>
                 </place>
                 <listRelation>
-                    <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-                    <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                     <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                     <!--<relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
