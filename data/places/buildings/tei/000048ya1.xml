@@ -67,7 +67,7 @@
                   <label>Dynasty</label>
                   <desc>Tang-Qing 618 - 1912</desc>
                </state>
-               <desc type="site-data" source="#bibl0000048ya1-1">
+               <desc type="site-data" source="#bibl000048ya1-1">
                   under construction
                </desc>
                <!--
@@ -90,17 +90,14 @@
                   <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
                   <citedRange unit="pp">Vol. 2</citedRange>
                </bibl>                        
-            </place>
-            <!--
+            </place>            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-              <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>               
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>              
+               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994670437_f2ad06dd5e_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/>
+               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994664522_951dd54992_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/>               
            </listRelation>
-           -->
          </listPlace>
       </body>
    </text>
