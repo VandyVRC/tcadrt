@@ -57,8 +57,7 @@
                <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
                <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
                <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
-               <!-- Check name for alternate in-site place name -->
-               <!--
+               <!-- Check name for alternate in-site place name -->       
                <idno type="URI">https://architecturasinica.org/place/000048ya1</idno>
                <state type="existence" from="0618-01-01">
                   <label>Date</label>
@@ -68,8 +67,7 @@
                   <label>Dynasty</label>
                   <desc>Tang-Qing 618 - 1912</desc>
                </state>
-               -->
-               <desc type="site-data" source="#bibl000001-2">
+               <desc type="site-data" source="#bibl0000048ya1-1">
                   under construction
                </desc>
                <!--
@@ -87,11 +85,11 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                </trait>
-               <bibl xml:id="bibl000048ya-1">
-                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                  <citedRange unit="pp">12</citedRange>
-               </bibl>
-               -->               
+               -->
+               <bibl xml:id="bibl000048ya1-1">
+                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                  <citedRange unit="pp">Vol. 2</citedRange>
+               </bibl>                        
             </place>
             <!--
             <listRelation>
