@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monestary, Jingqingmen/Fengshengsi Shanmen <foreign xml:lang="zh-Hant">晉祠景清門 奉聖寺山門</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monestary, Jingqingmen (Fengshengsi Shanmen) <foreign xml:lang="zh-Hant">晉祠景清門 (奉聖寺山門)</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -49,22 +49,21 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ya1" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monestary, Jingqingmen/Fengshengsi Shanmen</placeName>
-               <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">晉祠景清門 / 奉聖寺山門</placeName>
-               <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">晋祠景清门 / 奉圣寺山门</placeName>
-               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīng mén / fèng shèng sì shānmén</placeName>
-               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">chin-tz`u ching-ch`ing men / feng sheng ssu shan-men</placeName>
+               <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monestary, Jingqingmen</placeName>
+               <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">晉祠景清門</placeName>
+               <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">晋祠景清门</placeName>
+               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīng mén</placeName>
+               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">chin-tz`u ching-ch`ing men</placeName>
                <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
                <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
                <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
+               <placeName xml:id="name000048y-9" type="alternate" xml:lang="zh-Hant">奉聖寺山門</placeName>
+               <placeName xml:id="name000048y-10" type="alternate" xml:lang="zh-Hans">奉圣寺山门</placeName>
+               <placeName xml:id="name000048y-11" type="alternate" xml:lang="zh-latn-pinyin">Fèngshèngsì shānmén</placeName>
+               
                <!-- Check name for alternate in-site place name -->       
                <idno type="URI">https://architecturasinica.org/place/000048ya1</idno>
-           <!--
-               <state type="existence" from="0618-01-01">
-                  <label>Date</label>
-                  <desc>Under Construction</desc>                  
-               </state>
-            -->
+               
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Tang-Qing 618 - 1912</desc>
