@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Flying Bridge <foreign xml:lang="zh-Hant">飛梁</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Feiliang <foreign xml:lang="zh-Hant">晉祠飛梁</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -61,6 +61,11 @@
                <placeName xml:id="name000048e-6" type="alternate" subtype="building-name" xml:lang="en">Spirit Bridge</placeName>
                <placeName xml:id="name000048e-7" type="alternate" subtype="building-name" xml:lang="zh-Hant">神橋</placeName>
                <placeName xml:id="name000048e-8" type="alternate" subtype="building-name" xml:lang="zh-Hans">神桥</placeName>
+               <placeName xml:id="name000048e-9" type="alternate" xml:lang="zh-latn-pinyin">Jìncí Fēiliáng</placeName>
+               <placeName xml:id="name000048e-10" type="alternate" xml:lang="zh-Hant">晉祠飛梁</placeName>
+               <placeName xml:id="name000048e-11" type="alternate" xml:lang="zh-latn-pinyin">Jìncí Yúzhǎo Fēiliáng</placeName>
+               <placeName xml:id="name000048e-12" type="alternate" xml:lang="zh-Hant">晉祠魚沼飛梁</placeName>
+               
                <idno type="URI">https://architecturasinica.org/place/000048e</idno>
                <state type="existence" from="1000-01-01" to="1125-12-31">
                   <label>Date</label>
@@ -108,15 +113,16 @@
                </bibl>
             </place>
             <listRelation>
+               <a data-flickr-embed="true" href="https://www.flickr.com/photos/30365320@N04/54069630318/in/dateposted/" title="Miller9700c"><img src="https://live.staticflickr.com/65535/54069630318_89b95bae0a_b.jpg" width="1024" height="667" alt="Miller9700c"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
                <relation active="https://architecturasinica.org/place/000048e" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000048e" passive="https://architecturasinica.org/keyword/k000263" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-                <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/50597442772_11d8f742be_c.jpg"
-                  passive="https://architecturasinica.org/place/000048e" ana="featured"/>
-               <relation ref="foaf:depicts"
+               <relation ana="contained" active="https://architecturasinica.org/place/000048e" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>               <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/50622274108_99e6230c2c_c.jpg"
                   passive="https://architecturasinica.org/place/000048e" ana="featured"/>
+                <relation ref="foaf:depicts"
+                   active="https://live.staticflickr.com/65535/54069630318_89b95bae0a_b.jpg"
+                  passive="https://architecturasinica.org/place/000048e" ana="featured"/>
+
             </listRelation>
          </listPlace>
       </body>
