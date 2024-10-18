@@ -59,14 +59,14 @@
                <idno type="URI">https://architecturasinica.org/place/000048ya</idno>
                <state type="existence" from="0618-01-01">
                   <label>Date</label>
-                  <desc>Converted to a monastery in the Tang dynasty</desc>
+                  <desc>Converted to a monastery in the Tang dynasty; historic buildings moved here from other sites beginning in the 1970s</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang-Qing 618 - 1912</desc>
+                  <desc>founded in the Tang</desc>
                </state>
                <desc type="site-data" source="#bibl000048ya-2">
-                  The site of the Fengsheng Monastery was thought to have originally been a residence. It was converted to a monastery in 622, under the Tang dynasty. 
+                  The site of the Fengsheng Monastery was thought to have originally been the residence of the Tang period general Yuchi Jingde 尉遲敬德 (d. ca. 658 CE). It was converted to a monastery in 622, under the Tang dynasty. 
                </desc>
                <!--
                <location type="gps" subtype="preferred">
@@ -86,17 +86,19 @@
                </bibl>
                <bibl xml:id="bibl000048ya-2">
                   <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                  <citedRange unit="pp">Vol. 2, 107-108</citedRange>
+                  <citedRange unit="pp">Jianzhu, vol. 2, 107-108</citedRange>
                </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-              <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>
-                    --> 
+              <relation ref="foaf:depicts"
+                 active="https://live.staticflickr.com/65535/53994664522_62317bb34c_b.jpg"
+                  passive="https://architecturasinica.org/place/000048y" ana="featured"/> 
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54076493096_46217f06e0_b.jpg"
+                  passive="https://architecturasinica.org/place/000048y" ana="featured"/> 
             </listRelation>
          </listPlace>
       </body>
