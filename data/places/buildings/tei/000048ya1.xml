@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monestary, Jingqingmen (Fengshengsi Shanmen) <foreign xml:lang="zh-Hant">晉祠景清門 (奉聖寺山門)</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monastery, Jingqingmen (Fengshengsi Shanmen) <foreign xml:lang="zh-Hant">晉祠景清門 (奉聖寺山門)</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -52,11 +52,11 @@
                <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monestary, Jingqingmen</placeName>
                <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">晉祠景清門</placeName>
                <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">晋祠景清门</placeName>
-               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīng mén</placeName>
-               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">chin-tz`u ching-ch`ing men</placeName>
-               <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
-               <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
-               <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
+               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīngmén</placeName>
+               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">Chin-tz`u ching-ch`ing-men</placeName>
+               <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengshengsi Jingqing gatehouse</placeName>
+               <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺景清門</placeName>
+               <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺景清門</placeName>
                <placeName xml:id="name000048y-9" type="alternate" xml:lang="zh-Hant">奉聖寺山門</placeName>
                <placeName xml:id="name000048y-10" type="alternate" xml:lang="zh-Hans">奉圣寺山门</placeName>
                <placeName xml:id="name000048y-11" type="alternate" xml:lang="zh-latn-pinyin">Fèngshèngsì shānmén</placeName>
@@ -87,10 +87,10 @@
                                 -->
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">monastery (Buddhist)</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-Hans">寺</desc>
+                  <desc xml:lang="en">gateway or gatehouse</desc>
+                  <desc xml:lang="zh-latn-pinyin">men</desc>
+                  <desc xml:lang="zh-Hant">門</desc>
+                  <desc xml:lang="zh-Hans">门</desc>
                </trait>
 
                <bibl xml:id="bibl000048ya1-1">
@@ -101,6 +101,7 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>              
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994670437_f2ad06dd5e_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/>
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994664522_951dd54992_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/>               
