@@ -58,48 +58,55 @@
                <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺舍利生生塔</placeName>
                <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺舍利生生塔</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ya4</idno>
-               <!--  <state type="existence" from="0618-01-01">
+               <state type="existence" from="0581-01-01" to="1751-12-31">
                   <label>Date</label>
-                  <desc>Converted to a monastery in the Tang dynasty</desc>
+                  <desc>Founded in the Sui, Kaihuang era (581-600); rebuilt in 1751</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000048ya4-1" from="0581-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang-Qing 618 - 1912</desc>
+                  <desc>Sui-Qing 581 - 1912</desc>
                </state>
-                 -->
-               <desc type="site-data" source="#bibl000001-2">
+               <desc type="site-data" source="#bibl000048ya-2">
                   under construction
                </desc>
-               <!--
+
                <location type="gps" subtype="preferred">
-                  <geo>37.7085556 112.435</geo>
+                  <geo>37.706490 112.433446</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
+                  <note>located using ArcGIS 2024-10-18</note>
                </location>
                
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">monastery (Buddhist)</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-Hans">寺</desc>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
                </trait>
-               <bibl xml:id="bibl000048ya-1">
+              <listBibl xml:id="bibl000048ya4-1"> 
+              <bibl>
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-                            --> 
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                    <citedRange unit="pp">131</citedRange>
+                 </bibl>
+               </listBibl>
             </place>
-   <!-->            <listRelation>
-               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+         <listRelation>
+               <relation active="https://architecturasinica.org/place/000048ya4" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000048ya4" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+            <relation active="https://architecturasinica.org/place/000048ya4" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya4" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
               <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>
-            </listRelation></>
-            -->
+                 active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ya4" ana="featured"/>
+            <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/51532186437_d53e4fbea8_b.jpg"
+               passive="https://architecturasinica.org/place/000048ya4" ana="featured"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
