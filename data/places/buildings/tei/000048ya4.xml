@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monastery, Sheli sheng sheng ta <foreign xml:lang="zh-Hant">晉祠奉聖寺舍利生生塔</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Futu Cloister, Sheli shengsheng pagoda <foreign xml:lang="zh-Hant">晉祠舍利生生塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -49,25 +49,26 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ya4" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048ya4-1" xml:lang="en">Fengsheng Monastery, Sheli sheng sheng ta </placeName>
-               <placeName xml:id="name000048ya4-2" type="building-name" xml:lang="zh-Hant">奉聖寺舍利生生塔</placeName>
-               <placeName xml:id="name000048ya4-3" type="building-name" xml:lang="zh-Hans">奉圣寺舍利生生塔</placeName>
-               <placeName xml:id="name000048ya4-4" type="building-name" xml:lang="zh-latn-pinyin">Fèngshèngsì shèlì shēng shēng tǎ</placeName>
-               <placeName xml:id="name000048ya4-5" type="building-name" xml:lang="zh-latn-wadegile">Feng-sheng-ssu she-li sheng sheng t'a</placeName>
-               <placeName xml:id="name000048ya4-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
-               <placeName xml:id="name000048ya4-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺舍利生生塔</placeName>
-               <placeName xml:id="name000048ya4-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺舍利生生塔</placeName>
+               <placeName xml:id="name000048ya4-1" xml:lang="en">Sheli sheng sheng ta </placeName>
+               <placeName xml:id="name000048ya4-2" type="building-name" xml:lang="zh-Hant">舍利生生塔</placeName>
+               <placeName xml:id="name000048ya4-3" type="building-name" xml:lang="zh-Hans">舍利生生塔</placeName>
+               <placeName xml:id="name000048ya4-4" type="building-name" xml:lang="zh-latn-pinyin">Shèlì shēng shēng tǎ</placeName>
+               <placeName xml:id="name000048ya4-5" type="building-name" xml:lang="zh-latn-wadegile">She-li sheng sheng t'a</placeName>
+               <placeName xml:id="name000048ya4-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Futuyuan Sheli sheng sheng ta</placeName>
+               <placeName xml:id="name000048ya4-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠浮屠院舍利生生塔</placeName>
+               <placeName xml:id="name000048ya4-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠浮屠院舍利生生塔</placeName>
+               <placeName xml:id="name000048ya4-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Pagoda cloister, Living Relic pagoda</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ya4</idno>
                <state type="existence" from="0581-01-01" to="1751-12-31">
                   <label>Date</label>
-                  <desc>Founded in the Sui, Kaihuang era (581-600); rebuilt in 1748-1751</desc>
+                  <desc>586 or 622; rebuilt 1748-1751</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ya4-1" from="0581-01-01" to="1912-01-01">
                   <label>Dynasty</label>
                   <desc>Sui-Qing 581 - 1912</desc>
                </state>
                <desc type="site-data" source="#bibl000048ya-2">
-                  under construction
+                  The Sheli shengsheng ta was likely founded in the sixth year of the Sui, Kaihuang era (586), although some documents suggest it was founded in the fifth year of the Tang Wude era (622). Its present form reflects a rebuilding which took place in the Qing dynasty from 1748-1751.
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>37.706490 112.433446</geo>
@@ -92,11 +93,17 @@
                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
                     <citedRange unit="pp">131</citedRange>
                  </bibl>
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                    <citedRange unit="pp">Vol. 6, 101</citedRange>
+                 </bibl>
                </listBibl>
             </place>
          <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya4" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000048ya4" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+            
+            <relation active="https://architecturasinica.org/place/000048ya4" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
             <relation active="https://architecturasinica.org/place/000048ya4" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya4" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
               <relation ref="foaf:depicts"
