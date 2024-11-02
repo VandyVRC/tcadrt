@@ -49,7 +49,7 @@
       <body>
          <listPlace>
             <place xml:id="place-000048za" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048za-1" xml:lang="en">Jinci Futu Cloister </placeName>
+               <placeName xml:id="name000048za-1" xml:lang="en">Futu cloister </placeName>
                <placeName xml:id="name000048za-2" type="building-name" xml:lang="zh-Hant">浮屠院</placeName>
                <placeName xml:id="name000048za-3" type="building-name" xml:lang="zh-Hans">浮屠院</placeName>
                <placeName xml:id="name000048za-4" type="building-name" xml:lang="zh-latn-pinyin">Fútúyuàn</placeName>
@@ -57,7 +57,8 @@
                <placeName xml:id="name000048za-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Futuyuan</placeName>
                <placeName xml:id="name000048za-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠浮屠院</placeName>
                <placeName xml:id="name000048za-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠浮屠院</placeName>
-               <placeName xml:id="name000048za-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Pagoda cloister</placeName>
+               <placeName xml:id="name000048za-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠塔院</placeName>
+               <placeName xml:id="name000048za-10" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Pagoda cloister</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048za</idno>
                <state type="existence" from="0581-01-01" to="1990-01-01">
                   <label>Date</label>
@@ -67,8 +68,9 @@
                   <label>Dynasty</label>
                   <desc>Likely founded in the Sui dynasty</desc>
                </state>
-               <desc type="site-data" source="#bibl000048ya-2">
-                  The Sheli shengsheng ta was likely founded in the sixth year of the Sui, Kaihuang era (586), although some documents suggest it was founded in the fifth year of the Tang Wude era (622). Its present form reflects a rebuilding which took place in the Qing dynasty from 1748-1751.
+               <desc type="site-data">
+                  <p> This complex and the <placeName ref="/place/000048ya">Shifang fengsheng chansi 十方奉聖禪寺</placeName> serve as the two primary Buddhist portions of the Jinci site. Although likely founded with the pagoda at its center, it is unknown when the pagoda cloister (futuyuan 浮屠院 or tayuan 塔院) just south of the Jin Springs was constructed. The present complex is oriented north-south with the pagoda in the central and a great hall framing the north end. The buildings of the complex occupy a total of 538 square meters, and the overall site encloses 1, 692 square meters. The current great hall and east and west chambers were constructed at the beginning of the 1980s following the description in the Jincizhi 晉祠志. The great hall, presently an art gallery housing the works of Zhao Meisheng 趙梅生 (1926-2022) , is five bays wide with a 1.5 meter deep front verandah. A two-bay wide lobe hall frames either side of the great hall. There are also east and west chambers framing the sides of the back courtyard, each three-bays wide with a 1.1 meter-deep front verandah. </p>
+                  <p  source="#bibl000048ya-2">On the south side of the cloister is a small gate called “tongyou” 通幽 (passage to seclusion) which is linked to the back cloister of Fengsheng Monastery. There is a chuihuamen 垂花門 on the east side holding a stone plaque carved with the name 浮屠院. On either side of the door are openwork windows a unique character.  A ”moon doorway” (yuedongmen 月洞門) is located on the southwest side of the cloister leading to the Baiyue mountain chamber.</p>
                </desc>
                <location type="gps" subtype="preferred">
                   <geo>37.706490 112.433446</geo>
@@ -106,9 +108,6 @@
               <relation ref="foaf:depicts"
                  active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
                   passive="https://architecturasinica.org/place/000048za" ana="featured"/>
-            <relation ref="foaf:depicts"
-               active="https://live.staticflickr.com/65535/51532186437_d53e4fbea8_b.jpg"
-               passive="https://architecturasinica.org/place/000048za" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>
