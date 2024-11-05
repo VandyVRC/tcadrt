@@ -66,7 +66,8 @@
                
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang-Qing 618 - 1912</desc>
+                  <desc>Yuan-Ming 1271 - 1644</desc>
+                  <desc>Moved from orginal to current location during the Qing.</desc>
                </state>
                <desc type="building-data">  
                  <p>
@@ -132,7 +133,7 @@
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000143" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/>  
-               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Ming"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Yuan"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
            </listRelation>
          </listPlace>
