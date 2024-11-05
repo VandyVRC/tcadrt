@@ -133,6 +133,7 @@
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000143" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Ming"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
            </listRelation>
          </listPlace>
       </body>
