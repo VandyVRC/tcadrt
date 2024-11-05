@@ -75,20 +75,19 @@
                   Additionally, there is a central wall located under the roof ridge which divides the hall in half longitudinally. 
                   A single set of stairs leads from the ground to the top of the elevated platform roughly matching the width of the central bay. 
                   Above the pillars, the building has an arrangement of 
-                    <term ref="/keyword/k000013">five-puzuo</term>
-                  (鋪作) bracket sets which are in “filled heart” style (
-                  <term ref="/keyword/k000023">jixinzao 計心造</term>
-                  ). 
+                    <term ref="/keyword/k000013">five-puzuo 鋪作</term>
+                  bracket sets which are in “filled heart” style
+                  (<term ref="/keyword/k000023">jixinzao 計心造</term>). 
                   These bracket sets include both brackets above the columns as well as a single intercolumnar bracket set in each bay, all of which are the same style. 
-                  The bracket sets appear to be a third of the height of the columns. The roof is a ceramic tile hip-gable roof in the “halted mountain” style (
-                    <term ref="/keyword/k000143">xieshan 歇山</term>
-                  )with a visible upturning of the eaves. 
+                  The bracket sets appear to be a third of the height of the columns. The roof is a ceramic tile hip-gable roof in the “halted mountain” style
+                    (<term ref="/keyword/k000143">xieshan 歇山</term>)
+                  with a visible upturning of the eaves. 
                   The platform and the bottom third of each bay are gray in color and show the brickwork. 
                   The area between the bracket sets and the gray brick is painted vermilion. 
                   The bracket arms and the eaves rafters are reddish-brown in color. The roof tile is glazed green-blue 青 in color. 
                   The roof ridges are heavily decorated with blue/green dragon (qinglong 青龍) motifs. The central ridge is especially decorated with a model que 闕 tower in the center. 
                   The sides of the central roof ridge bear larger protruding dragons forms which are oriented so the dragon’s mouth is parallel to the roof ridge and its tail protruding vertically in the manner of 
-                  chiwei roof <term ref="/keyword/k000009">鴟尾</term> finials. Test
+                  chiwei roof <term ref="/keyword/k000009">鴟尾</term> finials. 
                   </p>
                </desc>
                <!--
@@ -99,13 +98,14 @@
                   山门由景清门迁建于此景清门为晋祠原大门,创建于元代,单檐 歇山顶,高10.5米。面阔五间,进深四椽,总体仍保持元代风格原奉圣寺规模宏大,寺内中轴线上建有山门、前殿、中殿、后殿,还有钟、鼓楼和藏经楼,组成一座三进院落,后因历史原因损毁。现奉 圣寺重建于二十世纪七十年代末,坐西向东,东西长126米,南北宽 33米,占地面积4158平方米,主要由山门、过殿和大雄宝殿组成。 
                   山门明、次间宽敞,梢间及两山筑以墙壁。殿顶琉璃为明代烧制, 精美绝伦。 
                </desc>
+               -->
                <location type="gps" subtype="preferred">
-                  <geo>37.7085556 112.435</geo>
+                  <geo>37.706004 112.434146</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
+                  <note>37˚ 706004' N (Garmin) 112˚ 434146' E</note>
                </location>
-                                -->
+               <location>location determined using ArcGIS 5 November 2024</location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">gateway or gatehouse</desc>
@@ -133,6 +133,7 @@
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000143" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Ming"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
            </listRelation>
          </listPlace>
       </body>
