@@ -8,7 +8,8 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
             <respStmt>
                <resp>Editing and proof correction: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -43,6 +44,7 @@
       <revisionDesc>
          <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+         <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,7 +71,7 @@
                   <desc>founded in the Tang</desc>
                </state>
                <desc>
-                  <p  type="site-data" source="#bibl000048ya-2">
+                  <p type="site-data">
                   The site of the Fengsheng Monastery was thought to have originally been the residence of the Tang period general Yuchi Jingde 尉遲敬德 (d. ca. 658 CE). It was converted to a monastery in 622, under the Tang dynasty. 
                   </p>
                   <p type="site-data" source="#bibl000048ya-2">
