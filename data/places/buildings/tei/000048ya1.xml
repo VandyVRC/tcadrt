@@ -90,6 +90,12 @@
                   The sides of the central roof ridge bear larger protruding dragons forms which are oriented so the dragon’s mouth is parallel to the roof ridge and its tail protruding vertically in the manner of 
                   chiwei roof <term ref="/keyword/k000009">鴟尾</term> finials. 
                   </p>
+                  <p source="#bibl000048ya1-2">
+                     Jingqingmen was built on the location of a preexisting shecang 社倉 which was moved to the left of gate. The gate is large enough to accommodate chariots and horses. Walls connect to the sides of the gate. The current open bays face the
+                     <term ref="/place/000048n">Tower of the Beautiful Ying Island 晉祠勝瀛樓</term>
+                     near the center of the Jin Shrines complex. The Mountain Gate was renovated in the 42nd year of the Jiajing 嘉靖 Reign period, about 1563. According to hearsay, Jingqingmen was formally from Zhibo 智伯 in modern Henan province, China. The front of the gate is also where Wu Xiaolian 武孝廉 composed his poem Sanjinmingquan 三晉名泉.   
+                  </p>
+                  <!-- 一名惠遠門, 祠之正門, 東嚮, 南北連堡牆. 在右為四大天神殿, 中通行走, 軒昂濶大高車駟馬均可容之門内, 嚮勝瀛樓. 前蒼"三晉名泉" 額, 武孝廉楊廷翰筆, 筆力遒勁, 落落大方, 如廟堂重器. 未詳剏建年月, 明嘉靖四十二年補修, 門外左右有八字牆. 傳言：此門昔在智伯河南岸, 西對聖母殿, 後移於其南門前, 原爲社倉, 既建爲門, 移社倉於其左。 -->
                </desc>
                <!--
                <desc type="site-data" source="#bibl000048ya1-1">
@@ -118,7 +124,11 @@
                <bibl xml:id="bibl000048ya1-1">
                   <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
                   <citedRange unit="pp">Vol. 2, 107-108</citedRange>
-               </bibl>                        
+               </bibl>
+               <bibl xml:id="bibl000048ya1-2">
+                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                  <citedRange unit="pp">89</citedRange>
+               </bibl>
             </place>            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
@@ -135,6 +145,7 @@
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Yuan"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/place/000048n"/>
            </listRelation>
          </listPlace>
       </body>
