@@ -118,12 +118,11 @@
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/54076493096_e74759e51f_b.jpg"
                   passive="https://architecturasinica.org/place/000048y" ana="featured"/> 
-               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/> 
               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/place/000048ya1"/>  
               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/place/000048ya2"/>
               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/place/000048ya3"/>
-              <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000051"/>
-              <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000101"/>
+               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000051" ref="dcterms:temporal" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000101" ref="dcterms:temporal" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>
