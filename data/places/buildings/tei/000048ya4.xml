@@ -69,15 +69,15 @@
                   <desc>Tang-Qing 618 - 1912</desc>
                </state>
                   -->
-               <desc type="site-data" source="#bibl000001-2"> See <placeName ref="/place/000048za1">Futu yuan, Sheli shengsheng ta 浮屠院舍利生生塔</placeName></desc>
-               <!-- 
+               <desc type="site-data"> See <placeName ref="/place/000048za1">Futu yuan, Sheli shengsheng ta 浮屠院舍利生生塔</placeName></desc>
+              
                <location type="gps" subtype="preferred">
-                  <geo>37.7085556 112.435</geo>
+                  <geo>37.706490 112.433446</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
+                  <note>located using ArcGIS 10-18-2014</note>
                </location>
-               
+               <!-- 
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
@@ -89,17 +89,15 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-                             -->
             </place>
-            <!-- >            <listRelation>
-               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-              <relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>
-            </listRelation></>
-             -->
+            -->
+         <listRelation>
+               <relation active="https://architecturasinica.org/place/000048ya4" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya4" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya4" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg" passive="https://architecturasinica.org/place/000048ya4" ana="featured"/>
+            </listRelation>
+            </place>
          </listPlace>
       </body>
    </text>
