@@ -66,8 +66,12 @@
                
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Yuan-Ming 1271 - 1644</desc>
-                  <desc>Moved from orginal to current location during the Qing.</desc>
+                  <desc>
+                     <term ref="/keyword/k000k000101">Yuan</term>-<term ref="/place/k000051">Ming</term> 1271 - 1644
+                  </desc>
+                  <desc>Moved from orginal to current location during the
+                     <term ref="/keyword/k000070">Qing</term>.
+                  </desc>
                </state>
                <desc type="building-data">  
                  <p>
@@ -91,9 +95,13 @@
                   chiwei roof <term ref="/keyword/k000009">鴟尾</term> finials. 
                   </p>
                   <p source="#bibl000048ya1-2">
-                     Jingqingmen was moved to its current location during the Qing dynasty. Its original location was on the south bank of the Earl of Zhi Canal with bays open towards the
+                     Jingqingmen was moved to its current location during the
+                     <term ref="/keyword/k000070">Qing</term> dynasty.
+                     Its original location was on the south bank of the Earl of Zhi Canal with bays open towards the
                      <term ref="/place/000048n">Tower of the Beautiful Ying Island 晉祠勝瀛樓</term>.
-                     At the previous site Jingqingmen was renovated in the 42nd year of the Jiajing 嘉靖 Reign period, about 1563. Additionally, at the former site was where Wu Xiaolian 武孝廉 composed his poem Sanjinmingquan 三晉名泉.
+                     At the previous site Jingqingmen was renovated in the 42nd year of the Jiajing 嘉靖 
+                     <term ref="/place/k000051">Ming</term> dynasty
+                     reign period, about 1563. Additionally, at the former site was where Wu Xiaolian 武孝廉 composed his poem Sanjinmingquan 三晉名泉.
                   </p>
                   <!-- 一名惠遠門, 祠之正門, 東嚮, 南北連堡牆. 在右為四大天神殿, 中通行走, 軒昂濶大高車駟馬均可容之門内, 嚮勝瀛樓. 前蒼"三晉名泉" 額, 武孝廉楊廷翰筆, 筆力遒勁, 落落大方, 如廟堂重器. 未詳剏建年月, 明嘉靖四十二年補修, 門外左右有八字牆. 傳言：此門昔在智伯河南岸, 西對聖母殿, 後移於其南門前, 原爲社倉, 既建爲門, 移社倉於其左。 -->
                </desc>
@@ -132,10 +140,12 @@
             </place>            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>   
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/> <!-- Yuan -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/> <!-- Ming -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/> <!-- Pre-Qing -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/> <!-- Qing -->
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/> 
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>   
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994670437_f2ad06dd5e_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/> 
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/54100659232_11ccf88ab7_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/> 
                <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994664522_62317bb34c_b.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/>
@@ -145,7 +155,7 @@
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000143" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="architectural-feature"/>  
                <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="Yuan"/>
-               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/place/000048n" />               
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/place/000048n"/>               
            </listRelation>
          </listPlace>
       </body>
