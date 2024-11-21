@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Futu Cloister, Sheli shengsheng ta <foreign xml:lang="zh-Hant">晉祠f浮屠院舍利生生塔</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Futu Cloister, Sheli shengsheng ta <foreign xml:lang="zh-Hant">晉祠浮屠院舍利生生塔</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
@@ -111,6 +111,7 @@
             <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048za"/>
+            <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
               <relation ref="foaf:depicts"
                  active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
                  passive="https://architecturasinica.org/place/000048za1" ana="featured"/>

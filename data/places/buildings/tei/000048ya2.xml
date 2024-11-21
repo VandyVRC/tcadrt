@@ -8,7 +8,8 @@
                 </title>
                 <title level="m">Architectura Sinica</title>
                 <principal xml:id="TGM">Tracy Miller</principal>
-                <editor role="general">Tracy Miller</editor>
+                <editor role="content-author">Tracy Miller</editor>
+                <editor role="content-author" xml:id="HJC">Hyunjun Chang</editor>
                 <respStmt>
                     <resp>Editing and proof correction:</resp>
                     <name type="person" ref="#HJC">Hyunjun Chang</name>
@@ -41,7 +42,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.0" who="#HJC" when="2024-09-19-04:00">CREATED: place record</change>
+            <change n="1.1" who="#HJC" when="2024-11-21-04:00">editing</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,7 +95,8 @@
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000048ya2" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
                     <relation active="https://architecturasinica.org/place/000048ya2" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-                    <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000048ya2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000048ya2" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
                     <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/53995820338_3a26209597_h.jpg"
                   passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
