@@ -11,7 +11,7 @@
                 <editor role="general">Tracy Miller</editor>
                 <respStmt>
                     <resp>Editing and proof correction:</resp>
-                    <name type="person" ref="#HJC">Hyunjun Chang</name>
+                    <name type="person" xml:id="HJC">Hyunjun Chang</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -42,6 +42,7 @@
         </profileDesc>
         <revisionDesc>
             <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.1" who="#HJC" when="2024-09-21-04:00">editing</change>
         </revisionDesc>
     </teiHeader>
     <text>
