@@ -8,11 +8,15 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="content author" xml:id="JAH">Joseph Hanauer</editor>
+            <editor role="content-author">Tracy Miller</editor>
+            <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
+            <respStmt>
+               <resp>Page creation and data development:</resp>
+               <name type="person" ref="#JAH">Joseph Hanauer</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction:</resp>
-               <name type="person" ref="#JAH">Joseph Hanauer</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
