@@ -81,7 +81,7 @@
                   Additionally, there is a central wall located under the roof ridge which divides the hall in half longitudinally. 
                   A single set of stairs leads from the ground to the top of the elevated platform roughly matching the width of the central bay. 
                   Above the pillars, the building has an arrangement of 
-                    <term ref="/keyword/k000013">five puzuo 鋪作</term>
+                  five <term ref="/keyword/k000013">puzuo 鋪作</term>
                   bracket sets which are in “filled heart” style
                   (<term ref="/keyword/k000023">jixinzao 計心造</term>). 
                   These bracket sets include both brackets above the columns as well as a single intercolumnar bracket set in each bay, all of which are the same style. 
@@ -98,7 +98,7 @@
                      The previous location of Jingqingmen was on the south bank of the Earl of Zhi Canal with bays open towards the
                      <term ref="/place/000048n">Tower of the Beautiful Ying Island 晉祠勝瀛樓</term>.
                      At the previous site Jingqingmen was renovated in the 42nd year of the Jiajing 嘉靖 
-                     <term ref="/place/k000051">Ming</term> dynasty
+                     <term ref="/keyword/k000051">Ming</term> dynasty
                      reign period, about 1563. Additionally, at the former site was where Wu Xiaolian 武孝廉 composed his poem Sanjinmingquan 三晉名泉.
                   </p>
                   <!-- 一名惠遠門, 祠之正門, 東嚮, 南北連堡牆. 在右為四大天神殿, 中通行走, 軒昂濶大高車駟馬均可容之門内, 嚮勝瀛樓. 前蒼"三晉名泉" 額, 武孝廉楊廷翰筆, 筆力遒勁, 落落大方, 如廟堂重器. 未詳剏建年月, 明嘉靖四十二年補修, 門外左右有八字牆. 傳言：此門昔在智伯河南岸, 西對聖母殿, 後移於其南門前, 原爲社倉, 既建爲門, 移社倉於其左。 -->
@@ -127,14 +127,21 @@
                   <desc xml:lang="zh-Hans">门</desc>
                </trait>
 
+              
                <bibl xml:id="bibl000048ya1-1">
-                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                  <citedRange unit="pp">Vol. 2, 107-108</citedRange>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                     <citedRange unit="pp">12</citedRange>
                </bibl>
-               <bibl xml:id="bibl000048ya1-2">
-                  <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
-                  <citedRange unit="pp">89</citedRange>
-               </bibl>
+               <listBibl xml:id="bibl000048ya1-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">89</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange unit="pp">Vol. 2, 107-108</citedRange>
+                  </bibl>
+               </listBibl>
             </place>            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
