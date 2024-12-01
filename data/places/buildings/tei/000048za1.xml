@@ -49,7 +49,7 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-000048ya4" type="schema:LandmarksOrHistoricalBuildings">
+            <place xml:id="place-000048za4" type="schema:LandmarksOrHistoricalBuildings">
                <placeName xml:id="name000048za1-1" xml:lang="en">Sheli sheng sheng ta </placeName>
                <placeName xml:id="name000048za1-2" type="building-name" xml:lang="zh-Hant">舍利生生塔</placeName>
                <placeName xml:id="name000048za1-3" type="building-name" xml:lang="zh-Hans">舍利生生塔</placeName>
@@ -71,7 +71,7 @@
                <desc type="building-data">
                   <p>The Sheli shengsheng ta was likely founded in the sixth year of the Sui, Kaihuang era (586), although some documents suggest it was founded in the fifth year of the Tang Wude era (622). The pagoda was repaired in the third year of the Baoyuan reign period (1040 CE) and was rebuilt in 1751 during the Qianlong reign period. Further repairs were made in 2012. The current structure reaches a total height of 37.8 and is seven stories tall with each story gradually tapering bottom to top. Octagonal in plan, the 1.4 meter high brick foundation platform is 6.35 m wide on each side. Above this is an octagonal, Sumeru-style, stone pagoda base which is 1.58 m tall with each of the eight sides measuring 4.25 meters.</p>
                   
-                  <p source="#bibl000048ya-2">The door on the first floor is located on the south side and there is an interior stone staircase around the center leading up to the top level. From the second level up each façade has an arched window frame which is alternately walled or open to the interior. Above the arched windows are carved horizontal brick plaques. Under the eaves of each story are bracket sets and flying rafters carved in brick. Above this is a level, balconey-like platform (<term ref="/keyword/k000211"> pingzuo 平座/平坐</term>), glazed roofridge ornaments are used in the place of a balconey which is sufficiently sturdy to allow one to have a good view of the scenery around the Jin and Fen Rivers. </p>
+                  <p source="#bibl000048za-2">The door on the first floor is located on the south side and there is an interior stone staircase around the center leading up to the top level. From the second level up each façade has an arched window frame which is alternately walled or open to the interior. Above the arched windows are carved horizontal brick plaques. Under the eaves of each story are bracket sets and flying rafters carved in brick. Above this is a level, balconey-like platform (<term ref="/keyword/k000211"> pingzuo 平座/平坐</term>), glazed roofridge ornaments are used in the place of a balconey which is sufficiently sturdy to allow one to have a good view of the scenery around the Jin and Fen Rivers. </p>
                   
                </desc>
                <location type="gps" subtype="preferred">
@@ -93,6 +93,8 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000048za1-2">
                  <bibl>
                     <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
                     <citedRange unit="pp">131</citedRange>
@@ -109,9 +111,8 @@
             <relation active="https://architecturasinica.org/place/000048za1" passive="https://architecturasinica.org/keyword/k000211" ref="dcterms:subject" ana="architectural-feature"/>
             <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
             <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
             <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048za"/>
-            <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
               <relation ref="foaf:depicts"
                  active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
                  passive="https://architecturasinica.org/place/000048za1" ana="featured"/>
