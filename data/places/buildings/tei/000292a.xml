@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Tianning Monastery Lingxiao Pagoda<foreign
+                    xml:lang="zh-Hant">天寧寺凌霄塔</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+                <editor role="content-author" xml:id="HJC">Hyunjun Chang</editor>
+                <respStmt>
+                    <resp>Page creation and data development: </resp>
+                    <name type="person" ref="#HJC">Hyunjun Chang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000292a/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                            License.</p>
+                    </licence>
+                </availability>
+                <date>2024-12-02-02:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#HJC" when="2024-12-02-04:00">CREATED: place record</change>
+            <change n="1.1" who="#HJC" when="2024-12-02-06:00">editing</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000292a" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000292a-1" xml:lang="en">Lingxiao Pagoda</placeName>
+                    <placeName xml:id="name000292a-2" type="building-name" xml:lang="zh-Hant"
+                        >凌霄塔</placeName>
+                    <placeName xml:id="name000292a-3" type="building-name" xml:lang="zh-Hans"
+                        >凌霄塔</placeName>
+                    <placeName xml:id="name000292a-4" type="building-name"
+                        xml:lang="zh-latn-pinyin">Língxiāo tǎ</placeName>
+                    <placeName xml:id="name000048ya2-5" type="alternate"
+                        subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery
+                        Transition Hall</placeName>
+                    <placeName xml:id="name000048ya2-6" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺過殿</placeName>
+                    <placeName xml:id="name000048ya2-7" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺过殿</placeName>
+                    <placeName xml:id="name000048ya2-8" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Fèngshèngsì
+                        guòdiàn</placeName>
+                    <placeName xml:id="name000048ya2-9" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-wadegile">Feng-sheng-ssu
+                        kuo-tien</placeName>
+                    <placeName xml:id="name000048ya2-10" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Èrlángmiào
+                        zhōngdiàn</placeName>
+                    <placeName xml:id="name000048ya2-11" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hant">二郎廟中殿</placeName>
+                    <placeName xml:id="name000048ya2-12" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hans">二郎庙中殿</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000048ya2</idno>
+                    <state type="existence" from="1280">
+                        <label>Date</label>
+                        <desc>Originally constructed in 1280</desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" from="1271" to="1368">
+                        <label>Dynasty</label>
+                        <desc>
+                            <term ref="/keyword/k000101">Yuan</term> 1271-1368 </desc>
+                    </state>
+                    <desc type="building-data" source="#bibl000048ya2-1"> The Lingxiao Pagoda of Tianning Monastery (凌霄塔) was originally constructed during the Tang Dynasty and named Huiguang Pagoda (慧光塔). It was reconstructed during the Northern Song Dynasty and restored during the Jin Dynasty when it was renamed Lingxiao Pagoda, also known as the Wooden Pagoda (木塔).
+                        The pagoda is an octagonal (bajiao 八角), nine-story hollow structure (kongxin jiegou 空心结构) standing 41 meters tall. Its base is constructed from a combination of brick and stone (zhuanshi hunhe qi 砖石混合砌). Brick comprises the first three stories, with doors in all cardinal directions. Above the doors, the brickwork takes on wooden architectural features (fangmu jiegou 仿木结构) such as framed lintels (lan’e 栏额), which are decorated with single-eave, four-bracket sets (dan chao si puzuo 单抄四铺作), struts (toutimu 通替木), and wind braces (liaofeng bo 撩风搏). The tiled roofs (buwa ding 布瓦顶) are supported by flat platforms (pingzuo 平座) with ice-pan edges (bingpan yan 冰盘沿). The second and third stories feature corner columns (yizhu 倚柱) crafted from brick.
+                        From the fourth to ninth stories, the structure transitions to a timber frame (da mujia jiegou 大木架结构). A central vertical column (tongtianzhu 通天柱) runs through all levels, with cross-beams (baliang 扒梁) and corner posts (shaozhu 梢柱) interconnecting at each level. Bracket sets (dougong 斗拱) support the eaves (tayan 塔檐), while wooden floors (mu louban 木楼板) are laid on each level, connected by wooden staircases (mu ti 木梯). The pagoda’s finial (tasha 塔刹), made of cast iron (tie zhu 铁铸), is shaped like a hollow date pit (kongxin zaohezhuang 空心枣核状).
+                        The pagoda has been preserved through significant repairs and is accompanied by five historical steles (beike 碑刻) from the Ming and Qing dynasties, preserving its cultural and architectural significance.
+                    </desc>
+                    <location type="gps" subtype="preferred">
+                        <geo>37.7062049 112.4335077</geo>
+                    </location>
+                    <location>
+                        <note>location determined using ArcGIS 19 November 2024</note>
+                    </location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">monastery (Buddhist)</desc>
+                        <desc xml:lang="zh-latn-pinyin">si</desc>
+                        <desc xml:lang="zh-Hant">寺</desc>
+                        <desc xml:lang="zh-Hans">寺</desc>
+                    </trait>
+                    <bibl xml:id="bibl000048ya2-1">
+                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                        <citedRange unit="pp">建筑 vol. 2, 108</citedRange>
+                    </bibl>
+                </place>
+                <listRelation>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000052"
+                        ref="dcterms:subject" ana="building-type"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        ref="dcterms:temporal"
+                        passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+                    <relation ana="contained"
+                        active="https://architecturasinica.org/place/000048ya2"
+                        ref="schema:containedInPlace"
+                        passive="https://architecturasinica.org/place/000048ya"/>
+                    <relation ana="contained"
+                        active="https://architecturasinica.org/place/000048ya2"
+                        ref="schema:containedInPlace"
+                        passive="https://architecturasinica.org/place/000048"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/53995896479_590aec4964_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/53995820338_3a26209597_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/54101776193_76597646c8_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000183"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000105"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000146"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000148"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
