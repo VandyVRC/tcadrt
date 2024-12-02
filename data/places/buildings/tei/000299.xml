@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Zhenjue Monastery<foreign xml:lang="zh-Hant">真覺寺</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="JAH">Joseph Hanauer</principal>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <respStmt>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000048ya/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2024-12-01-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+            <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000048ya" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000048ya-1" xml:lang="en">Zhenjue Monastery</placeName>
+                    <placeName xml:id="name000048ya-2" type="building-name" xml:lang="zh-Hant">真覺寺</placeName>
+                    <placeName xml:id="name000048ya-3" type="building-name" xml:lang="zh-Hans">真觉寺</placeName>
+                    <placeName xml:id="name000048ya-4" type="building-name" xml:lang="zh-latn-pinyin">Zhēnjué sì</placeName>
+                    <placeName xml:id="name000048ya-5" type="building-name" xml:lang="zh-latn-wadegile">chen-chüeh ssu</placeName>
+                    <placeName xml:id="name000048ya-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenjue Si</placeName>
+                    <placeName xml:id="name000048ya-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">大正覺寺</placeName>
+                    <placeName xml:id="name000048ya-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">大正觉寺</placeName>
+                    <placeName xml:id="name000048ya-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">北京市石刻藝術博物館</placeName>
+                    <placeName xml:id="name000048ya-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">北京市石刻艺术博物馆</placeName>
+                    <placeName xml:id="name000048ya-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Beijing Stone Carving Art Museum</placeName>
+                    <placeName xml:id="name000048ya-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">五塔寺</placeName>
+                    <placeName xml:id="name000048ya-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">五塔寺</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000299</idno>
+                    <state type="existence" from="0618-01-01">
+                        <label>Date</label>
+                        <desc>Built during the <term ref="/keyword/k000051">Ming</term>, Ming Chenghua reign period, about 1473-post-<term ref="/keyword/k000070">Qing</term></desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
+                        <label>Dynasty</label>
+                        <desc>founded in the <term ref="/keyword/k000051">Ming</term>
+                        </desc>
+                    </state>
+                    <desc>
+                        <p type="site-data">
+                            Zhenjue Monastery 真覺寺 occupies a site in the modern Haidian District海淀区 of Beijing and occupies a location on northwestern bank of the Nazheng river 南长河. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties it was considered to be in the Western Urban District of the city西部郊区 rather than the internal or external palace districts. Over the course of its life, the site has been known by several names. Originally, it was named Zhenjue Monastery 真覺寺 when it was built in the ninth Year of the <term ref="/keyword/k000051">Ming</term> Chenghua reign period, about 1473. During the 16th year of the Qing Qianlong Reign period, about 1751, the site was renamed as Dazhengjue Monastery 大正覺寺. The site has also been called Wuta Monastery五塔寺 and more recently has also been named the Beijing Stone Carving Art Museum 北京市石刻藝術博物館.
+                            Zhenjue Monastery site has experienced multiple instances of destruction. Since the construction of the monastery during the <term ref="/keyword/k000051">Ming</term>, the complex was damaged to the extent that parts were renovated or rebuilt during the Qing in 1751. The renovated site was damaged again damaged during <term ref="/keyword/k000070">Qing</term> period when a great fire broke out and during the beginning of <term ref="/keyword/k000070">Republican Period 民国</term> 民国 the inner Buddhist halls were destroyed内殿宇. After the final sequence of destruction, only the central <term ref="/place/000299c">Jingangbaozuo Pagoda 金刚宝座塔</term> remained intact, however the foundation of the former main hall remains. 
+                            The Current orientation of the site has a North-South orientation. Visitors are currently intended enter from the south through the main gate 大門 and courtyard gate院門. Directly through the courtyard gate is the foundation of the former main hall. Directly behind the remaining foundation of the destroyed <term ref="/place/000299b">Xinzhu Liangyin Hall 心珠朗瑩殿</term>. Behind the <term ref="/place/000299b">Xinzhu Liangyin Hall 心珠朗瑩殿</term>. is the intact <term ref="/place/000299c">Jingangbaozuo Pagoda</term>, the only extent complete extent building remaining in the monastery. In its current construction, the monastery is surrounded on all sides by a wall and the remains of the <term ref="/place/000299b">Xinzhu Liangyin Hall 心珠朗瑩殿</term> and the <term ref="/place/000299c">Jingangbaozuo Pagoda</term> are the center buildings of the complex. Both are circumnavigable and the <term ref="/place/000299c">Jingangbaozuo Pagoda</term> is enterable through  <term ref="/place/000299a">Quan Gate 券門</term> is enterable from the north and south sides. 
+                        </p>
+                    </desc>
+                    <location type="gps" subtype="preferred">
+                        <geo>339.942149 116.324496</geo>
+                    </location>
+                    <location>location determined using ArcGIS 1 December 2024</location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">monastery (Buddhist)</desc>
+                        <desc xml:lang="zh-latn-pinyin">si</desc>
+                        <desc xml:lang="zh-Hant">寺</desc>
+                        <desc xml:lang="zh-Hans">寺</desc>
+                <!--    </trait>
+                    <bibl xml:id="bibl000048ya-1">
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
+                    </bibl>
+                    <bibl xml:id="bibl000048ya-2">
+                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
+                    </bibl>
+                    <bibl xml:id="bibl000048ya-3">
+                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                        <citedRange unit="pp">131</citedRange>
+                    </bibl> -->
+                </place>
+                <listRelation>
+                    <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <!--  Ming  -->
+                    <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <!--  Qing  -->
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157858835_2be84d7554_b.jpg" passive="https://architecturasinica.org/place/000299" ana="featured"/>
+
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
