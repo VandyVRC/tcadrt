@@ -72,28 +72,21 @@
                         subtype="building-name-in-site" xml:lang="zh-Hant">天寧寺凌霄塔</placeName>
                     <placeName xml:id="name000292a-7" type="alternate"
                         subtype="building-name-in-site" xml:lang="zh-Hans">天宁寺凌霄塔</placeName>
-                    <placeName xml:id="name000292a" type="alternate"
-                        subtype="bname000292a" xml:lang="zh-latn-pinyin">Fèngshèngsì
-                        guòdiàn</placeName>
-                    <placeName xml:id="name000292a" type="alternate"
-                        subtype="building-name-in-site" xml:lang="zh-latn-wadegile">Feng-sheng-ssu
-                        kuo-tien</placeName>
-                    <placeName xml:id="name000048ya2-10" type="alternate"
-                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Èrlángmiào
-                        zhōngdiàn</placeName>
-                    <placeName xml:id="name000048ya2-11" type="alternate"
-                        subtype="building-name-in-site" xml:lang="zh-Hant">二郎廟中殿</placeName>
-                    <placeName xml:id="name000048ya2-12" type="alternate"
-                        subtype="building-name-in-site" xml:lang="zh-Hans">二郎庙中殿</placeName>
-                    <idno type="URI">https://architecturasinica.org/place/000048ya2</idno>
-                    <state type="existence" from="1280">
+                    <placeName xml:id="name000292a-8" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Tiānníngsì
+                        Língxiāo tǎ</placeName>
+                    <placeName xml:id="name000292a-9" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-wadegile">t’ien-ning-ssu
+                        linghsiao t'a</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000292a</idno>
+                    <state type="existence" from="860">
                         <label>Date</label>
-                        <desc>Originally constructed in 1280</desc>
+                        <desc>Originally constructed in 860</desc>
                     </state>
-                    <state type="existence" subtype="dynasty" from="1271" to="1368">
+                    <state type="existence" subtype="dynasty" from="618" to="907">
                         <label>Dynasty</label>
                         <desc>
-                            <term ref="/keyword/k000101">Yuan</term> 1271-1368 </desc>
+                            <term ref="/keyword/k000082">Tang</term> 618-907 </desc>
                     </state>
                     <desc type="building-data" source="#bibl000048ya2-1"> The Lingxiao Pagoda of Tianning Monastery (凌霄塔) was originally constructed during the Tang Dynasty and named Huiguang Pagoda (慧光塔). It was reconstructed during the Northern Song Dynasty and restored during the Jin Dynasty when it was renamed Lingxiao Pagoda, also known as the Wooden Pagoda (木塔).
                         The pagoda is an octagonal (bajiao 八角), nine-story hollow structure (kongxin jiegou 空心结构) standing 41 meters tall. Its base is constructed from a combination of brick and stone (zhuanshi hunhe qi 砖石混合砌). Brick comprises the first three stories, with doors in all cardinal directions. Above the doors, the brickwork takes on wooden architectural features (fangmu jiegou 仿木结构) such as framed lintels (lan’e 栏额), which are decorated with single-eave, four-bracket sets (dan chao si puzuo 单抄四铺作), struts (toutimu 通替木), and wind braces (liaofeng bo 撩风搏). The tiled roofs (buwa ding 布瓦顶) are supported by flat platforms (pingzuo 平座) with ice-pan edges (bingpan yan 冰盘沿). The second and third stories feature corner columns (yizhu 倚柱) crafted from brick.
@@ -104,7 +97,7 @@
                         <geo>37.7062049 112.4335077</geo>
                     </location>
                     <location>
-                        <note>location determined using ArcGIS 19 November 2024</note>
+                        <note>location determined using ArcGIS 2 December 2024</note>
                     </location>
                     <trait type="type" sub-type="building type">
                         <label>Type</label>
@@ -113,7 +106,7 @@
                         <desc xml:lang="zh-Hant">寺</desc>
                         <desc xml:lang="zh-Hans">寺</desc>
                     </trait>
-                    <bibl xml:id="bibl000048ya2-1">
+                    <bibl xml:id="bibl000292a-1">
                         <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
                         <citedRange unit="pp">建筑 vol. 2, 108</citedRange>
                     </bibl>
