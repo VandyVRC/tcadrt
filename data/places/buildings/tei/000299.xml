@@ -46,7 +46,7 @@
             <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <!-- <text>
         <body>
             <listPlace>
                 <place xml:id="place-000299" type="schema:LandmarksOrHistoricalBuildings">
@@ -103,7 +103,7 @@
                         <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
                         <citedRange unit="pp">131</citedRange>
                     </bibl> -->
-                </place>
+               </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                     <!--  Ming  -->
@@ -113,6 +113,6 @@
 
                 </listRelation>
             </listPlace>
-        </body>
+        </body> 
     </text>
 </TEI>
