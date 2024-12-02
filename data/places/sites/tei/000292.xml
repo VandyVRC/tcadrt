@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Tianning Monastery<foreign xml:lang="zh-Hant">天寧寺</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="HJC">Hyunjun Chang</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000292/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-12-01-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+         <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000292" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000292-1" xml:lang="en">Tianning Monastery</placeName>
+               <placeName xml:id="name000292-2" type="building-name" xml:lang="zh-Hant">天寧寺</placeName>
+               <placeName xml:id="name000292-3" type="building-name" xml:lang="zh-Hans">天宁寺</placeName>
+               <placeName xml:id="name000292-4" type="building-name" xml:lang="zh-latn-pinyin">Tiānníng sì</placeName>
+               <placeName xml:id="name000292-5" type="building-name" xml:lang="zh-latn-wadegile">t’ien-ning ssu</placeName>
+               <placeName xml:id="name000292-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Tianning Si</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000292</idno>
+               <state type="existence" from="0618-01-01">
+                  <label>Date</label>
+                  <desc>Built during the <term ref="/keyword/k000047">Liao</term>, Ming Chenghua reign period, about 1473-post-<term ref="/keyword/k000070">Qing</term></desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>founded in the <term ref="/keyword/k000047">Liao</term>
+                  </desc>
+               </state>
+               <desc>
+                  <p type="site-data">
+                     Tianning Monastery (Tianning Si 天宁寺) is located in Xicheng District, Beijing. Traditionally attributed to the Northern Wei Dynasty under Emperor Xiaowen, some scholars, including Wang Shiren, propose that the temple originated during the Tang Dynasty under the name Tianwangsi (Tianwang Si 天王寺), dedicated to Vaisravana. The temple later evolved into a major monastery, becoming a center of Buddhist practice. 
+                     The monastery’s layout has undergone major changes over time. Initially aligned west-east, it was reoriented to face north-south during the Ming Dynasty, a configuration that remains today. The central axis begins at the Mountain Gate (Shanmen 山门), which bears the inscription "Tianning Monastery" and is crowned by a hard hill-style roof (ying shan 硬山) with gray tubular tiles. Further beyond the gate lies the Xumidian Hall (Xumi Dian 须弥殿), a key structure spanning five bays in width and three bays in depth, raised on a platform and flanked by the eastern and western halls. 
+                     At the heart of the monastery stands the Tianning Pagoda (Tianning Si Ta 天宁寺塔), an octagonal, dense-eaves pagoda (mi yan shi 密檐式) built during the Tianqing reign of the Liao Dynasty in 1120. The pagoda features a multi-tiered design with eaves supported by bracket systems (dougong 斗拱). Its intricate carvings (fudiao 浮雕) of Buddha figures, floral motifs, and dragons exemplify Liao architectural craftsmanship, inspired by the Buddhist Avatamsaka Sutra. 
+                     The monastery expanded under Emperor Yongle of the Ming Dynasty (r. 1402–1424), who renamed it Tianning Monastery in 1435 during the Xuande reign. Subsequent renovations took place during the Qianlong reign (1756) and in 1938. Designated a National Key Cultural Relic Protection Unit (Quanguo Zhongdian Wenwu Baohu Danwei 全国重点文物保护单位) in 1988, the Tianning Monastery continues to serve as an enduring symbol of Beijing’s Buddhist heritage and monastic tradition.   
+                  </p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>339.893506 116.339779</geo>
+               </location>
+               <location>location determined using ArcGIS 2 December 2024</location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc>
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+                  
+                  <!--    </trait>
+                    <bibl xml:id="bibl000048ya-1">
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
+                    </bibl>
+                    <bibl xml:id="bibl000048ya-2">
+                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
+                    </bibl>
+                    <bibl xml:id="bibl000048ya-3">
+                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                        <citedRange unit="pp">131</citedRange>
+                    </bibl> -->
+               </trait>
+               <listRelation>
+                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                  <!--  Ming  -->
+                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                  <!--  Qing  -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157858835_2be84d7554_b.jpg" passive="https://architecturasinica.org/place/000299" ana="featured"/>  
+               </listRelation>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
