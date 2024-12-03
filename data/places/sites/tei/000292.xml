@@ -65,11 +65,11 @@
                <idno type="URI">https://architecturasinica.org/place/000292</idno>
                <state type="existence" from="0618-01-01">
                   <label>Date</label>
-                  <desc>Built during the <term ref="/keyword/k000047">Liao</term>, Ming Chenghua reign period, about 1473-post-<term ref="/keyword/k000070">Qing</term></desc>
+                  <desc>Built during the <term ref="/keyword/k000047">Tang</term>, Rebuilt throughout <term ref="/keyword/k000051">Ming</term></desc> and <term ref="/keyword/k000070">Qing</term></desc> 
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>founded in the <term ref="/keyword/k000047">Liao</term>
+                  <desc>founded in the <term ref="/keyword/k000047">Tang</term>
                   </desc>
                </state>
                <desc>
@@ -102,7 +102,7 @@
                <listRelation>
                   <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                   <!--  Ming  -->
-                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="l"/>
                   <!--  Qing  -->
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157858835_2be84d7554_b.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>  
                </listRelation>
