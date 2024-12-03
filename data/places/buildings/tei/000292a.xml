@@ -88,14 +88,15 @@
                         <desc>
                             <term ref="/keyword/k000082">Tang</term> 618-907 </desc>
                     </state>
-                    <desc type="building-data" source="#bibl000048ya2-1"> The Lingxiao Pagoda of Tianning Monastery (凌霄塔) was originally constructed during the Tang Dynasty and named Huiguang Pagoda (慧光塔). It was reconstructed during the Northern Song Dynasty and restored during the Jin Dynasty when it was renamed Lingxiao Pagoda, also known as the Wooden Pagoda (木塔).
-                        The pagoda is an octagonal (bajiao 八角), nine-story hollow structure (kongxin jiegou 空心结构) standing 41 meters tall. Its base is constructed from a combination of brick and stone (zhuanshi hunhe qi 砖石混合砌). Brick comprises the first three stories, with doors in all cardinal directions. Above the doors, the brickwork takes on wooden architectural features (fangmu jiegou 仿木结构) such as framed lintels (lan’e 栏额), which are decorated with single-eave, four-bracket sets (dan chao si puzuo 单抄四铺作), struts (toutimu 通替木), and wind braces (liaofeng bo 撩风搏). The tiled roofs are supported by flat platforms (pingzuo 平座) with ice-pan edges (bingpan yan 冰盘沿). The second and third stories feature corner columns (yizhu 倚柱) crafted from brick.
-                        From the fourth to ninth stories, the structure transitions to a timber frame (da mujia jiegou 大木架结构). A central vertical column (tongtianzhu 通天柱) runs through all levels, with cross-beams (baliang 扒梁) and corner posts (shaozhu 梢柱) interconnecting at each level. Bracket sets (dougong 斗拱) support the eaves (tayan 塔檐), while wooden floors (mu louban 木楼板) are laid on each level, connected by wooden staircases (mu ti 木梯). The pagoda’s finial (tasha 塔刹), made of cast iron (tie zhu 铁铸), is shaped like a hollow date pit (kongxin zaohezhuang 空心枣核状).
+                    <desc type="building-data" source="#bibl000048ya2-1"> The Lingxiao Pagoda of Tianning Monastery (凌霄塔 Tianningsi Lingxiao ta) was originally constructed during the Tang Dynasty and named Huiguang Pagoda (慧光塔 Huiguang ta). It was reconstructed during the Northern Song Dynasty and restored during the Jin Dynasty when it was renamed Lingxiao Pagoda, also known as the Wooden Pagoda.
+                        The pagoda is an octagonal, nine-story hollow structure standing at 41 meters tall. Its base is constructed from a combination of brick and stone (zhuanshi hunhe qi 砖石混合砌). Brick comprises the first three stories, with doors in all of the cardinal directions. Above the doors, the brickwork takes on wooden architectural features (fangmu jiegou 仿木结构) such as framed lintels (lan’e 栏额), which are decorated with single-eave, four-bracket sets (dan chao si puzuo 单抄四铺作), struts (toutimu 通替木), and wind braces (liaofeng bo 撩风搏). The tiled roofs are supported by flat platforms (pingzuo 平座) with ice-pan edges (bingpan yan 冰盘沿). The second and third stories feature corner columns (yizhu 倚柱) crafted from brick.
+                        From the fourth to ninth stories, the structure transitions to a timber frame (da mujia jiegou 大木架结构). A central vertical column (tongtianzhu 通天柱) runs through all levels, with cross-beams (baliang 扒梁) and corner posts (shaozhu 梢柱) interconnecting at each level. Bracket sets (<term ref="/keyword/k000019">dougong 斗拱</term>) support the eaves (tayan 塔檐), while wooden floors (mu louban 木楼板) are laid on each level, connected by wooden staircases (mu ti 木梯). The pagoda’s finial (tasha 塔刹), made of cast iron (tie zhu 铁铸), is shaped like a hollow date pit (kongxin zaohezhuang 空心枣核状).
                         The pagoda has been preserved through significant repairs and is accompanied by five historical steles (beike 碑刻) from the Ming and Qing dynasties, preserving its cultural and architectural significance.
                     </desc>
                     <location type="gps" subtype="preferred">
                         <geo>38.142834 114.570829</geo>
                     </location>
+                    <location>location determined using ArcGIS 2 December 2024</location>
                     <location>
                          <note>38˚ 08.54' E  N (Garmin) 114˚ 34.16' E</note>
                     </location>
@@ -107,45 +108,40 @@
                         <desc xml:lang="zh-Hans">寺</desc>
                     </trait>
                     <bibl xml:id="bibl000292a-1">
-                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                        <citedRange unit="pp">建筑 vol. 2, 108</citedRange>
+                        <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                        <citedRange unit="pp">vol. 1, 36</citedRange>
+                    </bibl>
+                    <bibl xml:id="bibl000292a-2">
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
                     </bibl>
                 </place>
                 <listRelation>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
+                    <relation active="https://architecturasinica.org/place/000292a"
                         passive="https://architecturasinica.org/keyword/k000052"
                         ref="dcterms:subject" ana="building-type"/>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
+                    <relation active="https://architecturasinica.org/place/000292a"
                         ref="dcterms:temporal"
                         passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                     <relation ana="contained"
-                        active="https://architecturasinica.org/place/000048ya2"
+                        active="https://architecturasinica.org/place/000292a"
                         ref="schema:containedInPlace"
-                        passive="https://architecturasinica.org/place/000048ya"/>
+                        passive="https://architecturasinica.org/place/000292"/>
                     <relation ana="contained"
-                        active="https://architecturasinica.org/place/000048ya2"
+                        active="https://architecturasinica.org/place/000292a"
                         ref="schema:containedInPlace"
-                        passive="https://architecturasinica.org/place/000048"/>
+                        passive="https://architecturasinica.org/place/000292"/>
                     <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/53995896479_590aec4964_h.jpg"
-                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                        active="https://live.staticflickr.com/65535/54157670828_52bb4d20df_b.jpg"
+                        passive="https://architecturasinica.org/place/000292a" ana="featured"/>
                     <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/53995820338_3a26209597_h.jpg"
-                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                        active="https://live.staticflickr.com/65535/54157671013_f617eef0f1_b.jpg"
+                        passive="https://architecturasinica.org/place/000292a" ana="featured"/>
                     <relation ref="foaf:depicts"
-                        active="https://live.staticflickr.com/65535/54101776193_76597646c8_h.jpg"
-                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
-                        passive="https://architecturasinica.org/keyword/k000183"
-                        ref="dcterms:subject" ana="architectural-feature"/>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
-                        passive="https://architecturasinica.org/keyword/k000105"
-                        ref="dcterms:subject" ana="architectural-feature"/>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
-                        passive="https://architecturasinica.org/keyword/k000146"
-                        ref="dcterms:subject" ana="architectural-feature"/>
-                    <relation active="https://architecturasinica.org/place/000048ya2"
-                        passive="https://architecturasinica.org/keyword/k000148"
+                        active="https://live.staticflickr.com/65535/54157704144_59b64604f5_b.jpg"
+                        passive="https://architecturasinica.org/place/000292a" ana="featured"/>
+                    <relation active="https://architecturasinica.org/place/000292a"
+                        passive="https://architecturasinica.org/keyword/k000019"
                         ref="dcterms:subject" ana="architectural-feature"/>
                 </listRelation>
             </listPlace>
