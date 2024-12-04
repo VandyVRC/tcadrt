@@ -9,14 +9,13 @@
             <title level="m">Architectura Sinica</title>
             <principal>Tracy Miller</principal>
             <editor role="creator">Tracy Miller</editor>
+            <editor role="content author" xml:id="ZEJ">Enjia Zhang </editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
+               <name type="person" ref="#ZEJ">Enjia Zhang</name>
             </respStmt>
-            <respStmt>
-               <resp>adding external links</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
-            </respStmt>
+
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -29,7 +28,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2024-12-04-01:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -45,10 +44,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" when="2020-03-24-04:00">adding external links</change>
-         <change when="2020-09-21">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
+         <change n="1.0" when="2024-12-04-01:00">CREATED: place record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,6 +62,11 @@
                   <label>Dynasty</label>
                   <desc>Eastern Wei-5 Dynasties 540-960</desc>
                </state>
+               <desc type="site-data" xml:lang="en">
+                  <p source="#bibl000056-3">Kaiyuan Monastery was originally built in the second year of the <term ref="/keyword/k000022">Eastern Wei</term> dynasty (535) as Jingguan Monastery, underwent two renamings: first to Jiehui Monastery during the <term ref="/keyword/k000080">Sui</term> dynasty (591), and later to Kaiyuan Monastery by imperial decree in the Kaiyuan era of the <term ref="/keyword/k000082">Tang</term> dynasty (738).</p>
+                  <p source="#bibl000056-2">>According to the "Record of the Reconstruction of Kaiyuan Monastery in Zhengding"(重修正定开元寺记) from the 28th year of the <term ref="/keyword/k00051">Ming</term> dynasty, the original sites had a front gateway, Pilu (Vairocana) Pavilion（Piluge 毘盧閣）at the back, with  Jialan Hall（Jialandian 伽蘭殿） to the left and Geigu Hall（Geigutang 給孤堂）to the right, followed by the bell tower（zhonglou 鐘樓）on the left, Brick pagoda（Zhuanta 磚塔）on the right, and finally the Fachuan (Dharma Boat) Main Hall（Fachuanzhengdian 法船正殿）at the very end. In addition to these, there were also Tianwang Hall（Tianwangdian 天王殿）and Weituo Hall（Weituodian 韋陀殿), covering a total area of approximately 9,000 square meters.</p>
+                  <p source="#bibl000056-3">Since the late<term ref="/keyword/k00070"> Qing</term> dynasty, the monastery has gradually fallen into disrepair. Currently, only the bell tower and the Sumeru Pagoda(Xumita 須彌塔), as well as stone pillars from the Three-Gate Tower(sanmenlou 三門樓) of the <term ref="/keyword/k00082"> Tang</term> dynasty, unearthed in recent years, remain. The layout of the pagoda and tower facing each other in the center of the temple reflects the characteristics of early monastery architecture.（</p>
+               </desc>
                <note type="External Links">
                   <p>
                      <ref target="https://tinyurl.com/qoay2wv">Wikipedia (in Chinese)</ref>
@@ -91,6 +92,10 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
+               <!--   <location type="gps" subtype="preferred">
+                  <geo>37.707681 112.436414</geo>
+               </location>-->
+               
                <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
@@ -101,7 +106,14 @@
                <bibl xml:id="bibl000056-1">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
+               <bibl xml:id="bibl000056-2">
+                  <!-- <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/> -->
+                     <citedRange unit="pp">48</citedRange>
                </bibl>
+                  <bibl xml:id="bibl000056-3">
+                     <ptr target="https://architecturasinica.org/bibl//EKL6CLJJ"/> 
+                     <citedRange unit="pp">36</citedRange>
+                  </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000056" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
