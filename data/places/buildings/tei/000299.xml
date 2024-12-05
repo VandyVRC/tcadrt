@@ -76,10 +76,10 @@
                         </desc>
                     </state>
                     <desc>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299-1">
                             Zhenjue Monastery 真覺寺 occupies a site in the modern Haidian District海淀区 of Beijing and occupies a location on northwestern bank of the Nazheng river 南长河. During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties it was considered to be in the Western Urban District of the city西部郊区 rather than the internal or external palace districts (Li 2019, 103). Over the course of its life, the site has been known by several names. Originally, it was named Zhenjue Monastery 真覺寺 when it was built in the ninth Year of the <term ref="/keyword/k000051">Ming</term> Chenghua reign period, about 1473. During the 16th year of the Qing Qianlong Reign period, about 1751, the site was renamed as Dazhengjue Monastery 大正覺寺. The site has also been called Wuta Monastery五塔寺 and more recently has also been named the Beijing Stone Carving Art Museum 北京市石刻藝術博物館 (Beijing shi wenwu ju 2008, vol. 1, 256) (Xu 2010).
                         </p>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299-2">
                             Zhenjue Monastery site has experienced multiple instances of destruction. Since the construction of the monastery during the <term ref="/keyword/k000051">Ming</term>, the complex was damaged to the extent that parts were renovated or rebuilt during the Qing in 1751. The renovated site was damaged again damaged during <term ref="/keyword/k000070">Qing</term> period when a great fire broke out and during the beginning of <term ref="/keyword/k000070">Republican Period 民国</term> the inner Buddhist halls were destroyed内殿宇. After the final sequence of destruction, only the central <term ref="/place/000299c">Jingangbaozuo Pagoda 金刚宝座塔</term> remained intact, however the foundation of the former main hall remains (Beijing shi wenwu ju 2008, vol. 1, 256) (Beijing shi wenwu ju 2008, vol. 2, 224) (Xu 2010).
                        </p>
                         <p type="site-data">
@@ -97,20 +97,39 @@
                         <desc xml:lang="zh-Hant">寺</desc>
                         <desc xml:lang="zh-Hans">寺</desc>
                 </trait>
-                 <!--   <bibl xml:id="bibl000048ya-1">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-2">
-                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-3">
-                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                        <citedRange unit="pp">131</citedRange>
-                    </bibl> -->
-                </place>
-                <listRelation>
+                <listBibl xml:id="bibl000299-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                     <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+               </listBibl> 
+                <listBibl xml:id="bibl000299-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                     <citedRange unit="pp">224</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+               </listBibl>
+               <!--
+                <listBibl xml:id="bibl000299-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">89</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange unit="pp">Vol. 2, 107-108</citedRange>
+                  </bibl>
+               </listBibl> -->
+                </place> 
+                <listRelation> 
                     <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                     <!--  Ming  -->
                     <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
