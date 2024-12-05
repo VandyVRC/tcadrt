@@ -68,7 +68,7 @@
                         </desc>
                     </state>
                     <desc>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299b-1">
                             The remaining foundation of what once was the Xinzhu Liangyin Hall 心珠朗瑩殿, also known as the Great Hall大殿. The structure that once stood on the foundation was destroyed during the <term ref="/keyword/k000070">Republican Period</term> leaving the <term ref="/place/000299c">Jingangbaozuo Pagoda 金刚宝座塔</term> as the last complete remaining extent building on the site. The original Xinzhu Liangyin Hall was five or six zhang 丈, or between about 16.65 and 19.98 meters, in height (Wang 1997). (Beijing shi wenwu ju 2008, vol. 1, 256) (Xu 2010)
                         </p>
                         <p type="site-data">
@@ -89,18 +89,20 @@
                         <desc xml:lang="zh-Hant">殿</desc>
                         <desc xml:lang="zh-Hans">殿</desc>
                     </trait>
-                    <!--   <bibl xml:id="bibl000048ya-1">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-2">
-                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-3">
-                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                        <citedRange unit="pp">131</citedRange>
-                    </bibl> -->
+                    <listBibl xml:id="bibl000299b-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/5EHNDT6D"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">256</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                    </listBibl> 
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000299b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>

@@ -53,7 +53,7 @@
             <listPlace>
                 <place xml:id="place-000299c" type="schema:LandmarksOrHistoricalBuildings">
                     <placeName xml:id="name000299c" xml:lang="en">Jingangbaozuo Pagoda</placeName>
-                    <placeName xml:id="name000299c-1" type="building-name" xml:lang="en">Seat of Enlightenment Pagoda</placeName> 
+                    <placeName xml:id="name000299c-1" type="building-name" xml:lang="en" source="#bibl000299c-1">Seat of Enlightenment Pagoda</placeName> 
                     <placeName xml:id="name000299c-2" type="building-name" xml:lang="zh-Hant">金剛寶座塔</placeName>
                     <placeName xml:id="name000299c-3" type="building-name" xml:lang="zh-Hans">金刚宝座塔</placeName>
                     <placeName xml:id="name000299c-4" type="building-name" xml:lang="zh-latn-pinyin">Jīngāng bǎozuò tǎ</placeName>
@@ -69,13 +69,13 @@
                         </desc>
                     </state>
                     <desc>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299c-2">
                             In the center of <term ref="/place/000299">Zhenjue Monastery 真覺寺</term> stands Jingangbaozuo Pagoda 金剛寶座塔, built in the ninth Year of the <term ref="/keyword/k000051">Ming</term> Chenghua reign period, about 1473. The pagoda is located behind the foundation of <term ref="/place/000299b">Xinzhu Liangyin Hall 心珠朗瑩殿</term>. Jingangbaozuo Pagoda is the only surviving complete extent building within <term ref="/place/000299">Zhenjue Monastery</term>. However, the pagoda likely received renovations in 1751 along with the rest of the site and was damaged in 1976 in an earthquake but was repaired in 1979. The current layout of the monastery allows for the pagoda to be circumnavigated. The pagoda is enterable through a <term ref="/place/000299a">Cloister Gate 券門</term>. (Beijing shi wenwu ju 2008, vol. 1, 256) (Xu 2010).
                         </p>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299c-3">
                             The Jingangbaozuo Pagoda is composed of two distinct horizontal division, the bottom square foundation and the structures above the foundation. The bottom foundation of the pagoda is composed of brick with a white stone facade. Its dimensions are 18.6 meters from north to south,15.73 meters from east to west, and stands 7.7 meters high. The foundation is separated into six roughly equal horizontal sections. The bottom section’s motifs resemble the remaining motifs present on the remaining <term ref="/place/000299b">Xinzhu Liangyin Hall</term> foundation. The bottom of the bottom section includes inscribed Sanskrit writing and protruding lotus petals. The middle of the bottom section includes carved pillars on each corner interspaced with inscribed images and lotus shaped bracketing. The top of the bottom section reduplicates the protruding lotus petals. The five remaining sections are each modeled as palatial facades with stone being used to imitate wood. Each partial façade has a number of horizontally evenly spaced seated figures performing a Mudra along with other Buddhist iconography. Each of these figures is in its own chaitya arch. Each figure is separated from the others by slim pillars with a single level of bracketing on the top. Above these pillars is a stone imitating a wooden roof in the Yellow River Architectural style. This is reduplicated on each side of the foundation. 
                         </p>
-                        <p type="site-data">
+                        <p type="site-data" source="#bibl000299c-4">
                             The top of the foundation contains five square pagodas and another hall. Each of the four corners contains an eleven-eave stone pagoda which is seven meters high. Slightly northernly offset from the center of the pagoda contains a taller stone pagoda with thirteen eaves that is eight meters high. The four corner pagodas have white stone stupes while the stupa of the center pagoda is green/blue in color. Slightly southernly offset from the center is a hall which is slightly shorter than the center pagoda. The hall is square with a single set of bracketed eaves. The bracketing of the eaves is intercolumnar. Above the eaves is a <term ref="/keyword/k000126">hip roof 四阿頂</term> that appears to be tiled in green/blue color. In the center of the <term ref="/keyword/k000126">hip roof 四阿頂</term> is a smaller and shorter circular structure which is green/blue in color. The smaller circular structure is topped with a circular roof which is gold in color. The hall is enterable from the top of the foundation but the five pagodas are not. (Beijing shi wenwu ju 2008, vol. 1, 256) (Beijing shi wenwu ju 2008, vol. 2, 224)
                         </p>
                     </desc> 
@@ -90,18 +90,46 @@
                         <desc xml:lang="zh-Hant">塔</desc>
                         <desc xml:lang="zh-Hans">塔</desc>
                     </trait>
-                    <!--   <bibl xml:id="bibl000048ya-1">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-2">
-                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-3">
-                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                        <citedRange unit="pp">131</citedRange>
-                    </bibl> -->
+                    <listBibl xml:id="bibl000299c-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-2">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">256</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-3">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                            <citedRange unit="pp">224</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp"></citedRange>
+                        </bibl>
+                    </listBibl> 
+                    <listBibl xml:id="bibl000299c-4">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">256</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                            <citedRange unit="pp">224</citedRange>
+                        </bibl>
+                    </listBibl> 
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000299c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
