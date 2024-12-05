@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:lang="en">Zhenjue Monastery Pagoda Entrance and Interior <foreign xml:lang="zh-Hant">真覺寺, 券門, </foreign>
+                <title level="a" xml:lang="en">Zhenjue Monastery Pagoda Entrance and Interior <foreign xml:lang="zh-Hant">真覺寺, 券門</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
                 <principal xml:id="JAH">Joseph Hanauer</principal>
@@ -88,19 +88,21 @@
                         <desc xml:lang="zh-latn-pinyin">Men</desc>
                         <desc xml:lang="zh-Hant">門</desc>
                         <desc xml:lang="zh-Hans">门</desc>
-                    </trait>
-                    <!--   <bibl xml:id="bibl000048ya-1">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-2">
-                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
-                        <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000048ya-3">
-                        <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
-                        <citedRange unit="pp">131</citedRange>
-                    </bibl> -->
+                    </trait>                  
+                 <listBibl xml:id="bibl000299a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                     <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+                  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                       <citedRange unit="pp">224</citedRange>
+                   </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp"></citedRange>
+                  </bibl>
+                  </listBibl> 
                 </place>
                 <listRelation>
                     <relation active="https://architecturasinica.org/place/000299a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
