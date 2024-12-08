@@ -64,7 +64,7 @@
                   <label>Date</label>
                   <desc>Built during the <term ref="/keyword/k000047">Tang</term>, rebuilt throughout the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term></desc> 
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl0000292" from="0618-01-01" to="2024-01-01">
                   <label>Dynasty</label>
                   <desc>Founded in the <term ref="/keyword/k000047">Tang</term>
                   </desc>
@@ -110,9 +110,9 @@
                        <citedRange unit="pp">12</citedRange>
                     </bibl>
                <listRelation>
-                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-                  <!--  Ming  -->
-                  <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="l"/>
+                  <relation active="https://architecturasinica.org/place/000292" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+                  <!--  Tang  -->
+                  <relation active="https://architecturasinica.org/place/000292" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
                   <!--  Qing  -->
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54182926302_036034e219_b.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>
                   <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54190190083_5b184f449a_c.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>
