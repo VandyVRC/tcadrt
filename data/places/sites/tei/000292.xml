@@ -101,18 +101,23 @@
                   <desc xml:lang="zh-Hant">寺</desc>
                   <desc xml:lang="zh-Hans">寺</desc>
                 </trait>
-                     <bibl xml:id="bibl000292-1">
+                  <listBibl xml:id="bibl000292-1">
+                     <bibl>
                         <ptr target="https://architecturasinica.org/bibl/XMM7754Z"/>
                         <citedRange unit="pp">48-52</citedRange>
                      </bibl>
-                    <bibl xml:id="bibl000292-2">
-                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
-                     <citedRange unit="pp">vol. 1, 36</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000292-3">
-                       <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                       <citedRange unit="pp">12</citedRange>
-                    </bibl>
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                        <citedRange unit="pp">vol. 1, 36</citedRange>
+                     </bibl>
+                  </listBibl>
+                  
+                  <listBibl xml:id="bibl000292-2">
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
+                     </bibl>
+                  </listBibl>
                <listRelation>
                   <relation active="https://architecturasinica.org/place/000292" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
                   <!--  Tang  -->
