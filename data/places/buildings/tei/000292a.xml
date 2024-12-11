@@ -129,22 +129,24 @@
                         <desc xml:lang="zh-Hant">寺</desc>
                         <desc xml:lang="zh-Hans">寺</desc>
                     </trait>
-                    <bibl xml:id="bibl000292a-1">
-                        <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
-                        <citedRange unit="pp">vol. 1, 36</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000292a-2">
-                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
-                        <citedRange unit="pp">12</citedRange>
-                    </bibl>
-                    <bibl xml:id="bibl000292a-3">
-                        <ptr target="https://architecturasinica.org/bibl/P6Q6TWXI"/>
-                        <citedRange unit="pp">28-37</citedRange> 
-                    </bibl>
-                    <bibl xml:id="bibl000292-4"> 
-                        <ptr target="https://architecturasinica.org/bibl/XMM7754Z"/>
-                        <citedRange unit="pp">48-52</citedRange>    
-                    </bibl>
+                    <listBibl xml:id="bibl000292a-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                            <citedRange unit="pp">vol. 1, 36</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                            <citedRange unit="pp">12</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/P6Q6TWXI"/>
+                            <citedRange unit="pp">28-37</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/XMM7754Z"/>
+                            <citedRange unit="pp">48-52</citedRange>
+                        </bibl>
+                    </listBibl>
                 <listRelation> 
                     <relation active="https://architecturasinica.org/place/000292a"
                         passive="https://architecturasinica.org/keyword/k000052"
