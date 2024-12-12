@@ -7,7 +7,7 @@
                 <title level="a" xml:lang="en">Zhenjue Monastery <foreign xml:lang="zh-Hant">真覺寺</foreign>
                 </title>
                 <title level="m">Architectura Sinica</title>
-                <principal xml:id="JAH">Joseph Hanauer</principal>
+                <principal xml:id="JAH" ref="#JAH">Joseph Hanauer</principal>
                 <respStmt>
                     <resp>Research: </resp>
                     <name type="person" ref="#JAH">Joseph Hanauer</name>
