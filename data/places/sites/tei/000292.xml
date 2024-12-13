@@ -13,6 +13,10 @@
             <principal xml:id="HJC">Hyunjun Chang</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
+               <resp>Page creation and data development: </resp>
+               <name type="person" ref="#HJC">Hyunjun Chang</name>
+            </respStmt>
+            <respStmt>
                <resp>Editing and proof correction: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
@@ -57,21 +61,16 @@
                <placeName xml:id="name000292-2" type="site-name" xml:lang="zh-Hant">正定天寧寺</placeName>
                <placeName xml:id="name000292-3" type="site-name" xml:lang="zh-Hans">正定天宁寺</placeName>
                <placeName xml:id="name000292-4" type="site-name" xml:lang="zh-latn-pinyin">Zhèngdìng Tiānníngsì</placeName>
-               <placeName xml:id="name000292-5" type="site-name" xml:lang="zh-latn-wadegile">Cheng-ting T’ien-ning ssu</placeName>
+               <placeName xml:id="name000292-5" type="site-name" xml:lang="zh-latn-wadegile">Cheng-ting T’ien-ning-ssu</placeName>
                <placeName xml:id="name000292-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhengding Tianningsi</placeName>
                <idno type="URI">https://architecturasinica.org/place/000292</idno>
-               <state type="existence" from="0618-01-01">
-                  <label>Date</label>
-                  <desc>Built during the <term ref="/keyword/k000047">Tang</term>, rebuilt throughout the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term></desc> 
-               </state>
                <state type="existence" subtype="dynasty" source="#bibl0000292" from="0618-01-01" to="2024-01-01">
                   <label>Dynasty</label>
-                  <desc>Founded in the <term ref="/keyword/k000047">Tang</term> 618-907
-                  </desc>
+                  <desc>Founded in the <term ref="/keyword/k000047">Tang</term> 618-907</desc>
                </state>
                <desc>
                   <p type="site-data" source="#bibl000292-1"> 
-                     The Zhengding Tianning Monastery (Zhengding Tianningsi 正定天宁寺) is a historically significant Buddhist site and a designated National Key Cultural Relic Protection Unit (Quanguo Zhongdian Wenwu Baohu Danwei 全国重点文物保护单位). Established during the <term ref="/keyword/k000082">Tang</term> Dynasty under Emperor Yizong in the Xiantong era (860–874), the monastery was originally named Dazang Courtyard (Dazang Yuan 大藏院). At its height, the complex featured a clearly defined north-south axis with major structures, including an archway, multiple gates, the Hall of Heavenly Kings (Tianwang Dian 天王殿), the Front Hall (qiandian 前殿), and the <term ref="/place/000292a">Lingxiao Pagoda</term> (Lingxiao Ta 凌霄塔) (Li 1984, 48). 
+                     The Zhengding Tianning Monastery (Zhengding Tianningsi 正定天宁寺) is a historically significant Buddhist site and a designated National Key Cultural Relic Protection Unit (Quanguo Zhongdian Wenwu Baohu Danwei 全国重点文物保护单位). Established during the <term ref="/keyword/k000082">Tang</term> Dynasty under Emperor Yizong in the Xiantong era (860–874), the monastery was originally named Dazang Courtyard (Dazang Yuan 大藏院). At its height, the complex featured a clearly defined north-south axis with major structures, including a <term ref="/keyword/k000212">paifang</term>, multiple gates, the Hall of Heavenly Kings (Tianwang Dian 天王殿), the Front Hall (qiandian 前殿), and the <term ref="/place/000292a">Lingxiao Pagoda</term> (Lingxiao Ta 凌霄塔) (Li 1984, 48). 
                   </p> 
                   <p type="site-data" source="#bibl000292-2"> 
                      The monastery was an important center for Buddhist practice and a notable example of Tang-era temple design.  
