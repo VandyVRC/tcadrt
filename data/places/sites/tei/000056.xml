@@ -7,13 +7,16 @@
             <title level="a" xml:lang="en">Zhengding Kaiyuan Monastery <foreign xml:lang="zh-Hant">正定開元寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
+            <principal xml:id="ZEJ" ref="#ZEJ">ZHANG Enjia 张恩嘉</principal>
+            <editor role="content author" xml:id="ZEJ">ZHANG Enjia 张恩嘉</editor>
             <editor role="creator">Tracy Miller</editor>
-            <editor role="content author" xml:id="ZEJ">ZHANG Enjia 张恩嘉 </editor>
+            <respStmt>
+               <resp>Research: </resp>
+               <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
+            </respStmt>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" xml:id="TGM">Tracy Miller</name>
-               <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
             </respStmt>
 
          </titleStmt>
