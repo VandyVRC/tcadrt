@@ -101,12 +101,10 @@
                         <desc xml:lang="zh-Hant">寺</desc>
                         <desc xml:lang="zh-Hans">寺</desc>
                 </trait>
-                 <listBibl xml:id="bibl000299-1">
-                        <bibl>
+                     <bibl xml:id="bibl000299-1">
                             <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
                             <citedRange unit="pp">于, 3738, 3741-3742</citedRange>
                         </bibl>
-                </listBibl> 
                 <listBibl xml:id="bibl000299-2">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
@@ -125,7 +123,7 @@
                         <citedRange unit="pp">于, 3738, 3741-3742</citedRange>
                     </bibl>
                </listBibl>
-                    <!--  <listBibl xml:id="bibl000299-3">
+               <listBibl xml:id="bibl000299-3">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
                      <citedRange unit="pp">224</citedRange>
@@ -138,7 +136,7 @@
                         <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
                         <citedRange unit="pp">于, 3738, 3741-3742</citedRange>
                     </bibl>
-                </listBibl> --> 
+                </listBibl> 
              </place>
                 <listRelation> 
                     <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/> 
