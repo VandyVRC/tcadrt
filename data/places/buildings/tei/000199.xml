@@ -78,7 +78,7 @@
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000199-2">
                      The Bell Tower was built in the fifth year of the Qianning period during the <term ref="/keyword/k000082">Tang </term>dynasty (898). It faces west and sits on the east side, spanning three bays both in width and depth, and features a single-eave, hip gable roof<term ref="/keyword/k000143">(xieshanding 歇山頂)</term>, and a two-story pavilion structure. The construction follows a full open style (cheshanglumingzao 徹上露明造), with five <term ref="/keyword/k000017">bracket sets（puzuo 鋪作）</term>, double <term ref="/keyword/k000024">stolen-heart construction（touxinzao 偷心造）</term> used under the eaves. The column tops have curved finials, and the pillar grid exhibits clear splayed supports and curvature.</p>
-                  <p source="#bibl000199-2"> The building has an area of 135 square meters and a height of 14 meters. Within the tower hangs a bronze bell from the <term ref="/keyword/k000082">Tang </term>dynasty, measuring 2.6 meters in height with a diameter of 1.56 meters. Apart from the replacement of the top bracket sets<term ref="/keyword/k000019">（dougong 斗栱)</term> during a <term ref="/keyword/k000070">Qing</term> dynasty restoration, the constructions such as large wooden framework, panel doors, and vertical lattice windows（zhilingchuang 直棂窗）are all original from the <term ref="/keyword/k000082">Tang</term> dynasty. During a major renovation in 1997, the upper eave bracket sets were restored following the style of the lower eave bracket sets. </p>
+                  <p source="#bibl000199-2"> The building has an area of 135 square meters and a height of 14 meters. Within the tower hangs a bronze bell from the <term ref="/keyword/k000082">Tang </term>dynasty, measuring 2.6 meters in height with a diameter of 1.56 meters. Apart from the replacement of the top bracket sets<term ref="/keyword/k000019">（dougong 斗栱)</term> during a <term ref="/keyword/k000070">Qing</term> dynasty restoration, the constructions such as large wooden framework, panel doors, and vertical lattice windows（zhilingchuang 直櫺窗）are all original from the <term ref="/keyword/k000082">Tang</term> dynasty. During a major renovation in 1997, the upper eave bracket sets were restored following the style of the lower eave bracket sets. </p>
                   <p source="#bibl000199-3">    
                      Inside the tower, short, thick crescent-shaped beams (月梁) are installed atop the four columns. Further columns and beams are placed above these, designed specifically for hanging the bell. The architect Liang Sicheng, who investigated Zhengding in 1933, believed that this structure is the only example of a bell tower dating from the pre-<term ref="/keyword/k000036">Jin</term> and <term ref="/keyword/k000101">Yuan</term> dynasties.</p>
                </desc>
@@ -107,8 +107,20 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000199" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000143" ana="architectural-feature"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000017" ana="architectural-feature"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000024" ana="architectural-feature"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000019" ana="architectural-feature"/>
+               
                <relation ana="contained" active="https://architecturasinica.org/place/000199" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000056"/>
                
                <relation ref="foaf:depicts"
