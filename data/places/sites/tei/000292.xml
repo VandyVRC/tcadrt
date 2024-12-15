@@ -10,8 +10,9 @@
             <title level="a" xml:lang="en">Tianning Monastery in Zhengding<foreign xml:lang="zh-Hant"> 正定天寧寺 </foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal xml:id="HJC">Hyunjun Chang</principal> 
-            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <principal xml:id="TGM">Tracy Miller</principal> 
+            <editor role="content-author" xml:id="HJC">Hyunjun Chang</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
                <resp>Page creation and data development: </resp>
                <name type="person" ref="#HJC">Hyunjun Chang</name>
@@ -48,9 +49,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="1.0" who="#HJC" when="2018-03-21-04:00">CREATED: place record</change>
          <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
-         <change n="1.2" who="#HJC" when="2024-12-01-04:00">added data</change>
+         <change n="1.2" who="#HJC" when="2024-12-13-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
