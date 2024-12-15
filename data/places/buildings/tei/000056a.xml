@@ -113,9 +113,13 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000056a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000056a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000056"/>
+               
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000056a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000056"/>
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000154" ana="architectural-feature"/>
+               
                
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/54157666284_ffca26820b_c.jpg"
