@@ -77,14 +77,14 @@
                <p source="#bibl000056b-2">
                    Three-Gate Tower was built in the first year of the <term ref="/keyword/k00082">Tang</term> dynasty Ruyi reign period of (692). Due to its long history, it was significantly damaged, leaving only stone columns buried underground.  The restored structure consists of 12 sandstone pillars, each with a width of 0.6 meters and a length of 5.16 meters, engraved with various texts, scriptures, and figures.  </p>
                   <p source="#bibl000056b-3">
-                    From the reconstructed floor plan, the tower would have originally spanned five bays in width and two bays in depth. The stairways are symmetrically positioned on the north and south sides, directly facing the central bay. The tower features a single-eaves <term ref="/keyword/k000185">hip-gable roof</term>  (shaliangtou 厦兩頭or xieshanding 歇山頂), with stone columns used for both the eave and central pillars. The spaces between the columns are connected solely by stone <term ref="/keyword/k000038">architraves</term> (lan’e闌额). </p>
+                     From the reconstructed floor plan, the tower would have originally spanned five bays in width and two bays in depth. The stairways are symmetrically positioned on the north and south sides, directly facing the central bay. The tower features a single-eaves hip-gable roof  (<term ref="/keyword/k000185">shaliangtou 厦兩頭</term> or <term ref="/keyword/k000143">xieshanding 歇山頂</term>), with stone columns used for both the eave and central pillars. The spaces between the columns are connected solely by stone architraves (<term ref="/keyword/k000038">lan’e闌额</term>). </p>
                   
-                  <p source="#bibl000056b-2">
+                  <p source="#bibl000056b-4">
                     Regarding the background of the construction, the inscription stated that “During the Ruyi period, the monk Ribao abandoned the past life to pursue the Buddhism. He went to the mountains and forests to obtain pine wood and stone. Craftsmen carved the timber into beams and transformed the stones into pillars. Then, they adorned the structures with red lacquer carvings and paintings, constructed the main gate upon a stone foundation and erected a pavilion atop the gateway.（乃亲自仗锡诣乎山林，寻高松，求巨石……三门之义其大矣哉。）</p>
                   
                  </desc>
                <location type="gps" subtype="preferred">
-                  <geo>38.139472, 114.565724</geo>
+                  <geo>38.140205, 114.570789</geo>
                </location>
                <trait type="type" sub-type="building type">
                   <desc xml:lang="en">loft-building</desc>
@@ -97,20 +97,25 @@
                   <bibl xml:id="bibl000056b-1"><!--Chinese History: A Manual -->
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
-
-                  
                </bibl>
+               
                   <bibl xml:id="bibl000056b-2"> <!--中国文物地图集 河北 -->
                      <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
                      <citedRange unit="pp">36</citedRange>
                   </bibl>
               
-               <!--    New source await：正定开元寺唐三门楼石柱 初步整理与探析(上)
-                     <bibl xml:id="bibl000056a-3">  
-                          <ptr target="https://architecturasinica.org/bibl/XZJ4YTXF"/>
-                        <citedRange unit="pp">51-55</citedRange>
+               <bibl xml:id="bibl000056a-3">  <!--正定县城寺庙建筑研究初探 -->
+                  <ptr target="https://architecturasinica.org/bibl/T9GEEPA9"/>
+                  <citedRange unit="pp">57</citedRange>
+               </bibl> 
+               
+               <bibl xml:id="bibl000056a-4">  <!--正定开元寺唐三门楼石柱 初步整理与探析(上) -->
+                          <ptr target="https://architecturasinica.org/bibl/GE66HQZB"/>
+                        <citedRange unit="pp">9</citedRange>
                         </bibl> 
-                  -->
+               
+               
+    
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000056b" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="building-type"/>
@@ -118,6 +123,7 @@
                <relation active="https://architecturasinica.org/place/000056b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000056b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000185" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000056b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000038" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000056b" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000143" ana="architectural-feature"/>
                
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/54475261263_eb60eaff73_4k.jpg"
