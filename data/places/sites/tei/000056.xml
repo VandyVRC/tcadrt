@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">
-               Zhengding Kaiyuan Monastery 
-               <foreign xml:lang="zh-Hant">正定開元寺</foreign>
+            <title level="a" xml:lang="en"> Zhengding Kaiyuan Monastery  <foreign xml:lang="zh-Hant"
+                  >正定開元寺</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="ZEJ" ref="#ZEJ">ZHANG Enjia 张恩嘉</principal>
             <editor role="content-author" xml:id="ZEJ">ZHANG Enjia 张恩嘉</editor>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Research: </resp>
+               <resp>Initial research: </resp>
                <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
             </respStmt>
             <respStmt>
@@ -56,22 +57,50 @@
       <body>
          <listPlace>
             <place xml:id="place-000056" type="site">
-               <placeName xml:id="name000056-1" type="site-name" xml:lang="en">Zhengding Kaiyuan Monastery</placeName>
-               <placeName xml:id="name000056-2" type="site-name" xml:lang="zh-latn-pinyin">Zhèngdìng Kāiyuánsì</placeName>
-               <placeName xml:id="name000056-3" type="site-name" xml:lang="zh-latn-wadegile">Cheng-ting K`ai-yüan-ssu</placeName>
-               <placeName xml:id="name000056-4" type="site-name" xml:lang="zh-Hant">正定開元寺</placeName>
-               <placeName xml:id="name000056-5" type="site-name" xml:lang="zh-Hans">正定开元寺</placeName>
-               <!-- need to add alternative site names with dates, e.g. <placeName xml:id="name000056-5" type="site-name" xml:lang="zh-Hans">淨觀寺</placeName>-->
+               <placeName xml:id="name000056-1" type="site-name" xml:lang="en">Zhengding Kaiyuan
+                  Monastery</placeName>
+               <placeName xml:id="name000056-2" type="site-name" xml:lang="zh-latn-pinyin">Zhèngdìng
+                  Kāiyuánsì</placeName>
+               <placeName xml:id="name000056-3" type="site-name" xml:lang="zh-latn-wadegile"
+                  >Cheng-ting K`ai-yüan-ssu</placeName>
+               <placeName xml:id="name000056-4" type="site-name" xml:lang="zh-Hant"
+                  >正定開元寺</placeName>
+               <placeName xml:id="name000056-5" type="site-name" xml:lang="zh-Hans"
+                  >正定开元寺</placeName>
+               <placeName xml:id="name000056-6" type="site-name" xml:lang="zh-Hant">淨觀寺</placeName>
+               <placeName xml:id="name000056-7" type="site-name" xml:lang="zh-latn-pinyin">
+                  Jìngguānsì</placeName>
+               <placeName xml:id="name000056-8" type="site-name" xml:lang="zh-Hant">解慧寺</placeName>
+               <placeName xml:id="name000056-9" type="site-name" xml:lang="zh-latn-pinyin">Jiěhuìsì</placeName>
                <idno type="URI">https://architecturasinica.org/place/000056</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000056-1" from="0540-01-01" to="0960-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000056-1" from="0540-01-01">
                   <label>Dynasty</label>
-                  <desc>Eastern Wei-5 Dynasties 540-960</desc>
+                  <desc>founded in the Eastern Wei</desc>
                </state>
                <desc type="site-data" xml:lang="en">
-                  <p source="#bibl000056-3">Kaiyuan Monastery was originally built in the second year of the <term ref="/keyword/k000022">Eastern Wei</term> dynasty (535) as Jingguan Monastery, underwent two renamings: first to Jiehui Monastery during the <term ref="/keyword/k000080">Sui</term> dynasty (591), and later to Kaiyuan Monastery by imperial decree in the Kaiyuan era of the <term ref="/keyword/k000082">Tang</term> dynasty (738).</p>
-                  <p source="#bibl000056-2">According to the "Record of the Reconstruction of Kaiyuan Monastery in Zhengding"(重修正定开元寺记) from the 28th year of the <term ref="/keyword/k00051">Ming</term> dynasty, the original sites had a front gateway, Pilu (Vairocana) Pavilion（Piluge 毘盧閣）at the back, with  Jialan Hall（Jialandian 伽蘭殿） to the left and Geigu Hall（Geigutang 給孤堂）to the right, followed by the <placeName ref="/place/000199"
-                     >bell tower</placeName>（zhonglou 鐘樓) on the left, Brick pagoda（Zhuanta 磚塔）on the right, and finally the Fachuan (Dharma Boat) Main Hall（Fachuanzhengdian 法船正殿）at the very end. In addition to these, there were also Tianwang Hall（Tianwangdian 天王殿）and Weituo Hall（Weituodian 韋陀殿), covering a total area of approximately 9,000 square meters.</p>
-                  <p source="#bibl000056-3">Since the late<term ref="/keyword/k00070"> Qing</term> dynasty, the monastery has gradually fallen into disrepair. Currently, only the bell tower and the Sumeru Pagoda(Xumita 須彌塔), as well as stone pillars from the Three-Gate Tower(sanmenlou 三門樓) of the <term ref="/keyword/k00082"> Tang</term> dynasty, unearthed in recent years, remain. The layout of the pagoda and tower facing each other in the center of the temple reflects the characteristics of early monastery architecture.</p>
+                  <p source="#bibl000056-3">Kaiyuan Monastery was originally built in the second
+                     year of the <term ref="/keyword/k000022">Eastern Wei</term> dynasty Xinghe reign period (535) as
+                     Jingguan Monastery (Jingguansi 凈觀寺). It underwent two renamings: first to Jiehui Monastery (Jiehuisi 解慧寺) during
+                     the <term ref="/keyword/k000080">Sui</term> dynasty, and later to Kaiyuan
+                     Monastery by imperial decree in the twenty-sixth year of the <term
+                        ref="/keyword/k000082">Tang</term> dynasty Kaiyuan era (738).</p>
+                  <p source="#bibl000056-2">According to the "Record of the Reconstruction of
+                     Kaiyuan Monastery in Zhengding"(重修正定开元寺記) from the twenty-eighth year of the <term
+                        ref="/keyword/k00051">Ming</term> Wanli reign period (1601), the original site had a front courtyard with a gate tower (menlou 門樓),  
+                     Jialan Hall（Jialandian 伽蘭殿）on the left (east), Geigu Hall（Geigutang 給孤堂）to the right (west) and Vairocana Pavilion（Piluge 毘盧閣）at the back. 
+                     Following this was the <placeName ref="/place/000199">bell tower</placeName>（zhonglou
+                     鐘樓) on the left (east), brick pagoda（zhuanta 磚塔）on the right (west), and finally the Fachuan
+                     (Dharma Boat) Main Hall（Fachuan zhengdian 法船正殿）at the far end. At the time
+                     there were also Tianwang（Tianwangdian 天王殿）and Weituo
+                     Halls（Weituodian 韋陀殿), covering a total area of approximately 9,000 square
+                     meters.</p>
+                  <p source="#bibl000056-3">Since the late<term ref="/keyword/k00070"> Qing</term>
+                     dynasty, the monastery has gradually fallen into disrepair. Currently, only the
+                     bell tower and the Sumeru Pagoda (Xumita 須彌塔), as well as stone pillars from the
+                     Three-Gate Tower (sanmenlou 三門樓) of the <term ref="/keyword/k00082"> Tang</term>
+                     dynasty, unearthed in recent years, remain. The layout of the pagoda and tower
+                     facing each other in the center of the temple reflects the characteristics of
+                     early monastery architecture.</p>
                </desc>
                <note type="External Links">
                   <p>
@@ -98,10 +127,10 @@
                      <placeName xml:lang="en">County</placeName>
                   </region>
                </location>
-                  <location type="gps" subtype="preferred">
-                     <geo>38.139743 114.564927</geo>
+               <location type="gps" subtype="preferred">
+                  <geo>38.139743 114.564927</geo>
                </location>
-               
+
                <trait type="type" sub-type="site type">
                   <label>Type </label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
@@ -115,21 +144,28 @@
                </bibl>
                <bibl xml:id="bibl000056-2">
                   <ptr target="https://architecturasinica.org/bibl/KC9FTGB6"/>
-                     <citedRange unit="pp">48</citedRange>
+                  <citedRange unit="pp">48</citedRange>
                </bibl>
-                  <bibl xml:id="bibl000056-3">
-                     <ptr target="https://architecturasinica.org/bibl//EKL6CLJJ"/> 
-                     <citedRange unit="pp">36</citedRange>
-                  </bibl>
+               <bibl xml:id="bibl000056-3">
+                  <ptr target="https://architecturasinica.org/bibl//EKL6CLJJ"/>
+                  <citedRange unit="pp">36</citedRange>
+               </bibl>
             </place>
             <listRelation>
-               <relation active="https://architecturasinica.org/place/000056" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000022" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               
+               <relation active="https://architecturasinica.org/place/000056"
+                  passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject"
+                  ana="site-type"/>
+               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000022" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056" ref="dcterms:temporal"
+                  passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/54157805320_0b926a9760_c.jpg"
                   passive="https://architecturasinica.org/place/000056" ana="featured"/>
@@ -139,7 +175,7 @@
                <relation ref="foaf:depicts"
                   active="https://live.staticflickr.com/65535/54200999687_951238ec64_c.jpg"
                   passive="https://architecturasinica.org/place/000056" ana="featured"/>
-               
+
             </listRelation>
          </listPlace>
       </body>
