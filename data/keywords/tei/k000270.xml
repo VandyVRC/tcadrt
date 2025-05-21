@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">生起</foreign> shengqi</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id=""> </editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref=""> </name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000270/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-06-10-11:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#ZYY" when="2023-06-10-11:20">CREATED: record</change>
+         <change n="1.0" who="#FRC" when="2025-05-21">Update</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000264" type="architectural feature">
+            <term xml:id="term-k000270-1" xml:lang="zh-latn-pinyin-nt">shengqi</term>
+            <term xml:id="term-k000270-2" xml:lang="zh-Hant">生起</term>
+            <term xml:id="term-k000270-3" xml:lang="zh-Hans">生起</term>
+            <term xml:id="term-k000270-4" xml:lang="zh-latn-pinyin">shēngqǐ</term>
+            <term xml:id="term-k000270-5" xml:lang="zh-latn-wadegile">sheng-ch`i</term>
+            <term xml:id="term-k000270-6" xml:lang="en" source="#biblk000270-1"
+               type="literal_translation">raising up (from center to corner) (lit.)</term>
+            <term xml:id="term-k000270-7" xml:lang="en" source="#biblk000270-2"
+               type="literal_translation">rise</term>
+            <term xml:id="term-k000270-8" xml:lang="en" source="#biblk000270-3"
+               type="literal_translation">grow upward</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000270</idno>
+            <note type="Note">
+               <p>under construction</p>
+            </note>
+            <listBibl xml:id="biblk000270-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">70</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000270-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">365</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000270-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange unit="pp">104</citedRange>
+               </bibl>
+            </listBibl>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
