@@ -60,18 +60,18 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#ZYY" when="2023-06-10-11:20">CREATED: record</change>
-         <change n="1.0" who="#FRC" when="2025-05-20">Update</change>
+         <change n="1.0" who="#FRC" when="2025-05-20-11:00">Added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000264" type="architectural feature">
-            <term xml:id="term-k000264-1" xml:lang="zh-latn-pinyin-nt">juanpeng</term>
-            <term xml:id="term-k000264-2" xml:lang="zh-Hant">卷棚</term>
-            <term xml:id="term-k000264-3" xml:lang="zh-Hans">卷棚</term>
-            <term xml:id="term-k000264-4" xml:lang="zh-latn-pinyin">juǎnpéng</term>
-            <term xml:id="term-k000264-5" xml:lang="zh-latn-wadegile">chüan-p`eng</term>
-            <term xml:id="term-k000264-6" xml:lang="en" source="#biblk000269-1"
+         <entryFree xml:id="k000269" type="architectural feature">
+            <term xml:id="term-k000269-1" xml:lang="zh-latn-pinyin-nt">juanpeng</term>
+            <term xml:id="term-k000269-2" xml:lang="zh-Hant">卷棚</term>
+            <term xml:id="term-k000269-3" xml:lang="zh-Hans">卷棚</term>
+            <term xml:id="term-k000269-4" xml:lang="zh-latn-pinyin">juǎnpéng</term>
+            <term xml:id="term-k000269-5" xml:lang="zh-latn-wadegile">chüan-p`eng</term>
+            <term xml:id="term-k000269-6" xml:lang="en" source="#biblk000269-1"
                type="literal_translation"> a double-sloped roof without a ridge spine (lit.)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000269</idno>
             <note type="Note">
@@ -83,6 +83,9 @@
                   <citedRange unit="pp">50</citedRange>
                </bibl>
             </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000269" passive="roof types"/>
+            </listRelation>
          </entryFree>
       </body>
    </text>
