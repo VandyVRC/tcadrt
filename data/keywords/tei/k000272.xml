@@ -64,16 +64,20 @@
    </teiHeader>
    <text>
       <body>
-         <entryFree xml:id="k000271" type="architectural feature">
-            <term xml:id="term-k000271-1" xml:lang="zh-latn-pinyin-nt">qiao</term>
-            <term xml:id="term-k000271-2" xml:lang="zh-Hant">翹</term>
-            <term xml:id="term-k000271-3" xml:lang="zh-Hans">翘</term>
-            <term xml:id="term-k000271-4" xml:lang="zh-latn-pinyin">qiào</term>
-            <term xml:id="term-k000271-5" xml:lang="zh-latn-wadegile">ch`iao</term>
+         <entryFree xml:id="k000272" type="architectural feature">
+            <term xml:id="term-k000272-1" xml:lang="zh-latn-pinyin-nt">qiao</term>
+            <term xml:id="term-k000272-2" xml:lang="zh-Hant">翹</term>
+            <term xml:id="term-k000272-3" xml:lang="zh-Hans">翘</term>
+            <term xml:id="term-k000272-4" xml:lang="zh-latn-pinyin">qiào</term>
+            <term xml:id="term-k000272-5" xml:lang="zh-latn-wadegile">ch`iao</term>
+            <term xml:id="term-k000272-6" xml:lang="en" source="#biblk000272-1">to lift up</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000272</idno>
             <note type="Note">
                <p>under construction</p>
             </note>
+            <bibl xml:id="biblk000272-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000272" passive="bracketing"/>
             </listRelation>
