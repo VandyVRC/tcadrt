@@ -81,7 +81,7 @@
             <term xml:id="term-k000259-1" xml:lang="zh-latn-pinyin-nt" source="#biblk000259-1">guazigong</term>
             <term xml:id="term-k000259-2" xml:lang="zh-Hant">瓜子栱</term>
             <term xml:id="term-k000259-3" xml:lang="zh-Hans">瓜子栱</term>
-            <term xml:id="term-k000259-4" xml:lang="zh-latn-pinyin">guāzǐgǒng</term>
+            <term xml:id="term-k000259-4" xml:lang="zh-latn-pinyin" source="#biblk000259-5">guāzǐgǒng</term>
             <term xml:id="term-k000259-5" xml:lang="zh-latn-wadegile">kua-tzu-kung</term>
             <term xml:id="term-k000259-6" xml:lang="zh-latn-pinyin-nt" type="alternative" source="#biblk000259-2">guazi gong</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000259</idno>
@@ -128,6 +128,10 @@
             <bibl xml:id="biblk000259-4">
                <ptr target="https://architecturasinica.org/bibl/2ZUFYQ46"/>
                <citedRange unit="pp">4.3a</citedRange>
+            </bibl>
+            <bibl xml:id="biblk000259-5">
+               <ptr target="https://architecturasinica.org/bibl/LYSELFDD"/>
+               <citedRange unit="pp">104</citedRange>
             </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
