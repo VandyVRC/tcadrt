@@ -12,15 +12,16 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id=""> </editor>
+            <editor role="content-author" xml:id="LXR">LI Xingru 李幸儒</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref=""> </name>
+               <name type="person" ref="#LXR">LI Xingru 李幸儒 </name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -84,6 +85,15 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000277</idno>
             <note type="Note">
                <p>under construction</p>
+               <p xml:lan="en">Boji refers to a horizontal ridge where a sloped roof intersects with the vertical part of the building (). This includes the horizontal ridge where the lower eaves 
+                  roof under the <term ref="/keyword/k000211">pingzuo 平坐</term> meets the vertical face of the building at its upper end (); the horizontal ridge where the sloped roofs on gable sides meet the building in a 
+                  hip-and-gable <term ref="/keyword/k000143">(xieshan 歇山)</term> roof (); and the ridge where the lower eave of a multi-tiered roof meets the vertical part  (). It also refers to the roof ridges at the highest part of 
+                  a building with a four sloped roof with a flat center (luding 盝頂 (Guo Qinghua 56)). The common characteristic of boji ridges is that only one side is visible from the exterior. 
+                  In Qing dynasty texts, boji mainly refers to the horizontal ridge on gable sides in a hip-gable (xieshan) roof, which has become the mainstream interpretation of boji among modern 
+                  scholars.</p>
+               <p xml:lang="zh-Hant">“博脊”指中國古代建築屋脊的一種，通常指一面斜坡屋頂與建築物垂直部分相交處的水平屋脊（梁 1981,84），如平座下簷屋面上端與建築垂直面相交處（李 2009,9.6a，寫作“搏脊”）；歇山頂兩端坡面與山面交接處之
+                  水平屋脊（如《帝阙城垣规制》（茹敦和 等 2000,4-143）；以及重簷下簷或多層建築下層屋簷與垂直面相交處的脊（如《帝阙城垣规制》（茹敦和 等 2000,4-145）；梁和刘 1935,4））等。也用來指盝頂最高處的屋脊（如《帝阙城垣规制》
+                  （茹敦和 等 2000,4-147））。這些屋脊的共同特徵是只有朝外的一面可見。清代文獻中的“博脊”主要指歇山頂兩端坡面與山面交接處之水平屋脊，這也成為現代學者的主流觀點。</p>      
             </note>
             <listBibl xml:id="biblk000276-1">
                <bibl>
