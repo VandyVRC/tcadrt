@@ -13,14 +13,15 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id=""> </editor>
+            <editor role="content-author" xml:id="CK">Che Kai 車凱</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref=""> </name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#CK">Che Kai 車凱</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -80,9 +81,21 @@
             <term xml:id="term-k000273-3" xml:lang="zh-Hans">叉柱造</term>
             <term xml:id="term-k000273-4" xml:lang="zh-latn-pinyin">chāzhùzào</term>
             <term xml:id="term-k000273-5" xml:lang="zh-latn-wadegile">ch`a-chu-tsao</term>
+            <term xml:id="term-k000273-6" xml:lang="en" type="literal_translation"> Fork pillar construction (lit.)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000273</idno>
             <note type="Note">
                <p>under construction</p>
+               <p xml:lan="en">Literally “fork pillar construction,” the term chazhuzao is first documented in Yingzao fashi. （） The term derives from “cha” (meaning fork) and “zao” 
+                  (meaning standardized construction) （）. Chazhuzao refers to a construction technique that is used in traditional multi-story timber buildings <term ref="/keyword/k000177">(louge 樓閣)</term> and pagodas <term ref="/keyword/k000060">(ta 塔)</term>. 
+                  The key feature of chazhuzao is that the upper pillar’s base is notched like a fork to fit into the bracket components (called <term ref="/keyword/k000158">ludou 櫨斗</term>) of the pingzuo below, ensuring vertical 
+                  alignment between upper and lower columns. （） Historical examples of this technique can be found in buildings from the Song (960-1279), Liao (907-1125), and Jin (1115-1234) 
+                  dynasties, such as the Guanyin Pavilion in Dule Si in Ji County, Hebei Province. Scholars have studied this technique extensively, debating its origins and structural functions. 
+                  （） In contemporary research, chazhuzao has also been extended to refer to the method of reducing the scale of the upper floor relative to the floor beneath it. As each story is 
+                  narrowed towards the top, the eaves pillars of the upper floors are shifted inward. （）</p>
+               <p xml:lang="zh-Hant">叉柱造仅见于《营造法式》（李 2009,4.10b）。“叉”指顶端分岔的叉子形状；“造”指定型化的构造做法（张 2001）。</p>
+               <p xml:lang="zh-Hant">叉柱造用於多層建築，如樓閣和塔，是一种上层柱与平坐结合的构造形式，且上层柱与平坐柱上下对齐；具体做法为上层柱脚开槽，向下落入平坐铺作，叉立于平坐铺作栌枓上。其实例见于宋辽金木构建筑楼阁，
+                  如蓟县独乐寺观音阁。关于叉柱造的当代研究，集中于其历史源流与作用（陈 1981,144；陈 2012；张 2015；喻 2021)，但学者间观点并不完全相同。此外，叉柱造在当代研究中亦被引申为通過內移上層柱形成楼阁上下层收分的方式
+                  （陈 1981,141）。</p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000273" passive="foundations"/>
