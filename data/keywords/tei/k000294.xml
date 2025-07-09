@@ -13,14 +13,15 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id=""> </editor>
+            <editor role="content-author" xml:id="FSJ">Fan Sijia 樊思嘉</editor>
             <respStmt>
                <resp>Website coordination by</resp>
                <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref=""> </name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#FSJ">Fan Sijia 樊思嘉</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -83,9 +84,23 @@
             <idno type="URI">https://architecturasinica.org/keyword/k000294</idno>
             <note type="Note">
                <p>under construction</p>
+               <p xml:lan="en">The term cheshang mingzao 徹上明造 appears exclusively in the Yingzao fashi (Li 2009, 4.6a, 5.2a, 5.3a, 5.6b). Literally “fully-visible construction,” 
+                  the character che 徹 means “to penetrate,” while cheshang 徹上 indicates “thoroughness” or “completeness.” The term ming 明 denotes “visible” or “illuminated” and zao 造 
+                  is any method of construction. [2] Combined, the terms refer to a traditional Chinese architectural practice where all structural components of the interior ceiling are 
+                  visible. When this technique is employed, the finishing of the beam framework requires meticulous craftsmanship. </p>
+               <p xml:lan="en">Scholars generally agree that cheshang mingzao refers to the complete visibility of the interior structural framework of the roof [Liang 3]; Pan and He [4]; 
+                  Chen [5]; Fu [6]). However, in practice, it is common to find examples where some structural elements are exposed while others are concealed behind a ceiling. 
+                  Contemporary scholars often use both “cheshang mingzao” and “pingqi” 平棊 in their descriptions of exposed interior frames [7], even though this is often misleading given 
+                  the original meaning of “complete exposure.” Contemporary scholars have introduced the neologism cheshang lumingzao 徹上露明造 [8]（Liang 2006, 5) (sometimes abbreviated to 
+                  lumingzao 露明造) as synonyms for cheshang mingzao.</p>
+               <p xml:lang="zh-Hant">“徹上明造”一詞僅見于宋《營造法式》（Li 2009, 4.6a,5.2a,5.3a,5.6b），指中國古代建築室內頂部全部構架顯露可見的做法。當使用徹上明造時，梁架構件需做精緻處理。“徹”是通的意思，
+                  “徹上”表示貫通，通達。（漢語大詞典2.0電子版2002） “明”，指顯露。學界共識是“徹上明造”室內構架應全部可見（梁思成 1983, 109；潘谷西和何建中 2005, 251；陳明达 1021, 401；傅熹年 2009, 534）。
+                  實例中常見部分顯露，部分有天花的情況。當代學者會同時使用“徹上明造”及平棊等加以描述（侯幼彬 、李婉貞，2002：90），但這與徹上明造全部露明的意思存在矛盾。當代文獻中又有 “徹上露明造” （梁思成，2006：5）、
+                  “露明造"，均為當代學者新創造的術語。</p>                 
             </note>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000294" passive="ceilings and ceiling components"/>
+               <relation ref="foaf:depicts" active="https://flic.kr/p/2k8jkJt" passive="https://architecturasinica.org/keyword/k000294" ana="featured"/>
             </listRelation>
          </entryFree>
       </body>
