@@ -16,7 +16,7 @@
             <editor role="content-author" xml:id="FSJ">Fan Sijia 樊思嘉</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id=""></name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
@@ -81,6 +81,10 @@
             <term xml:id="term-k000294-3" xml:lang="zh-Hans">彻上明造</term>
             <term xml:id="term-k000294-4" xml:lang="zh-latn-pinyin">chèshàngmíngzào</term>
             <term xml:id="term-k000294-5" xml:lang="zh-latn-wadegile">ch`e-shang-ming-tsao</term>
+            <term xml:id="term-k000294-6" xml:lang="en" source="#biblk000294-1"
+               type="literal_translation">fully-visible construction (lit.)</term>
+            <term xml:id="term-k000294-7" xml:lang="en" source="#biblk000294-2">open-frame construction</term>
+            <term xml:id="term-k000294-8" xml:lang="en" source="#biblk000294-3">exposed ceiling construction</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000294</idno>
             <note type="Note">
                <p>under construction</p>
@@ -98,9 +102,34 @@
                   實例中常見部分顯露，部分有天花的情況。當代學者會同時使用“徹上明造”及平棊等加以描述（侯幼彬 、李婉貞，2002：90），但這與徹上明造全部露明的意思存在矛盾。當代文獻中又有 “徹上露明造” （梁思成，2006：5）、
                   “露明造"，均為當代學者新創造的術語。</p>                 
             </note>
+            <note type="related concepts">
+               <p source="#biblk000294-4">徹脊明 chejiming</p>
+            </note>
+            <listBibl xml:id="biblk000294-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+                  <citedRange unit="pp">54</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">351</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WUDQBWLT"/>
+               </bibl>
+            </listBibl>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000294" passive="ceilings and ceiling components"/>
-               <relation ref="foaf:depicts" active="https://flic.kr/p/2k8jkJt" passive="https://architecturasinica.org/keyword/k000294" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50622265003_d4b20aed20_b.jpg" passive="https://architecturasinica.org/keyword/k000294" ana="featured"/>
             </listRelation>
          </entryFree>
       </body>
