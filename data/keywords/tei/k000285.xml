@@ -12,15 +12,16 @@
             <principal xml:id="TGM">Tracy Miller</principal>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
-            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id=""> </editor>
+            <editor role="content-author" xml:id="NGP">NING Guiping 寧桂萍</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id=""></name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref=""> </name>
+               <name type="person" ref="NGP">NING Guiping 寧桂萍</name>
+               <name type="person" ref="BY">BAI Ying 白穎</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -80,9 +81,17 @@
             <term xml:id="term-k000285-3" xml:lang="zh-Hans">破子棂窗</term>
             <term xml:id="term-k000285-4" xml:lang="zh-latn-pinyin">pòzilíngchuāng</term>
             <term xml:id="term-k000285-5" xml:lang="zh-latn-wadegile">p`o-tzu-ling-ch`uang</term>
+            <term xml:id="term-k000285-6" xml:lang="en" type="literal_translation">split bar window (lit.)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000285</idno>
             <note type="Note">
                <p>under construction</p>
+               <p xml:lan="en">Poziling chuang, literally “split-bar window,” is a kind of window installed between pillars and on top of yaochuan (waist bar or wall divider). This type of window 
+                  derives its name from the triangular cross-section of the bars filling the window frame, which are made in pairs by sawing a square-sectioned timber diagonally. In this type of 
+                  window the bars are fixed, thus it cannot be opened.</p>
+               <p xml:lan="en">According to Yingzao fashi, the height of poziling chuang is between 4 and 8 chi, nearly 1.25 to 2.50 meters. The number of bars is determined by the rule that the 
+                  distance between each bar must be  0.1 chi. The width and height of the bars can be changed according to the height of the window.(Li 2009, 6.4b-5a)</p>
+               <p xml:lang="zh-Hant">安裝在柱間腰串以上的不可啟閉窗戶形式，因其窗櫺截面為三角形（方形一破為二）得名。依照《營造法式》的規定（李 2009，6.4b-5a），破子櫺窗高四尺至八尺，約1.25公尺至2.50公尺之間。以窗櫺間空隙以
+                  一吋為定法確定窗櫺條數，窗櫺的寬度和高度則隨窗高而變化。</p>
             </note>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000285" passive="openings (doors and windows)"/>
