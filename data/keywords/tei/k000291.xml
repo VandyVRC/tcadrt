@@ -13,14 +13,15 @@
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
-            <editor role="content-author" xml:id=""> </editor>
+            <editor role="content-author" xml:id="ZJY">ZHANG Jingyi張婧怡</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id=""></name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision: </resp>
-               <name type="person" ref=""> </name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#ZJY">ZHANG Jingyi張婧怡</name>
             </respStmt>
             <respStmt>
                <resp>Peer review by</resp>
@@ -80,10 +81,19 @@
             <term xml:id="term-k000291-3" xml:lang="zh-Hans">顺身串</term>
             <term xml:id="term-k000291-4" xml:lang="zh-latn-pinyin">shùnshēnchuàn</term>
             <term xml:id="term-k000291-5" xml:lang="zh-latn-wadegile">shun-shen-ch`uan</term>
+            <term xml:id="term-k000291-6" xml:lang="en" source="#biblk000291-1" >longitudinal tie</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000291</idno>
             <note type="Note">
                <p>under construction</p>
+               <p xml:lan="en">Shunshenchuan 順身串, a type of <term ref="/keyword/k000289">chuan</term> 串 in traditional Chinese architecture, is a connecting component inserted between columns and positioned parallel to the direction 
+                  of the ridge purlin. Its sectional dimension is typically as high and wide as one cai 材 (a timber of standard width and height in Song-dynasty carpentry), measuring 15 fen 分 in 
+                  height and 10 fen in width. The term shunshenchuan first appeared in the Yingzao fashi (Li, 2009, 19.2b).</p> 
+               <p xml:lang="zh-Hant">順身串是串的一種，作為建築構件名稱最早出現在宋《營造法式》（李誡2009，19.2b）。順身串是順屋身方向的柱間聯繫構件。《營造法式》規定其斷面廣厚如材（15分x10分）。實例如福州華林寺大殿（964年）。</p>                  
             </note>
+            <bibl xml:id="biblk000291-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">74</citedRange>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000291" passive="building frame"/>
             </listRelation>
