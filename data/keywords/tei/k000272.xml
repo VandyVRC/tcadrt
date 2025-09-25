@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">翹</foreign>qiao</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="FRX">FENG Ruoxin 馮若昕</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#FRX">FENG Ruoxin 馮若昕</name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000272/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-06-10-11:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-21-12:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000272" type="architectural feature">
+            <term xml:id="term-k000272-1" xml:lang="zh-latn-pinyin-nt">qiao</term>
+            <term xml:id="term-k000272-2" xml:lang="zh-Hant">翹</term>
+            <term xml:id="term-k000272-3" xml:lang="zh-Hans">翘</term>
+            <term xml:id="term-k000272-4" xml:lang="zh-latn-pinyin">qiào</term>
+            <term xml:id="term-k000272-5" xml:lang="zh-latn-wadegile">ch`iao</term>
+            <term xml:id="term-k000272-6" xml:lang="en" source="#biblk000272-1">to lift up</term>
+            <term xml:id="term-k000272-7" xml:lang="en" source="#biblk000272-2">projecting bracket</term>
+            <term xml:id="term-k000272-8" xml:lang="en">raise the edge of</term>
+            <term xml:id="term-k000272-9" xml:lang="en">to fly; the bird’s tail</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000272</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Qiao 翘, as an architectural term, first appeared in the Gongcheng zuofa in the <term ref="/keyword/k000070">Qing</term> dynasty, and is otherwise mainly seen in construction literature of the Qing dynasty 
+                  official style buildings. This term has the following three meanings:</p>
+               <p xml:lan="en">1. In bracket sets (<term ref="/keyword/k000019">dougong</term> 斗栱), qiao refers to arms (<term ref="/keyword/k000169">gong</term> 栱) that protrude inward or outward. At present, there is a consensus in the academic community that qiao in 
+                  the Qing dynasty is the same as blossoming bracket-arms (<term ref="/keyword/k000172">huagong</term> 華栱) of the <term ref="/keyword/k000074">Song</term> dynasty. Some scholars argue that qiao 翘 is a variation of tiao 挑, and chuqiao 出翘 is the equivalent 
+                  of chutiao 出挑 or chutiao 出跳 (Liu Zhiping, 1957，81). However this view has not been fully accepted. </p>
+               <p xml:lan="en">2. In the position of the corner eaves (yijiao 翼角) of a building, qiao is used as a noun, shortened from yijiao qiaochuan 翼角翘椽 or yijiao qiaofei chuan 翼角翘飞椽. These 
+                  terms refer to the upturning of the rafters (chuanzi 椽子) and flying rafters (feichuan 飛椽) of the corner eaves.</p>
+               <p xml:lan="en">3. In the position of the corner eaves (yijiao 翼角) of a building, qiao 翘 can also refer to the height of the upward curve of the eaves at the corners. This usage was first 
+                  seen in the Qing dynasty Gongcheng zuofa and was later used in the formula "chong san qiao si 冲三翹四" (outward three and upward four) to decide the outward extension and upward curvature 
+                  of the corners of the roof eaves.</p>
+               <p xml:lang="zh-Hant">翹，作爲建築術語，最早出現在清工部《工程做法》，且主要出現在清官式營造文獻中。有以下三種含義：</p>
+               <p xml:lang="zh-Hant">1.在大木作斗栱中，翹指向內、外出跳的栱。目前學界共識認為清代斗栱中的翹即爲宋代的華栱。且有學者認爲“翹”是“挑”的變音，“出翹”即是“出挑”或“出跳”（劉致平，1957：81），以此作爲該術語的來源，
+                  但該説法尚無定論。</p>
+               <p xml:lang="zh-Hant">2.在建築的翼角位置，“翹”作爲名詞用作“翼角翹椽”或“翼角翹飛椽”的簡稱，分別為翼角位置的椽子及飛椽。</p>
+               <p xml:lang="zh-Hant">3.在建築的翼角位置，翹還可以代指“起翹高度”。最早見於《工程做法》（清工部 1734，1.24a），后作爲口訣，以“冲三翹四”的形式，應用於翼角部分古建築大木施工做法。</p>
+            </note>
+            <bibl xml:id="biblk000272-1">
+               <ptr target="https://architecturasinica.org/bibl/8RRW96CV"/>
+            </bibl>
+            <bibl xml:id="biblk000272-2">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+            </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000272" passive="bracketing"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

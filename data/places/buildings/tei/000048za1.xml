@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Futu Cloister, Sheli shengsheng ta <foreign xml:lang="zh-Hant">晉祠浮屠院舍利生生塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="content author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048za1/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-09-19-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2024-09-19-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-11-15-04:00">update</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048za4" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048za1-1" xml:lang="en">Sheli sheng sheng ta </placeName>
+               <placeName xml:id="name000048za1-2" type="building-name" xml:lang="zh-Hant">舍利生生塔</placeName>
+               <placeName xml:id="name000048za1-3" type="building-name" xml:lang="zh-Hans">舍利生生塔</placeName>
+               <placeName xml:id="name000048za1-4" type="building-name" xml:lang="zh-latn-pinyin">Shèlì shēng shēng tǎ</placeName>
+               <placeName xml:id="name000048za1-5" type="building-name" xml:lang="zh-latn-wadegile">She-li sheng sheng t'a</placeName>
+               <placeName xml:id="name000048za1-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Futuyuan Sheli sheng sheng ta</placeName>
+               <placeName xml:id="name000048za1-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠浮屠院舍利生生塔</placeName>
+               <placeName xml:id="name000048za1-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠浮屠院舍利生生塔</placeName>
+               <placeName xml:id="name000048za1-9" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Pagoda cloister, Living Relic pagoda</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048za1</idno>
+               <state type="existence" from="0581-01-01" to="1751-12-31">
+                  <label>Date</label>
+                  <desc>586 or 622; rebuilt 1748-1751</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048za1-1" from="0581-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Sui-Qing 581 - 1912</desc>
+               </state>
+               <desc type="building-data">
+                  <p>The Sheli shengsheng ta was likely founded in the sixth year of the Sui, Kaihuang era (586), although some documents suggest it was founded in the fifth year of the Tang Wude era (622). The pagoda was repaired in the third year of the Baoyuan reign period (1040 CE) and was rebuilt in 1751 during the Qianlong reign period. Further repairs were made in 2012. The current structure reaches a total height of 37.8 and is seven stories tall with each story gradually tapering bottom to top. Octagonal in plan, the 1.4 meter high brick foundation platform is 6.35 m wide on each side. Above this is an octagonal, Sumeru-style, stone pagoda base which is 1.58 m tall with each of the eight sides measuring 4.25 meters.</p>
+                  
+                  <p source="#bibl000048za-2">The door on the first floor is located on the south side and there is an interior stone staircase around the center leading up to the top level. From the second level up each façade has an arched window frame which is alternately walled or open to the interior. Above the arched windows are carved horizontal brick plaques. Under the eaves of each story are bracket sets and flying rafters carved in brick. Above this is a level, balconey-like platform (<term ref="/keyword/k000211"> pingzuo 平座/平坐</term>). Glazed roofridge ornaments are used in the place of a railing and are sufficiently sturdy to allow one to have a good view of the surrounding scenery. </p>
+                  
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>37.706490 112.433446</geo>
+               </location>
+               <location type="verbatim">
+                  <note>located using ArcGIS 2024-10-18</note>
+               </location>
+               
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+               </trait>
+               <listBibl xml:id="bibl000048za1-1"> 
+              <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000048za1-2">
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                    <citedRange unit="pp">131</citedRange>
+                 </bibl>
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                    <citedRange unit="pp">Vol. 6, 1</citedRange>
+                 </bibl>
+               </listBibl>
+            </place>
+         <listRelation>
+            <relation active="https://architecturasinica.org/place/000048za1" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+            <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+            <relation active="https://architecturasinica.org/place/000048za1" passive="https://architecturasinica.org/keyword/k000211" ref="dcterms:subject" ana="architectural-feature"/>
+            <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+            <relation active="https://architecturasinica.org/place/000048za1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+            <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+            <relation ana="contained" active="https://architecturasinica.org/place/000048za1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048za"/>
+              <relation ref="foaf:depicts"
+                 active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
+                 passive="https://architecturasinica.org/place/000048za1" ana="featured"/>
+            <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/51532186437_d53e4fbea8_b.jpg"
+               passive="https://architecturasinica.org/place/000048za1" ana="featured"/>            
+               <relation ref="foaf:depicts"
+               active="https://live.staticflickr.com/65535/54152221431_1d4c50df3b_b.jpg"
+               passive="https://architecturasinica.org/place/000048za1" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

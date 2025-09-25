@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">
+               Jin Shrines, Fengshengsi Daxiongbao Hall  
+               <foreign xml:lang="zh-Hant">晉祠奉聖寺大雄寶殿</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="content author" xml:id="ZEJ">ZHANG Enjia 张恩嘉</editor>
+            <respStmt>
+               <resp>Editing and proof correction:</resp>
+               <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048ya3/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-09-26-01:40</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2024-09-19-04:00">CREATED: place record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048ya3" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048ya3-1" xml:lang="en">Fengshengsi Daxiongbao Hall </placeName>
+               <placeName xml:id="name000048ya3-2" type="building-name" xml:lang="zh-Hant">奉聖寺大雄寶殿</placeName>
+               <placeName xml:id="name000048ya3-3" type="building-name" xml:lang="zh-Hans">奉圣寺大雄宝殿</placeName>
+               <placeName xml:id="name000048ya3-4" type="building-name" xml:lang="zh-latn-pinyin">Fèngshèngsì dàxióngbǎodiàn</placeName>
+               <placeName xml:id="name000048ya3-5" type="building-name" xml:lang="zh-latn-wadegile">Feng sheng ssu ta hsiung pao tien</placeName>
+               <placeName xml:id="name000048ya3-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery Daxiongbaodian</placeName>
+               <placeName xml:id="name000048ya3-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺大雄寶殿</placeName>
+               <placeName xml:id="name000048ya3-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺大雄宝殿</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048ya3</idno>
+               <state type="existence" from="1069-01-01" to="1070-01-01">
+                  <label>Date</label>
+                  <desc>1069; with later modifications</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048ya3-1" from="960-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Song 960 through Qing 1912</desc>
+               </state>
+               <desc type="building-data" source="#bibl000048ya3-2">
+                  <p source="#bibl000048ya3-1">
+                     The Fengsheng Monastery Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿) was relocated from Fanglin Monastery in Taiyuan, Shanxi. According to the Qing dynasty Yangqu xianzhi (阳曲县志), Fanglin Monastery was first constructed in 1069 during the
+                     <term subtype="dynasty" ref="/keyword/k000055">Northern Song Dynasty</term>
+                     and was renovated multiple times during the
+                     <term subtype="dynasty" ref="/keyword/k000051">Ming</term>
+                     and
+                     <term subtype="dynasty" ref="/keyword/k000070">Qing</term>
+                     Dynasties. Currently, the date of this building is under debate. The hall stands on an elevated platform and is covered by a single-eaves, hip-gable roof
+                     <term ref="/keyword/k000143">(xieshanding 歇山頂)</term>
+                     . The hall spans five bays in width and eight rafters in depth, and stands 13.5 meters tall.
+                  </p>
+                  <p>
+                     The transverse structure of the building, that perpendicular to the roof ridge, is composed of six
+                     <term ref="/keyword/k000107"> rafter 椽</term>
+                     beams paired with
+                     <term ref="/keyword/k000140">two infant beams</term>
+                     , with three columns supporting the roof’s extended eaves. A row of inner pillars is used in the back of the hall, and two beams on both sides of gable hall adopt the
+                     <term ref="/keyword/k000011">chuandou 穿斗</term>
+                     system (penetrating and interlocking framework). The
+                     <term ref="/keyword/k000019">dougong 斗拱</term>
+                     bracket sets are large and consist of five layers of bracket arms
+                     <term ref="/keyword/k000017">puzuo 铺作</term>
+                     , supporting and extending roof eaves. The
+                     <term ref="/keyword/k000023">jixin 计心造</term>
+                     construction is also used here.
+                  </p>
+                  <p> Nine statues of deities, including Śākyamuni, Samantabhadra , and Mañjuśrī  are inside of Treasure Hall. The frescoes on the two side walls and the wall near the eaves inside the hall depict thirty-six legendary stories from the life of Shakyamuni. The rear wall of the main hall features the Buddha figures includes Amitâbha Buddha, bodhisattvas Avalokitêśvara, and Mahāsthāmaprāpta.</p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>37.706307 112.433012</geo>
+               </location>
+               <!-- 
+               <location type="verbatim">
+                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
+               </location>
+               -->
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">palatial hall</desc>
+                  <desc xml:lang="zh-latn-pinyin">dian</desc>
+                  <desc xml:lang="zh-Hant">殿</desc>
+                  <desc xml:lang="zh-Hans">殿</desc>
+               </trait>
+               <bibl xml:id="bibl000048ya3-1">
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+               <bibl xml:id="bibl000048ya3-2">
+                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                  <citedRange unit="pp">108</citedRange>
+               </bibl>
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000048ya3" passive="https://architecturasinica.org/keyword/k000130" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000048ya3" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000074" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya3" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya3" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya3" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53995896679_88aa8a08a2_b.jpg" passive="https://architecturasinica.org/place/000048ya3" ana="featured"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54101776298_cb3d4e2c5a_c.jpg" passive="https://architecturasinica.org/place/000048ya3" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

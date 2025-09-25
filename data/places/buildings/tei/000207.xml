@@ -12,15 +12,19 @@
             <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Proof correction and revision by</resp>
+               <resp>Proof correction and revision: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations by</resp>
+               <resp>Adding citations: </resp>
                <name type="person" xml:id="SQ">Song Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, data entry, adding images, and adding citations by</resp>
+               <resp>Adding diacritical marks to Pinyin, adding Wade-Giles: </resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, data entry, adding images, and adding citations: </resp>
                <name type="person" when="2021-12-14" ref="ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -52,11 +56,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">Adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change n="2.1" who="#ZC" when="2021-12-14">Adding content</change>
-         <change n="2.2" who="#TGM" when="2022-02-26">Editing</change>
+         <change n="1.1" who="#SQ" when="2020-04-01">Adding citation</change>
+         <change n="1.2" who="#SLY" when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles</change>
+         <change n="1.3" who="#ZC" when="2021-12-14">Adding content</change>
+         <change n="1.4" who="#TGM" when="2022-02-26">Editing</change>
+         <change n="1.5" who="#TGM" when="2024-12-02">updating geolocation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -86,14 +90,14 @@
                </state>
                   <desc type="building-data" xml:lang="en"> 
                      <p source="#bibl000063-1">
-                        West Side Hall, also known as the Guanyin Hall (Guanyin tang 觀音堂), is the oldest structure with an overhanging-gable (<term ref="/keyword/k000146">xuanshan 懸山</term>) roof as well as the earliest side hall extant in China (Miller 2011, 179). According to both the early structural characteristics and inscriptions, it was constructed in the third year of Tongguang reign period in the <term ref="/keyword/k000043">Later Tang</term> (925) (Miller 2011, 179). The foundation of the hall is made of stone with a height of 0.20 meters. The hall is three <term ref="/keyword/k000149">bays</term> wide and four rafters deep — 9.87 meters across the front facade and 6.8 meters across the side facade — with a single-eaves overhanging-gable roof (Miller 2011, 179). Inside of the hall, the four-rafter beams (sichuanfu 四椽栿) connect the front and back eaves. On top of the rafters, there are camel's-hump-shaped braces (<term ref="/keyword/k000133">tuofeng 駝峰</term>) and large bearing blocks (<term ref="/keyword/k000157">dou 斗</term>) to support the level cross beam (<term ref="/keyword/k000139">pingliang 平梁</term>). The front eaves pillars (<term ref="/keyword/k000111">yanzhu 簷柱</term>) are built into the front wall. The tops of the columns are rounded showing juansha 卷殺, often translated as entasis. The tie beam through the top of the columns (<term ref="/keyword/k000038">lan’e 闌額</term>) is placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term>. The lan’e do not extend beyond the pillars and there is no intercolumnar bracketing (<term ref="/keyword/k000105">bujian puzuo 补间铺作</term>). The central bay under the front eaves has a panel door (banmen 板门) and the secondary bays have windows. Both the door and the windows are slightly smaller than in later periods (Guojia wenwuju 2006, 304). 
+                        West Side Hall, also known as the Guanyin Hall (Guanyin tang 觀音堂), is the oldest structure with an overhanging-gable (<term ref="/keyword/k000146">xuanshan 懸山</term>) roof as well as the earliest side hall extant in China (Miller 2011, 179). According to both the early structural characteristics and inscriptions, it was constructed in the third year of Tongguang reign period in the <term ref="/keyword/k000043">Later Tang</term> (925) (Miller 2011, 179). The foundation of the hall is made of stone with a height of 0.20 meters. The hall is three <term ref="/keyword/k000149">bays</term> wide and four rafters deep — 9.87 meters across the front facade and 6.8 meters across the side facade — with a single-eaves overhanging-gable (<term ref="/keyword/k000146">xuanshan 懸山</term>) roof  (Miller 2011, 179). Inside of the hall, the four-rafter beams (sichuanfu 四椽<term ref="/keyword/k000028">栿</term>) connect the front and back eaves. On top of the rafters, there are camel's-hump-shaped braces (<term ref="/keyword/k000133">tuofeng 駝峰</term>) and large bearing blocks (<term ref="/keyword/k000157">dou 斗</term>) to support the level cross beam (<term ref="/keyword/k000139">pingliang 平梁</term>). The front eaves pillars (<term ref="/keyword/k000111">yanzhu 簷柱</term>) are built into the front wall. The tops of the columns are rounded showing juansha 卷殺, often translated as entasis. The tie beam through the top of the columns (<term ref="/keyword/k000038">lan’e 闌額</term>) is placed between the pillars with no <term ref="/keyword/k000067">pupaifang 普拍枋</term>. The lan’e do not extend beyond the pillars and there is no intercolumnar bracketing (<term ref="/keyword/k000105">bujian puzuo 补间铺作</term>). The central bay under the front eaves has a panel door (banmen 板门) and the secondary bays have windows. Both the door and the windows are slightly smaller than in later periods (Guojia wenwuju 2006, 304). 
                      </p>
                   </desc>  
                <location type="gps" subtype="preferred">
-                  <geo>36.387495 113.6201617</geo>
+                  <geo>36.3902167 113.6227167</geo>
                </location>
                <location type="verbatim">
-                  <note>36˚ 23' 24.97" N (google earth-satellite) 113˚ 37' 20.97" E </note>
+                  <note>36°23.41300', 113°37.36300 (Garmin 2019-05-28)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -127,7 +131,6 @@
             <listRelation>
                <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>
                <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/keyword/k000024" ref="dcterms:subject" ana="architectural-feature"/>
-               <relation active="https://architecturasinica.org/place/000207" passive="https://architecturasinica.org/keyword/k000007" ref="dcterms:subject" ana="architectural-feature"/>
                <relation active="https://architecturasinica.org/place/000207" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000043" ana="dynasty"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721689640_96cc2b8be5_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>
                <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/51721471434_363b126d77_6k.jpg" passive="https://architecturasinica.org/place/000063" ana="featured"/>

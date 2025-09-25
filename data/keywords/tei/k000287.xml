@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">雀替</foreign>queti</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="LZZ">LI Zizi 李孜孜</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying  白穎</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#LZZ">LI Zizi 李孜孜</name>
+               <name type="person" ref="#BY">BAI Ying  白穎</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000287/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-26-17:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-26-17:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000287" type="architectural feature">
+            <term xml:id="term-k000287-1" xml:lang="zh-latn-pinyin-nt">queti</term>
+            <term xml:id="term-k000287-2" xml:lang="zh-Hant">雀替</term>
+            <term xml:id="term-k000287-3" xml:lang="zh-Hans">雀替</term>
+            <term xml:id="term-k000287-4" xml:lang="zh-latn-pinyin">quètì</term>
+            <term xml:id="term-k000287-5" xml:lang="zh-latn-wadegile">ch`üeh-t`i</term>
+            <term xml:id="term-k000287-6" xml:lang="en" source="#biblk000287-1" >Sparrow brace</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000287</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Queti 雀替 is a supporting component widely used in Ming and Qing dynasty architecture. Typically positioned at the column tops or integrated with <term ref="/keyword/k000019">dougong</term> (bracket sets), 
+                  it supports horizontal members that run parallel to its length. Queti stabilizes the structure by increasing the contact surface area to protect the joint. In official <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> 
+                  architecture, the queti developed a standardized form characterized by cloud-like curved bases and oblique ends. When installed symmetrically on both sides of a pillar, its appearance 
+                  resembles a bird with spread wings. Queti are usually combined with other decorative components, which are specified in official regulations. （Wang et al. 1993, 22; Qinggongbu 1734, 28.30a) </p>
+               <p xml:lan="en">Structurally, queti can be classified into two main categories. The first type, “separable” queti, is the most prevalent form. In separable queti, a tenon joint at one end 
+                  is inserted into the pillar, while nails at the top affix the queti to horizontal members (see illustration). The second type is “integral” queti, which either penetrates through the pillar 
+                  body or, when used in dougong partitions, rests atop the cap block (<term ref="/keyword/k000158">ludou</term>) and connects to upper members via nails or hidden tenons. This type of queti functions similarly to timu, but has 
+                  a different shape.The term queti appears in historical texts on official architecture using a number of different characters and names, for example 雀替 (queti), 鵲替 (queti), 榱題 (cuiti), 
+                  or 雀木 (quemu). </p>
+               <p xml:lan="en">Contemporary scholarship, notably influenced by Liang Sicheng's work, sometimes refers to queti as jiaoti 角替—a usage possibly stemming from Liang's miswriting that has 
+                  influenced subsequent research. Liang categorized queti into seven types based on extant examples. His  classification broadened the concept to encompass Tibetan architectural tuomu and 
+                  Ming-Qing royal building decorative elements, such as hua yazi (see illustration). Building on Liang's research, contemporary scholars have explored the nomenclature, morphology, 
+                  structural functions, and origins of queti. The term's semantic scope has evolved from its historical usage, with some scholars narrowly defining it as the wooden support for <term ref="/keyword/k000115">efang</term> or 
+                  lan'e at the column tops, while others extending its use more broadly. （Liang 1936, 4-5; Guo 2005, 183-184; Gao 2009; Zhuang and Hu 2007) </p> 
+               <p xml:lang="zh-Hant">“雀替”指明清建築中的一種承托構件，常用於柱上端，或與枓拱組合以承托上方與雀替長平行的水平構件，通過加大接觸面，保護其上水平構件與柱間節點，維護結構穩定性。雀替輪廓在明清官式建築中形成了一種較為
+                  固定的形式，下部作雲曲線，端頭作斜直線。于柱左右設置時如鳥雀展翅。在清官式建築中，雀替通常與其它裝飾性構件結合。（王璞子等,1993，22; 清工部 1734，28.30a)</p>
+               <p xml:lang="zh-Hant">雀替構造方式可分為兩類。一、分件式雀替，通常一端開榫插於柱內，上方用釘與水準構件相連，為最常見做法。此外，當柱間距較近時兩塊雀替連做為“騎馬雀替”時，或三檁垂花門中做假素雀替時，“雀替”兩端開榫，
+                  插於兩端柱內。二、整體式雀替。用於枓栱隔架科中，騎於枓上。以釘或暗銷與上方構件相連。用於柱上時，穿過柱身。此種雀替作用與清代插入柱中的替木相似，但使用特定的樣式。</p>
+               <p xml:lang="zh-Hant">“雀替”也寫作“鵲替”、“榱題”、“雀木”，主要見於清官式建築文獻記載。（“鵲替”一詞最早見於明萬歷四十三年(1615年)《工部廠庫須知12卷》中琉璃作“花鵲替”。“雀替”一詞最早記載於清代《內庭木石油裱現行則例不
+                  分卷》，至遲為雍正九年三月十五日（1731年）。同书于“门殿雕工则”中写作“雀木”。）</p>
+               <p xml:lang="zh-Hant">明清文獻中根據不同的雕刻、組合方式，有大雀替、龍門雀替、雀替、小雀替（雕作）；雲拱雀替、素雀替、假素雀替連墊拱板（組合方式）等不同做法。根據材料不同，有仿木琉璃構件，有“花雀替”和“雀替枓科”等称法。
+                  石构建筑实物中，还常见仿木的石雀替。）</p>
+               <p xml:lang="zh-Hant">現代研究者也称“雀替”为“角替”，可能为梁思成误写 （梁思成，1934，79），影响部分学者（馬炳堅 1991,194；高陽，2009,76；王效青等，1996,350））。梁思成结合实物，将雀替分为七种，即大雀替、龙门雀替、
+                  雀替、小雀替、通雀替、骑马雀替和花牙子（梁思成，1936，2）。在这一分類中，雀替指代的范围扩大，包括了藏式建筑中的托木、明清官式建筑装修作中的花牙子。之後學者基於梁思成的研究，對雀替命名、形式、結構功能和溯源展開討論
+                  （梁思成，1936，4-5，8-9；郭華瑜，2005，183-184；）。術語“雀替”指代範圍相較基於古代文献所理解的範圍，发生了语义的偏移。部分學者將雀替片面地理解為柱子上端承托額枋（或闌額）的木構件；部分学者則扩大化地认为雀替
+                  的范围包括罩、撑栱、牛腿等。（高 2009；庄和胡 2007）</p>  
+            </note>
+            <bibl xml:id="biblk000287-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+            </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000287" passive="bracketing"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

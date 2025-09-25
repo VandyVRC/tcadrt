@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">踩</foreign> cai</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="FRX">FENG Ruoxin 馮若昕</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#FRX">FENG Ruoxin 馮若昕</name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000271/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-06-10-11:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-21-12:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000271" type="architectural feature">
+            <term xml:id="term-k000271-1" xml:lang="zh-latn-pinyin-nt">cai</term>
+            <term xml:id="term-k000271-2" xml:lang="zh-Hant">踩</term>
+            <term xml:id="term-k000271-3" xml:lang="zh-Hans">踩</term>
+            <term xml:id="term-k000271-4" xml:lang="zh-latn-pinyin">cǎi</term>
+            <term xml:id="term-k000271-5" xml:lang="zh-latn-wadegile">ts`ai</term>
+            <term xml:id="term-k000271-6" xml:lang="en" source="#biblk000271-1" >step</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000271</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Cai 踩 was a term used during the <term ref="/keyword/k000070">Qing</term> dynasty to describe the scale and dimensions of <term ref="/keyword/k000019">dougong</term> (bracket sets), commonly used in the form of “N-cai dougong.” The 
+                  character cai, also written as 跴, can also appear as 彩, 採, or 采 (Kan Duo, 1931). The Kangxi Dictionary defines 踩, as “to jump.” As an architectural term, it first appears 
+                  in the Qing dynasty Yangshi Lei architectural drawings (Zhou Junliang, Zhang Fengwu, Wang Qiheng, 2022), and later in texts such as Yingzao suanli, Yingzao fashi taoben, and 
+                  Yingzao fayuan. There are two main interpretations:</p>
+               <p xml:lan="en">1. In Qing dynasty sources, cai is associated with the number of layers and the height of dougong structures. The number of dougong layers corresponds to the number 
+                  of cai (Liang Sicheng, 1932: 9; Zhou Junliang, Zhang Fengwu, Wang Qiheng, 2022). The term cai could also specify the height dimensions of components associated with dougong, such 
+                  as the sectional height of the zhengxin fang (central beam) (Liang Sicheng, 1932: 11).</p>
+               <p xml:lan="en">2. It is associated with the projection depth (chutiao) of the dougong. This meaning first appears in an illustration made by late Qing craftsmen published in the Yingzao 
+                  Fashi Taoben (Li Jie, 1925: juan 30, appendix 5), but is not found in official texts. Liang Sicheng also adopted this interpretation, simplifying the calculation of cai to “twice the 
+                  number of angqiao (rising arms) or zhuajia (struts), plus one” (Qing-Style Construction Standards, Liang 1934: 22, 24). This interpretation has since been widely adopted by later scholars.</p>
+               <p xml:lang="zh-Hant">踩是清代用於描述斗栱尺度規模的术语，常見斗栱為“N踩”的用法。踩，同跴，亦可作彩或採或采（闞鐸，1931）。作爲建築術語，最早見於清樣式雷圖檔（周俊良、張鳳梧、王其亨，2022），又見於《營造算例》、
+                  《營造法式陶本》及《營造法原》。根據時間先後，有以下兩種釋義：</p>
+               <p xml:lang="zh-Hant">1. 清代文獻中踩與斗栱层数和高度相關聯，斗栱層數即踩數（梁思成，1932：9；周俊良、張鳳梧、王其亨，2022），踩亦可用來規定與斗栱相關聯構件的高度尺寸，如正心枋的斷面高度等（梁思成，1932：11）。</p>
+               <p xml:lang="zh-Hant">2. 與斗栱出跳數相關聯。這一含義最早見於《營造法式陶本》晚清工匠所做插圖（李诫，1925：卷三十附五），梁思成也採用這個觀點，將踩數的計算簡化為昂翹數或拽架數的兩倍加一。
+                  （《清式營造則例》梁 1934，22,24）後來學者普遍沿用這個釋義。</p>
+            </note>
+            <listBibl xml:id="biblk000271-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000271" passive="bracketing"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Zhenjue Monastery <foreign xml:lang="zh-Hant">真覺寺</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="JAH" ref="#JAH">Joseph Hanauer</principal>
+                <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <respStmt>
+                    <resp>Research: </resp>
+                    <name type="person" ref="#JAH">Joseph Hanauer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>  
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000299/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2024-12-01-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+            <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
+        </revisionDesc>
+    </teiHeader>
+     <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000299" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000299" xml:lang="en">Zhenjue Monastery</placeName>
+                    <placeName xml:id="name000299-1" type="building-name" xml:lang="zh-Hant">真覺寺</placeName>
+                    <placeName xml:id="name000299-2" type="building-name" xml:lang="zh-Hans">真觉寺</placeName>
+                    <placeName xml:id="name000299-3" type="building-name" xml:lang="zh-latn-pinyin">Zhēnjué sì</placeName>
+                    <placeName xml:id="name000299-4" type="building-name" xml:lang="zh-latn-wadegile">chen-chüeh ssu</placeName>
+                    <placeName xml:id="name000299-5" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhenjue Si</placeName>
+                    <placeName xml:id="name000299-6" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">大正覺寺</placeName>
+                    <placeName xml:id="name000299-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">大正觉寺</placeName>
+                    <placeName xml:id="name000299-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">北京市石刻藝術博物館</placeName>
+                    <placeName xml:id="name000299-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">北京市石刻艺术博物馆</placeName>
+                    <placeName xml:id="name000299-10" type="alternate" subtype="building-name-in-site" xml:lang="en">Beijing Stone Carving Art Museum</placeName>
+                    <placeName xml:id="name000299-11" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">五塔寺</placeName>
+                    <placeName xml:id="name000299-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">五塔寺</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000299</idno>
+                    <state type="existence" from="1473-01-01">
+                        <label>Date</label>
+                        <desc source="#bibl000299-1">Founded during the <term ref="/keyword/k000101">Yuan dynasty</term>.  
+                        </desc>
+                     </state>
+                    <state type="existence" subtype="dynasty" from="1473-01-01" to="2024-01-01">
+                        <label>Dynasty</label>
+                        <desc>Founded during the <term ref="/keyword/k000101">Yuan dynasty</term>.
+                        </desc>
+                    </state>
+                   <desc type="building-data">
+                        <p source="#bibl000299-2">
+                            Zhenjue Monastery 真覺寺 occupies a site in the modern Haidian District海淀区 of Beijing and is located on the northwestern bank of the Nazheng river 南长河.  During the <term ref="/keyword/k000051">Ming</term> and <term ref="/keyword/k000070">Qing</term> dynasties it was considered to be in the Western Urban District of the city西部郊区 rather than the internal or external palace districts. It was constructed during the <term ref="/keyword/k000101">Yuan dynasty</term> but the surviving <term ref="/place/000299c">Jingangbaozuo Pagoda 金刚宝座塔</term>, was not built until the <term ref="/keyword/k000051">Ming</term>. Since its founding in the <term ref="/keyword/k000101">Yuan</term>, the site has been known by several names. Originally, it was named Zhenjue Monastery 真覺寺 and continued to be known as such throughout the <term ref="/keyword/k000051">Ming</term> and the early <term ref="/keyword/k000070">Qing</term>. During the sixteenth year of the <term ref="/keyword/k000070">Qing</term> Qianlong Reign period, about 1751, the site was renamed as Dazhengjue Monastery 大正覺寺. The site is also referenced as Wuta Monastery五塔. More recently has also been named the Beijing Stone Carving Art Museum 北京市石刻藝術博物館 and contains collections of various historic stelae.
+                        </p> 
+                        <p source="#bibl000299-3">
+                            Zhenjue Monastery site has experienced multiple instances of destruction. In the <term ref="/keyword/k000051">Ming</term>  it was repaired by the Yongle Emperor (1402-1424) suggesting existing damages. After the <term ref="/keyword/k000051">Ming</term> the complex was damaged to the extent that parts were renovated or rebuilt during the Qing in 1751. The renovated site was damaged again damaged during <term ref="/keyword/k000070">Qing</term> period when a great fire broke out and at the beginning of <term ref="/keyword/k000195">Republican Period 民国</term> the inner Buddhist halls were destroyed内殿宇. After the final sequence of destruction, only the central <term ref="/place/000299c">Jingangbaozuo Pagoda </term> remained intact, however the foundation of the former <term ref="/place/000299b">Xinzhu Langyin Hall 心珠朗瑩殿</term> remains.
+                        </p> 
+                        <p>
+                            The current orientation of the site is north-south. Visitors are currently intended enter from the south through the main gate 大門 followed by courtyard gate院門. Directly through the courtyard gate is the foundation of the former <term ref="/place/000299b">Xinzhu Langyin Hall </term>. Directly behind the remaining foundation of the destroyed <term ref="/place/000299b">Xinzhu Langyin Hall </term> is the intact <term ref="/place/000299c">Jingangbaozuo Pagoda</term>, the only extant complete building remaining in the monastery. In its current construction, the monastery is surrounded by a wall. The remains of the <term ref="/place/000299b">Xinzhu Langyin Hall </term> and the <term ref="/place/000299c">Jingangbaozuo Pagoda</term> are the center buildings of the complex. Both can be circumambulated and the <term ref="/place/000299c">Jingangbaozuo Pagoda</term> is enterable openings on its north and south sides.                             
+                        </p> 
+                    </desc>
+                    <location type="gps" subtype="preferred">
+                        <geo>39.942149 116.324496</geo>
+                    </location>
+                    <location>location determined using ArcGIS 1 December 2024</location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">monastery (Buddhist)</desc>
+                        <desc xml:lang="zh-latn-pinyin">si</desc>
+                        <desc xml:lang="zh-Hant">寺</desc>
+                        <desc xml:lang="zh-Hans">寺</desc>
+                </trait>
+              <listBibl xml:id="bibl000299-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">3738, 3741-3742</citedRange>
+                        </bibl>
+                </listBibl> 
+                <listBibl xml:id="bibl000299-2">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                     <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp">vol. 4, 3b</citedRange>
+                  </bibl> 
+                   <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/6RRQMX6H"/>
+                       <citedRange unit="pp">103</citedRange>
+                   </bibl>
+                    <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                        <citedRange unit="pp">3738, 3741-3742</citedRange>
+                    </bibl>
+               </listBibl>
+               <listBibl xml:id="bibl000299-3">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                     <citedRange unit="pp">224</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp">vol. 4, 3b</citedRange>
+                  </bibl>
+                    <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                        <citedRange unit="pp">3738, 3741-3742</citedRange>
+                    </bibl>
+                </listBibl>
+             </place>
+                <listRelation> 
+                    <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/> 
+                    <!-- Yuan -->
+                    <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <!--  Ming  -->
+                    <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <!--  Qing  -->
+                    <relation active="https://architecturasinica.org/place/000299" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000195" ana="dynasty"/>
+                    <!--  Republican  -->
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157858835_2be84d7554_b.jpg" passive="https://architecturasinica.org/place/000299" ana="featured"/>
+                    <relation active="https://architecturasinica.org/place/000299" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="architectural-feature"/>  
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54196681228_34c84dca43_b.jpg" passive="https://architecturasinica.org/place/000299" ana="featured"/>
+                </listRelation>
+            </listPlace>
+        </body> 
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">版門</foreign>banmen</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" xml:id="NGP">NING Guiping 寧桂萍</editor>
+            <editor role="content-author" xml:id="BY">BAI Ying 白穎</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="NGP">NING Guiping 寧桂萍</name>
+               <name type="person" ref="BY">BAI Ying 白穎</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000283/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-22-13:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-22-13:20">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000283" type="architectural feature">
+            <term xml:id="term-k000283-1" xml:lang="zh-latn-pinyin-nt">banmen</term>
+            <term xml:id="term-k000283-2" xml:lang="zh-Hant">版門</term>
+            <term xml:id="term-k000283-3" xml:lang="zh-Hans">版门</term>
+            <term xml:id="term-k000283-4" xml:lang="zh-latn-pinyin">bǎnmén</term>
+            <term xml:id="term-k000283-5" xml:lang="zh-latn-wadegile">pan-men</term>
+            <term xml:id="term-k000283-6" xml:lang="en" type="literal_translation">plank door (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000283</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Literally “plank door” (Kroll, digital edition), banmen 版門 is a traditional form of door used in Chinese gates or buildings. The character 版 can be written as 板. 
+                  The door consists of several components: zhouban 肘版 (elbow-hinge stile with pivots), fuzhouban 副肘版 (lock stile), and shenkouban 身口版 (body planks). The door leaves are mounted 
+                  on a difu 地栿 (ground sill), beneath a men’e 門額 (header lintel), and between lijia 立頰 (jambs). They are secured by menzan 門簪 (door pegs) and jiqimu 雞棲木 (pivot-bearing bars). 
+                  The size of each component is determined by specific proportions relative to the door height.</p>
+               <p xml:lan="en">The construction of banmen is documented in detail in both the Yingzao fashi and Zirenyizhi treatises （Xue 1522, 3518.18a-20a）. The Yingzao fashi describes two types: 
+                  single-leaf and double-leaf doors. Double-leaf doors are approximately square in proportion or slightly taller, ranging from 2.19 to 7.51 meters in height. The Zirenyizhi establishes 
+                  a minimum height of 1.57 meters for single-leaf doors. Compared to the Yingzaofashi, the Zirenyizhi version of banmen incorporates additional elements: ting (rail), limei (vertical 
+                  leaf-lintel), and naomei (header leaf-lintel), while also increasing the height of the men e (header lintel). The banmen construction method described in the Yingzaofashi is more 
+                  suitable for installations between columns, while the method detailed in the Zirenyizhi is better adapted for applications in thick-walled structures. Scholars believe both types 
+                  of banmen were in use in ground-level buildings before the publication of the Yingzaofashi. （Yu, 2023）</p>
+               <p xml:lan="en">In traditional paintings, banmen typically appear as city gates or the main entrances to building complexes, and occasionally as the central door of individual buildings. 
+                  In tomb architecture, scholars generally define banmen as plain, smooth door leaves with difu (ground sill), lijia (jambs), men’e (door headerl), and menzan (door pegs) （）, a form 
+                  evidenced in Han dynasty stone carvings.</p>
+               <p xml:lang="zh-Hant">“版門”又寫作“板門”，是建築中門的形式之一。根據《營造法式》，版門由長條木板（又分肘版，身口版，副肘版）拼合而成門扇，下有地栿門砧，側有立頰，上有門額、門簪、雞棲木等構件，各構件尺寸根據門高按
+                  照比例而定。</p>
+               <p xml:lang="zh-Hant">版門的做法詳細出現在《營造法式》（1103）與《梓人遺制》（1261）中（薛 1522，3518.18a-20a）。《營造法式》將版門分為雙扇版門和獨扇版門，雙扇版門高寬為方形或略窄，門高約在2.19米到7.51米之間。
+                  《梓人遺制》補充了獨扇版門的高度下限，在1.57米至2.19米之間。《梓人遺制》相較於《營造法式》，增加了桯，立楣，腦楣構件以及額寬。《營造法式》中版門的做法適用於兩柱之間，《梓人遺製》則更適用於使用厚墻的場合。有學者
+                  （俞莉娜，2023）認為在法式成書之前，兩種版門皆已經存在於地面建築。</p>
+               <p xml:lang="zh-Hant">繪畫中的版門主要出現在建築院落的大門和城門，也有存在於建築單體大門的情況。在墓葬等的探討中，學者普遍會把無飾平整門扇配有地栿，立頰，額和門簪的形式定義為版門（）。目前，該形式可以追溯到漢代畫像石。
+                  （屠居华.从商周到两汉时期的建筑形象探(三)[J].古建园林技术,1990(03):31-36.）</p>
+               <p xml:lang="zh-Hant">（梁思成，竹島卓一、潘谷西都對《營造法式》的版門做過復原研究（梁,2001,166;潘和何 2005,111；竹岛,1971,175）。梁思成與潘穀西繪圖與《營造法式》基本符合。目前存在模糊性的，一是副肘版使用範圍，
+                  竹島卓一和《梓人遺制》傾向于門高一丈二尺以上方可使用，梁思成與潘穀西的復原在一丈高版門中已使用副肘版。由於版門門扇以木板拼合而成，當尺寸較大時，門扇自重變大而易於變形，故需增加副肘板以維持門扇形狀。二是搕鎖柱尺寸位置，
+                  梁和潘的復原中搕鎖柱立於立頰後，寬度大於肘版及閘關徑之和；劉妍對城門版門的復原將搕鎖柱立於門扇後（劉妍，2012，112），尺寸上更符合法式記載，不過如此則意味著搕鎖柱是隨門之開關安裝、拆卸的。）</p>
+            </note>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000283" passive="openings (doors and windows)"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

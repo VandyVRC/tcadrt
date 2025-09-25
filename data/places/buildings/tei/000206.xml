@@ -12,15 +12,19 @@
             <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
+               <resp>Editing and proof correction: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Adding citations: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, data entry, adding images, and adding citations</resp>
+               <resp>Adding diacritical marks to Pinyin, adding Wade-Giles: </resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, data entry, adding images, and adding citations: </resp>
                <name type="person" when="2021-12-14" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -52,11 +56,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change n="2.1" who="#ZC" when="2021-12-14">Adding content by</change>
-         <change n="2.2" who="#TGM" when="2022-02-25">Editing by</change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
+         <change n="1.2" who="#SLY" when="2020-10-01">adding diacritical marks</change>
+         <change n="1.3" who="#ZC" when="2021-12-14">adding content</change>
+         <change n="1.4" who="#TGM" when="2022-02-25">editing </change>
+         <change n="1.5" who="#TGM" when="2024-12-01">update links, editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -71,26 +75,25 @@
                <placeName xml:id="name000206-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Longmensi Tianwangdian</placeName>
                <placeName xml:id="name000206-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">龍門寺天王殿</placeName>
                <placeName xml:id="name000206-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">龙门寺天王殿</placeName>
-               <placeName xml:id="name000206-9" type="alternate">Tianwandian</placeName>
                <idno type="URI">https://architecturasinica.org/place/000206</idno>
                <state type="existence" from="1125-01-01" to="1234-01-01">
                   <label>Date</label>
                   <desc>1125-1234</desc>
                </state>
-               <state type="existence" subtype="dynasty" source="#bibl000206-1" from="1115-01-01" to="1234-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000206-2" from="1115-01-01" to="1234-01-01">
                   <label>Dynasty</label>
                   <desc>Jin 1115 - 1234</desc>
                </state>
                <desc type="building-data" xml:lang="en">
-                  <p source="#bibl000063-1">
-                     The foundation of the Jin dynasty Celestial Kings Hall is made of stone with a height of 1.5 meters. The hall is three bays wide and four rafters deep with a single-eaves, overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山頂</term>).  The transverse structure of the building employes a four-rafter beam (sichuanfu 四椽栿) and the space is equally divided into two parts by central and eaves columns (fenxincao 分心槽). The central bay of the front facade has a panel door (banmen 板門) and the two secondary bays have straight lattice windows (zhilingchuang 直欞窗). The tops of the <term ref="/keyword/k000111">eaves pillars (yanzhu 檐柱)</term> are narrowed showing entasis (juansha 卷殺). The front eaves pillars support 5-<term ref="/keyword/k000013">puzuo (鋪作)</term> <term ref="/keyword/k000019">bracket sets (dougong 斗拱)</term> with double <term ref="/keyword/k000178">slanted arms  (xia’ang 下昂)</term>. There is only one <term ref="/keyword/k000105">intercolumnar bracket set (bujian puzuo 補間鋪作)</term> in the central bay (<term ref="/keyword/k000153">dangxinjian 當心間</term>), which is constructed with angled bracket arms (xiegong 斜栱). On the other hand, the back facade has a panel door in the central bay but no windows. The back eaves pillars only support single <term ref="/keyword/k000103">slanted arms (ang 昂)</term> and single <term ref="/keyword/k000172">perpendicular bracket arms (huagong 華栱)</term>, however the central bay intercolumnar bracket also employs angled bracket arms. 
+                  <p source="#bibl000206-1">
+                     The foundation of the Jin dynasty Celestial Kings Hall is made of stone with a height of 1.5 meters. The hall is three bays wide and four rafters deep with a single-eaves, overhanging-gable roof (<term ref="/keyword/k000146">xuanshan 懸山頂</term>).  The transverse structure of the building employes a four-rafter beam (sichuanfu 四椽<term ref="/keyword/k000028">栿</term>) and the space is equally divided into two parts by central and eaves columns (fenxincao 分心槽). The central bay of the front facade has a panel door (banmen 板門) and the two secondary bays have straight lattice windows (zhilingchuang 直欞窗). The tops of the eaves pillars (<term ref="/keyword/k000111">yanzhu 檐柱</term>) are narrowed showing entasis (juansha 卷殺). The front eaves pillars support 5 <term ref="/keyword/k000013">puzuo (鋪作)</term> bracket sets (<term ref="/keyword/k000019">dougong 斗拱</term>) with double downward slanted arms (<term ref="/keyword/k000178">xia'ang 下昂</term>). There is only one intercolumnar bracket set (<term ref="/keyword/k000105">bujian puzuo 補間鋪作</term>) in the central bay (<term ref="/keyword/k000153">dangxinjian 當心間</term>), which is constructed with angled bracket arms (<term ref="/keyword/k000148">xiegong 斜栱</term>). On the other hand, the back facade has a panel door in the central bay but no windows. The back eaves pillars only support single downward slanted arms (<term ref="/keyword/k000178">xia'ang 下昂</term>) and single perpendicular bracket arms (<term ref="/keyword/k000172">huagong 華栱</term>), however the central bay intercolumnar bracket set also employs angled bracket arms. 
                   </p>
                </desc>  
                <location type="gps" subtype="preferred">
-                  <geo>36.3896666 113.622666</geo>
+                  <geo>36.3901167 113.6226000</geo>
                </location>
                <location type="verbatim">
-                  <note>36˚ 23.38' N (Magellan) 113˚ 37.36' E</note>
+                  <note>36°23.40700', 113°37.35600 (Garmin 2019-05-28)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -99,7 +102,7 @@
                   <desc xml:lang="zh-Hant">殿</desc>
                   <desc xml:lang="zh-Hans">殿</desc>
                </trait>
-               <listBibl xml:id="bibl000063-1">
+               <listBibl xml:id="bibl000206-1">
                   <bibl>
                      <ptr target="https://architecturasinica.org/bibl/KVZZ2K5S"/>
                      <citedRange unit="pp">II:304-305; 32-C3-3</citedRange>
@@ -116,7 +119,7 @@
                      <citedRange unit="pp">52-57</citedRange>
                   </bibl>
                </listBibl>
-               <bibl xml:id="bibl000063-2">
+               <bibl xml:id="bibl000206-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>

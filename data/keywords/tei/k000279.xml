@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">角脊</foreign>jiaoji</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="LXR">LI Xingru 李幸儒</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#LXR">LI Xingru 李幸儒 </name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000279/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-22-13:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-22-13:20">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000279" type="architectural feature">
+            <term xml:id="term-k000279-1" xml:lang="zh-latn-pinyin-nt">jiaoji</term>
+            <term xml:id="term-k000279-2" xml:lang="zh-Hant">角脊</term>
+            <term xml:id="term-k000279-3" xml:lang="zh-Hans">角脊</term>
+            <term xml:id="term-k000279-4" xml:lang="zh-latn-pinyin">jiǎojǐ</term>
+            <term xml:id="term-k000279-5" xml:lang="zh-latn-wadegile">chiao-chi</term>
+            <term xml:id="term-k000279-6" xml:lang="en" source="#biblk000279-1" type="literal_translation">corner ridge (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000279</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Literally “corner spine,” jiaoji 角脊 refers to a type of roof ridge. From the <term ref="/keyword/k000074">Song</term> to <term ref="/keyword/k000070">Qing</term> dynasties (960-1911), jiaoji generally referred to the diagonal ridges 
+                  along the roof corners, used in hip-and-gable (<term ref="/keyword/k000143">xieshan 歇山</term>), hipped (<term ref="/keyword/k000125">wudian 廡殿</term>), and pointed (<term ref="/keyword/k000188">cuanjian 攢尖</term>) roofs, as well as the lower roofs of multi-story buildings. Modern 
+                  scholars use jiaoji primarily to refer to the corner ridges of the lower roof in multi-story buildings (Liang and Liu 1936, 41; Wang 1996, 205). Some scholars argue that jiaoji 
+                  might refer to the part in front of the tile animals (chuishou 垂獸) in a descending roof ridge (<term ref="/keyword/k000278">chuiji 垂脊</term>), which in historical texts is called shouqian 獸前 (lit. in front of 
+                  the animal(s)). The term jiaoji was first documented in Yingzao fashi(Lü and Liu 1992, 111).</p>
+               <p xml:lang="zh-Hant">“角脊”指代中國古代建築中屋脊的一種。角脊最早出現於《營造法式》（李 2009,9.6a），自宋至清，角脊泛指屋面轉角之脊，範圍包括歇山頂、廡殿頂、攢尖頂、下簷轉角。現代學者主要將角脊專用於指代重簷下
+                  簷屋面轉角之脊。（梁和刘 1936,4；王 1996,205）也有部分學者認為“角脊”可用以指代硬山、懸山及廡殿的垂脊中垂獸之前的部分，即“獸前”。 （吕和刘 1992,111）</p>
+            </note>
+            <listBibl xml:id="biblk000279-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">47</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000279" passive="roof components"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

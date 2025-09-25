@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Tianning Monastery in Zhengding<foreign xml:lang="zh-Hant"> 正定天寧寺 </foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal> 
+            <editor role="content-author" xml:id="HJC">Hyunjun Chang</editor>
+            <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Page creation and data development: </resp>
+               <name type="person" ref="#HJC">Hyunjun Chang</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000292/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-12-02-03:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#HJC" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+         <change n="1.2" who="#HJC" when="2024-12-13-04:00">added data</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000292" type="site">
+               <placeName xml:id="name000292-1" xml:lang="en">Tianning Monastery in Zhengding</placeName>
+               <placeName xml:id="name000292-2" type="site-name" xml:lang="zh-Hant">正定天寧寺</placeName>
+               <placeName xml:id="name000292-3" type="site-name" xml:lang="zh-Hans">正定天宁寺</placeName>
+               <placeName xml:id="name000292-4" type="site-name" xml:lang="zh-latn-pinyin">Zhèngdìng Tiānníngsì</placeName>
+               <placeName xml:id="name000292-5" type="site-name" xml:lang="zh-latn-wadegile">Cheng-ting T’ien-ning-ssu</placeName>
+               <placeName xml:id="name000292-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhengding Tianningsi</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000292</idno>
+               <state type="existence" subtype="dynasty" source="#bibl0000292" from="0618-01-01" to="2024-01-01">
+                  <label>Dynasty</label>
+                  <desc source="#bibl000292-2">Founded in the <term ref="/keyword/k000047">Tang</term> 618-907</desc>
+               </state>
+               <desc type="site-data">
+                  <p> 
+                     The Zhengding Tianning Monastery (Zhengding Tianningsi 正定天宁寺) is a historically significant Buddhist site and a designated National Key Cultural Relic Protection Unit (Quanguo Zhongdian Wenwu Baohu Danwei 全国重点文物保护单位). Established during the <term ref="/keyword/k000082">Tang</term> dynasty under Emperor Yizong in the Xiantong reign period (860–874), the monastery was originally named Dazang Cloister (Dazangyuan 大藏院). At its height, the complex featured a clearly defined north-south axis with major structures, including a <term ref="/keyword/k000212">paifang</term>, multiple gates, the Hall of Celestial Kings (Tianwangdian 天王殿), a front hall (qiandian 前殿), and the <term ref="/place/000292a">Lingxiao Pagoda</term> (Lingxiaota 凌霄塔) (Li 1984, 48). 
+                  </p> 
+                  <p> 
+                     The monastery was an important center for Buddhist practice and a notable example of Tang-era temple design.  
+                     Currently, only the foundation of the front hall and the remnants of the Lingxiao Pagoda survive, reflecting the significant losses the complex has experienced over time. However, the inscriptions and remaining artifacts suggest the scale and grandeur of the original complex, thus highlighting the incorporation of <term ref="/keyword/k000074">Song</term> and <term ref="/keyword/k000036">Jin</term> dynasty construction techniques into later reconstructions, preserving architectural continuity despite periods of rebuilding.
+                     The <term ref="/place/000292a">Lingxiao Pagoda</term>, central to the monastery’s layout, integrates architectural methods from the Tang, Song, and Jin dynasties. Its structure, combining brick and wood construction, features a central column (tongtianzhu 通天柱) through its timber-framed upper stories that reflects the complexity of its era's engineering practices. The pagoda exemplifies the sophisticated integration of artistic and functional design that characterized Buddhist architecture of the period. 
+                  </p> 
+                  <p source="#bibl000292-1"> 
+                   The Zhengding Tianning Monastery remains an invaluable site for understanding the evolution of Buddhist temple architecture in northern China. Its surviving elements, though limited, provide critical insights into the historical and cultural context of the Tang, Song, and Jin Dynasties. Restoration efforts in the late 20th century aimed to preserve its historical integrity, ensuring its continued importance as a focus of scholarly research and a testament to the region’s Buddhist heritage.    
+                  </p>
+               </desc>
+               <note type="External Links">
+                  <p>
+                     <ref target="https://shorturl.at/t2StU">Wikipedia (in Chinese)</ref>
+                  </p>
+                  <p>
+                     <ref target="https://shorturl.at/zKYtY">百度百科</ref>
+                  </p>
+               </note>
+               <location type="gps" subtype="preferred">
+                  <geo>38.1417583 114.5694483</geo>
+               </location>
+               <location>location determined using ArcGIS 2 December 2024</location>
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">monastery (Buddhist)</desc>
+                  <desc xml:lang="zh-latn-pinyin">si</desc> 
+                  <desc xml:lang="zh-Hant">寺</desc>
+                  <desc xml:lang="zh-Hans">寺</desc>
+                </trait>
+                  <listBibl xml:id="bibl000292-1">
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/XMM7754Z"/>
+                        <citedRange unit="pp">48-52</citedRange>
+                     </bibl>
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                        <citedRange unit="pp">vol. 1, 36</citedRange>
+                     </bibl>
+                  </listBibl>
+                  
+                  <listBibl xml:id="bibl000292-2">
+                     <bibl>
+                        <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                        <citedRange unit="pp">12</citedRange>
+                     </bibl>
+                  </listBibl>
+               <listRelation>
+                  <relation active="https://architecturasinica.org/place/000292" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000047" ana="dynasty"/>
+                  <!--  Tang  -->
+                  <relation active="https://architecturasinica.org/place/000292" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                  <!--  Qing  -->
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54182926302_036034e219_b.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54184182773_582c56b4ef_c.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>
+                  <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54190190083_5b184f449a_c.jpg" passive="https://architecturasinica.org/place/000292" ana="featured"/>
+               </listRelation>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

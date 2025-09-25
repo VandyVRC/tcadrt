@@ -4,15 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monestary, Jingqingmen/Fengshengsi Shanmen <foreign xml:lang="zh-Hant">晉祠景清門 奉聖寺山門</foreign>
+            <title level="a" xml:lang="en">Jin Shrines, Fengsheng Monastery, Jingqingmen (Fengshengsi Shanmen) <foreign xml:lang="zh-Hant">晉祠景清門 (奉聖寺山門)</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
-            <editor role="content author" xml:id="JAH">Joseph Hanauer</editor>
+            <editor role="content-author">Tracy Miller</editor>
+            <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
+            <respStmt>
+               <resp>Page creation and data development:</resp>
+               <name type="person" ref="#JAH">Joseph Hanauer</name>
+            </respStmt>
             <respStmt>
                <resp>Editing and proof correction:</resp>
-               <name type="person" ref="#JAH">Joseph Hanauer</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,58 +53,108 @@
       <body>
          <listPlace>
             <place xml:id="place-000048ya1" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monestary, Jingqingmen/Fengshengsi Shanmen</placeName>
-               <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">晉祠景清門 / 奉聖寺山門</placeName>
-               <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">晋祠景清门 / 奉圣寺山门</placeName>
-               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīng mén / fèng shèng sì shānmén</placeName>
-               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">chin-tz`u ching-ch`ing men / feng sheng ssu shan-men</placeName>
-               <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
-               <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
-               <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
-               <!-- Check name for alternate in-site place name -->
-               <!--
+               <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monestary, Jingqingmen</placeName>
+               <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">晉祠景清門</placeName>
+               <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">晋祠景清门</placeName>
+               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Jìncí jǐngqīngmén</placeName>
+               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">Chin-tz`u ching-ch`ing-men</placeName>
+               <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengshengsi Jingqing gatehouse</placeName>
+               <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺景清門</placeName>
+               <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺景清門</placeName>
+               <placeName xml:id="name000048y-9" type="alternate" xml:lang="zh-Hant">奉聖寺山門</placeName>
+               <placeName xml:id="name000048y-10" type="alternate" xml:lang="zh-Hans">奉圣寺山门</placeName>
+               <placeName xml:id="name000048y-11" type="alternate" xml:lang="zh-latn-pinyin">Fèngshèngsì shānmén</placeName>     
                <idno type="URI">https://architecturasinica.org/place/000048ya1</idno>
-               <state type="existence" from="0618-01-01">
-                  <label>Date</label>
-                  <desc>Under Construction</desc>
-               </state>
-               <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
+               
+               <state type="existence" subtype="dynasty" source="#bibl000048ya-2" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang-Qing 618 - 1912</desc>
+                  <desc>
+                     <term ref="/keyword/k000101">Yuan</term>-<term ref="/keyword/k000051">Ming</term> 1271 - 1644
+                  </desc>                  
                </state>
-               -->
-               <desc type="site-data" source="#bibl000001-2">
-                  under construction
+               <desc type="building-data">  
+                 <p>
+                  The Jin Shrines 晉祠 complex’s Jingqingmen 景清門, also know as Fengshensi Shamen 奉聖寺山門, is five bays wide and four rafters deep. 
+                  Currently, the central three bays of the front and back facades are open, and tertiary bays and the gable ends are walled. 
+                  Additionally, there is a central wall located under the roof ridge which divides the hall in half longitudinally. 
+                  A single set of stairs leads from the ground to the top of the elevated platform roughly matching the width of the central bay. 
+                  Above the pillars, the building has an arrangement of 
+                  five <term ref="/keyword/k000013">puzuo 鋪作</term>
+                  bracket sets which are in “filled heart” style
+                  (<term ref="/keyword/k000023">jixinzao 計心造</term>). 
+                  These bracket sets include both brackets above the columns as well as a single intercolumnar bracket set in each bay, all of which are the same style. 
+                  The bracket sets appear to be a third of the height of the columns. The roof is a ceramic tile hip-gable roof
+                    (<term ref="/keyword/k000143">xieshan 歇山</term>). 
+                  The platform and the bottom third of each bay are gray in color and show the brickwork. 
+                  The area between the bracket sets and the gray brick is painted vermilion. 
+                  The bracket arms and the eaves rafters are reddish-brown in color. The roof tile is glazed green-blue (qing 青) in color. 
+                  The roof ridges are heavily decorated with blue/green dragon (qinglong 青龍) motifs. The central ridge is especially decorated with a model que 闕 tower in the center. 
+                  The sides of the central roof ridge bear larger protruding dragons forms which are oriented so the dragon’s mouth is parallel to the roof ridge and its tail protruding vertically in the manner of 
+                  chiwei <term ref="/keyword/k000009">鴟尾</term> roof finials. Jingqingmen was moved to its current location in the 1980s. 
+                  </p>
+                  <p source="#bibl000048ya1-1">
+                     The previous location of Jingqingmen was on the south bank of the Earl of Zhi Canal with bays open towards the
+                     <term ref="/place/000048n">Tower of the Beautiful Ying Island 晉祠勝瀛樓</term>.
+                     At the previous site Jingqingmen was renovated in the 42nd year of the Jiajing 嘉靖 
+                     <term ref="/keyword/k000051">Ming</term> dynasty
+                     reign period, about 1563. Additionally, at the former site was where Wu Xiaolian 武孝廉 composed his poem Sanjinmingquan 三晉名泉.
+                  </p>
+                  <!-- 一名惠遠門, 祠之正門, 東嚮, 南北連堡牆. 在右為四大天神殿, 中通行走, 軒昂濶大高車駟馬均可容之門内, 嚮勝瀛樓. 前蒼"三晉名泉" 額, 武孝廉楊廷翰筆, 筆力遒勁, 落落大方, 如廟堂重器. 未詳剏建年月, 明嘉靖四十二年補修, 門外左右有八字牆. 傳言：此門昔在智伯河南岸, 西對聖母殿, 後移於其南門前, 原爲社倉, 既建爲門, 移社倉於其左。 -->
                </desc>
                <!--
+               <desc type="site-data" source="#bibl000048ya1-1">
+                  “The original Fengsheng Monastery was built on a large scale with an internal hall with the Mountain Gate along the central axis of the temple, a front hall, middle hall and back hall. It also had a bell and drum loft-building and scripture preserving lou 
+                  <term ref="/keyword/k000086">樓</term>
+                  . Grouped together they make a procession of three courtyards. Later in history it was destroyed. Presently, the Fengsheng Monastery was rebuilt in the late 1970s. It measures east to west at 126 meters and north to south at 33 meters. Its surface area is 4158 square meters. Mainly, it is composed of the mountain gate, the Transition Grand Hall and the Mahavira Grand Hall. “The Mountain Gate was moved from the location of the Jingqing Gate which was the original great gate of the monastery. Jingqing Gate was, for Jinci, the original great gate. It was built during the Yuan dynasty. It is a single-eaves hip-gable roof and, in height, is 10.5 meters. It is five bays wide and four rafters deep and maintains the style of the Yuan dynasty. The Mountain Gate was moved from the location of the Jingqing Gate to its current position during the Ming. Its secondary rooms are spacious, and the walls are built between the peaks and the two mountains. The grand hall's top is fired glaze from the Ming dynasty and is of unparalleled beauty.” 
+                  山门由景清门迁建于此景清门为晋祠原大门,创建于元代,单檐 歇山顶,高10.5米。面阔五间,进深四椽,总体仍保持元代风格原奉圣寺规模宏大,寺内中轴线上建有山门、前殿、中殿、后殿,还有钟、鼓楼和藏经楼,组成一座三进院落,后因历史原因损毁。现奉 圣寺重建于二十世纪七十年代末,坐西向东,东西长126米,南北宽 33米,占地面积4158平方米,主要由山门、过殿和大雄宝殿组成。 
+                  山门明、次间宽敞,梢间及两山筑以墙壁。殿顶琉璃为明代烧制, 精美绝伦。 
+               </desc>
+               -->
                <location type="gps" subtype="preferred">
-                  <geo>37.7085556 112.435</geo>
+                  <geo>37.706004 112.434146</geo>
                </location>
                <location type="verbatim">
-                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
+                  <note>37˚ 706004' N (Garmin) 112˚ 434146' E</note>
                </location>
-                 
+               <location>location determined using ArcGIS 5 November 2024</location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
-                  <desc xml:lang="en">monastery (Buddhist)</desc>
-                  <desc xml:lang="zh-latn-pinyin">si</desc>
-                  <desc xml:lang="zh-Hant">寺</desc>
-                  <desc xml:lang="zh-Hans">寺</desc>
+                  <desc xml:lang="en">gateway or gatehouse</desc>
+                  <desc xml:lang="zh-latn-pinyin">men</desc>
+                  <desc xml:lang="zh-Hant">門</desc>
+                  <desc xml:lang="zh-Hans">门</desc>
                </trait>
-               <bibl xml:id="bibl000048ya-1">
+               <listBibl xml:id="bibl000048ya1-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                     <citedRange unit="pp">89</citedRange>
+                  </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                     <citedRange unit="pp">Vol. 2, 107-108</citedRange>
+                  </bibl>
+               </listBibl>
+               <bibl xml:id="bibl000048ya1-2">
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-            </place>
+            </place>            
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
-               <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-              <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>
-                    --> 
-            </listRelation>
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/> <!-- Yuan -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/> <!-- Ming -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000066" ana="dynasty"/> <!-- Pre-Qing -->
+               <relation active="https://architecturasinica.org/place/000048ya1" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/> <!-- Qing -->
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048ya"/> 
+               <relation ana="contained" active="https://architecturasinica.org/place/000048ya1" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>   
+               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994670437_f2ad06dd5e_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/> 
+               <relation  ref="foaf:depicts" active="https://live.staticflickr.com/65535/54100659232_11ccf88ab7_h.jpg" passive="https://architecturasinica.org/place/000048ya1" ana="featured"/> 
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000009" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000013" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000023" ref="dcterms:subject" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/keyword/k000143" ref="dcterms:subject" ana="architectural-feature"/>  
+               <relation active="https://architecturasinica.org/place/000048ya1" passive="https://architecturasinica.org/place/000048n"/>               
+           </listRelation>
          </listPlace>
       </body>
    </text>

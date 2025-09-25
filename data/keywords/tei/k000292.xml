@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">顺袱串</foreign>shunfuchuan</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="ZJY">ZHANG Jingyi 張婧怡</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#ZJY">ZHANG Jingyi 張婧怡</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000292/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-26-17:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-26-17:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000292" type="architectural feature">
+            <term xml:id="term-k000292-1" xml:lang="zh-latn-pinyin-nt">shunfuchuan</term>
+            <term xml:id="term-k000292-2" xml:lang="zh-Hant">顺袱串</term>
+            <term xml:id="term-k000292-3" xml:lang="zh-Hans">顺袱串</term>
+            <term xml:id="term-k000292-4" xml:lang="zh-latn-pinyin">shùnfúchuàn</term>
+            <term xml:id="term-k000292-5" xml:lang="zh-latn-wadegile">shun-fu-ch`uan</term>
+            <term xml:id="term-k000292-6" xml:lang="en" source="#biblk000292-1" >along-beam tie</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000292</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Shunfuchuan, a type of chuan, is a connecting element beneath a beam (<term ref="/keyword/k000045">liang</term> 梁 or <term ref="/keyword/k000028">fu</term> 栿). The term shunfuchuan first emerged in the <term ref="/keyword/k000074">Song</term> dynasty's Yingzao fashi (Li, 2009). 
+                  In this text, shunfuchuan is described as extending through the bodies of interior pillars and aligned parallel to the primary beam. Furthermore, when functioning as a connecting element 
+                  beneath the <term ref="/keyword/k000141">zhaqian</term> 劄牽 or <term ref="/keyword/k000140">rufu</term> 乳栿, it is supported by <term ref="/keyword/k000216">dingtougong</term> 丁頭栱 or tatou 㭼頭, with a standard cross-sectional dimension of 21 fen in width and 10 fen in thickness. </p>
+               <p xml:lan="en">However, scholars have interpreted shunfuchuan as significant evidence of Jiangnan regional influences on Song dynasty official architectural practices. During the Song and 
+                  <term ref="/keyword/k000101">Yuan</term> dynasties, shunfuchuan were predominantly associated with Jiangnan architectural traditions. The earliest extant example of shunfuchuan is the main hall in <term ref="/place/000004">Baoguosi</term> 保國寺大殿 in Ningbo, 
+                  Zhejiang, dating to 1013 CE. The earliest known example in north is located in the Drum Tower of Xi'an 西安鼓樓 and dates to the thirteenth year of the Hongwu reign (1380 CE), during the <term ref="/keyword/k000051">Ming</term> dynasty.</p>               
+               <p xml:lan="en">Scholarly investigations of Jiangnan buildings have established specific criteria for identifying shunfuchuan. At a minimum the shunfuchuan consists of a horizontal wooden 
+                  member positioned beneath and parallel to the primary beam with one end joined into the body of the pillar. Notably, the use of shunfuchuan in Jiangnan buildings demonstrated significant 
+                  variation from the prescriptions in the Yingzao fashi in the following ways:</p>
+               <p xml:lan="en">(1) Rather than only being used between interior pillars, the shunfuchuan can be used between interior and exterior columns beneath the rufu 乳栿. Examples include: Baoguo Temple 
+                  main hall (1013 CE), Tianning Temple main hall in Jinhua, Zhejiang (1318 CE); Zhenru Temple main hall in Shanghai (1320 CE); and Xuanyuan Palace main hall in Suzhou, Jiangsu (1338 CE).</p>
+               <p xml:lan="en">(2) When connecting columns of differing heights, shunfuchuan can be positioned at the top of the pillar on the one end, rather than tenoned into the body of the pillar.</p>
+               <p xml:lan="en">(3) The cross-sections of shufuchuan were typically larger than those specified in the Yingzao fashi and were often comparable to framing elements.</p>
+               <p xml:lan="en">(4) Cases have been found where additional bracketing systems are used on top of shunfuchuan.</p>
+               <p xml:lang="zh-Hant">順栿串是串的一種，作為建築構件的名稱最早出現在宋《營造法式》（李誡2009，5.7a）。根據《營造法式》，順栿串是位於栿下並與梁栿同方向，穿插於內柱間的聯繫構件，兩頭出柱，在劄牽或乳栿下作丁頭栱或㭼頭，
+                  斷面尺寸廣21分，厚10分。</p>
+               <p xml:lang="zh-Hant">順栿串被學者認為是宋代官式建築受到江南影響的證據。現存最早使用順栿串的實例是寧波保國寺大殿（1013年）。在宋至元之間，順栿串似是南方獨有的構件，北方現存最早的順栿串實例是明洪武十三年（1380）所建的
+                  西安鼓樓。</p>
+               <p xml:lang="zh-Hant">學者們在對南方建築實例的研究中對於何為順栿串，建立了基本標準：栿下與梁栿同方向，至少有一端插入柱身起拉結聯繫作用的橫木判斷為順栿串。</p>
+               <p xml:lang="zh-Hant">南方建築實例中的順栿串在使用位置、串柱交接方式及斷面尺寸等方面與《營造法式》的規定有所不同：（1）使用位置靈活，可用於內外柱間乳栿下；如甪直保圣寺大殿（1013年），金华天宁寺正殿（1318年），
+                  上海真如寺大殿（1320年），苏州轩辕宫正殿（1338）等（2）串與柱的交接方式：所聯繫的兩柱高度不同時，順栿串可有一端位於柱頭，順栿串可有一端位於柱頭，採用半榫等入柱不出柱的方式；（3）串構件的截面尺寸大，通常與額相同；
+                  （4）有在順栿串上架設鋪作的實例。</p>
+            </note>
+            <bibl xml:id="biblk000291-1">
+               <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+               <citedRange unit="pp">73</citedRange>
+            </bibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000292" passive="building frame"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
