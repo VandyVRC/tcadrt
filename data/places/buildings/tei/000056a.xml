@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en"> Zhengding Kaiyuan Monastery, Sumeru Pagoda <foreign xml:lang="zh-Hant">正定開元寺須彌塔</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="ZEJ" ref="#ZEJ">ZHANG Enjia 张恩嘉</principal>
+            <editor role="content-author" xml:id="ZEJ">ZHANG Enjia 张恩嘉</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Research: </resp>
+               <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000056a/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-12-15-00:41</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" when="2024-12-15">CREATED: place record
+            <name type="person" xml:id="#ZEJ">ZHANG Enjia 张恩嘉</name></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000056a" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000056a-1" xml:lang="en">Sumeru Pagoda</placeName>
+               <placeName xml:id="name000056a-2" type="building-name" xml:lang="zh-Hant">須彌塔</placeName>
+               <placeName xml:id="name000056a-3" type="building-name" xml:lang="zh-Hans">须弥塔</placeName>
+               <placeName xml:id="name000056a-4" type="building-name" xml:lang="zh-latn-pinyin">xūmítâ</placeName>
+                  <placeName xml:id="name000056a-5" type="building-name" xml:lang="zh-latn-wadegile">hsü-mi-t`a </placeName>
+               <placeName xml:id="name000056a-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhengding Kaiyuansi xumita</placeName>
+                  <placeName xml:id="name000056a-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">正定開元寺須彌塔</placeName>
+                  <placeName xml:id="name000056a-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">正定开元寺须弥塔</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000056a</idno>
+               <state type="existence" from="0898-01-01" to="0898-01-01">
+                  <label>Date</label>
+                  <desc>636</desc>
+               </state>
+                  <state type="existence" subtype="dynasty" source="#bibl000056a-1" from="0618-01-01" to="0907-01-01">
+                  <label>Dynasty</label>
+                  <desc>Tang 618 - 907</desc>
+               </state>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000056a-3">
+                     The Sumeru Pagoda was originally built during the 10th year of the Zhenguan period of <term ref="/keyword/k000082">Tang</term> dynasty (636). It was rebuilt in the 41st year of the Jiajing period of <term ref="/keyword/k000051">Ming</term> Dynasty (1562), collapsed naturally in the 18th year of the  Shunzhi period of <term ref="/keyword/k000070">Qing</term> Dynasty (1661), and was restored again in the 7th year of the Kangxi period of <term ref="/keyword/k000070">Qing</term>  Dynasty, (1668).  </p>
+                  
+                  <p source="#bibl000056a-2">
+                     The existing structure is a hollow, square, nine-story, <term ref="/keyword/k000177">pavilion</term> (louge 樓閣 ) -style brick pagoda rebuilt during the <term ref="/keyword/k000051">Ming</term>  Dynasty, standing 40.62 meters tall. The square brick base measures 1.5 meters in height. The first story of the pagoda is relatively tall, with an arched door on the south side. Stone corner pillars are embedded at the four corners, and each side features two stone statues of  guardian warriors(lishi 力士) which are representative of <term ref="/keyword/k000051">Ming</term>  Dynasty craftsmanship. The pagoda narrows progressively from bottom to top, with the height and width of each story gradually decreasing. Between each story, the eaves are formed by corbelled bricks. Square windows are set on the south side of each story. The tapering exterior curves reflect the style of <term ref="/keyword/k000082">Tang</term>   Dynasty pagodas. </p>
+                  
+                  <p source="#bibl000056a-3">
+                     Above the doorway on the south side of the tower, a stone plaque with the inscription “須彌峭立” (Sumeru Tower Steadfastly Standing) is embedded. The first story features vertical lattice windows（zhilingchuang 直櫺窗）, and the pagoda’s top has a richly layered sōrin（tasha 塔剎） connected to the four corners of the tower’s roof with iron chains, giving the structure a simple and elegant appearance. </p>
+                  
+                  
+                  <p source="#bibl000056a-3">
+                     The interior floor of the pagoda is paved with square bricks. Originally, the upper section of the first story featured a of <term ref="/keyword/k000154">coffered ceiling</term> (douba zaojing 鬭八藻井), but now only the central keel remains. The interior walls of the pagoda are vertical and interconnected from bottom to top. At the height of the first story’s eaves, a wooden roof has been added. A Buddhist altar is set up at the north gate of the tower to house the statue of Bodhisattva. The outer outline of the Buddhist platform is in the shape of a Sumeru pedestal and is made of bricks. </p>
+                  
+                 </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>38.139816, 114.564656</geo>
+               </location>
+               <trait type="type" sub-type="building type">
+                  <desc xml:lang="en">pagoda</desc>
+                  <desc xml:lang="zh-latn-pinyin">ta</desc>
+                  <desc xml:lang="zh-Hant">塔</desc>
+                  <desc xml:lang="zh-Hans">塔</desc>
+                  <desc xml:lang="en">stūpa</desc>
+               </trait>
+                  <bibl xml:id="bibl000056a-1"><!--Chinese History: A Manual -->
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                  <bibl xml:id="bibl000056a-2"> <!--中国文物地图集 河北 -->
+                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                     <citedRange unit="pp">36</citedRange>
+                  </bibl>
+                  <!--    
+                     <bibl xml:id="bibl000056a-3"> 
+                          <ptr target="https://architecturasinica.org/bibl/XZJ4YTXF"/>
+                        <citedRange unit="pp">51-55</citedRange>
+                        </bibl> 
+                  -->
+            </place>
+            <listRelation>
+               <relation active="https://architecturasinica.org/place/000056a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="building-type"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000056a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000056"/>
+               
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000056a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000154" ana="architectural-feature"/>
+               
+               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54157666284_ffca26820b_c.jpg"
+                  passive="https://architecturasinica.org/place/0000056a" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54157663894_7fd28fe4c9_c.jpg"
+                  passive="https://architecturasinica.org/place/0000056a" ana="featured"/>
+               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54205289675_d6ed40f51d_c.jpg"
+                  passive="https://architecturasinica.org/place/0000056a" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

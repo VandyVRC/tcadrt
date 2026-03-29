@@ -10,6 +10,8 @@
             <principal xml:id="TGM">Tracy Miller</principal>>
             <editor role="general" ref="#TGM">Tracy Miller</editor>
             <editor role="creator" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="ZH">Zhang Huan 张焕</editor>
             <respStmt>
                <resp>Editing, proofreading, data entry and revision by</resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
@@ -48,6 +50,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: record</change>
+         <change n="1.0" who="#FRC" when="2025-07-09">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,8 +62,33 @@
             <term xml:id="term-k000006-4" xml:lang="zh-latn-pinyin">cèjiǎo</term>
             <term xml:id="term-k000006-6" xml:lang="zh-latn-wadegile">ts`e-chiao</term>
             <term xml:id="term-k000006-1" xml:lang="en">batter or inward incline of eaves columns</term>
+            <term xml:id="term-k000006-7" xml:lang="en">Tilted foot</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000006</idno>
             <gloss/>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Literally meaning "tilted foot," the earliest example of the term cejiao 側腳 is occurs in the Buddhist text the Mahasamghika-vinaya  in reference to people standing 
+                  on the edges of their feet (T1425_.22.0401a10). The first architectural usage of cejiao can be found in the Yingzao fashi 營造法式 (). In timber-frame architecture, cejiao refers 
+                  to the practice of tilting a pillar so that its base leans outward while its top inclines inward. Both ends of the pillar are leveled to connect with other elements, such as the 
+                  dougong or the pillar base. Typically, cejiao is used in conjunction with shengqi <term ref="/keyword/k000270">生起</term>. Modern scholars have identified the exact angles of a pillar's inclination as it is described 
+                  in the Yingzao fashi. A pillar generally leans in two directions: parallel to the building's body, it tilts toward the central bay with an inclination of 1% of the pillar's height; 
+                  perpendicular to the building's body, it tilts inward at an inclination of 0.8% of its height. Corner pillars must meet both conditions simultaneously and incline inward along a 
+                  diagonal direction. Scholars have also used the term cejiao in reference to furniture design when describing components that, viewed from the front, tilt slightly inward at one 
+                  end（王世襄，明式家具研究）.</p>
+               <p xml:lan="en">Regarding the specific implementation of cejiao in timber-framed structures, scholars have two different opinions: one suggests that only the foot of the pillar is moved 
+                  outward (off of the standard grid), while the other posits that both the pillar head and base both incline off of the grid. Through an analysis of the structural system, it is evident 
+                  that in most non-chuandou systems, particularly in official architecture where larger timber components are used, the joints between the dougong, beams, and pillar head are too tightly 
+                  integrated to easily adjust.  Because pillars rest on stone bases without mortise-and-tenon connections, they are easier to move, thus it is more practical to shift the bottom of the 
+                  pillar while keeping the pillar head stationary. By contrast, in the chuandou system, where straight tenons are used between pillars and transverse beams <term ref="/keyword/k000117">(fang 枋)</term>, the connections are 
+                  more flexible, making adjusting the inclination at the pillar head easier. Thus, both methods (inclining the pillar at the bottom and inclining the pillar at the top) align with the 
+                  definition of cejiao. The specific implementation depends on the practical considerations made during construction.</p>
+               <p xml:lang="zh-Hant">側腳一詞最早見於東晉《摩訶僧祇律》（ T1425.22.0401a10），指人體用腳的側面著地而不正著以腳心落地的姿態。側腳作為建築術語首次出現于《營造法式》（）。在大木結構中，指柱子柱腳外出、柱首內收，
+                  削減柱首使之水平，削減柱腳截面使之平落在柱礎或地面的做法。大多數情況下，側腳與生起同時使用。學者指出了符合《營造法式》的側腳數值：一顆柱子通常向兩個方向傾斜，平行於屋身方向，朝向心間傾斜度為柱高的1%，垂直於屋身方向，
+                  朝向屋內傾斜度為柱高的0.8%。角柱由於需要同時滿足這兩個條件，而以對角方向向屋內傾斜。側腳也被研究者用於家具，指正面所見構件一端比另一端收縮一定的尺寸。（王世襄，2002 明式家具研究）</p>
+               <p xml:lang="zh-Hant">對於大木結構中側腳的具體做法，存在柱首不動只側腳及柱首柱腳都可以側兩種不同的看法（梁思成 1983，潘和何 2005）。通過對結構體系的分析可知，非穿斗的結構系統，尤其如官式建築由於使用木料大，柱頭部分的
+                  斗栱梁栿榫卯結合緊密，不易變動；而柱腳置於柱礎上，無榫卯連接，相對來說更易移動，故以柱首不動，側柱腳為合理。穿斗體系中，柱與枋之間使用直榫，更為靈活，側柱首更易操作。因此，無論是側柱腳還是柱首都符合側腳的定義，具體做法
+                  取決於實際施工中的便利性和需求。</p>
+            </note>
             <listRelation>
                <relation ref="foaf:depicts" active="https://farm5.staticflickr.com/4104/4841118583_d8c73757cf_z.jpg" passive="https://architecturasinica.org/keyword/k000006" rendition="featured">
                </relation>

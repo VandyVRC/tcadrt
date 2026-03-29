@@ -12,15 +12,19 @@
             <editor role="content-author" xml:id="ZC">CHEN Zhuo 陈卓</editor>
             <editor role="content-author" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Proof correction and revision by</resp>
+               <resp>Proof correction and revision: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
             <respStmt>
-               <resp>Adding citations</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Adding citations: </resp>
+               <name type="person" xml:id="SQ">SONG Qisen</name>
             </respStmt>
             <respStmt>
-               <resp>Editing, data entry, adding images, and adding citations</resp>
+               <resp>Adding diacritical marks to Pinyin, adding Wade-Giles: </resp>
+               <name type="person" xml:id="SLY">SHEN Liyan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Editing, data entry, adding images, and adding citations: </resp>
                <name type="person" when="2021-12-14" ref="#ZC">CHEN Zhuo 陈卓</name>
             </respStmt>
          </titleStmt>
@@ -52,11 +56,11 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2018-03-21-04:00">CREATED: place record</change>
-         <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
-         <change when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by
-            <name type="person" xml:id="SLY">SHEN Liyan</name></change>
-         <change n="2.1" who="#ZC" when="2021-12-14">Adding content by</change>
-         <change n="2.2" who="#TGM" when="2022-02-25">Editing by</change>
+         <change n="1.1" who="#SQ" when="2020-04-01">adding citation</change>
+         <change n="1.2" who= "SLY" when="2020-10-01">Adding diacritical marks to Pinyin, adding Wade-Giles by</change>
+         <change n="1.3" who="#ZC" when="2021-12-14">Adding content</change>
+         <change n="1.4" who="#TGM" when="2022-02-25">Editing</change>
+         <change n="1.5" who="#TGM" when="2024-12-02">Editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,14 +87,14 @@
                </state>
                <desc type="building-data" xml:lang="en">
                   <p source="#bibl000063-1">
-                     The main hall of Longmen Monastery is the Mahavira Treasure Hall. According to inscriptions on the front eaves columns, the Mahavira Hall was rebuilt in the fifth year of the <term ref="/keyword/k000055">Northern Song</term> Shaosheng reign period (1098), and had major renovations in the fifth to twelfth years of the <term ref="/keyword/k000051">Ming</term> Wanli reign period (1577-1584), the ninth to tenth years of the <term ref="/keyword/k000070">Qing</term> Shunzhi reign period (1652-1653), and the third year of the Qing Tongzhi reign period (1864). The foundation of the hall is made of brick and the structure is three-by-three <term ref="/keyword/k000149">bays</term>. It has a square plan and a single-eaves hip-gable roof (<term ref="/keyword/k000143">xieshanding 歇山頂</term>). Although its size is relatively small compared to other buildings of the period, it is still within the range for image halls of smaller monasteries in this area (Miller 2011, 182). The roof ridge-figures are made of yellow and green glazed ceramic tile, and their shapes and technique are all consistent with Ming-style (Guojia wenwuju 2006, 305). The transverse structure of the building spans six rafters from front to back with a four-<term ref="/keyword/k000107">rafter</term> beam (sichuanfu 四椽栿) abutting a <term ref="/keyword/k000140">rufu (乳栿)</term> tiebeam supported by three columns. On top of the three columns, there are 5-<term ref="/keyword/k000013">puzuo (鋪作)</term> bracket sets (<term ref="/keyword/k000019">dougong 斗拱</term>) with a single slanted arm (<term ref="/keyword/k000178">xia‘ang 下昂</term>) and a single perpendicular bracket arm (<term ref="/keyword/k000172">huagong 華栱</term>). There are also bracket sets carved in relief (yinke dougong 隐刻斗拱) between the columns. Four panels of six-grid lattice partition doors (六抹格扇門) are hung on the central bay of both front and back facades, and the two side bays both hold windows. The interior of the north (back) and east and west gable-end walls are decorated with 34.10 square meters of deeply colored Buddhist narrative murals. Based on the stele inscription and the style of the wall paintings, the mural on the west wall should have been painted in the Wanli reign period (1573-1620) and the mural on the east wall might have been painted during the renovation in the tenth year of the Shunzhi reign period (1653) (Song Wenqiang 2010, 55).  
+                     The main hall of Longmen Monastery is the Mahavira Treasure Hall. According to inscriptions on the front eaves columns, the Mahavira Hall was rebuilt in the fifth year of the <term ref="/keyword/k000055">Northern Song</term> Shaosheng reign period (1098), and had major renovations in the fifth to twelfth years of the <term ref="/keyword/k000051">Ming</term> Wanli reign period (1577-1584), the ninth to tenth years of the <term ref="/keyword/k000070">Qing</term> Shunzhi reign period (1652-1653), and the third year of the Qing Tongzhi reign period (1864). The foundation of the hall is made of brick and the structure is three-by-three <term ref="/keyword/k000149">bays</term>. It has a square plan and a single-eaves hip-gable roof (<term ref="/keyword/k000143">xieshanding 歇山頂</term>). Although its size is relatively small compared to other buildings of the period, it is still within the range for image halls of smaller monasteries in this area (Miller 2011, 182). The roof ridge-figures are made of yellow and green glazed ceramic tile, and their shapes and technique are all consistent with Ming-style (Guojia wenwuju 2006, 305). The transverse structure of the building spans six rafters from front to back with a four-<term ref="/keyword/k000107">rafter</term> <term ref="/keyword/k000028">beam</term> (sichuanfu 四椽栿) abutting a <term ref="/keyword/k000140">rufu 乳栿</term> tiebeam supported by three columns. On top of the three columns, there are five <term ref="/keyword/k000013">puzuo 鋪作</term> bracket sets (<term ref="/keyword/k000019">dougong 斗拱</term>) with a single downward slanted arm (<term ref="/keyword/k000178">xia‘ang 下昂</term>) and a single perpendicular bracket arm (<term ref="/keyword/k000172">huagong 華栱</term>). There are also bracket sets carved in relief (yinke dougong 隐刻斗拱) between the columns. Four panels of six-grid lattice partition doors (liumoge shanmen 六抹格扇門) are hung on the central bay of both front and back facades, and the two side bays both hold windows. The interior of the north (back) and east and west gable-end walls are decorated with 34.10 square meters of richly colored Buddhist narrative murals. Based on the stele inscription and the style of the wall paintings, they should be later additions, with the west wall having been painted in the <term ref="/keyword/k000051">Ming</term> Wanli reign period (1573-1620) and the east wall perhaps during the renovation in the tenth year of the <term ref="/keyword/k000070">Qing</term> Shunzhi reign period (1653) (Song Wenqiang 2010, 55).  
                   </p>
                </desc>
                <location type="gps" subtype="preferred">
-                  <geo>36.38750833 113.620255</geo>
+                  <geo>36.3902667 113.6227667</geo>
                </location>
                <location type="verbatim">
-                  <note>36˚ 23' 25.05" N (google earth-satellite) 113˚ 37'21.53 "E</note>
+                  <note>36°23.41600', 113°37.36600' (Garmin 2019-05-28)</note>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -120,7 +124,7 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <note type="field-notes">Song dynasty--eleventh century typical of Shangdang</note>
+               <!-- <note type="field-notes">Song dynasty--eleventh century typical of Shangdang</note> -->
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000208" passive="https://architecturasinica.org/keyword/k000062" ref="dcterms:subject" ana="building-type"/>

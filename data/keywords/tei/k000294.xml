@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">徹上明造</foreign>cheshangmingzao</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="FSJ">Fan Sijia 樊思嘉</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#FSJ">Fan Sijia 樊思嘉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000294/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-26-17:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-26-17:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000294" type="architectural feature">
+            <term xml:id="term-k000294-1" xml:lang="zh-latn-pinyin-nt">cheshangmingzao</term>
+            <term xml:id="term-k000294-2" xml:lang="zh-Hant">徹上明造</term>
+            <term xml:id="term-k000294-3" xml:lang="zh-Hans">彻上明造</term>
+            <term xml:id="term-k000294-4" xml:lang="zh-latn-pinyin">chèshàngmíngzào</term>
+            <term xml:id="term-k000294-5" xml:lang="zh-latn-wadegile">ch`e-shang-ming-tsao</term>
+            <term xml:id="term-k000294-6" xml:lang="en" source="#biblk000294-1"
+               type="literal_translation">fully-visible construction (lit.)</term>
+            <term xml:id="term-k000294-7" xml:lang="en" source="#biblk000294-2">open-frame construction</term>
+            <term xml:id="term-k000294-8" xml:lang="en" source="#biblk000294-3">exposed ceiling construction</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000294</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">The term cheshang mingzao 徹上明造 appears exclusively in the Yingzao fashi (Li 2009, 4.6a, 5.2a, 5.3a, 5.6b). Literally “fully-visible construction,” 
+                  the character che 徹 means “to penetrate,” while cheshang 徹上 indicates “thoroughness” or “completeness.” The term ming 明 denotes “visible” or “illuminated” and zao 造 
+                  is any method of construction. [2] Combined, the terms refer to a traditional Chinese architectural practice where all structural components of the interior ceiling are 
+                  visible. When this technique is employed, the finishing of the beam framework requires meticulous craftsmanship. </p>
+               <p xml:lan="en">Scholars generally agree that cheshang mingzao refers to the complete visibility of the interior structural framework of the roof [Liang 3]; Pan and He [4]; 
+                  Chen [5]; Fu [6]). However, in practice, it is common to find examples where some structural elements are exposed while others are concealed behind a ceiling. 
+                  Contemporary scholars often use both “cheshang mingzao” and “pingqi” 平棊 in their descriptions of exposed interior frames [7], even though this is often misleading given 
+                  the original meaning of “complete exposure.” Contemporary scholars have introduced the neologism cheshang lumingzao 徹上露明造 [8]（Liang 2006, 5) (sometimes abbreviated to 
+                  lumingzao 露明造) as synonyms for cheshang mingzao.</p>
+               <p xml:lang="zh-Hant">“徹上明造”一詞僅見于宋《營造法式》（Li 2009, 4.6a,5.2a,5.3a,5.6b），指中國古代建築室內頂部全部構架顯露可見的做法。當使用徹上明造時，梁架構件需做精緻處理。“徹”是通的意思，
+                  “徹上”表示貫通，通達。（漢語大詞典2.0電子版2002） “明”，指顯露。學界共識是“徹上明造”室內構架應全部可見（梁思成 1983, 109；潘谷西和何建中 2005, 251；陳明达 1021, 401；傅熹年 2009, 534）。
+                  實例中常見部分顯露，部分有天花的情況。當代學者會同時使用“徹上明造”及平棊等加以描述（侯幼彬 、李婉貞，2002：90），但這與徹上明造全部露明的意思存在矛盾。當代文獻中又有 “徹上露明造” （梁思成，2006：5）、
+                  “露明造"，均為當代學者新創造的術語。</p>             
+            </note>
+            <note type="related concepts">
+               <p source="#biblk000294-4">徹脊明 chejiming</p>
+            </note>
+            <listBibl xml:id="biblk000294-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/NR39L3C9"/>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/CDBY89GW"/>
+                  <citedRange unit="pp">54</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">351</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000294-4">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/WUDQBWLT"/>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000294" passive="ceilings and ceiling components"/>
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/50622265003_d4b20aed20_b.jpg" passive="https://architecturasinica.org/keyword/k000294" ana="featured"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

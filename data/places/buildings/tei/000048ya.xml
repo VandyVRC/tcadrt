@@ -8,9 +8,10 @@
             </title>
             <title level="m">Architectura Sinica</title>
             <principal xml:id="TGM">Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
             <respStmt>
-               <resp>Editing and proof correction:</resp>
+               <resp>Editing and proof correction: </resp>
                <name type="person" ref="#TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
@@ -42,40 +43,58 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+         <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place xml:id="place-000048ya" type="schema:LandmarksOrHistoricalBuildings">
-               <placeName xml:id="name000048y-1" xml:lang="en">Fengsheng Monastery</placeName>
-               <placeName xml:id="name000048y-2" type="building-name" xml:lang="zh-Hant">奉聖寺</placeName>
-               <placeName xml:id="name000048y-3" type="building-name" xml:lang="zh-Hans">奉圣寺</placeName>
-               <placeName xml:id="name000048y-4" type="building-name" xml:lang="zh-latn-pinyin">Fèngshèngsì</placeName>
-               <placeName xml:id="name000048y-5" type="building-name" xml:lang="zh-latn-wadegile">Feng-sheng-ssu</placeName>
-               <placeName xml:id="name000048y-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
-               <placeName xml:id="name000048y-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
-               <placeName xml:id="name000048y-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
+               <placeName xml:id="name000048ya-1" xml:lang="en">Fengsheng Monastery</placeName>
+               <placeName xml:id="name000048ya-2" type="building-name" xml:lang="zh-Hant">奉聖寺</placeName>
+               <placeName xml:id="name000048ya-3" type="building-name" xml:lang="zh-Hans">奉圣寺</placeName>
+               <placeName xml:id="name000048ya-4" type="building-name" xml:lang="zh-latn-pinyin">Fèngshèngsì</placeName>
+               <placeName xml:id="name000048ya-5" type="building-name" xml:lang="zh-latn-wadegile">Feng-sheng-ssu</placeName>
+               <placeName xml:id="name000048ya-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery</placeName>
+               <placeName xml:id="name000048ya-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺</placeName>
+               <placeName xml:id="name000048ya-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺</placeName>
+               <placeName xml:id="name000048ya-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">十方奉聖寺禪寺</placeName>
+               <placeName xml:id="name000048ya-10" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Shífāng fèngshèng chánsì</placeName>
+               <placeName xml:id="name000048ya-11" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">釋迦庵</placeName>
+               <placeName xml:id="name000048ya-12" type="alternate" subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Shìjiā ān</placeName>
                <idno type="URI">https://architecturasinica.org/place/000048ya</idno>
                <state type="existence" from="0618-01-01">
                   <label>Date</label>
-                  <desc>Converted to a monastery in the Tang dynasty</desc>
+                  <desc>Converted to a monastery in the 
+                     <term ref="/keyword/k000082">Tang</term> dynasty; historic buildings moved here from other sites beginning in the 1970s</desc>
                </state>
                <state type="existence" subtype="dynasty" source="#bibl000048ya-1" from="0618-01-01" to="1912-01-01">
                   <label>Dynasty</label>
-                  <desc>Tang-Qing 618 - 1912</desc>
+                  <desc>founded in the <term ref="/keyword/k000082">Tang</term>
+                  </desc>
                </state>
-               <desc type="site-data" source="#bibl000001-2">
-                  under construction
+               <desc>
+                  <p type="site-data">
+                     The site of the Fengsheng Monastery was thought to have originally been the residence of the <term ref="/keyword/k000082">Tang</term> period general Yuchi Jingde 尉遲敬德 (d. ca. 658 CE). It was converted to a monastery in 622, under the <term ref="/keyword/k000082">Tang</term> dynasty. 
+                  </p>
+                  <p type="site-data" source="#bibl000048ya-2">
+                     The original Fengsheng Monastery was built on a large scale with four buildings on the central axis: a <term ref="/place/000048ya1">Mountain Gate</term>
+                     front hall, middle hall, and back hall. It also had bell, drum, and scripture preserving (cangjing 藏經) towers (<term ref="/keyword/k000086">lou 樓</term>). Grouped together they made a procession of three courtyards, but none of these original buildings are extant. The present Fengsheng Monastery was rebuilt in the late 1970s using historic structures relocated from other sites as its axial buildings. It currently measures 126 meters east-west 33 meters and north-south, and is oriented facing eastward covering an area of 4158 square meters. Its major axial buildings are the 
+                     <term ref="/place/000048ya1">Mountain Gate (shanmen 山門)</term>
+                     , the 
+                     <term ref="/place/000048ya2">Transition Hall (guodian 過殿)</term>
+                        and the 
+                     <term ref="/place/000048ya3">Mahāvīra Treasure Hall (Daxiongbaodian 大雄寶殿)</term>. The building used here as the Mountain Gate
+                     was originally <placeName ref="/place/000048ya1">Jingqing Gate</placeName>, and had been the main gate leading into Jinci. This structure was originally built during the 
+                     <term ref="/keyword/k000101">Yuan</term>
+                     dynasty. Its current timber structure reflects <term ref="/keyword/k000101">Yuan</term> dynasty stylistic characteristics, but the glazed roof tiles are from the <term ref="/keyword/k000051">Ming</term> dynasty. It is a single-eaves hip-gable roof 10.5 meters in height and is five bays wide and four rafters deep. The Jingqingmen was moved to its current position as Fengsheng Monastery Mountain Gate in the 1980s.
+                  </p>
                </desc>
-               <!--
                <location type="gps" subtype="preferred">
-                  <geo>37.7085556 112.435</geo>
+                  <geo>37.706011 112.434156</geo>
                </location>
-               <location type="verbatim">
-                  <note>37˚ 43.99' N (Garmin) 112˚ 33.70' E</note>
-               </location>
-                 -->
+               <location>location determined using ArcGIS 18 October 2024</location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
                   <desc xml:lang="en">monastery (Buddhist)</desc>
@@ -87,15 +106,25 @@
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
+               <bibl xml:id="bibl000048ya-2">
+                  <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                  <citedRange unit="pp">建筑, vol. 2, 107-108</citedRange>
+               </bibl>
+                <bibl xml:id="bibl000048ya-3">
+                  <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                  <citedRange unit="pp">131</citedRange>
+               </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="building-type"/>
-               <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/> <!-- Tang -->
                <relation ana="contained" active="https://architecturasinica.org/place/000048ya" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
-              <!--<relation ref="foaf:depicts"
-                  active="https://live.staticflickr.com/65535/51989631573_a667be25ac_4k.jpg"
-                  passive="https://architecturasinica.org/place/000048y" ana="featured"/>
-                    --> 
+               <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/53994664522_62317bb34c_b.jpg" passive="https://architecturasinica.org/place/000048ya" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54076493096_e74759e51f_b.jpg"
+                  passive="https://architecturasinica.org/place/000048ya" ana="featured"/>
+               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000051" ref="dcterms:temporal" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000048ya" passive="https://architecturasinica.org/keyword/k000101" ref="dcterms:temporal" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

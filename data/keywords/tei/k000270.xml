@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">生起</foreign> shengqi</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="ZH">Zhang Huan 张焕</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#ZH">Zhang Huan 张焕</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000270/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2023-06-10-11:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#ZYY" when="2023-06-10-11:20">CREATED: record</change>
+         <change n="1.0" who="#FRC" when="2025-05-21">Update</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000270" type="architectural feature">
+            <term xml:id="term-k000270-1" xml:lang="zh-latn-pinyin-nt">shengqi</term>
+            <term xml:id="term-k000270-2" xml:lang="zh-Hant">生起</term>
+            <term xml:id="term-k000270-3" xml:lang="zh-Hans">生起</term>
+            <term xml:id="term-k000270-4" xml:lang="zh-latn-pinyin">shēngqǐ</term>
+            <term xml:id="term-k000270-5" xml:lang="zh-latn-wadegile">sheng-ch`i</term>
+            <term xml:id="term-k000270-6" xml:lang="en" source="#biblk000270-1"
+               type="literal_translation">raising up (from center to corner) (lit.)</term>
+            <term xml:id="term-k000270-7" xml:lang="en" source="#biblk000270-2"
+               type="literal_translation">rise</term>
+            <term xml:id="term-k000270-8" xml:lang="en" source="#biblk000270-3"
+               type="literal_translation">grow upward</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000270</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">The term shengqi, literally “rising progressively” or “growing upward” (Kroll, digital ed.), is only found in the Yingzao fashi. It refers to the gradual increase in 
+                  pillar height from the central bay leveling pillars (<term ref="/keyword/k000064">pingzhu 平柱</term>) to the corner pillars (<term ref="/keyword/k000035">jiaozhu 角柱</term>). This graduated height arrangement helps maintain the structure's stability 
+                  by better distributing the roof's weight. The exact measurements for the height increases are precisely regulated in the Yingzao fashi. Beyond its structural function, shengqi also 
+                  contributes to the upward-curving roof corners that are a distinctive aesthetic of traditional Chinese architecture. In the Yingzao fashi, the Chinese character sheng 生 (here meaning 
+                  gradual rising) is specifically chosen over the character 升 (implying direct upward movement) to emphasize this progressive elevation.</p>
+               <p xml:lan="en">Research on shengqi has focused on several issues. Scholars have primarily investigated its usage patterns and applications in different types of pillars. Recent studies 
+                  indicate that shengqi was used in official architecture from the <term ref="/keyword/k000082">Tang</term> to the <term ref="/keyword/k000051">Ming</term> dynasties (618-1644) (Liang 1983, Guo 1999). In vernacular architecture, extant examples from the Ming 
+                  were discovered in Zhejiang province (Shi 2016, 39).The practice was particularly common in buildings using the chuandou <term ref="/keyword/k000011">穿鬥</term> structural system. By examining surviving buildings, 
+                  researchers have found that shengqi was applied not only to eave pillars but also to inner structural pillars (Zhou and Hu, 2020). Other debates center on two aspects of measurement: 
+                  some scholars analyze the proportional relationship between the height increases and the original pillar heights (Chen 1981, 17-19; Wang 2002), while others argue that craftsmen would 
+                  have preferred working with whole number measurements for practical reasons (Zhang 2004, 84; Pan and He 2005, 31). Recent scholarship attempts to reconcile these two 
+                  approaches (Zhang 2018, 88-89).</p>
+               <p xml:lang="zh-Hant">生起，作为术语仅见于《营造法式》（1103），指柱子高度從心間平柱向兩邊依次逐渐升高的做法，有助於結構的整體穩定性；《營造法式》也規定了自平柱至角柱的具體升高數值。生起不僅是結構需求，
+                  也幫助塑造了中國傳統建築屋面飄逸，翼角飛揚的美學特征。“生”在《營造法式》有連續漸次變化之意，不应与升高的“升”混同。</p>
+               <p xml:lang="zh-Hant">学界关于生起的讨论，主要集中在它所使用的年代及適用的柱的範圍。當前研究指出，生起廣泛用於唐宋至明的官式建築（梁思成 1983，郭 1999），民間建築中至遲還存有明代浙江的案例（石 2016，39），
+                  穿鬥體系中生起始終存在；實例研究也指出生起不僅用於簷柱，也可用於內柱（周和胡 2020）。一些学者进一步探討实例中的生起数值。一種思路是結合材分制度推算生起數值相對於柱子尺寸的比例值（陈明达 1981，17-19；
+                  王贵祥 2002），另一種基於工匠思維傾向於取具體的整數值（张十庆 2004，84；潘和何 2005,31），近來研究有整合兩種思路的嘗試（张毅捷 2018，88-89）。</p>
+            </note>
+            <listBibl xml:id="biblk000270-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">70</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000270-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">365</citedRange>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000270-3">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                  <citedRange unit="pp">104</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000270" passive="building frame"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

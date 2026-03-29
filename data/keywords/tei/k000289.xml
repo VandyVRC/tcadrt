@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">串</foreign>chuan</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="ZJY">ZHANG Jingyi張婧怡</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛淨</name>
+               <name type="person" ref="#ZJY">ZHANG Jingyi張婧怡</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000289/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-26-17:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-26-17:00">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000289" type="architectural feature">
+            <term xml:id="term-k000289-1" xml:lang="zh-latn-pinyin-nt">chuan</term>
+            <term xml:id="term-k000289-2" xml:lang="zh-Hant">串</term>
+            <term xml:id="term-k000289-3" xml:lang="zh-Hans">串</term>
+            <term xml:id="term-k000289-4" xml:lang="zh-latn-pinyin">chuàn</term>
+            <term xml:id="term-k000289-5" xml:lang="zh-latn-wadegile">ch`uan</term>
+            <term xml:id="term-k000289-6" xml:lang="en" type="literal_translation">tie (lit.)</term>
+            <term xml:id="term-k000289-7" xml:lang="en" type="literal_translation">string together (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000289</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Chuan (lit. tie or string together) is a horizontal connecting element characterized by a smaller cross-section than beams. Chuan are positioned beneath purlins and/or 
+                  beams, penetrating through two vertical components (e.g. pillars and tuofeng). In the Song dynasty Yingzao fashi 營造法式 chuan emerged as a distinct architectural component 
+                  (e.g. Li 2009 5.7a, 19.2b, 19.3a,). Typically, chuan are placed in every other bay. If chuan are placed in every bay, then its position will alternate between higher and lower 
+                  positions. These characteristics distinguish them from the <term ref="/keyword/k000114">e 額</term> which is usually positioned on top of vertical components. </p>
+               <p xml:lan="en">Within the damuzuo 大木作 section of Yingzao fashi, chuan generally comprised several types: <term ref="/keyword/k000290">shunjichuan 順脊串</term>, <term ref="/keyword/k000292">shunfuchuan 順栿串</term>, <term ref="/keyword/k000291">shunshenchuan 順身串</term>, and 
+                  <term ref="/keyword/k000293">chengchuanchuan 承椽串</term>. Chuan were primarily utilized in palatial hall-style structures (<term ref="/keyword/k000130">diantang 殿堂</term>), without upper bracketing systems and lacking supporting components. 
+                  Their cross-sectional dimensions were constrained to no larger than one standard timber unit (<term ref="/keyword/k000271">cai)</term>, measuring approximately 21 fen in width and 10 fen in thickness (Yu 2017, 12-19).</p>
+               <p xml:lan="en">By contrast, in the xiaomuzuo 小木作 section if the Yingzao fashi, the cross-section of the timbers are not limited to one standard unit (cai). The types listed in this 
+                  section are: yaochuan 腰串, chenglinchuang 承櫺串, shangchuan 上串, xiachuan 下串, chuanxinchuan 穿心串, and jiaochuan 腳串.</p>
+               <p xml:lan="en">Etymologically, chuan signifies interconnectedness, literally meaning to tie or connect items. Synthesizing scholarly perspectives, chuan components serve two primary 
+                  functions:</p>
+               <p xml:lan="en">1. By interconnecting structural elements, especially columns, chuan improve the overall framework integrity (Zhang 2012, 133; Pan 2005, 75).</p>
+               <p xml:lan="en">2. During construction, they facilitate precise positioning and calibration of the timber frame (Yu 2017, 12-19).</p>
+               <p xml:lan="en">Scholars note that chuan, especially the shunfuchuan, represent evidence of Jiangnan regional influences on <term ref="/keyword/k000074">Song</term> dynasty official architectural styles. Zhang Shiqing 
+                  emphasizes the critical significance of chuan components in diantang 殿堂 (Zhang 2012, 133). The relationship of this element to the <term ref="/keyword/k000011">chuandou 穿鬥</term> building system is the subject of 
+                  current investigative research, one which may provide important insights into the influence of local building practices on official architecture.</p>
+               <p xml:lang="zh-Hant">串作為建築構件的名稱主要出現在宋《營造法式》（李誡2009, 5.7a, 19.2b, 19.3a, etc.）。串是一種水平連接構件，通常斷面尺寸小於梁栿額等。基本構造特征為位於槫或栿下，穿插於兩柱柱身（或駝峰）之間，
+                  端頭透榫出柱；通常需要隔間或逐間上下相閃使用。這一特征將其與位於柱等構件頂部的額區別開來。</p>
+               <p xml:lang="zh-Hant">在《營造法式》大木作部分，串一般包括順脊串、順栿串、順身串和承椽串；主要用於廳堂，上不架設鋪作，下無墊托構件，斷面尺寸不大於一足材（廣21分，厚10分）（喻夢哲 2017，12-19）。在小木作部分，
+                  串的斷面尺寸範圍更廣，不再限於一足材內，一般有腰串、承櫺串、上串、下串、穿心串、腳串。</p>  
+               <p xml:lang="zh-Hant">“串”字本義有“連貫”的意思，將物品連貫在一起，亦指連貫而成的物品。綜合學者們的觀點，串構件主要有以下兩種作用：一是通過拉結聯繫，提升構架整體性。（張十慶，2012，133；潘谷西，2005，75）。二是立架
+                  時起安勘校準的作用。（喻夢哲2017，12-19）</p>
+               <p xml:lang="zh-Hant">串構件尤其是順栿串被學者認為是宋代官式建築受到江南影響的證據。張十慶並認為串構件對於廳堂式構架具有重要意義（張十慶，2012，133）。串技術與穿斗體系的關係，對理解南方匠作傳統對官式建築的影響有重要意義，
+                  有待進一步研究。</p>
+            </note>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000289" passive="roof components"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

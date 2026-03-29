@@ -7,19 +7,20 @@
             <title level="a" xml:lang="en">Zhengding Kaiyuan Monastery, bell tower <foreign xml:lang="zh-Hant">正定開元寺鐘樓</foreign>
             </title>
             <title level="m">Architectura Sinica</title>
-            <principal>Tracy Miller</principal>
-            <editor role="general">Tracy Miller</editor>
+            <principal xml:id="ZEJ" ref="#ZEJ">ZHANG Enjia 张恩嘉</principal>
+            <editor role="content-author" xml:id="ZEJ">ZHANG Enjia 张恩嘉</editor>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
             <respStmt>
-               <resp>Editing and proof correction</resp>
-               <name type="person" xml:id="TGM">Tracy Miller</name>
+               <resp>Research: </resp>
+               <name type="person" ref="#ZEJ">ZHANG Enjia 张恩嘉</name>
             </respStmt>
             <respStmt>
-               <resp>adding citation</resp>
-               <name type="person" xml:id="SQ">Song Qisen</name>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="TGM">Tracy Miller</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="3.0"/>
          </editionStmt>
          <publicationStmt>
             <authority>Architectura Sinica</authority>
@@ -29,7 +30,7 @@
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
                </licence>
             </availability>
-            <date>2018-03-21-04:00</date>
+            <date>2024-12-10-10:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -49,6 +50,8 @@
          <change n="2.0" who="#SQ" when="2020-04-01">adding citation</change>
          <change when="2020-09-26">Adding diacritical marks to Pinyin, adding Wade-Giles by
             <name type="person" xml:id="OW">OGIHARA Waka</name></change>
+         <change n="3.0" when="2024-12-10">Adding description, GEOlocation,and photo 
+            <name type="person" xml:id="#ZEJ">ZHANG Enjia 张恩嘉</name></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +62,7 @@
                <placeName xml:id="name000199-2" type="building-name" xml:lang="zh-Hant">鐘樓</placeName>
                <placeName xml:id="name000199-3" type="building-name" xml:lang="zh-Hans">钟楼</placeName>
                <placeName xml:id="name000199-4" type="building-name" xml:lang="zh-latn-pinyin">zhōnglóu</placeName>
-               <placeName xml:id="name000199-5" type="building-name" xml:lang="zh-latn-wadegile">Chung-lou</placeName>
+               <placeName xml:id="name000199-5" type="building-name" xml:lang="zh-latn-wadegile">chung-lou</placeName>
                <placeName xml:id="name000199-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Zhengding Kaiyuansi zhonglou</placeName>
                <placeName xml:id="name000199-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">正定開元寺鐘樓</placeName>
                <placeName xml:id="name000199-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">正定开元寺钟楼</placeName>
@@ -72,8 +75,15 @@
                   <label>Dynasty</label>
                   <desc>Tang 618 - 907</desc>
                </state>
-               <location type="verbatim">
-                  <note>38˚ 08.39' N (Magellan) 114˚ 33.94' E</note>
+               <desc type="building-data" xml:lang="en">
+                  <p source="#bibl000199-2">
+                     The Kaiyuansi bell tower was built in the fifth year of the Qianning period of the <term ref="/keyword/k000082">Tang </term>dynasty (898). It faces west and sits on the east side, spanning three bays both in width and depth, and features a single-eave, hip gable roof<term ref="/keyword/k000143">(xieshanding 歇山頂)</term>, and a two-story pavilion structure. The construction follows a full open style (cheshanglumingzao 徹上露明造), with five <term ref="/keyword/k000017">bracket sets（puzuo 鋪作）</term>, double <term ref="/keyword/k000024">stolen-heart construction（touxinzao 偷心造）</term> used under the eaves. The column tops have curved finials, and the pillar grid exhibits clear splayed supports and curvature.</p>
+                  <p source="#bibl000199-2"> The building has an area of 135 square meters and a height of 14 meters. Within the tower hangs a bronze bell from the <term ref="/keyword/k000082">Tang </term>dynasty, measuring 2.6 meters in height with a diameter of 1.56 meters. Apart from the replacement of the top bracket sets<term ref="/keyword/k000019">（dougong 斗栱)</term> during a <term ref="/keyword/k000070">Qing</term> dynasty restoration, the constructions such as large wooden framework, panel doors, and vertical lattice windows（zhilingchuang 直櫺窗）are all original from the <term ref="/keyword/k000082">Tang</term> dynasty. During a major renovation in 1997, the upper eave bracket sets were restored following the style of the lower eave bracket sets. </p>
+                  <p source="#bibl000199-3">    
+                     Inside the tower, short, thick crescent-shaped beams (月梁) are installed atop the four columns. Further columns and beams are placed above these, designed specifically for hanging the bell. The architect Liang Sicheng, who investigated Zhengding in 1933, believed that this structure is the only example of a bell tower dating from the pre-<term ref="/keyword/k000036">Jin</term> and <term ref="/keyword/k000101">Yuan</term> dynasties.</p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>38.139848, 114.565210</geo>
                </location>
                <trait type="type" sub-type="building type">
                   <label>Type</label>
@@ -82,17 +92,43 @@
                   <desc xml:lang="zh-Hant">樓</desc>
                   <desc xml:lang="zh-Hans">楼</desc>
                </trait>
-               <bibl xml:id="bibl000199-1">
+               <bibl xml:id="bibl000199-1"><!--Chinese History: A Manual -->
                   <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
                   <citedRange unit="pp">12</citedRange>
                </bibl>
-               <!-- <note type="field-notes">Tang dynasty first floor (partial) - compare to Zhengding Wenmiao?</note>
-               <note type="notes">for date see: zgmscd 104</note> -->
+               <bibl xml:id="bibl000199-2"> <!--中国文物地图集 河北 -->
+                     <ptr target="https://architecturasinica.org/bibl/EKL6CLJJ"/>
+                     <citedRange unit="pp">36</citedRange>
+                  </bibl>
+               <bibl xml:id="bibl000199-3">  <!--梁思成与正定开元寺钟楼 -->
+                          <ptr target="https://architecturasinica.org/bibl/XZJ4YTXF"/>
+                        <citedRange unit="pp">18</citedRange>
+                     </bibl>
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000199" passive="https://architecturasinica.org/keyword/k000086" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000036" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000101" ana="dynasty"/>
                <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+               
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000143" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000017" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000024" ana="architectural-feature"/>
+               <relation active="https://architecturasinica.org/place/000199" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k0000019" ana="architectural-feature"/>
+               
                <relation ana="contained" active="https://architecturasinica.org/place/000199" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000056"/>
+               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54157348116_9132794dfc_6k.jpg"
+                  passive="https://architecturasinica.org/place/0000199" ana="featured"/>
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54157804810_4ee4d7b666_6k.jpg"
+                  passive="https://architecturasinica.org/place/0000199" ana="featured"/>
+               
+               <relation ref="foaf:depicts"
+                  active="https://live.staticflickr.com/65535/54202366830_1044e3d3e0_c.jpg"
+                  passive="https://architecturasinica.org/place/0000199" ana="featured"/>
             </listRelation>
          </listPlace>
       </body>

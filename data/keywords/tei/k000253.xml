@@ -12,17 +12,35 @@
             <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
             <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
             <editor role="content-author" xml:id="JJY">JIANG Jiayuan 蔣嘉元</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛净</editor>
             <respStmt>
                <resp>Website coordination by</resp>
-               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+               <name type="person" xml:id=""></name>
             </respStmt>
             <respStmt>
                <resp>Preliminary research and revision by</resp>
                <name type="person" ref="#JJY">JIANG Jiayuan 蔣嘉元</name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
             </respStmt>
             <respStmt>
                <resp>Entry of revised data and links by</resp>
                <name type="person" xml:id="ZYY">ZOU Yuyang 鄒宇洋</name>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,6 +72,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" when="2023-06-10-10:50">CREATED: record</change>
+         <change n="2.0" who="FRC" when="2025-08-05-14:30">Data added</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,12 +81,34 @@
             <term xml:id="term-k000253-1" xml:lang="zh-latn-pinyin-nt">jia</term>
             <term xml:id="term-k000253-2" xml:lang="zh-Hant">架</term>
             <term xml:id="term-k000253-3" xml:lang="zh-Hans">架</term>
-            <term xml:id="term-k000253-4" xml:lang="zh-latn-pinyin">jìa</term>
+            <term xml:id="term-k000253-4" xml:lang="zh-latn-pinyin">jià</term>
             <term xml:id="term-k000253-5" xml:lang="zh-latn-wadegile">chia</term>
+            <term xml:id="term-k000253-6" xml:lang="en" source="#biblk000253-1" >frame</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000253</idno>
             <note type="Note">
-               Under construction
+               <p>Under construction</p>
+               <p xml:lan="en">In Chinese traditional architecture, jia 架 serves as a technical term for measuring the depth of buildings, commonly expressed in phrases like “three bays and five jia” 
+                  (san jian wu jia 三間五架) (Ouyang and Song, 1975, p. 532). However, the specific meaning of “jia” underwent a significant transformation during the <term ref="/keyword/k000082">Tang</term> dynasty.</p>
+               <p xml:lan="en">The term jia first appeared in <term ref="/keyword/k000020">Eastern Han</term> dynasty literature (Zheng and Jia, 1999, p. 237), where it referred to a structural unit in which two pillars supported one purlin. 
+                  Around the Tang dynasty, its meaning shifted to denote a unit in the roof's transverse direction (<term ref="/keyword/k000255">hengjia</term> 橫架; perpendicular to the roof ridge) where two purlins (or pillars) supported 
+                  one rafter, and this unit became the standard for measuring room depth.</p>
+               <p xml:lan="en">The evolution in the meaning of jia as a standard measure of room depth may be related to the structural transformation of wooden buildings that occurred between the Han and 
+                  Tang dynasties–specifically, the shift in the main structural framework from being aligned parallel to the primary roof ridge (longitudinal frame, zongjia 縱架) to being oriented 
+                  perpendicular to the roof ridge (transverse frame, hengjia 橫架). However, the dual meanings of jia as a unit in the roof's construction and a standard for measuring room depth continued 
+                  to coexist from the Tang through the <term ref="/keyword/k000070">Qing</term> dynasty. This parallel usage likely persisted because many texts, especially official regulations and codes, tended to directly inherit institutional 
+                  conventions from previous dynasties without adapting to practical changes in construction methods (Jiang, Zhuge and Jia, 2024).</p>
+               <p xml:lang="zh-Hant">架作為中國古建築術語是計量建築進深規模的單位，常見用法如“三間五架”。（歐陽和宋 1975，532）。但“架”具體所指，在唐代發生重要變化。架最早见於東漢文献（鄭和賈 1999，237），指两柱承一檩的结构单元；
+                  大約在唐代，架出現新的意涵，指山面方向两檁（柱）承一椽的單元，並以此為單位計量房間進深。</p>
+               <p xml:lang="zh-Hant">架的所指及計架視角的轉變，可能與漢代至唐代木構建築的轉型，即主體結構從平行於正脊方向轉向垂直於正脊方向的構架有關。但唐代以後直至清代，兩種計架視角仍並行。其原因可能是許多文獻，尤其是官方律令，
+                  更多是在制度層面對前朝成式的直接承襲，未能回應實際情況的改變。（蔣，諸葛和賈，2024）</p>
             </note>
+            <note type="Related Terms">
+               <p>步架</p>
+               <p>界</p>
+            </note>
+            <bibl xml:id="biblk000253-1">
+               <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+            </bibl>
             <listRelation>
                <relation ref="skos:broadMatch"
                active="https://architecturasinica.org/keyword/k000253" passive="building frame"/>

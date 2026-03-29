@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Zhenjue Monastery Arched Entryways 
+                    <foreign xml:lang="zh-Hant">真覺寺拱門</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="JAH">Joseph Hanauer</principal>
+                <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <respStmt>
+                    <resp>Initial Research: </resp>
+                    <name type="person" ref="#JAH">Joseph Hanauer</name>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000299a/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2024-12-01-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+            <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000299a" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000299a" xml:lang="en">Zhenjue Monastery Arched Entryways </placeName>
+                    <placeName xml:id="name000299a-1" type="building-name" xml:lang="zh-Hant">真覺寺拱門</placeName>
+                    <placeName xml:id="name000299a-2" type="building-name" xml:lang="zh-Hans">真覺寺拱门</placeName>
+                    <placeName xml:id="name000299a-3" type="building-name" xml:lang="zh-latn-pinyin">Zhēnjué sì gǒngmén</placeName>
+                    <placeName xml:id="name000299a-4" type="building-name" xml:lang="zh-latn-wadegile">Chenchüeh ssu kungmen</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000299a</idno>
+                    <state type="existence" from="1473-01-01">
+                        <label>Date</label>
+                        <desc>ca. 1473</desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" from="1473-01-01" to="2024-01-01">
+                        <label>Dynasty</label>
+                        <desc>Founded in the <term ref="/keyword/k000051">Ming</term>, rennovated during the <term ref="/keyword/k000070">Qing</term> and <term ref="/keyword/k000202">People's Republic of China</term> periods.
+                        </desc>
+                    </state>
+                    <desc> 
+                        <p xml:lang="en" type="site-data" source="#bibl000299a-1">
+                            The <term ref="/place/000299c">Jingangbaozuo Pagoda 金剛寶座塔</term> can be entered through two arched entryways on the north and south sides. Being the entrances to the pagoda, the doorways likely received repairs and renovations when the rest of the pagoda did. In its current form it is brick with a white stone façade. The bottom half of the door is framed by vertical sides which continue the lotus blossom protrusions that are present on the rest of the pagoda’s façade. The rounded arch which frames the door contains many instances of inscribed animal iconography. These animals include elephants, lions, snakes and horses. These animals are accompanied by nature imagery. The top of the arch is inscribed with humanoid figures accompanied by Buddhist iconography. 
+                        </p> 
+                        <p xml:lang="en" type="site-data">
+                            The interior of the building can be circumambulated. The walkways within the building are topped with a continuous rounded arch. The interior contains a circumambulatory path around a square central core with statutory niches on all four sides and crowned with a bracketed set of eaves of a sinitic palace. The niches are each framed with a cusped arch.  The interior bracketing and roof both use masonry to imitate wood.                    
+                        </p>
+                    </desc> 
+                    <location type="gps" subtype="preferred">
+                        <geo>39.943607 116.324208</geo>
+                    </location>
+                    <location>location determined using ArcGIS 1 December 2024</location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">Gate</desc>
+                        <desc xml:lang="zh-latn-pinyin">Men</desc>
+                        <desc xml:lang="zh-Hant">門</desc>
+                        <desc xml:lang="zh-Hans">门</desc>
+                    </trait>                  
+                 <listBibl xml:id="bibl000299a-1">
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                     <citedRange unit="pp">Vol. 1, 256</citedRange>
+                  </bibl>
+                  <bibl>
+                       <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                       <citedRange unit="pp">224</citedRange>
+                   </bibl>
+                  <bibl>
+                     <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                      <citedRange unit="pp">vol. 4, 3b</citedRange>
+                  </bibl>
+                  </listBibl> 
+                </place>
+                <listRelation>
+                    <relation active="https://architecturasinica.org/place/000299a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <!--  Ming  -->
+                    <relation active="https://architecturasinica.org/place/000299a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <!--  Qing  -->
+                    <relation active="https://architecturasinica.org/place/000299a" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000202" ana="dynasty"/>
+                    <!-- PRC -->
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157407281_9bd4c23f7e_b.jpg" passive="https://architecturasinica.org/place/000299a" ana="featured"/>
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157695213_932347e73d_b.jpg" passive="https://architecturasinica.org/place/000299a" ana="featured"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000299a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000299"/> 
+                    <relation ana="contained" active="https://architecturasinica.org/place/000299a" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000299c"/> 
+                    <relation active="https://architecturasinica.org/place/000299a" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="architectural-feature"/>  
+                </listRelation>
+            </listPlace>
+        </body> 
+    </text>
+</TEI>
+

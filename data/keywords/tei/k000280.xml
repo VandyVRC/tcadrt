@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">戧脊</foreign>qiangji</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="LXR">LI Xingru 李幸儒</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id=""></name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#LXR">LI Xingru 李幸儒 </name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000280/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-22-13:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-22-13:20">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000280" type="architectural feature">
+            <term xml:id="term-k000280-1" xml:lang="zh-latn-pinyin-nt">qiangji</term>
+            <term xml:id="term-k000280-2" xml:lang="zh-Hant">戧脊</term>
+            <term xml:id="term-k000280-3" xml:lang="zh-Hans">戗脊</term>
+            <term xml:id="term-k000280-4" xml:lang="zh-latn-pinyin">qiàngjǐ</term>
+            <term xml:id="term-k000280-5" xml:lang="zh-latn-wadegile">ch`iang-chi</term>
+            <term xml:id="term-k000280-6" xml:lang="en" source="#biblk000280-1" type="literal_translation">angle ridge (lit.)</term>
+            <term xml:id="term-k000280-7" xml:lang="en" type="literal_translation">bracing ridge (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000280</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Literally “bracing ridge,” qiangji 戧脊 refers to the diagonal corner ridge of a building with a hip-gable (<term ref="/keyword/k000143">xieshan 歇山</term>) roof (Liu 1993,166）. The term qiangji 戧脊 
+                  was first documented in the <term ref="/keyword/k000070">Qing</term> dynasty () and is interchangeable with “branching ridge” (<term ref="/keyword/k000281">chaji 岔脊</term>). Some modern scholars use the term qiangji to refer to the corner ridge or 
+                  hipped roof (<term ref="/keyword/k000125">wudian 廡殿</term>)（Guo 2015,112）, or the corner ridge of lower roofs in a multi-story building, both of which were were called “corner ridge” (<term ref="/keyword/k000279">jiaoji 角脊</term>) in historical 
+                  resources.（Qi 1999,270）</p>
+               <p xml:lang="zh-Hant">“戧脊”指中國古代歇山建築屋面轉角之脊(刘 1993,166）。 “戧脊”一詞最早出現於清代文獻，與岔脊同意。這一含義被現代學者沿用。此外，部分現代學者也用“戧脊”指廡殿屋面的轉角之脊（郭 2015,112），
+                  或重簷建築下層簷的簷角屋脊（齐 1999,270）。但這兩種屋脊在古代文獻中均稱為角脊。</p>           
+            </note>
+            <listBibl xml:id="biblk000280-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/MIIQ4VBC"/>
+                  <citedRange unit="pp">64</citedRange>
+               </bibl>
+            </listBibl>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000280" passive="roof components"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>

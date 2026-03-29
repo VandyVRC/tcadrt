@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../taxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="zh-latn-pinyin">
+               <foreign xml:lang="zh-Hant">岔脊</foreign>chaji</title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general" ref="#TGM">Tracy Miller</editor>
+            <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+            <editor role="content-author" ref="#ZJ">ZHUGE Jing 諸葛淨</editor>
+            <editor role="content-author" xml:id="LXR">LI Xingru 李幸儒</editor>
+            <editor role="content-author" xml:id="JTL">JIA Tingli 賈亭立</editor>
+            <respStmt>
+               <resp>Website coordination by</resp>
+               <name type="person" xml:id="YFB">Yuh-Fen Benda</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preliminary research and revision: </resp>
+               <name type="person" ref="#LXR">LI Xingru 李幸儒 </name>
+               <name type="person" ref="#JTL">JIA Tingli 賈亭立</name>
+            </respStmt>
+            <respStmt>
+               <resp>Peer review by</resp>
+               <name type="team">ATTCAT 2023-2024</name>
+            </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/keyword/k000281/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2025-05-22-13:20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="FRC" when="2025-05-22-13:20">CREATED: record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entryFree xml:id="k000281" type="architectural feature">
+            <term xml:id="term-k000281-1" xml:lang="zh-latn-pinyin-nt">chaji</term>
+            <term xml:id="term-k000281-2" xml:lang="zh-Hant">岔脊</term>
+            <term xml:id="term-k000281-3" xml:lang="zh-Hans">岔脊</term>
+            <term xml:id="term-k000281-4" xml:lang="zh-latn-pinyin">chàjǐ</term>
+            <term xml:id="term-k000281-5" xml:lang="zh-latn-wadegile">ch`a-chi</term>
+            <term xml:id="term-k000281-6" xml:lang="en" type="literal_translation">branching ridge (lit.)</term>
+            <idno type="URI">https://architecturasinica.org/keyword/k000281</idno>
+            <note type="Note">
+               <p>under construction</p>
+               <p xml:lan="en">Literally “branching ridge,” chaji refers to the corner ridges of a building with a hip-gable (<term ref="/keyword/k000143">xieshan 歇山</term>) roof.</p>
+               <p xml:lan="en">The term chaji was first documented in the Qing dynasty （Yongli 2000, 446） and is synonymous with the term “bracing ridge” (<term ref="/keyword/k000280">qiangji 戧脊</term>). Although Liang Sicheng 
+                  preferred to use qiangji exclusively in his Qingshi yingzao zeli 清式營造則例（Liang 1981, 37),  both terms remain in use among contemporary scholars when discussing the corner 
+                  ridges in a building with a hip and gable (xieshan 歇山) roof.</p>
+               <p xml:lan="en">Some modern scholars have expanded the use of chaji to include two additional architectural features: the section in front of the tile animals on the roof 
+                  ridge (traditionally called shouqian 獸前) （Lv and Liu 1992,111）, and the corner ridges of the lower roofs in multi-story buildings (traditionally called <term ref="/keyword/k000279">jiaoji 角脊</term>) （Qi 1999,270）.</p>
+               <p xml:lang="zh-Hant">“岔脊”指中國古代建築歇山屋面轉角之脊。“岔脊”一詞最早出現於清代文獻，與戧脊同意。(《工程做法则例》（胤礼 2000,446） )梁思成曾經棄用岔脊，僅以戧脊指歇山屋面轉角之脊（梁 1981,37），
+                  但當代學者仍同時使用岔脊和戧脊指代歇山屋面轉角之脊。（王 1996,203）此外，也有部分學者將垂脊中垂獸之前的部分（吕和刘 1992,111），或重簷建築下層簷的簷角屋脊稱為岔脊（齐 1999,270）。但在古代文獻中前者
+                  稱為“獸前”，後者為角脊。</p>       
+            </note>
+            <listRelation>
+               <relation ref="skos:broadMatch" active="https://architecturasinica.org/keyword/k000281" passive="roof components"/>
+            </listRelation>
+         </entryFree>
+      </body>
+   </text>
+</TEI>
