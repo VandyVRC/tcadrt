@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">Jin Shrines, Futu Cloister <foreign xml:lang="zh-Hant">晉祠浮屠院</foreign>
+            </title>
+            <title level="m">Architectura Sinica</title>
+            <principal xml:id="TGM">Tracy Miller</principal>
+            <editor role="general">Tracy Miller</editor>
+            <editor role="content author" ref="#TGM">Tracy Miller</editor>
+            <respStmt>
+               <resp>Editing and proof correction: </resp>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Architectura Sinica</authority>
+            <idno type="URI">https://architecturasinica.org/place/000048za/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+               </licence>
+            </availability>
+            <date>2024-09-19-04:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="zh-latn-pinyin">Pinyin</language>
+            <language ident="zh-Hant">Traditional Chinese</language>
+            <language ident="zh-Hans">Simplified Chinese</language>
+            <language ident="zh-latn-wadegile">Wade-Giles</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="1.0" who="#TGM" when="2024-11-01-04:00">CREATED: place record</change>
+         <change n="1.1" who="#TGM" when="2024-11-01-04:00">added source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place-000048za" type="schema:LandmarksOrHistoricalBuildings">
+               <placeName xml:id="name000048za-1" xml:lang="en">Futu Cloister </placeName>
+               <placeName xml:id="name000048za-2" type="building-name" xml:lang="zh-Hant">浮屠院</placeName>
+               <placeName xml:id="name000048za-3" type="building-name" xml:lang="zh-Hans">浮屠院</placeName>
+               <placeName xml:id="name000048za-4" type="building-name" xml:lang="zh-latn-pinyin">Fútúyuàn</placeName>
+               <placeName xml:id="name000048za-5" type="building-name" xml:lang="zh-latn-wadegile">Fu-t'u-yuan</placeName>
+               <placeName xml:id="name000048za-6" type="alternate" subtype="building-name-in-site" xml:lang="en">Jinci Futuyuan</placeName>
+               <placeName xml:id="name000048za-7" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠浮屠院</placeName>
+               <placeName xml:id="name000048za-8" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hans">晋祠浮屠院</placeName>
+               <placeName xml:id="name000048za-9" type="alternate" subtype="building-name-in-site" xml:lang="zh-Hant">晉祠塔院</placeName>
+               <placeName xml:id="name000048za-10" type="alternate" subtype="building-name-in-site" xml:lang="en">Jin Shrines, Pagoda Cloister</placeName>
+               <idno type="URI">https://architecturasinica.org/place/000048za</idno>
+               <state type="existence" from="0581-01-01" to="1990-01-01">
+                  <label>Date</label>
+                  <desc>586 or 622; rebuilt in the 1980s</desc>
+               </state>
+               <state type="existence" subtype="dynasty" source="#bibl000048ya4-1" from="0581-01-01" to="1912-01-01">
+                  <label>Dynasty</label>
+                  <desc>Likely founded in the Sui dynasty</desc>
+               </state>
+               <desc type="site-data">
+                  <p> This complex and the <placeName ref="/place/000048ya">Shifang fengsheng chansi 十方奉聖禪寺</placeName> serve as the two primary Buddhist portions of the Jinci site. Likely founded with the pagoda at its center, according to Liu Dapeng's <title>Jincizhi</title>, the cloister (Futuyuan 浮屠院 or tayuan 塔院) was added in the thirteenth year of the Qianlong reign period 1748 (Liu 1986, 91). However, is unknown the extent to which that project replaced earlier buildings (Liu 2015). The present complex is oriented north-south with the pagoda in the center and a great hall framing the north end. The the overall site encloses 1,692 square meters, of which the buildings occupy a total of 538 square meters. The current great hall and east and west chambers were constructed at the beginning of the 1980s following the description in the Jincizhi 晉祠志. The great hall, presently an art gallery housing the works of Zhao Meisheng 趙梅生 (1926-2022) , is five bays wide with a 1.5 meter deep front verandah. Two-bay wide lobe halls frame either side of the great hall. There are also east and west chambers framing the sides of the cloister's back portion, each three-bays wide with a 1.1 meter-deep front verandah.</p>
+                  <p  source="#bibl000048ya-2">On the south side of the cloister is a small gate called “tongyou” 通幽 (passage to seclusion) which is linked to the back cloister of Fengsheng Monastery. There is a chuihuamen 垂花門 on the east side holding a stone plaque carved with the name 浮屠院. On either side of the door are openwork windows.  A ”moon doorway” (yuedongmen 月洞門) is located on the southwest side of the cloister leading to the Baiyue mountain chamber.</p>
+               </desc>
+               <location type="gps" subtype="preferred">
+                  <geo>37.706490 112.433446</geo>
+               </location>
+               <location type="verbatim">
+                  <note>located using ArcGIS 2024-10-18</note>
+               </location>
+               
+               <trait type="type" sub-type="building type">
+                  <label>Type</label>
+                  <desc xml:lang="en">cloister</desc>
+                  <desc xml:lang="zh-latn-pinyin">yuan</desc>
+                  <desc xml:lang="zh-Hant">院</desc>
+                  <desc xml:lang="zh-Hans">院</desc>
+               </trait>
+              <listBibl xml:id="bibl000048za-1"> 
+              <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/ZBKKJWX7"/>
+                  <citedRange unit="pp">12</citedRange>
+               </bibl>
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/GGCVASDV"/>
+                    <citedRange unit="pp">131</citedRange>
+                 </bibl>
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                    <citedRange unit="pp">Vol. 6, 1</citedRange>
+                 </bibl>
+                 <bibl>
+                    <ptr target="https://architecturasinica.org/bibl/EJU6M88F"/>
+                    <citedRange unit="pp">91-92</citedRange>
+                 </bibl>
+               </listBibl>
+            </place>
+         <listRelation>
+               <relation active="https://architecturasinica.org/place/000048za" passive="https://architecturasinica.org/keyword/k000012" ref="dcterms:subject" ana="building-type"/>
+               <relation active="https://architecturasinica.org/place/000048za" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000080" ana="dynasty"/>
+               <relation ana="contained" active="https://architecturasinica.org/place/000048za" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000048"/>
+              <relation ref="foaf:depicts"
+                 active="https://live.staticflickr.com/65535/51532983791_092b54853f_b.jpg"
+                  passive="https://architecturasinica.org/place/000048za" ana="featured"/>
+            </listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

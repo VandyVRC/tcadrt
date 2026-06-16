@@ -61,9 +61,9 @@
                <placeName xml:id="name000100-4" type="site-name" xml:lang="zh-Hant">小張村碧雲寺</placeName>
                <placeName xml:id="name000100-5" type="site-name" xml:lang="zh-Hans">小张村碧云寺</placeName>
                <idno type="URI">https://architecturasinica.org/place/000100</idno>
-               <state type="existence" subtype="dynasty" source="#bibl000100-1" from="0907-01-01" to="0960-01-01">
+               <state type="existence" subtype="dynasty" source="#bibl000100-1" from="0907-01-01" to="1127-01-01">
                   <label>Dynasty</label>
-                  <desc>Five Dynasties 907 - 960</desc>
+                  <desc>Five Dynasties - Northern Song 907 - 1127</desc>
                </state>
                <note type="External Links">
                   
@@ -109,8 +109,8 @@
             </place>
             <listRelation>
                <relation active="https://architecturasinica.org/place/000100" passive="https://architecturasinica.org/keyword/k000052" ref="dcterms:subject" ana="site-type"/>
-               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="" ana="dynasty"/>
-               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000026" ana="dynasty"/>
+               <relation active="https://architecturasinica.org/place/000100" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000055" ana="dynasty"/>
             </listRelation>
          </listPlace>
       </body>

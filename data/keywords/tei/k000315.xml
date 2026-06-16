@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/draft-data/master/data/archSinica/odd4archSinicaTaxonomy/out/odd4ArchSinicaTaxonomy.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns = "http://www.tei-c.org/ns/1.0" xmlns:xd = "http://www.oxygenxml.com/ns/doc/xsl" xmlns:tei = "http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="zh-latn-pinyin">
+                    <foreign xml:lang="zh-Hant">分</foreign> fen
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <editor role="associate" xml:id="ZJ">ZHUGE Jing 諸葛净</editor>
+                <editor role="content-author" ref="#ZJ"> </editor>
+                <respStmt>
+                    <resp>Page created by</resp>
+                    <name type="person" xml:id="JAH">Joseph Hanauer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Initial research and revision by</resp>
+                    <name type="person" ref="#ZJ"> </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Peer review by</resp>
+                    <name type="team">ATTCAT 2025</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Data entry, proofreading, and revision by</resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English proofreading by</resp>
+                    <name type="person" xml:id="AC">Aurelia Campbell</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Chinese proofreading by</resp>
+                    <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/keyword/k000315/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2026-06-10</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-latn-pinyin-nt">Pinyin without tones</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" when="2026-06-10">CREATED: record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entryFree xml:id="k000315" type="architectural feature">
+                <term xml:id="term-k000315-1" xml:lang="zh-latn-pinyin-nt"  type="ATTCAT preferred">fen</term>
+                <term xml:id="term-k000315-2" xml:lang="zh-Hant">分</term>
+                <term xml:id="term-k000315-3" xml:lang="zh-Hans">分</term>
+                <term xml:id="term-k000315-4" xml:lang="zh-latn-pinyin">fēn</term>
+                <term xml:id="term-k000315-5" xml:lang="zh-latn-wadegile">fen</term>
+                <term xml:id="term-k000315-6" xml:lang="en" source="#biblk000315-1">1. divide, separate; split, divert; e.g. ～合 fēnhé, divide and join; ～別 fēnbié, to separate and part from one another; (Budd.) ～段之鄉 fēnduànzhixiāng, realm of transmigration; ～頭 fēntóu, separately, severally.
+                    a. differentiate, distinguish, discriminate, demarcate; e.g. ～別 fēnbié, differentiate, analyze; also (Budd.), conceptualization, the application of thought-categories and names to the real, the imputed aspect of experience; also, explain, show, proclaim; understand, comprehend; (med.) ～張 fēnzhāng, pull apart, distinguish; also, pull away, part from.
+                    b. discern(ible), make out, distinct(ly); reveal(ed); e.g. ～明 fēnmíng, sharp and luminous; distinct and clear; clear-cut and vivid.
+                    2. apportion, allot, parcel out, mete out.
+                    3. equinox, vernal (chunfen 春～) and autumnal (qiufen 秋～).
+                    4. measure-word for one-tenth of various items; e.g. one-tenth of “inch” (cun 寸); one-tenth of “acre” (mu 畝).</term>
+                <idno type="URI">https://architecturasinica.org/keyword/k000315</idno>
+                <note type="Note">
+                    <p xml:lang="en">
+                        Under construction
+                    </p>
+                </note>
+                <bibl xml:id="biblk000315-1">
+                    <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+                </bibl>
+            </entryFree>
+        </body>
+    </text>
+</TEI>
+
+

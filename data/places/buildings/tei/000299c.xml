@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Jingangbaozuo Pagoda <foreign xml:lang="zh-Hant">金剛寶座塔</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                    <principal xml:id="JAH">Joseph Hanauer</principal>
+                    <editor role="content-author" xml:id="JAH">Joseph Hanauer</editor>
+                    <editor role="general" ref="#TGM">Tracy Miller</editor>
+                <respStmt>
+                    <resp>Initial Research: </resp>
+                    <name type="person" ref="#JAH">Joseph Hanauer</name>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000299c/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+                <date>2024-12-01-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#TGM" when="2018-03-21-04:00">CREATED: place record</change>
+            <change n="1.1" who="#TGM" when="2024-10-18-04:00">added images and geolocation</change>
+            <change n="1.2" who="#JAH" when="2024-11-10-04:00">added data</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000299c" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000299c" xml:lang="en">Jingangbaozuo Pagoda</placeName>
+                    <placeName xml:id="name000299c-1" type="building-name" xml:lang="en" source="#bibl000299c-1">Seat of Enlightenment Pagoda</placeName> 
+                    <placeName xml:id="name000299c-2" type="building-name" xml:lang="en" source="#bibl000299c-2">Throne of Enlightenment Pagoda</placeName> 
+                    <placeName xml:id="name000299c-3" type="building-name" xml:lang="en" source="#bibl000299c-3">Diamond Throne Pagoda</placeName> 
+                    <placeName xml:id="name000299c-4" type="building-name" xml:lang="zh-Hant">金剛寶座塔</placeName>
+                    <placeName xml:id="name000299c-5" type="building-name" xml:lang="zh-Hans">金刚宝座塔</placeName>
+                    <placeName xml:id="name000299c-6" type="building-name" xml:lang="zh-latn-pinyin">Jīngāng bǎozuò tǎ</placeName>
+                    <placeName xml:id="name000299c-7" type="building-name" xml:lang="zh-latn-wadegile">ching1ang paotso ta</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000299c</idno>
+                    <state type="existence" from="1473-01-01">
+                        <label>Date</label>
+                        <desc>ca. 1473</desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" from="1473-01-01" to="2024-01-01">
+                        <label>Dynasty</label>
+                        <desc>Founded in the <term ref="/keyword/k000051">Ming</term>, rennovated during the <term ref="/keyword/k000070">Qing</term> and <term ref="/keyword/k000202">People's Republic of China</term> periods.
+                        </desc>
+                    </state>
+                    <desc>
+                        <p type="site-data" source="#bibl000299c-4">
+                            In the center of <term ref="/place/000299">Zhenjue Monastery 真覺寺</term> stands Jingangbaozuo Pagoda 金剛寶座塔, built in the ninth Year of the <term ref="/keyword/k000051">Ming</term> Chenghua reign period, about 1473. The pagoda is located north of the remains of <term ref="/place/000299b">Xinzhu Langyin Hall 心珠朗瑩殿</term>. Jingangbaozuo Pagoda is the only surviving complete extant building within <term ref="/place/000299">Zhenjue Monastery</term>. However, the pagoda likely received renovations in 1751 along with the rest of the site. The pagoda was furter damaged in 1976 in an earthquake but was repaired in 1979. The current layout of the monastery allows for the pagoda to be circumambulated. The pagoda is enterable through the <term ref="/place/000299a">Zhenjue Monastery Arched Entryways</term> on the north and south sides.
+                        </p>
+                        <p type="site-data" source="#bibl000299c-5">
+                            The Jingangbaozuo Pagoda is composed of two distinct horizontal divisions, the bottom square foundation and the structures above the foundation. The bottom foundation of the pagoda is composed of brick with a white stone facade. Its dimensions are 18.6 meters from north to south, 15.73 meters from east to west, and 7.7 meters in height. The foundation is separated into six roughly equal horizontal sections. The bottom section’s motifs resemble the remaining motifs present on the remaining <term ref="/place/000299b">Xinzhu Langyin Hall’s</term> foundation. The bottom of the bottom section includes inscribed Sanskrit writing along with protruding, stone lotus petals. The middle of the bottom section includes carved pillars on each corner interspaced with inscribed images. The top of the bottom section reduplicates the protruding lotus petal motif. The five-remaining horizontal registers are each modeled as multi-bay palatial facades with stone being used to imitate wood. These features imitated in wood include the pillars, <term ref="/keyword/ k000019"> dougong 枓栱</term>, rafters and ceramic rooftiles. Each bay holds a seated figures performing a mudra. Each of these figures is in its own cusped-arch niche. These figures are each separated from the others by slim pillars with a single level of bracketing on the top. This is reduplicated on each side of the foundation.
+                        </p>
+                        <p type="site-data" source="#bibl000299c-6">
+                            The top of the Jingangbaozuo Pagoda’s foundation contains five square pagodas and another hall. Each of the four corners contains an eleven-eave stone pagoda which is seven meters high. Slightly northernly offset from the center of the pagoda contains a taller stone pagoda with thirteen eaves that is eight meters high. The four corner pagodas are crowned with stupa-shaped finials of white stone the finial of the center pagoda is green/blue in color. Directly above the southern entryway is a hall which is slightly shorter than the center pagoda. The hall is a small double-eaves pavilion where the lower eaves sit on a square base and the upper eaves on a circular base. The bracketing of the eaves is intercolumnar. Above the eaves is a <term ref="/keyword/k000188"> cuanjian  攢尖</term> roof that is tiled in green/blue color. In the center of the <term ref="/keyword/k000188"> cuanjian</term> roof is a smaller and shorter circular structure which is green/blue in color. The smaller circular structure is topped with a circular roof which covered in yellow roof tiles. The hall is enterable from the top of the foundation, but the five pagodas are not.
+                        </p>
+                        <p type="site-data" source="#bibl000299c-7">
+                            The name of the Jingangbaozuo Pagoda, when translated with the intentional Buddhist connotations, translates to the Diamond Throne Pagoda, Throne of Enlightenment Pagoda or the Seat of Enlightenment Pagoda. All names refer to the Bodhi tree, where each Buddha, including the most recent Sakyamuni Buddha, achieved enlightenment. Other Jingangbaozuo Pagodas were present in China before <term ref="/place/000299">Zhenjue Monastery</term>’s Seat of Enlightenment Pagoda was constructed, and they continued to be built after its construction. 
+                        </p>
+                    </desc> 
+                    <location type="gps" subtype="preferred">
+                        <geo>39.943607 116.324208</geo>
+                    </location>
+                    <location>location determined using ArcGIS 1 December 2024</location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">Pagoda</desc>
+                        <desc xml:lang="zh-latn-pinyin">Ta</desc>
+                        <desc xml:lang="zh-Hant">塔</desc>
+                        <desc xml:lang="zh-Hans">塔</desc>
+                    </trait>
+                    <listBibl xml:id="bibl000299c-1">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp">"BODH GAYĀ," 49-50</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/2JJM3KWR"/>
+                            <citedRange unit="pp">"Bodhi Tree," 281-282</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-2">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp">"菩提座"</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-3">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp">"BODH GAYĀ," 49-50</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-4">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">256</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp">vol. 4, 3b</citedRange>
+                        </bibl>
+                    </listBibl>
+                    <listBibl xml:id="bibl000299c-5">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                            <citedRange unit="pp">224</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/MHC9Y5KR"/>
+                            <citedRange unit="pp">vol. 4, 3b</citedRange>
+                        </bibl>
+                    </listBibl> 
+                    <listBibl xml:id="bibl000299c-6">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/WKJQ59MQ"/>
+                            <citedRange unit="pp">256</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/UQ9MMRTT"/>
+                            <citedRange unit="pp">224</citedRange>
+                        </bibl>
+                    </listBibl> 
+                    <listBibl xml:id="bibl000299c-7">
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp">"菩提座"</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/2JJM3KWR"/>
+                            <citedRange unit="pp">"Bodhi Tree," 281-282</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/QK5AMKHV"/>
+                            <citedRange unit="pp">"BODH GAYĀ," 49-50</citedRange>
+                        </bibl>
+                        <bibl>
+                            <ptr target="https://architecturasinica.org/bibl/6RRQMX6H"/>
+                            <citedRange unit="pp">103</citedRange>
+                        </bibl>
+                    </listBibl> 
+                </place>
+                <listRelation>
+                    <relation active="https://architecturasinica.org/place/000299c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000051" ana="dynasty"/>
+                    <!--  Ming  -->
+                    <relation active="https://architecturasinica.org/place/000299c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <!--  Qing  -->
+                    <relation active="https://architecturasinica.org/place/000299c" ref="dcterms:temporal" passive="https://architecturasinica.org/keyword/k000070" ana="dynasty"/>
+                    <!-- Republican Period -->
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157863985_2c1da86608_b.jpg" passive="https://architecturasinica.org/place/000299c" ana="featured"/>
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157724684_566df0f687_b.jpg" passive="https://architecturasinica.org/place/000299c" ana="featured"/>
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54157695088_11dc31cf95_b.jpg" passive="https://architecturasinica.org/place/000299c" ana="featured"/>
+                    <relation ref="foaf:depicts" active="https://live.staticflickr.com/65535/54203016486_578479f9d5_b.jpg" passive="https://architecturasinica.org/place/000299c" ana="featured"/>
+                    <relation ana="contained" active="https://architecturasinica.org/place/000299c" ref="schema:containedInPlace" passive="https://architecturasinica.org/place/000299"/> 
+                    <relation active="https://architecturasinica.org/place/000299c" passive="https://architecturasinica.org/keyword/k000060" ref="dcterms:subject" ana="architectural-feature"/>  
+                    <relation active="https://architecturasinica.org/place/000299c" passive="https://architecturasinica.org/keyword/k000188" ref="dcterms:subject" ana="architectural-feature"/>  
+                    <relation active="https://architecturasinica.org/place/000299c" passive="https://architecturasinica.org/keyword/k000019" ref="dcterms:subject" ana="architectural-feature"/>
+                </listRelation>
+            </listPlace>
+        </body> 
+    </text>
+</TEI>
+

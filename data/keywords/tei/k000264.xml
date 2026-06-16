@@ -24,6 +24,20 @@
                <resp>Peer review by</resp>
                <name type="team">ATTCAT 2023-2024</name>
             </respStmt>
+            <respStmt>
+               <resp>English proofreading: </resp>
+               <name type="person" xml:id="AC">Aurelia Campbell</name>
+               <name type="person" ref="#TGM">Tracy Miller</name>
+            </respStmt>
+            <respStmt>
+               <resp>Chinese proofreading: </resp>
+               <name type="person" ref="#ZJ">ZHUGE Jing 諸葛净</name>
+               <name type="person" xml:id="ZLL">ZUO Lala 左拉拉</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data entry: </resp>
+               <name type="person" xml:id="FRC">FENG Ruoci 馮若慈</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1.0"/>
@@ -54,7 +68,7 @@
       </profileDesc>
       <revisionDesc>
          <change n="1.0" who="#ZYY" when="2023-06-10-11:20">CREATED: record</change>
-         <change n="1.0" who="#TGM" when="2023-08-21">Update</change>
+         <change n="1.0" who="#TGM" when="2025-05-10">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,12 +77,27 @@
             <term xml:id="term-k000264-1" xml:lang="zh-latn-pinyin-nt">xiang</term>
             <term xml:id="term-k000264-2" xml:lang="zh-Hant">廂</term>
             <term xml:id="term-k000264-3" xml:lang="zh-Hans">厢</term>
-            <term xml:id="term-k000264-4" xml:lang="zh-latn-pinyin">xiāng</term>
+            <term xml:id="term-k000264-4" xml:lang="zh-latn-pinyin" source="#biblk000264-1">xiāng</term>
             <term xml:id="term-k000264-5" xml:lang="zh-latn-wadegile">hsiang</term>
+            <term xml:id="term-k000264-6" xml:lang="en" source="#biblk000264-2" type="literal_translation">wing (lit.)</term>
             <idno type="URI">https://architecturasinica.org/keyword/k000264</idno>
             <note type="Note">
                <p>under construction</p>
             </note>
+            <listBibl xml:id="biblk000264-1">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+            </listBibl>
+            <listBibl xml:id="biblk000264-2">
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/3A79ZQR4"/>
+               </bibl>
+               <bibl>
+                  <ptr target="https://architecturasinica.org/bibl/G3VB5QMD"/>
+                  <citedRange unit="pp">369</citedRange>
+               </bibl>
+            </listBibl>
          </entryFree>
       </body>
    </text>

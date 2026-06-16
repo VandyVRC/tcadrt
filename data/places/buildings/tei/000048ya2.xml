@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:schema="http://schema.org/"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" xml:lang="en">Jin Shrines, Fengshengsi Transition Hall<foreign
+                        xml:lang="zh-Hant">晉祠奉聖寺過殿</foreign>
+                </title>
+                <title level="m">Architectura Sinica</title>
+                <principal xml:id="TGM">Tracy Miller</principal>
+                <editor role="content-author" ref="#TGM">Tracy Miller</editor>
+                <editor role="content-author" xml:id="HJC">Hyunjun Chang</editor>
+                <respStmt>
+                    <resp>Page creation and data development: </resp>
+                    <name type="person" ref="#HJC">Hyunjun Chang</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editing and proof correction: </resp>
+                    <name type="person" ref="#TGM">Tracy Miller</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Architectura Sinica</authority>
+                <idno type="URI">https://architecturasinica.org/place/000048ya2/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                            License.</p>
+                    </licence>
+                </availability>
+                <date>2024-09-18-04:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="zh-latn-pinyin">Pinyin</language>
+                <language ident="zh-Hant">Traditional Chinese</language>
+                <language ident="zh-Hans">Simplified Chinese</language>
+                <language ident="zh-latn-wadegile">Wade-Giles</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0" who="#HJC" when="2024-09-19-04:00">CREATED: place record</change>
+            <change n="1.1" who="#HJC" when="2024-12-02-04:00">editing</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="place-000048ya2" type="schema:LandmarksOrHistoricalBuildings">
+                    <placeName xml:id="name000048ya2-1" xml:lang="en">Transition Hall</placeName>
+                    <placeName xml:id="name000048ya2-2" type="building-name" xml:lang="zh-Hant"
+                        >過殿</placeName>
+                    <placeName xml:id="name000048ya2-3" type="building-name" xml:lang="zh-Hans"
+                        >过殿</placeName>
+                    <placeName xml:id="name000048ya2-4" type="building-name"
+                        xml:lang="zh-latn-pinyin">guòdiàn</placeName>
+                    <placeName xml:id="name000048ya2-5" type="alternate"
+                        subtype="building-name-in-site" xml:lang="en">Jinci Fengsheng Monastery
+                        Transition Hall</placeName>
+                    <placeName xml:id="name000048ya2-6" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hant">晉祠奉聖寺過殿</placeName>
+                    <placeName xml:id="name000048ya2-7" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hans">晋祠奉圣寺过殿</placeName>
+                    <placeName xml:id="name000048ya2-8" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Fèngshèngsì
+                        guòdiàn</placeName>
+                    <placeName xml:id="name000048ya2-9" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-wadegile">Feng-sheng-ssu
+                        kuo-tien</placeName>
+                    <placeName xml:id="name000048ya2-10" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-latn-pinyin">Èrlángmiào
+                        zhōngdiàn</placeName>
+                    <placeName xml:id="name000048ya2-11" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hant">二郎廟中殿</placeName>
+                    <placeName xml:id="name000048ya2-12" type="alternate"
+                        subtype="building-name-in-site" xml:lang="zh-Hans">二郎庙中殿</placeName>
+                    <idno type="URI">https://architecturasinica.org/place/000048ya2</idno>
+                    <state type="existence" from="1280">
+                        <label>Date</label>
+                        <desc>Originally constructed in 1280</desc>
+                    </state>
+                    <state type="existence" subtype="dynasty" from="1271" to="1368">
+                        <label>Dynasty</label>
+                        <desc>
+                            <term ref="/keyword/k000101">Yuan</term> 1271-1368 </desc>
+                    </state>
+                    <desc type="building-data" source="#bibl000048ya2-1"> The Transition Hall
+                        (guodian 过殿) was moved from the Erlang Temple in Fenyang, where it was the
+                        middle hall. The middle hall was originally built in the seventeenth year of
+                        the Yuan Zhiyuan reign period (1280), as indicated by an inscription that
+                        remains under the roof ridge of the building. The hall is designed with an
+                        overhanging gable roof (<term ref="/keyword/k000146">xuanshan 懸山</term>), a
+                        traditional architectural feature where two sloping sides of the roof meet
+                        at a ridge, forming a triangular shape. Here, the gable extends out over the
+                        wall, sheltering the wall surface from precipitation. The hall is three bays
+                        wide with a depth extending four rafters in length. The entire structure
+                        stands at 9.2 meters high. The front eaves extend outward, forming a veranda
+                        supported by sturdy columns. The heads of these columns have a distinct
+                        curvature (juansha 卷殺). Supporting the roof is a sophisticated bracket
+                        system, constructed in four tiers, located beneath the front veranda. The
+                        central bay intercolumnar bracket set (<term ref="/keyword/k000105">bujian
+                            puzuo 補間鋪作</term>) contains angled bracket arms precisely set at a
+                        45-degree angle, providing additional emphasis to the middle section of the
+                        building. Inside the hall, the wooden beams that make up the framework of
+                        the building are left exposed, revealing the structural components of the
+                        architecture. The leveling beams and rafters have been only minimally cut or
+                        shaped in a rough draft-style (<term ref="/keyword/k000183">caojia
+                        草架</term>), an approach characterized by its simplicity. Most of the
+                        building consists of naturally curved timbers, which have been incorporated
+                        into the design without much modification. This method of using wood in its
+                        natural state is typical of the architectural style found in the Yuan
+                        dynasty, particularly in the Shanxi region, where such techniques were
+                        commonly employed in local construction practices. </desc>
+                    <location type="gps" subtype="preferred">
+                        <geo>37.7062049 112.4335077</geo>
+                    </location>
+                    <location>
+                        <note>location determined using ArcGIS 19 November 2024</note>
+                    </location>
+                    <trait type="type" sub-type="building type">
+                        <label>Type</label>
+                        <desc xml:lang="en">monastery (Buddhist)</desc>
+                        <desc xml:lang="zh-latn-pinyin">si</desc>
+                        <desc xml:lang="zh-Hant">寺</desc>
+                        <desc xml:lang="zh-Hans">寺</desc>
+                    </trait>
+                    <bibl xml:id="bibl000048ya2-1">
+                        <ptr target="https://architecturasinica.org/bibl/JNAQ4JGY"/>
+                        <citedRange unit="pp">建筑 vol. 2, 108</citedRange>
+                    </bibl>
+                </place>
+                <listRelation>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000052"
+                        ref="dcterms:subject" ana="building-type"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        ref="dcterms:temporal"
+                        passive="https://architecturasinica.org/keyword/k000082" ana="dynasty"/>
+                    <relation ana="contained"
+                        active="https://architecturasinica.org/place/000048ya2"
+                        ref="schema:containedInPlace"
+                        passive="https://architecturasinica.org/place/000048ya"/>
+                    <relation ana="contained"
+                        active="https://architecturasinica.org/place/000048ya2"
+                        ref="schema:containedInPlace"
+                        passive="https://architecturasinica.org/place/000048"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/53995896479_590aec4964_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/53995820338_3a26209597_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation ref="foaf:depicts"
+                        active="https://live.staticflickr.com/65535/54101776193_76597646c8_h.jpg"
+                        passive="https://architecturasinica.org/place/000048ya2" ana="featured"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000183"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000105"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000146"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                    <relation active="https://architecturasinica.org/place/000048ya2"
+                        passive="https://architecturasinica.org/keyword/k000148"
+                        ref="dcterms:subject" ana="architectural-feature"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
